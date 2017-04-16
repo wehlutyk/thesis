@@ -5,7 +5,9 @@ MEXT := md
 CONTENT := content
 
 ## All markdown files in the working directory
-SRC = $(sort $(wildcard $(CONTENT)/*.$(MEXT)))
+ABSTRACT := abstract.md
+ABSTRACT_SRC := $(CONTENT)/$(ABSTRACT)
+SRC = $(sort $(filter-out $(ABSTRACT_SRC),$(wildcard $(CONTENT)/*.$(MEXT))))
 
 ## Location of Pandoc support files.
 #PREFIX = $(HOME)/.pandoc
@@ -16,13 +18,16 @@ BIB := $(CONTENT)/bibliography.bib
 ## CSL stylesheet (located in the csl folder of the PREFIX directory).
 #CSL = apsa
 
-## Output pdf
-PDF := thesis.pdf
+## Output pdfs
+PDFS := thesis.pdf abstract.pdf
 
-default: $(PDF)
+default: $(PDFS)
 
-$(PDF): $(SRC) $(BIB)
+thesis.pdf: $(SRC) $(BIB)
 	pandoc $(SRC) -o $@ --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex
+
+abstract.pdf: $(ABSTRACT_SRC) $(BIB)
+	pandoc $(ABSTRACT_SRC) -o $@ --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex
 
 .PHONY: watch clean
 
@@ -30,4 +35,4 @@ watch:
 	@inotifywait -r -m -e close_write $(CONTENT) | while read path action file; do echo; echo "$$(date --rfc-3339=seconds): $$action $$file"; make --no-print-directory; done
 
 clean:
-	rm $(PDF)
+	rm $(PDFS)
