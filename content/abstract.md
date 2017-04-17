@@ -74,7 +74,7 @@ Using a corpus of memorable and non-memorable quotes from movie scripts, and a s
 
 The final chapter connects these works to a broader debate in the philosophy of language and the study of language evolution.
 Building on the challenges of semantic analysis and variability that surfaced in the second case-study, I argue that the next step in explaining the short-term evolution of such utterances is to concentrate on the mechanisms that determine their actual meaning in a given situation [as @scott-phillips_pragmatics_2017 has argued for the study of long-term evolution of language itself].
-I present the current approaches for facing that challenge, and replace them in the ongoing debate between representational and enactive approaches to cognition and language.
+I present the current approaches for facing that challenge, and discuss them in the context of the ongoing debate between representational and enactive approaches to cognition and language.
 
 
 # References
