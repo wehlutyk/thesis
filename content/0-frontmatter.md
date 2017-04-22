@@ -2,7 +2,10 @@
 title: My PhD
 numbersections: True
 lang: en-GB
+geometry: margin=1.2in
 mainfont: TeX Gyre Pagella
+link-citations: True
+toc: True
 header-includes:
   - \usepackage[usenames,dvipsnames]{color}
   - \newcommand{\add}[1]{{\color{MidnightBlue}\#~ADD:} {\color{MidnightBlue}#1}}
