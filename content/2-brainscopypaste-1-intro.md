@@ -61,7 +61,7 @@ Finally, we discuss the relevance of these results for the study of cultural evo
 ## Related work
 
 The study of cultural evolution on the part of cognitive science emerged only recently.
-While formal models of cultural transmission appeared with the development of dual inheritance theory [@cavalli-sforza_cultural_1981; @boyd_culture_1985] and have included the notion of cultural attractor since then [@claidiere_role_2007; @claidiere_how_2014], collecting data to test and iterate over such models has been more challenging.
+While formal models of cultural transmission appeared with the development of dual inheritance theory [@cavalli-sforza_cultural_1981;@boyd_culture_1985] and have included the notion of cultural attractor since then [@claidiere_role_2007;@claidiere_how_2014], collecting data to test and iterate over such models has been more challenging.
 The first above-mentioned method consists in rebuilding the history of a given type of representation by compiling anthropological or historical works on the subject [as for instance @morin_how_2013; and @miton_universal_2015, have done].
 A second approach uses cultural evolution experiments in the laboratory, with an array of methods reviewed by @mesoudi_multiple_2008.
 Transmission chains, in particular, have been used extensively to study the evolution of human language [see @tamariz_cultural_2016 for a review].
@@ -83,7 +83,7 @@ In particular, the Deese, Roediger, and McDermott paradigm [introduced by @deese
 This is done by using lists of words produced by free association from the target intrusion word;
 the intruding recall then happens with probability nearly proportional to the average semantic association strength between the intruding word and the words in the list.
 A sizable literature studies this type of task with varying complexities in the design of the lists, a good review of which is given by @zaromb_temporal_2006.
-One notable effect is that the semantic relations between words greatly influence, and correlate to, the order in which words are recalled [@tulving_subjective_1962; @howard_when_2002], and that this reordering of items improves subjects' repeated recalls [@tulving_subjective_1966].
+One notable effect is that the semantic relations between words greatly influence, and correlate to, the order in which words are recalled [@tulving_subjective_1962;@howard_when_2002], and that this reordering of items improves subjects' repeated recalls [@tulving_subjective_1966].
 The frequency and type of intrusions in lists of random words are also influenced by associations created by the presentation of previous lists [@zaromb_temporal_2006].
 Indeed, the question of how such temporal associations (contributing to contextual information retrieval in recall) interact with the prior semantic associations of subjects (contributing to associative information retrieval) is at the core of many of these studies.
 
@@ -98,7 +98,7 @@ As is explained further down however, our data set is shaped the opposite way: a
 If a cognitive bias in the substitution of words manifests itself with simple measures, then it will be worth applying predictive models of the substitution process in further research.
 
 Lexical features, then, are obvious well-studied word measures that can be analyzed in aggregate.
-Indeed word frequency [see @yonelinas_nature_2002 for a review], age-of-acquisition [@zevin_age_2002], number of phonemes [see for instance @rey_phoneme_1998; @nickels_dissociating_2004], and phonological neighborhood density [@garlock_age-of-acquisition_2001] to name a few, all have known effects on word recognition or production.
+Indeed word frequency [see @yonelinas_nature_2002 for a review], age-of-acquisition [@zevin_age_2002], number of phonemes [see for instance @rey_phoneme_1998;@nickels_dissociating_2004], and phonological neighborhood density [@garlock_age-of-acquisition_2001] to name a few, all have known effects on word recognition or production.
 More complex features based on word networks built from free association or phonological data have also been analyzed:
 @nelson_how_2013 for instance, show the importance of clustering coefficient in such a semantic network by studying the role it plays in a variety of recall and recognition tasks (extralist and intralist cuing, single item recognition, and primed free association).
 @chan_network_2010 show that pictures are named faster and with fewer mistakes when they have a lower clustering coefficient in an underlying phonological network.

@@ -61,7 +61,7 @@ Of the 6 false negatives, 4 had less than 5 tokens and would have been excluded 
 We first introduce some lexical measures on words.
 
 * **Word frequency**: the frequency at which words appear in our data set, known to be relevant for both recognition and recall [@gregg_word_1976],
-* **Age of Acquisition**: the average age at which words are learned [obtained from @kuperman_age-of-acquisition_2012], known to have different effects than word frequency [@morrison_roles_1995; @dewhurst_separate_1998],
+* **Age of Acquisition**: the average age at which words are learned [obtained from @kuperman_age-of-acquisition_2012], known to have different effects than word frequency [@morrison_roles_1995;@dewhurst_separate_1998],
 * **Phonological** and **Orthographic Neighborhood Density** [obtained from @marian_clearpond:_2012], also known to be relevant for word production [@garlock_age-of-acquisition_2001],
 * The average **Number of Phonemes** and **Number of Syllables** for all pronunciations of a word [obtained from the Carnegie Mellon University Pronouncing Dictionary, @weide_cmu_1998]^[
   The CMU Pronouncing Dictionary is included in the NTLK package [@bird_natural_2009], the natural language processing toolkit we used for the analysis.
@@ -74,7 +74,7 @@ We also consider grammatical types within quotations by detecting *Part-of-Speec
 \medskip
 
 Aside from these raw features, the systemic dimension of vocabulary [@cornish_systems_2013] has led authors to develop measures based on the full topology of networks built from free association data or phonological similarity.
-Several such measures have been shown to be involved in recall, recognition, and naming tasks [@nelson_how_2013; @chan_network_2010; @griffiths_google_2007].
+Several such measures have been shown to be involved in recall, recognition, and naming tasks [@nelson_how_2013;@chan_network_2010;@griffiths_google_2007].
 
 To compute these features we relied on the free association (FA) norms collected by @nelson_university_2004, which record the words that come to mind when someone is presented with a given cue.
 As @nelson_university_2004 explain, "free association response probabilities index the likelihood that one word can cue another word to come to mind with minimal contextual constraints in effect."
@@ -194,7 +194,7 @@ Conversely, the occurrence of $q''$ on the 20th could be considered as a substit
   }
   \caption{
   {\bf Substitution models.}
-  Substitutions inferred by four models in the situation introduced by Fig.~\ref{fig:substitution-unmodelled}.
+  Substitutions inferred by four models in the situation introduced by Fig. \ref{fig:substitution-unmodelled}.
   Each of these models uses bins spanning 1 day aligned to midnight (see the main text for a complete description of parameters).
   In the top left panel (a), $q$ holds the majority in the first bin and is considered the unique basis for $q'$ in bin 2.
   $q'$ and $q''$ have equal maximum frequency in bin 2 however, so both are sources of substitutions towards bin 3.
@@ -401,7 +401,7 @@ Word frequency, with $\nu_{\phi}$ always significantly above $\nu_{\phi}^0$ and 
 This, in turn, is consistent with the hypothesis that substitution is a recall process, since common words are favored over awkward ones.
 Age of acquisition, Clustering coefficient and Number of letters, on the other hand, exhibit a clear negative bias for the substitution process (except for high clustering values or very high number of letters).
 The three curves are significantly below their respective $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ curves for most start values, which is consistent with the literature on recall:
-words learned earlier, with lower clustering coefficient or with fewer letters are easier to produce than average [@nelson_how_2013; @zevin_age_2002; @baddeley_word_1975].
+words learned earlier, with lower clustering coefficient or with fewer letters are easier to produce than average [@nelson_how_2013;@zevin_age_2002;@baddeley_word_1975].
 All these effects are significant with two-tailed *t*-tests at $p < .05$ (and more often $p < .001$) and were verified across the 16 substitution models.
 
 To make sure our observations are not the product of correlations or interactions, we model the variations of the 6 features as a linear function of the start word's feature values:
