@@ -58,9 +58,7 @@ Then, we describe the data set and detail the various assumptions that were made
 Next, we introduce the measures we built to observe cognitive biases operating in quote transmission.
 Finally, we discuss the relevance of these results for the study of cultural evolution, followed with general guidelines for further work.
 
-
 ## Related work
-\label{sec:related}
 
 The study of cultural evolution on the part of cognitive science emerged only recently.
 While formal models of cultural transmission appeared with the development of dual inheritance theory [@cavalli-sforza_cultural_1981; @boyd_culture_1985] and have included the notion of cultural attractor since then [@claidiere_role_2007; @claidiere_how_2014], collecting data to test and iterate over such models has been more challenging.
