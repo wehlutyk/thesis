@@ -210,6 +210,7 @@
 <node CREATED="1493715024581" ID="ID_501934080" MODIFIED="1493715058969" TEXT="It sets some focus on how the learning environment is something that evolves and is transmitted"/>
 <node CREATED="1493720998924" ID="ID_640101377" MODIFIED="1493721011527" TEXT="It opens to a larger cycle"/>
 </node>
+<node CREATED="1493810980087" ID="ID_1520745108" MODIFIED="1493833977354" TEXT="The DST is not exactly an opposition. It provides an alternative assemblage of the existing results, building a different interpretative synthesis of all the parts"/>
 <node CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1493659865992" TEXT="Teasing apart approaches to meaning"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1493659886390" TEXT="Sharing tools to empower"/>
 </node>
