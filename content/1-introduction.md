@@ -36,19 +36,24 @@ START SENTENCES
 - the study of human is divided into many fields and ontologies
 
 grand goals
-- connect cog and soc, make accounts with the same ontology
+- connect cog and soc, make accounts with the same ontology. That is the problem I fell in love with, and I'm trying to avoid falling in love with a solution.
 
 starting questions
 - does CAT capture cogsoc, or how much
 - is CAT testable/falsifiable
 - does CAT account for some realities
-- does attraction/convergence exist
+- does attraction/convergence exist: do we (and if so how so) transform meaning in a particular fashion given a particular situation, can such effects can be found, can they be somehow generalized
+
+concrete goals
+- make a little advance in one limited area: short utterances
+- point out the flaws there
+- map the options from there on
 
 problems encountered
-- level of description for convergence
-- interpretation and meaning
-- taking context into account
-- from that, the representational fight
+- the question of what information is, i.e. the information dualism of representations
+  - -> level of description for convergence/transformation (can't decide on a principled level)
+  - -> interpretation and meaning
+- taking context & environment into account, which is tackled by RT and Niche Construction, although that may not be enough, as it can maintain the dualism of nature/culture (might follow from the information dualism), even if you believe that it started early in biological evolution
 
 end questions
 - how to turn those philosophical confrontations into empirical questions
