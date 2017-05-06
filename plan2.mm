@@ -4,6 +4,7 @@
 <node COLOR="#ff0000" CREATED="1493671863081" ID="ID_730295271" MODIFIED="1493719478603" POSITION="right" TEXT="Overarching goal">
 <node CREATED="1493733689038" ID="ID_354172035" MODIFIED="1493733915158" TEXT="Contribute tests to CAT as a viable cog-soc synthesis"/>
 <node CREATED="1493733867440" ID="ID_1667893945" MODIFIED="1493735670937" TEXT="Discuss shortcomings of my approach, shortcomings of CAT beyond my approach, and the role of experiments to move forward"/>
+<node CREATED="1494095302434" ID="ID_797024999" MODIFIED="1494095317997" TEXT="Connect cog and soc, and make accounts with the same ontology. That is the problem I fell in love with, and I&apos;m trying to avoid falling in love with a solution."/>
 </node>
 <node CREATED="1493651794390" ID="ID_636762157" MODIFIED="1493651798803" POSITION="right" TEXT="Introduction">
 <node CREATED="1493651847942" ID="ID_476400367" MODIFIED="1493736031900" TEXT="The theme">
@@ -106,7 +107,7 @@
 <node CREATED="1493653721774" ID="ID_283410491" MODIFIED="1493654448011" TEXT="At the outset: empirically test for attractors by focusing on short utterances"/>
 <node CREATED="1494061143106" ID="ID_1104025580" MODIFIED="1494061161167" TEXT="In doing that, there is a tension between">
 <node CREATED="1494061162015" ID="ID_661515579" MODIFIED="1494061204369" TEXT="In-vivo stuff with no forced task (which is ecological), but with a huge complexity and many external factors"/>
-<node CREATED="1494061205901" ID="ID_1876986795" MODIFIED="1494061221899" TEXT="In-vitro stuff whoro you need to deyine a task but can control complexity"/>
+<node CREATED="1494061205901" ID="ID_1876986795" MODIFIED="1494093632586" TEXT="In-vitro stuff where you need to deyine a task but can control complexity"/>
 <node CREATED="1494061225560" ID="ID_374565412" MODIFIED="1494061232086" TEXT="We&apos;re going to try one of each"/>
 </node>
 <node CREATED="1493653730048" ID="ID_1638247989" MODIFIED="1493654497692" TEXT="At the end">
@@ -284,7 +285,7 @@
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
-<node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494060332065" TEXT="What else should be done to operationlise in a long-term project?"/>
+<node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494095753024" TEXT="What else should be done to operationlise in a long-term project? How do we turn these philosophical questions into empirical questions?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1493659886390" TEXT="Sharing tools to empower"/>
 </node>
 </node>
