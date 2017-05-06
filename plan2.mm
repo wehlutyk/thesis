@@ -9,6 +9,7 @@
 <node CREATED="1493651847942" ID="ID_476400367" MODIFIED="1493736031900" TEXT="The theme">
 <node CREATED="1493651858455" ID="ID_1905816666" MODIFIED="1493733796696" TEXT="How I got there: wanting to connect cognitive science and social science"/>
 <node CREATED="1493651874130" ID="ID_100362675" MODIFIED="1493659452557" TEXT="Ultimate goal: not subsuming, first walking the gap, then maybe a synthesis"/>
+<node CREATED="1494060221104" ID="ID_451276310" MODIFIED="1494060252631" TEXT="Concretely, a guiding question will be: to operationalise Sperber, with a 5-10-20 year project, what should we do?"/>
 <node CREATED="1494003803375" ID="ID_1773615393" MODIFIED="1494003821978" TEXT="Now this spans a considerable amount of subjects, and philosophical debates"/>
 </node>
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1493736031905" TEXT="Literature">
@@ -60,6 +61,9 @@
 </node>
 <node CREATED="1468510510941" ID="ID_874854629" MODIFIED="1468510514855" TEXT="Smartphone psychology"/>
 </node>
+<node CREATED="1494061635146" ID="ID_1529219618" MODIFIED="1494061641440" TEXT="Historical text reuse">
+<node CREATED="1494061642559" ID="ID_625942616" MODIFIED="1494061644538" TEXT="Moritz"/>
+</node>
 </node>
 <node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1493736031924" TEXT="Criticisms, parallels, alternatives">
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
@@ -100,6 +104,11 @@
 <node COLOR="#ff0000" CREATED="1493652975329" ID="ID_167583603" MODIFIED="1493721161078" TEXT="Stakes">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493653721774" ID="ID_283410491" MODIFIED="1493654448011" TEXT="At the outset: empirically test for attractors by focusing on short utterances"/>
+<node CREATED="1494061143106" ID="ID_1104025580" MODIFIED="1494061161167" TEXT="In doing that, there is a tension between">
+<node CREATED="1494061162015" ID="ID_661515579" MODIFIED="1494061204369" TEXT="In-vivo stuff with no forced task (which is ecological), but with a huge complexity and many external factors"/>
+<node CREATED="1494061205901" ID="ID_1876986795" MODIFIED="1494061221899" TEXT="In-vitro stuff whoro you need to deyine a task but can control complexity"/>
+<node CREATED="1494061225560" ID="ID_374565412" MODIFIED="1494061232086" TEXT="We&apos;re going to try one of each"/>
+</node>
 <node CREATED="1493653730048" ID="ID_1638247989" MODIFIED="1493654497692" TEXT="At the end">
 <node CREATED="1493654484979" ID="ID_1947565210" MODIFIED="1493670636264" TEXT="Practical demonstration of empirical studies: results, costs incurred, and tools produced"/>
 <node CREATED="1493654502046" ID="ID_509470590" MODIFIED="1493714604441" TEXT="Highlight shortcomings and avenues to move forward"/>
@@ -141,7 +150,19 @@
 <node CREATED="1493669206627" ID="ID_1036336811" MODIFIED="1494003133027" TEXT="Introduction">
 <node CREATED="1493994708787" ID="ID_183196393" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations"/>
 <node CREATED="1494003133013" ID="ID_1953428105" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
-<node CREATED="1493671327434" ID="ID_326009337" MODIFIED="1494003155547" TEXT="We&apos;re going for the evolution of content, not only a contrast"/>
+<node CREATED="1494060733021" ID="ID_354448553" MODIFIED="1494060740693" TEXT="Attraction factors can be">
+<node CREATED="1494060741709" ID="ID_1538202575" MODIFIED="1494060749009" TEXT="psychological / ecological"/>
+<node CREATED="1494060749410" ID="ID_232271554" MODIFIED="1494060753702" TEXT="local / global"/>
+</node>
+<node CREATED="1493671327434" ID="ID_326009337" MODIFIED="1494061976052" TEXT="We&apos;re going for">
+<node CREATED="1494061977375" ID="ID_128839028" MODIFIED="1494061996835" TEXT="The actual evolution of content, not only a contrast"/>
+<node CREATED="1494061969448" ID="ID_1264460033" MODIFIED="1494077811018" TEXT="i.e. a real view of psychological-general factors"/>
+<node CREATED="1494061997991" ID="ID_586943153" MODIFIED="1494062051290" TEXT="We know it&apos;s not an explanation, but if we identify a few effects we can look for the underlying (psychological, task, ecological) causes"/>
+</node>
+<node CREATED="1494061313278" ID="ID_1889881438" MODIFIED="1494061332697" TEXT="Advantages of transmission chains over element-wise analysis">
+<node CREATED="1494061334717" ID="ID_1929379121" MODIFIED="1494061351026" TEXT="First, it&apos;s not the best, it&apos;s just the simplest starting point"/>
+<node CREATED="1494061353866" ID="ID_1756412610" MODIFIED="1494061406668" TEXT="It lets you simulate something of a dynamics, and look at the stability and chaos"/>
+</node>
 <node CREATED="1494003172192" ID="ID_740197832" MODIFIED="1494003187758" TEXT="And we build a tool that allows systematizing the study of sources"/>
 </node>
 <node CREATED="1493671341904" ID="ID_318906586" MODIFIED="1493671788385" TEXT="With several levels of questions">
@@ -152,10 +173,22 @@
 <node CREATED="1493671793153" ID="ID_803300195" MODIFIED="1493671796164" TEXT="Variability"/>
 </node>
 </node>
-<node CREATED="1493669606965" ID="ID_1361068873" MODIFIED="1493669609294" TEXT="Related Work"/>
+<node CREATED="1493669606965" ID="ID_1361068873" MODIFIED="1493669609294" TEXT="Related Work">
+<node CREATED="1494060591330" ID="ID_513173866" MODIFIED="1494060595629" TEXT="Bartlett"/>
+<node CREATED="1494060596364" ID="ID_1228823279" MODIFIED="1494060597539" TEXT="Nettle"/>
+<node CREATED="1494060598394" ID="ID_90717037" MODIFIED="1494060602755" TEXT="Bebbington"/>
+<node CREATED="1494060606168" ID="ID_246523193" MODIFIED="1494060612282" TEXT="Mesoudi &amp; Whiten"/>
+<node CREATED="1494060613064" ID="ID_243906085" MODIFIED="1494060617675" TEXT="Kirby &amp; Tamariz"/>
+<node CREATED="1494060634992" ID="ID_1961055834" MODIFIED="1494060636358" TEXT="Acerbi"/>
+<node CREATED="1494060643996" ID="ID_1327990919" MODIFIED="1494060653373" TEXT="Claidi&#xe8;re"/>
+<node COLOR="#ff0000" CREATED="1494061799755" ID="ID_19165539" MODIFIED="1494061809827" TEXT="More ..."/>
+</node>
 <node CREATED="1493669627078" ID="ID_1867332189" MODIFIED="1493736031935" TEXT="General Methods">
 <node CREATED="1493669232382" ID="ID_1471337441" MODIFIED="1493669644648" TEXT="Experiment design principles"/>
 <node CREATED="1493669236975" ID="ID_1560804079" MODIFIED="1493669522736" TEXT="Trials and errors in the design"/>
+<node CREATED="1494061818295" ID="ID_1898411290" MODIFIED="1494061824653" TEXT="Spam-coding and elimination">
+<node CREATED="1494061826123" ID="ID_23447044" MODIFIED="1494061844139" TEXT="And how non-context makes some sentences ambiguous on spam"/>
+</node>
 <node CREATED="1494010206624" ID="ID_337210238" MODIFIED="1494010212719" TEXT="Engineering methods"/>
 </node>
 <node COLOR="#006699" CREATED="1493670260486" ID="ID_1835673601" MODIFIED="1493735454925" TEXT="Elements to fit in">
@@ -251,6 +284,7 @@
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
+<node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494060332065" TEXT="What else should be done to operationlise in a long-term project?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1493659886390" TEXT="Sharing tools to empower"/>
 </node>
 </node>
