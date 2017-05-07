@@ -95,7 +95,7 @@
 <node CREATED="1494005942225" ID="ID_983692105" MODIFIED="1494005973744" TEXT="The multi-scale nature of things on which selection can act (Richerson)"/>
 <node CREATED="1493653044924" ID="ID_1768318567" MODIFIED="1493653620224" TEXT="Context &amp; Niche construction">
 <node CREATED="1493997011824" ID="ID_1773507201" MODIFIED="1493999540987" TEXT="Sterelny, Fuentes, Wimsatt, see it as central"/>
-<node CREATED="1493997028487" ID="ID_188911941" MODIFIED="1493997528960" TEXT="Mesoudi et al. 2006 also agree, and this is a step towards DST"/>
+<node CREATED="1493997028487" ID="ID_188911941" MODIFIED="1494108248233" TEXT="Mesoudi et al. 2006, and Feldman, also agree, and this is a commonality with DST"/>
 </node>
 <node CREATED="1493996316891" ID="ID_1483460430" MODIFIED="1493996323146" TEXT="Time, dynamicity"/>
 <node CREATED="1493995487608" ID="ID_1714015204" MODIFIED="1493995975869" TEXT="What are cultural traits, what is a representation">
@@ -275,7 +275,7 @@
 </node>
 <node COLOR="#ff0000" CREATED="1493659820803" ID="ID_1253220005" MODIFIED="1494009646976" TEXT="Moving forward">
 <node CREATED="1494009634638" ID="ID_1005490425" MODIFIED="1494009643792" TEXT="For long-term evolution">
-<node CREATED="1493712218022" ID="ID_866917372" MODIFIED="1493712225971" TEXT="Niche contstruction is a first bridge">
+<node CREATED="1493712218022" ID="ID_866917372" MODIFIED="1494108278868" TEXT="Niche contstruction is part oy the bridge, and an existing focus of DIT">
 <node CREATED="1493715024581" ID="ID_501934080" MODIFIED="1493715058969" TEXT="It sets some focus on how the learning environment is something that evolves and is transmitted"/>
 <node CREATED="1493720998924" ID="ID_640101377" MODIFIED="1493721011527" TEXT="It opens to a larger cycle"/>
 </node>

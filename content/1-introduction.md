@@ -44,14 +44,14 @@ LOCATE
 - what are life and cognition, what are nature and culture, what is it to be human, how to describe and make the best "carving of joints" to explain the emergence, complexity, and evolution of life
 - naturally there are dozens of disciplines involved, as there are dozens of facets that have been divided into as many areas
 - for decades, people have tried to bring back the facets together, either as facets, or as levels of explanation
-- recently several challengers have risen in several fields: cognitive science is at a crossroads, evolutionary biology also
+- recently new generations have developed in several fields: cognitive science is at a crossroads, evolutionary biology also
 - cultural evolution, which aims to bridge the two, is burgeoning, strengthening cognitive anthropology as the synthesis
 - at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
 - in that space, cognitive anthropology currently is the dominant approach to bringing all the facets together
 - it has a number of variants, of which DIT and CAT, which seem to agree on the philosophical framing of things, but have open debates and differing focuses
 - it also has stark critiques
 
-- the particular question here is: observe actual phenomena, explain them. From there, what are the ways of accounting for all these phenomena in a unique framework, i.e. with a small number of guiding principles, that will give intelligibility at high level, and guide further questions. What are the differences between the various approaches, and which approaches are viable.
+- the particular question here is: observe actual phenomena, explain them. From there, what are the ways of accounting for all these phenomena in a unique framework, i.e. with a small number of guiding principles, that will give intelligibility at high level, and guide further questions. What are the differences between the various approaches, and which approaches are viable. Oyama 2001: "We believe that the heuristic value of the idea of developmental information in certain contexts is more than outweighed by its misleading connotations"
 
 - How could there be any problems, and how is this a real question, since it's all a matter of empiricism? How is this a scientific question? Well it's a question at the level of scientific programmes
 - First, the breadth of things you can look at is such that a theory will let you define what things are worth looking at. It also makes some cases more natural to explain than others. So a first question is, how much of the phenomena does it capture easily.
