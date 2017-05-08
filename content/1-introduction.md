@@ -1,19 +1,14 @@
 # Introduction
 
-Life in its extraordinary complexity, and human life in particular, is studied through myriad approaches and viewpoints, both theoretical and empirical.
-Given the multiplicity of situations and phenomena to describe and analyse, it is no surprise that explanatory programmes are diversified and spread into biology, anthropology, psychology, sociology, linguistics, and philosophy.
-But such diversity also begs the question of how to bring together programmes which sometimes seem to be talking past one another, despite studying the same core object: the human being.
+Current scientific knowledge describes the extraordinary complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
+Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
+But a strong diversity also begs the question of how we are to bring together programmes which, at times, seem to be talking past one another despite aiming to describe the same core object: humanity and its components.
 Do different programmes always correspond to different explanatory levels?
-Should they rather be combined together as interlocking aspects of the same unique level?
+Should we rather combine them together as interlocking aspects of the same unique level?
 Which of those are irreconcilable perspectives on life because of incompatible ontologies or world views?
 These questions have interested a great number of researchers throughout the 20th century and up to now.
-Indeed, if we aim to carve life at its joints, the way we combine diverse theoretical and empirical programmes should reflect the resulting muscles and bones.
-
-<!--
-what are life and cognition, what are nature and culture, what is it to be human, how to describe and make the best "carving of joints" to explain the emergence, complexity, and evolution of life
--->
-
-\todo{Good start up to here, but make it a bit more concrete}
+Indeed, if we aim to carve life at its joints, the way we combine diverse theoretical and empirical programmes will reflect the resulting bones and muscles.
+In other words, designing an assemblage of disciplines goes hand in hand with a view of what it means to be human, of what nature and culture correspond to, and of how we can best describe the emergence, complexity, and evolution of human life through time.
 
 
 
@@ -35,7 +30,7 @@ what are life and cognition, what are nature and culture, what is it to be human
 
 LOCATE
 
-More recently, two paradigm shifts have started
+Over the last 40 years, at least two paradigm shifts have started
 
 
 
