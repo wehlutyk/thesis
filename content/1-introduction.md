@@ -1,49 +1,57 @@
 # Introduction
 
+Life in its extraordinary complexity, and human life in particular, is studied through myriad approaches and viewpoints, both theoretical and empirical.
+Given the multiplicity of situations and phenomena to describe and analyse, it is no surprise that explanatory programmes are diversified and spread into biology, anthropology, psychology, sociology, linguistics, and philosophy.
+But such diversity also begs the question of how to bring together programmes which sometimes seem to be talking past one another, despite studying the same core object: the human being.
+Do different programmes always correspond to different explanatory levels?
+Should they rather be combined together as interlocking aspects of the same unique level?
+Which of those are irreconcilable perspectives on life because of incompatible ontologies or world views?
+These questions have interested a great number of researchers throughout the 20th century and up to now.
+Indeed, if we aim to carve life at its joints, the way we combine diverse theoretical and empirical programmes should reflect the resulting muscles and bones.
+
 <!--
-## Old Outline
-
-People attempt to unify cognitive science and the social sciences under the same theoretical umbrella.
-Potential umbrellas are:
-
-* CAT
-* Copy-based cultural evolution
-* Ingold's developmental systems theory-based approach
-
-Empirical approaches to test these, for now, fall into three main approaches:
-
-* Experimental transmission chains on simple content
-* Compilation of historical works or data
-* Social network data analysis
-
-Each has its problems:
-
-* Transmission chains are on excessively simple content
-* Historical compilations miss the variety of situations (lose detail), and are hard-put to distinguish explanations
-* Social network analysis doesn't look at cognitive factors
-
-I suggest that, by combining the advantages of those approaches, and using current technology:
-
-* We can test new questions
-* Questions that were theoretical or unknown emerge as unavoidable
-
-I aim to contribute two detailed case-studies to 1) show this, 2) bring a couple new results, 3) discuss the relevance of CAT for cultural evolution.
+what are life and cognition, what are nature and culture, what is it to be human, how to describe and make the best "carving of joints" to explain the emergence, complexity, and evolution of life
 -->
 
+\todo{Good start up to here, but make it a bit more concrete}
 
-START SENTENCES
 
-- reciprocal influences of cog and soc have a long history (in sociology and anthropology, today in cogsci)
-- cultural evolution is a real battlefield nowadays
-- the study of human is divided into many fields and ontologies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 LOCATE
 
-- study of life is a never-ending explosion, with competing visions and changing views
-- what are life and cognition, what are nature and culture, what is it to be human, how to describe and make the best "carving of joints" to explain the emergence, complexity, and evolution of life
-- naturally there are dozens of disciplines involved, as there are dozens of facets that have been divided into as many areas
-- for decades, people have tried to bring back the facets together, either as facets, or as levels of explanation
+More recently, two paradigm shifts have started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - recently new generations have developed in several fields: cognitive science is at a crossroads, evolutionary biology also
 - cultural evolution, which aims to bridge the two, is burgeoning, strengthening cognitive anthropology as the synthesis
 - at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
@@ -78,16 +86,21 @@ FOCUS
 
 ARGUE/EXPAND
 
+- up to now, empirical approaches fall into three categories: experimental transmission chains on simple content, compilation of historical works or data, social network data analysis
+- each has its problems: transmission chains are on excessively simple content, historical compilations miss the variety of situations (lose detail) and are hard-put to distinguish explanations, social network analysis doesn't look at cognitive factors
+
 - my focus will be on short utterances, bringing case studies of two types, one of each
 - in-vivo, where there is huge complexity, but it's ecological
 - in-vitro, where one can control the complexity a little, but you have to set a task and anything you do is subject to that choice
 - I choose this for two main reasons: first, the availability of data, or relative ease in collecting it (though we'll discuss that). Second, language is at the core of the criticisms on CAT, so it's a good way to go to tease approaches apart.
 - discuss the usefulness of those cases for CAT (and vice versa): does it help capture and account for the phenomena? And above all, do we observe attraction/convergence in these case studies? If not why not? Do we transform meaning in a particular fashion given a particular situation, and if such effects are observed can they be somehow generalised?
-- show how developing these experiments helps show the pain-points and problems in CAT. Notably:
-  - the question of what information is, i.e. the information dualism of representations
-    - -> level of description for convergence/transformation (can't decide on a principled level)
-    - -> interpretation and meaning
-  - taking context & environment into account, which is tackled by RT and Niche Construction, although that may not be enough, as it can maintain the dualism of nature/culture (might follow from the information dualism), even if you believe that it started early in biological evolution
+- show how developing these experiments helps:
+  - (1) formulate existing questions in more detail, and possibly ask new questions: convergence becomes a concrete question with real measures in these experiments, obstacles to or inappropriateness of convergence can become evident also
+  - (2) show the pain-points and problems in CAT. Notably:
+    - the question of what information is, i.e. the information dualism of representations
+      - -> level of description for convergence/transformation (can't decide on a principled level)
+      - -> interpretation and meaning
+    - taking context & environment into account, which is tackled by RT and Niche Construction, although that may not be enough, as it can maintain the dualism of nature/culture (might follow from the information dualism), even if you believe that it started early in biological evolution
 
 
 OUTLINE
