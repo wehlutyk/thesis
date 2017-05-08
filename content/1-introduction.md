@@ -2,35 +2,25 @@
 
 Current scientific knowledge describes the extraordinary complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
 Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
-But a strong diversity also begs the question of how we are to bring together programmes which, at times, seem to be talking past one another despite aiming to describe the same core object: humanity and its components.
-Do different programmes always correspond to different explanatory levels?
-Should we rather combine them together as interlocking aspects of the same unique level?
-Which of those are irreconcilable perspectives on life because of incompatible ontologies or world views?
+But a strong diversity also begs for questions: how can we bring together programmes which, at times, seem to talk past one another in spite of taking humanity as the same core object?
+Do different programmes always correspond to different explanatory levels, or should we rather combine them as interlocking aspects of the same unique level?
+Which of those programmes build on incompatible ontologies or world views, making their perspectives on life irreconcilable?
 These questions have interested a great number of researchers throughout the 20th century and up to now.
-Indeed, if we aim to carve life at its joints, the way we combine diverse theoretical and empirical programmes will reflect the resulting bones and muscles.
-In other words, designing an assemblage of disciplines goes hand in hand with a view of what it means to be human, of what nature and culture correspond to, and of how we can best describe the emergence, complexity, and evolution of human life through time.
+Indeed, if we aim to carve life at its joints, the way we combine the diverse theoretical and empirical programmes that describe it will constrain the resulting bones and muscles carved out.
+In other words, choosing an assembly of fields goes hand in hand with a view of what it means to be human, of what exactly nature and culture correspond to, and of how we can best approach the emergence, complexity, and evolution of human life through time.
 
+\todo{Not bad, but maybe needs to give an early hint of what I'll do, which is not that broad. Remember to start easy (but rich) before going to more complex things.}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--
+These questions guide the works gathered in the present thesis.
+With it I aim to contribute, however modestly, to the development of an integral and open science of life and mind.
+-->
 
 LOCATE
 
-Over the last 40 years, at least two paradigm shifts have started
+Over the last 40 years the field of cognitive anthropology, alongside with the approach to cultural evolution it suggests, has emerged as the strongest view of how science could combine the findings of anthropology, cognitive science, and biology.
+This approach, now "a booming cottage industry on the borders of evolutionary biology, archaeology, and biological anthropology" [following @sterelny_cultural_2017, and the labels he suggests], has two central traditions: the Californian, initiated by parallel works of @cavalli-sforza_cultural_1981 and @boyd_culture_1985, and the Parisian, federated around the seminal work of @sperber_explaining_1996.
+The two traditions agree on the combination of fields they defend:
 
 
 
@@ -47,12 +37,38 @@ Over the last 40 years, at least two paradigm shifts have started
 
 
 
-- recently new generations have developed in several fields: cognitive science is at a crossroads, evolutionary biology also
-- cultural evolution, which aims to bridge the two, is burgeoning, strengthening cognitive anthropology as the synthesis
-- at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
-- in that space, cognitive anthropology currently is the dominant approach to bringing all the facets together
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - it has a number of variants, of which DIT and CAT, which seem to agree on the philosophical framing of things, but have open debates and differing focuses
 - it also has stark critiques
+
+
+
+
+- at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
+
+- recently new generations have developed in several fields: cognitive science is at a crossroads, evolutionary biology also. 4E / DST / Eco-evo-devo
 
 - the particular question here is: observe actual phenomena, explain them. From there, what are the ways of accounting for all these phenomena in a unique framework, i.e. with a small number of guiding principles, that will give intelligibility at high level, and guide further questions. What are the differences between the various approaches, and which approaches are viable. Oyama 2001: "We believe that the heuristic value of the idea of developmental information in certain contexts is more than outweighed by its misleading connotations"
 
@@ -76,7 +92,7 @@ FOCUS
 - as can be understood by the recent name change, it's not clear that representations are the focus (e.g. distance when talking, or even the Claidière & Sperber 2007 example of smoking). I believe the central intuition was that psychology, in the form of at-the-time-emerging cognitive science, has a rich part to play in any synthesis, and is a core ingredient in the appearance of attractors.
 - indeed, that is what is emphasised in debates with DIT
 - also, it is not an explanatory theory in the sense of quantum physics (as it's not a GUT): Sperber reminds us that finding an attractor is only a cue to looking for its underlying causes. Instead it's a way of thinking at a high level, like a philosophy maybe
-- so in a way, it can't be proved or disproved. But it can be more or less fruitful in generating situations and ideas, and providing a global assemblage of facts
+- so in a way, it can't be proved or disproved. But it can be more or less fruitful in generating situations and ideas, and providing a global assembly of facts
 
 
 ARGUE/EXPAND
