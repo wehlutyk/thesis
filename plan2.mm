@@ -16,11 +16,11 @@
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1493736031905" TEXT="Literature">
 <node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1493736031910" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1468501141979" TEXT="Psychology: Lewis, Kroeber, Gibson"/>
+<node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
-<node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1468508471692" TEXT="Sociology and Anthropology: Durkheim, Mauss, Simmel, Garfinkel, Geertz, Bourdieu, Giddens"/>
+<node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494335815115" TEXT="Sociology and Anthropology: Durkheim, Mauss, Simmel, Garfinkel, Geertz, Bourdieu, Giddens, Kroeber"/>
 </node>
 <node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1493736031913" TEXT="Classical Cultural Evolution">
@@ -73,6 +73,7 @@
 <node CREATED="1493652664961" ID="ID_1001260418" MODIFIED="1493652666677" TEXT="Sinha"/>
 <node CREATED="1493652667142" ID="ID_1805536813" MODIFIED="1493652669293" TEXT="Donald"/>
 <node CREATED="1468501919206" ID="ID_1149253302" MODIFIED="1468501920529" TEXT="Briggs"/>
+<node CREATED="1494333576332" ID="ID_1301629940" MODIFIED="1494335768969" TEXT="/"/>
 </node>
 <node CREATED="1468501749770" ID="ID_916482541" MODIFIED="1493736031927" TEXT="4E / Enactive">
 <node CREATED="1468501783892" ID="ID_98150479" MODIFIED="1468502049140" TEXT="Di Paolo, De Jaegher &amp; Cuffari"/>
@@ -285,6 +286,7 @@
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
+<node CREATED="1494337382908" ID="ID_1162664349" MODIFIED="1494337456584" TEXT="See Gibson&apos;s remark on headrest opening the experimental study of vision, but not being all of it (The Ecological Approach..., 1979: xv)"/>
 <node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494095753024" TEXT="What else should be done to operationlise in a long-term project? How do we turn these philosophical questions into empirical questions?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1493659886390" TEXT="Sharing tools to empower"/>
 </node>
