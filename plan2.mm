@@ -16,11 +16,11 @@
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1493736031905" TEXT="Literature">
 <node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1493736031910" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 <node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494335815115" TEXT="Sociology and Anthropology: Durkheim, Mauss, Simmel, Garfinkel, Geertz, Bourdieu, Giddens, Kroeber"/>
+<node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
 </node>
 <node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1493736031913" TEXT="Classical Cultural Evolution">
