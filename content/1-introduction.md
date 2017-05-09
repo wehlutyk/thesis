@@ -1,5 +1,7 @@
 # Introduction
 
+\todo{This might be too high-level, so make it more focused}
+
 Current scientific knowledge describes the extraordinary complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
 Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
 But a strong diversity also begs for questions: how can we bring together programmes which, at times, seem to talk past one another in spite of taking humanity as the same core object?
@@ -20,51 +22,11 @@ LOCATE
 
 Over the last 40 years the field of cognitive anthropology, alongside with the approach to cultural evolution it suggests, has emerged as the strongest view of how science could combine the findings of anthropology, cognitive science, and biology.
 This approach, now "a booming cottage industry on the borders of evolutionary biology, archaeology, and biological anthropology" [following @sterelny_cultural_2017, and the labels he suggests], has two central traditions: the Californian, initiated by parallel works of @cavalli-sforza_cultural_1981 and @boyd_culture_1985, and the Parisian, federated around the seminal work of @sperber_explaining_1996.
-The two traditions agree on the combination of fields they defend:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The two traditions agree on the combination of fields they defend.
 
 
 - it has a number of variants, of which DIT and CAT, which seem to agree on the philosophical framing of things, but have open debates and differing focuses
 - it also has stark critiques
-
-
-
 
 - at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
 

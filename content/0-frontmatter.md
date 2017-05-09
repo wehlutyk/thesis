@@ -1,5 +1,23 @@
 ---
-title: My PhD
+title: |
+  \large PhD Dissertation \
+  \LARGE Epidemiology of Representations:\
+  An Empirical Approach\
+  \large ---original title may change---
+author: |
+  Sébastien Lerique^[
+    Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
+    Email: \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+  ] \
+  \hfill \
+  Advisor: Jean-Pierre Nadal^[
+    CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
+    Email: \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+  ] \
+  Co-advisor: Camille Roth^[
+    CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po, médialab (Paris).
+    Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
+  ]
 documentclass: book
 numbersections: True
 lang: en-GB
