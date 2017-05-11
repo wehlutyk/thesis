@@ -14,13 +14,17 @@
 <node CREATED="1494003803375" ID="ID_1773615393" MODIFIED="1494003821978" TEXT="Now this spans a considerable amount of subjects, and philosophical debates"/>
 </node>
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1493736031905" TEXT="Literature">
-<node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1493736031910" TEXT="Cog + Soc in the 20th">
+<node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1494362635518" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 <node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494335815115" TEXT="Sociology and Anthropology: Durkheim, Mauss, Simmel, Garfinkel, Geertz, Bourdieu, Giddens, Kroeber"/>
 <node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
+<node CREATED="1494362635504" ID="ID_410882511" MODIFIED="1494362641054" TEXT="Darwinism">
+<node CREATED="1494362576395" ID="ID_1877712642" MODIFIED="1494362593550" TEXT="Plotkin 1994 makes a history of universal darwinism"/>
+<node CREATED="1494362643471" ID="ID_853275851" MODIFIED="1494362670647" TEXT="Murdock 1956 is the first application of UD to culture"/>
+</node>
 </node>
 <node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1493736031913" TEXT="Classical Cultural Evolution">
@@ -56,6 +60,10 @@
 <node CREATED="1468508476236" ID="ID_1217369841" MODIFIED="1468508477258" TEXT="E. Morin"/>
 <node CREATED="1468508478948" ID="ID_1000231616" MODIFIED="1468508482940" TEXT="Santa Fe people"/>
 </node>
+<node CREATED="1494364462760" ID="ID_1278146178" MODIFIED="1494364489023" TEXT="Niche construction">
+<node CREATED="1494364468940" ID="ID_532520606" MODIFIED="1494364473875" TEXT="Sterelny"/>
+<node CREATED="1494364474315" ID="ID_999656092" MODIFIED="1494364476370" TEXT="Laland"/>
+</node>
 <node CREATED="1493653687097" ID="ID_211664543" MODIFIED="1493714498697" TEXT="Literature we&apos;ll see later">
 <node CREATED="1493653308795" ID="ID_459860988" MODIFIED="1493653704861" TEXT="Psycholinguistics">
 <font NAME="SansSerif" SIZE="12"/>
@@ -73,7 +81,6 @@
 <node CREATED="1493652664961" ID="ID_1001260418" MODIFIED="1493652666677" TEXT="Sinha"/>
 <node CREATED="1493652667142" ID="ID_1805536813" MODIFIED="1493652669293" TEXT="Donald"/>
 <node CREATED="1468501919206" ID="ID_1149253302" MODIFIED="1468501920529" TEXT="Briggs"/>
-<node CREATED="1494333576332" ID="ID_1301629940" MODIFIED="1494335768969" TEXT="/"/>
 </node>
 <node CREATED="1468501749770" ID="ID_916482541" MODIFIED="1493736031927" TEXT="4E / Enactive">
 <node CREATED="1468501783892" ID="ID_98150479" MODIFIED="1468502049140" TEXT="Di Paolo, De Jaegher &amp; Cuffari"/>
@@ -267,7 +274,7 @@
 <node CREATED="1493712013029" ID="ID_1960379021" MODIFIED="1493712122191" TEXT="I want to leave aside, because it&apos;s based on formal semantics, and I don&apos;t see how it will be able to explain fuzzy things like poetry"/>
 <node COLOR="#ff0000" CREATED="1493709727697" ID="ID_395537700" MODIFIED="1493711861374" TEXT="Not entirely satisfying. Should I discuss in depth?"/>
 </node>
-<node CREATED="1494005539674" ID="ID_1997099142" MODIFIED="1494005567338" TEXT="Niche construction for global life cycle"/>
+<node CREATED="1494005539674" ID="ID_1997099142" MODIFIED="1494364543560" TEXT="Niche construction / DST for global life cycle"/>
 </node>
 <node CREATED="1493575936461" ID="ID_1756103174" MODIFIED="1493736031953" TEXT="Content problem is a philosophical debate (Millikan etc.), but also seen as an &quot;Information Dualism&quot; by critics of CAT itself">
 <node CREATED="1493656191241" ID="ID_1194521248" MODIFIED="1493720901946" TEXT="Social Anthropology (Ingold, Sinha, Donald, Toren)"/>
@@ -276,11 +283,11 @@
 </node>
 <node COLOR="#ff0000" CREATED="1493659820803" ID="ID_1253220005" MODIFIED="1494009646976" TEXT="Moving forward">
 <node CREATED="1494009634638" ID="ID_1005490425" MODIFIED="1494009643792" TEXT="For long-term evolution">
-<node CREATED="1493712218022" ID="ID_866917372" MODIFIED="1494108278868" TEXT="Niche contstruction is part oy the bridge, and an existing focus of DIT">
+<node CREATED="1493712218022" ID="ID_866917372" MODIFIED="1494364643920" TEXT="Niche contstruction is part of the bridge, and an existing focus of DIT">
 <node CREATED="1493715024581" ID="ID_501934080" MODIFIED="1493715058969" TEXT="It sets some focus on how the learning environment is something that evolves and is transmitted"/>
 <node CREATED="1493720998924" ID="ID_640101377" MODIFIED="1493721011527" TEXT="It opens to a larger cycle"/>
 </node>
-<node CREATED="1493810980087" ID="ID_1520745108" MODIFIED="1493833977354" TEXT="The DST is not exactly an opposition. It provides an alternative assemblage of the existing results, building a different interpretative synthesis of all the parts"/>
+<node CREATED="1493810980087" ID="ID_1520745108" MODIFIED="1494364798136" TEXT="The DST is not exactly an opposition. It provides an alternative assemblage of the existing results, building a different interpretative synthesis of all the parts. Note in SET/Niche construction, Representations/SM (so probably also Representations/Enactive), orthodoxes agree with the facts, and that they&apos;re important, but not that they are sufficient (for SM) or need a new theory (for NC)"/>
 </node>
 <node CREATED="1494009646969" ID="ID_586055553" MODIFIED="1494009669100" TEXT="For short-term meaning-related interaction">
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
