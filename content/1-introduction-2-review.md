@@ -1,53 +1,82 @@
-## Related Work
+## Relevant Works
 
 ### 20th Century
 
-#### Social Science
+#### In Social Science
 
 Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
-The question of how culture and psychology are part of one another, and how best to describe that intricacy, has correspondingly generated much debate throughout the 20th century.
-Of the countless insights that anthropology and sociology has produced on that subject, I present the small sample which has influenced the guiding questions of this thesis.
-
 Émile Durkheim already, in his seminal study [-@durkheim_suicide:_2012], was looking at the regularities of suicide rates over the years, and the correlation of those rates with a partition of society into religion-related groups.
 The continuity of suicide over time, and the links between suicide rate and social group, he argued, suggest we should study suicide as a *social fact*:
 a phenomenon which, in spite of manifesting itself individually, has emerging properties in large groups, with a causal life at the level of other emergent social phenomena.
-In particular, this emergence has effects on individual psychology (in noting this, Durkheim was aiming to establish the autonomy of sociology as a natural science of society).
-Investigating the mechanisms of such an effect, the ties it weaves with psychology, and the role it plays in shaping the stability and evolution of cultures, became a central question for social science since then.
+In particular, this emergent level has effects on individual psychology (one of Durkheim's aims was to establish the autonomy of sociology as a natural science of society).
+By what mechanisms does such an effect operate, and what role does it play in shaping the stability and evolution of cultures?
+Contemporaries of Durkheim, as well as later researchers, made this matter one of their central preoccupations.
 
-Later, @mauss_les_1936 studied the ways in which people of different communities, in the world and throughout history, use their bodies in different ways:
-he noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different societies pass on to their offspring and evolve through time.
-Thus his endeavour focused precisely on describing (parts of) culture as an embodied and physical property of life, incorporated through the everyday practices of a community, and that children grow into by imitation, teaching, or other kinds of learning.
+But as those works also acknowledged, such a question raises issues in need of prior clarification:
+what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
+Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
+
+@mauss_les_1936 initiated one approach to that issue, in his studies of the ways in which people of different societies, throughout history, use their bodies differently.
+He noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different communities adopt, pass on to their offspring, and evolve through time.
+His endeavour focused precisely on describing (parts of) culture as an embodied and physical property of life, incorporated through the everyday practices of a community, into which children grow by imitation, teaching, or other kinds of learning.
 In this sense, he argued, there is no normal way of walking, there are only *ways* of walking:
-by living with different bodily practices, different communities develop different bodies, none of which is the standard one.
-Indeed most of these *techniques of the body* documented by Mauss have noticeable effects on the physiology of people that grow into them:
-they will make one able to crouch for long periods of time or sleep while standing or horse-riding, and will also, Mauss argued for instance, change the shape of an adult body by influencing the way bones develop.
-While such practices are undeniably linked bath to the physiology and history of communities, and in that sense are biological and social, Mauss also he asked what part psychology played in their development, and what influence they have in turn on psychology.
-He considered them complete *physio-psycho-sociological* phenomena.
+by living with different bodily practices, different communities develop different bodies, none of which is standard.
+Indeed most of these *techniques of the body* documented by Mauss play a role in the physiological development of people growing into them, with noticeable effects:
+they will make one able to crouch for long periods of time or sleep while standing or horse-riding, and will also, Mauss argued for instance, change the silhouette of an adult body by influencing the way bones develop.
+While such practices are undeniably linked to the physiology and to the history of communities, and in that sense are both biological and social, Mauss also asked what part psychology plays in their development, and what influence they have in turn on psychology:
+he considered these practices complete *physio-psycho-sociological* phenomena.
 
+The question of the incorporation of culture, and behind it the inseparability of culture, physiology, and psychology, has remained central in social science.
+Works closer to us have contributed to the matter:
+for @bourdieu_sens_1980, societal norms are also incorporated in perception, and shape our everyday unreflective interpretation of events, our way of navigating life (our *sens pratique*).
+According to him, norms become embedded in the fullest sense, through life, into our low-level perception and exploration of the environment.
+Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction, building on the idea that members of a society grow into a *habitus* leading them to perceive events in ways that reinforce existing power structures.
 
+Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
+Another prominent approach, the *Theory of Structuration* from @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
+Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
+on one side, action arises by using existing structured resources, and its reliance on, or referring to, such structure is what makes it action (vs. noise);
+on the other side, the production of action is a new reinforcement of the structure on which it relies.
+This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
+on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
+on the other side, the production of a meaningful utterance contributes to maintaining language as a structured totality.
 
-x Simmel: reciprocity of the sociation process
+<!--
 
-x Garfinkel: ethnomethodology. Understand agents in their context.
+To someone coming from mathematics, such a discussion can be seen as stating the obvious: in a network, the parts' identities are defined by their position respective to the rest of the network, and the totality is made of the identities of the parts.
+So necessarily any definition separating parts and totality will be recursive.
+But the discussion does bear on the distinction between culture and psychology, which exists in academic disciplines.
 
-Bourdieu: habitus
+-->
+
+<!--
 
 Giddens, on the structure and agency debate
 After the functionalists and the structuralists (orthodoxy that collapsed), and after the critics from hermeneutics that revive the Verstehen/Erklären debate
 Double Hermeneutics and Teoría social informada hermenéuticamente
-Theory of structuration: theory of the subject, without falling in subjectivism. Both subject (human agent) and object (society, institutions) are made in and of recurrent practices.
+Theory of structuration: theory of the subject, without falling into subjectivism. Both subject (human agent) and object (society, institutions) are made in and of recurrent practices.
 Describes a continuous process of action-monitoring, with unconscious components, and a conscience pratique, with a simplistic view of the cognitive, but there nonetheless.
-Also describes how structure is both what permits something to be emitted, and what results from the emission (e.g. in language.), which is the way to escape a dualism in explaining the relation of part to totality.
+Structure is what permits something to be emitted, and what results from the emission (e.g. in language.), which is the way to escape a dualism in explaining the relation of part to totality.
 
+-->
 
-[Geertz]
+Authors from Anthropology and Sociology have produced countless other insights about these problems;
+the miniature sample I exposed here represents the works which have most influenced the initial questions of this thesis.
+Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
+This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
+I will come back to this line of work in section \rn, and discuss it in more detail in chapter \rn.
 
-Kroeber:
+<!--
 
-[Bateson]
+Dropped authors:
 
+- Simmel: reciprocity of the sociation process
+- Garfinkel: ethnomethodology. Understand agents in their context.
+- Geertz
+- Kroeber: review of the uses of "culture"
+- Bateson
 
-
+-->
 
 
 ### Cultural Evolution
