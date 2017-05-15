@@ -14,23 +14,26 @@
 <node CREATED="1494003803375" ID="ID_1773615393" MODIFIED="1494003821978" TEXT="Now this spans a considerable amount of subjects, and philosophical debates"/>
 </node>
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1493736031905" TEXT="Literature">
-<node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1494362635518" TEXT="Cog + Soc in the 20th">
+<node CREATED="1468501015091" ID="ID_1175182254" MODIFIED="1494832998602" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
-<node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494335815115" TEXT="Sociology and Anthropology: Durkheim, Mauss, Simmel, Garfinkel, Geertz, Bourdieu, Giddens, Kroeber"/>
+<node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494832900327" TEXT="Sociology and Anthropology">
+<node COLOR="#338800" CREATED="1494832901157" ID="ID_1764178202" MODIFIED="1494832907565" TEXT="Durkheim, Mauss, Bourdieu, Giddens"/>
+<node CREATED="1494832892055" ID="ID_1028477484" MODIFIED="1494832893860" TEXT="Simmel, Garfinkel, Geertz, Kroeber"/>
+</node>
 <node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
 <node CREATED="1494362635504" ID="ID_410882511" MODIFIED="1494362641054" TEXT="Darwinism">
 <node CREATED="1494362576395" ID="ID_1877712642" MODIFIED="1494362593550" TEXT="Plotkin 1994 makes a history of universal darwinism"/>
 <node CREATED="1494362643471" ID="ID_853275851" MODIFIED="1494362670647" TEXT="Murdock 1956 is the first application of UD to culture"/>
+<node CREATED="1494833073981" ID="ID_1399000348" MODIFIED="1494835077023" TEXT="Sociobiology, Evolutionary psychology/Tooby &amp; Cosmides, Memetics/Dawkins"/>
 </node>
 </node>
 <node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1493736031913" TEXT="Classical Cultural Evolution">
 <node CREATED="1468501404617" ID="ID_802296269" MODIFIED="1468501433336" TEXT="Cavalli-Sforza &amp; Feldman"/>
 <node CREATED="1468501437913" ID="ID_1979800518" MODIFIED="1468501553126" TEXT="Boyd, Richerson &amp; Henrich"/>
-<node CREATED="1468501442078" ID="ID_1162369254" MODIFIED="1468501452789" TEXT="Dawkins"/>
 <node CREATED="1468501528422" ID="ID_390258329" MODIFIED="1468502000857" TEXT="Mesoudi &amp; Whiten "/>
 </node>
 <node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1493736031915" TEXT="Cultural Attraction Theory">
@@ -91,7 +94,12 @@
 <node CREATED="1468501815379" ID="ID_177877370" MODIFIED="1493656272401" TEXT="Evo-devo &amp; Eco-evo-devo &amp; Developmental Systems Theory">
 <node CREATED="1494003840163" ID="ID_1558454676" MODIFIED="1494003844933" TEXT="Oyama"/>
 <node CREATED="1494003845437" ID="ID_1066494508" MODIFIED="1494003897500" TEXT="Wimsatt?"/>
-<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1494003903145" TEXT="Griesemer?"/>
+<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1494003903145" TEXT="Griesemer?">
+<node CREATED="1494849023674" ID="ID_962347152" MODIFIED="1494849041312" TEXT="Must consider more than 2 channels, even at short time scales"/>
+</node>
+</node>
+<node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1494840830300" TEXT="Birth-death processes against simplification of evolution (no fitness landscape)">
+<node CREATED="1494840853435" ID="ID_226072962" MODIFIED="1494840858288" TEXT="Doebeli et al. 2017"/>
 </node>
 </node>
 </node>

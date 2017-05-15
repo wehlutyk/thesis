@@ -1,8 +1,8 @@
-## Relevant Works
+## Relevant works
 
-### 20th Century
+### 20th century traditions
 
-#### In Social Science
+#### Social science
 
 Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
 Émile Durkheim already, in his seminal study [-@durkheim_suicide:_2012], was looking at the regularities of suicide rates over the years, and the correlation of those rates with a partition of society into religion-related groups.
@@ -66,6 +66,8 @@ Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to
 This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
 I will come back to this line of work in section \rn, and discuss it in more detail in chapter \rn.
 
+\todo{Maybe add dropped authors?}
+
 <!--
 
 Dropped authors:
@@ -79,8 +81,44 @@ Dropped authors:
 -->
 
 
-### Cultural Evolution
+#### Psychology
 
-### Neighbouring Areas
+\todo{Gibson, Bateson (more social science)?}
 
-### Criticisms and Alternatives
+
+#### Darwinism
+
+\todo{Plotkin, Murdoch, Sociobiology, Evolutionary Psychology, Memetics?}
+
+
+### Evolution of culture
+
+Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
+Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
+
+@cavalli-sforza_cultural_1981 were the first to articulate this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
+Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
+By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take place across different part of the population:
+vertically (from parent to offspring), obliquely (from a non-parent member of the previous generation, to member of the next generation), horizontally (inside one generation).
+@boyd_culture_1985 [see also @boyd_origin_2005] further developed this line, leading to the formulation of *Dual Inheritance Theory* which offers a systematic analysis of the interactions of cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent works].
+A notable feature of this programme is that it does not constrain itself into a particular view of what culture is.
+While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005 p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from the previous section \rn), the mathematical models do not constrain the concept of culture as much.
+The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers encouraging steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
+I return to this subject in more detail in section \rn.
+
+
+- sperber 1996 gives more role to psychology (as BRH & CSF have an initial focus on transmission, though they can have opposite transmission)
+  - series of articles
+  - ontology public/private representations, not so different from DIT, but suggests a role of psychology
+  - representations don't seem to be the focus, but the focus is on getting people to talk, not on incorporation
+  - attraction hypothesis
+  - hard to test. all example studies (Sperber, Claidière, Mercier, Morin, Baumard, Boyer). focus of the thesis.
+
+- has generated much criticism, that we'll review. but created a debate space trying to include anthr, and i will take an optimistic view. and construct criticism that can be empirical, wherever constructive. See Wimsatt & Griesemer 2007, note 6.
+
+
+
+### Neighbouring areas
+
+
+### Criticisms and alternatives
