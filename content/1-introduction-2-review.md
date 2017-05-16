@@ -66,7 +66,7 @@ Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to
 This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
 I will come back to this line of work in section \rn, and discuss it in more detail in chapter \rn.
 
-\todo{Maybe add dropped authors?}
+\todo{Maybe add dropped authors? Simmel, Garfinkel, Geertz, Kroeber, Bateson}
 
 <!--
 
@@ -83,12 +83,12 @@ Dropped authors:
 
 #### Psychology
 
-\todo{Gibson, Bateson (more social science)?}
+\todo{? - Gibson}
 
 
 #### Darwinism
 
-\todo{Plotkin, Murdoch, Sociobiology, Evolutionary Psychology, Memetics?}
+\todo{? - Plotkin, Murdoch, Sociobiology, Evolutionary Psychology, Memetics}
 
 
 ### Evolution of culture
@@ -98,32 +98,25 @@ Inspired by the same initial analogy as darwinist authors from 20th century trad
 
 @cavalli-sforza_cultural_1981 were the first to articulate this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
 Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
-By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take place across different part of the population:
-vertically (from parent to offspring), obliquely (from a non-parent member of the previous generation, to member of the next generation), horizontally (inside one generation).
-@boyd_culture_1985 [see also @boyd_origin_2005] further developed this line, leading to the formulation of *Dual Inheritance Theory* which offers a systematic analysis of the interactions of cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent works].
+By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
+vertical (from parent to offspring), oblique (from a non-parent member of the previous generation, to member of the next generation), or horizontal (inside one generation).
+@boyd_culture_1985 [see also @boyd_origin_2005] further developed this line, leading to the formulation of *Dual Inheritance Theory* which offers a systematic analysis of some interactions between cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent studies].
 A notable feature of this programme is that it does not constrain itself into a particular view of what culture is.
 While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005 p.3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from the previous section \rn), the mathematical models do not constrain the concept of culture as much.
-The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers encouraging steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
+The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
 I return to this subject in more detail in section \rn.
 
-The central work for this thesis, however, is a slightly alternative theory formalised by Dan Sperber in the mid-nineties:
+In the mid-nineties Dan Sperber formalised another approach to the question of the evolution of culture:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
-The framework Sperber suggests starts from an ontology made principally of "mental representations", which correspond to those central to cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts (pieces of text, utterances, pictures, building techniques, etc.).
-He then proposes to model a human society as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on prior knowledge and what they have previously interpreted.
+One of the guiding questions of Sperber's work is the following: how can we explain both the diversity culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
+The framework he suggests starts from an ontology made principally of "mental representations", which correspond to those central to cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts (pieces of text, utterances, pictures, building techniques, etc.).
+For instance, I think of a melodic tune (mental representation), and I whistle it (public representation);
+someone else hears it, and forms their own mental representation.
+Most of the time, the new representation in that person's head is different from my original representation [@sperber_explaining_1996 p.25-26].
+With this basis, Sperber proposes to see a human society as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on prior knowledge and what they have previously interpreted.
 
-\add{guiding question: how so varied and made of the same thing, and so stable?}
-
-While staying fundamentally compatible, the resulting programme differs from Dual Inheritance Theory on two key points:
 
 
-
-- sperber 1996 gives more role to psychology (as BRH & CSF have an initial focus on transmission, though they can have opposite transmission)
-  - ontology public/private representations, not so different from DIT, but suggests a role of psychology
-  - representations don't seem to be the focus, but the focus is on getting people to talk, not on incorporation
-  - attraction hypothesis
-  - hard to test. all example studies (Sperber, Claidière, Mercier, Morin, Baumard, Boyer). focus of the thesis.
-
-- has generated much criticism, that we'll review. but created a debate space trying to include anthr, and i will take an optimistic view. and construct criticism that can be empirical, wherever constructive. See Wimsatt & Griesemer 2007, note 6.
 
 
 
