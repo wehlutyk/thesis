@@ -60,6 +60,8 @@ Structure is what permits something to be emitted, and what results from the emi
 
 -->
 
+\add{According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach}
+
 Authors from Anthropology and Sociology have produced countless other insights about these problems;
 the miniature sample I exposed here represents the works which have most influenced the initial questions of this thesis.
 Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
@@ -96,7 +98,7 @@ Dropped authors:
 Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
 Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
 
-@cavalli-sforza_cultural_1981 were the first to articulate this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
+@cavalli-sforza_cultural_1981 articulated this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
 Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
 By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
 vertical (from parent to offspring), oblique (from a non-parent member of the previous generation, to member of the next generation), or horizontal (inside one generation).
@@ -106,18 +108,30 @@ While the main authors do define culture as "information that people acquire fro
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
 I return to this subject in more detail in section \rn.
 
-In the mid-nineties Dan Sperber formalised another approach to the question of the evolution of culture:
+In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
 One of the guiding questions of Sperber's work is the following: how can we explain both the diversity culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
-The framework he suggests starts from an ontology made principally of "mental representations", which correspond to those central to cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts (pieces of text, utterances, pictures, building techniques, etc.).
-For instance, I think of a melodic tune (mental representation), and I whistle it (public representation);
+In developing an answer, Sperber commits himself to presenting a coherent ontology where the status of each object he refers to is well defined.
+The framework he suggests then starts from an ontology made of "mental representations", which correspond to those defined and studied by classical cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, etc..
+New mental representations are constantly formed in people's minds whenever they perceive or interpret public representations.
+For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
-Most of the time, the new representation in that person's head is different from my original representation [@sperber_explaining_1996 p.25-26].
-With this basis, Sperber proposes to see a human society as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on prior knowledge and what they have previously interpreted.
+Most of the time, the new representation in that person's head is different from my original representation [this is in contrast to memetics of course, but also to the Dual Inheritance Theory outlined above, @sperber_explaining_1996 p.25-26, 31].
+On this basis, Sperber proposes to model human societies as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions (in which mental representations play a role).
+To explain culture then, in this framework, is to analyse the processes by which representations circulate through a society, with different levels of change along the way.
+Those processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same mental representations of cognitive science.
+By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
+In this sense, his proposal is indeed that of a naturalistic ontology for the study of culture which builds on cognitive science principles, is useful to anthropology, and encourages the combination of the two bodies of knowledge.
+Sperber can then rephrase interdisciplinary questions in terms of spread and transformation of representations.
+For instance:
+what types of representations are less transformed than others as people integrate them or perceive them, and produce them anew, making them circulate in a society?
+Such representations, spreading wider than others, become *cultural representations* and will characterise a given society (for instance the habit of clothing, eating customs or values, or technological knowledge).
 
-
-
-
+Why are those representations so stable, and how do they evolve?
+Sperber introduces an additional concept to analyse this evolution:
+the dynamical system which represents a society exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors, and on the distribution of representations at a given moment in time [@sperber_explaining_1996 p.106-118].
+Cultural attractors are one of the core concepts in CAT providing intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
+As such, a key goal in the CAT research stream has been that of identifying existing attractors, and explaining their emergence based on the psychological and ecological factors that create them.
 
 
 

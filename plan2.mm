@@ -84,7 +84,7 @@
 <node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
 <node CREATED="1494935824411" ID="ID_743558862" MODIFIED="1494935839350" TEXT="Today&apos;s discussion is structured by proponents from Cognitive Science"/>
 <node CREATED="1494935844587" ID="ID_982323188" MODIFIED="1494935924431" TEXT="Inspired by the darwinist principles of above, a new wave came to blend (a) evolutionary biology, (b) insights of darwinism for culture whenever applicable, (c) a view of parallel processes"/>
-<node CREATED="1493652130573" FOLDED="true" ID="ID_398585210" MODIFIED="1494938273143" TEXT="Classical Cultural Evolution">
+<node CREATED="1493652130573" FOLDED="true" ID="ID_398585210" MODIFIED="1494948684439" TEXT="Classical Cultural Evolution">
 <node COLOR="#669900" CREATED="1468501404617" ID="ID_802296269" MODIFIED="1494937267287" TEXT="Cavalli-Sforza &amp; Feldman were the first">
 <node CREATED="1494935955424" ID="ID_1838872835" MODIFIED="1494936065988" TEXT="Build on the fact that an evolutionary process need not be genetic (only needs inheritance, variation, selection)"/>
 <node CREATED="1494936066461" ID="ID_1655019467" MODIFIED="1494936116719" TEXT="They develop the study of phenotypic transmission, which can be vertical, oblique, or horizontal"/>
@@ -101,15 +101,16 @@
 </node>
 <node CREATED="1468501528422" ID="ID_390258329" MODIFIED="1494937080006" TEXT="Mesoudi &amp; Whiten?"/>
 </node>
-<node COLOR="#990000" CREATED="1493652111065" ID="ID_302804498" MODIFIED="1494939035155" TEXT="Cultural Attraction Theory">
-<node CREATED="1494938403817" ID="ID_54556517" MODIFIED="1494938405475" TEXT="Intro">
+<node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1494948679503" TEXT="Cultural Attraction Theory">
+<node COLOR="#669900" CREATED="1494938403817" ID="ID_54556517" MODIFIED="1494949015791" TEXT="Intro">
 <node CREATED="1494937681485" ID="ID_925941687" MODIFIED="1494937716642" TEXT="Formalised in the mid 90s: in a series of articles he proposes Epidemiology of Representations"/>
 <node CREATED="1494937722512" ID="ID_712014211" MODIFIED="1494937752998" TEXT="Seeks to provide a common framework for the cognitive and social sciences, to address interdisciplinary questions"/>
 <node CREATED="1494937767313" ID="ID_1361525670" MODIFIED="1494937804155" TEXT="One guiding question is: how to explain the diversity, and relative temporal stability, of cultures, knowing we&apos;re all made of the same stuff?"/>
 </node>
 <node CREATED="1494938394171" ID="ID_1616414125" MODIFIED="1494938398181" TEXT="Framework">
+<node CREATED="1494950194236" ID="ID_994413930" MODIFIED="1494950202118" TEXT="He&apos;s committed to ontological clarity"/>
 <node CREATED="1494937812639" ID="ID_199137924" MODIFIED="1494944396075" TEXT="Starts with an ontology of public/private representations, which are the ones from cognitive science, and their expression in cultural artefacts (e.g. whistling a tune -&gt; heard -&gt; different representation, Sperber 1996 : 25-26)"/>
-<node CREATED="1494937917199" ID="ID_1044175697" MODIFIED="1494937973254" TEXT="On that, model society as a dynamical system"/>
+<node CREATED="1494937917199" ID="ID_1044175697" MODIFIED="1494951418452" TEXT="On that, model society as a dynamical system, where representations change each time they are interpreted and produced (this contrasts with memetics)"/>
 <node CREATED="1494937999319" ID="ID_1145417666" MODIFIED="1494941396283" TEXT="Culture is studied as the distribution of public representations that circulate in a society, and combine knowledge from cognitive science and anthropology under that umbrella to explain their evolution"/>
 <node CREATED="1494943535933" ID="ID_813976871" MODIFIED="1494943602641" TEXT="This is a real bridge with social science: it starts from the various notions of representation in social science, and attempts to account for them with the notion of mental representation from cognitive science"/>
 <node CREATED="1494943611692" ID="ID_171306401" MODIFIED="1494943633996" TEXT="In this sense, he suggests a naturalisation of social science"/>
@@ -123,11 +124,11 @@
 </node>
 </node>
 <node CREATED="1494938365825" ID="ID_1876993261" MODIFIED="1494939511408" TEXT="What it brings">
-<node CREATED="1494937647021" ID="ID_1295021818" MODIFIED="1494937650525" TEXT="I believe the central intuition was that psychology, in the form of at-the-time-emerging cognitive science, has a rich part to play in any synthesis, and is a core ingredient in the appearance of attractors"/>
-<node CREATED="1494943854834" ID="ID_1710089611" MODIFIED="1494945122270" TEXT="So he walks away from any &quot;tabula rasa&quot;/&quot;blank slate&quot; approach (Sperber 1996 : 63-66), and from a dumb application of neo-darwinism (Sperber 1996 : 101). Also insists on environmental factors (Sperber 1996 : 138-140?), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
+<node CREATED="1494937647021" ID="ID_1295021818" MODIFIED="1494950070004" TEXT="I believe the central intuition was that psychology, in the form of at-the-time-emerging cognitive science, has a rich part to play in any synthesis (Sperber 1996 : 31), and is a core ingredient in the appearance of attractors"/>
+<node CREATED="1494943854834" ID="ID_1710089611" MODIFIED="1494950443070" TEXT="So he walks away from any &quot;tabula rasa&quot;/&quot;blank slate&quot; approach (Sperber 1996 : 63-66), and from a dumb application of neo-darwinism (Sperber 1996 : 101). Also insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
 <node CREATED="1494944151958" ID="ID_123134726" MODIFIED="1494944177423" TEXT="He also agrees with DIT, gene-culture coevolution (Sperber 1996 : 114)"/>
 <node CREATED="1494938366196" ID="ID_1328015472" MODIFIED="1494944245377" TEXT="But gives a central role to Fodor and massive modularity of the mind, where representations are treated by specialised evolved (and developed) modules"/>
-<node CREATED="1494938919530" ID="ID_861755872" MODIFIED="1494938940999" TEXT="Representations don&apos;t seem to be the focus, rather it&apos;s getting people to talk and combine">
+<node CREATED="1494938919530" ID="ID_861755872" MODIFIED="1494950001998" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
 <node CREATED="1494933523564" ID="ID_1609544774" MODIFIED="1494942195026" TEXT="to wit: the name change to CAT, distance when talking, or even the Claidi&#xe8;re &amp; Sperber 2007 example of smoking"/>
 </node>
 <node CREATED="1494933535411" ID="ID_204270312" MODIFIED="1494939620233" TEXT="The importance of psychology is what is emphasised in debates with DIT"/>
@@ -138,11 +139,21 @@
 </node>
 </node>
 <node CREATED="1494937551188" ID="ID_1801548239" MODIFIED="1494939170842" TEXT="Testing has been hard">
-<node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1494939777210" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GUT), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
+<node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1494949764930" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GGT, Sperber 1996 : 26), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
 <node CREATED="1494938366550" ID="ID_1543986295" MODIFIED="1494939899040" TEXT="Still, the presence of attractors is testable, and can be more or less fruitful in generating situations and ideas, and providing a general assembly of facts "/>
-<node CREATED="1494939869968" ID="ID_74522600" MODIFIED="1494945442576" TEXT="Although models have developed (Claidi&#xe9;re &amp; Sperber 2007, and others?), attraction has been hard to test because of empirical challenges (see section X)"/>
-<node CREATED="1468501526765" ID="ID_1404723662" MODIFIED="1494945019508" TEXT="Explicitly CAT-labeled works: Scott-Phillips, Sperber, Claidi&#xe8;re, Mercier, O. Morin, Baumard, Boyer, Miton"/>
-<node CREATED="1494941884690" ID="ID_1028258703" MODIFIED="1494941900398" TEXT="Many other works explore this, we&apos;ll return to it in the next section"/>
+<node CREATED="1494939869968" ID="ID_74522600" MODIFIED="1494945770393" TEXT="Although models have developed (Claidi&#xe8;re &amp; Sperber 2007, and Claidi&#xe8;re et al. 2014), attraction has been hard to test because of empirical challenges (see section Open Problems)"/>
+<node CREATED="1468501526765" ID="ID_1404723662" MODIFIED="1494945960673" TEXT="Explicitly CAT-labeled works">
+<node CREATED="1494945870925" ID="ID_727464140" MODIFIED="1494945881809" TEXT="Boyer 2001"/>
+<node CREATED="1494945882194" ID="ID_1525761981" MODIFIED="1494945893266" TEXT="Claidi&#xe8;re &amp; Sperber 2007"/>
+<node CREATED="1494945894097" ID="ID_690633775" MODIFIED="1494945900481" TEXT="Morin 2013"/>
+<node CREATED="1494945901345" ID="ID_591455911" MODIFIED="1494945907859" TEXT="Miton et al. 2015"/>
+<node CREATED="1494945908905" ID="ID_1731016237" MODIFIED="1494945920037" TEXT="Claidi&#xe8;re et al. 2014"/>
+<node CREATED="1494945983931" ID="ID_756307940" MODIFIED="1494945990065" TEXT="Baumard et al. 2012"/>
+<node CREATED="1494945937793" ID="ID_171222011" MODIFIED="1494945940985" TEXT="Baumard?"/>
+<node CREATED="1494945941625" ID="ID_1903836915" MODIFIED="1494945945541" TEXT="Scott-Phillips?"/>
+<node CREATED="1494945949393" ID="ID_1755518570" MODIFIED="1494945951820" TEXT="Mercier?"/>
+</node>
+<node CREATED="1494941884690" ID="ID_1028258703" MODIFIED="1494945789987" TEXT="Many other works explore this, we&apos;ll return to it in the next section (Neighbouring works)"/>
 </node>
 <node CREATED="1494938661082" ID="ID_824909910" MODIFIED="1494938667232" TEXT="Focus on CAT vs. DIT">
 <node CREATED="1494944496951" ID="ID_1516697488" MODIFIED="1494944531279" TEXT="The DIT/CAT approach is shared by a number of social scientists (see comments to Mesoudi et al. 2006, and Slingerland 2008)"/>
