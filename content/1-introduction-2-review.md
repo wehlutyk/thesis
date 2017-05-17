@@ -145,7 +145,7 @@ This specificity of CAT is often highlighted as one of the main differences with
 CAT agrees nonetheless with the idea of gene-culture coevolution developed by DIT [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but have different core focuses [@sterelny_cultural_2017].
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
-@sec:introduction-review-criticisms comes back to these debates and criticisms, which I group into two broad categories.
+@sec:intro-review-criticisms comes back to these debates and criticisms, which I group into two broad categories.
 The first concerns the particulars of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction or extended inheritance) and, correspondingly, how long the restriction of inheritance to two channels can remain relevant.
 The second critique concerns what @thompson_mind_2007 has called the "Information Dualism" of the notion of representation in cognitive science.
