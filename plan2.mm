@@ -102,12 +102,12 @@
 <node CREATED="1468501528422" ID="ID_390258329" MODIFIED="1494937080006" TEXT="Mesoudi &amp; Whiten?"/>
 </node>
 <node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1494948679503" TEXT="Cultural Attraction Theory">
-<node COLOR="#669900" CREATED="1494938403817" ID="ID_54556517" MODIFIED="1494949015791" TEXT="Intro">
+<node COLOR="#669900" CREATED="1494938403817" FOLDED="true" ID="ID_54556517" MODIFIED="1494965142378" TEXT="Intro">
 <node CREATED="1494937681485" ID="ID_925941687" MODIFIED="1494937716642" TEXT="Formalised in the mid 90s: in a series of articles he proposes Epidemiology of Representations"/>
 <node CREATED="1494937722512" ID="ID_712014211" MODIFIED="1494937752998" TEXT="Seeks to provide a common framework for the cognitive and social sciences, to address interdisciplinary questions"/>
 <node CREATED="1494937767313" ID="ID_1361525670" MODIFIED="1494937804155" TEXT="One guiding question is: how to explain the diversity, and relative temporal stability, of cultures, knowing we&apos;re all made of the same stuff?"/>
 </node>
-<node CREATED="1494938394171" ID="ID_1616414125" MODIFIED="1494938398181" TEXT="Framework">
+<node COLOR="#669900" CREATED="1494938394171" FOLDED="true" ID="ID_1616414125" MODIFIED="1495026226055" TEXT="Framework">
 <node CREATED="1494950194236" ID="ID_994413930" MODIFIED="1494950202118" TEXT="He&apos;s committed to ontological clarity"/>
 <node CREATED="1494937812639" ID="ID_199137924" MODIFIED="1494944396075" TEXT="Starts with an ontology of public/private representations, which are the ones from cognitive science, and their expression in cultural artefacts (e.g. whistling a tune -&gt; heard -&gt; different representation, Sperber 1996 : 25-26)"/>
 <node CREATED="1494937917199" ID="ID_1044175697" MODIFIED="1494951418452" TEXT="On that, model society as a dynamical system, where representations change each time they are interpreted and produced (this contrasts with memetics)"/>
@@ -123,20 +123,20 @@
 <node CREATED="1494941614077" ID="ID_211844028" MODIFIED="1494943267004" TEXT="What cognitive modules, what ecological setting, are involved in the emergence of those attractors?"/>
 </node>
 </node>
-<node CREATED="1494938365825" ID="ID_1876993261" MODIFIED="1494939511408" TEXT="What it brings">
+<node COLOR="#669900" CREATED="1494938365825" FOLDED="true" ID="ID_1876993261" MODIFIED="1495029681969" TEXT="What it brings">
 <node CREATED="1494937647021" ID="ID_1295021818" MODIFIED="1494950070004" TEXT="I believe the central intuition was that psychology, in the form of at-the-time-emerging cognitive science, has a rich part to play in any synthesis (Sperber 1996 : 31), and is a core ingredient in the appearance of attractors"/>
-<node CREATED="1494943854834" ID="ID_1710089611" MODIFIED="1494950443070" TEXT="So he walks away from any &quot;tabula rasa&quot;/&quot;blank slate&quot; approach (Sperber 1996 : 63-66), and from a dumb application of neo-darwinism (Sperber 1996 : 101). Also insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
-<node CREATED="1494944151958" ID="ID_123134726" MODIFIED="1494944177423" TEXT="He also agrees with DIT, gene-culture coevolution (Sperber 1996 : 114)"/>
-<node CREATED="1494938366196" ID="ID_1328015472" MODIFIED="1494944245377" TEXT="But gives a central role to Fodor and massive modularity of the mind, where representations are treated by specialised evolved (and developed) modules"/>
-<node CREATED="1494938919530" ID="ID_861755872" MODIFIED="1494950001998" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
-<node CREATED="1494933523564" ID="ID_1609544774" MODIFIED="1494942195026" TEXT="to wit: the name change to CAT, distance when talking, or even the Claidi&#xe8;re &amp; Sperber 2007 example of smoking"/>
-</node>
+<node CREATED="1495024232314" ID="ID_1553972434" MODIFIED="1495025063079" TEXT="The view he takes of psychology is that of Fodor, massive modularity of the mind, and a certain computational analogy which has a strong focus on representations (treated by specialised evolved and developed modules)"/>
+<node CREATED="1494943854834" ID="ID_1710089611" MODIFIED="1495025972018" TEXT="He walks away from any &quot;tabula rasa&quot;/&quot;blank slate&quot; approach (Sperber 1996 : 63-66), and from a dumb application of neo-darwinism (Sperber 1996 : 101)"/>
 <node CREATED="1494933535411" ID="ID_204270312" MODIFIED="1494939620233" TEXT="The importance of psychology is what is emphasised in debates with DIT"/>
-<node CREATED="1494939035148" ID="ID_1982807411" MODIFIED="1494939039369" TEXT="Criticism">
-<node CREATED="1494939027337" ID="ID_344132445" MODIFIED="1494943655594" TEXT="Has generated much criticism, that we&apos;ll review (notably, that representations are not a naturalisation)"/>
-<node CREATED="1494939045524" ID="ID_1053391838" MODIFIED="1494939095649" TEXT="But CAT created a debate space trying to include anthropology"/>
-<node CREATED="1494939095978" ID="ID_734624423" MODIFIED="1494939112653" TEXT="We will construct criticism that can be empirical, wherever constructive (see Wimsatt &amp; Griesemer 2007, note 6)"/>
+<node CREATED="1494944151958" ID="ID_123134726" MODIFIED="1495025983684" TEXT="He agrees with gene-culture coevolution (Sperber 1996 : 114)"/>
+<node CREATED="1495028942031" ID="ID_424979780" MODIFIED="1495028954996" TEXT="CAT and DIT are compatible but have different focuses"/>
 </node>
+<node COLOR="#669900" CREATED="1494939035148" FOLDED="true" ID="ID_1982807411" MODIFIED="1495040573188" TEXT="Criticism">
+<node CREATED="1495030156674" ID="ID_85234386" MODIFIED="1495030206880" TEXT="The space opened by DIT and CAT has generated much debate (a good example are the comments in Mesoudi et al. 2006)"/>
+<node CREATED="1495030169907" ID="ID_1167757767" MODIFIED="1495030258994" TEXT="Debate comes from several areas: Anthropology, indirectly 4E cogsci"/>
+<node CREATED="1494939027337" ID="ID_344132445" MODIFIED="1494943655594" TEXT="Has generated much criticism, that we&apos;ll review (notably, that representations are not a naturalisation)"/>
+<node CREATED="1494939045524" ID="ID_1053391838" MODIFIED="1495026185630" TEXT="CAT created a debate space trying to include anthropology"/>
+<node CREATED="1494939095978" ID="ID_734624423" MODIFIED="1494939112653" TEXT="We will construct criticism that can be empirical, wherever constructive (see Wimsatt &amp; Griesemer 2007, note 6)"/>
 </node>
 <node CREATED="1494937551188" ID="ID_1801548239" MODIFIED="1494939170842" TEXT="Testing has been hard">
 <node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1494949764930" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GGT, Sperber 1996 : 26), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
@@ -206,7 +206,21 @@
 <node CREATED="1494061642559" ID="ID_625942616" MODIFIED="1494061644538" TEXT="Moritz"/>
 </node>
 </node>
-<node CREATED="1493656469691" FOLDED="true" ID="ID_1239768678" MODIFIED="1494930851157" TEXT="Criticisms, parallels, alternatives">
+<node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1495030066172" TEXT="Criticisms, parallels, alternatives">
+<node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495029978780" TEXT="Two types"/>
+<node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1495030033730" TEXT="Inclusion of environment and extension of evolution">
+<node CREATED="1468501815379" ID="ID_177877370" MODIFIED="1493656272401" TEXT="Evo-devo &amp; Eco-evo-devo &amp; Developmental Systems Theory">
+<node CREATED="1494003840163" ID="ID_1558454676" MODIFIED="1494003844933" TEXT="Oyama"/>
+<node CREATED="1494003845437" ID="ID_1066494508" MODIFIED="1494003897500" TEXT="Wimsatt?"/>
+<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1494003903145" TEXT="Griesemer?">
+<node CREATED="1494849023674" ID="ID_962347152" MODIFIED="1494849041312" TEXT="Must consider more than 2 channels, even at short time scales"/>
+</node>
+</node>
+<node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1494840830300" TEXT="Birth-death processes against simplification of evolution (no fitness landscape)">
+<node CREATED="1494840853435" ID="ID_226072962" MODIFIED="1494840858288" TEXT="Doebeli et al. 2017"/>
+</node>
+</node>
+<node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1495030039939" TEXT="Information dualism">
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node COLOR="#006699" CREATED="1493652676709" ID="ID_1667765208" MODIFIED="1493652694480" TEXT="Stotz"/>
 <node CREATED="1493652662611" ID="ID_43955621" MODIFIED="1493652664489" TEXT="Ingold"/>
@@ -220,15 +234,12 @@
 <node CREATED="1468501807980" ID="ID_661726123" MODIFIED="1468501810831" TEXT="Wittgenstein"/>
 <node CREATED="1493660001231" ID="ID_485121586" MODIFIED="1493660006620" TEXT="Sterelny, Stotz"/>
 </node>
-<node CREATED="1468501815379" ID="ID_177877370" MODIFIED="1493656272401" TEXT="Evo-devo &amp; Eco-evo-devo &amp; Developmental Systems Theory">
-<node CREATED="1494003840163" ID="ID_1558454676" MODIFIED="1494003844933" TEXT="Oyama"/>
-<node CREATED="1494003845437" ID="ID_1066494508" MODIFIED="1494003897500" TEXT="Wimsatt?"/>
-<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1494003903145" TEXT="Griesemer?">
-<node CREATED="1494849023674" ID="ID_962347152" MODIFIED="1494849041312" TEXT="Must consider more than 2 channels, even at short time scales"/>
 </node>
+<node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1495030068648" TEXT="However">
+<node CREATED="1494938919530" FOLDED="true" ID="ID_861755872" MODIFIED="1495026022335" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
+<node CREATED="1494933523564" ID="ID_1609544774" MODIFIED="1494942195026" TEXT="to wit: the name change to CAT, distance when talking, or even the Claidi&#xe8;re &amp; Sperber 2007 example of smoking"/>
 </node>
-<node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1494840830300" TEXT="Birth-death processes against simplification of evolution (no fitness landscape)">
-<node CREATED="1494840853435" ID="ID_226072962" MODIFIED="1494840858288" TEXT="Doebeli et al. 2017"/>
+<node CREATED="1495024194435" ID="ID_831040112" MODIFIED="1495026009539" TEXT="He insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
 </node>
 </node>
 </node>

@@ -26,11 +26,14 @@ mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
 toc: True
-# Figure formatting
+# Figure and Section reference formatting
 cref: True
 figPrefix:
   - "Fig."
   - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
 # Additional headers
 header-includes:
   # General comments
