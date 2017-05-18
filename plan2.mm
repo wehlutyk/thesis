@@ -81,10 +81,10 @@
 <node CREATED="1494833073981" ID="ID_1399000348" MODIFIED="1494835077023" TEXT="Sociobiology, Evolutionary psychology/Tooby &amp; Cosmides, Memetics/Dawkins"/>
 </node>
 </node>
-<node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1493736031912" TEXT="Dual Inheritance Theory">
+<node CREATED="1468501391707" ID="ID_677606115" MODIFIED="1495104870139" TEXT="Cultural Evolution">
 <node CREATED="1494935824411" ID="ID_743558862" MODIFIED="1494935839350" TEXT="Today&apos;s discussion is structured by proponents from Cognitive Science"/>
 <node CREATED="1494935844587" ID="ID_982323188" MODIFIED="1494935924431" TEXT="Inspired by the darwinist principles of above, a new wave came to blend (a) evolutionary biology, (b) insights of darwinism for culture whenever applicable, (c) a view of parallel processes"/>
-<node CREATED="1493652130573" FOLDED="true" ID="ID_398585210" MODIFIED="1494948684439" TEXT="Classical Cultural Evolution">
+<node CREATED="1493652130573" FOLDED="true" ID="ID_398585210" MODIFIED="1495104883467" TEXT="Dual Inheritance Theory">
 <node COLOR="#669900" CREATED="1468501404617" ID="ID_802296269" MODIFIED="1494937267287" TEXT="Cavalli-Sforza &amp; Feldman were the first">
 <node CREATED="1494935955424" ID="ID_1838872835" MODIFIED="1494936065988" TEXT="Build on the fact that an evolutionary process need not be genetic (only needs inheritance, variation, selection)"/>
 <node CREATED="1494936066461" ID="ID_1655019467" MODIFIED="1494936116719" TEXT="They develop the study of phenotypic transmission, which can be vertical, oblique, or horizontal"/>
@@ -101,7 +101,7 @@
 </node>
 <node CREATED="1468501528422" ID="ID_390258329" MODIFIED="1494937080006" TEXT="Mesoudi &amp; Whiten?"/>
 </node>
-<node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1494948679503" TEXT="Cultural Attraction Theory">
+<node COLOR="#669900" CREATED="1493652111065" ID="ID_302804498" MODIFIED="1495104775681" TEXT="Cultural Attraction Theory">
 <node COLOR="#669900" CREATED="1494938403817" FOLDED="true" ID="ID_54556517" MODIFIED="1494965142378" TEXT="Intro">
 <node CREATED="1494937681485" ID="ID_925941687" MODIFIED="1494937716642" TEXT="Formalised in the mid 90s: in a series of articles he proposes Epidemiology of Representations"/>
 <node CREATED="1494937722512" ID="ID_712014211" MODIFIED="1494937752998" TEXT="Seeks to provide a common framework for the cognitive and social sciences, to address interdisciplinary questions"/>
@@ -138,28 +138,31 @@
 <node CREATED="1494939045524" ID="ID_1053391838" MODIFIED="1495026185630" TEXT="CAT created a debate space trying to include anthropology"/>
 <node CREATED="1494939095978" ID="ID_734624423" MODIFIED="1494939112653" TEXT="We will construct criticism that can be empirical, wherever constructive (see Wimsatt &amp; Griesemer 2007, note 6)"/>
 </node>
-<node CREATED="1494937551188" ID="ID_1801548239" MODIFIED="1494939170842" TEXT="Testing has been hard">
-<node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1494949764930" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GGT, Sperber 1996 : 26), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
-<node CREATED="1494938366550" ID="ID_1543986295" MODIFIED="1494939899040" TEXT="Still, the presence of attractors is testable, and can be more or less fruitful in generating situations and ideas, and providing a general assembly of facts "/>
+<node COLOR="#669900" CREATED="1494937551188" FOLDED="true" ID="ID_1801548239" MODIFIED="1495102344003" TEXT="Testing has been hard">
+<node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1495092616088" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GGT, Sperber 1996 : 26, 61, 83), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
+<node CREATED="1494938366550" ID="ID_1543986295" MODIFIED="1495091927461" TEXT="The presence of attractors is testable, and can be more or less fruitful in generating situations and ideas, and providing a general assembly of facts "/>
 <node CREATED="1494939869968" ID="ID_74522600" MODIFIED="1494945770393" TEXT="Although models have developed (Claidi&#xe8;re &amp; Sperber 2007, and Claidi&#xe8;re et al. 2014), attraction has been hard to test because of empirical challenges (see section Open Problems)"/>
 <node CREATED="1468501526765" ID="ID_1404723662" MODIFIED="1494945960673" TEXT="Explicitly CAT-labeled works">
-<node CREATED="1494945870925" ID="ID_727464140" MODIFIED="1494945881809" TEXT="Boyer 2001"/>
-<node CREATED="1494945882194" ID="ID_1525761981" MODIFIED="1494945893266" TEXT="Claidi&#xe8;re &amp; Sperber 2007"/>
-<node CREATED="1494945894097" ID="ID_690633775" MODIFIED="1494945900481" TEXT="Morin 2013"/>
-<node CREATED="1494945901345" ID="ID_591455911" MODIFIED="1494945907859" TEXT="Miton et al. 2015"/>
-<node CREATED="1494945908905" ID="ID_1731016237" MODIFIED="1494945920037" TEXT="Claidi&#xe8;re et al. 2014"/>
-<node CREATED="1494945983931" ID="ID_756307940" MODIFIED="1494945990065" TEXT="Baumard et al. 2012"/>
-<node CREATED="1494945937793" ID="ID_171222011" MODIFIED="1494945940985" TEXT="Baumard?"/>
-<node CREATED="1494945941625" ID="ID_1903836915" MODIFIED="1494945945541" TEXT="Scott-Phillips?"/>
-<node CREATED="1494945949393" ID="ID_1755518570" MODIFIED="1494945951820" TEXT="Mercier?"/>
+<node CREATED="1494945894097" ID="ID_690633775" MODIFIED="1495096795684" TEXT="portraits Morin 2013"/>
+<node CREATED="1494945901345" ID="ID_591455911" MODIFIED="1495096801446" TEXT="bloodletting Miton et al. 2015"/>
+<node CREATED="1495097856250" ID="ID_1106935316" MODIFIED="1495097867548" TEXT="affluence and religion Baumard et al. 2015"/>
+<node CREATED="1495098779459" ID="ID_459021666" MODIFIED="1495098788788" TEXT="heraldic Morin &amp; Miton 2017"/>
+<node CREATED="1494945908905" ID="ID_1731016237" MODIFIED="1495096808718" TEXT="tetrominos Claidi&#xe8;re et al. 2014"/>
+<node CREATED="1495097760090" ID="ID_1746025120" MODIFIED="1495098090380" TEXT="overview book on traditions Morin 2016"/>
+<node CREATED="1494945983931" ID="ID_756307940" MODIFIED="1495097543674" TEXT="morality Baumard et al. 2012"/>
+<node CREATED="1494945949393" ID="ID_1755518570" MODIFIED="1495099041836" TEXT="argumentation Claidi&#xe8;re et al. 2017"/>
 </node>
-<node CREATED="1494941884690" ID="ID_1028258703" MODIFIED="1494945789987" TEXT="Many other works explore this, we&apos;ll return to it in the next section (Neighbouring works)"/>
+<node CREATED="1494941884690" ID="ID_1028258703" MODIFIED="1495100273667" TEXT="Many other works explore this, such as language evolution and digital media, we&apos;ll return to it in the next section (Neighbouring works)"/>
 </node>
-<node CREATED="1494938661082" ID="ID_824909910" MODIFIED="1494938667232" TEXT="Focus on CAT vs. DIT">
-<node CREATED="1494944496951" ID="ID_1516697488" MODIFIED="1494944531279" TEXT="The DIT/CAT approach is shared by a number of social scientists (see comments to Mesoudi et al. 2006, and Slingerland 2008)"/>
+<node COLOR="#669900" CREATED="1494938661082" FOLDED="true" ID="ID_824909910" MODIFIED="1495104772824" TEXT="Focus on CAT vs. DIT">
 <node CREATED="1494938591865" ID="ID_332359646" MODIFIED="1494938678264" TEXT="They&apos;re not so different (see Acerbi &amp; Mesoudi 2015, Sterelny 2017), they are the Californian/Parisian approaches"/>
-<node CREATED="1494938684990" ID="ID_974731227" MODIFIED="1494938693725" TEXT="CAT puts cogsci at the centre"/>
-<node CREATED="1494938706228" ID="ID_1626086882" MODIFIED="1494938965867" TEXT="CAT aims to create dialoge with anthropology"/>
+<node CREATED="1494944496951" ID="ID_1516697488" MODIFIED="1494944531279" TEXT="The DIT/CAT approach is shared by a number of social scientists (see comments to Mesoudi et al. 2006, and Slingerland 2008)"/>
+<node CREATED="1495103296010" ID="ID_33549707" MODIFIED="1495103320621" TEXT="CAT is prevalent in France"/>
+<node CREATED="1494938684990" ID="ID_974731227" MODIFIED="1495103267743" TEXT="CAT puts cogsci at the centre"/>
+<node CREATED="1495103920774" ID="ID_235001883" MODIFIED="1495103938828" TEXT="Starts defending its theory based on principles and ontologies"/>
+<node CREATED="1495103329508" ID="ID_1754186973" MODIFIED="1495103380855" TEXT="Formulates its theory such that the principles, and notable those that should be discussed, are very clear (are the focus in fact)"/>
+<node CREATED="1494938706228" ID="ID_1626086882" MODIFIED="1495103912263" TEXT="CAT aims to create dialogue with anthropology"/>
+<node CREATED="1495103260243" ID="ID_682027185" MODIFIED="1495103294054" TEXT="CAT is discussed by social anthropologists"/>
 <node CREATED="1494938966545" ID="ID_1444496729" MODIFIED="1494942489424" TEXT="I can contribute to CAT with my studies on utterances, as it focuses more on thing that seem contingent (Sterelny 2017). We&apos;ll see open problems in section X."/>
 </node>
 </node>
@@ -170,7 +173,7 @@
 <node CREATED="1493995354231" ID="ID_319562942" MODIFIED="1493995355420" TEXT="Kashima"/>
 </node>
 <node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1493736031920" TEXT="Language Evolution">
-<node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1493653824168" TEXT="Kirby, Cornish, Kalish, Tamariz, Steels: how structure emerges from random"/>
+<node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495099569484" TEXT="Kirby, Cornish, Kalish, Tamariz, Steels, Scott-Phillips: how structure emerges from random"/>
 <node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1493653842213" TEXT="Croft: how existing structure evolves"/>
 </node>
 <node CREATED="1494941922883" ID="ID_360115485" MODIFIED="1494941927635" TEXT="Other transmission chains">
@@ -179,6 +182,7 @@
 <node CREATED="1494945340247" ID="ID_1837604823" MODIFIED="1494945352668" TEXT="Mesoudi &amp; Whiten 2008"/>
 </node>
 <node CREATED="1468501819507" ID="ID_1905159781" MODIFIED="1493736031921" TEXT="Online data">
+<node CREATED="1495100107599" ID="ID_965145348" MODIFIED="1495100208571" TEXT="Acerbi 2016, Acerbi &amp; Tehrani 2017"/>
 <node CREATED="1468501855163" ID="ID_1053079280" MODIFIED="1468501856495" TEXT="Danescu-Niculescu-Mizil"/>
 <node CREATED="1468501857254" ID="ID_1942990214" MODIFIED="1468502487897" TEXT="Kleinberg, Leskovec, Adamic, Simmons"/>
 <node CREATED="1468502488528" ID="ID_1356760065" MODIFIED="1468502517402" TEXT="Cointet, Roth, Omodei, Cardon"/>
@@ -243,7 +247,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493651988017" FOLDED="true" ID="ID_670111761" MODIFIED="1494942501278" TEXT="Open problems">
+<node CREATED="1493651988017" ID="ID_670111761" MODIFIED="1495094019823" TEXT="Open problems">
 <node CREATED="1493653437891" ID="ID_67444389" MODIFIED="1494005892953" TEXT="Attraction (transformation) vs. Selection"/>
 <node CREATED="1493653037758" ID="ID_11239510" MODIFIED="1493656591532" TEXT="Actual attractors"/>
 <node CREATED="1493653058625" ID="ID_117276132" MODIFIED="1494005752710" TEXT="More case studies, more explanations of real phenomena"/>
