@@ -176,10 +176,11 @@ The meta-analysis of large numbers of anthropological or historical works has sh
 @miton_universal_2015 also used this technique to explain the historical success of the bloodletting practice, in spite of its medical ineffectiveness.
 @baumard_increased_2015 fruitfully exploited similar records to tie the evolution of religious values to the affluence of societies in which they develop.
 Morin and Miton (EHBEA 2017? \cn) model the evolution of heraldic coats of arms to test which hypotheses account best for the distribution of patterns and colours through time.
-A second approach simulates rapid evolution of content in artificial transmission experiments.
+A second approach simulates rapid evolution of content in artificial spread and transmission experiments.
 @claidiere_cultural_2014 explored the evolution of abstract visual patterns transmitted by apes;
 @claidiere_argumentation_2017 also investigated the effect of argumentation on the transmission of solutions to simple but counter-intuitive reasoning problems.
-A large number of disciplines are developing diverse methods to study questions relevant to CAT and DIT.
+\add{baumard-mutualistic-2013.}
+A large number of other disciplines are developing diverse methods to study questions relevant to CAT and DIT.
 I review these in greater detail in @sec:intro-review-neighbours.
 
 While authors have acknowledged there is no core incompatibility between CAT and DIT [@acerbi_if_2015; @sterelny_cultural_2017] and a growing number of social scientists is discussing both approaches [see again the comments to @mesoudi_towards_2006; also @slingerland_what_2008], the work I present in this thesis is mainly focused on CAT itself, and less so DIT.
@@ -187,18 +188,9 @@ While the prevalence of the theory in the French academic landscape naturally ha
 First, it puts cognitive science squarely in the middle of the problem, a focus I believe to be unavoidable.
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely continue developing), but to interest all disciplines studying human life in a common framework, by using *principled philosophical arguments*.
 Third, this approach in turn leads to a crystal-clear articulation of the philosophical principles defended, discussed, or tested by the theory.
-As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms).
+\add{it's not the clarity of hypotheses afforded by mathematics.}
+As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
 In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by gene-culture coevolution approaches.
-
-
-
-
-
-
-
-
-
-
 
 
 ### Neighbouring areas {#sec:intro-review-neighbours}
