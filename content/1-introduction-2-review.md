@@ -209,9 +209,11 @@ Typical studies will then analyse the trends in the transformations that occurre
 if, as is often the case, the content itself is too complex to analyse systematically, studies often opt to contrast a simple measure (such as rate of change) for two different populations, two conditions in the independent variables mentioned above, or two minimally different types of content.
 The method is the simplest instantiation of the causal chains of public representation to mental representation to public representation (and so on) described by @sperber_explaining_1996 [p. 99], and has thus garnered much attention in the literature related to CAT.
 
-Earlier work, contemporary to Bartlett, also contributed to the question.
-@maxwell_remembering_1936, for instance, contrasted the evolution through groups of different social status and age, with a story containing deliberate inconsistencies.
-Results?
+Earlier work, contemporary to Bartlett, already contributed much to the question.
+@maxwell_remembering_1936 contrasted the evolution of a story containing deliberate inconsistencies in groups of different social status and age such as soldiers, priests, educated men or women, students, or boy scouts.
+He found indications that different groups shortened the story at different rates, and conserved or transformed different pieces of the initial story.
+@northway_influence_1936 also contrasted the conservation of story parts across groups of children from schools with different social backgrounds, relating the proportion of good recollections of a given item to the everyday activities of the children, or the types of transformations (addition, recasting, modification) to the different age groups, or to the diversity of backgrounds in a given group.
+
 
 
 

@@ -178,8 +178,8 @@
 <node COLOR="#669900" CREATED="1495388225369" ID="ID_1004762827" MODIFIED="1495388242951" TEXT="It&apos;s the simplest sperberian causal chain"/>
 <node CREATED="1495363440576" ID="ID_49093815" MODIFIED="1495363455571" TEXT="Initial studies around Bartlett">
 <node COLOR="#669900" CREATED="1495208061472" ID="ID_683530871" MODIFIED="1495388790863" TEXT="bartlett_remembering:_1995 the initial studies"/>
-<node CREATED="1495211837824" ID="ID_1016745192" MODIFIED="1495388794047" TEXT="maxwell_remembering_1936 socially determined changes"/>
-<node CREATED="1495216470603" ID="ID_259881039" MODIFIED="1495370501125" TEXT="northway_influence_1936 age and social group [might need reading]"/>
+<node COLOR="#669900" CREATED="1495211837824" ID="ID_1016745192" MODIFIED="1495398596971" TEXT="maxwell_remembering_1936 socially determined changes"/>
+<node COLOR="#669900" CREATED="1495216470603" ID="ID_259881039" MODIFIED="1495400702902" TEXT="northway_influence_1936 age and social group [might need reading]"/>
 <node CREATED="1495363543550" ID="ID_683981499" MODIFIED="1495370628988" TEXT="ward_experiment_1949 separation of cultural and psychological forces [might need reading]"/>
 <node CREATED="1495212604038" ID="ID_1147157685" MODIFIED="1495370708825" TEXT="hall_effect_1950 effect of names and titles"/>
 <node CREATED="1495208850405" ID="ID_455619666" MODIFIED="1495370809739" TEXT="gauld_experiments_1967 critical evaluation on the naturally reconstructive aspect of remembering"/>
