@@ -189,11 +189,33 @@ First, it puts cognitive science squarely in the middle of the problem, a focus 
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely continue developing), but to interest all disciplines studying human life in a common framework, by using *principled philosophical arguments*.
 Third, this approach in turn leads to a crystal-clear articulation of the philosophical principles defended, discussed, or tested by the theory.
 \add{it's not the clarity of hypotheses afforded by mathematics.}
+\add{smaldino-let-2014.}
 As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
 In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by gene-culture coevolution approaches.
 
 
 ### Neighbouring areas {#sec:intro-review-neighbours}
+
+A great number of disciplines and domains have developed interest in and contributed empirical studies to CAT.
+Simulation and experimental studies of the evolution of morality [@baumard_mutualistic_2013], religion [@boyer_religion_2001], or reasoning [@claidiere_argumentation_2017; @mercier_why_2011] have used the theory, as well as studies on the emergence and evolution of language, or online content through digital media.
+Those last two areas are the most relevant to the evolution of linguistic material, asking what kinds of factors can influence the evolution of content in a given domain, when do the changes build up cumulatively, or what role such accumulation plays in the long term evolution.
+These studies use the serial reproduction paradigm and its derivatives extensively.
+
+The paradigm was initially introduced by @bartlett_remembering:_1995 as a variation of the repeated reproduction method (where each participant must recall the same item after increasing periods of time):
+similar to a game of Chinese Whispers, the experimenter gives a first participant initial material (typically a picture or a short piece of text) with instructions to read or memorise it;
+that participant is later asked to recall or reproduce the material, and the experimenter uses their output as input for the next participant, thus constructing a chain of successive memorisation (or perception) and recollection (or reproduction) of the initial material.
+Important independent variables that may vary include the chain structure (e.g. the number and sources of preceding recollections a participant is exposed to), the reading or memorising instructions and context, the interval between exposition and recall, the possible task given during that interval, the recall instructions and context, the ordering and organisation of participants in the chain, or the ordering of the content itself in the chain (e.g. is a given participant exposed to material from a single generation of from random generations).
+Typical studies will then analyse the trends in the transformations that occurred, possibly comparing across different chains;
+if, as is often the case, the content itself is too complex to analyse systematically, studies often opt to contrast a simple measure (such as rate of change) for two different populations, two conditions in the independent variables mentioned above, or two minimally different types of content.
+The method is the simplest instantiation of the causal chains of public representation to mental representation to public representation (and so on) described by @sperber_explaining_1996 [p. 99], and has thus garnered much attention in the literature related to CAT.
+
+Earlier work, contemporary to Bartlett, also contributed to the question.
+@maxwell_remembering_1936, for instance, contrasted the evolution through groups of different social status and age, with a story containing deliberate inconsistencies.
+Results?
+
+
+
+
 
 
 ### Criticisms and alternatives {#sec:intro-review-criticisms}
