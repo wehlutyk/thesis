@@ -176,27 +176,28 @@
 <node CREATED="1494941922883" ID="ID_360115485" MODIFIED="1495371355204" TEXT="Transmission chains and derivatives">
 <node COLOR="#669900" CREATED="1495387743835" ID="ID_1749629552" MODIFIED="1495388070941" TEXT="Description of the paradigm and its variations"/>
 <node COLOR="#669900" CREATED="1495388225369" ID="ID_1004762827" MODIFIED="1495388242951" TEXT="It&apos;s the simplest sperberian causal chain"/>
-<node CREATED="1495363440576" ID="ID_49093815" MODIFIED="1495363455571" TEXT="Initial studies around Bartlett">
-<node COLOR="#669900" CREATED="1495208061472" ID="ID_683530871" MODIFIED="1495388790863" TEXT="bartlett_remembering:_1995 the initial studies"/>
-<node COLOR="#669900" CREATED="1495211837824" ID="ID_1016745192" MODIFIED="1495398596971" TEXT="maxwell_remembering_1936 socially determined changes"/>
-<node COLOR="#669900" CREATED="1495216470603" ID="ID_259881039" MODIFIED="1495400702902" TEXT="northway_influence_1936 age and social group [might need reading]"/>
-<node CREATED="1495363543550" ID="ID_683981499" MODIFIED="1495370628988" TEXT="ward_experiment_1949 separation of cultural and psychological forces [might need reading]"/>
-<node CREATED="1495212604038" ID="ID_1147157685" MODIFIED="1495370708825" TEXT="hall_effect_1950 effect of names and titles"/>
-<node CREATED="1495208850405" ID="ID_455619666" MODIFIED="1495370809739" TEXT="gauld_experiments_1967 critical evaluation on the naturally reconstructive aspect of remembering"/>
-<node CREATED="1493995354231" ID="ID_319562942" MODIFIED="1495370091454" TEXT="kashima_recovering_2000 recovers the value of this tradition"/>
+<node COLOR="#669900" CREATED="1495363440576" FOLDED="true" ID="ID_49093815" MODIFIED="1495485541105" TEXT="Initial studies around Bartlett">
+<node CREATED="1495208061472" ID="ID_683530871" MODIFIED="1495483796795" TEXT="bartlett_remembering:_1995 the initial studies"/>
+<node CREATED="1495211837824" ID="ID_1016745192" MODIFIED="1495483796791" TEXT="maxwell_remembering_1936 socially determined changes"/>
+<node CREATED="1495216470603" ID="ID_259881039" MODIFIED="1495483796787" TEXT="northway_influence_1936 age and social group"/>
+<node CREATED="1495363543550" ID="ID_683981499" MODIFIED="1495483796781" TEXT="ward_experiment_1949 separation of cultural and psychological forces"/>
+<node CREATED="1495212604038" ID="ID_1147157685" MODIFIED="1495483796775" TEXT="hall_effect_1950 effect of names and titles"/>
+<node CREATED="1495208850405" ID="ID_455619666" MODIFIED="1495483796768" TEXT="gauld_experiments_1967 critical evaluation on the naturally reconstructive aspect of remembering"/>
+<node CREATED="1493995354231" ID="ID_319562942" MODIFIED="1495483796767" TEXT="kashima_recovering_2000 recovers the value of this tradition"/>
+<node CREATED="1495448214904" ID="ID_1353657991" MODIFIED="1495483796754" TEXT="A theme we repeatedly encounter is the difficulty in &quot;quantifying meaningful material&quot;, or analysing the &quot;wholes&quot;, but also its importance (Gauld &amp; Stepenson 1967 p. 42, Hall 1950 p. 120, Northway 1936 in her focus on &apos;meaningfulness&apos;) [Bartlett 1932 in his concept of &apos;effort after meaning&apos;, is something else]"/>
 </node>
 <node CREATED="1495369615626" ID="ID_1546893395" MODIFIED="1495370366381" TEXT="Recent case-studies">
-<node CREATED="1493995316622" ID="ID_921043700" MODIFIED="1495369706211" TEXT="bangerter_transformation_2000 personification and stereotypification"/>
+<node COLOR="#669900" CREATED="1493995316622" ID="ID_921043700" MODIFIED="1495486587859" TEXT="bangerter_transformation_2000 personification and stereotypification"/>
+<node COLOR="#669900" CREATED="1495216442838" ID="ID_1667633774" MODIFIED="1495486589758" TEXT="mesoudi_hierarchical_2004 hierarchicalisation"/>
+<node CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495370073009" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
 <node CREATED="1495365320819" ID="ID_1116116155" MODIFIED="1495369932215" TEXT="norenzayan_memory_2006 advantage of minimal counter-intuitiveness"/>
 <node CREATED="1495212560402" ID="ID_1538142995" MODIFIED="1495369999214" TEXT="barrett_spreading_2001 advantage of (minimal, not contrasted to maximal) counter-intuitiveness"/>
 <node CREATED="1495212545776" ID="ID_1495095991" MODIFIED="1495369809725" TEXT="heath_emotional_2001 advantage of disgust"/>
-<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495369833422" TEXT="nairne_adaptive_2008 survival processing"/>
-<node CREATED="1495216442838" ID="ID_1667633774" MODIFIED="1495369850939" TEXT="mesoudi_hierarchical_2004 hierarchicalisation"/>
 <node CREATED="1495216674627" ID="ID_1063451996" MODIFIED="1495369863665" TEXT="mesoudi_bias_2006 advantage of social information"/>
-<node CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495370073009" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
 <node CREATED="1495370899163" ID="ID_1471307976" MODIFIED="1495370912211" TEXT="eriksson_advantage_2012 effect of independent presentations"/>
 <node CREATED="1495371051509" ID="ID_1039523031" MODIFIED="1495371593578" TEXT="acerbi_role_2016 effect of redundancy"/>
 <node CREATED="1495370939524" ID="ID_138656506" MODIFIED="1495370958401" TEXT="eriksson_corpses_2014 more detailed phases of transmission"/>
+<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495369833422" TEXT="nairne_adaptive_2008 survival processing"/>
 <node CREATED="1495206081951" ID="ID_1349933213" MODIFIED="1495371075486" TEXT="moussaid_amplification_2015 transmission of risk perception"/>
 <node CREATED="1495206094865" ID="ID_145051952" MODIFIED="1495371084590" TEXT="maccallum_evolution_2012 short music pieces"/>
 <node CREATED="1495216330116" ID="ID_50243682" MODIFIED="1495371217003" TEXT="mcgraw_cultures_2014 breaking culture into smaller components"/>
@@ -303,6 +304,7 @@
 <node CREATED="1493660001231" ID="ID_485121586" MODIFIED="1493660006620" TEXT="Sterelny, Stotz"/>
 <node CREATED="1495365284456" ID="ID_12327459" MODIFIED="1495365285290" TEXT="harder_meaning_2010"/>
 </node>
+<node CREATED="1495446546739" ID="ID_277729483" MODIFIED="1495446565371" TEXT="Note that this could be countered with RT"/>
 </node>
 <node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1495030068648" TEXT="However">
 <node CREATED="1494938919530" FOLDED="true" ID="ID_861755872" MODIFIED="1495026022335" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
@@ -369,7 +371,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1494935680879" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495451775592" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -433,7 +435,13 @@
 <node COLOR="#ff0000" CREATED="1493708779272" ID="ID_1876306470" MODIFIED="1493735536077" TEXT="We find ..."/>
 </node>
 </node>
-<node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
+<node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion">
+<node CREATED="1495449517427" ID="ID_750368804" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
+<node CREATED="1495449533348" ID="ID_1201013665" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
+<node CREATED="1495449566297" ID="ID_1441313823" MODIFIED="1495451734805" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in"/>
+<node CREATED="1495451735222" ID="ID_709154587" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
+<node CREATED="1495449712034" ID="ID_1379835206" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
+</node>
 </node>
 <node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1494930562573" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
