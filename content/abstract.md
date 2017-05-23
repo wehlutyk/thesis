@@ -10,11 +10,11 @@ author: |
     Email: \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
   ] \
   \hfill \
-  Advisor: Jean-Pierre Nadal^[
+  Supervisor: Jean-Pierre Nadal^[
     CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
     Email: \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
   ] \
-  Co-advisor: Camille Roth^[
+  Co-supervisor: Camille Roth^[
     CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po, médialab (Paris).
     Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
