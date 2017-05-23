@@ -229,9 +229,26 @@ This challenge still exists today, and current studies using meaningful material
 While much progress can be made by using these workarounds to quantifying aspects of the material, or by focusing on artefacts bearing no more semantic information than their physical appearance already display, it seems a consensual account of meaning, and a corresponding means of analysis, will be necessary for a full-fledged theory of cultural change to establish itself.
 \change{should this last sentence go later?}
 
-Over the last two decades a regain of interest for these setups, now known as transmission chains, has produced new case studies.
-@bangerter_transformation_2000, for instance, showed that in transmitting a scientifically styled account of human sexual reproduction, subjects tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
+Probably owing to the development of DIT and CAT, the last two decades have seen a regain of interest for this setup (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in the development of new case studies and methodologies.
+Regarding the transformation that material undergoes, @bangerter_transformation_2000 showed for instance that in transmitting a scientifically styled account of human sexual reproduction, subjects tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
 @mesoudi_hierarchical_2004 argued that the loss of detail observed in the transmission of reports of everyday events is due to a hierarchical encoding of memories, biasing subjects' recollections in favour of higher-level descriptions.
+Another line of research focuses on the effect of information being more or less counter-intuitive, a contrast that can help test the Minimal Counter-Intuitiveness theory of religion [@boyer_religion_2001].
+Studies such as @barrett_spreading_2001 and @norenzayan_memory_2006 have thus devised linguistic material with varying degrees of counter-intuitiveness, and measured their differential transformation or conservation in transmission chain setups.
+@purzycki_mci_2016 offers a valuable critical discussion of these works.
+Other studies have focused on similar transmission advantages that certain types of information can have over competing types.
+@kashima_maintaining_2000, for instance, studied the fate of stereotype-consistent and stereotype-inconsistent information in a story, highlighting a higher degradation rate of stereotype-inconsistent information, compared to stereotype-consistent, when that information is relevant to the story plot;
+notably, the effect is not present in background information irrelevant to the plot.
+@heath_emotional_2001 showed an effect of disgust increasing their subjects' willingness to pass on pieces of information.
+@mesoudi_bias_2006 elicited an effect of social information, in which stories about human interactions are better transmitted than individual human stories, or stories involving physical nonhuman elements alone.
+A more recent stream of research has included more explicit work on the individual steps and details of transmission chains.
+
+@eriksson_advantage_2012
+@eriksson_corpses_2014
+@acerbi_role_2016
+@moussaid_amplification_2015
+
+
+
 
 
 

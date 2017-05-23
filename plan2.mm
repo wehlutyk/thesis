@@ -188,16 +188,17 @@
 </node>
 <node CREATED="1495369615626" ID="ID_1546893395" MODIFIED="1495370366381" TEXT="Recent case-studies">
 <node COLOR="#669900" CREATED="1493995316622" ID="ID_921043700" MODIFIED="1495486587859" TEXT="bangerter_transformation_2000 personification and stereotypification"/>
+<node COLOR="#669900" CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495534857176" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
 <node COLOR="#669900" CREATED="1495216442838" ID="ID_1667633774" MODIFIED="1495486589758" TEXT="mesoudi_hierarchical_2004 hierarchicalisation"/>
-<node CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495370073009" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
-<node CREATED="1495365320819" ID="ID_1116116155" MODIFIED="1495369932215" TEXT="norenzayan_memory_2006 advantage of minimal counter-intuitiveness"/>
-<node CREATED="1495212560402" ID="ID_1538142995" MODIFIED="1495369999214" TEXT="barrett_spreading_2001 advantage of (minimal, not contrasted to maximal) counter-intuitiveness"/>
-<node CREATED="1495212545776" ID="ID_1495095991" MODIFIED="1495369809725" TEXT="heath_emotional_2001 advantage of disgust"/>
-<node CREATED="1495216674627" ID="ID_1063451996" MODIFIED="1495369863665" TEXT="mesoudi_bias_2006 advantage of social information"/>
+<node COLOR="#669900" CREATED="1495365320819" ID="ID_1116116155" MODIFIED="1495534499207" TEXT="norenzayan_memory_2006 advantage of minimal counter-intuitiveness"/>
+<node COLOR="#669900" CREATED="1495212560402" ID="ID_1538142995" MODIFIED="1495534501107" TEXT="barrett_spreading_2001 advantage of (minimal, not contrasted to maximal) counter-intuitiveness"/>
+<node COLOR="#669900" CREATED="1495534508843" ID="ID_216876646" MODIFIED="1495534569643" TEXT="purzycki_mci_2016 makes a review for MCI"/>
+<node COLOR="#669900" CREATED="1495212545776" ID="ID_1495095991" MODIFIED="1495535421428" TEXT="heath_emotional_2001 advantage of disgust"/>
+<node COLOR="#669900" CREATED="1495216674627" ID="ID_1063451996" MODIFIED="1495535582521" TEXT="mesoudi_bias_2006 advantage of social information"/>
+<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495535921204" TEXT="[nairne_adaptive_2008 survival processing]"/>
 <node CREATED="1495370899163" ID="ID_1471307976" MODIFIED="1495370912211" TEXT="eriksson_advantage_2012 effect of independent presentations"/>
 <node CREATED="1495371051509" ID="ID_1039523031" MODIFIED="1495371593578" TEXT="acerbi_role_2016 effect of redundancy"/>
 <node CREATED="1495370939524" ID="ID_138656506" MODIFIED="1495370958401" TEXT="eriksson_corpses_2014 more detailed phases of transmission"/>
-<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495369833422" TEXT="nairne_adaptive_2008 survival processing"/>
 <node CREATED="1495206081951" ID="ID_1349933213" MODIFIED="1495371075486" TEXT="moussaid_amplification_2015 transmission of risk perception"/>
 <node CREATED="1495206094865" ID="ID_145051952" MODIFIED="1495371084590" TEXT="maccallum_evolution_2012 short music pieces"/>
 <node CREATED="1495216330116" ID="ID_50243682" MODIFIED="1495371217003" TEXT="mcgraw_cultures_2014 breaking culture into smaller components"/>
