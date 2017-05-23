@@ -173,10 +173,10 @@
 <node COLOR="#669900" CREATED="1495209596291" ID="ID_296498531" MODIFIED="1495387727448" TEXT="Here we&apos;ll look at empirical works relevant for evolution of linguistic materiall"/>
 <node COLOR="#669900" CREATED="1495213230171" ID="ID_1493939914" MODIFIED="1495387727444" TEXT="Questions concern what affects evolution in different domains, what factors are explanatory, and how the changes build up to become cumulative"/>
 <node COLOR="#669900" CREATED="1495209977288" ID="ID_27801044" MODIFIED="1495387727444" TEXT="A central technique is that of serial reproduction and its derivatives, used extensively"/>
-<node CREATED="1494941922883" ID="ID_360115485" MODIFIED="1495371355204" TEXT="Transmission chains and derivatives">
-<node COLOR="#669900" CREATED="1495387743835" ID="ID_1749629552" MODIFIED="1495388070941" TEXT="Description of the paradigm and its variations"/>
-<node COLOR="#669900" CREATED="1495388225369" ID="ID_1004762827" MODIFIED="1495388242951" TEXT="It&apos;s the simplest sperberian causal chain"/>
-<node COLOR="#669900" CREATED="1495363440576" FOLDED="true" ID="ID_49093815" MODIFIED="1495485541105" TEXT="Initial studies around Bartlett">
+<node COLOR="#669900" CREATED="1494941922883" FOLDED="true" ID="ID_360115485" MODIFIED="1495571898475" TEXT="Transmission chains and derivatives">
+<node CREATED="1495387743835" ID="ID_1749629552" MODIFIED="1495571892034" TEXT="Description of the paradigm and its variations"/>
+<node CREATED="1495388225369" ID="ID_1004762827" MODIFIED="1495571892033" TEXT="It&apos;s the simplest sperberian causal chain"/>
+<node CREATED="1495363440576" FOLDED="true" ID="ID_49093815" MODIFIED="1495571892032" TEXT="Initial studies around Bartlett">
 <node CREATED="1495208061472" ID="ID_683530871" MODIFIED="1495483796795" TEXT="bartlett_remembering:_1995 the initial studies"/>
 <node CREATED="1495211837824" ID="ID_1016745192" MODIFIED="1495483796791" TEXT="maxwell_remembering_1936 socially determined changes"/>
 <node CREATED="1495216470603" ID="ID_259881039" MODIFIED="1495483796787" TEXT="northway_influence_1936 age and social group"/>
@@ -186,27 +186,29 @@
 <node CREATED="1493995354231" ID="ID_319562942" MODIFIED="1495483796767" TEXT="kashima_recovering_2000 recovers the value of this tradition"/>
 <node CREATED="1495448214904" ID="ID_1353657991" MODIFIED="1495483796754" TEXT="A theme we repeatedly encounter is the difficulty in &quot;quantifying meaningful material&quot;, or analysing the &quot;wholes&quot;, but also its importance (Gauld &amp; Stepenson 1967 p. 42, Hall 1950 p. 120, Northway 1936 in her focus on &apos;meaningfulness&apos;) [Bartlett 1932 in his concept of &apos;effort after meaning&apos;, is something else]"/>
 </node>
-<node CREATED="1495369615626" ID="ID_1546893395" MODIFIED="1495370366381" TEXT="Recent case-studies">
-<node COLOR="#669900" CREATED="1493995316622" ID="ID_921043700" MODIFIED="1495486587859" TEXT="bangerter_transformation_2000 personification and stereotypification"/>
-<node COLOR="#669900" CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495534857176" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
-<node COLOR="#669900" CREATED="1495216442838" ID="ID_1667633774" MODIFIED="1495486589758" TEXT="mesoudi_hierarchical_2004 hierarchicalisation"/>
-<node COLOR="#669900" CREATED="1495365320819" ID="ID_1116116155" MODIFIED="1495534499207" TEXT="norenzayan_memory_2006 advantage of minimal counter-intuitiveness"/>
-<node COLOR="#669900" CREATED="1495212560402" ID="ID_1538142995" MODIFIED="1495534501107" TEXT="barrett_spreading_2001 advantage of (minimal, not contrasted to maximal) counter-intuitiveness"/>
-<node COLOR="#669900" CREATED="1495534508843" ID="ID_216876646" MODIFIED="1495534569643" TEXT="purzycki_mci_2016 makes a review for MCI"/>
-<node COLOR="#669900" CREATED="1495212545776" ID="ID_1495095991" MODIFIED="1495535421428" TEXT="heath_emotional_2001 advantage of disgust"/>
-<node COLOR="#669900" CREATED="1495216674627" ID="ID_1063451996" MODIFIED="1495535582521" TEXT="mesoudi_bias_2006 advantage of social information"/>
-<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495535921204" TEXT="[nairne_adaptive_2008 survival processing]"/>
-<node CREATED="1495370899163" ID="ID_1471307976" MODIFIED="1495370912211" TEXT="eriksson_advantage_2012 effect of independent presentations"/>
-<node CREATED="1495371051509" ID="ID_1039523031" MODIFIED="1495371593578" TEXT="acerbi_role_2016 effect of redundancy"/>
-<node CREATED="1495370939524" ID="ID_138656506" MODIFIED="1495370958401" TEXT="eriksson_corpses_2014 more detailed phases of transmission"/>
-<node CREATED="1495206081951" ID="ID_1349933213" MODIFIED="1495371075486" TEXT="moussaid_amplification_2015 transmission of risk perception"/>
-<node CREATED="1495206094865" ID="ID_145051952" MODIFIED="1495371084590" TEXT="maccallum_evolution_2012 short music pieces"/>
-<node CREATED="1495216330116" ID="ID_50243682" MODIFIED="1495371217003" TEXT="mcgraw_cultures_2014 breaking culture into smaller components"/>
-<node CREATED="1495216343594" ID="ID_236953719" MODIFIED="1495371527688" TEXT="caldwell_studying_2008, caldwell_experimental_2008, caldwell_experimental_2016 building techniqueo (paper planes and spaghetti towers)"/>
-<node CREATED="1495363898279" ID="ID_565492270" MODIFIED="1495363904477" TEXT="whiten_cultural_2016 makes a review"/>
-<node CREATED="1494945340247" ID="ID_1837604823" MODIFIED="1495206411438" TEXT="mesoudi_multiple_2008 makes a review"/>
+<node CREATED="1495369615626" ID="ID_1546893395" MODIFIED="1495551812886" TEXT="Recent case-studies">
+<node CREATED="1493995316622" ID="ID_921043700" MODIFIED="1495571895966" TEXT="bangerter_transformation_2000 personification and stereotypification"/>
+<node CREATED="1495370065071" ID="ID_365688882" MODIFIED="1495571895966" TEXT="kashima_maintaining_2000 advantage of cultural stereotypes"/>
+<node CREATED="1495216442838" ID="ID_1667633774" MODIFIED="1495571895966" TEXT="mesoudi_hierarchical_2004 hierarchicalisation"/>
+<node CREATED="1495365320819" ID="ID_1116116155" MODIFIED="1495571895965" TEXT="norenzayan_memory_2006 advantage of minimal counter-intuitiveness"/>
+<node CREATED="1495212560402" ID="ID_1538142995" MODIFIED="1495571895962" TEXT="barrett_spreading_2001 advantage of (minimal, not contrasted to maximal) counter-intuitiveness"/>
+<node CREATED="1495534508843" ID="ID_216876646" MODIFIED="1495571895961" TEXT="purzycki_mci_2016 makes a review for MCI"/>
+<node CREATED="1495212545776" ID="ID_1495095991" MODIFIED="1495571895961" TEXT="heath_emotional_2001 advantage of disgust"/>
+<node CREATED="1495216674627" ID="ID_1063451996" MODIFIED="1495571895960" TEXT="mesoudi_bias_2006 advantage of social information"/>
+<node CREATED="1495370899163" ID="ID_1471307976" MODIFIED="1495571895959" TEXT="eriksson_advantage_2012 effect of independent presentations"/>
+<node CREATED="1495371051509" ID="ID_1039523031" MODIFIED="1495571895958" TEXT="acerbi_role_2016 effect of redundancy"/>
+<node CREATED="1495370939524" ID="ID_138656506" MODIFIED="1495571895953" TEXT="eriksson_corpses_2014 more detailed phases of transmission"/>
+<node CREATED="1495206081951" ID="ID_1349933213" MODIFIED="1495571895952" TEXT="moussaid_amplification_2015 transmission of risk perception"/>
+<node CREATED="1495363898279" ID="ID_565492270" MODIFIED="1495571895951" TEXT="whiten_cultural_2016 makes a review"/>
+<node CREATED="1494945340247" ID="ID_1837604823" MODIFIED="1495571895950" TEXT="mesoudi_multiple_2008 makes a review"/>
+<node CREATED="1495216343594" ID="ID_236953719" MODIFIED="1495571895946" TEXT="caldwell_studying_2008, caldwell_experimental_2008, caldwell_experimental_2016 building techniques (paper planes and spaghetti towers)"/>
+<node CREATED="1495216330116" ID="ID_50243682" MODIFIED="1495571895945" TEXT="mcgraw_cultures_2014 breaking culture into smaller components"/>
 </node>
-<node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495371308082" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
+<node CREATED="1495570397838" ID="ID_1847790786" MODIFIED="1495571882557" TEXT="irrelevant, left out">
+<node CREATED="1495363424708" ID="ID_1690867421" MODIFIED="1495551248630" TEXT="nairne_adaptive_2008 survival processing"/>
+<node CREATED="1495206094865" ID="ID_145051952" MODIFIED="1495371084590" TEXT="maccallum_evolution_2012 short music pieces"/>
+</node>
+<node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495571892021" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
 </node>
 <node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495213305575" TEXT="Iterated learning for language">
 <node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495206883350" TEXT="How structure emerges from random"/>
@@ -278,7 +280,7 @@
 </node>
 <node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1495364430026" TEXT="Criticisms, parallels, alternatives">
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495029978780" TEXT="Two types"/>
-<node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1495030033730" TEXT="Inclusion of environment and extension of evolution">
+<node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1495555807977" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
 <node CREATED="1468501815379" ID="ID_177877370" MODIFIED="1493656272401" TEXT="Evo-devo &amp; Eco-evo-devo &amp; Developmental Systems Theory">
 <node CREATED="1494003840163" ID="ID_1558454676" MODIFIED="1494003844933" TEXT="Oyama"/>
 <node CREATED="1494003845437" ID="ID_1066494508" MODIFIED="1494003897500" TEXT="Wimsatt?"/>
@@ -289,8 +291,10 @@
 <node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1494840830300" TEXT="Birth-death processes against simplification of evolution (no fitness landscape)">
 <node CREATED="1494840853435" ID="ID_226072962" MODIFIED="1494840858288" TEXT="Doebeli et al. 2017"/>
 </node>
+<node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1495561268577" TEXT="Population thinking, which is what CAT/DIT have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
+<node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1495561813462" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
 </node>
-<node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1495030039939" TEXT="Information dualism">
+<node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1495555797681" TEXT="External: Information dualism">
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node CREATED="1493652676709" ID="ID_1667765208" MODIFIED="1495204961503" TEXT="Stotz?"/>
 <node CREATED="1493652662611" ID="ID_43955621" MODIFIED="1493652664489" TEXT="Ingold"/>
@@ -372,7 +376,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495451775592" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495547649828" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -435,14 +439,14 @@
 <node CREATED="1493670301784" ID="ID_1992263097" MODIFIED="1493670304864" TEXT="Results">
 <node COLOR="#ff0000" CREATED="1493708779272" ID="ID_1876306470" MODIFIED="1493735536077" TEXT="We find ..."/>
 </node>
-</node>
-<node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion">
 <node CREATED="1495449517427" ID="ID_750368804" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
 <node CREATED="1495449533348" ID="ID_1201013665" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
 <node CREATED="1495449566297" ID="ID_1441313823" MODIFIED="1495451734805" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in"/>
 <node CREATED="1495451735222" ID="ID_709154587" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
 <node CREATED="1495449712034" ID="ID_1379835206" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
+<node CREATED="1495547569285" ID="ID_874424949" MODIFIED="1495547647041" TEXT="The fact that many relults in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
 </node>
+<node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
 <node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1494930562573" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">

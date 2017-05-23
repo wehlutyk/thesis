@@ -70,6 +70,8 @@ I will come back to this line of work in @sec:intro-review-criticisms, and discu
 
 \todo{Maybe add dropped authors? Simmel, Garfinkel, Geertz, Kroeber, Bateson}
 
+\add{risjord-models-2012}
+
 <!--
 
 Dropped authors:
@@ -98,6 +100,8 @@ Dropped authors:
 Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
 Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
 
+\add{? lewens-cultural-2012, p. 466, "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance.}
+
 @cavalli-sforza_cultural_1981 articulated this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
 Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
 By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
@@ -107,6 +111,8 @@ A notable feature of this programme is that it does not constrain itself into a 
 While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from @sec:intro-review-social), the mathematical models do not constrain the concept of culture as much.
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
 I return to this subject in more detail in @sec:intro-review-neighbours.
+
+\add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there isn't substantial disagreement with DIT, which is much less committed to EP.}
 
 In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, or CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
@@ -145,6 +151,7 @@ This specificity of CAT is often highlighted as one of the main differences with
 CAT agrees nonetheless with the idea of gene-culture coevolution developed by DIT [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but have different core focuses [@sterelny_cultural_2017; @acerbi_if_2015].
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
+\add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
 @sec:intro-review-criticisms comes back to these debates and criticisms, which I group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
@@ -240,13 +247,22 @@ Other studies have focused on similar transmission advantages that certain types
 notably, the effect is not present in background information irrelevant to the plot.
 @heath_emotional_2001 showed an effect of disgust increasing their subjects' willingness to pass on pieces of information.
 @mesoudi_bias_2006 elicited an effect of social information, in which stories about human interactions are better transmitted than individual human stories, or stories involving physical nonhuman elements alone.
-A more recent stream of research has included more explicit work on the individual steps and details of transmission chains.
+The extensive reviews provided by @mesoudi_multiple_2008 and @whiten_cultural_2016 give a broader idea of the effects studied and methods used in the literature.
 
-@eriksson_advantage_2012
-@eriksson_corpses_2014
-@acerbi_role_2016
-@moussaid_amplification_2015
+A more recent stream of research includes more explicit work on the individual steps and details of transmission chains.
+@eriksson_advantage_2012, for instance, showed that a setup with two parallel chains that cross-fertilise each other will improve transmission rates:
+at each generation, the two subjects of the two parallel chains receive two inputs, one from each chain at the previous generation, leading to a decrease in information loss compared to a single chain where subjects read twice the same content (of the previous generation).
+@acerbi_role_2016 further modelled such error-correcting redundancy, simulating toy scenarios that could favour its evolution at given cost-reward constraints.
+@eriksson_corpses_2014 continued this detailing endeavour by further breaking down real world transmission into choose-to-receive, encode-and-retrieve, and choose-to-transmit phases;
+focusing on emotional selection as studied by @heath_emotional_2001, they showed that any of those phases can be the target of selection pressure, further noticing that such pressures could be contradictory and could thus considerably complicate the simple picture used up to then.
+@moussaid_amplification_2015, in studying the transmission of risk perception, used a much more free-form setup:
+after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
+A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking subjects to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
+A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that participants could observe the preceding generation during their experimenting and building, thus providing rich context to the learning phase of transmission.
+Perhaps most interesting, @mcgraw_cultures_2014, in studying transmission of Lego car construction techniques, integrate the critiques discussed in @sec:intro-review-criticisms and take the complete joint interaction to be their final object of study, made available through the artefacts that participants build.
+This short review shows there is much room for exploration, on one side, of the methodological choices in transmission chain experiments (some of which will turn out to be more important than others in the trends observed), and on the other, of the theoretical background that sustain a given study, and correspondingly of the debates that such experiments can bring insight to.
 
+\todo{clean up the above}
 
 
 
