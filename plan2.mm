@@ -376,7 +376,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495547649828" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495617708840" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -445,6 +445,8 @@
 <node CREATED="1495451735222" ID="ID_709154587" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
 <node CREATED="1495449712034" ID="ID_1379835206" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
 <node CREATED="1495547569285" ID="ID_874424949" MODIFIED="1495547647041" TEXT="The fact that many relults in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
+<node CREATED="1495613547408" ID="ID_1391117185" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
+<node CREATED="1495613935136" ID="ID_800856184" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>

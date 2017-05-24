@@ -1,6 +1,8 @@
 ## Relevant works
 
+
 ### 20th century traditions
+
 
 #### Social science {#sec:intro-review-social}
 
@@ -102,6 +104,9 @@ Inspired by the same initial analogy as darwinist authors from 20th century trad
 
 \add{? lewens-cultural-2012, p. 466, "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance.}
 
+
+#### Californian
+
 @cavalli-sforza_cultural_1981 articulated this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
 Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
 By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
@@ -111,6 +116,9 @@ A notable feature of this programme is that it does not constrain itself into a 
 While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from @sec:intro-review-social), the mathematical models do not constrain the concept of culture as much.
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
 I return to this subject in more detail in @sec:intro-review-neighbours.
+
+
+#### Parisian
 
 \add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there isn't substantial disagreement with DIT, which is much less committed to EP.}
 
@@ -208,6 +216,9 @@ Simulation and experimental studies of the evolution of morality [@baumard_mutua
 Those last two areas are the most relevant to the evolution of linguistic material, asking what kinds of factors can influence the evolution of content in a given domain, when do the changes build up cumulatively, or what role such accumulation plays in the long term evolution.
 These studies use the serial reproduction paradigm and its derivatives extensively.
 
+
+#### Bartlett's paradigm
+
 The paradigm was initially introduced by @bartlett_remembering:_1995 as a variation of the repeated reproduction method (where each participant must recall the same item after increasing periods of time):
 similar to a game of Chinese Whispers, the experimenter gives a first participant initial material (typically a picture or a short piece of text) with instructions to read or memorise it;
 that participant is later asked to recall or reproduce the material, and the experimenter uses their output as input for the next participant, thus constructing a chain of successive memorisation (or perception) and recollection (or reproduction) of the initial material.
@@ -223,46 +234,54 @@ He found indications that different groups shortened the story at different rate
 @ward_experiment_1949 later related a record of European coin types from 4th to 1st century B.C. to the trends obtained by Bartlett in serial reproduction of pictures, confirming that what Bartlett called "representative detached details", that is parts of a picture that represent a distinctive pattern or object even when isolated from the whole, are well preserved both in artificial and historical serial reproductions.
 Ward thus suggests that comparing historical data to results of serial reproduction experiments can sometimes be a useful method to investigate the influence of universal-psychological versus local-cultural factors in theories of historical evolution of artefacts.
 @hall_effect_1950 further explored hypotheses made by Bartlett on the effect of titles for pictorial and verbal serial reproduction:
-in those new experiments, it appeared that titles had a considerable influence on the reproduction of both pictures and texts, by acting as an interpretive frame that guides (or confuses) the subjects in interpreting the material.^[
+in those new experiments, it appeared that titles had a considerable influence on the reproduction of both pictures and texts, by acting as an interpretive frame that guides (or confuses) the participants in interpreting the material.^[
   Hall also notes that such results have crucial political implications given the development mass media: "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered." [@hall_effect_1950, p. 120]
 ]
 @gauld_experiments_1967, while still praising Bartlett for the progress his work represented compared to that of his predecessors, expressed a more critical stance on the reliability of serial reproductions experiments.
-Indeed the authors showed that changing the exposition instructions, for instance by giving strict memorisation instructions, or by adding a simple sentence asking subjects to be "accurate", will considerably reduce the transformation rate in the resulting chains, a fact that questions the effect measured by a setup without explicit memorisation instructions.
-They also examined the level of conscientiousness of the subjects in accomplishing their task, showing that it correlated negatively to the subjects' transformation rate, thus suggesting that "errors could, it seemed, be avoided, if the subject was so inclined" [-@gauld_experiments_1967, p. 45] (this effect was not explained away by a measure of intelligence of subjects), an issue that should be solvable by designing experiments that create an intrinsic motivation for subjects to adopt the behaviour under study.
+Indeed the authors showed that changing the exposition instructions, for instance by giving strict memorisation instructions, or by adding a simple sentence asking participants to be "accurate", will considerably reduce the transformation rate in the resulting chains, a fact that questions the effect measured by a setup without explicit memorisation instructions.
+They also examined the level of conscientiousness of the participants in accomplishing their task, showing that it correlated negatively to the participants' transformation rate, thus suggesting that "errors could, it seemed, be avoided, if the subject was so inclined" [-@gauld_experiments_1967, p. 45] (this effect was not explained away by a measure of intelligence of participants), an issue that should be solvable by designing experiments that create an intrinsic motivation for participants to adopt the behaviour under study.
 More recently, @kashima_recovering_2000 offered a reappraisal of Bartlett's contributions and his view of the interaction of culture and psychology, in the context of current social psychology and in relation to views of culture from social science such as those evoked in @sec:intro-review-social.
 One recurrent problem, found across most of these studies, is the difficulty in quantitatively analysing meaning in the material [see the focus of @northway_influence_1936 on meaningfulness; @hall_effect_1950, p. 120; @gauld_experiments_1967, p. 42].
-Instead, studies recur to analyses of form, survival, or other measurable aspects of the subjects' productions (e.g. for linguistic material, the length of a recollection, the number of words, concepts, or propositions accurately recalled, or a contrast of the concepts conserved at the end of the chains).
+Instead, studies recur to analyses of form, survival, or other measurable aspects of the participants' productions (e.g. for linguistic material, the length of a recollection, the number of words, concepts, or propositions accurately recalled, or a contrast of the concepts conserved at the end of the chains).
 This challenge still exists today, and current studies using meaningful material use the same fundamental techniques to get by (indeed, the studies presented here are no exception).
 While much progress can be made by using these workarounds to quantifying aspects of the material, or by focusing on artefacts bearing no more semantic information than their physical appearance already display, it seems a consensual account of meaning, and a corresponding means of analysis, will be necessary for a full-fledged theory of cultural change to establish itself.
 \change{should this last sentence go later?}
 
+
+#### Contemporary revival
+
 Probably owing to the development of DIT and CAT, the last two decades have seen a regain of interest for this setup (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in the development of new case studies and methodologies.
-Regarding the transformation that material undergoes, @bangerter_transformation_2000 showed for instance that in transmitting a scientifically styled account of human sexual reproduction, subjects tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
-@mesoudi_hierarchical_2004 argued that the loss of detail observed in the transmission of reports of everyday events is due to a hierarchical encoding of memories, biasing subjects' recollections in favour of higher-level descriptions.
+Regarding the transformation that material undergoes, @bangerter_transformation_2000 showed for instance that in transmitting a scientifically styled account of human sexual reproduction, participants tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
+@mesoudi_hierarchical_2004 argued that the loss of detail observed in the transmission of reports of everyday events is due to a hierarchical encoding of memories, biasing participants' recollections in favour of higher-level descriptions.
 Another line of research focuses on the effect of information being more or less counter-intuitive, a contrast that can help test the Minimal Counter-Intuitiveness theory of religion [@boyer_religion_2001].
 Studies such as @barrett_spreading_2001 and @norenzayan_memory_2006 have thus devised linguistic material with varying degrees of counter-intuitiveness, and measured their differential transformation or conservation in transmission chain setups.
 @purzycki_mci_2016 offers a valuable critical discussion of these works.
 Other studies have focused on similar transmission advantages that certain types of information can have over competing types.
 @kashima_maintaining_2000, for instance, studied the fate of stereotype-consistent and stereotype-inconsistent information in a story, highlighting a higher degradation rate of stereotype-inconsistent information, compared to stereotype-consistent, when that information is relevant to the story plot;
 notably, the effect is not present in background information irrelevant to the plot.
-@heath_emotional_2001 showed an effect of disgust increasing their subjects' willingness to pass on pieces of information.
+@heath_emotional_2001 showed an effect of disgust increasing their participants' willingness to pass on pieces of information.
 @mesoudi_bias_2006 elicited an effect of social information, in which stories about human interactions are better transmitted than individual human stories, or stories involving physical nonhuman elements alone.
 The extensive reviews provided by @mesoudi_multiple_2008 and @whiten_cultural_2016 give a broader idea of the effects studied and methods used in the literature.
 
 A more recent stream of research includes more explicit work on the individual steps and details of transmission chains.
 @eriksson_advantage_2012, for instance, showed that a setup with two parallel chains that cross-fertilise each other will improve transmission rates:
-at each generation, the two subjects of the two parallel chains receive two inputs, one from each chain at the previous generation, leading to a decrease in information loss compared to a single chain where subjects read twice the same content (of the previous generation).
+at each generation, the two participants of the two parallel chains receive two inputs, one from each chain at the previous generation, leading to a decrease in information loss compared to a single chain where participants read twice the same content (of the previous generation).
 @acerbi_role_2016 further modelled such error-correcting redundancy, simulating toy scenarios that could favour its evolution at given cost-reward constraints.
 @eriksson_corpses_2014 continued this detailing endeavour by further breaking down real world transmission into choose-to-receive, encode-and-retrieve, and choose-to-transmit phases;
 focusing on emotional selection as studied by @heath_emotional_2001, they showed that any of those phases can be the target of selection pressure, further noticing that such pressures could be contradictory and could thus considerably complicate the simple picture used up to then.
 @moussaid_amplification_2015, in studying the transmission of risk perception, used a much more free-form setup:
 after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
-A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking subjects to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
+A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
 A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that participants could observe the preceding generation during their experimenting and building, thus providing rich context to the learning phase of transmission.
-Perhaps most interesting, @mcgraw_cultures_2014, in studying transmission of Lego car construction techniques, integrate the critiques discussed in @sec:intro-review-criticisms and take the complete joint interaction to be their final object of study, made available through the artefacts that participants build.
+Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-criticisms:
+the authors take the complete joint interaction to be their ultimate object of study, proposing to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
+By looking at the characteristics of the cars built by participants, the authors claim their study "presents methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4].
 This short review shows there is much room for exploration, on one side, of the methodological choices in transmission chain experiments (some of which will turn out to be more important than others in the trends observed), and on the other, of the theoretical background that sustain a given study, and correspondingly of the debates that such experiments can bring insight to.
 
 \todo{clean up the above}
+
+
+#### Iterated learning
 
 
 
