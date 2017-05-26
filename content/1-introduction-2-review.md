@@ -1,5 +1,6 @@
 ## Relevant works
 
+\todo{clean up cultural vs. biological talk (e.g. "cultural" evolution: what's the "cultural" in it?)}
 
 ### 20th century traditions
 
@@ -103,6 +104,8 @@ Today's discussion of the ties between culture and psychology is more influenced
 Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
 
 \add{? lewens-cultural-2012, p. 466, "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance.}
+
+\add{scott-phillips-simple-2017}
 
 
 #### Californian
@@ -276,15 +279,46 @@ A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that 
 Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-criticisms:
 the authors take the complete joint interaction to be their ultimate object of study, proposing to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
 By looking at the characteristics of the cars built by participants, the authors claim their study "presents methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4].
+[These experiments are further analysed in @mitkidis_building_2015; and @wallot_beyond_2016].
 This short review shows there is much room for exploration, on one side, of the methodological choices in transmission chain experiments (some of which will turn out to be more important than others in the trends observed), and on the other, of the theoretical background that sustain a given study, and correspondingly of the debates that such experiments can bring insight to.
 
 \todo{clean up the above}
 
 
-#### Iterated learning
+#### Experimental semiotics and Iterated learning
 
+A related strand of research develops similar methods to study the emergence and evolution of language.
+A central experimental paradigm is that of iterated learning, which resembles a transmission chain for artificial languages:
+a first group of participants must learn to use a simple artificial language (e.g. an artificial vocabulary for naming a range of objects), after which a second group of participants must learn that language through some interaction with or transmission from the first group.
+The process is then iterated over successive generations.
+Another paradigm is the repeated cooperative task, where participants are paired and assigned a task that they must solve cooperatively.
+Most often, participants can use a communication channel (or must create it) to help in coordination, and researchers can investigate the way participants iteratively develop conventions over such a channel.
+Studies using these paradigms show that even simple biases in participants' interactions and learning capabilities can lead the final evolved communication system to exhibit significant structure.
+Factors under study include the pressure for simplicity or compressibility to ease learning, the structure of the meanings to communicate, the surrounding context, the transmission or interaction task for iterated learning, and the reinforcement rules favouring expressivity of the language.
 
+A first major goal in this stream is to provide an non-nativist account of the emergence of communication systems, and of their structure [@kirby_innateness_2007].
+@galantucci_experimental_2005, for instance, studied pairs of participants facing a cooperative task requiring the development of ad hoc communication conventions to solve.
+The communication channel, a form of shared whiteboard, distorted participants' input by a constant drift such that they could not enter letters or pictorial drawings.
+The study highlighted the variety of strategies the participants used to develop conventional sign systems.
+In particular it showed the way those systems adapted to and depended on the history of the participants, and were deeply meshed with situation- and time-dependent information available, allowing the participants to solve their task by dynamically coordinating [@galantucci_experimental_2005, pp. 748-749].
+Stripping down a little further the set of assumptions built into the experimental setup, @scott-phillips_signalling_2009 created a cooperative task without providing a communication channel parallel to the task itself.
+To solve the challenge, participants thus had to develop a communication system where their own behaviour in the task could become an embodied communicative signal, aside from, at other times, accomplishing their action for the task.
+Here too, the authors underline the importance of developing a dialogue, based on common ground provided by the history of interactions, to bootstrap the creation of a communication system that can solve the task in all situations.
+@kirby_cumulative_2008 used an iterated learning setup to study the emergence of structure in an initially random artificial vocabulary set, which participants had to learn, use, and extrapolate in naming events (events were a combination of a shape, a colour, and a movement).
+By filtering ambiguities in the output vocabulary produced by one participant and given to the next, the authors were able to create a pressure for expressivity of the complete vocabulary;
+combined with the learnability pressure inherent to the task, and the fact that participants had to extrapolate to unknown events, the vocabulary gradually evolved to regularise variation with the emergence of compositionality which corresponded to the three dimensions of the events to name.
+Crucially, the participants were not aware of the goals of the experiment, nor that they were part of a chain:
+the emergent structure in the vocabulary thus appeared without intentional design.
+@verhoef_emergence_2014 used the same paradigm to investigate the emergence of combinatorial structure and distinctiveness in a set of acoustic signals devoid of meaning, that participants had to learn and reproduce.
+@cornish_systems_2013 encountered similar results for sequences of categorical items:
+since participants must reproduce the complete set of sequences, or acoustic signals, at each generation, the set functions as a system for which learning pressures gradually increase the combinatorial structure.
+Relying on the observation that a large part of the meaning of an utterance comes from its situational context, @winters_languages_2015 studied the influence of the situations in which participants use vocabulary items on the structure of the language that evolves from iterated learning and interaction.
+The authors show that, even when the complete set of items to name features more diversity, the vocabulary set often evolves to encode the sole item features that are relevant for the particular situational contexts in which those items appeared;
+in particular, if the usage situations shields the users from certain contrasts between items, the final vocabulary is often under-specified by not encoding those contrasts, instead adapting to be useful in the situations under which it evolved.
+This stream of research is active and developing to its full potential by gradually relaxing the constraining hypotheses initial studies have made.
+Making the meaning space more realistic, for instance, @carr_cultural_2017 further explore the emergence of vocabulary sets where participants communicate about a continuous unbounded set of meanings.
 
+A second central question concerns how an already structured communication system evolves given a set of external, learning, or interaction pressures.
 
 
 

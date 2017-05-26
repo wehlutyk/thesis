@@ -210,23 +210,42 @@
 </node>
 <node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495571892021" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
 </node>
-<node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495213305575" TEXT="Iterated learning for language">
-<node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495206883350" TEXT="How structure emerges from random"/>
+<node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495622712384" TEXT="Iterated learning for language">
+<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495793668808" TEXT="How structure emerges">
+<node CREATED="1495639497845" ID="ID_1139763362" MODIFIED="1495793665693" TEXT="kirby_innateness_2007 introduce the idea that biases and constraints in learning have non-trivial emergent effects, and can be a non-nativist explanation for structure in language"/>
+<node CREATED="1495619552834" ID="ID_503814706" MODIFIED="1495793665690" TEXT="galantucci_experimental_2005 emergence of communication conventions in a game"/>
+<node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495793665687" TEXT="kirby_cumulative_2008 emergence of structure in artificial language"/>
+<node CREATED="1495621836307" ID="ID_1052739944" MODIFIED="1495793665682" TEXT="scott-phillips_signalling_2009 emergence of signalhood, with path dependence, need for common ground, and interaction"/>
+<node CREATED="1495620889107" ID="ID_1584736689" MODIFIED="1495793665676" TEXT="verhoef_emergence_2014 emergence of distinctiveness and reuse of phonological building blocks through iterated learning"/>
+<node CREATED="1495206470234" ID="ID_38634772" MODIFIED="1495793665672" TEXT="cornish_systems_2013 emergence of structure in linear sequences"/>
+<node CREATED="1495639457370" ID="ID_1018779807" MODIFIED="1495793665666" TEXT="winters_languages_2015 show how different language systems emerge from different contexts of iterated learning"/>
+<node CREATED="1495702909628" ID="ID_962829969" MODIFIED="1495793665664" TEXT="carr_cultural_2017 studies emergence in a continuous meaning space"/>
+</node>
+<node CREATED="1495622712375" ID="ID_1528105389" MODIFIED="1495622719207" TEXT="How existing structure changes">
+<node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495622692078" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
+<node CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495619936941" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
+<node CREATED="1495620304532" ID="ID_1664253220" MODIFIED="1495620324967" TEXT="xu_cultural_2013 color naming systems that converge due to cognitive effects"/>
+<node CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495621504504" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
+<node CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495625519800" TEXT="kirby_compression_2015 pit compressibility and expressivity against each other"/>
+<node CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495643044730" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
+<node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495789791609" TEXT="caldwell_cultural_2012"/>
+</node>
+<node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495626373404" TEXT="Bayesian track">
+<node CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1495621589123" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
+<node CREATED="1495625328588" ID="ID_1626292785" MODIFIED="1495625335404" TEXT="kalish_iterated_2007 confirms through experiment"/>
+<node CREATED="1495369562340" ID="ID_79116912" MODIFIED="1495626256259" TEXT="griffiths_using_2008 use that to reveal inductive biases on distributions (which is the interesting novel part)"/>
+<node CREATED="1495369550714" ID="ID_1657679782" MODIFIED="1495626220146" TEXT="griffiths_theoretical_2008 discuss what that means for the influence of cognition on cultural evolution"/>
+<node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1495626426746" TEXT="reali_evolution_2009 explore the implications on the biases, so that regularised language can evolve"/>
+<node CREATED="1495621662791" ID="ID_608550428" MODIFIED="1495625756602" TEXT="perfors_language_2014 show that the world also has an effect, and that the result depends on the structure of meanings"/>
+</node>
+<node CREATED="1495621656995" ID="ID_932549731" MODIFIED="1495624779116" TEXT="Other effects">
+<node CREATED="1495622624725" ID="ID_1928180774" MODIFIED="1495622650113" TEXT="silvey_word_2015 show that underspecification corresponds to backgrounded dimensions during learning"/>
+<node CREATED="1495622199744" ID="ID_1203863105" MODIFIED="1495622340921" TEXT="fay_interactive_2010 contrasts iterated learning with social collaboration, showing that interaction is crucial (something not predicted by iterated learning)"/>
+</node>
+<node CREATED="1495639475962" ID="ID_1898835068" MODIFIED="1495642181290" TEXT="scott-phillips_language_2010 makes a review"/>
 <node CREATED="1495206414356" ID="ID_546543859" MODIFIED="1495207978167" TEXT="tamariz_cultural_2016 makes a review"/>
-<node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495206448774" TEXT="kirby_cumulative_2008"/>
-<node CREATED="1495206470234" ID="ID_38634772" MODIFIED="1495206471562" TEXT="cornish_systems_2013"/>
-<node CREATED="1495364138790" ID="ID_1979845081" MODIFIED="1495364139958" TEXT="kalish_iterated_2007"/>
-<node CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495363583486" TEXT="kirby_compression_2015"/>
-<node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1495207980123" TEXT="reali_evolution_2009"/>
-<node CREATED="1495369550714" ID="ID_1657679782" MODIFIED="1495369551571" TEXT="griffiths_theoretical_2008"/>
-<node CREATED="1495369562340" ID="ID_79116912" MODIFIED="1495369562919" TEXT="griffiths_using_2008"/>
-<node COLOR="#ff0000" CREATED="1495206887275" ID="ID_299033739" MODIFIED="1495213153558" TEXT="Add from Kirby, Cornish, Kalish, Tamariz, Steels, Scott-Phillips and Iterated learning collection">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1495206045088" ID="ID_118315609" MODIFIED="1495206050115" TEXT="Language evolution">
-<node CREATED="1495206909505" ID="ID_987451768" MODIFIED="1495206913135" TEXT="How existing structure evolves"/>
-<node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495206908802" TEXT="croft_evolutionary_2013"/>
-</node>
+<node CREATED="1495709798963" ID="ID_1601091658" MODIFIED="1495709810769" TEXT="roberts_investigating_2017 makes a review for Experimental Semiotics"/>
+<node CREATED="1495627018627" ID="ID_1634009615" MODIFIED="1495642186682" TEXT="scott-phillips_pragmatics_2017 reinstates pragmatics and asks &quot;what are our questions&quot;"/>
 </node>
 <node CREATED="1495207005784" ID="ID_877220069" MODIFIED="1495207749455" TEXT="Digital media">
 <node CREATED="1495207635161" ID="ID_341691855" MODIFIED="1495207639275" TEXT="CAT/DIT?">
@@ -295,6 +314,7 @@
 <node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1495561813462" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
 </node>
 <node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1495555797681" TEXT="External: Information dualism">
+<node CREATED="1495619970780" ID="ID_886147555" MODIFIED="1495620004406" TEXT="Most articles talk of cultural vs. biological evolution, when there could be no core separation"/>
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node CREATED="1493652676709" ID="ID_1667765208" MODIFIED="1495204961503" TEXT="Stotz?"/>
 <node CREATED="1493652662611" ID="ID_43955621" MODIFIED="1493652664489" TEXT="Ingold"/>
@@ -308,8 +328,13 @@
 <node CREATED="1468501807980" ID="ID_661726123" MODIFIED="1468501810831" TEXT="Wittgenstein"/>
 <node CREATED="1493660001231" ID="ID_485121586" MODIFIED="1493660006620" TEXT="Sterelny, Stotz"/>
 <node CREATED="1495365284456" ID="ID_12327459" MODIFIED="1495365285290" TEXT="harder_meaning_2010"/>
+<node CREATED="1495622367706" ID="ID_215422855" MODIFIED="1495642365367" TEXT="While most iterated learing take interaction into account, they still separate the emergence of the communication system from its participants, so presuppose agents that know how to communicate, but just need to evolve a channel (sort of like in the film &quot;The Martian&quot;) (note that scott-phillips_language_2010, p. 416, notices that)"/>
 </node>
 <node CREATED="1495446546739" ID="ID_277729483" MODIFIED="1495446565371" TEXT="Note that this could be countered with RT"/>
+<node CREATED="1495639738508" ID="ID_805605721" MODIFIED="1495639748122" TEXT="And there&apos;s discussion of meaning with great apes">
+<node CREATED="1495639909080" ID="ID_1779798366" MODIFIED="1495640014294" TEXT="Based on the definition that meaning is overt intention that is recognised (Grice&apos;s definition)"/>
+<node CREATED="1495638920191" ID="ID_214433918" MODIFIED="1495640457973" TEXT="scott-phillips_meaning_2015 / moore_meaning_2016 / scott-phillips_meaning_2016"/>
+</node>
 </node>
 <node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1495030068648" TEXT="However">
 <node CREATED="1494938919530" FOLDED="true" ID="ID_861755872" MODIFIED="1495026022335" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
@@ -376,7 +401,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1495617708840" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" ID="ID_281753914" MODIFIED="1495620536488" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -386,6 +411,10 @@
 <node CREATED="1494060733021" ID="ID_354448553" MODIFIED="1494060740693" TEXT="Attraction factors can be">
 <node CREATED="1494060741709" ID="ID_1538202575" MODIFIED="1494060749009" TEXT="psychological / ecological"/>
 <node CREATED="1494060749410" ID="ID_232271554" MODIFIED="1494060753702" TEXT="local / global"/>
+</node>
+<node CREATED="1495620552970" ID="ID_823495520" MODIFIED="1495620559705" TEXT="In the literature, there is">
+<node CREATED="1495620561986" ID="ID_1072318537" MODIFIED="1495620596744" TEXT="Contrasts of content types, some old studies on the transformations of content"/>
+<node CREATED="1495620597406" ID="ID_1658502244" MODIFIED="1495620620282" TEXT="Iterated learning which focuses on the emergence of the communication means"/>
 </node>
 <node CREATED="1493671327434" ID="ID_326009337" MODIFIED="1494061976052" TEXT="We&apos;re going for">
 <node CREATED="1494061977375" ID="ID_128839028" MODIFIED="1494061996835" TEXT="The actual evolution of content, not only a contrast"/>
@@ -435,7 +464,7 @@
 <node CREATED="1493670327524" ID="ID_567804241" MODIFIED="1493735488470" TEXT="Exp 2: Exploring effect and evolution of memorability"/>
 <node CREATED="1493670457098" ID="ID_1147811019" MODIFIED="1493735522093" TEXT="Exp 3: Testing for standardised simplification of content, and some case-specific effects"/>
 </node>
-<node CREATED="1494010760232" ID="ID_515743791" MODIFIED="1494010814262" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;)"/>
+<node CREATED="1494010760232" ID="ID_515743791" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
 <node CREATED="1493670301784" ID="ID_1992263097" MODIFIED="1493670304864" TEXT="Results">
 <node COLOR="#ff0000" CREATED="1493708779272" ID="ID_1876306470" MODIFIED="1493735536077" TEXT="We find ..."/>
 </node>
