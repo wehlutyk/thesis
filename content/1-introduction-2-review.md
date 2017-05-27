@@ -285,7 +285,7 @@ This short review shows there is much room for exploration, on one side, of the 
 \todo{clean up the above}
 
 
-#### Experimental semiotics and Iterated learning
+#### Language change: Experimental semiotics and Iterated learning
 
 A related strand of research develops similar methods to study the emergence and evolution of language.
 A central experimental paradigm is that of iterated learning, which resembles a transmission chain for artificial languages:
@@ -319,6 +319,27 @@ This stream of research is active and developing to its full potential by gradua
 Making the meaning space more realistic, for instance, @carr_cultural_2017 further explore the emergence of vocabulary sets where participants communicate about a continuous unbounded set of meanings.
 
 A second central question concerns how an already structured communication system evolves given a set of external, learning, or interaction pressures.
+@croft_evolutionary_2013 provides probably the best articulated framework for this question.
+Indeed, Croft develops a balanced theory of language change inspired by principles from biological evolution, drawing on most of the recent debates on the nature of the evolutionary process to define what he considers to be the unit of evolution in such a framework.
+The author relies on Hull's General Analysis of Selection [@croft_evolutionary_2013, p. 16] to abstract out the principles of evolutionary processes;
+this leads to a distinction between replicator, interactor, and selection, three core components that provide "a model for disentangling different cultural evolutionary processes and identifying their interconnections" [@croft_evolutionary_2013, p. 18].
+Thus the Theory of Utterance Selection proposed by Croft considers linguemes, that is the linguistic structure of sounds, words, constructions and utterances, to be replicators;
+language speakers are the interactors [-@croft_evolutionary_2013, p. 16], and the theory defines language as the "population of utterances in a speech community" [-@croft_evolutionary_2013, p. 35].
+Further taking stock of the critique that Developmental Systems Theory opposes to a gene-centred view of biological evolution [@oyama_cycles_2001], Croft insists that the theory consider utterances to be full life cycles made of pronunciation, meaning, and interpretation in context.
+A number of existing studies fit well in this framework.
+@tamariz_cultural_2014, for instance, used a common setup requiring participants to develop a pictorial vocabulary for a pre-given set of words, and modelled the trends participants exhibit in changing the signs they use as they go through the interactions of the experiment.
+The authors found that participants do not select new signs neutrally;
+rather, they tend to re-use signs they have used in the past, unless they encounter a sign seemingly superior in representative power.
+Using a comparable setup where participants had to extrapolate a colour-naming vocabulary, a subset of which was then transmitted to the next generation, @xu_cultural_2013 observed that cognitive biases in colour grouping (though probably culture-specific) played an important role in the evolution and convergence of vocabulary terms.
+Similarly, in a picture-description transmission chain using an artificial minimal language, @smith_eliminating_2010 showed that individual participant biases accumulated to regularise the marking of plural in the evolved language.
+@kirby_compression_2015, while studying the emergence of structure as the result of combined pressures of expressivity and compressibility [the latter often attributed to learning, @tamariz_culture:_2015], hint to the fact that the way structure emerges and evolves is highly dependent on the combination of such pressures.
+They note, in particular, that "there is some suggestive evidence that structure in language can be modulated by the composition of populations" [@kirby_compression_2015, p. 99]:
+different communication patterns at the population level, or a different fabric in the population responsible for the transmission and evolution of a language (e.g. more second-language learners, or more children learners), should lead to differences in the evolution of language structure.
+
+
+
+
+
 
 
 

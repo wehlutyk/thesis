@@ -211,7 +211,7 @@
 <node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495571892021" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
 </node>
 <node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495622712384" TEXT="Iterated learning for language">
-<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495793668808" TEXT="How structure emerges">
+<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495872903894" TEXT="How structure emerges">
 <node CREATED="1495639497845" ID="ID_1139763362" MODIFIED="1495793665693" TEXT="kirby_innateness_2007 introduce the idea that biases and constraints in learning have non-trivial emergent effects, and can be a non-nativist explanation for structure in language"/>
 <node CREATED="1495619552834" ID="ID_503814706" MODIFIED="1495793665690" TEXT="galantucci_experimental_2005 emergence of communication conventions in a game"/>
 <node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495793665687" TEXT="kirby_cumulative_2008 emergence of structure in artificial language"/>
@@ -222,12 +222,12 @@
 <node CREATED="1495702909628" ID="ID_962829969" MODIFIED="1495793665664" TEXT="carr_cultural_2017 studies emergence in a continuous meaning space"/>
 </node>
 <node CREATED="1495622712375" ID="ID_1528105389" MODIFIED="1495622719207" TEXT="How existing structure changes">
-<node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495622692078" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
-<node CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495619936941" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
-<node CREATED="1495620304532" ID="ID_1664253220" MODIFIED="1495620324967" TEXT="xu_cultural_2013 color naming systems that converge due to cognitive effects"/>
-<node CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495621504504" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
-<node CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495625519800" TEXT="kirby_compression_2015 pit compressibility and expressivity against each other"/>
-<node CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495643044730" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
+<node COLOR="#669900" CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495812929668" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
+<node COLOR="#669900" CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495869861899" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
+<node COLOR="#669900" CREATED="1495620304532" ID="ID_1664253220" MODIFIED="1495871401374" TEXT="xu_cultural_2013 color naming systems that converge due to cognitive effects"/>
+<node COLOR="#669900" CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495871883984" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
+<node COLOR="#669900" CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495872901233" TEXT="kirby_compression_2015 pit compressibility and expressivity against each other"/>
+<node COLOR="#669900" CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495873879870" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
 <node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495789791609" TEXT="caldwell_cultural_2012"/>
 </node>
 <node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495626373404" TEXT="Bayesian track">
@@ -297,8 +297,13 @@
 <node CREATED="1468510510941" ID="ID_874854629" MODIFIED="1468510514855" TEXT="Smartphone psychology"/>
 </node>
 </node>
-<node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1495364430026" TEXT="Criticisms, parallels, alternatives">
-<node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495029978780" TEXT="Two types"/>
+<node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1495804119352" TEXT="Criticisms, parallels, alternatives">
+<node CREATED="1495804119296" ID="ID_219898960" MODIFIED="1495804123029" TEXT="Introduction">
+<node CREATED="1495803943665" ID="ID_545778993" MODIFIED="1495804075763" TEXT="There are important debates in biology and philosophy of biology on the nature of evolution (as Croft, 2013: 7, says)"/>
+<node CREATED="1495804076346" ID="ID_687606349" MODIFIED="1495804081372" TEXT="This section looks at those, asking whether they are relevant for evolution of linguistic material (just like Croft)"/>
+<node CREATED="1495804082018" ID="ID_1321390925" MODIFIED="1495804092394" TEXT="We come back to this in the last chapter"/>
+<node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
+</node>
 <node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1495555807977" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
 <node CREATED="1468501815379" ID="ID_177877370" MODIFIED="1493656272401" TEXT="Evo-devo &amp; Eco-evo-devo &amp; Developmental Systems Theory">
 <node CREATED="1494003840163" ID="ID_1558454676" MODIFIED="1494003844933" TEXT="Oyama"/>
@@ -312,6 +317,9 @@
 </node>
 <node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1495561268577" TEXT="Population thinking, which is what CAT/DIT have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
 <node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1495561813462" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
+<node CREATED="1495804289448" ID="ID_1368201378" MODIFIED="1495804290009" TEXT="scott-phillips_niche_2014"/>
+<node CREATED="1495804316168" ID="ID_1596416469" MODIFIED="1495804316643" TEXT="laland_does_2014"/>
+<node CREATED="1495804909466" ID="ID_1017589583" MODIFIED="1495804917303" TEXT="sterelny_sex_1999 review the problems (?)"/>
 </node>
 <node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1495555797681" TEXT="External: Information dualism">
 <node CREATED="1495619970780" ID="ID_886147555" MODIFIED="1495620004406" TEXT="Most articles talk of cultural vs. biological evolution, when there could be no core separation"/>
@@ -479,7 +487,7 @@
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1494930562573" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1495804040546" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
