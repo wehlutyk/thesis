@@ -211,24 +211,26 @@
 <node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495571892021" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
 </node>
 <node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495622712384" TEXT="Iterated learning for language">
-<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495872903894" TEXT="How structure emerges">
-<node CREATED="1495639497845" ID="ID_1139763362" MODIFIED="1495793665693" TEXT="kirby_innateness_2007 introduce the idea that biases and constraints in learning have non-trivial emergent effects, and can be a non-nativist explanation for structure in language"/>
-<node CREATED="1495619552834" ID="ID_503814706" MODIFIED="1495793665690" TEXT="galantucci_experimental_2005 emergence of communication conventions in a game"/>
-<node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495793665687" TEXT="kirby_cumulative_2008 emergence of structure in artificial language"/>
-<node CREATED="1495621836307" ID="ID_1052739944" MODIFIED="1495793665682" TEXT="scott-phillips_signalling_2009 emergence of signalhood, with path dependence, need for common ground, and interaction"/>
-<node CREATED="1495620889107" ID="ID_1584736689" MODIFIED="1495793665676" TEXT="verhoef_emergence_2014 emergence of distinctiveness and reuse of phonological building blocks through iterated learning"/>
-<node CREATED="1495206470234" ID="ID_38634772" MODIFIED="1495793665672" TEXT="cornish_systems_2013 emergence of structure in linear sequences"/>
-<node CREATED="1495639457370" ID="ID_1018779807" MODIFIED="1495793665666" TEXT="winters_languages_2015 show how different language systems emerge from different contexts of iterated learning"/>
-<node CREATED="1495702909628" ID="ID_962829969" MODIFIED="1495793665664" TEXT="carr_cultural_2017 studies emergence in a continuous meaning space"/>
+<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495900992367" TEXT="How structure emerges">
+<node CREATED="1495639497845" ID="ID_1139763362" MODIFIED="1495900990572" TEXT="kirby_innateness_2007 introduce the idea that biases and constraints in learning have non-trivial emergent effects, and can be a non-nativist explanation for structure in language"/>
+<node CREATED="1495619552834" ID="ID_503814706" MODIFIED="1495900990582" TEXT="galantucci_experimental_2005 emergence of communication conventions in a game"/>
+<node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495900990587" TEXT="kirby_cumulative_2008 emergence of structure in artificial language"/>
+<node CREATED="1495621836307" ID="ID_1052739944" MODIFIED="1495900990588" TEXT="scott-phillips_signalling_2009 emergence of signalhood, with path dependence, need for common ground, and interaction"/>
+<node CREATED="1495620304532" ID="ID_1664253220" MODIFIED="1495900990592" TEXT="xu_cultural_2013 color naming systems that converge due to cognitive effects"/>
+<node CREATED="1495620889107" ID="ID_1584736689" MODIFIED="1495900990593" TEXT="verhoef_emergence_2014 emergence of distinctiveness and reuse of phonological building blocks through iterated learning"/>
+<node CREATED="1495206470234" ID="ID_38634772" MODIFIED="1495900990597" TEXT="cornish_systems_2013 emergence of structure in linear sequences"/>
+<node CREATED="1495900651841" ID="ID_1334036870" MODIFIED="1495900986018" TEXT="garrod_foundations_2007 show that a lexicon will become symbolic through interactive grounding"/>
+<node CREATED="1495622199744" ID="ID_1203863105" MODIFIED="1495900912422" TEXT="fay_interactive_2010 extend those findings to a microsociety, where the symbols become agreed upon by alignment of the interactive groundings"/>
+<node CREATED="1495639457370" ID="ID_1018779807" MODIFIED="1495900990600" TEXT="winters_languages_2015 show how different language systems emerge from different contexts of iterated learning; they extend silvey_word_2015 who show that underspecification corresponds to backgrounded dimensions during learning, but add a communicative component"/>
+<node CREATED="1495702909628" ID="ID_962829969" MODIFIED="1495900990603" TEXT="carr_cultural_2017 studies emergence in a continuous meaning space"/>
 </node>
-<node CREATED="1495622712375" ID="ID_1528105389" MODIFIED="1495622719207" TEXT="How existing structure changes">
-<node COLOR="#669900" CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495812929668" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
-<node COLOR="#669900" CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495869861899" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
-<node COLOR="#669900" CREATED="1495620304532" ID="ID_1664253220" MODIFIED="1495871401374" TEXT="xu_cultural_2013 color naming systems that converge due to cognitive effects"/>
-<node COLOR="#669900" CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495871883984" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
-<node COLOR="#669900" CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495872901233" TEXT="kirby_compression_2015 pit compressibility and expressivity against each other"/>
-<node COLOR="#669900" CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495873879870" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
-<node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495789791609" TEXT="caldwell_cultural_2012"/>
+<node COLOR="#669900" CREATED="1495622712375" FOLDED="true" ID="ID_1528105389" MODIFIED="1495900993983" TEXT="How existing structure changes">
+<node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495897257009" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
+<node CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495897257007" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
+<node CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495897257005" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
+<node CREATED="1495363582787" ID="ID_1548686200" MODIFIED="1495897257004" TEXT="kirby_compression_2015 pit compressibility and expressivity against each other"/>
+<node CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495897257000" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
+<node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495900979236" TEXT="caldwell_cultural_2012, extending fay_interactive_2010&apos;s extension of garrod_foundations_2007, use pictionary task in a replacement microsociety, showing how signs become symbolic and are transmitted"/>
 </node>
 <node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495626373404" TEXT="Bayesian track">
 <node CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1495621589123" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
@@ -238,12 +240,9 @@
 <node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1495626426746" TEXT="reali_evolution_2009 explore the implications on the biases, so that regularised language can evolve"/>
 <node CREATED="1495621662791" ID="ID_608550428" MODIFIED="1495625756602" TEXT="perfors_language_2014 show that the world also has an effect, and that the result depends on the structure of meanings"/>
 </node>
-<node CREATED="1495621656995" ID="ID_932549731" MODIFIED="1495624779116" TEXT="Other effects">
-<node CREATED="1495622624725" ID="ID_1928180774" MODIFIED="1495622650113" TEXT="silvey_word_2015 show that underspecification corresponds to backgrounded dimensions during learning"/>
-<node CREATED="1495622199744" ID="ID_1203863105" MODIFIED="1495622340921" TEXT="fay_interactive_2010 contrasts iterated learning with social collaboration, showing that interaction is crucial (something not predicted by iterated learning)"/>
-</node>
 <node CREATED="1495639475962" ID="ID_1898835068" MODIFIED="1495642181290" TEXT="scott-phillips_language_2010 makes a review"/>
 <node CREATED="1495206414356" ID="ID_546543859" MODIFIED="1495207978167" TEXT="tamariz_cultural_2016 makes a review"/>
+<node CREATED="1495892673715" ID="ID_699333831" MODIFIED="1495892688377" TEXT="galantucci_experimental_2012 maves a review of Experimental Semiotics"/>
 <node CREATED="1495709798963" ID="ID_1601091658" MODIFIED="1495709810769" TEXT="roberts_investigating_2017 makes a review for Experimental Semiotics"/>
 <node CREATED="1495627018627" ID="ID_1634009615" MODIFIED="1495642186682" TEXT="scott-phillips_pragmatics_2017 reinstates pragmatics and asks &quot;what are our questions&quot;"/>
 </node>
@@ -484,6 +483,7 @@
 <node CREATED="1495547569285" ID="ID_874424949" MODIFIED="1495547647041" TEXT="The fact that many relults in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
 <node CREATED="1495613547408" ID="ID_1391117185" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
 <node CREATED="1495613935136" ID="ID_800856184" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
+<node CREATED="1495898083944" ID="ID_749343664" MODIFIED="1495898268523" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
