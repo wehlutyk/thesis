@@ -315,7 +315,7 @@ Using a comparable setup where participants had to extrapolate a colour-naming v
 since participants must reproduce a whole set of sequences, or acoustic signals, at each generation, the set behaves as a interconnected system for which learning pressures gradually increase the combinatorial structure.
 @garrod_foundations_2007, using a Pictionary-like collaborative task without transmission, studied the way symbolism emerges in a lexicon through what they termed an "interactive grounding process".
 @fay_interactive_2010 extended this process to a microsociety, showing that the emergence of globally shared symbols that are increasingly refined and simplified can happen through the gradual alignment of such interactive groundings.
-They thus proposed an additional symbolisation mechanism in the emergence of communication systems, based on intra-generational collaborative coordination through interaction, parallel to the inter-generational learning bottlenecks studied by iterated learning studies.
+They thus proposed an additional mechanism, symbolisation, in the emergence of communication systems, based on intra-generational collaborative coordination through interaction, parallel to the inter-generational learning biases and bottlenecks studied by iterated learning studies.
 @winters_languages_2015, relying on the observation that a large part of the meaning of an utterance comes from its situational context, studied the influence of the situations in which participants use vocabulary items on the structure of the language that evolves from interaction and iterated learning [extending @silvey_word_2015].
 The authors show that, even when the complete set of items to name is more diverse, the vocabulary set often evolves to encode the sole item features that are relevant for the particular situational contexts in which those items appeared;
 in particular, if the usage situations shield the users from certain contrasts between items, the final vocabulary is often under-specified and does not encode the dimensions in which those contrasts appear, instead adapting to be useful in the situations under which it evolved, that is, the contrasts that users observed.
@@ -341,7 +341,12 @@ different communication patterns at the population level, or a different fabric 
 Regarding symbolism, @caldwell_cultural_2012 extended the microsociety Pictionary-like task studied by @fay_interactive_2010 to one where participants were gradually replaced, inducing increased symbolism and successful transmission of the evolved symbols at the same time.
 Initial members of the microsociety constructed highly iconic representations of the meanings to convey, but as newcomers were introduced to those signs through observation, and later used them, the drawings gradually lost their iconic link to their meaning and became simpler.
 
-Large parts of these works are informed by a theoretical bayesian track which laid down much of the groundwork for iterated learning chains to be studied.
+Large portions of the iterated learning literature draws on and contributes to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
+@griffiths_language_2007 were the first to show that the analytical structure of iterated learning with uniform Bayesian agents can correspond, depending on the way the agents produce new iterations, to well-known statistical inference methods (Gibbs sampling and a flavour of the EM algorithm).
+As a consequence, in those analytically derived situations, it is straightforward to predict the final languages that should evolve under iterated learning, a fact that @kalish_iterated_2007 mostly verified with humans in a function learning task.
+
+CHECK THIS
+@griffiths_using_2008 further exploit this result by using iterated learning methods to infer the inductive biases of participants learning category structures, showing that these inferences correspond to well-known biases in the category structure literature.
 
 
 ### Criticisms and alternatives {#sec:intro-review-criticisms}

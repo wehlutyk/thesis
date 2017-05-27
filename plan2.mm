@@ -233,9 +233,9 @@
 <node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495900979236" TEXT="caldwell_cultural_2012, extending fay_interactive_2010&apos;s extension of garrod_foundations_2007, use pictionary task in a replacement microsociety, showing how signs become symbolic and are transmitted"/>
 </node>
 <node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495626373404" TEXT="Bayesian track">
-<node CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1495621589123" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
-<node CREATED="1495625328588" ID="ID_1626292785" MODIFIED="1495625335404" TEXT="kalish_iterated_2007 confirms through experiment"/>
-<node CREATED="1495369562340" ID="ID_79116912" MODIFIED="1495626256259" TEXT="griffiths_using_2008 use that to reveal inductive biases on distributions (which is the interesting novel part)"/>
+<node COLOR="#669900" CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1495911359104" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
+<node COLOR="#669900" CREATED="1495625328588" ID="ID_1626292785" MODIFIED="1495912081482" TEXT="kalish_iterated_2007 confirms through experiment"/>
+<node COLOR="#669900" CREATED="1495369562340" ID="ID_79116912" MODIFIED="1495912461104" TEXT="griffiths_using_2008 use that to reveal inductive biases on distributions (which is the interesting novel part)"/>
 <node CREATED="1495369550714" ID="ID_1657679782" MODIFIED="1495626220146" TEXT="griffiths_theoretical_2008 discuss what that means for the influence of cognition on cultural evolution"/>
 <node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1495626426746" TEXT="reali_evolution_2009 explore the implications on the biases, so that regularised language can evolve"/>
 <node CREATED="1495621662791" ID="ID_608550428" MODIFIED="1495625756602" TEXT="perfors_language_2014 show that the world also has an effect, and that the result depends on the structure of meanings"/>
