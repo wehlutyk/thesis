@@ -173,7 +173,7 @@
 <node COLOR="#669900" CREATED="1495209596291" ID="ID_296498531" MODIFIED="1495387727448" TEXT="Here we&apos;ll look at empirical works relevant for evolution of linguistic materiall"/>
 <node COLOR="#669900" CREATED="1495213230171" ID="ID_1493939914" MODIFIED="1495387727444" TEXT="Questions concern what affects evolution in different domains, what factors are explanatory, and how the changes build up to become cumulative"/>
 <node COLOR="#669900" CREATED="1495209977288" ID="ID_27801044" MODIFIED="1495387727444" TEXT="A central technique is that of serial reproduction and its derivatives, used extensively"/>
-<node COLOR="#669900" CREATED="1494941922883" FOLDED="true" ID="ID_360115485" MODIFIED="1495571898475" TEXT="Transmission chains and derivatives">
+<node COLOR="#669900" CREATED="1494941922883" FOLDED="true" ID="ID_360115485" MODIFIED="1496071383504" TEXT="Transmission chains and derivatives">
 <node CREATED="1495387743835" ID="ID_1749629552" MODIFIED="1495571892034" TEXT="Description of the paradigm and its variations"/>
 <node CREATED="1495388225369" ID="ID_1004762827" MODIFIED="1495571892033" TEXT="It&apos;s the simplest sperberian causal chain"/>
 <node CREATED="1495363440576" FOLDED="true" ID="ID_49093815" MODIFIED="1495571892032" TEXT="Initial studies around Bartlett">
@@ -247,40 +247,38 @@
 <node CREATED="1495627018627" ID="ID_1634009615" MODIFIED="1496046555443" TEXT="scott-phillips_pragmatics_2017 reinstates pragmatics and asks &quot;what are our questions&quot;"/>
 </node>
 <node CREATED="1495207005784" ID="ID_877220069" MODIFIED="1495207749455" TEXT="Digital media">
-<node CREATED="1495207635161" ID="ID_341691855" MODIFIED="1495207639275" TEXT="CAT/DIT?">
-<node CREATED="1495207025935" ID="ID_566129004" MODIFIED="1495207027037" TEXT="acerbi_cultural_2016"/>
-<node CREATED="1495207253846" ID="ID_501650072" MODIFIED="1495207254808" TEXT="acerbi_did_2017"/>
-</node>
-<node CREATED="1495207625908" ID="ID_486841089" MODIFIED="1495207630107" TEXT="Characterising">
-<node CREATED="1495207277690" ID="ID_1021022257" MODIFIED="1495207278404" TEXT="danescu-niculescu-mizil_you_2012"/>
-<node CREATED="1495207295671" ID="ID_840246898" MODIFIED="1495207296385" TEXT="danescu-niculescu-mizil_echoes_2011"/>
-<node CREATED="1495207378209" ID="ID_1638170595" MODIFIED="1495207378884" TEXT="danescu-niculescu-mizil_computational_2013"/>
-</node>
+<node CREATED="1496072091556" ID="ID_437822714" MODIFIED="1496072899752" TEXT="The ubiquity of digital media (&quot;media encoded in digital format, typically to be transmitted and consumed on electronic devices, such as computers and smartphones&quot;, as defined by acerbi_cultural_2016) and the plethora of digital traces opened new avenues, both as a subject of study and as a measurement tool"/>
+<node CREATED="1496072137787" ID="ID_80227174" MODIFIED="1496072225315" TEXT="The processes could be different from offline, since the mediation is different, but at any rate it involves the same people and the same psychology"/>
 <node CREATED="1496070268190" ID="ID_1565201598" MODIFIED="1496070292372" TEXT="Artifact spread">
-<node CREATED="1496070272204" ID="ID_1064725621" MODIFIED="1496070273445" TEXT="gruhl_information_2004"/>
-<node CREATED="1496070318121" ID="ID_799415815" MODIFIED="1496070319162" TEXT="liben-nowell_tracing_2008"/>
+<node CREATED="1496072949966" ID="ID_384465381" MODIFIED="1496073116043" TEXT="The canonical task in this domain has been to describe the behaviours of diffusion and change of artifacts on social networks, be it through models or empirical work"/>
+<node CREATED="1496073029464" ID="ID_1754847123" MODIFIED="1496073059351" TEXT="That was made possible through access to difital traces, and commoditised computing power to analyse the data"/>
+<node CREATED="1496070272204" ID="ID_1064725621" MODIFIED="1496073304833" TEXT="gruhl_information_2004 describe the propagation of information topics in blogspace, and model it with an epidemiological approach"/>
+<node CREATED="1496070318121" ID="ID_799415815" MODIFIED="1496073518070" TEXT="liben-nowell_tracing_2008 show that the diffusion of information along email chains is deep-tree like, suggesting that such structure can be attributed to the asynchronous nature of email"/>
+<node CREATED="1495207577403" ID="ID_1270228655" MODIFIED="1496073698911" TEXT="Memes">
+<node CREATED="1495207347500" ID="ID_202254681" MODIFIED="1496072526591" TEXT="leskovec_meme-tracking_2009 gathered MemeTracker"/>
+<node CREATED="1495207428154" ID="ID_1699023591" MODIFIED="1496072537117" TEXT="simmons_memes_2011 studied minor changes"/>
+<node CREATED="1495207573902" ID="ID_177808478" MODIFIED="1496072557096" TEXT="omodei_multi-level_2012 modeled the evolution as multi-level"/>
+<node CREATED="1494061642559" ID="ID_625942616" MODIFIED="1496072518264" TEXT="moritz_non-literal_2016 historical text reuse, as a tool"/>
+<node CREATED="1495207520775" ID="ID_1538251053" MODIFIED="1496074264550" TEXT="adamic_information_2016 describe the spread of memes (that ask to be passed on) on Facebook using a biological evolution model of mutation and replication, where genotype is the meme and phenotype are the spreading instructions, and interestingly push the analogy as far as possible"/>
+<node CREATED="1496070065823" ID="ID_46893332" MODIFIED="1496074483481" TEXT="shifman_memes_2014 offers a comprehensive study of how memes behave, and their role in digital culture"/>
 </node>
-<node CREATED="1495207577403" ID="ID_1270228655" MODIFIED="1495207585935" TEXT="MemeTracker">
-<node CREATED="1495207347500" ID="ID_202254681" MODIFIED="1495207348279" TEXT="leskovec_meme-tracking_2009"/>
-<node CREATED="1495207428154" ID="ID_1699023591" MODIFIED="1495207428860" TEXT="simmons_memes_2011"/>
-<node CREATED="1495207573902" ID="ID_177808478" MODIFIED="1495207574442" TEXT="omodei_multi-level_2012"/>
+<node CREATED="1495207558086" ID="ID_1070646498" MODIFIED="1496072742975" TEXT="cointet_how_2007 explore the relative roles of network topology and transmission rules in spread"/>
+</node>
+<node CREATED="1495207635161" ID="ID_341691855" MODIFIED="1496071340266" TEXT="Context and content biases">
+<node CREATED="1496074521495" ID="ID_1940831178" MODIFIED="1496074710437" TEXT="A second stream attempts to tease apart effects of content from effects of context, a task that is relevant to attribute the behaviours to either transmission rules or cognition (and what part of congition)"/>
+<node CREATED="1496071296739" ID="ID_1170416806" MODIFIED="1496071297238" TEXT="salganik_experimental_2006"/>
+<node CREATED="1495207277690" ID="ID_1021022257" MODIFIED="1496074674099" TEXT="danescu-niculescu-mizil_you_2012 analyse the memorability of movie quotes (controlling for context), and describe the content features that define a memorable quote"/>
+<node CREATED="1495207378209" ID="ID_1638170595" MODIFIED="1496074882431" TEXT="danescu-niculescu-mizil_computational_2013 develop tools to characterise politeness in online content"/>
+<node CREATED="1495207253846" ID="ID_501650072" MODIFIED="1496074650079" TEXT="acerbi_did_2017 studies the effect of framing famous quotes with an attribution (either famous or unknown) or a popularity score, showing that neither have much effect"/>
+<node CREATED="1495207295671" ID="ID_840246898" MODIFIED="1496074801397" TEXT="danescu-niculescu-mizil_echoes_2011 opens the study to behaviour, showing how power relationshups can be characterised based on the dynamics of content"/>
 </node>
 <node CREATED="1495207749451" ID="ID_1981233023" MODIFIED="1495207828052" TEXT="Influence &amp; Attention">
 <node CREATED="1495207498906" ID="ID_1280560378" MODIFIED="1495207499589" TEXT="bakshy_social_2009"/>
-<node CREATED="1495207834118" ID="ID_738507678" MODIFIED="1495207834849" TEXT="weng_attention_2015"/>
+<node CREATED="1496069173004" ID="ID_799554692" MODIFIED="1496070546646" TEXT="bakshy_everyones_2011"/>
 <node CREATED="1495207845837" ID="ID_1425182256" MODIFIED="1495207847173" TEXT="weng_competition_2012"/>
-<node CREATED="1496069173004" ID="ID_799554692" MODIFIED="1496069175326" TEXT="bakshy_everyones_2011?"/>
+<node CREATED="1495207834118" ID="ID_738507678" MODIFIED="1495207834849" TEXT="weng_attention_2015"/>
 </node>
-<node CREATED="1495207740154" ID="ID_1958190098" MODIFIED="1495207743973" TEXT="Memes">
-<node CREATED="1495207520775" ID="ID_1538251053" MODIFIED="1495207521457" TEXT="adamic_information_2016"/>
-<node CREATED="1496070065823" ID="ID_46893332" MODIFIED="1496070067315" TEXT="shifman_memes_2014?"/>
-</node>
-<node CREATED="1495207745448" ID="ID_169467848" MODIFIED="1495207746970" TEXT="Models">
-<node CREATED="1495207558086" ID="ID_1070646498" MODIFIED="1495207558721" TEXT="cointet_how_2007"/>
-</node>
-<node CREATED="1494061635146" ID="ID_1529219618" MODIFIED="1494061641440" TEXT="Historical text reuse">
-<node CREATED="1494061642559" ID="ID_625942616" MODIFIED="1495213510956" TEXT="moritz_non-literal_2016, moritz_sentence_2016"/>
-</node>
+<node CREATED="1495207025935" ID="ID_566129004" MODIFIED="1496070525392" TEXT="acerbi_cultural_2016 makes a review"/>
 </node>
 <node CREATED="1495213533602" ID="ID_1078758750" MODIFIED="1495213543439" TEXT="Higher-level">
 <node CREATED="1468508459957" ID="ID_1750851331" MODIFIED="1493736031922" TEXT="Complex Systems">
