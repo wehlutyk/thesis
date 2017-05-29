@@ -210,8 +210,8 @@
 </node>
 <node CREATED="1495371220651" ID="ID_589272827" MODIFIED="1495571892021" TEXT="Everybody is looking for study frameworks: MCI, emotion, legos, etc. There&apos;s no coherent theory to face the complexity."/>
 </node>
-<node CREATED="1468501473713" ID="ID_742989681" MODIFIED="1495622712384" TEXT="Iterated learning for language">
-<node COLOR="#669900" CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1495900992367" TEXT="How structure emerges">
+<node COLOR="#669900" CREATED="1468501473713" FOLDED="true" ID="ID_742989681" MODIFIED="1496046558561" TEXT="Iterated learning for language">
+<node CREATED="1495622960126" FOLDED="true" ID="ID_850582485" MODIFIED="1496046555462" TEXT="How structure emerges">
 <node CREATED="1495639497845" ID="ID_1139763362" MODIFIED="1495900990572" TEXT="kirby_innateness_2007 introduce the idea that biases and constraints in learning have non-trivial emergent effects, and can be a non-nativist explanation for structure in language"/>
 <node CREATED="1495619552834" ID="ID_503814706" MODIFIED="1495900990582" TEXT="galantucci_experimental_2005 emergence of communication conventions in a game"/>
 <node CREATED="1495206448084" ID="ID_1850800616" MODIFIED="1495900990587" TEXT="kirby_cumulative_2008 emergence of structure in artificial language"/>
@@ -224,7 +224,7 @@
 <node CREATED="1495639457370" ID="ID_1018779807" MODIFIED="1495900990600" TEXT="winters_languages_2015 show how different language systems emerge from different contexts of iterated learning; they extend silvey_word_2015 who show that underspecification corresponds to backgrounded dimensions during learning, but add a communicative component"/>
 <node CREATED="1495702909628" ID="ID_962829969" MODIFIED="1495900990603" TEXT="carr_cultural_2017 studies emergence in a continuous meaning space"/>
 </node>
-<node COLOR="#669900" CREATED="1495622712375" FOLDED="true" ID="ID_1528105389" MODIFIED="1495900993983" TEXT="How existing structure changes">
+<node CREATED="1495622712375" FOLDED="true" ID="ID_1528105389" MODIFIED="1496046555461" TEXT="How existing structure changes">
 <node CREATED="1468501772184" ID="ID_154045820" MODIFIED="1495897257009" TEXT="croft_evolutionary_2013 delineates a complete theory"/>
 <node CREATED="1495619922072" ID="ID_1637482255" MODIFIED="1495897257007" TEXT="tamariz_cultural_2014 evolution (by selection) of a given system"/>
 <node CREATED="1495620749603" ID="ID_615825667" MODIFIED="1495897257005" TEXT="smith_eliminating_2010 regularisation of vocabulary through iterated learning"/>
@@ -232,19 +232,19 @@
 <node CREATED="1495639516453" ID="ID_1612388526" MODIFIED="1495897257000" TEXT="tamariz_culture:_2015, building on the observation that iterated learning composes compressibility and expressivity, explores what the compressibility is attributable to (learning) and what the possibility of innovation is attributable to (reproducing)"/>
 <node CREATED="1495789790967" ID="ID_1802234327" MODIFIED="1495900979236" TEXT="caldwell_cultural_2012, extending fay_interactive_2010&apos;s extension of garrod_foundations_2007, use pictionary task in a replacement microsociety, showing how signs become symbolic and are transmitted"/>
 </node>
-<node CREATED="1468501618173" ID="ID_1220410164" MODIFIED="1495626373404" TEXT="Bayesian track">
-<node COLOR="#669900" CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1495911359104" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
-<node COLOR="#669900" CREATED="1495625328588" ID="ID_1626292785" MODIFIED="1495912081482" TEXT="kalish_iterated_2007 confirms through experiment"/>
-<node COLOR="#669900" CREATED="1495369562340" ID="ID_79116912" MODIFIED="1495912461104" TEXT="griffiths_using_2008 use that to reveal inductive biases on distributions (which is the interesting novel part)"/>
-<node CREATED="1495369550714" ID="ID_1657679782" MODIFIED="1495626220146" TEXT="griffiths_theoretical_2008 discuss what that means for the influence of cognition on cultural evolution"/>
-<node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1495626426746" TEXT="reali_evolution_2009 explore the implications on the biases, so that regularised language can evolve"/>
-<node CREATED="1495621662791" ID="ID_608550428" MODIFIED="1495625756602" TEXT="perfors_language_2014 show that the world also has an effect, and that the result depends on the structure of meanings"/>
+<node CREATED="1468501618173" FOLDED="true" ID="ID_1220410164" MODIFIED="1496046555455" TEXT="Bayesian track">
+<node CREATED="1495621450586" ID="ID_1286304675" MODIFIED="1496044885583" TEXT="griffiths_language_2007 show that iterated learning mirrors Gibbs sampling or Expectation-Maximisation, leading to a result that depends on minds only"/>
+<node CREATED="1495625328588" ID="ID_1626292785" MODIFIED="1496044885582" TEXT="kalish_iterated_2007 confirms through experiment"/>
+<node CREATED="1495369562340" ID="ID_79116912" MODIFIED="1496044885579" TEXT="griffiths_using_2008 use that to reveal inductive biases on distributions (which is the interesting novel part)"/>
+<node CREATED="1495369550714" ID="ID_1657679782" MODIFIED="1496044885576" TEXT="griffiths_theoretical_2008 discuss what that means for the influence of cognition on cultural evolution"/>
+<node CREATED="1495207979297" ID="ID_713781825" MODIFIED="1496044885572" TEXT="reali_evolution_2009 explore the implications on the biases, so that regularised language can evolve"/>
+<node CREATED="1495621662791" ID="ID_608550428" MODIFIED="1496044885566" TEXT="perfors_language_2014 show that the world also has an effect, and that the result depends on the structure of meanings"/>
 </node>
-<node CREATED="1495639475962" ID="ID_1898835068" MODIFIED="1495642181290" TEXT="scott-phillips_language_2010 makes a review"/>
-<node CREATED="1495206414356" ID="ID_546543859" MODIFIED="1495207978167" TEXT="tamariz_cultural_2016 makes a review"/>
-<node CREATED="1495892673715" ID="ID_699333831" MODIFIED="1495892688377" TEXT="galantucci_experimental_2012 maves a review of Experimental Semiotics"/>
-<node CREATED="1495709798963" ID="ID_1601091658" MODIFIED="1495709810769" TEXT="roberts_investigating_2017 makes a review for Experimental Semiotics"/>
-<node CREATED="1495627018627" ID="ID_1634009615" MODIFIED="1495642186682" TEXT="scott-phillips_pragmatics_2017 reinstates pragmatics and asks &quot;what are our questions&quot;"/>
+<node CREATED="1495639475962" ID="ID_1898835068" MODIFIED="1496046555454" TEXT="scott-phillips_language_2010 makes a review"/>
+<node CREATED="1495206414356" ID="ID_546543859" MODIFIED="1496046555451" TEXT="tamariz_cultural_2016 makes a review"/>
+<node CREATED="1495892673715" ID="ID_699333831" MODIFIED="1496046555449" TEXT="galantucci_experimental_2012 maves a review of Experimental Semiotics"/>
+<node CREATED="1495709798963" ID="ID_1601091658" MODIFIED="1496046555446" TEXT="roberts_investigating_2017 makes a review for Experimental Semiotics"/>
+<node CREATED="1495627018627" ID="ID_1634009615" MODIFIED="1496046555443" TEXT="scott-phillips_pragmatics_2017 reinstates pragmatics and asks &quot;what are our questions&quot;"/>
 </node>
 <node CREATED="1495207005784" ID="ID_877220069" MODIFIED="1495207749455" TEXT="Digital media">
 <node CREATED="1495207635161" ID="ID_341691855" MODIFIED="1495207639275" TEXT="CAT/DIT?">

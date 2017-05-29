@@ -339,14 +339,29 @@ Similarly, in a picture-description transmission chain using an artificial minim
 They note, in particular, that "there is some suggestive evidence that structure in language can be modulated by the composition of populations" [@kirby_compression_2015, p. 99]:
 different communication patterns at the population level, or a different fabric in the population responsible for the transmission and evolution of a language (e.g. more second-language learners, or more children learners), should lead to differences in the evolution of language structure.
 Regarding symbolism, @caldwell_cultural_2012 extended the microsociety Pictionary-like task studied by @fay_interactive_2010 to one where participants were gradually replaced, inducing increased symbolism and successful transmission of the evolved symbols at the same time.
-Initial members of the microsociety constructed highly iconic representations of the meanings to convey, but as newcomers were introduced to those signs through observation, and later used them, the drawings gradually lost their iconic link to their meaning and became simpler.
+Initial members of the microsociety constructed highly iconic representations of the meanings to convey, but as the experiment introduced newcomers to those signs through observation, and later used them, the drawings gradually lost their iconic link to their meaning and became simpler.
 
 Large portions of the iterated learning literature draws on and contributes to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
 @griffiths_language_2007 were the first to show that the analytical structure of iterated learning with uniform Bayesian agents can correspond, depending on the way the agents produce new iterations, to well-known statistical inference methods (Gibbs sampling and a flavour of the EM algorithm).
-As a consequence, in those analytically derived situations, it is straightforward to predict the final languages that should evolve under iterated learning, a fact that @kalish_iterated_2007 mostly verified with humans in a function learning task.
+In such a setup, iterated learning predictably converges towards distributions determined by the internal prior distributions agents have (i.e. their inference bias).
+As a consequence, in those analytically derived situations, one can straightforwardly predict the final distributions that should evolve under iterated learning, a fact that @kalish_iterated_2007 verified with humans in a function learning task.
+@griffiths_using_2008 further exploit this result by using it in the reverse direction:
+since the outcome of iterated learning, for specific setups, is predictable on the basis of participants' priors, one can use such experiments to investigate the inductive biases of participants.
+The authors confirmed this, showing that the method infers the well-known participant biases in category learning tasks.
+@griffiths_theoretical_2008 explored the relevance of these findings for the study of cultural evolution, showing in particular that individual cognitive biases can have significant effects on long-term cultural evolution.
+@reali_evolution_2009 further relate those results to the evolution of vocabulary, showing that they are consistent with experimental cases of word-meaning mapping regularisation.
+@perfors_language_2014, through analytical derivation and experimental confirmation, reintroduce the impact of the external world in those results;
+the authors show that the structure of the world of meanings talked about will also play a role in the final evolved language, whenever the distribution of meanings people talk about depends partly on that world (and not only on the language used to talk about those items).
 
-CHECK THIS
-@griffiths_using_2008 further exploit this result by using iterated learning methods to infer the inductive biases of participants learning category structures, showing that these inferences correspond to well-known biases in the category structure literature.
+Naturally, the language evolution literature is much broader than the small snapshot presented here.
+@scott-phillips_language_2010 and @tamariz_cultural_2016 provide reviews of the iterated learning literature, and @galantucci_experimental_2012 and @roberts_investigating_2017 offer reviews of the experimental semiotics tradition.
+An interesting and important development in recent works is the introduction of pragmatics into the picture.
+@scott-phillips_pragmatics_2017, in particular, reaffirms the central role of pragmatics in the creation and understanding of meaning in context, and argues for a much stronger focus on the evolution of pragmatics itself, that is, as he envisions it, on the evolution of *ostensive communication*.
+Let me close this short review by noting that there is an increasing convergence both in the literature and in empirical questions, of the cultural evolution and language evolution fields;
+this combination of approaches should prove useful in further identification (and answering) of the core questions in cultural evolution.
+
+
+#### Digital media
 
 
 ### Criticisms and alternatives {#sec:intro-review-criticisms}
