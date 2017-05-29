@@ -105,7 +105,9 @@ Inspired by the same initial analogy as darwinist authors from 20th century trad
 
 \add{? lewens-cultural-2012, p. 466, "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance.}
 
-\add{scott-phillips-simple-2017}
+\add{scott-phillips-simple-2017, mesoudi-cultural-2016}
+
+\add{acerbi-cultural-2017: The distinction between cultural and non-cultural behavior is not a sharp one (Morin, 2015)}
 
 
 #### Californian
@@ -266,12 +268,15 @@ notably, the effect is not present in background information irrelevant to the p
 @mesoudi_bias_2006 elicited an effect of social information, in which stories about human interactions are better transmitted than individual human stories, or stories involving physical nonhuman elements alone.
 The extensive reviews provided by @mesoudi_multiple_2008 and @whiten_cultural_2016 give a broader idea of the effects studied and methods used in the literature.
 
+\add{bebbington-sky-2017, stubbersfield-serial-2015}
+
 A more recent stream of research includes more explicit work on the individual steps and details of transmission chains.
 @eriksson_advantage_2012, for instance, showed that a setup with two parallel chains that cross-fertilise each other will improve transmission rates:
 at each generation, the two participants of the two parallel chains receive two inputs, one from each chain at the previous generation, leading to a decrease in information loss compared to a single chain where participants read twice the same content (of the previous generation).
 @acerbi_role_2016 further modelled such error-correcting redundancy, simulating toy scenarios that could favour its evolution at given cost-reward constraints.
 @eriksson_corpses_2014 continued this detailing endeavour by further breaking down real world transmission into choose-to-receive, encode-and-retrieve, and choose-to-transmit phases;
 focusing on emotional selection as studied by @heath_emotional_2001, they showed that any of those phases can be the target of selection pressure, further noticing that such pressures could be contradictory and could thus considerably complicate the simple picture used up to then.
+\add{acerbi-cultural-2016 argues that this is useful for digital media, as in that case encode-and-retrieve may be shunted by copy-paste.}
 @moussaid_amplification_2015, in studying the transmission of risk perception, used a much more free-form setup:
 after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
 A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
@@ -362,6 +367,8 @@ this combination of approaches should prove useful in further identification (an
 
 
 #### Digital media
+
+
 
 
 ### Criticisms and alternatives {#sec:intro-review-criticisms}
