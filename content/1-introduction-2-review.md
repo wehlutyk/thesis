@@ -368,6 +368,54 @@ this combination of approaches should prove useful in further identification (an
 
 #### Digital media
 
+@acerbi_cultural_2016 defines digital media as "media encoded in digital format, typically to be transmitted and consumed on electronic devices, such as computers and smartphones".
+The ubiquity of this medium, creating the ongoing avalanche of available digital traces, has opened new avenues for the study of cultural evolution over the past 15 years.
+Indeed digital media is both a measurement tool and an object of study, as it has become embedded in everyday life in many societies, with its own practices of interaction, mediation, or transmission, possibly impacting cultural evolution.
+While digital practices and possibilities are different from those of physical encounters, the digital transition is but an addition to the possible range of interaction media, and the cultural evolution framework can study it as such, with increased access to the artefacts those interactions produce.
+@acerbi_cultural_2016 argues precisely for such an approach to the digital transition, and reviews relevant works that have started to explore that space.
+In what follows I present three areas of focus that have received particular attention in the literature.
+
+A core---and somewhat canonical---challenge for digital media, has been to describe the behaviours of diffusion and change of artefacts in social networks, and if possible predict the macroscopic spread and evolution of those artefacts.
+Works have tackled this question through analytical models, simulations and empirical studies, made possible by the increased access to digital traces and computing power to make sense of such data.
+@gruhl_information_2004, for instance, described the propagation of information topics in blogspace, separating them into "chatter" and externally-triggered ("spike") subjects to model the spread over the social network formed by users.
+@liben-nowell_tracing_2008 studied the diffusion of information along email chains, showing that it had an unexpected deep tree-like structure, and suggesting that this behaviour could stem from the asynchronous nature of email.
+Such studies focus on *socio-semantic systems*, that is systems made of, on one side, a collection of users whose interactions or links form a social network, and on the other side, a set of topics or subjects around which the users interact, which also features a network-like structure.
+The two levels of structure reciprocally influence each other, as @cointet_socio-semantic_2009 show for blogspace [see also @cointet_how_2007 who explore the relative roles of social network topology and transmission rules, related to the structure of topics in the spread of information].
+The scale of the study of social networks has grown considerably over the past decade.
+Linguistic memes have received much attention:
+@leskovec_meme-tracking_2009, in particular, gathered and published a sizable data set of quotes in blogs and news outlets, developing algorithms to group minimally different occurrences into quotation families, thus tracking the popularity of news topics from a million sources over a nine month period.
+The technique allowed the authors to study the evolution of the online news cycle, measuring differences in behaviour across blogs and news outlets.
+@simmons_memes_2011 further analysed that data set, showing that transformations of quotes upon copy are frequent (contrary to what one would expect for such memes), work that @omodei_multi-level_2012 then extended.
+@adamic_information_2016 developed a similar study for the evolution of explicit memes (with instructions asking the reader to pass on) in a large Facebook data set, by using a biological evolutionary model of mutation and replication where genotype corresponds to the meme's content and phenotype to the copying instructions;
+the authors make an interesting attempt to push the biological analogy to its limits in this paradigmatic case.
+The range of empirical questions, and the technical challenges involved in tackling them, are such, that the focus has moved towards developing methods for the collection and study of similar data sets.
+For instance, the MemeTracker project initiated by @leskovec_meme-tracking_2009 has now evolved into a fully-fledged network collection and analysis platform [@leskovec_snap_2014] with associated data sets [@leskovec_snap:_2016].
+Another interesting example of this is the development by @moritz_non-literal_2016 of text re-use detection methods for historical works, a technique that could open the application of the above studies to digitised historical corpora.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
