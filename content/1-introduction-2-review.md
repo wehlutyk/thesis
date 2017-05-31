@@ -69,7 +69,7 @@ Authors from Anthropology and Sociology have produced countless other insights a
 the miniature sample I exposed here represents the works which have most influenced the initial questions of this thesis.
 Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
 This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
-I will come back to this line of work in @sec:intro-review-criticisms, and discuss it in more detail in @sec:discussion.
+I will come back to this line of work in @sec:intro-review-developments, and discuss it in more detail in @sec:discussion.
 
 \todo{Maybe add dropped authors? Simmel, Garfinkel, Geertz, Kroeber, Bateson}
 
@@ -127,6 +127,8 @@ I return to this subject in more detail in @sec:intro-review-neighbours.
 
 \add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there isn't substantial disagreement with DIT, which is much less committed to EP.}
 
+\add{Talk about Mesoudi 2011?}
+
 In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, or CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
 One of the guiding questions of Sperber's work is the following: how can we explain both the diversity culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
@@ -165,7 +167,7 @@ CAT agrees nonetheless with the idea of gene-culture coevolution developed by DI
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
 \add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
-@sec:intro-review-criticisms comes back to these debates and criticisms, which I group into two broad categories.
+@sec:intro-review-developments comes back to these debates and criticisms, which I group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "information dualism" of the notion of representation in cognitive science:
@@ -210,11 +212,11 @@ Second, its initial goal is not so much to develop a mathematical theory of cult
 Third, this approach in turn leads to a crystal-clear articulation of the philosophical principles defended, discussed, or tested by the theory.
 \add{it's not the clarity of hypotheses afforded by mathematics.}
 \add{smaldino-let-2014.}
-As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
+As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-developments). \add{in particular social anthropology.}
 In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by gene-culture coevolution approaches.
 
 
-### Neighbouring areas {#sec:intro-review-neighbours}
+### Neighbouring empirical areas {#sec:intro-review-neighbours}
 
 A great number of disciplines and domains have developed interest in and contributed empirical studies to CAT.
 Simulation and experimental studies of the evolution of morality [@baumard_mutualistic_2013], religion [@boyer_religion_2001], or reasoning [@claidiere_argumentation_2017; @mercier_why_2011] have used the theory, as well as studies on the emergence and evolution of language, or online content through digital media.
@@ -281,7 +283,7 @@ focusing on emotional selection as studied by @heath_emotional_2001, they showed
 after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
 A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
 A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that participants could observe the preceding generation during their experimenting and building, thus providing rich context to the learning phase of transmission.
-Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-criticisms:
+Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-developments:
 the authors take the complete joint interaction to be their ultimate object of study, proposing to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
 By looking at the characteristics of the cars built by participants, the authors claim their study "presents methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4].
 [These experiments are further analysed in @mitkidis_building_2015; and @wallot_beyond_2016].
@@ -368,6 +370,8 @@ this combination of approaches should prove useful in further identification (an
 
 #### Digital media
 
+\todo{This section is a bit weak. Check it for 1) argumentation flow, 2) accuracy of the review.}
+
 @acerbi_cultural_2016 defines digital media as "media encoded in digital format, typically to be transmitted and consumed on electronic devices, such as computers and smartphones".
 The ubiquity of this medium, creating the ongoing avalanche of available digital traces, has opened new avenues for the study of cultural evolution over the past 15 years.
 Indeed digital media is both a measurement tool and an object of study, as it has become embedded in everyday life in many societies, with its own practices of interaction, mediation, or transmission, possibly impacting cultural evolution.
@@ -422,7 +426,15 @@ the authors suggest that strong ties play a social communication role, while use
 The empirical study of information diffusion and spread has steadily grown since the advent of digital traces;
 new factors are increasingly included in analyses, and the influence of core processes such as attention is gradually becoming clearer [an interesting addition would be the role of power relationships, which are also detectable through markers of interactive behaviour, @danescu-niculescu-mizil_echoes_2011].
 As mentioned above, @acerbi_cultural_2016 provides a useful overview of other works that will prove relevant for current questions of cultural evolution.
-As we discuss in @sec:brainscopypaste, the development of such data set collection and analysis methods can bring crucial insight, as well as refined questions, to the study of the reciprocal influences between cognition and culture.
 
 
-### Criticisms and alternatives {#sec:intro-review-criticisms}
+#### Conclusion
+
+As we discuss in @sec:brainscopypaste, the development of data set collection and analysis methods can bring crucial insight, as well as refined questions, to the study of the reciprocal influences between cognition and culture.
+Other empirical fields in psychology and linguistics will prove crucial to the study of the viability of CAT as a framework to study the ties between cognition and culture.
+@sec:brainscopypaste will further introduce works in psycholinguistics relevant to the study of quotes online, and @sec:discussion will discuss how future works could make deeper use of "Smartphone Psychology" to contribute to the more contentious issues.
+\todo{actually do that.}
+Let us now move on to the most debated developments of cultural evolution, the criticisms opposed to the approach, the alternatives emerging from these critiques, and the possibilities of reconciliation.
+
+
+### Developments, criticisms and alternatives {#sec:intro-review-developments}

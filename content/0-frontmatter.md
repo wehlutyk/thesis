@@ -27,6 +27,7 @@ link-citations: True
 colorlinks: True
 toc: True
 # Figure and Section reference formatting
+# TODO: fix chapter prefixes (doesn't capitalise at sentence start)
 cref: True
 figPrefix:
   - "Fig."
