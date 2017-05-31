@@ -107,7 +107,7 @@ Inspired by the same initial analogy as darwinist authors from 20th century trad
 
 \add{scott-phillips-simple-2017, mesoudi-cultural-2016}
 
-\add{acerbi-cultural-2017: The distinction between cultural and non-cultural behavior is not a sharp one (Morin, 2015)}
+\add{acerbi-cultural-2016: The distinction between cultural and non-cultural behavior is not a sharp one (Morin, 2015)}
 
 
 #### Californian
@@ -376,7 +376,7 @@ While digital practices and possibilities are different from those of physical e
 In what follows I present three areas of focus that have received particular attention in the literature.
 
 A core---and somewhat canonical---challenge for digital media, has been to describe the behaviours of diffusion and change of artefacts in social networks, and if possible predict the macroscopic spread and evolution of those artefacts.
-Works have tackled this question through analytical models, simulations and empirical studies, made possible by the increased access to digital traces and computing power to make sense of such data.
+The question is far from new [@rogers_diffusion_2005] and works have tackled this question through analytical models, simulations and empirical studies, but the recent increase in access to digital traces and computing power to make sense of such data has boosted the empirical development.
 @gruhl_information_2004, for instance, described the propagation of information topics in blogspace, separating them into "chatter" and externally-triggered ("spike") subjects to model the spread over the social network formed by users.
 @liben-nowell_tracing_2008 studied the diffusion of information along email chains, showing that it had an unexpected deep tree-like structure, and suggesting that this behaviour could stem from the asynchronous nature of email.
 Such studies focus on *socio-semantic systems*, that is systems made of, on one side, a collection of users whose interactions or links form a social network, and on the other side, a set of topics or subjects around which the users interact, which also features a network-like structure.
@@ -392,31 +392,37 @@ The range of empirical questions, and the technical challenges involved in tackl
 For instance, the MemeTracker project initiated by @leskovec_meme-tracking_2009 has now evolved into a fully-fledged network collection and analysis platform [@leskovec_snap_2014] with associated data sets [@leskovec_snap:_2016].
 Another interesting example of this is the development by @moritz_non-literal_2016 of text re-use detection methods for historical works, a technique that could open the application of the above studies to digitised historical corpora.
 
+A second research stream attempts to tease apart the different processes involved in the spread and change of artefacts.
+In particular for transformation, separating effects of content from effects of context should is a necessary step to understand the processes responsible for the changes that artefacts undergo.
+@danescu-niculescu-mizil_you_2012 studied the memorability of movie quotes by identifying features that can predict quotes marked as memorable by users of IMDb (the Internet Movie Database).
+From about 1000 movie scripts, the authors extracted around 2200 pairs of quotes, each consisting of a quote rated as memorable on IMDb, paired with the closest quote in the movie script that has the same length, is spoken by the same character, and is not rated as memorable on IMDb.
+By contrasting these pairs, the authors surface the content-related features of a quote that make it memorable, and factor out the context in which the quotes appear, context which otherwise plays an important role in the memorability rating.
+After checking that human subjects are capable of identifying which quote in the pair is memorable (they with an average 78% success rate), the authors show that memorable quotes, on average, use less frequent vocabulary, more frequent grammatical categories (POS tags), and more general constructions (fewer 3rd person pronouns, more indefinite articles, etc.) that make them more adaptable to changing contexts (each of these measures, taken individually, partitions the quote pairs into two subsets containing about 40% vs. 60% of the whole set).
+Such feature-based approaches separating content and context are fruitful;
+@danescu-niculescu-mizil_computational_2013, for instance, used a similar approach to develop computational linguistic markers that can help characterise politeness in online content.
+@acerbi_did_2017, in a study reminiscent of @hall_effect_1950, investigated the attractiveness of famous quotes by measuring the relative strength of content and presentational context.
+Using a sample of famous quotes that participants had to rate for attractiveness, the authors compared the behaviour when presenting the quotes alone to presenting them with random attribution to more or less famous personalities, or presenting them with a random popularity score.
+The authors find that such minimal context has little effect if any at all:
+attribution, famous or not, bears no effect on the attractiveness of a quote, and popularity has little.
+@althoff_how_2014 also opened the study of context versus content to relational variables, by showing how social status and presentational features (such as showing a strong need) can affect the success of requests on Reddit.
 
+A third related stream of research focuses more specifically on influence in social networks, and its links with attention:
+what network effects trigger the diffusion of a particular meme or piece of information?
+Among the micro-processes involved in the spread of information in networks, what roles does the influence across connected nodes play?
+@bakshy_social_2009 investigated the question of social influence by examining information cascades in Second Life.
+Information cascades, where a comparatively small initial event triggers a large diffusion, are a well-known phenomenon in social networks, and their size distribution is well modelled by peer-pressure threshold models which link the cascade behaviours to the topology of the network in which they occur [@watts_simple_2002; @ruan_kinetics_2015].
+@bakshy_social_2009 thus tracked the spread of *assets* in the virtual world provided by Second Life (that is pieces of content introduced and copied by players in the game);
+they find that a significant part of contagion happens along the friend network, instead of in avatar-to-avatar interactions, indicating that the adoption rate of (in-game) social circles has a string impact on a person's adoption of an asset in Second Life [see @bakshy_everyones_2011 for another example study, on Twitter, attempting to separate the strength of content from the strength of social influence].
+A factor related to influence, considering the overflow of information available, is the attention bottleneck leading to competition among pieces of information.
+@weng_competition_2012, for instance, model the spread of Twitter hashtags through agents with bounded memory and attention, and show that the distribution of hashtag diffusion along the social network can be well-accounted for with such simple assumptions.
+@weng_attention_2015 also studied the relationship between attention and strength of ties in data gathered from Twitter, cell phone, and email networks.
+They confirm that while strong ties transport the majority of events, users devote similar attention to strong and weak ties;
+the authors suggest that strong ties play a social communication role, while users use weak ties for seeking novel information, a distinction which could explain the different attentional patterns they measure.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The empirical study of information diffusion and spread has steadily grown since the advent of digital traces;
+new factors are increasingly included in analyses, and the influence of core processes such as attention is gradually becoming clearer [an interesting addition would be the role of power relationships, which are also detectable through markers of interactive behaviour, @danescu-niculescu-mizil_echoes_2011].
+As mentioned above, @acerbi_cultural_2016 provides a useful overview of other works that will prove relevant for current questions of cultural evolution.
+As we discuss in @sec:brainscopypaste, the development of such data set collection and analysis methods can bring crucial insight, as well as refined questions, to the study of the reciprocal influences between cognition and culture.
 
 
 ### Criticisms and alternatives {#sec:intro-review-criticisms}

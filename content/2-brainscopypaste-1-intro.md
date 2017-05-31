@@ -1,4 +1,4 @@
-# Brains Copy Paste
+# Brains Copy Paste {#sec:brainscopypaste}
 
 ## Introduction
 
