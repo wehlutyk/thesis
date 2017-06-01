@@ -19,6 +19,7 @@ author: |
     Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
 documentclass: book
+# Numbering comes from pandoc itself (not pandoc-crossref)
 numbersections: True
 lang: en-GB
 geometry: margin=1.2in
@@ -26,8 +27,7 @@ mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
 toc: True
-# Figure and Section reference formatting
-# TODO: fix chapter prefixes (doesn't capitalise at sentence start)
+# Figure and Section reference formatting. See header-includes for chapter ref formatting.
 cref: True
 figPrefix:
   - "Fig."
@@ -52,6 +52,8 @@ header-includes:
   - \usepackage{bm}
   # Format numbers
   - \usepackage[group-separator={,}]{siunitx}
+  # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
+  - \PassOptionsToPackage{capitalise}{cleveref}
   # Scale svg figures
   - \usepackage{calc}
   # Brains Copy Paste images

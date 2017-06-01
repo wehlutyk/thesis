@@ -167,7 +167,7 @@ CAT agrees nonetheless with the idea of gene-culture coevolution developed by DI
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
 \add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
-@sec:intro-review-developments comes back to these debates and criticisms, which I group into two broad categories.
+@Sec:intro-review-developments comes back to these debates and criticisms, which I group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "information dualism" of the notion of representation in cognitive science:
@@ -432,7 +432,7 @@ As mentioned above, @acerbi_cultural_2016 provides a useful overview of other wo
 
 As we discuss in @sec:brainscopypaste, the development of data set collection and analysis methods can bring crucial insight, as well as refined questions, to the study of the reciprocal influences between cognition and culture.
 Other empirical fields in psychology and linguistics will prove crucial to the study of the viability of CAT as a framework to study the ties between cognition and culture.
-@sec:brainscopypaste will further introduce works in psycholinguistics relevant to the study of quotes online, and @sec:discussion will discuss how future works could make deeper use of "Smartphone Psychology" to contribute to the more contentious issues.
+@Sec:brainscopypaste will further introduce works in psycholinguistics relevant to the study of quotes online, and @sec:discussion will discuss how future works could make deeper use of "Smartphone Psychology" to contribute to the more contentious issues.
 \todo{actually do that.}
 Let us now move on to the most debated developments of cultural evolution, the criticisms opposed to the approach, the alternatives emerging from these critiques, and the possibilities of reconciliation.
 

@@ -212,7 +212,7 @@ One way to settle these questions is the following:
 group quote occurrences into fixed bins spanning $\Delta t$ days (1 day in the implementation), each one representing a unit of time evolution;
 when a quotation $q'$ appears in bin $t+1$, it is counted as a substitution if it differs from the most frequent quote of the preceding bin $t$ (or a substring thereof) by only one word;
 if not, $q'$ is not considered to be an instance of substitution.
-@fig:substitution-modelled-majority-all shows the inferences made by such a model.
+@Fig:substitution-modelled-majority-all shows the inferences made by such a model.
 The assumptions it embeds, however, are a subset of a much wider set of possibilities, each leading to alternative inferences.
 
 We identified four binary parameters that differentiate potential models, such that the resulting 16 combinations cover most of the reasonable answers to inference uncertainties.
@@ -227,7 +227,7 @@ it considers valid all the substitutions (and only those) where the source and d
 If a destination has substitutions from multiple sources we count a single effective substitution where, for each feature, the value for the effective source word is the average of the values of the candidate source words.
 
 Put shortly a model defines how many times, and under what source and destination conditions, quote occurrences can be counted as substitutions.
-@fig:substitution-modelled shows the inferences made by the four models that use bins spanning 1 day aligned to midnight:
+@Fig:substitution-modelled shows the inferences made by the four models that use bins spanning 1 day aligned to midnight:
 later occurrences of $q'$ and $q''$ are counted as substitutions in @fig:substitution-modelled-majority-all and @fig:substitution-modelled-all-all, whereas in @fig:substitution-modelled-majority-exclude_past and @fig:substitution-modelled-all-exclude_past they are not.
 
 The results reported and discussed in the following sections are valid for all 16 models, and the graphics we present were produced by the model first introduced above.
@@ -299,7 +299,7 @@ The top panel shows the actual $s_{POS}$ and $s_{POS}^0$ counts. The bottom pane
 Confidence intervals are computed with the @goodman_simultaneous_1965 method for multinomial proportions.
 ](images/brainscopypaste-computed/all-susceptibilities-pos.png){#fig:pos-susceptibilities}
 
-@fig:pos-susceptibilities gathers the results for POS groups.
+@Fig:pos-susceptibilities gathers the results for POS groups.
 A Goodman-based multinomial goodness-of-fit test [@goodman_simultaneous_1965] shows that these categories have a significant effect on susceptibility ($p < .05$ in all substitution models), but this seems mostly due to the *Closed class-like*^[
 The *Closed class-like* category gathers all the POS groups representing closed class words (coordinating conjunctions, prepositions, subordinating conjunctions, modals and possessive endings).
 These groups, essentially made of stopwords, feature very low counts for both $s$ (substitutions falling on stopwords are filtered out) and $s^0$ (stopwords are never counted as substitutable).
