@@ -301,13 +301,15 @@
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
 </node>
 <node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1496393263866" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
-<node CREATED="1496391452568" ID="ID_731403759" MODIFIED="1496391461171" TEXT="Extended Evolutionary Synthesis">
-<node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1496392831582" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014, oyama_cycles_2001, gilbert_eco-evo-devo:_2015"/>
-<node CREATED="1496391716934" ID="ID_138544146" MODIFIED="1496391772175" TEXT="SET considers evolution to be..., heritable stuff to be..."/>
-<node CREATED="1496391774193" ID="ID_971508408" MODIFIED="1496396167747" TEXT="NCT, DST, Evo-Eco-Devo, and more broadly EES, consider evolution to be..., heritable stuff to be..."/>
-<node CREATED="1496392545646" ID="ID_1121046021" MODIFIED="1496649365636" TEXT="As explained in the articles, effects have been studied under SET and before EET, but not systematically (for instance dairy obrien_genes_2012)"/>
-<node CREATED="1496392727139" ID="ID_1182359357" MODIFIED="1496392728022" TEXT="For now it&apos;s not incompatible or contradictory (because all these are models of the conceptual level), but mosly a different focus that creates more satisfactory questions are model fit"/>
-<node CREATED="1496585358794" ID="ID_877319912" MODIFIED="1496585384029" TEXT="A good review of the conceptions of gene is given by griffiths_genetics_2013"/>
+<node COLOR="#669900" CREATED="1496391452568" FOLDED="true" ID="ID_731403759" MODIFIED="1496677874183" TEXT="Extended Evolutionary Synthesis">
+<node CREATED="1496670632946" ID="ID_485341525" MODIFIED="1496677870678" TEXT="There are two competing views of what counts as heritable material"/>
+<node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1496677870669" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014, oyama_cycles_2001, gilbert_eco-evo-devo:_2015"/>
+<node CREATED="1496391716934" ID="ID_138544146" MODIFIED="1496677870669" TEXT="SET considers evolution to be change in frequencies of DNA sequences, heritable stuff to be DNA"/>
+<node CREATED="1496391774193" ID="ID_971508408" MODIFIED="1496677870666" TEXT="NCT, DST, Evo-Eco-Devo, and more broadly EES, consider evolution to be the coevolution of organims and environment, heritable stuff to be the complete organism-environment ecosystem"/>
+<node CREATED="1496392545646" ID="ID_1121046021" MODIFIED="1496677870663" TEXT="As explained in the articles, effects have been studied under SET and before EET, but not systematically (for instance dairy obrien_genes_2012)"/>
+<node CREATED="1496392727139" ID="ID_1182359357" MODIFIED="1496677870661" TEXT="For now it&apos;s not incompatible or contradictory (because all these are models of the conceptual level), but mosly a different focus that creates more satisfactory questions are model fit"/>
+<node CREATED="1496676510667" ID="ID_792866864" MODIFIED="1496677870658" TEXT="This is linked to DST, and conceptions of genes and inheritance, which can have harder consequences (and not only what looks like a mild disagreement)"/>
+<node CREATED="1496585358794" ID="ID_877319912" MODIFIED="1496677870657" TEXT="A good review of the conceptions of gene is given by griffiths_genetics_2013"/>
 </node>
 <node CREATED="1496393263854" ID="ID_1448103965" MODIFIED="1496393267481" TEXT="For culture">
 <node CREATED="1496393218765" ID="ID_1115762481" MODIFIED="1496393748974" TEXT="EES offers a more natural way of integrating culture into the big evolutionary picture"/>
@@ -363,7 +365,7 @@
 <node CREATED="1496657552719" ID="ID_1545912548" MODIFIED="1496657552719" TEXT="oyama_ontogeny_2000"/>
 <node CREATED="1496657614225" ID="ID_1961919136" MODIFIED="1496657646813" TEXT="Shows how behind the very idea of inheritance, there is a duality of form and substance, which does not explain one or the other"/>
 <node CREATED="1496657648065" ID="ID_444999452" MODIFIED="1496657671096" TEXT="To get past that you need to explore the ongoing production of information"/>
-<node CREATED="1496659169626" ID="ID_410934599" MODIFIED="1496659225314" TEXT="&quot;&#x2018;&#x2018;If we&#x2019;re all Darwinians,&#x2019;&#x2019; Symons (1987) asks, &#x2018;&#x2018;what&#x2019;s the fuss about?&#x2019;&#x2019; And if we&#x2019;re all interactionists, again, why the fuss? I suggest the fuss arises (and sometimes doesn&#x2019;t arise when it should) because we haven&#x2019;t figured out what either requires, much less how to be both at the same time. A solution that combines encoded nature with varying doses of contingent nurture is no solution at all.&quot; (p. 5)"/>
+<node CREATED="1496659169626" ID="ID_410934599" MODIFIED="1496670632749" TEXT="&quot;&#x2018;&#x2018;If we&#x2019;re all Darwinians,&#x2019;&#x2019; Symons (1987) asks, &#x2018;&#x2018;what&#x2019;s the fuss about?&#x2019;&#x2019; And if we&#x2019;re all interactionists, again, why the fuss? I suggest the fuss arises (and sometimes doesn&#x2019;t arise when it should) because we haven&#x2019;t figured out what either requires, much less how to be both at the same time. A solution that combines encoded nature with varying doses of contingent nurture is no solution at all.&quot; (p. 5)"/>
 </node>
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node CREATED="1493652662611" ID="ID_43955621" MODIFIED="1493652664489" TEXT="Ingold">

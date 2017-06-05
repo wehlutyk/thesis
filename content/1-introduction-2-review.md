@@ -100,6 +100,8 @@ Dropped authors:
 
 ### Evolution of culture
 
+\add{the cog-soc link is also often viewed as the question of what human nature is (because an answer to that question would define the unit of analysis for culture and everything else)}
+
 Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
 Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
 
@@ -437,4 +439,102 @@ Other empirical fields in psychology and linguistics will prove crucial to the s
 Let us now move on to the most debated developments of cultural evolution, the criticisms opposed to the approach, the alternatives emerging from these critiques, and the possibilities of reconciliation.
 
 
-### Developments, criticisms and alternatives {#sec:intro-review-developments}
+### Developments, criticisms or alternatives {#sec:intro-review-developments}
+
+The exact nature of evolution is the subject of ongoing debates in biology and philosophy of biology, and some of the recent developments are making their way into the core of cultural evolution theory.
+In a parallel movement, the nature of cognition is itself a debated subject inside philosophy of cognitive science.
+The aim of this section is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating on one side the elements that could be---or are already---integrated into mainstream CAT, and on the other side the critiques which, at least in current writings, seem to call for a deeper rethink of the paradigm.
+Compared to the previous section, the questions are more theoretical, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
+This is not to say the debates in biology and cognitive science concern theory alone, as positions in the discussions are well-supported by empirical work;
+but up to now, those works have not straightforwardly translated to actionable questions in the study of cultural evolution [although there are exceptions, e.g. @mcgraw_cultures_2014; and related works such as @wallot_beyond_2016].
+As will hopefully be clear by the end of @sec:discussion which returns to these issues, much of the work I present in the next two chapters aims to contribute to the first steps of translating these matters into empirical questions.
+I present elements of those debates in two groups:
+developments, which seem possible to integrate into CAT, and criticisms, which seem to challenge CAT closer to its foundations.
+
+
+#### Developments
+
+A central question in the study of evolution is the definition of what counts as heritable material, for which two broad views are competing.
+The debate, agreements and disagreements between both views are well documented, and I base the discussion that follows on the recent reviews of the questions provided by @laland_does_2014, @scott-phillips_niche_2014, and @gilbert_eco-evo-devo:_2015.
+The standard account of biological evolution, or Standard Evolutionary Theory (SET) as termed by @scott-phillips_niche_2014, defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; citing @futuyma_evolution_2005].
+Scott-Phillips and colleagues continue:
+
+> Evolutionary processes are generally thought of as processes by which these changes occur.
+> Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration (Fisher 1930; Haldane 1932).
+> The latter two generate variation; the first two sort it.
+> [@scott-phillips_niche_2014, p. 1232]
+
+In this view, DNA sequences constitute the principle heritable material transmitted from parent to offspring across generations, and their distribution and change should be the main focus of evolutionary theory.
+Furthermore:
+
+> There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor.
+> [@scott-phillips_niche_2014, p. 1233]
+
+Niche construction is the process by which organisms engineer their environment in ways that are often beneficial to them.
+A classic example of such niches are the dams built by beavers along the rivers they inhabit;
+such dams create a local lake and their construction actively changes the environment in which future generations of beavers develop (aside from neighbouring organisms).
+A constructed niche is thus inherited, and can have a lasting impact on the selection pressures in which later generations evolve.
+As @scott-phillips_niche_2014 make clear, SET recognises this phenomenon and defenders of the classical account are among those who actively study it [@laland_does_2014].
+Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that increasing amounts of similar evidence are unsatisfactorily accounted for by SET (though not in contradiction with it), and proposes "a broadened concept of inheritance, including 'ecological inheritance,' the modified environmental states that niche-constructing organisms bequeath to their descendants" [@scott-phillips_niche_2014, p. 1233].
+NCT is part of a broader movement in evolutionary biology that seeks to unify developmental biology with evolution, by studying the evolution of developmental processes (or "Evo-Devo") together with the evolution of the environment in which those processes take place.
+These works argue for an Extended Evolutionary Synthesis [EES, also termed Eco-Evo-Devo, @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, which inherit genetic material, but also epigenetic material along with behavioural patterns and communication systems [@jablonka_systems_2001].
+The crux of the disagreement with SET lies in the importance of the dynamics that these inheritance systems generate:
+SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for such change;
+EES considers it more fruitful to define evolution as change in the whole organism-environment system, for which niche construction or behavioural inheritance are core evolutionary processes.
+According to @scott-phillips_niche_2014, the current evidence does not lead to a hard contradiction between the two perspectives:
+each can be retro-fitted into the other.
+However, proponents of EES argue that the study of ecological processes in evolution, while present in SET, has become systematic thanks to the change of focus brought by the development of NCT.
+
+The debate as presented above is a minimal, and arguably mild, form of the disagreement.
+However there is a broad range of approaches to the questions raised by evidence of ecological inheritance and evo-devo that is not represented here [a fact reflected in the correspondingly broad array of gene concepts analysed by @griffiths_genetics_2013].
+Stronger stances also coexist with that presented above, in the form of Developmental Systems Theory [@oyama_ontogeny_2000; @oyama_cycles_2001], which we will come back to in @sec:intro-review-developments-criticisms.
+For now, let us focus on the implications of this minimal stance for the field of cultural evolution.
+
+
+
+
+
+
+#### Criticisms {#sec:intro-review-developments-criticisms}
+
+
+#### Relevance to linguistic material
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
