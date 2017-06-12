@@ -296,6 +296,8 @@ This short review shows there is much room for exploration, on one side, of the 
 
 #### Language change: Experimental semiotics and Iterated learning
 
+\add{tamariz-experimental-2017}
+
 A related strand of research develops similar methods to study the emergence and evolution of language.
 A central experimental paradigm is that of iterated learning, which resembles a transmission chain for artificial languages:
 a first group of participants must learn to use a simple artificial language (e.g. an artificial vocabulary for naming a range of objects), after which a second group of participants must learn that language through some interaction with or transmission from the first group.
@@ -369,6 +371,8 @@ An interesting and important development in recent works is the introduction of 
 Let me close this short review by noting that there is an increasing convergence both in the literature and in empirical questions, of the cultural evolution and language evolution fields;
 this combination of approaches should prove useful in further identification (and answering) of the core questions in cultural evolution.
 
+\add{sperber-beyond-2015}
+
 
 #### Digital media
 
@@ -441,54 +445,122 @@ Let us now move on to the most debated developments of cultural evolution, the c
 
 ### Developments, criticisms or alternatives {#sec:intro-review-developments}
 
-The exact nature of evolution is the subject of ongoing debates in biology and philosophy of biology, and some of the recent developments are making their way into the core of cultural evolution theory.
-In a parallel movement, the nature of cognition is itself a debated subject inside philosophy of cognitive science.
-The aim of this section is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating on one side the elements that could be---or are already---integrated into mainstream CAT, and on the other side the critiques which, at least in current writings, seem to call for a deeper rethink of the paradigm.
+The exact nature of evolution is subject to debate in biology and philosophy of biology, and some of the recent developments have made their way into the core of cultural evolution theory.
+In a parallel movement, the nature of cognition is itself debated inside philosophy of cognitive science.
+The aim of this section is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating on one side the elements that could be---or are already partly---integrated into mainstream CAT, and on the other side the critiques which, at least in current writings, seem to call for a rethink of parts of the paradigm.
 Compared to the previous section, the questions are more theoretical, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
-This is not to say the debates in biology and cognitive science concern theory alone, as positions in the discussions are well-supported by empirical work;
-but up to now, those works have not straightforwardly translated to actionable questions in the study of cultural evolution [although there are exceptions, e.g. @mcgraw_cultures_2014; and related works such as @wallot_beyond_2016].
-As will hopefully be clear by the end of @sec:discussion which returns to these issues, much of the work I present in the next two chapters aims to contribute to the first steps of translating these matters into empirical questions.
-I present elements of those debates in two groups:
+This is not to say the debates in biology and cognitive science concern theory alone, as positions in the discussions are well supported by empirical work;
+rather, up to now those works have not translated to actionable contradictory predictions in the study of cultural evolution proper.
+I now present elements of those debates in two groups:
 developments, which seem possible to integrate into CAT, and criticisms, which seem to challenge CAT closer to its foundations.
+As will hopefully be clear by the end of @sec:discussion where I return to these issues, the work I present in the next two chapters also aims to contribute to the first steps in translating such criticisms into empirical questions.
+
+\todo{? one way to view it is the level of detail of the model, and how much you reify it, or what artefact you choose to represent the cycle}
 
 
 #### Developments
 
 A central question in the study of evolution is the definition of what counts as heritable material, for which two broad views are competing.
-The debate, agreements and disagreements between both views are well documented, and I base the discussion that follows on the recent reviews of the questions provided by @laland_does_2014, @scott-phillips_niche_2014, and @gilbert_eco-evo-devo:_2015.
+The debate, agreements and disagreements between both views are well documented, and I base the discussion that follows on the recent reviews provided by @laland_does_2014, @scott-phillips_niche_2014.
 The standard account of biological evolution, or Standard Evolutionary Theory (SET) as termed by @scott-phillips_niche_2014, defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; citing @futuyma_evolution_2005].
-Scott-Phillips and colleagues continue:
+Scott-Phillips and colleagues define the evolutionary processes recognised by SET:
 
-> Evolutionary processes are generally thought of as processes by which these changes occur.
-> Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration (Fisher 1930; Haldane 1932).
-> The latter two generate variation; the first two sort it.
+> "Evolutionary processes are generally thought of as processes by which these changes occur. Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration [@fisher_genetical_1930; @haldane_causes_1932]. The latter two generate variation; the first two sort it."
 > [@scott-phillips_niche_2014, p. 1232]
 
 In this view, DNA sequences constitute the principle heritable material transmitted from parent to offspring across generations, and their distribution and change should be the main focus of evolutionary theory.
 Furthermore:
 
-> There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor.
+> "There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor.""
 > [@scott-phillips_niche_2014, p. 1233]
 
-Niche construction is the process by which organisms engineer their environment in ways that are often beneficial to them.
+Niche construction is the process by which organisms engineer their own and other organisms' environment in ways that are often beneficial to them.
 A classic example of such niches are the dams built by beavers along the rivers they inhabit;
-such dams create a local lake and their construction actively changes the environment in which future generations of beavers develop (aside from neighbouring organisms).
-A constructed niche is thus inherited, and can have a lasting impact on the selection pressures in which later generations evolve.
-As @scott-phillips_niche_2014 make clear, SET recognises this phenomenon and defenders of the classical account are among those who actively study it [@laland_does_2014].
-Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that increasing amounts of similar evidence are unsatisfactorily accounted for by SET (though not in contradiction with it), and proposes "a broadened concept of inheritance, including 'ecological inheritance,' the modified environmental states that niche-constructing organisms bequeath to their descendants" [@scott-phillips_niche_2014, p. 1233].
-NCT is part of a broader movement in evolutionary biology that seeks to unify developmental biology with evolution, by studying the evolution of developmental processes (or "Evo-Devo") together with the evolution of the environment in which those processes take place.
-These works argue for an Extended Evolutionary Synthesis [EES, also termed Eco-Evo-Devo, @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, which inherit genetic material, but also epigenetic material along with behavioural patterns and communication systems [@jablonka_systems_2001].
-The crux of the disagreement with SET lies in the importance of the dynamics that these inheritance systems generate:
-SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for such change;
-EES considers it more fruitful to define evolution as change in the whole organism-environment system, for which niche construction or behavioural inheritance are core evolutionary processes.
-According to @scott-phillips_niche_2014, the current evidence does not lead to a hard contradiction between the two perspectives:
-each can be retro-fitted into the other.
-However, proponents of EES argue that the study of ecological processes in evolution, while present in SET, has become systematic thanks to the change of focus brought by the development of NCT.
+such dams create a local lake and their construction actively changes the environment in which future generations of beavers---as well as neighbouring organisms---develop.
+A constructed niche is inherited across generations, and its existence can have a lasting impact on the selection pressures under which later generations evolve.
+SET recognises this phenomenon and defenders of the classical account are among those who actively study it [@laland_does_2014].
+Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that increasing amounts of evidence are unsatisfactorily accounted for by SET (though not in contradiction with it), and proposes "a broadened concept of inheritance, including 'ecological inheritance,' the modified environmental states that niche-constructing organisms bequeath to their descendants" [@scott-phillips_niche_2014, p. 1233].
+Those constructed environmental states bias the natural selection of later generations (so-called "selective niche"), and also affect the social and ecological environment in which offspring develop (so-called "ontogenetic niche"), both being processes that can lead to evolutionary feedback loops.
 
-The debate as presented above is a minimal, and arguably mild, form of the disagreement.
-However there is a broad range of approaches to the questions raised by evidence of ecological inheritance and evo-devo that is not represented here [a fact reflected in the correspondingly broad array of gene concepts analysed by @griffiths_genetics_2013].
-Stronger stances also coexist with that presented above, in the form of Developmental Systems Theory [@oyama_ontogeny_2000; @oyama_cycles_2001], which we will come back to in @sec:intro-review-developments-criticisms.
-For now, let us focus on the implications of this minimal stance for the field of cultural evolution.
+\add{if clear, add gilbert-eco-evo-devo:-2015}
+
+NCT is part of a broader movement in evolutionary biology that seeks to integrate a strong view of such feedback dynamics into evolutionary theory, by combining evolutionary developmental biology ("Evo-Devo") with the evolution of the environment in which development take place.
+These works argue for an Extended Evolutionary Synthesis [EES, also termed Eco-Evo-Devo, @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also epigenetic material along with behavioural patterns and communication systems [@jablonka_systems_2001].
+The crux of the disagreement with SET lies in the importance of the dynamics that this feedback generates:
+SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for changes in DNA.
+Conversely, EES considers it more *fruitful* to define evolution as change in the whole organism-environment system, for which niche construction is a core evolutionary process, like genetic mutation or natural selection.
+According to @scott-phillips_niche_2014, the current evidence does not tease the two perspectives apart unequivocally:
+all known phenomena can still be explained by both approaches with varying degrees of shoehorning, and predictions from each theory can be rephrased into the other one (although such inseparability might not last).
+However, proponents of EES argue that the study of ecological processes in evolution, while present in SET, has become systematic only thanks to the change of focus brought by the development of NCT.
+
+The Extended Evolutionary Synthesis offers a natural framework for the study of all aspects of evolution, be they cultural or biological, and indeed the gene-culture co-evolution framework for cultural evolution fits well with this synthesis.
+The communities developing those approaches overlap partially (Marcus Feldman, notably, is a core contributor to both research streams), and @sterelny_cultural_2017 argues that NCT is a core---if sometimes implicit---component of both classical cultural evolution and CAT.
+Indeed, EES is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand is then to identify the different channels of inheritance in that system, their modes of operation, and the dynamics of their interaction [@kendal_human_2011].
+On this view, then, culture is accounted for by a blend of ecological and cognitive-epistemic niche construction processes.
+
+A related and somewhat complimentary extension to the standard evolutionary account has developed in parallel to NCT: Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
+Kim Sterelny characterises it, on one side, with three critical theses:
+
+> (1) We cannot simply assume that the organism/environment boundary is of theoretical significance for developmental and evolutionary biology ... (2) It may be legitimate to foreground genetic structure and genetic change for specific explanatory or predictive purposes. But in general, the genes an organism carries are just one set of developmental resources among many. Genes and gene changes are important both to development and to evolution, but they are not of primary or privileged importance. (3) Developmental systems theorists are skeptical about the project of explaining intergenerational similarity by appealing to the transmission of phenotype-making information across generations.
+> [@sterelny_niche_2001, p. 335]
+
+Crucially, DST claims that overlooked evidence in development indicates that there is a "causal parity" between genes and non-genetic development factors, such that evolutionary theories should not give greater (or smaller) importance to the former over the latter.
+This in turn sustains the third thesis:
+views of the genome as a bearer of biological information should be qualified in light of the complex interaction of development processes in which genes participate [@griffiths_genetics_2013 extensively review concepts of the gene and the information a genome can be considered to bear].
+Now the other side of Sterelny's characterisation of DST is its positive story:
+
+> The positive program of developmental systems theory is that the fundamental unit of evolution is the life cycle. In turn, the life cycle is the set of developmental resources that are packaged together and interact in such a way that the cycle is reconstructed. The most obvious life cycle is that of the organism plus its immediate environment, but developmental systems theorists are open to the idea that cycles will exist at both finer and coarser grains.
+> [@sterelny_niche_2001, p. 335]
+
+A driving goal in DST is to recontextualise, explain, and if possible do without the conceptual divide between matter and form, that is between specification and realisation, which underlies most discussions of nature-nurture [@oyama_ontogeny_2000].
+This implies putting an endogenous account of the concept of information at the centre of its theory, by focusing on the generation of such information through the dynamics systems as they develop and as their resources interact.
+
+While many aspects of NCT-EES and DST can be complimentarily combined, for the current purposes I suggest we locate the two approaches with respect to the two following questions:
+
+- How far should models and theories of evolution integrate the detailed processes of development and environmental interaction to provide an accurate picture of evolution?
+  This question is not so much about finding the *right* level of descriptive complexity, as it is about finding the *relative importance* of each level of complexity.
+  In other words, it is a question about the shape of the cost function representing the trade-off between parsimony and explanatory power (rather than where on that function a theory should operate).
+  The classical account of evolution suggests development can be abstracted away, such that analysing gene flow with the four recognised processes (natural selection, genetic drift, mutation, and migration) can account for all important evolutionary dynamics.
+  NCT claims that organism-environment interactions generate dynamics that do not fit into the standard account, warranting an extension of the processes considered.
+  DST further claims that evolution's unit of analysis should be the full life cycle of a developmental system (organism or other), which makes it more difficult to abstract out absolute information items but guarantees an accurate view of the causal parity of developmental resources.
+- What notion of information should evolutionary theory rely on?
+  Classical evolutionary theory and NCT seem to rely on the idea that DNA bears the biological information that is used throughout development, in an interaction with the environment.
+  Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary to darwinian approaches:
+  it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
+
+
+
+
+
+
+COGNITION: same structure: extended, then hard-enactive
+
+
+The approach developed by EES is closely related to a parallel movement in the philosophy of cognitive science debating the boundaries and nature of cognition.
+Extended, Embedded, Embodied, and Enactive Cognitive Science argues that cognition is not only (or not at all) an information-processing operation in the void, but also (or exclusively) an activity meshed in its situation, making all cognitive processes dynamic couplings with their environment.
+Similarly to its application to evolution, this idea comes with more or less CAT-compatible implications.
+The scaffolded mind proposed by @sterelny_minds:_2010 [@sterelny_evolved_2012], among the more compatible versions that provide a convergence with EES, suggests that human beings grow in a material and social environment that supports their workings throughout development.
+This environment is the result of a cumulative cognitive niche construction which engineers all aspects of the environment in which human beings develop to support, and make possible, their everyday capacities for dealing with life.
+Such an approach is derived from NCT, and is consistent with both approaches to cultural evolution outline above.
+
+\todo{In fact there's a lot of variants in how merges of these ideas are made: sterelny uses NCT to tackle development, stotz 4E and DST to tackle development}
+
+\todo{stotz-human-2010 further reviews the contributions of extended approaches in the convergence between 4E and DST}
+
+The change in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of SCE and CAT [@fuentes_evolution_2006; @fuentes_new_2009; @ingold_complementarity_1998; @ingold_transmission_2001].
+
+\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -497,44 +569,7 @@ For now, let us focus on the implications of this minimal stance for the field o
 
 #### Criticisms {#sec:intro-review-developments-criticisms}
 
+\add{but see mcgraw-cultures-2014; and related works such as wallot-beyond-2016}
+
 
 #### Relevance to linguistic material
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.

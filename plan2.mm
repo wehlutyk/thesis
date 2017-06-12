@@ -301,7 +301,7 @@
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
 </node>
 <node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1496393263866" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
-<node COLOR="#669900" CREATED="1496391452568" FOLDED="true" ID="ID_731403759" MODIFIED="1496677874183" TEXT="Extended Evolutionary Synthesis">
+<node COLOR="#669900" CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497252963392" TEXT="Extended Evolutionary Synthesis">
 <node CREATED="1496670632946" ID="ID_485341525" MODIFIED="1496677870678" TEXT="There are two competing views of what counts as heritable material"/>
 <node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1496677870669" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014, oyama_cycles_2001, gilbert_eco-evo-devo:_2015"/>
 <node CREATED="1496391716934" ID="ID_138544146" MODIFIED="1496677870669" TEXT="SET considers evolution to be change in frequencies of DNA sequences, heritable stuff to be DNA"/>
@@ -311,12 +311,22 @@
 <node CREATED="1496676510667" ID="ID_792866864" MODIFIED="1496677870658" TEXT="This is linked to DST, and conceptions of genes and inheritance, which can have harder consequences (and not only what looks like a mild disagreement)"/>
 <node CREATED="1496585358794" ID="ID_877319912" MODIFIED="1496677870657" TEXT="A good review of the conceptions of gene is given by griffiths_genetics_2013"/>
 </node>
+<node CREATED="1496393867442" ID="ID_182835405" MODIFIED="1496749576749" TEXT="One way to look at it is the level of detail of your model of inheritance, how much you want to be able to reconstruct reality with your model (somewhat like a mean-field approximation vs. not)">
+<node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1496394963259" TEXT="doebeli_towards_2017 discuss birth-death processes against simplification of evolution (no fitness landscape)"/>
+<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1496410861091" TEXT="wimsatt_reproducing_2007">
+<node CREATED="1496410867463" ID="ID_785400178" MODIFIED="1496411055233" TEXT="Replicator-based evolution (whether cultural memes or biological genes) obviates developmental processes"/>
+<node CREATED="1496411066133" ID="ID_190906013" MODIFIED="1496411112950" TEXT="It is possible (and necessary) to combine a developmentally sensitive view of culture with population thinking"/>
+<node CREATED="1494849023674" ID="ID_962347152" MODIFIED="1494849041312" TEXT="Must consider more than 2 channels, even at short time scales"/>
+</node>
+<node CREATED="1496413049721" ID="ID_1997311976" MODIFIED="1496652986488" TEXT="mcgraw_cultures_2014, wallot_beyond_2016 are maybe good examples of how to design transmission experiments that take this into account; dale_self-organization_2014 of how analyses could go"/>
+</node>
 <node CREATED="1496393263854" ID="ID_1448103965" MODIFIED="1496393267481" TEXT="For culture">
-<node CREATED="1496393218765" ID="ID_1115762481" MODIFIED="1496393748974" TEXT="EES offers a more natural way of integrating culture into the big evolutionary picture"/>
-<node CREATED="1496644176397" ID="ID_360532150" MODIFIED="1496644243598" TEXT="It goes with a parallel movement of extending the mind, e.g. The Extended Mind, Clark and Chalmers 1998"/>
-<node CREATED="1496393342084" ID="ID_1248312039" MODIFIED="1496569754281" TEXT="It has generated things like The Evolved Apprentice (sterelny_evolved_2012, which is Cumulative Cognitive Niche Construction), the Scaffolded Mind (sterelny_minds:_2010), Croft&apos;s inclusive theory of language evolution (croft_evolutionary_2013), and the many examples of culture in oyama_cycles_2001."/>
-<node CREATED="1496391837868" ID="ID_717499204" MODIFIED="1496649202285" TEXT="SCE (Feldman, kendal_human_2011) is in global agreement with EES, they have published much together, and sterelny_cultural_2017 considers it&apos;s a core piece of both SCE and CAT"/>
-<node CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1496649081201" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, fuentes_race_2012, fuentes_integrative_2015, ingold_complementarity_1998, ingold_transmission_2001, ingold_biosocial_2013"/>
+<node COLOR="#669900" CREATED="1496393218765" ID="ID_1115762481" MODIFIED="1496748391197" TEXT="EES offers a more natural way of integrating culture into the big evolutionary picture"/>
+<node COLOR="#669900" CREATED="1496391837868" ID="ID_717499204" MODIFIED="1496744984352" TEXT="SCE (Feldman, kendal_human_2011) is in global agreement with EES, they have published much together, and sterelny_cultural_2017 considers it&apos;s a core piece of both SCE and CAT"/>
+<node COLOR="#669900" CREATED="1496644176397" ID="ID_360532150" MODIFIED="1496748399202" TEXT="It goes with a parallel movement of extending the mind, e.g. The Extended Mind, Clark and Chalmers 1998"/>
+<node COLOR="#669900" CREATED="1496393342084" ID="ID_1248312039" MODIFIED="1496748438135" TEXT="It has generated things like The Evolved Apprentice (sterelny_evolved_2012, which is Cumulative Cognitive Niche Construction), the Scaffolded Mind (sterelny_minds:_2010)"/>
+<node CREATED="1496748433678" ID="ID_1993318049" MODIFIED="1496748436528" TEXT="Croft&apos;s inclusive theory of language evolution (croft_evolutionary_2013), and the many examples of culture in oyama_cycles_2001"/>
+<node COLOR="#669900" CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1496748855992" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, fuentes_race_2012, fuentes_integrative_2015, ingold_complementarity_1998, ingold_transmission_2001, ingold_biosocial_2013"/>
 <node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1496397331719" TEXT="Population thinking, which is what CAT/SCE have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
 <node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1496397330202" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
 <node CREATED="1496569754825" ID="ID_785979947" MODIFIED="1496582057342" TEXT="stotz_human_2010 who reviews the contributions of extended approaches in the convergence of 4E (which we talk about more below) and DST">
@@ -326,15 +336,6 @@
 <node CREATED="1496583475041" ID="ID_1401435396" MODIFIED="1496583476210" TEXT="steiner_autonomy_2009"/>
 </node>
 <node CREATED="1496397261100" ID="ID_213339348" MODIFIED="1496397812968" TEXT="But it&apos;s not clear how much core proponents of CAT/SCE have that in their core: they speak of channels (lewens_cultural_2012, p. 476) and of culture as information (p. 475)"/>
-</node>
-<node CREATED="1496393867442" ID="ID_182835405" MODIFIED="1496394563362" TEXT="One way to look at it is the level of detail of your model of inheritance, how much you want to be able to reconstruct reality with your model (somewhat like a mean-field approximation vs. not)">
-<node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1496394963259" TEXT="doebeli_towards_2017 discuss birth-death processes against simplification of evolution (no fitness landscape)"/>
-<node CREATED="1494003890477" ID="ID_30833382" MODIFIED="1496410861091" TEXT="wimsatt_reproducing_2007">
-<node CREATED="1496410867463" ID="ID_785400178" MODIFIED="1496411055233" TEXT="Replicator-based evolution (whether cultural memes or biological genes) obviates developmental processes"/>
-<node CREATED="1496411066133" ID="ID_190906013" MODIFIED="1496411112950" TEXT="It is possible (and necessary) to combine a developmentally sensitive view of culture with population thinking"/>
-<node CREATED="1494849023674" ID="ID_962347152" MODIFIED="1494849041312" TEXT="Must consider more than 2 channels, even at short time scales"/>
-</node>
-<node CREATED="1496413049721" ID="ID_1997311976" MODIFIED="1496652986488" TEXT="mcgraw_cultures_2014, wallot_beyond_2016 are maybe good examples of how to design transmission experiments that take this into account; dale_self-organization_2014 of how analyses could go"/>
 </node>
 </node>
 <node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1496305094289" TEXT="External: Information dualism">
