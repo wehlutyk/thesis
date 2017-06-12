@@ -460,6 +460,8 @@ As will hopefully be clear by the end of @sec:discussion where I return to these
 
 #### Developments
 
+\add{subtitles?}
+
 A central question in the study of evolution is the definition of what counts as heritable material, for which two broad views are competing.
 The debate, agreements and disagreements between both views are well documented, and I base the discussion that follows on the recent reviews provided by @laland_does_2014, @scott-phillips_niche_2014.
 The standard account of biological evolution, or Standard Evolutionary Theory (SET) as termed by @scott-phillips_niche_2014, defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; citing @futuyma_evolution_2005].
@@ -471,7 +473,7 @@ Scott-Phillips and colleagues define the evolutionary processes recognised by SE
 In this view, DNA sequences constitute the principle heritable material transmitted from parent to offspring across generations, and their distribution and change should be the main focus of evolutionary theory.
 Furthermore:
 
-> "There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor.""
+> "There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor."
 > [@scott-phillips_niche_2014, p. 1233]
 
 Niche construction is the process by which organisms engineer their own and other organisms' environment in ways that are often beneficial to them.
@@ -501,70 +503,53 @@ On this view, then, culture is accounted for by a blend of ecological and cognit
 A related and somewhat complimentary extension to the standard evolutionary account has developed in parallel to NCT: Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
 Kim Sterelny characterises it, on one side, with three critical theses:
 
-> (1) We cannot simply assume that the organism/environment boundary is of theoretical significance for developmental and evolutionary biology ... (2) It may be legitimate to foreground genetic structure and genetic change for specific explanatory or predictive purposes. But in general, the genes an organism carries are just one set of developmental resources among many. Genes and gene changes are important both to development and to evolution, but they are not of primary or privileged importance. (3) Developmental systems theorists are skeptical about the project of explaining intergenerational similarity by appealing to the transmission of phenotype-making information across generations.
+> "(1) We cannot simply assume that the organism/environment boundary is of theoretical significance for developmental and evolutionary biology ... (2) It may be legitimate to foreground genetic structure and genetic change for specific explanatory or predictive purposes. But in general, the genes an organism carries are just one set of developmental resources among many. Genes and gene changes are important both to development and to evolution, but they are not of primary or privileged importance. (3) Developmental systems theorists are skeptical about the project of explaining intergenerational similarity by appealing to the transmission of phenotype-making information across generations."
 > [@sterelny_niche_2001, p. 335]
 
 Crucially, DST claims that overlooked evidence in development indicates that there is a "causal parity" between genes and non-genetic development factors, such that evolutionary theories should not give greater (or smaller) importance to the former over the latter.
 This in turn sustains the third thesis:
-views of the genome as a bearer of biological information should be qualified in light of the complex interaction of development processes in which genes participate [@griffiths_genetics_2013 extensively review concepts of the gene and the information a genome can be considered to bear].
+views of the genome as a bearer of biological information should be qualified in light of the complex interactions between development processes in which genes participate [for further detail, see @griffiths_genetics_2013, who extensively review the ways in which genes can be, or historically have been, considered to bear information].
 Now the other side of Sterelny's characterisation of DST is its positive story:
 
-> The positive program of developmental systems theory is that the fundamental unit of evolution is the life cycle. In turn, the life cycle is the set of developmental resources that are packaged together and interact in such a way that the cycle is reconstructed. The most obvious life cycle is that of the organism plus its immediate environment, but developmental systems theorists are open to the idea that cycles will exist at both finer and coarser grains.
+> "The positive program of developmental systems theory is that the fundamental unit of evolution is the life cycle. In turn, the life cycle is the set of developmental resources that are packaged together and interact in such a way that the cycle is reconstructed. The most obvious life cycle is that of the organism plus its immediate environment, but developmental systems theorists are open to the idea that cycles will exist at both finer and coarser grains."
 > [@sterelny_niche_2001, p. 335]
 
 A driving goal in DST is to recontextualise, explain, and if possible do without the conceptual divide between matter and form, that is between specification and realisation, which underlies most discussions of nature-nurture [@oyama_ontogeny_2000].
-This implies putting an endogenous account of the concept of information at the centre of its theory, by focusing on the generation of such information through the dynamics systems as they develop and as their resources interact.
+This implies putting an endogenous account of the concept of information at the centre of its theory, by focusing on the way such information is generated through the dynamics of a system as it develops and as its resources interact.
 
-While many aspects of NCT-EES and DST can be complimentarily combined, for the current purposes I suggest we locate the two approaches with respect to the two following questions:
+In many aspects, NCT-EES and DST complement each other.
+However for the current purposes I suggest we locate both approaches with respect to the two following questions:
 
 - How far should models and theories of evolution integrate the detailed processes of development and environmental interaction to provide an accurate picture of evolution?
   This question is not so much about finding the *right* level of descriptive complexity, as it is about finding the *relative importance* of each level of complexity.
-  In other words, it is a question about the shape of the cost function representing the trade-off between parsimony and explanatory power (rather than where on that function a theory should operate).
+  In other words, it asks what is the shape of the cost function representing the trade-off between parsimony and explanatory power (rather than where on that function a theory should operate).
   The classical account of evolution suggests development can be abstracted away, such that analysing gene flow with the four recognised processes (natural selection, genetic drift, mutation, and migration) can account for all important evolutionary dynamics.
   NCT claims that organism-environment interactions generate dynamics that do not fit into the standard account, warranting an extension of the processes considered.
   DST further claims that evolution's unit of analysis should be the full life cycle of a developmental system (organism or other), which makes it more difficult to abstract out absolute information items but guarantees an accurate view of the causal parity of developmental resources.
 - What notion of information should evolutionary theory rely on?
   Classical evolutionary theory and NCT seem to rely on the idea that DNA bears the biological information that is used throughout development, in an interaction with the environment.
-  Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary to darwinian approaches:
-  it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
+  Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
+  instead it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
 
+\add{a note on how this is important to CAT}
 
+\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other; the second degree is compatible with population thinking, so might also work well with ideas of attraction, though not with dual-inheritance.}
 
+In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions.
+\(1) The boundaries of cognition:
+are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998; @menary_extended_2010].
+\(2) The role of time-dependent dynamics, and the corresponding construal of cognition:
+are cognitive systems best described as digital computers processing information in the form of representations (i.e. symbol processing systems), where time can often be reduced to an ordering of events, or as dynamical systems where time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998; @beer_information_2015].
+In treating these questions, the extended, embedded, embodied, and enactive approaches to cognitive science (the so-called "4E") have argued to various degrees that cognition is not only (or not at all) an information-processing operation in the void, but also (or exclusively) a situated activity supported by (or a dynamic coupling with) its environment.
+The most conservative approaches are quite compatible with EES and thus with both approaches to cultural evolution outlined above.
+Indeed @sterelny_minds:_2010 [-@sterelny_evolved_2012], building on NCT, has argued that the extended mind approach is a special case of epistemic niche construction.
+He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes.
+Such processes engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
 
-
-
-COGNITION: same structure: extended, then hard-enactive
-
-
-The approach developed by EES is closely related to a parallel movement in the philosophy of cognitive science debating the boundaries and nature of cognition.
-Extended, Embedded, Embodied, and Enactive Cognitive Science argues that cognition is not only (or not at all) an information-processing operation in the void, but also (or exclusively) an activity meshed in its situation, making all cognitive processes dynamic couplings with their environment.
-Similarly to its application to evolution, this idea comes with more or less CAT-compatible implications.
-The scaffolded mind proposed by @sterelny_minds:_2010 [@sterelny_evolved_2012], among the more compatible versions that provide a convergence with EES, suggests that human beings grow in a material and social environment that supports their workings throughout development.
-This environment is the result of a cumulative cognitive niche construction which engineers all aspects of the environment in which human beings develop to support, and make possible, their everyday capacities for dealing with life.
-Such an approach is derived from NCT, and is consistent with both approaches to cultural evolution outline above.
-
-\todo{In fact there's a lot of variants in how merges of these ideas are made: sterelny uses NCT to tackle development, stotz 4E and DST to tackle development}
-
-\todo{stotz-human-2010 further reviews the contributions of extended approaches in the convergence between 4E and DST}
-
-The change in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of SCE and CAT [@fuentes_evolution_2006; @fuentes_new_2009; @ingold_complementarity_1998; @ingold_transmission_2001].
-
-\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The links between 4E cognitive science and developmental systems theory have also been explored by @stotz_human_2010.
+Indeed given some adaptations, many aspects of EES, DST, and 4E cognitive science seem possible to fruitfully integrate into the study of cultural evolution [as @lewens_cultural_2012, p. 474, notes, the fact that Russell Gray participated in the initial development of DST and is now an outspoken proponent of cultural evolutionary theory, is very encouraging].
+The shift in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of SCE and CAT [@fuentes_evolution_2006; @fuentes_new_2009; @ingold_complementarity_1998; @ingold_transmission_2001].
+In the next section however, I will focus on what does seem to be a hard line of disagreement which, in the current state, is far from resolved.
 
 
 #### Criticisms {#sec:intro-review-developments-criticisms}
