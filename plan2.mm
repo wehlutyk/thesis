@@ -301,8 +301,8 @@
 <node CREATED="1495804076346" ID="ID_687606349" MODIFIED="1495804081372" TEXT="This section looks at those, asking whether they are relevant for evolution of linguistic material (just like Croft)"/>
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
 </node>
-<node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1496393263866" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
-<node COLOR="#669900" CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497366223102" TEXT="NCT and Extended Evolutionary Synthesis">
+<node COLOR="#669900" CREATED="1495029980190" FOLDED="true" ID="ID_471056532" MODIFIED="1497375177613" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
+<node CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497375176776" TEXT="NCT and Extended Evolutionary Synthesis">
 <node CREATED="1497365258491" ID="ID_1722796523" MODIFIED="1497365260003" TEXT="NCT">
 <node CREATED="1496670632946" ID="ID_485341525" MODIFIED="1496677870678" TEXT="There are two competing views of what counts as heritable material"/>
 <node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1497363843581" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014"/>
@@ -330,8 +330,8 @@
 <node CREATED="1497365623321" ID="ID_1050574879" MODIFIED="1497365645528" TEXT="So culture here is ecological and cognitive-epistemic niche construction"/>
 </node>
 </node>
-<node CREATED="1497363606842" ID="ID_13910289" MODIFIED="1497371157697" TEXT="4E / Extended Mind">
-<node CREATED="1497366998503" ID="ID_253518263" MODIFIED="1497367014558" TEXT="There is a parallel movement in cognitive scince and philosophy of mind"/>
+<node CREATED="1497363606842" ID="ID_13910289" MODIFIED="1497375175754" TEXT="4E / Extended Mind">
+<node CREATED="1497366998503" ID="ID_253518263" MODIFIED="1497375152453" TEXT="There is a parallel movement in cognitive science and philosophy of mind"/>
 <node CREATED="1497367014807" ID="ID_1320501208" MODIFIED="1497367025569" TEXT="It questions the nature of cognition on two dimensions">
 <node CREATED="1497367027636" ID="ID_985167568" MODIFIED="1497367036952" TEXT="boundaries of cognition"/>
 <node CREATED="1497367037449" ID="ID_1785530737" MODIFIED="1497367048463" TEXT="role of time and dynamicity"/>
@@ -342,7 +342,7 @@
 </node>
 </node>
 <node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1497371462419" TEXT="External: Information dualism">
-<node CREATED="1497363597434" ID="ID_773946608" MODIFIED="1497363606114" TEXT="Developmental Systems Theory">
+<node COLOR="#669900" CREATED="1497363597434" FOLDED="true" ID="ID_773946608" MODIFIED="1497375742652" TEXT="Developmental Systems Theory">
 <node CREATED="1497366257889" ID="ID_1710035021" MODIFIED="1497366268142" TEXT="Related and a little complementary, is DST"/>
 <node CREATED="1497366273034" ID="ID_1942806470" MODIFIED="1497366427333" TEXT="Sterelny presents its three critical theses (sterelny_niche_2001, p. 335)"/>
 <node CREATED="1497366299149" ID="ID_391655833" MODIFIED="1497366325424" TEXT="It claims that overlooked evidence points to &quot;causal parity&quot;"/>
@@ -358,7 +358,7 @@
 <node CREATED="1497370482444" ID="ID_446596159" MODIFIED="1497371012864" TEXT="Notably, DST criticises a dual inheritance account"/>
 </node>
 <node CREATED="1497367392109" ID="ID_1167401087" MODIFIED="1497367401044" TEXT="Convergence">
-<node CREATED="1497367402410" FOLDED="true" ID="ID_922545788" MODIFIED="1497371209754" TEXT="The links between 4E and DST have been explored by Stotz">
+<node CREATED="1497367402410" ID="ID_922545788" MODIFIED="1497375753763" TEXT="The links between 4E and DST have been explored by Stotz">
 <node CREATED="1496571812855" ID="ID_1886242057" MODIFIED="1496571813943" TEXT="&quot;Coming to grips with human nature, I will argue, means understanding development. Human nature does not lie in any set of &#x2018;essential&#x2019; traits with certain &apos;innate&#x2019; properties, but in the particular nature of the human developmental process.&quot; (p. 488)"/>
 <node CREATED="1496569847964" ID="ID_1499594790" MODIFIED="1496569880680" TEXT="&quot;... a matrix of reliable developmental factors, organized by the developmental niche, shapes the developmental system of brain, body, and its&#x2014; engineered&#x2014;environment. The reproduction of the developmental system through successive lifecycles is the result of the robust yet flexible availability of a wide range of developmental resources that reliably transmit crucial information from parents to offspring. Through formulising the processes of extended inheritance, developmental niche construction renders development as an evolutionarily salient process in the origin, maintenance and distribution of new trait variants&quot; (p. 488)"/>
 <node CREATED="1496569983755" ID="ID_454005980" MODIFIED="1496570018995" TEXT="&quot;Showcasing cognitive, cultural and symbolic niche construction as part of the overall process of ontogenetic niche construction helps us to overcome the old dichotomy between biological and cultural inheritance and evolution and see them not as analogous processes, as Clark, but as interlocking into a single extended process of human development and evolution.&quot; (p. 489)"/>

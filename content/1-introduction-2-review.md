@@ -488,7 +488,7 @@ The evolution of dairying, as analysed by @obrien_genes_2012, is claimed as a pa
 \add{if clear, add gilbert-eco-evo-devo:-2015}
 
 NCT is part of a broader movement in evolutionary biology that seeks to integrate a strong view of such feedback dynamics into evolutionary theory, by combining evolutionary developmental biology ("Evo-Devo") with the evolution of the environment in which development take place.
-These works argue for an Extended Evolutionary Synthesis [EES, also presented as Eco-Evo-Devo by @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also epigenetic material, behavioural patterns, communication systems [@jablonka_systems_2001] and, according to NCT, constructed selective and ontogenetic niches.
+These works argue for an Extended Evolutionary Synthesis [EES, also presented as Eco-Evo-Devo by @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also constructed selective and ontogenetic niches. \todo{Check all the ontogenetic stuff can stay here.}
 The crux of the disagreement with SET lies in the importance of the dynamics that this feedback generates:
 SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for changes in DNA.
 Conversely, EES considers it more *fruitful* to define evolution as change in the whole organism-environment system, for which niche construction is a core evolutionary process, like genetic mutation or natural selection.
@@ -501,6 +501,29 @@ The communities developing those approaches overlap partially (Marcus Feldman, n
 Indeed, EES is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand then joins up with that of dual inheritance theory, presented above:
 identifying the co-evolution dynamics of genetic and environmental inheritance channels.
 On this view, then, culture is accounted for by a blend of ecological and cognitive-epistemic niche construction processes.
+
+
+#### The extended mind
+
+\todo{develop a little}
+
+In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions.
+\(1) The boundaries of cognition:
+are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998; @menary_extended_2010].
+\(2) The role of time-dependent dynamics, and the corresponding construal of the nature of cognition:
+are cognitive systems best described as digital computers processing information in the form of representations (i.e. symbol processing systems), where time can often be reduced to an ordering of events, or are they best described as dynamical systems where time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998; @beer_information_2015].
+In treating these questions, the extended, embedded, embodied, and enactive approaches to cognitive science (the so-called "4E") have argued to various degrees that cognition is not only (or not at all) an information-processing operation that can take place in the void, but also (or exclusively) a situated activity supported by (or a dynamic coupling with) its environment.
+The extended mind theory, among the less radical 4E approaches, is quite compatible with EES and thus with both Californian and Parisian cultural evolution.
+Indeed @sterelny_minds:_2010 [-@sterelny_evolved_2012], building on NCT, has argued that the extended mind approach is a special case of epistemic niche construction.
+He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes.
+Such processes engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
+
+
+### Criticisms {#sec:intro-developments-criticisms}
+
+\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other; the second degree is compatible with population thinking, so might also work well with ideas of attraction, though not with dual-inheritance.}
+
+\add{but see mcgraw-cultures-2014; and related works such as wallot-beyond-2016}
 
 
 #### Developmental systems theory
@@ -536,31 +559,19 @@ However for the current purposes I suggest we locate both approaches with respec
   Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
   instead it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
 
+Notably, the stances adopted by DST put it at odds with dual-channel accounts of cultural evolution.
+While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], there is no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
+Aside from genetic material and ecological niches, developmental systems also inherit epigenetic material, behavioural patterns and communication systems [@jablonka_systems_2001] and more generally the full matrix of resources involved in the development of the system at its next generation.
 
-#### "4E" cognitive science
 
-In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions.
-\(1) The boundaries of cognition:
-are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998; @menary_extended_2010].
-\(2) The role of time-dependent dynamics, and the corresponding construal of cognition:
-are cognitive systems best described as digital computers processing information in the form of representations (i.e. symbol processing systems), where time can often be reduced to an ordering of events, or are they best described as dynamical systems where time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998; @beer_information_2015].
-In treating these questions, the extended, embedded, embodied, and enactive approaches to cognitive science (the so-called "4E") have argued to various degrees that cognition is not only (or not at all) an information-processing operation that can take place in the void, but also (or exclusively) a situated activity supported by (or a dynamic coupling with) its environment.
-The most conservative approaches are quite compatible with EES and thus with both approaches to cultural evolution outlined above.
-Indeed @sterelny_minds:_2010 [-@sterelny_evolved_2012], building on NCT, has argued that the extended mind approach is a special case of epistemic niche construction.
-He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes.
-Such processes engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
+#### Convergence
 
 The links between 4E cognitive science and developmental systems theory have also been explored by @stotz_human_2010.
-Indeed given some adaptations, many aspects of EES, DST, and 4E cognitive science seem possible to fruitfully integrate into the study of cultural evolution [as @lewens_cultural_2012, p. 474, notes, the fact that Russell Gray participated in the initial development of DST and is now an outspoken proponent of cultural evolutionary theory, is very encouraging].
+Indeed given some adaptations, aspects of EES, DST, and 4E cognitive science seem possible to fruitfully integrate into the study of cultural evolution [as @lewens_cultural_2012, p. 474, notes, the fact that Russell Gray participated in the initial development of DST and is now an outspoken proponent of cultural evolutionary theory, is encouraging].
 The shift in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of Californian and Parisian cultural evolution [@fuentes_evolution_2006; @fuentes_new_2009; @ingold_complementarity_1998; @ingold_transmission_2001].
-In the next section however, I will focus on a line of unresolved disagreement that current works point to.
 
 
-### Criticisms {#sec:intro-developments-criticisms}
-
-\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other; the second degree is compatible with population thinking, so might also work well with ideas of attraction, though not with dual-inheritance.}
-
-\add{but see mcgraw-cultures-2014; and related works such as wallot-beyond-2016}
+#### The enactive approach
 
 
 ### Relevance to linguistic material
