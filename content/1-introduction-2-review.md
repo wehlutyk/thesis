@@ -483,6 +483,7 @@ The constructed niche is inherited across generations such that it can have a la
 SET recognises this phenomenon and defenders of the classical account are among those who actively study it [@laland_does_2014].
 Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that increasing amounts of evidence are unsatisfactorily accounted for by SET (though not in contradiction with it), and proposes "a broadened concept of inheritance, including 'ecological inheritance,' the modified environmental states that niche-constructing organisms bequeath to their descendants" [@scott-phillips_niche_2014, p. 1233].
 Those constructed environmental states bias the natural selection of later generations (so-called "selective niche"), and also affect the social and ecological environment in which offspring develop (so-called "ontogenetic niche"), both being processes that can lead to evolutionary feedback loops.
+The evolution of dairying, as analysed by @obrien_genes_2012, is claimed as a paradigmatic case that is well accounted for by NCT.
 
 \add{if clear, add gilbert-eco-evo-devo:-2015}
 
@@ -497,13 +498,14 @@ However, proponents of EES argue that the study of ecological processes in evolu
 
 The Extended Evolutionary Synthesis offers a natural framework for the study of all aspects of evolution, be they cultural or biological, and indeed the gene-culture co-evolution framework fits well with this synthesis.
 The communities developing those approaches overlap partially (Marcus Feldman, notably, is a core contributor to both research streams), and @sterelny_cultural_2017 argues that NCT is a core---if sometimes implicit---component of both Californian and Parisian cultural evolution.
-Indeed, EES is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand is then to identify the different channels of inheritance in that system, their modes of operation, and the dynamics of their interaction [@kendal_human_2011].
+Indeed, EES is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand then joins up with that of dual inheritance theory, presented above:
+identifying the co-evolution dynamics of genetic and environmental inheritance channels.
 On this view, then, culture is accounted for by a blend of ecological and cognitive-epistemic niche construction processes.
 
 
 #### Developmental systems theory
 
-A related and somewhat complimentary extension to the standard evolutionary account has developed in parallel to NCT: Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
+A related and somewhat complementary extension to the standard evolutionary account has developed in parallel to NCT: Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
 Kim Sterelny characterises it, on one side, with three critical theses:
 
 > "(1) We cannot simply assume that the organism/environment boundary is of theoretical significance for developmental and evolutionary biology ... (2) It may be legitimate to foreground genetic structure and genetic change for specific explanatory or predictive purposes. But in general, the genes an organism carries are just one set of developmental resources among many. Genes and gene changes are important both to development and to evolution, but they are not of primary or privileged importance. (3) Developmental systems theorists are skeptical about the project of explaining intergenerational similarity by appealing to the transmission of phenotype-making information across generations."

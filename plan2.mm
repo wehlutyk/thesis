@@ -8,7 +8,7 @@
 <node CREATED="1493733867440" ID="ID_1667893945" MODIFIED="1493735670937" TEXT="Discuss shortcomings of my approach, shortcomings of CAT beyond my approach, and the role of experiments to move forward"/>
 </node>
 <node CREATED="1493651794390" ID="ID_636762157" MODIFIED="1493651798803" POSITION="right" TEXT="Introduction">
-<node CREATED="1493651847942" FOLDED="true" ID="ID_476400367" MODIFIED="1496236484081" TEXT="Introduction">
+<node CREATED="1493651847942" FOLDED="true" ID="ID_476400367" MODIFIED="1497363679285" TEXT="Introduction">
 <node COLOR="#669900" CREATED="1494931171126" FOLDED="true" ID="ID_491466827" MODIFIED="1494937415392" TEXT="Opening">
 <node CREATED="1494930970923" ID="ID_483470674" MODIFIED="1494930983360" TEXT="There is great diversity in approaches to human life"/>
 <node CREATED="1494930955048" ID="ID_1617760448" MODIFIED="1494930988494" TEXT="And many ways to bridge the cog-soc gap"/>
@@ -65,7 +65,7 @@
 </node>
 </node>
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1494933262136" TEXT="Review">
-<node COLOR="#990000" CREATED="1468501015091" FOLDED="true" ID="ID_1175182254" MODIFIED="1496657295340" TEXT="Cog + Soc in the 20th">
+<node COLOR="#990000" CREATED="1468501015091" FOLDED="true" ID="ID_1175182254" MODIFIED="1497363672188" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
@@ -81,7 +81,7 @@
 <node CREATED="1494833073981" ID="ID_1399000348" MODIFIED="1494835077023" TEXT="Sociobiology, Evolutionary psychology/Tooby &amp; Cosmides, Memetics/Dawkins"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1496236446415" TEXT="Cultural Evolution">
+<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1497363669054" TEXT="Cultural Evolution">
 <node CREATED="1494935824411" ID="ID_743558862" MODIFIED="1496236441016" TEXT="Today&apos;s discussion is structured by proponents from Cognitive Science"/>
 <node CREATED="1494935844587" ID="ID_982323188" MODIFIED="1496236441018" TEXT="Inspired by the darwinist principles of above, a new wave came to blend (a) evolutionary biology, (b) insights of darwinism for culture whenever applicable, (c) a view of parallel processes"/>
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1496236344827" TEXT="Dual Inheritance Theory">
@@ -166,7 +166,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1496390972301" TEXT="Neighbouring areas">
+<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1497363666784" TEXT="Neighbouring areas">
 <node CREATED="1495209350333" ID="ID_174113751" MODIFIED="1496246727847" TEXT="CAT tries to bring many areas together, so there are a lot of neighbours"/>
 <node CREATED="1495209408931" ID="ID_873369819" MODIFIED="1496246727845" TEXT="Works in morality (baumard_mutualistic_2013), in religion (boyer_religion_2001), reasoning (claidiere_argumentation_2017, mercier_why_2011)"/>
 <node CREATED="1495209596291" ID="ID_296498531" MODIFIED="1496246727845" TEXT="Here we&apos;ll look at empirical works relevant for evolution of linguistic materiall"/>
@@ -291,8 +291,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1495804119352" TEXT="Criticisms, parallels, alternatives">
-<node COLOR="#669900" CREATED="1495804119296" FOLDED="true" ID="ID_219898960" MODIFIED="1496391389563" TEXT="Introduction">
+</node>
+<node CREATED="1493656469691" ID="ID_1239768678" MODIFIED="1497363660386" TEXT="Criticisms, parallels, alternatives">
+<node COLOR="#669900" CREATED="1495804119296" FOLDED="true" ID="ID_219898960" MODIFIED="1497364734847" TEXT="Introduction">
 <node CREATED="1495803943665" ID="ID_545778993" MODIFIED="1495804075763" TEXT="There are important debates in biology and philosophy of biology on the nature of evolution (as Croft, 2013: 7, says)"/>
 <node CREATED="1496391361242" ID="ID_970711596" MODIFIED="1496391378739" TEXT="Also in philosophy of cognitive science, on the nature of cognition"/>
 <node CREATED="1496305157484" ID="ID_311709224" MODIFIED="1496305259384" TEXT="They are of a more theoretical nature: they do include empirical studies, but to my knowledge no studies that are straightforwardly transposable to CAT/DIT (with some rare exceptions such as mcgraw_cultures_2014)"/>
@@ -301,15 +302,65 @@
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
 </node>
 <node CREATED="1495029980190" ID="ID_471056532" MODIFIED="1496393263866" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
-<node COLOR="#669900" CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497252963392" TEXT="Extended Evolutionary Synthesis">
+<node COLOR="#669900" CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497366223102" TEXT="NCT and Extended Evolutionary Synthesis">
+<node CREATED="1497365258491" ID="ID_1722796523" MODIFIED="1497365260003" TEXT="NCT">
 <node CREATED="1496670632946" ID="ID_485341525" MODIFIED="1496677870678" TEXT="There are two competing views of what counts as heritable material"/>
-<node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1496677870669" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014, oyama_cycles_2001, gilbert_eco-evo-devo:_2015"/>
-<node CREATED="1496391716934" ID="ID_138544146" MODIFIED="1496677870669" TEXT="SET considers evolution to be change in frequencies of DNA sequences, heritable stuff to be DNA"/>
-<node CREATED="1496391774193" ID="ID_971508408" MODIFIED="1496677870666" TEXT="NCT, DST, Evo-Eco-Devo, and more broadly EES, consider evolution to be the coevolution of organims and environment, heritable stuff to be the complete organism-environment ecosystem"/>
-<node CREATED="1496392545646" ID="ID_1121046021" MODIFIED="1496677870663" TEXT="As explained in the articles, effects have been studied under SET and before EET, but not systematically (for instance dairy obrien_genes_2012)"/>
-<node CREATED="1496392727139" ID="ID_1182359357" MODIFIED="1496677870661" TEXT="For now it&apos;s not incompatible or contradictory (because all these are models of the conceptual level), but mosly a different focus that creates more satisfactory questions are model fit"/>
-<node CREATED="1496676510667" ID="ID_792866864" MODIFIED="1496677870658" TEXT="This is linked to DST, and conceptions of genes and inheritance, which can have harder consequences (and not only what looks like a mild disagreement)"/>
-<node CREATED="1496585358794" ID="ID_877319912" MODIFIED="1496677870657" TEXT="A good review of the conceptions of gene is given by griffiths_genetics_2013"/>
+<node CREATED="1496391466421" ID="ID_1157523736" MODIFIED="1497363843581" TEXT="Discussion based on laland_does_2014, scott-phillips_niche_2014"/>
+<node CREATED="1496391716934" ID="ID_138544146" MODIFIED="1497365713933" TEXT="SET considers evolution to be change in frequencies of DNA sequences, heritable stuff to be DNA, nich construction part of that"/>
+<node CREATED="1497364854191" ID="ID_1880904007" MODIFIED="1497364867976" TEXT="Niche construction is the engineering of environment by organisms"/>
+<node CREATED="1497364907543" ID="ID_840391950" MODIFIED="1497364920438" TEXT="An example are the dam-constructing beavers"/>
+<node CREATED="1497364982705" ID="ID_558975713" MODIFIED="1497365002077" TEXT="Niches are inherited, and have lasting downstream impact"/>
+<node CREATED="1496392545646" ID="ID_1121046021" MODIFIED="1497364961930" TEXT="As explained in the articles, the effects are recognised by and have been studied under SET"/>
+<node CREATED="1496391774193" ID="ID_971508408" MODIFIED="1497365120424" TEXT="But not satisfactorily (but still not contradictory), according to NCT"/>
+<node CREATED="1497365073666" ID="ID_1688743841" MODIFIED="1497365148301" TEXT="So NCT sees inheritance as a broader thing, including ecological inheritance"/>
+<node CREATED="1497365149578" ID="ID_1973780855" MODIFIED="1497365188511" TEXT="That ecological inheritance changes selective pressures and development environment"/>
+<node CREATED="1497364964946" ID="ID_396617050" MODIFIED="1497365213796" TEXT="Dairy (obrien_genes_2012) is a classic example"/>
+</node>
+<node CREATED="1497365263528" ID="ID_1529315101" MODIFIED="1497365265426" TEXT="EES">
+<node CREATED="1497365269353" ID="ID_1005620141" MODIFIED="1497365300753" TEXT="NCT is part of a broader movement arguing for an extended synthesis"/>
+<node CREATED="1497365047048" ID="ID_314236348" MODIFIED="1497365324891" TEXT="It considers evolution to be the coevolution of organims and environment, heritable stuff to be the complete organism-environment ecosystem"/>
+<node CREATED="1497365352518" ID="ID_592480648" MODIFIED="1497365455629" TEXT="The disagreement is about the importance of the dynamics that the coevolution generates"/>
+<node CREATED="1496392727139" ID="ID_1182359357" MODIFIED="1497365337667" TEXT="For now it&apos;s not incompatible or contradictory (because all these are models of the conceptual level), but mosly a different focus that creates more satisfactory questions are model fit"/>
+<node CREATED="1497365484408" ID="ID_1467692069" MODIFIED="1497365511168" TEXT="But NCT claims the change of focus has made the study of ecological effects more systematic"/>
+</node>
+<node CREATED="1497365528076" ID="ID_821495156" MODIFIED="1497365530763" TEXT="For culture">
+<node CREATED="1496393218765" ID="ID_1115762481" MODIFIED="1497365599074" TEXT="EES offers a more natural way of integrating culture into the big evolutionary picture"/>
+<node CREATED="1496391837868" ID="ID_717499204" MODIFIED="1497365599068" TEXT="SCE (Feldman, kendal_human_2011) is in global agreement with EES, they have published much together, and sterelny_cultural_2017 considers it&apos;s a core piece of both SCE and CAT"/>
+<node CREATED="1497365547498" ID="ID_694226642" MODIFIED="1497366039955" TEXT="EES integrates a non-opinionated notion of culture, and the question becomes the interaction of genetic and environmental channels, just like in SCE"/>
+<node CREATED="1497365623321" ID="ID_1050574879" MODIFIED="1497365645528" TEXT="So culture here is ecological and cognitive-epistemic niche construction"/>
+</node>
+</node>
+<node CREATED="1497363597434" ID="ID_773946608" MODIFIED="1497363606114" TEXT="Developmental Systems Theory">
+<node CREATED="1497366257889" ID="ID_1710035021" MODIFIED="1497366268142" TEXT="Related and a little complementary, is DST"/>
+<node CREATED="1497366273034" ID="ID_1942806470" MODIFIED="1497366427333" TEXT="Sterelny presents its three critical theses (sterelny_niche_2001, p. 335)"/>
+<node CREATED="1497366299149" ID="ID_391655833" MODIFIED="1497366325424" TEXT="It claims that overlooked evidence points to &quot;causal parity&quot;"/>
+<node CREATED="1497366336464" ID="ID_1753633591" MODIFIED="1497366365925" TEXT="That sustains the thesis that claims about &quot;biological information&quot; should be qualified"/>
+<node CREATED="1496585358794" ID="ID_877319912" MODIFIED="1497366393215" TEXT="A good review of how genes bear information is given by griffiths_genetics_2013"/>
+<node CREATED="1497366742511" ID="ID_436349861" MODIFIED="1497366762249" TEXT="Sterelny then presents the positive story of DST (sterelny_niche_2001, p. 335)"/>
+<node CREATED="1497366769836" ID="ID_831795027" MODIFIED="1497366793218" TEXT="DST is driven by explaining and if possible eliminating matter-form dualisms"/>
+<node CREATED="1497366803892" ID="ID_1332175371" MODIFIED="1497366825106" TEXT="For that to happen, it needs a theory of the emergence of information at the centre"/>
+<node CREATED="1497366844200" ID="ID_843243011" MODIFIED="1497366989153" TEXT="NCT-EES and DST are complementary in many aspects, but can also be differentiated on two dimensions">
+<node CREATED="1497366872767" ID="ID_985117768" MODIFIED="1497366905067" TEXT="Opinion on the shape of the parsimony-explanatory power function"/>
+<node CREATED="1497366907205" ID="ID_1897174994" MODIFIED="1497366922007" TEXT="Notion of information underlyning the theory"/>
+</node>
+</node>
+<node CREATED="1497363606842" ID="ID_13910289" MODIFIED="1497367383259" TEXT="4E cognitive science">
+<node CREATED="1497367383239" ID="ID_1160179818" MODIFIED="1497367391397" TEXT="Presentation">
+<node CREATED="1497366998503" ID="ID_253518263" MODIFIED="1497367014558" TEXT="There is a parallel movement in cognitive scince and philosophy of mind"/>
+<node CREATED="1497367014807" ID="ID_1320501208" MODIFIED="1497367025569" TEXT="It questions the nature of cognition on two dimensions">
+<node CREATED="1497367027636" ID="ID_985167568" MODIFIED="1497367036952" TEXT="boundaries of cognition"/>
+<node CREATED="1497367037449" ID="ID_1785530737" MODIFIED="1497367048463" TEXT="role of time and dynamicity"/>
+</node>
+<node CREATED="1497367072043" ID="ID_1681383723" MODIFIED="1497367127520" TEXT="4E cognitive science has argued that cognition is not only symbol manipulation, but also dynamic coupling or situatedness"/>
+<node CREATED="1497367133376" ID="ID_241530808" MODIFIED="1497367151497" TEXT="The conservative approaches are compatible with EES, and so with CAT/SCE"/>
+<node CREATED="1497367154855" ID="ID_529863703" MODIFIED="1497367207282" TEXT="Sterelny sees the extended mind as a special case of cognitive niche construction, leading to scaffolding of cognitive activity"/>
+</node>
+<node CREATED="1497367392109" ID="ID_1167401087" MODIFIED="1497367401044" TEXT="Convergence">
+<node CREATED="1497367402410" ID="ID_922545788" MODIFIED="1497367423249" TEXT="The links between 4E and DST have been explored by Stotz"/>
+<node CREATED="1497367449934" ID="ID_600477979" MODIFIED="1497367475253" TEXT="Aspects of EES, DST, and 4E seem possible to integrate"/>
+<node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1496397330202" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
+<node CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1497367528957" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, ingold_complementarity_1998, ingold_transmission_2001"/>
+</node>
 </node>
 <node CREATED="1496393867442" ID="ID_182835405" MODIFIED="1496749576749" TEXT="One way to look at it is the level of detail of your model of inheritance, how much you want to be able to reconstruct reality with your model (somewhat like a mean-field approximation vs. not)">
 <node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1496394963259" TEXT="doebeli_towards_2017 discuss birth-death processes against simplification of evolution (no fitness landscape)"/>
@@ -321,14 +372,8 @@
 <node CREATED="1496413049721" ID="ID_1997311976" MODIFIED="1496652986488" TEXT="mcgraw_cultures_2014, wallot_beyond_2016 are maybe good examples of how to design transmission experiments that take this into account; dale_self-organization_2014 of how analyses could go"/>
 </node>
 <node CREATED="1496393263854" ID="ID_1448103965" MODIFIED="1496393267481" TEXT="For culture">
-<node COLOR="#669900" CREATED="1496393218765" ID="ID_1115762481" MODIFIED="1496748391197" TEXT="EES offers a more natural way of integrating culture into the big evolutionary picture"/>
-<node COLOR="#669900" CREATED="1496391837868" ID="ID_717499204" MODIFIED="1496744984352" TEXT="SCE (Feldman, kendal_human_2011) is in global agreement with EES, they have published much together, and sterelny_cultural_2017 considers it&apos;s a core piece of both SCE and CAT"/>
-<node COLOR="#669900" CREATED="1496644176397" ID="ID_360532150" MODIFIED="1496748399202" TEXT="It goes with a parallel movement of extending the mind, e.g. The Extended Mind, Clark and Chalmers 1998"/>
-<node COLOR="#669900" CREATED="1496393342084" ID="ID_1248312039" MODIFIED="1496748438135" TEXT="It has generated things like The Evolved Apprentice (sterelny_evolved_2012, which is Cumulative Cognitive Niche Construction), the Scaffolded Mind (sterelny_minds:_2010)"/>
 <node CREATED="1496748433678" ID="ID_1993318049" MODIFIED="1496748436528" TEXT="Croft&apos;s inclusive theory of language evolution (croft_evolutionary_2013), and the many examples of culture in oyama_cycles_2001"/>
-<node COLOR="#669900" CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1496748855992" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, fuentes_race_2012, fuentes_integrative_2015, ingold_complementarity_1998, ingold_transmission_2001, ingold_biosocial_2013"/>
 <node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1496397331719" TEXT="Population thinking, which is what CAT/SCE have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
-<node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1496397330202" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
 <node CREATED="1496569754825" ID="ID_785979947" MODIFIED="1496582057342" TEXT="stotz_human_2010 who reviews the contributions of extended approaches in the convergence of 4E (which we talk about more below) and DST">
 <node CREATED="1496571812855" ID="ID_1886242057" MODIFIED="1496571813943" TEXT="&quot;Coming to grips with human nature, I will argue, means understanding development. Human nature does not lie in any set of &#x2018;essential&#x2019; traits with certain &apos;innate&#x2019; properties, but in the particular nature of the human developmental process.&quot; (p. 488)"/>
 <node CREATED="1496569847964" ID="ID_1499594790" MODIFIED="1496569880680" TEXT="&quot;... a matrix of reliable developmental factors, organized by the developmental niche, shapes the developmental system of brain, body, and its&#x2014; engineered&#x2014;environment. The reproduction of the developmental system through successive lifecycles is the result of the robust yet flexible availability of a wide range of developmental resources that reliably transmit crucial information from parents to offspring. Through formulising the processes of extended inheritance, developmental niche construction renders development as an evolutionarily salient process in the origin, maintenance and distribution of new trait variants&quot; (p. 488)"/>
@@ -338,7 +383,7 @@
 <node CREATED="1496397261100" ID="ID_213339348" MODIFIED="1496397812968" TEXT="But it&apos;s not clear how much core proponents of CAT/SCE have that in their core: they speak of channels (lewens_cultural_2012, p. 476) and of culture as information (p. 475)"/>
 </node>
 </node>
-<node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1496305094289" TEXT="External: Information dualism">
+<node CREATED="1495030034242" ID="ID_431533254" MODIFIED="1497366232019" TEXT="External: Information dualism">
 <node CREATED="1495619970780" ID="ID_886147555" MODIFIED="1495620004406" TEXT="Most articles talk of cultural vs. biological evolution, when there could be no core separation"/>
 <node CREATED="1496591078555" ID="ID_936638136" MODIFIED="1496591097452" TEXT="There is debate on the nature of cognition: what is it, what is the object and its boundaries">
 <node CREATED="1496591101360" ID="ID_510554669" MODIFIED="1496591134142" TEXT="Classical: it&apos;s the processing of information as representations in the brain"/>
@@ -385,7 +430,7 @@
 <node CREATED="1495638920191" ID="ID_214433918" MODIFIED="1495640457973" TEXT="scott-phillips_meaning_2015 / moore_meaning_2016 / scott-phillips_meaning_2016"/>
 </node>
 </node>
-<node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1496305095421" TEXT="What this means for the linguistic aspect">
+<node CREATED="1496239254624" FOLDED="true" ID="ID_1759359357" MODIFIED="1497363693391" TEXT="What this means for the linguistic aspect">
 <node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
 <node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
 <node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
@@ -401,7 +446,6 @@
 <node CREATED="1495024194435" ID="ID_831040112" MODIFIED="1495026009539" TEXT="He insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
 </node>
 <node CREATED="1496582092168" ID="ID_669611110" MODIFIED="1496582119963" TEXT="fusaroli_dialog_2014 propose interpersonal synergy to be the building block of analysis of dialogue"/>
-</node>
 </node>
 </node>
 <node CREATED="1493651988017" ID="ID_670111761" MODIFIED="1496244421049" TEXT="Open problems">
