@@ -82,7 +82,7 @@
 <node CREATED="1494833073981" ID="ID_1399000348" MODIFIED="1494835077023" TEXT="Sociobiology, Evolutionary psychology/Tooby &amp; Cosmides, Memetics/Dawkins"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1497363669054" TEXT="Cultural Evolution">
+<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1497465181758" TEXT="Cultural Evolution">
 <node CREATED="1494935824411" ID="ID_743558862" MODIFIED="1496236441016" TEXT="Today&apos;s discussion is structured by proponents from Cognitive Science"/>
 <node CREATED="1494935844587" ID="ID_982323188" MODIFIED="1496236441018" TEXT="Inspired by the darwinist principles of above, a new wave came to blend (a) evolutionary biology, (b) insights of darwinism for culture whenever applicable, (c) a view of parallel processes"/>
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1496236344827" TEXT="Dual Inheritance Theory">
@@ -101,7 +101,7 @@
 <node CREATED="1494937118863" ID="ID_1209841587" MODIFIED="1494937226228" TEXT="And there are real links with Niche Construction (Odling-Smee et al. 2003), wich offers promising steps towards views of culture that stress the developmental process"/>
 </node>
 </node>
-<node CREATED="1493652111065" FOLDED="true" ID="ID_302804498" MODIFIED="1496236441022" TEXT="Cultural Attraction Theory">
+<node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1497464961486" TEXT="Cultural Attraction Theory">
 <node CREATED="1494938403817" FOLDED="true" ID="ID_54556517" MODIFIED="1496236310550" TEXT="Intro">
 <node CREATED="1494937681485" ID="ID_925941687" MODIFIED="1494937716642" TEXT="Formalised in the mid 90s: in a series of articles he proposes Epidemiology of Representations"/>
 <node CREATED="1494937722512" ID="ID_712014211" MODIFIED="1494937752998" TEXT="Seeks to provide a common framework for the cognitive and social sciences, to address interdisciplinary questions"/>
@@ -131,14 +131,14 @@
 <node CREATED="1494944151958" ID="ID_123134726" MODIFIED="1495025983684" TEXT="He agrees with gene-culture coevolution (Sperber 1996 : 114)"/>
 <node CREATED="1495028942031" ID="ID_424979780" MODIFIED="1495028954996" TEXT="CAT and DIT are compatible but have different focuses"/>
 </node>
-<node CREATED="1494939035148" FOLDED="true" ID="ID_1982807411" MODIFIED="1496236310554" TEXT="Criticism">
+<node CREATED="1494939035148" ID="ID_1982807411" MODIFIED="1497464964253" TEXT="Criticism">
 <node CREATED="1495030156674" ID="ID_85234386" MODIFIED="1495030206880" TEXT="The space opened by DIT and CAT has generated much debate (a good example are the comments in Mesoudi et al. 2006)"/>
 <node CREATED="1495030169907" ID="ID_1167757767" MODIFIED="1495030258994" TEXT="Debate comes from several areas: Anthropology, indirectly 4E cogsci"/>
 <node CREATED="1494939027337" ID="ID_344132445" MODIFIED="1494943655594" TEXT="Has generated much criticism, that we&apos;ll review (notably, that representations are not a naturalisation)"/>
 <node CREATED="1494939045524" ID="ID_1053391838" MODIFIED="1495026185630" TEXT="CAT created a debate space trying to include anthropology"/>
 <node CREATED="1494939095978" ID="ID_734624423" MODIFIED="1494939112653" TEXT="We will construct criticism that can be empirical, wherever constructive (see Wimsatt &amp; Griesemer 2007, note 6)"/>
 </node>
-<node CREATED="1494937551188" FOLDED="true" ID="ID_1801548239" MODIFIED="1496236310555" TEXT="Testing has been hard">
+<node CREATED="1494937551188" FOLDED="true" ID="ID_1801548239" MODIFIED="1497465178685" TEXT="Testing has been hard">
 <node CREATED="1494933545227" ID="ID_1765638616" MODIFIED="1495092616088" TEXT="It&apos;s not an explanatory theory in the sense of quantum physics (as it&apos;s not a GGT, Sperber 1996 : 26, 61, 83), so it&apos;s not an alternative explanation: finding an attractor is only a cue to looking for its underlying causes (ecological, psychological, local, global). Instead it&apos;s a way of thinking at a high level"/>
 <node CREATED="1494938366550" ID="ID_1543986295" MODIFIED="1495091927461" TEXT="The presence of attractors is testable, and can be more or less fruitful in generating situations and ideas, and providing a general assembly of facts "/>
 <node CREATED="1494939869968" ID="ID_74522600" MODIFIED="1494945770393" TEXT="Although models have developed (Claidi&#xe8;re &amp; Sperber 2007, and Claidi&#xe8;re et al. 2014), attraction has been hard to test because of empirical challenges (see section Open Problems)"/>
@@ -154,7 +154,7 @@
 </node>
 <node CREATED="1494941884690" ID="ID_1028258703" MODIFIED="1495100273667" TEXT="Many other works explore this, such as language evolution and digital media, we&apos;ll return to it in the next section (Neighbouring works)"/>
 </node>
-<node CREATED="1494938661082" FOLDED="true" ID="ID_824909910" MODIFIED="1496236310556" TEXT="Focus on CAT vs. DIT">
+<node CREATED="1494938661082" FOLDED="true" ID="ID_824909910" MODIFIED="1497465175494" TEXT="Focus on CAT vs. DIT">
 <node CREATED="1494938591865" ID="ID_332359646" MODIFIED="1494938678264" TEXT="They&apos;re not so different (see Acerbi &amp; Mesoudi 2015, Sterelny 2017), they are the Californian/Parisian approaches"/>
 <node CREATED="1494944496951" ID="ID_1516697488" MODIFIED="1494944531279" TEXT="The DIT/CAT approach is shared by a number of social scientists (see comments to Mesoudi et al. 2006, and Slingerland 2008)"/>
 <node CREATED="1495103296010" ID="ID_33549707" MODIFIED="1495103320621" TEXT="CAT is prevalent in France"/>
@@ -167,7 +167,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1497363666784" TEXT="Neighbouring areas">
+<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1497465171269" TEXT="Neighbouring areas">
 <node CREATED="1495209350333" ID="ID_174113751" MODIFIED="1496246727847" TEXT="CAT tries to bring many areas together, so there are a lot of neighbours"/>
 <node CREATED="1495209408931" ID="ID_873369819" MODIFIED="1496246727845" TEXT="Works in morality (baumard_mutualistic_2013), in religion (boyer_religion_2001), reasoning (claidiere_argumentation_2017, mercier_why_2011)"/>
 <node CREATED="1495209596291" ID="ID_296498531" MODIFIED="1496246727845" TEXT="Here we&apos;ll look at empirical works relevant for evolution of linguistic materiall"/>
@@ -302,7 +302,7 @@
 <node CREATED="1495804076346" ID="ID_687606349" MODIFIED="1495804081372" TEXT="This section looks at those, asking whether they are relevant for evolution of linguistic material (just like Croft)"/>
 <node CREATED="1495029975517" ID="ID_299452927" MODIFIED="1495804116747" TEXT="There are two types of criticisms"/>
 </node>
-<node COLOR="#669900" CREATED="1495029980190" FOLDED="true" ID="ID_471056532" MODIFIED="1497375177613" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
+<node COLOR="#669900" CREATED="1495029980190" FOLDED="true" ID="ID_471056532" MODIFIED="1497465205569" TEXT="Internal to the program: Inclusion of environment and extension of evolution">
 <node CREATED="1496391452568" ID="ID_731403759" MODIFIED="1497375176776" TEXT="NCT and Extended Evolutionary Synthesis">
 <node CREATED="1497365258491" ID="ID_1722796523" MODIFIED="1497365260003" TEXT="NCT">
 <node CREATED="1496670632946" ID="ID_485341525" MODIFIED="1496677870678" TEXT="There are two competing views of what counts as heritable material"/>
@@ -358,7 +358,7 @@
 </node>
 <node CREATED="1497370482444" ID="ID_446596159" MODIFIED="1497371012864" TEXT="Notably, DST criticises a dual inheritance account"/>
 </node>
-<node CREATED="1497367392109" ID="ID_1167401087" MODIFIED="1497367401044" TEXT="Convergence">
+<node COLOR="#669900" CREATED="1497367392109" FOLDED="true" ID="ID_1167401087" MODIFIED="1497454661577" TEXT="Convergence">
 <node CREATED="1497367402410" ID="ID_922545788" MODIFIED="1497375753763" TEXT="The links between 4E and DST have been explored by Stotz"/>
 <node CREATED="1496411066133" ID="ID_190906013" MODIFIED="1497428349789" TEXT="wimsatt_reproducing_2007 argues it is possible (and necessary) to combine a developmentally sensitive view of culture with population thinking"/>
 <node CREATED="1496410867463" ID="ID_785400178" MODIFIED="1497428405534" TEXT="That view must consider more than two channels (even at short time scales), since replicator-based evolution (whether cultural memes or biological genes) obviates developmental processes"/>
@@ -371,39 +371,53 @@
 </node>
 <node COLOR="#ff0000" CREATED="1468501749770" ID="ID_916482541" MODIFIED="1497371244971" TEXT="4E / Enactive">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1496413457989" ID="ID_698769217" MODIFIED="1496657531330" TEXT="There is no doubt meaning is central to culture (e.g. lewens_cultural_2012 p. 467, citing Geertz), although not exclusively, as there are also material things (obrien_cultural_2010?) -- but there is a problem in defining and analysing meaning"/>
-<node CREATED="1496591078555" ID="ID_936638136" MODIFIED="1496591097452" TEXT="There is debate on the nature of cognition: what is it, what is the object and its boundaries">
-<node CREATED="1496591101360" ID="ID_510554669" MODIFIED="1496591134142" TEXT="Classical: it&apos;s the processing of information as representations in the brain"/>
-<node CREATED="1496591134997" ID="ID_884681974" MODIFIED="1496591163029" TEXT="Alternatives: it&apos;s the dynamical interaction process between brain and environment"/>
-<node CREATED="1496646298868" ID="ID_1990571147" MODIFIED="1496646299660" TEXT="chemero_after_2008"/>
-</node>
-<node CREATED="1496582013894" ID="ID_1426565019" MODIFIED="1496582168335" TEXT="van_gelder_dynamical_1998 the Dynamical Hypothesis"/>
-<node CREATED="1496586811338" ID="ID_694415243" MODIFIED="1496587178706" TEXT="A number of other initiatives appeared, discussing the relevance of representations"/>
-<node CREATED="1496587183735" ID="ID_1461962930" MODIFIED="1496592065209" TEXT="Radical Enactive Cognition, Hutto"/>
-<node CREATED="1496592068645" ID="ID_333982904" MODIFIED="1496592084689" TEXT="Sensorimotor O&apos;Regan and No&#xeb;"/>
-<node CREATED="1496587591915" ID="ID_355810214" MODIFIED="1496587593119" TEXT="dennett_making_2000?"/>
-<node CREATED="1496586783790" ID="ID_751192018" MODIFIED="1496586799216" TEXT="The enactive approach (Varela, Thompson)">
-<node CREATED="1496646461797" ID="ID_594242821" MODIFIED="1496646901647" TEXT="Which has ties with Giddens: mingers_comparison_1996, leydesdorff_communication_2010, hernes_implications_2003, mingers_self-producing_1995"/>
-</node>
-<node CREATED="1496586839928" ID="ID_1738576710" MODIFIED="1496586854353" TEXT="Applied to social cognition: Di Paolo &amp; De Jaegher"/>
-<node CREATED="1468501783892" ID="ID_98150479" MODIFIED="1496586861093" TEXT="Applied to languaging: Di Paolo, De Jaegher &amp; Cuffari"/>
-<node CREATED="1495365284456" ID="ID_12327459" MODIFIED="1495365285290" TEXT="harder_meaning_2010"/>
-<node CREATED="1495446546739" ID="ID_277729483" MODIFIED="1496657579235" TEXT="Note that this could NOT be countered with RT">
-<node CREATED="1496413292691" MODIFIED="1496413292691" TEXT="scott-phillips_precis_2015"/>
-</node>
+<node COLOR="#669900" CREATED="1497454889158" ID="ID_1476395167" MODIFIED="1497457558618" TEXT="Another avatar of the discussion about information-bearing items is that about representations"/>
+<node COLOR="#669900" CREATED="1497457513701" ID="ID_1903307636" MODIFIED="1497457558617" TEXT="More radical 4E approaches argue that representations are unnecessary"/>
+<node COLOR="#669900" CREATED="1497462482818" ID="ID_1615816563" MODIFIED="1497462526347" TEXT="The enactive approach defines cognition as the regulation an autopoietic system operates on its coupling with its environment"/>
+<node COLOR="#669900" CREATED="1496586839928" ID="ID_1738576710" MODIFIED="1497462526346" TEXT="Applied to social cognition: Di Paolo &amp; De Jaegher"/>
+<node COLOR="#669900" CREATED="1468501783892" ID="ID_98150479" MODIFIED="1497462526346" TEXT="Applied to languaging: Di Paolo, De Jaegher &amp; Cuffari"/>
+<node COLOR="#669900" CREATED="1497465968511" ID="ID_1813028454" MODIFIED="1497467209353" TEXT="It leads to a natural notion of meaning"/>
+<node COLOR="#669900" CREATED="1497467158644" ID="ID_868556095" MODIFIED="1497467209354" TEXT="The rationale is similar to that of DST: informational dulism"/>
+<node COLOR="#669900" CREATED="1497467178610" ID="ID_1259401938" MODIFIED="1497467209355" TEXT="This stuff is not directed to cultural evolution, but CAT&apos;s reliance on mental representations makes it relevant"/>
 <node CREATED="1496657534288" ID="ID_1979939089" MODIFIED="1496657546275" TEXT="Which converges with a stronger stance on information">
 <node CREATED="1496657552719" ID="ID_1545912548" MODIFIED="1496657552719" TEXT="oyama_ontogeny_2000"/>
 <node CREATED="1496657614225" ID="ID_1961919136" MODIFIED="1496657646813" TEXT="Shows how behind the very idea of inheritance, there is a duality of form and substance, which does not explain one or the other"/>
 <node CREATED="1496657648065" ID="ID_444999452" MODIFIED="1496657671096" TEXT="To get past that you need to explore the ongoing production of information"/>
 <node CREATED="1496659169626" ID="ID_410934599" MODIFIED="1496670632749" TEXT="&quot;&#x2018;&#x2018;If we&#x2019;re all Darwinians,&#x2019;&#x2019; Symons (1987) asks, &#x2018;&#x2018;what&#x2019;s the fuss about?&#x2019;&#x2019; And if we&#x2019;re all interactionists, again, why the fuss? I suggest the fuss arises (and sometimes doesn&#x2019;t arise when it should) because we haven&#x2019;t figured out what either requires, much less how to be both at the same time. A solution that combines encoded nature with varying doses of contingent nurture is no solution at all.&quot; (p. 5)"/>
 </node>
+<node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497369965401" TEXT="What this means for the linguistic aspect">
+<node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
+<node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
+<node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
+<node CREATED="1496428041699" ID="ID_1479408955" MODIFIED="1496428044991" TEXT="everett_cultural_2005?"/>
+<node CREATED="1495365284456" ID="ID_894159627" MODIFIED="1496587050863" TEXT="harder_meaning_2010?"/>
+<node CREATED="1497470846250" ID="ID_810859072" MODIFIED="1497470847702" TEXT="cuffari_gestural_2012?"/>
+<node CREATED="1496646298868" ID="ID_1990571147" MODIFIED="1496646299660" TEXT="chemero_after_2008"/>
+<node CREATED="1497455826864" ID="ID_567914915" MODIFIED="1497470890251" TEXT="harvey_content_2015"/>
+<node CREATED="1496587591915" ID="ID_355810214" MODIFIED="1496587593119" TEXT="dennett_making_2000?"/>
+<node CREATED="1496587200713" ID="ID_300380872" MODIFIED="1496587202905" TEXT="recanati_literalism_2003?"/>
+<node CREATED="1496653497912" ID="ID_126525208" MODIFIED="1496653499210" TEXT="evans_myth_2009?"/>
+<node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1496244467804" TEXT="Nuances">
+<node CREATED="1496582551261" ID="ID_613893848" MODIFIED="1496582553159" TEXT="origgi_evolution_2000?"/>
+<node CREATED="1496647544750" ID="ID_1797893939" MODIFIED="1496647546105" TEXT="sperber_pragmatic_2012?"/>
+<node CREATED="1494938919530" FOLDED="true" ID="ID_861755872" MODIFIED="1495026022335" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
+<node CREATED="1494933523564" ID="ID_1609544774" MODIFIED="1494942195026" TEXT="to wit: the name change to CAT, distance when talking, or even the Claidi&#xe8;re &amp; Sperber 2007 example of smoking"/>
 </node>
-<node CREATED="1497371462405" ID="ID_641320715" MODIFIED="1497371464033" TEXT="Attic">
+<node CREATED="1495024194435" ID="ID_831040112" MODIFIED="1495026009539" TEXT="He insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
+</node>
+<node CREATED="1496582092168" ID="ID_669611110" MODIFIED="1496582119963" TEXT="fusaroli_dialog_2014 propose interpersonal synergy to be the building block of analysis of dialogue"/>
+<node CREATED="1495622367706" ID="ID_215422855" MODIFIED="1496587001770" TEXT="While most iterated learning takes interaction into account, they still separate the emergence of the communication system from its participants, so presuppose agents that know how to communicate, but just need to evolve a channel (sort of like in the film &quot;The Martian&quot;) (note that scott-phillips_language_2010, p. 416, notices that)"/>
+<node CREATED="1495446546739" ID="ID_277729483" MODIFIED="1496657579235" TEXT="Note that this could NOT be countered with RT">
+<node CREATED="1496413292691" ID="ID_1937346330" MODIFIED="1496413292691" TEXT="scott-phillips_precis_2015"/>
+</node>
+<node CREATED="1497451604531" ID="ID_1795572792" MODIFIED="1497451605262" TEXT="ingold_biosocial_2013 (p. 5) on meaning"/>
+</node>
+</node>
+<node CREATED="1497371462405" ID="ID_641320715" MODIFIED="1497457548852" TEXT="Attic">
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node CREATED="1468501919206" ID="ID_1149253302" MODIFIED="1496651933842" TEXT="briggs_mazes_1992"/>
 </node>
 <node CREATED="1497371578384" ID="ID_283589021" MODIFIED="1497371582179" TEXT="sinha 1989?"/>
-<node CREATED="1496653497912" ID="ID_126525208" MODIFIED="1496653499210" TEXT="evans_myth_2009?"/>
 <node CREATED="1496393867442" ID="ID_182835405" MODIFIED="1496749576749" TEXT="One way to look at it is the level of detail of your model of inheritance, how much you want to be able to reconstruct reality with your model (somewhat like a mean-field approximation vs. not)">
 <node CREATED="1494840805812" ID="ID_123868812" MODIFIED="1496394963259" TEXT="doebeli_towards_2017 discuss birth-death processes against simplification of evolution (no fitness landscape)"/>
 <node CREATED="1496413049721" ID="ID_1997311976" MODIFIED="1496652986488" TEXT="mcgraw_cultures_2014, wallot_beyond_2016 are maybe good examples of how to design transmission experiments that take this into account; dale_self-organization_2014 of how analyses could go"/>
@@ -417,30 +431,15 @@
 <node CREATED="1496569847964" ID="ID_1499594790" MODIFIED="1496569880680" TEXT="&quot;... a matrix of reliable developmental factors, organized by the developmental niche, shapes the developmental system of brain, body, and its&#x2014; engineered&#x2014;environment. The reproduction of the developmental system through successive lifecycles is the result of the robust yet flexible availability of a wide range of developmental resources that reliably transmit crucial information from parents to offspring. Through formulising the processes of extended inheritance, developmental niche construction renders development as an evolutionarily salient process in the origin, maintenance and distribution of new trait variants&quot; (p. 488)"/>
 <node CREATED="1496569983755" ID="ID_454005980" MODIFIED="1496570018995" TEXT="&quot;Showcasing cognitive, cultural and symbolic niche construction as part of the overall process of ontogenetic niche construction helps us to overcome the old dichotomy between biological and cultural inheritance and evolution and see them not as analogous processes, as Clark, but as interlocking into a single extended process of human development and evolution.&quot; (p. 489)"/>
 </node>
-<node CREATED="1497451604531" ID="ID_1795572792" MODIFIED="1497451605262" TEXT="ingold_biosocial_2013 (p. 5) on meaning"/>
 <node CREATED="1496646203691" ID="ID_969654893" MODIFIED="1496646205669" TEXT="silberstein_complexity_2012"/>
+<node CREATED="1496592068645" ID="ID_333982904" MODIFIED="1496592084689" TEXT="Sensorimotor O&apos;Regan and No&#xeb;"/>
+<node CREATED="1496413457989" ID="ID_698769217" MODIFIED="1496657531330" TEXT="There is no doubt meaning is central to culture (e.g. lewens_cultural_2012 p. 467, citing Geertz), although not exclusively, as there are also material things (obrien_cultural_2010?) -- but there is a problem in defining and analysing meaning"/>
+<node CREATED="1496646461797" ID="ID_594242821" MODIFIED="1497462541299" TEXT="The enactive approach has ties with Giddens: mingers_comparison_1996, leydesdorff_communication_2010, hernes_implications_2003, mingers_self-producing_1995"/>
+<node CREATED="1496587183735" ID="ID_1461962930" MODIFIED="1496592065209" TEXT="Radical Enactive Cognition, Hutto"/>
 </node>
 </node>
-<node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497369965401" TEXT="What this means for the linguistic aspect">
-<node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
-<node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
-<node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
-<node CREATED="1496428041699" ID="ID_1479408955" MODIFIED="1496428044991" TEXT="everett_cultural_2005?"/>
-<node CREATED="1495365284456" ID="ID_894159627" MODIFIED="1496587050863" TEXT="harder_meaning_2010?"/>
-<node CREATED="1496587200713" ID="ID_300380872" MODIFIED="1496587202905" TEXT="recanati_literalism_2003?"/>
-<node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1496244467804" TEXT="Nuances">
-<node CREATED="1496582551261" ID="ID_613893848" MODIFIED="1496582553159" TEXT="origgi_evolution_2000?"/>
-<node CREATED="1496647544750" ID="ID_1797893939" MODIFIED="1496647546105" TEXT="sperber_pragmatic_2012?"/>
-<node CREATED="1494938919530" FOLDED="true" ID="ID_861755872" MODIFIED="1495026022335" TEXT="&quot;an epidemiology of representations is not about representations, but about the process of their distribution&quot; (Sperber 1996 : 29), and it&apos;s getting people to talk and combine">
-<node CREATED="1494933523564" ID="ID_1609544774" MODIFIED="1494942195026" TEXT="to wit: the name change to CAT, distance when talking, or even the Claidi&#xe8;re &amp; Sperber 2007 example of smoking"/>
 </node>
-<node CREATED="1495024194435" ID="ID_831040112" MODIFIED="1495026009539" TEXT="He insists on environmental factors (Sperber 1996 : 26, 140), and on the effect and interaction of previous representations (Sperber 1996 : 84)"/>
-</node>
-<node CREATED="1496582092168" ID="ID_669611110" MODIFIED="1496582119963" TEXT="fusaroli_dialog_2014 propose interpersonal synergy to be the building block of analysis of dialogue"/>
-<node CREATED="1495622367706" ID="ID_215422855" MODIFIED="1496587001770" TEXT="While most iterated learning takes interaction into account, they still separate the emergence of the communication system from its participants, so presuppose agents that know how to communicate, but just need to evolve a channel (sort of like in the film &quot;The Martian&quot;) (note that scott-phillips_language_2010, p. 416, notices that)"/>
-</node>
-</node>
-<node CREATED="1493651988017" ID="ID_670111761" MODIFIED="1496244421049" TEXT="Open problems">
+<node CREATED="1493651988017" FOLDED="true" ID="ID_670111761" MODIFIED="1497454674138" TEXT="Open problems">
 <node CREATED="1493653437891" ID="ID_67444389" MODIFIED="1494005892953" TEXT="Attraction (transformation) vs. Selection"/>
 <node CREATED="1493653037758" ID="ID_11239510" MODIFIED="1493656591532" TEXT="Actual attractors"/>
 <node CREATED="1493653058625" ID="ID_117276132" MODIFIED="1494005752710" TEXT="More case studies, more explanations of real phenomena"/>
@@ -457,7 +456,7 @@
 <node CREATED="1496646096075" ID="ID_662298902" MODIFIED="1496646097258" TEXT="ingold_toward_2012"/>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1493652975329" ID="ID_167583603" MODIFIED="1496245301457" TEXT="Stakes">
+<node COLOR="#ff0000" CREATED="1493652975329" FOLDED="true" ID="ID_167583603" MODIFIED="1497454675046" TEXT="Stakes">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493653721774" ID="ID_283410491" MODIFIED="1493654448011" TEXT="At the outset: empirically test for attractors by focusing on short utterances"/>
 <node CREATED="1494061143106" ID="ID_1104025580" MODIFIED="1494061161167" TEXT="In doing that, there is a tension between">
@@ -579,7 +578,7 @@
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
-<node CREATED="1493654137848" ID="ID_1808416012" MODIFIED="1496302674252" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1497454677913" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>

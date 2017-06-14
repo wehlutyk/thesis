@@ -19,11 +19,10 @@ author: |
     Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
 documentclass: book
-papersize: A4
 # Numbering comes from pandoc itself (not pandoc-crossref)
 numbersections: True
 lang: en-GB
-geometry: margin=1.2in
+geometry: a4paper
 mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
