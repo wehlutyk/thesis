@@ -65,13 +65,14 @@
 </node>
 </node>
 <node CREATED="1468500992272" ID="ID_1210267072" MODIFIED="1494933262136" TEXT="Review">
-<node COLOR="#990000" CREATED="1468501015091" FOLDED="true" ID="ID_1175182254" MODIFIED="1497363672188" TEXT="Cog + Soc in the 20th">
+<node COLOR="#990000" CREATED="1468501015091" FOLDED="true" ID="ID_1175182254" MODIFIED="1497432685221" TEXT="Cog + Soc in the 20th">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1493652068205" ID="ID_1768570116" MODIFIED="1493652589428" TEXT="Behaviourism / birth of Cognitive Science">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 <node CREATED="1468501078311" ID="ID_1545179629" MODIFIED="1494832900327" TEXT="Sociology and Anthropology">
 <node COLOR="#669900" CREATED="1494832901157" ID="ID_1764178202" MODIFIED="1494933876760" TEXT="Durkheim, Mauss, Bourdieu, Giddens"/>
+<node CREATED="1496583475041" ID="ID_1401435396" MODIFIED="1497432683184" TEXT="steiner_autonomy_2009?"/>
 <node CREATED="1494832892055" ID="ID_1028477484" MODIFIED="1496657293582" TEXT="Simmel, Garfinkel, Geertz, Kroeber"/>
 </node>
 <node CREATED="1468501073029" ID="ID_270646699" MODIFIED="1494339070730" TEXT="Psychology: Lewis?, Gibson (extended by SM), Bateson"/>
@@ -358,20 +359,15 @@
 <node CREATED="1497370482444" ID="ID_446596159" MODIFIED="1497371012864" TEXT="Notably, DST criticises a dual inheritance account"/>
 </node>
 <node CREATED="1497367392109" ID="ID_1167401087" MODIFIED="1497367401044" TEXT="Convergence">
-<node CREATED="1497367402410" ID="ID_922545788" MODIFIED="1497375753763" TEXT="The links between 4E and DST have been explored by Stotz">
-<node CREATED="1496571812855" ID="ID_1886242057" MODIFIED="1496571813943" TEXT="&quot;Coming to grips with human nature, I will argue, means understanding development. Human nature does not lie in any set of &#x2018;essential&#x2019; traits with certain &apos;innate&#x2019; properties, but in the particular nature of the human developmental process.&quot; (p. 488)"/>
-<node CREATED="1496569847964" ID="ID_1499594790" MODIFIED="1496569880680" TEXT="&quot;... a matrix of reliable developmental factors, organized by the developmental niche, shapes the developmental system of brain, body, and its&#x2014; engineered&#x2014;environment. The reproduction of the developmental system through successive lifecycles is the result of the robust yet flexible availability of a wide range of developmental resources that reliably transmit crucial information from parents to offspring. Through formulising the processes of extended inheritance, developmental niche construction renders development as an evolutionarily salient process in the origin, maintenance and distribution of new trait variants&quot; (p. 488)"/>
-<node CREATED="1496569983755" ID="ID_454005980" MODIFIED="1496570018995" TEXT="&quot;Showcasing cognitive, cultural and symbolic niche construction as part of the overall process of ontogenetic niche construction helps us to overcome the old dichotomy between biological and cultural inheritance and evolution and see them not as analogous processes, as Clark, but as interlocking into a single extended process of human development and evolution.&quot; (p. 489)"/>
-<node CREATED="1496583475041" ID="ID_1401435396" MODIFIED="1496583476210" TEXT="steiner_autonomy_2009"/>
-</node>
-<node CREATED="1497367449934" ID="ID_600477979" MODIFIED="1497367475253" TEXT="Aspects of EES, DST, and 4E seem possible to integrate"/>
+<node CREATED="1497367402410" ID="ID_922545788" MODIFIED="1497375753763" TEXT="The links between 4E and DST have been explored by Stotz"/>
+<node CREATED="1496411066133" ID="ID_190906013" MODIFIED="1497428349789" TEXT="wimsatt_reproducing_2007 argues it is possible (and necessary) to combine a developmentally sensitive view of culture with population thinking"/>
+<node CREATED="1496410867463" ID="ID_785400178" MODIFIED="1497428405534" TEXT="That view must consider more than two channels (even at short time scales), since replicator-based evolution (whether cultural memes or biological genes) obviates developmental processes"/>
+<node CREATED="1497428797838" ID="ID_829342459" MODIFIED="1497428898948" TEXT="And it must use a notion of culture not as just information (vs. mesoudi_towards_2006, p. 3, citing boyd_origin_2005, p. 5)"/>
+<node CREATED="1497367449934" ID="ID_600477979" MODIFIED="1497450463968" TEXT="In spite of those differences, authors feel that aspects of EES, DST, and 4E seem possible to integrate"/>
+<node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1497450676257" TEXT="Population thinking, which is what CAT/SCE have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
 <node CREATED="1495561749817" ID="ID_907112246" MODIFIED="1496397330202" TEXT="Gray, who co-wrote DST, is one of the main proponents of cultural evolutionary theory, so it might be the best shot at reconciling it with social anthropology (lewens_cultural_2012, p. 477)"/>
-<node CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1497370331383" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, ingold_complementarity_1998, ingold_transmission_2001, ingold_biosocial_2013 (p. 5) on meaning"/>
-<node CREATED="1496748433678" ID="ID_1993318049" MODIFIED="1497370205170" TEXT="Croft&apos;s inclusive theory of language evolution (croft_evolutionary_2013) follows DST pretty well"/>
-<node CREATED="1495561216483" ID="ID_653621097" MODIFIED="1496397331719" TEXT="Population thinking, which is what CAT/SCE have brought (lewens_cultural_2012, p. 474), is compatible with this"/>
-<node CREATED="1496411066133" ID="ID_190906013" MODIFIED="1497371339895" TEXT="wimsatt_reproducing_2007 argues it is possible (and necessary) to combine a developmentally sensitive view of culture with population thinking"/>
-<node CREATED="1496410867463" ID="ID_785400178" MODIFIED="1497371391364" TEXT="~That view must consider more than two channels (even at short time scales), since replicator-based evolution (whether cultural memes or biological genes) obviates developmental processes"/>
-<node CREATED="1496397261100" ID="ID_213339348" MODIFIED="1496397812968" TEXT="But it&apos;s not clear how much core proponents of CAT/SCE have that in their core: they speak of channels (lewens_cultural_2012, p. 476) and of culture as information (p. 475)"/>
+<node CREATED="1496748433678" ID="ID_1993318049" MODIFIED="1497428435004" TEXT="Croft&apos;s inclusive theory of language evolution (croft_evolutionary_2013) follows DST pretty well"/>
+<node CREATED="1496393827694" ID="ID_1900425809" MODIFIED="1497451600557" TEXT="It&apos;s also in agreement with other anthropologists: fuentes_evolution_2006, fuentes_new_2009, ingold_complementarity_1998, ingold_transmission_2001"/>
 </node>
 <node COLOR="#ff0000" CREATED="1468501749770" ID="ID_916482541" MODIFIED="1497371244971" TEXT="4E / Enactive">
 <font NAME="SansSerif" SIZE="12"/>
@@ -379,7 +375,6 @@
 <node CREATED="1496591078555" ID="ID_936638136" MODIFIED="1496591097452" TEXT="There is debate on the nature of cognition: what is it, what is the object and its boundaries">
 <node CREATED="1496591101360" ID="ID_510554669" MODIFIED="1496591134142" TEXT="Classical: it&apos;s the processing of information as representations in the brain"/>
 <node CREATED="1496591134997" ID="ID_884681974" MODIFIED="1496591163029" TEXT="Alternatives: it&apos;s the dynamical interaction process between brain and environment"/>
-<node CREATED="1496646203691" ID="ID_969654893" MODIFIED="1496646205669" TEXT="silberstein_complexity_2012"/>
 <node CREATED="1496646298868" ID="ID_1990571147" MODIFIED="1496646299660" TEXT="chemero_after_2008"/>
 </node>
 <node CREATED="1496582013894" ID="ID_1426565019" MODIFIED="1496582168335" TEXT="van_gelder_dynamical_1998 the Dynamical Hypothesis"/>
@@ -417,6 +412,13 @@
 <node CREATED="1495639909080" ID="ID_1779798366" MODIFIED="1495640014294" TEXT="Based on the definition that meaning is overt intention that is recognised (Grice&apos;s definition)"/>
 <node CREATED="1495638920191" ID="ID_214433918" MODIFIED="1495640457973" TEXT="scott-phillips_meaning_2015 / moore_meaning_2016 / scott-phillips_meaning_2016"/>
 </node>
+<node CREATED="1497450270385" FOLDED="true" ID="ID_1749979282" MODIFIED="1497450280027" TEXT="Stotz">
+<node CREATED="1496571812855" ID="ID_1886242057" MODIFIED="1496571813943" TEXT="&quot;Coming to grips with human nature, I will argue, means understanding development. Human nature does not lie in any set of &#x2018;essential&#x2019; traits with certain &apos;innate&#x2019; properties, but in the particular nature of the human developmental process.&quot; (p. 488)"/>
+<node CREATED="1496569847964" ID="ID_1499594790" MODIFIED="1496569880680" TEXT="&quot;... a matrix of reliable developmental factors, organized by the developmental niche, shapes the developmental system of brain, body, and its&#x2014; engineered&#x2014;environment. The reproduction of the developmental system through successive lifecycles is the result of the robust yet flexible availability of a wide range of developmental resources that reliably transmit crucial information from parents to offspring. Through formulising the processes of extended inheritance, developmental niche construction renders development as an evolutionarily salient process in the origin, maintenance and distribution of new trait variants&quot; (p. 488)"/>
+<node CREATED="1496569983755" ID="ID_454005980" MODIFIED="1496570018995" TEXT="&quot;Showcasing cognitive, cultural and symbolic niche construction as part of the overall process of ontogenetic niche construction helps us to overcome the old dichotomy between biological and cultural inheritance and evolution and see them not as analogous processes, as Clark, but as interlocking into a single extended process of human development and evolution.&quot; (p. 489)"/>
+</node>
+<node CREATED="1497451604531" ID="ID_1795572792" MODIFIED="1497451605262" TEXT="ingold_biosocial_2013 (p. 5) on meaning"/>
+<node CREATED="1496646203691" ID="ID_969654893" MODIFIED="1496646205669" TEXT="silberstein_complexity_2012"/>
 </node>
 </node>
 <node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497369965401" TEXT="What this means for the linguistic aspect">

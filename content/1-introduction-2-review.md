@@ -521,14 +521,11 @@ Such processes engineer the material and social environment of humans to support
 
 ### Criticisms {#sec:intro-developments-criticisms}
 
-\todo{The first degree is quite compatible with CAT/SCE, as is also evidenced by Gray going from one to the other; the second degree is compatible with population thinking, so might also work well with ideas of attraction, though not with dual-inheritance.}
-
-\add{but see mcgraw-cultures-2014; and related works such as wallot-beyond-2016}
-
 
 #### Developmental systems theory
 
-A related and somewhat complementary extension to the standard evolutionary account has developed in parallel to NCT: Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
+A related and somewhat complementary extension to the standard evolutionary account has developed in parallel to NCT, with a more radical notion of extended inheritance:
+Developmental Systems Theory [DST, @oyama_ontogeny_2000; @oyama_cycles_2001].
 Kim Sterelny characterises it, on one side, with three critical theses:
 
 > "(1) We cannot simply assume that the organism/environment boundary is of theoretical significance for developmental and evolutionary biology ... (2) It may be legitimate to foreground genetic structure and genetic change for specific explanatory or predictive purposes. But in general, the genes an organism carries are just one set of developmental resources among many. Genes and gene changes are important both to development and to evolution, but they are not of primary or privileged importance. (3) Developmental systems theorists are skeptical about the project of explaining intergenerational similarity by appealing to the transmission of phenotype-making information across generations."
@@ -545,7 +542,7 @@ Now the other side of Sterelny's characterisation of DST is its positive story:
 A driving goal in DST is to recontextualise, explain, and if possible do without the conceptual divide between matter and form, that is between specification and realisation, which underlies most discussions of nature-nurture [@oyama_ontogeny_2000].
 This implies putting an endogenous account of the concept of information at the centre of its theory, by focusing on the way such information is generated through the dynamics of a system as it develops and as its resources interact.
 
-In many aspects, NCT-EES and DST complement each other [see @griffiths_discussion:_2005 on the complementarity of DST and Evo-Devo].
+In many aspects, NCT-EES and DST complement each other [see @griffiths_discussion:_2005 on the complementarity of DST and Evo-Devo in particular].
 However for the current purposes I suggest we locate both approaches with respect to the two following questions:
 
 - How far should models and theories of evolution integrate the detailed processes of development and environmental interaction to provide an accurate picture of evolution?
@@ -559,15 +556,30 @@ However for the current purposes I suggest we locate both approaches with respec
   Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
   instead it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
 
-Notably, the stances adopted by DST put it at odds with dual-channel accounts of cultural evolution.
+Notably, the stances adopted by DST put it at odds with a dual-channel account of cultural evolution.
 While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], there is no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
-Aside from genetic material and ecological niches, developmental systems also inherit epigenetic material, behavioural patterns and communication systems [@jablonka_systems_2001] and more generally the full matrix of resources involved in the development of the system at its next generation.
+Aside from genetic material and ecological niches, developmental systems also inherit epigenetic material, behavioural patterns and communication systems [@jablonka_systems_2001] and more generally the full matrix of resources involved in the development of the system at its next life cycle.
 
 
 #### Convergence
 
-The links between 4E cognitive science and developmental systems theory have also been explored by @stotz_human_2010.
-Indeed given some adaptations, aspects of EES, DST, and 4E cognitive science seem possible to fruitfully integrate into the study of cultural evolution [as @lewens_cultural_2012, p. 474, notes, the fact that Russell Gray participated in the initial development of DST and is now an outspoken proponent of cultural evolutionary theory, is encouraging].
+The notion of developmental system, and the importance it gives to the ontogenetic niche in which organisms grow, is convergent with 4E cognitive science and Sterelny's scaffolded mind approach.
+Aside from providing a natural account of culture similar to that of EES, DST also integrates the role of the ontogenetic niche in development all the way up to the cognitive level [@stotz_human_2010].
+@wimsatt_reproducing_2007 have argued that an appropriate focus on scaffolding and development could shed light on the mechanisms of inheritance across generations, a necessary step in an account of cultural evolution.
+In agreement with DST, however, the authors feel that fixed- or dual-channel accounts of inheritance based on information-representing items that are transferred to offspring^[
+  The definition provided by @boyd_origin_2005, and adopted by @mesoudi_towards_2006, is along these lines.
+  The authors define culture as "information capable of affecting individuals’ behavior that they acquire from other members of their species by teaching, imitation, and other forms of social transmission" [@boyd_origin_2005, p. 6].
+]
+obviate the role of development.
+Conversely, grounding an account of constancy and change in developmental processes requires considering all the resources that a system inherits, and their interaction in development.
+
+In spite of such differences, the literature indicates that many aspects of EES, DST, and 4E cognitive science seem possible to fruitfully integrate for the study of cultural evolution.
+Indeed, DST is compatible with the population approach necessary for a darwinist analysis of culture [@griffiths_discussion:_2005; @lewens_cultural_2012, p. 477], which is one of the core elements on which both the Parisian and the Californian cultural evolution streams are built.
+@lewens_cultural_2012 [p. 474] also remarks on the encouraging fact that Russell Gray is both one of the main authors of DST, and is now an outspoken proponent of cultural evolutionary theory.
+A final case in point is the successful application of these ideas in theoretical and empirical proposals:
+as noted above, @croft_evolutionary_2013 provides a compelling account of language evolution that integrates the main contentions of DST;
+@mcgraw_cultures_2014 also merge the 4E approach to interaction and the mind with classical cultural evolutionary theory, relying on both research streams to analyse the products of the repeated interaction experiment they study.
+
 The shift in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of Californian and Parisian cultural evolution [@fuentes_evolution_2006; @fuentes_new_2009; @ingold_complementarity_1998; @ingold_transmission_2001].
 
 
