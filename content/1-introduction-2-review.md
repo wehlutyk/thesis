@@ -590,29 +590,20 @@ There are two levels to this question.
 First, if cognitive systems are construed as information- or representation-processing systems, the naturalisation of the content of such representations is a non-trivial matter;
 indeed it has attracted much attention in philosophy of mind.
 Second, it is not clear that information processing, and thus an account centrally based on representations, is the best description of the nature of cognition itself (as noted above, this is one of the driving questions in the debate around 4E cognitive science).
-More radical streams of the 4E movement contend that a notion of representation is unnecessary to account for the vast majority---if not all---of human cognition, and are developing alternative proposals (the capacity of cognitive systems to represent, if maintained in the theory, may then be seen as an emerging part of the account of cognition).
+More radical streams of the 4E movement contend that a notion of representation is unnecessary to account for the vast majority---if not all---of human cognition, and are developing alternative proposals (the capacity of cognitive systems to represent, if maintained in the theory, may then be seen as a contingent property and not a constitutive part).
 The enactive approach, in particular, proposes such an account of cognition.
 As described by @varela_embodied_1991, @di_paolo_autopoiesis_2005, and @thompson_mind_2007, the enactive account builds on the notion of autopoiesis and ties cognition to living systems, considered as networks of processes that depend on each other for continued operation and continually produce and reproduce both the boundaries separating them from their environment and the conditions of their operation.
-Given this definition, a living system dies if its network of self-producing processes ceases from functioning, and as such every interaction with the environment bears intrinsic value in terms of its contribution to the system's survival.
-This value the basis for the enactive notion of meaning, partly filling the role of content in representationalist accounts.
+Given this definition, a living system dies, that is loses its identity, if its network of self-producing processes ceases from functioning, and as such every interaction with the environment bears intrinsic value in terms of its contribution to the maintenance of the system's identity.
+This value is the basis for the enactive notion of meaning, which displaces the focus on information, or content, in representationalist accounts.
 Since living systems use their environment to self-reproduce, they are continually coupled to it in order to maintain the organisation of their network of processes.
 Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment, and is an intrinsically meaning-making activity.
 
 The enactive approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, and can be relevant at several levels of a system's organisation.
-This notion of meaning and its related *meaning-making* activity are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
+This notion, and the view of cognition as a *meaning-making* activity, are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
 The rationale for the approach is quite similar to that of developmental systems theory:
 talk of representations (or of biological information, in the case of DST) easily leads to what @thompson_mind_2007, building on @oyama_ontogeny_2000, calls an "informational dualism".
 The conceptual separation between matter and content creates a gap, and reifies information in a way that makes it difficult to naturalise.
 
 These works are not explicitly directed towards the study of cultural evolution, and are by no means the only proposals competing within the debate on representations.
-However, as we will see in [@sec:gistr;@sec:discussion], CAT's reliance on mental representations as a unit of analysis renders this matter especially relevant, both theoretically and empirically, to the study of cultural evolution.
-The enactive treatment, among the most radical non-representationalist proposals available, can serve as a useful point of reference, at the far end of the spectrum, in assessing approaches to information and meaning in the context of cultural evolution.
-
-<!--
-### Relevance to linguistic material
-
-- for linguistic reprs, in particular, the problem of meaning is related to this question and difficult to avoid in the empirical study of CAT: you need to define at what level you want to analyse your representations to look for attractors, and possibly understand what people take in of pieces of text
-
-- "Pragmatic criteria of intersubjectivity, normativity, and rationality need to confront the non-propositional and nonverbal meaning-making of embodied encounters" (cuffari_gestural_2012). So it's the question of propositional language
-
--->
+Yet I will argue in [@sec:gistr;@sec:discussion] that CAT's reliance on mental representations as a unit of analysis renders this matter especially relevant, both theoretically and empirically, to the study of cultural evolution.
+The enactive treatment, among the most radical of the positive accounts because of its non-representationalist commitment, can serve as a useful point of reference, at the far end of the spectrum, in assessing approaches to information and meaning in the context of cultural evolution.
