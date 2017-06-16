@@ -69,7 +69,7 @@ Authors from Anthropology and Sociology have produced countless other insights a
 the miniature sample I exposed here represents the works which have most influenced the initial questions of this thesis.
 Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
 This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
-I will come back to this line of work in @sec:intro-developments, and discuss it in more detail in @sec:discussion.
+I will come back to this line of work in @sec:intro-review-criticisms, and discuss it in more detail in @sec:discussion.
 
 \todo{Maybe add dropped authors? Simmel, Garfinkel, Geertz, Kroeber, Bateson}
 
@@ -122,7 +122,7 @@ vertical (from parent to offspring), oblique (from a non-parent member of the pr
 A notable feature of this programme is that it does not constrain itself into a particular view of what culture is.
 While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from @sec:intro-review-social), the mathematical models do not constrain the concept of culture as much.
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
-I return to this subject in more detail in @sec:intro-developments.
+I return to this subject in more detail in @sec:intro-review-developments.
 
 
 #### Parisian
@@ -169,7 +169,7 @@ CAT agrees nonetheless with the idea of gene-culture coevolution developed by DI
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
 \add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
-@Sec:intro-developments comes back to these debates and criticisms, which I group into two broad categories.
+[@Sec:intro-review-developments;@sec:intro-review-criticisms] come back to these debates and criticisms, which I group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "informational dualism" of the notion of representation in cognitive science:
@@ -214,7 +214,7 @@ Second, its initial goal is not so much to develop a mathematical theory of cult
 Third, this approach in turn leads to a crystal-clear articulation of the philosophical principles defended, discussed, or tested by the theory.
 \add{it's not the clarity of hypotheses afforded by mathematics.}
 \add{smaldino-let-2014.}
-As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-developments). \add{in particular social anthropology.}
+As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
 In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by gene-culture coevolution approaches.
 
 
@@ -285,7 +285,7 @@ focusing on emotional selection as studied by @heath_emotional_2001, they showed
 after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
 A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
 A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that participants could observe the preceding generation during their experimenting and building, thus providing rich context to the learning phase of transmission.
-Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-developments:
+Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-criticisms:
 the authors take the complete joint interaction to be their ultimate object of study, proposing to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
 By looking at the characteristics of the cars built by participants, the authors claim their study "presents methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4].
 [These experiments are further analysed in @mitkidis_building_2015; and @wallot_beyond_2016].
@@ -444,20 +444,17 @@ I further introduce works in psycholinguistics relevant to the study of quotes o
 Let me now move on to the most debated developments of cultural evolution, the criticisms opposed to the approach, the alternatives emerging from these critiques, and the possibilities of reconciliation.
 
 
-## Developments, criticisms or alternatives {#sec:intro-developments}
+### Developments {#sec:intro-review-developments}
 
 The exact nature of evolution is subject to debate in biology and philosophy of biology, and some of the recent developments have made their way into the core of cultural evolution theory.
 In a parallel movement, the nature of cognition is itself debated inside philosophy of cognitive science.
-The aim of this section is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating on one side the elements that could be---or are already partly---integrated into mainstream CAT, and on the other side the critiques which, at least in current writings, seem to call for a partial rethink of the paradigm.
-Compared to the previous section, the questions are more theoretical, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
+The aim of the next two sections is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating first the elements that could be---or are already partly---integrated into mainstream CAT, and second the critiques which, at least in current writings, seem to call for a partial rethink of the paradigm.
+The questions here are more theoretical than above, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
 This is not to say the debates in biology and cognitive science concern theory alone, as each debated position is well supported by empirical work;
 rather, up to now those works have not translated to actionable contradictory predictions in the study of cultural evolution proper.
-I now present elements of those debates in two groups:
-developments, which seem possible to integrate into CAT, and criticisms, which I believe challenge CAT closer to its foundations.
-As will hopefully be clear by the end of @sec:discussion where I return to these issues, the work I present in the next two chapters also aims to contribute to the first steps in translating such criticisms into empirical questions.
-
-
-### Developments
+Nonetheless, I will argue in @sec:discussion that these debates provide crucial context to understand a particular practical challenge in the empirical study of CAT, namely the definition of the meaning of representations and its impact on the dimensions of attraction.
+I begin with developments then, that is the elements that seem possible to integrate into CAT.
+These also lay some of the groundwork for the subsequent criticisms, which I believe challenge CAT closer to its foundations.
 
 
 #### Niche construction theory
@@ -503,11 +500,11 @@ identifying the co-evolution dynamics of genetic and environmental inheritance c
 On this view, then, culture is accounted for by a blend of ecological and cognitive-epistemic niche construction processes.
 
 
-#### The extended mind
+#### "4E" cognitive science: the extended mind
 
-\todo{develop a little}
+\todo{use chemero-after-2008 for this summary}
 
-In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions.
+In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions [see @chemero_after_2008 for a detailed review of questions and possible answers].
 \(1) The boundaries of cognition:
 are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998; @menary_extended_2010].
 \(2) The role of time-dependent dynamics, and the corresponding construal of the nature of cognition:
@@ -515,11 +512,10 @@ are cognitive systems best described as digital computers processing information
 In treating these questions, the extended, embedded, embodied, and enactive approaches to cognitive science (the so-called "4E") have argued to various degrees that cognition is not only (or not at all) an information-processing operation that can take place in the void, but also (or exclusively) a situated activity supported by (or a dynamic coupling with) its environment.
 The extended mind theory, among the less radical 4E approaches, is quite compatible with EES and thus with both Californian and Parisian cultural evolution.
 Indeed @sterelny_minds:_2010 [-@sterelny_evolved_2012], building on NCT, has argued that the extended mind approach is a special case of epistemic niche construction.
-He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes.
-Such processes engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
+He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes, that engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
 
 
-### Criticisms {#sec:intro-developments-criticisms}
+### Criticisms {#sec:intro-review-criticisms}
 
 
 #### Developmental systems theory
@@ -546,19 +542,21 @@ In many aspects, NCT-EES and DST complement each other [see @griffiths_discussio
 However for the current purposes I suggest we locate both approaches with respect to the two following questions:
 
 - How far should models and theories of evolution integrate the detailed processes of development and environmental interaction to provide an accurate picture of evolution?
-  This question is not so much about finding the *right* level of descriptive complexity, as it is about finding the *relative importance* of each level of complexity.
+  This question is not about finding the right level of descriptive complexity, but about finding the relative importance of each level of complexity.
   In other words, it asks what is the shape of the cost function representing the trade-off between parsimony and explanatory power (rather than where on that function should a theory operate).
   The classical account of evolution suggests development can be usefully abstracted away, such that analysing gene flow with the four recognised processes (natural selection, genetic drift, mutation, and migration) can account for all important evolutionary dynamics.
-  NCT claims that organism-environment interactions can generate dynamics that do not fit into the standard account while still having long term effects, warranting an extension of the evolutionary processes considered.
-  DST further claims that evolution's unit of analysis should be the full life cycle of a developmental system (organism or other), which makes it more difficult to abstract out absolute information items but guarantees an accurate view of the causal parity of developmental resources.
+  NCT claims that organism-environment interactions can generate dynamics that do not fit into the standard account but have long term effects nonetheless, warranting an extension of the evolutionary processes considered.
+  DST further claims that evolution's unit of analysis should be the full life cycle of a developmental system (organism or other), which makes it more difficult to abstract out absolute information items but guarantees an accurate view of the causal parity of developmental resources, such that developmental processes are not obviated.
 - What notion of information should evolutionary theory rely on?
-  Classical evolutionary theory and NCT seem to rely on the idea that DNA bears the biological information that is used throughout development, in an interaction with the environment.
+  Classical evolutionary theory and NCT rely on the idea that DNA bears the biological information that is used throughout development, in an interaction with the environment.
   Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
-  instead it adopts a relational notion of information as a co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
+  instead it adopts a relational notion of information as the co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
 
 Notably, the stances adopted by DST put it at odds with a dual-channel account of cultural evolution.
-While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], there is no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
+While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], it sees no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
 Aside from genetic material and ecological niches, developmental systems also inherit epigenetic material, behavioural patterns and communication systems [@jablonka_systems_2001] and more generally the full matrix of resources involved in the development of the system at its next life cycle.
+It might be useful for practical or descriptive reasons to focus more on some resources than on others, as is done for instance in the study of phylogeny, but doing so does not change the developmental interactions and causal parity of those resources with the rest of the set.
+A similar point will be made, below, about representations for the study of cognition.
 
 
 #### Convergence
@@ -566,7 +564,7 @@ Aside from genetic material and ecological niches, developmental systems also in
 The notion of developmental system, and the importance it gives to the ontogenetic niche in which organisms grow, is convergent with 4E cognitive science and Sterelny's scaffolded mind approach.
 Aside from providing a natural account of culture similar to that of EES, DST also integrates the role of the ontogenetic niche in development all the way up to the cognitive level [@stotz_human_2010].
 @wimsatt_reproducing_2007 have argued that an appropriate focus on scaffolding and development could shed light on the mechanisms of inheritance across generations, a necessary step in an account of cultural evolution.
-In agreement with DST, however, the authors feel that fixed- or dual-channel accounts of inheritance based on information-representing items that are transferred to offspring^[
+In agreement with DST, however, the authors feel that fixed- or dual-channel accounts of inheritance based on a notion of information transferred to offspring^[
   The definition provided by @boyd_origin_2005, and adopted by @mesoudi_towards_2006, is along these lines.
   The authors define culture as "information capable of affecting individuals’ behavior that they acquire from other members of their species by teaching, imitation, and other forms of social transmission" [@boyd_origin_2005, p. 6].
 ]
@@ -578,34 +576,43 @@ Indeed, DST is compatible with the population approach necessary for a darwinist
 @lewens_cultural_2012 [p. 474] also remarks on the encouraging fact that Russell Gray is both one of the main authors of DST, and is now an outspoken proponent of cultural evolutionary theory.
 A final case in point is the successful application of these ideas in theoretical and empirical proposals:
 as noted above, @croft_evolutionary_2013 provides a compelling account of language evolution that integrates the main contentions of DST;
-@mcgraw_cultures_2014 also merge the 4E approach to interaction and the mind with classical cultural evolutionary theory, relying on both research streams to analyse the products of the repeated interaction experiment they study.
+@mcgraw_cultures_2014 also merge an interactionist approach to mind with classical cultural evolutionary theory, relying on both research streams to analyse the products of the repeated interaction experiment they study.
 
 The shift in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of Californian and Parisian cultural evolution [@fuentes_evolution_2006; -@fuentes_new_2009; @ingold_complementarity_1998; -@ingold_transmission_2001].
 
 
-#### The enactive approach
+#### "4E" revisited: the enactive approach
+
+\todo{use chemero-after-2008 for this summary}
 
 A second avatar of the debate on the nature of information in evolution presents itself with the nature of representations in cognitive science.
 There are two levels to this question.
 First, if cognitive systems are construed as information- or representation-processing systems, the naturalisation of the content of such representations is a non-trivial matter;
 indeed it has attracted much attention in philosophy of mind.
 Second, it is not clear that information processing, and thus an account centrally based on representations, is the best description of the nature of cognition itself (as noted above, this is one of the driving questions in the debate around 4E cognitive science).
-The capacity of cognitive systems to represent may be an emerging part of an account of cognition, however more radical streams of the 4E movement contend that a notion of representation is unnecessary to account for the vast majority---if not all---of human cognition, and are developing alternative proposals.
+More radical streams of the 4E movement contend that a notion of representation is unnecessary to account for the vast majority---if not all---of human cognition, and are developing alternative proposals (the capacity of cognitive systems to represent, if maintained in the theory, may then be seen as an emerging part of the account of cognition).
 The enactive approach, in particular, proposes such an account of cognition.
-As described by @varela_embodied_1991, @di_paolo_autopoiesis_2005, and @thompson_mind_2007, the enactive account builds on the notion of autopoiesis and ties cognition to living systems, considered as networks of processes that depend on each other for continued operation, and continually produce and reproduce both the boundaries separating them from their environment, and the conditions of their operation.
+As described by @varela_embodied_1991, @di_paolo_autopoiesis_2005, and @thompson_mind_2007, the enactive account builds on the notion of autopoiesis and ties cognition to living systems, considered as networks of processes that depend on each other for continued operation and continually produce and reproduce both the boundaries separating them from their environment and the conditions of their operation.
 Given this definition, a living system dies if its network of self-producing processes ceases from functioning, and as such every interaction with the environment bears intrinsic value in terms of its contribution to the system's survival.
+This value the basis for the enactive notion of meaning, partly filling the role of content in representationalist accounts.
 Since living systems use their environment to self-reproduce, they are continually coupled to it in order to maintain the organisation of their network of processes.
-Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment.
+Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment, and is an intrinsically meaning-making activity.
 
-This approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, which can be relevant at several levels of a system's organisation.
-For the enactive approach, this notion of meaning and the related *meaning-making* activities are central in accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
-The rationale for such an approach is quite similar to that of developmental systems theory:
+The enactive approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, and can be relevant at several levels of a system's organisation.
+This notion of meaning and its related *meaning-making* activity are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
+The rationale for the approach is quite similar to that of developmental systems theory:
 talk of representations (or of biological information, in the case of DST) easily leads to what @thompson_mind_2007, building on @oyama_ontogeny_2000, calls an "informational dualism".
 The conceptual separation between matter and content creates a gap, and reifies information in a way that makes it difficult to naturalise.
 
 These works are not explicitly directed towards the study of cultural evolution, and are by no means the only proposals competing within the debate on representations.
-However, Cultural Attraction Theory's reliance on mental representations as a unit of analysis render this matter especially relevant, both theoretically and empirically, to the study of cultural evolution (a fact that Sperber is well aware of);
-the enactive treatment, among the most coherent non-representationist proposals available, can serve as a useful point of reference at the far end of the spectrum in assessing approaches to this question in the context of cultural evolution.
+However, as we will see in [@sec:gistr;@sec:discussion], CAT's reliance on mental representations as a unit of analysis renders this matter especially relevant, both theoretically and empirically, to the study of cultural evolution.
+The enactive treatment, among the most radical non-representationalist proposals available, can serve as a useful point of reference, at the far end of the spectrum, in assessing approaches to information and meaning in the context of cultural evolution.
 
-
+<!--
 ### Relevance to linguistic material
+
+- for linguistic reprs, in particular, the problem of meaning is related to this question and difficult to avoid in the empirical study of CAT: you need to define at what level you want to analyse your representations to look for attractors, and possibly understand what people take in of pieces of text
+
+- "Pragmatic criteria of intersubjectivity, normativity, and rationality need to confront the non-propositional and nonverbal meaning-making of embodied encounters" (cuffari_gestural_2012). So it's the question of propositional language
+
+-->

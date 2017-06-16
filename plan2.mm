@@ -8,13 +8,13 @@
 <node CREATED="1493733867440" ID="ID_1667893945" MODIFIED="1493735670937" TEXT="Discuss shortcomings of my approach, shortcomings of CAT beyond my approach, and the role of experiments to move forward"/>
 </node>
 <node CREATED="1493651794390" ID="ID_636762157" MODIFIED="1493651798803" POSITION="right" TEXT="Introduction">
-<node CREATED="1493651847942" FOLDED="true" ID="ID_476400367" MODIFIED="1497363679285" TEXT="Introduction">
+<node CREATED="1493651847942" FOLDED="true" ID="ID_476400367" MODIFIED="1497597817685" TEXT="Introduction">
 <node COLOR="#669900" CREATED="1494931171126" FOLDED="true" ID="ID_491466827" MODIFIED="1494937415392" TEXT="Opening">
 <node CREATED="1494930970923" ID="ID_483470674" MODIFIED="1494930983360" TEXT="There is great diversity in approaches to human life"/>
 <node CREATED="1494930955048" ID="ID_1617760448" MODIFIED="1494930988494" TEXT="And many ways to bridge the cog-soc gap"/>
 <node CREATED="1494930998006" ID="ID_514884928" MODIFIED="1494931038896" TEXT="A choice of assembly also bears an idea of life and what it means to be human"/>
 </node>
-<node CREATED="1494931221061" FOLDED="true" ID="ID_632214043" MODIFIED="1494937414007" TEXT="Locate">
+<node CREATED="1494931221061" ID="ID_632214043" MODIFIED="1497597659873" TEXT="Locate">
 <node CREATED="1494931246884" ID="ID_1567147636" MODIFIED="1494931263032" TEXT="Cognitive anthropology is the dominant view today"/>
 <node CREATED="1494931264604" ID="ID_328527768" MODIFIED="1494931271574" TEXT="Two main variants: DIT and CAT"/>
 <node CREATED="1494931275081" ID="ID_148769037" MODIFIED="1494931322403" TEXT="And heated critiques"/>
@@ -44,7 +44,7 @@
 <node CREATED="1494933666024" ID="ID_1082398070" MODIFIED="1494933666532" TEXT="in-vitro, where one can control the complexity a little, but you have to set a task and anything you do is subject to that choice"/>
 <node CREATED="1494933672926" ID="ID_1546245069" MODIFIED="1494933673441" TEXT="I choose this for two main reasons: first, the availability of data, or relative ease in collecting it (though we&apos;ll discuss that). Second, language is at the core of the criticisms on CAT, so it&apos;s a good way to go to tease approaches apart."/>
 <node CREATED="1494933683308" ID="ID_1950468903" MODIFIED="1494933683784" TEXT="discuss the usefulness of those cases for CAT (and vice versa): does it help capture and account for the phenomena? And above all, do we observe attraction/convergence in these case studies? If not why not? Do we transform meaning in a particular fashion given a particular situation, and if such effects are observed can they be somehow generalised?"/>
-<node CREATED="1494933690537" FOLDED="true" ID="ID_1224985480" MODIFIED="1494937423369" TEXT="show how developing these experiments helps">
+<node CREATED="1494933690537" ID="ID_1224985480" MODIFIED="1497597786121" TEXT="show how developing these experiments helps">
 <node CREATED="1494933701686" ID="ID_730560015" MODIFIED="1494933702629" TEXT="(1) formulate existing questions in more detail, and possibly ask new questions: convergence becomes a concrete question with real measures in these experiments, obstacles to or inappropriateness of convergence can become evident also"/>
 <node CREATED="1494933711647" ID="ID_1683372430" MODIFIED="1494933712123" TEXT="(2) show the pain-points and problems in CAT">
 <node CREATED="1494933726980" ID="ID_308679594" MODIFIED="1494933728201" TEXT="the question of what information is, i.e. the information dualism of representations">
@@ -385,18 +385,17 @@
 <node CREATED="1496657648065" ID="ID_444999452" MODIFIED="1496657671096" TEXT="To get past that you need to explore the ongoing production of information"/>
 <node CREATED="1496659169626" ID="ID_410934599" MODIFIED="1496670632749" TEXT="&quot;&#x2018;&#x2018;If we&#x2019;re all Darwinians,&#x2019;&#x2019; Symons (1987) asks, &#x2018;&#x2018;what&#x2019;s the fuss about?&#x2019;&#x2019; And if we&#x2019;re all interactionists, again, why the fuss? I suggest the fuss arises (and sometimes doesn&#x2019;t arise when it should) because we haven&#x2019;t figured out what either requires, much less how to be both at the same time. A solution that combines encoded nature with varying doses of contingent nurture is no solution at all.&quot; (p. 5)"/>
 </node>
+</node>
+<node CREATED="1497371462405" ID="ID_641320715" MODIFIED="1497457548852" TEXT="Attic">
 <node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497369965401" TEXT="What this means for the linguistic aspect">
 <node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
 <node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
 <node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
-<node CREATED="1496428041699" ID="ID_1479408955" MODIFIED="1496428044991" TEXT="everett_cultural_2005?"/>
-<node CREATED="1495365284456" ID="ID_894159627" MODIFIED="1496587050863" TEXT="harder_meaning_2010?"/>
 <node CREATED="1497470846250" ID="ID_810859072" MODIFIED="1497470847702" TEXT="cuffari_gestural_2012?"/>
 <node CREATED="1496646298868" ID="ID_1990571147" MODIFIED="1496646299660" TEXT="chemero_after_2008"/>
 <node CREATED="1497455826864" ID="ID_567914915" MODIFIED="1497470890251" TEXT="harvey_content_2015"/>
 <node CREATED="1496587591915" ID="ID_355810214" MODIFIED="1496587593119" TEXT="dennett_making_2000?"/>
 <node CREATED="1496587200713" ID="ID_300380872" MODIFIED="1496587202905" TEXT="recanati_literalism_2003?"/>
-<node CREATED="1496653497912" ID="ID_126525208" MODIFIED="1496653499210" TEXT="evans_myth_2009?"/>
 <node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1496244467804" TEXT="Nuances">
 <node CREATED="1496582551261" ID="ID_613893848" MODIFIED="1496582553159" TEXT="origgi_evolution_2000?"/>
 <node CREATED="1496647544750" ID="ID_1797893939" MODIFIED="1496647546105" TEXT="sperber_pragmatic_2012?"/>
@@ -412,8 +411,6 @@
 </node>
 <node CREATED="1497451604531" ID="ID_1795572792" MODIFIED="1497451605262" TEXT="ingold_biosocial_2013 (p. 5) on meaning"/>
 </node>
-</node>
-<node CREATED="1497371462405" ID="ID_641320715" MODIFIED="1497457548852" TEXT="Attic">
 <node CREATED="1493652652059" ID="ID_1233298331" MODIFIED="1493736031925" TEXT="Social Anthropology">
 <node CREATED="1468501919206" ID="ID_1149253302" MODIFIED="1496651933842" TEXT="briggs_mazes_1992"/>
 </node>
@@ -498,12 +495,15 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1496236466612" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1497602200003" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
 <node CREATED="1493669206627" ID="ID_1036336811" MODIFIED="1494003133027" TEXT="Introduction">
-<node CREATED="1493994708787" ID="ID_183196393" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations"/>
+<node CREATED="1493994708787" ID="ID_183196393" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations">
+<node CREATED="1497595812170" ID="ID_1996978658" MODIFIED="1497595812170" TEXT="The rationale for not looking at age and word span effects in gistr was there seemed to be none in the first run. I think the main effect on accuracy, apart from actual operation/sentence span (but that&apos;s hard to separate from the actual gistr task), is conscientiousness. A way around that is to create an endogenous incentive like Claidi&#xe8;re did. But to do that stronger than a simple money bonus (which I did), you need to open the pandora box of interaction, which I didn&apos;t want to open so as to keep the most basic setup possible."/>
+<node CREATED="1497595869169" ID="ID_621093249" MODIFIED="1497595870470" TEXT="Next, the rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). "/>
+</node>
 <node CREATED="1494003133013" ID="ID_1953428105" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
 <node CREATED="1494060733021" ID="ID_354448553" MODIFIED="1494060740693" TEXT="Attraction factors can be">
 <node CREATED="1494060741709" ID="ID_1538202575" MODIFIED="1494060749009" TEXT="psychological / ecological"/>
@@ -578,7 +578,7 @@
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1497454677913" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1497602197355" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
@@ -620,7 +620,9 @@
 <node CREATED="1493709128157" ID="ID_985105476" MODIFIED="1494009491432" TEXT="Review the &quot;No Theory of Content&quot; problem">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493717779005" ID="ID_1984119433" MODIFIED="1493736031951" TEXT="In my work">
-<node CREATED="1493657060913" ID="ID_398917637" MODIFIED="1493717799258" TEXT="Surfaces as the meaning/interpretation problem"/>
+<node CREATED="1493657060913" ID="ID_398917637" MODIFIED="1493717799258" TEXT="Surfaces as the meaning/interpretation problem">
+<node CREATED="1497602191674" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
+</node>
 <node CREATED="1493575674274" ID="ID_193169863" MODIFIED="1493717868154" TEXT="And leads to an under-specified CV problem">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493576093254" ID="ID_1033465813" MODIFIED="1493656003801" TEXT="What level do you choose to look at"/>
