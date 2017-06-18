@@ -380,8 +380,8 @@
 <node CREATED="1497467158644" ID="ID_868556095" MODIFIED="1497619233981" TEXT="The rationale is similar to that of DST: informational dualism"/>
 <node CREATED="1497467178610" ID="ID_1259401938" MODIFIED="1497619233979" TEXT="This stuff is not directed to cultural evolution, but CAT&apos;s reliance on mental representations makes it relevant"/>
 </node>
-<node CREATED="1497371462405" FOLDED="true" ID="ID_641320715" MODIFIED="1497619240470" TEXT="Attic">
-<node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497369965401" TEXT="What this means for the linguistic aspect">
+<node CREATED="1497371462405" FOLDED="true" ID="ID_641320715" MODIFIED="1497646386165" TEXT="Attic">
+<node CREATED="1496239254624" FOLDED="true" ID="ID_1759359357" MODIFIED="1497646385138" TEXT="What this means for the linguistic aspect">
 <node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
 <node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
 <node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
@@ -392,6 +392,7 @@
 <node CREATED="1497455826864" ID="ID_567914915" MODIFIED="1497470890251" TEXT="harvey_content_2015"/>
 <node CREATED="1496587591915" ID="ID_355810214" MODIFIED="1496587593119" TEXT="dennett_making_2000?"/>
 <node CREATED="1496587200713" ID="ID_300380872" MODIFIED="1496587202905" TEXT="recanati_literalism_2003?"/>
+<node CREATED="1497646382169" ID="ID_1332558514" MODIFIED="1497646383062" TEXT="wilson_relevance_2004"/>
 <node CREATED="1497614384942" ID="ID_131262016" MODIFIED="1497614385560" TEXT="caracciolo_narrative_2012"/>
 <node CREATED="1495030066163" ID="ID_640269110" MODIFIED="1496244467804" TEXT="Nuances">
 <node CREATED="1496582551261" ID="ID_613893848" MODIFIED="1496582553159" TEXT="origgi_evolution_2000?"/>
@@ -442,8 +443,9 @@
 </node>
 <node CREATED="1493651988017" ID="ID_670111761" MODIFIED="1497619263767" TEXT="Open problems">
 <node CREATED="1493653437891" ID="ID_67444389" MODIFIED="1494005892953" TEXT="Attraction (transformation) vs. Selection"/>
-<node CREATED="1493653037758" ID="ID_11239510" MODIFIED="1493656591532" TEXT="Actual attractors"/>
+<node CREATED="1493653037758" ID="ID_11239510" MODIFIED="1493656591532" TEXT="Actual attractors">
 <node CREATED="1493653058625" ID="ID_117276132" MODIFIED="1494005752710" TEXT="More case studies, more explanations of real phenomena"/>
+</node>
 <node CREATED="1494005783481" ID="ID_1127444658" MODIFIED="1494005828091" TEXT="To what extent cultural evolution has driven genetic evolution (Henrich)"/>
 <node CREATED="1494005942225" ID="ID_983692105" MODIFIED="1494005973744" TEXT="The multi-scale nature of things on which selection can act (Richerson)"/>
 <node CREATED="1493653044924" ID="ID_1768318567" MODIFIED="1493653620224" TEXT="Context &amp; Niche construction">
@@ -456,8 +458,9 @@
 <node CREATED="1496646107887" ID="ID_936184294" MODIFIED="1496646108601" TEXT="obrien_cultural_2010"/>
 <node CREATED="1496646096075" ID="ID_662298902" MODIFIED="1496646097258" TEXT="ingold_toward_2012"/>
 </node>
+<node CREATED="1497802272913" ID="ID_1039290674" MODIFIED="1497802277198" TEXT="claidiere_how_2014, scott-phillips_simple_2017, sperber_defining_2008"/>
 </node>
-<node COLOR="#ff0000" CREATED="1493652975329" FOLDED="true" ID="ID_167583603" MODIFIED="1497454675046" TEXT="Stakes">
+<node COLOR="#ff0000" CREATED="1493652975329" FOLDED="true" ID="ID_167583603" MODIFIED="1497627812525" TEXT="Stakes">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493653721774" ID="ID_283410491" MODIFIED="1493654448011" TEXT="At the outset: empirically test for attractors by focusing on short utterances"/>
 <node CREATED="1494061143106" ID="ID_1104025580" MODIFIED="1494061161167" TEXT="In doing that, there is a tension between">
@@ -499,7 +502,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1497602200003" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" ID="ID_281753914" MODIFIED="1497789268290" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -572,7 +575,8 @@
 </node>
 <node CREATED="1495449517427" ID="ID_750368804" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
 <node CREATED="1495449533348" ID="ID_1201013665" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
-<node CREATED="1495449566297" ID="ID_1441313823" MODIFIED="1495451734805" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in"/>
+<node CREATED="1497789472234" ID="ID_474542405" MODIFIED="1497789525810" TEXT="The fact that there is no context, i.e. no cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
+<node CREATED="1495449566297" ID="ID_1441313823" MODIFIED="1497789424945" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in (it approximates the wear-and-tear and flop problems discussed by sterelny_cultural_2017)"/>
 <node CREATED="1495451735222" ID="ID_709154587" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
 <node CREATED="1495449712034" ID="ID_1379835206" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
 <node CREATED="1495547569285" ID="ID_874424949" MODIFIED="1495547647041" TEXT="The fact that many relults in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>

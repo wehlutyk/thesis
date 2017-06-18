@@ -63,6 +63,8 @@ Structure is what permits something to be emitted, and what results from the emi
 
 -->
 
+\add{steiner-autonomy-2009, who connects Giddens (and others) with the questions of social cognition}
+
 \add{According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach}
 
 Authors from Anthropology and Sociology have produced countless other insights about these problems;
@@ -552,6 +554,10 @@ However for the current purposes I suggest we locate both approaches with respec
   Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
   instead it adopts a relational notion of information as the co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
 
+\todo{here and in what follows (and maybe elsewhere), note that sperber-defining-2008 [READ] and claidiere-how-2014 [READ] explicitly say that representations, artefacts/behaviours, should be taken as cultural traits. But then acerbi-if-2015 proposes information as the solution to what is considered indecision in the field.}
+
+\add{talk of representations vs. its expression creates a duality analog to that of genotype and phenotype; however it's not necessary for population thinking, according to Oyama.}
+
 Notably, the stances adopted by DST put it at odds with a dual-channel account of cultural evolution.
 While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], it sees no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
 Aside from genetic material and ecological niches, developmental systems also inherit epigenetic material, behavioural patterns and communication systems [@jablonka_systems_2001] and more generally the full matrix of resources involved in the development of the system at its next life cycle.
@@ -597,6 +603,8 @@ Given this definition, a living system dies, that is loses its identity, if its 
 This value is the basis for the enactive notion of meaning, which displaces the focus on information, or content, in representationalist accounts.
 Since living systems use their environment to self-reproduce, they are continually coupled to it in order to maintain the organisation of their network of processes.
 Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment, and is an intrinsically meaning-making activity.
+
+\add{In the "relevant to language" part. Relevance Theory is not so far from this: it defines "comprehension" in terms of what is relevant to the individual: "an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect" (wilson-relevance-2004, p. 608 [READ]), so both theories are pretty competing for the same space (but starting from opposite ends). This approach and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 [READ] for discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life's organisation: sub-organism, and super-organism, such that much meaning is co-created.}
 
 The enactive approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, and can be relevant at several levels of a system's organisation.
 This notion, and the view of cognition as a *meaning-making* activity, are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
