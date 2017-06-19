@@ -460,7 +460,7 @@
 </node>
 <node CREATED="1497802272913" ID="ID_1039290674" MODIFIED="1497802277198" TEXT="claidiere_how_2014, scott-phillips_simple_2017, sperber_defining_2008"/>
 </node>
-<node COLOR="#ff0000" CREATED="1493652975329" FOLDED="true" ID="ID_167583603" MODIFIED="1497627812525" TEXT="Stakes">
+<node COLOR="#ff0000" CREATED="1493652975329" ID="ID_167583603" MODIFIED="1497876117526" TEXT="Stakes">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493653721774" ID="ID_283410491" MODIFIED="1493654448011" TEXT="At the outset: empirically test for attractors by focusing on short utterances"/>
 <node CREATED="1494061143106" ID="ID_1104025580" MODIFIED="1494061161167" TEXT="In doing that, there is a tension between">

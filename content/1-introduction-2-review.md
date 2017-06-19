@@ -127,7 +127,7 @@ The approach also has deep links with the analysis of *Niche Construction* [e.g.
 I return to this subject in more detail in @sec:intro-review-developments.
 
 
-#### Parisian
+#### Parisian {#sec:intro-review-parisian}
 
 \add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there isn't substantial disagreement with DIT, which is much less committed to EP.}
 
@@ -167,7 +167,7 @@ The most important intuition in Sperber's proposal, and what differentiates it f
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).
 Combining this view with epidemiology of representations, Sperber argues, results in a theory avoiding both the blank slate approach to psychology [@sperber_explaining_1996, p. 63-66] and a naive application of neo-darwinist formalism to the specific case of culture [@sperber_explaining_1996, p. 101], while still being able to account for the diversity of cultures [@sperber_explaining_1996, p. 120].
 This specificity of CAT is often highlighted as one of the main differences with DIT [@sterelny_cultural_2017, p. 47];
-CAT agrees nonetheless with the idea of gene-culture coevolution developed by DIT [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but have different core focuses [@sterelny_cultural_2017; @acerbi_if_2015].
+CAT is nonetheless compatible with the idea of gene-culture co-evolution developed by DIT [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but have different core focuses [@sterelny_cultural_2017; @acerbi_if_2015].
 
 The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
 \add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
@@ -175,7 +175,7 @@ The space opened by the development of DIT and CAT has generated much debate [se
 The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "informational dualism" of the notion of representation in cognitive science:
-at the concrete level, it questions whether a representiationist approach is able to naturalise meaning, a core aspect in the analysis of culture and life;
+at the concrete level, it questions whether a representationalist approach is able to naturalise meaning, a core aspect in the analysis of culture and life;
 at the programmatic level it suggests that, compared to a focus on dynamic couplings, a focus on representations in cognitive science has less heuristic value in guiding the exploration of the interactions between culture and psychology.
 Regardless of whether proponents can reconcile DIT and CAT with the second critique, I believe both approaches can benefit greatly from these debates, and that empirical study has a crucial role to play in exploring the implications of each side.
 
@@ -217,7 +217,7 @@ Third, this approach in turn leads to a crystal-clear articulation of the philos
 \add{it's not the clarity of hypotheses afforded by mathematics.}
 \add{smaldino-let-2014.}
 As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
-In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by gene-culture coevolution approaches.
+In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by such cultural evolution approaches.
 
 
 ### Neighbouring empirical areas {#sec:intro-review-neighbours}
