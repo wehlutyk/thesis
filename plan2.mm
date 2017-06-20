@@ -380,8 +380,8 @@
 <node CREATED="1497467158644" ID="ID_868556095" MODIFIED="1497619233981" TEXT="The rationale is similar to that of DST: informational dualism"/>
 <node CREATED="1497467178610" ID="ID_1259401938" MODIFIED="1497619233979" TEXT="This stuff is not directed to cultural evolution, but CAT&apos;s reliance on mental representations makes it relevant"/>
 </node>
-<node CREATED="1497371462405" FOLDED="true" ID="ID_641320715" MODIFIED="1497646386165" TEXT="Attic">
-<node CREATED="1496239254624" FOLDED="true" ID="ID_1759359357" MODIFIED="1497646385138" TEXT="What this means for the linguistic aspect">
+<node CREATED="1497371462405" FOLDED="true" ID="ID_641320715" MODIFIED="1497967061951" TEXT="Attic">
+<node CREATED="1496239254624" ID="ID_1759359357" MODIFIED="1497888431947" TEXT="What this means for the linguistic aspect">
 <node COLOR="#ff0000" CREATED="1495213590902" ID="ID_756831118" MODIFIED="1495213599957" TEXT="Add from Connectors collection"/>
 <node CREATED="1496238578537" ID="ID_1995874890" MODIFIED="1496238875796" TEXT="Cognitive Linguistics by Lakoff, or Geeraerts and Cuyckens 2007"/>
 <node CREATED="1496239324792" ID="ID_1517375086" MODIFIED="1496602497817" TEXT="Cognitive Grammar (Langacker)"/>
@@ -441,24 +441,61 @@
 </node>
 </node>
 </node>
-<node CREATED="1493651988017" ID="ID_670111761" MODIFIED="1497619263767" TEXT="Open problems">
-<node CREATED="1493653437891" ID="ID_67444389" MODIFIED="1494005892953" TEXT="Attraction (transformation) vs. Selection"/>
-<node CREATED="1493653037758" ID="ID_11239510" MODIFIED="1493656591532" TEXT="Actual attractors">
-<node CREATED="1493653058625" ID="ID_117276132" MODIFIED="1494005752710" TEXT="More case studies, more explanations of real phenomena"/>
+<node COLOR="#669900" CREATED="1493651988017" FOLDED="true" ID="ID_670111761" MODIFIED="1497981092229" TEXT="Open problems">
+<node CREATED="1493653437891" FOLDED="true" ID="ID_67444389" MODIFIED="1497967056133" TEXT="Attraction (transformation) vs. Selection">
+<node CREATED="1497966856458" ID="ID_1339193580" MODIFIED="1497966863567" TEXT="attraction and selection are complementary"/>
+<node CREATED="1497966887456" ID="ID_180157563" MODIFIED="1497966904206" TEXT="attraction is what you study when culture has low fidelity transmission"/>
+<node CREATED="1497966887456" ID="ID_74382155" MODIFIED="1497966915472" TEXT="selection is what you study when culture has high fidelity transmission"/>
+<node CREATED="1497966928216" ID="ID_899599263" MODIFIED="1497966939215" TEXT="they&apos;re not incompatible (acerbi_if_2015)"/>
+<node CREATED="1497966951006" ID="ID_281086160" MODIFIED="1497967004557" TEXT="they differ in what they seek to explain (sterelny_cultural_2017). One one side, success in spite of the opacity of the environment, on the other side, the fact that traditions exist at all"/>
+<node CREATED="1497967021300" ID="ID_1781893435" MODIFIED="1497967051970" TEXT="which is most appropriate for which domain? can they both be relevant? do they then interact?"/>
 </node>
-<node CREATED="1494005783481" ID="ID_1127444658" MODIFIED="1494005828091" TEXT="To what extent cultural evolution has driven genetic evolution (Henrich)"/>
-<node CREATED="1494005942225" ID="ID_983692105" MODIFIED="1494005973744" TEXT="The multi-scale nature of things on which selection can act (Richerson)"/>
-<node CREATED="1493653044924" ID="ID_1768318567" MODIFIED="1493653620224" TEXT="Context &amp; Niche construction">
-<node CREATED="1493997011824" ID="ID_1773507201" MODIFIED="1493999540987" TEXT="Sterelny, Fuentes, Wimsatt, see it as central"/>
-<node CREATED="1493997028487" ID="ID_188911941" MODIFIED="1494108248233" TEXT="Mesoudi et al. 2006, and Feldman, also agree, and this is a commonality with DST"/>
+<node CREATED="1497967074791" FOLDED="true" ID="ID_217000209" MODIFIED="1497979789487" TEXT="Interaction of cultural and genetic evolution">
+<node CREATED="1497967093668" ID="ID_1081529208" MODIFIED="1497967109231" TEXT="how much do they interact, and how much did cultural change drive genetic change?"/>
+<node CREATED="1497973349560" ID="ID_1888117721" MODIFIED="1497973366260" TEXT="NCT-EES have argued that it&apos;s relevant in some cases at least (dairy)"/>
+<node CREATED="1497973412873" ID="ID_1135861760" MODIFIED="1497973424740" TEXT="DST argue that it&apos;s all a developmental matrix"/>
+<node CREATED="1497973540813" ID="ID_1375482951" MODIFIED="1497973548748" TEXT="SCE broadly agree with EES"/>
+<node CREATED="1497974501943" ID="ID_507302357" MODIFIED="1497974539944" TEXT="CAT agrees generally with EES, but morin is not convinced that effect of culture on genes is a necessary explanation"/>
+<node CREATED="1497974547826" ID="ID_1159880939" MODIFIED="1497974711861" TEXT="because faithful transmission is not necessary nor sufficient for the emergence of traditions"/>
+<node CREATED="1497974582983" ID="ID_1096240471" MODIFIED="1497974600159" TEXT="the question is related to attraction vs. selection"/>
+<node CREATED="1497974677168" ID="ID_1458692496" MODIFIED="1497974706994" TEXT="but also related to the importance of the cognitive niche construction that sterelny develops"/>
+<node CREATED="1497974737286" ID="ID_938963759" MODIFIED="1497974763043" TEXT="how can that be modelled to investigate the interaction of different inheritance channels?"/>
 </node>
-<node CREATED="1493996316891" ID="ID_1483460430" MODIFIED="1493996323146" TEXT="Time, dynamicity"/>
-<node CREATED="1493995487608" ID="ID_1714015204" MODIFIED="1496646104049" TEXT="What are cultural traits, what is a representation">
-<node CREATED="1493995976899" ID="ID_537514910" MODIFIED="1493996046484" TEXT="When does a representation change, at what levels, by what interactions and at what various timescales? Concretely, is a conversation with a friend cultural evolution? Is watching TV cultural evolution? Is reading wikipedia? Is going out for a jog? Is understanding something? How do you categorize those processes? In other words, what are your items (most likely multi-scale) and what is their change flow? Those are the problems you face when making things concrete, when going into &quot;fieldwork&quot;. Because of the many levels of meaning."/>
-<node CREATED="1496646107887" ID="ID_936184294" MODIFIED="1496646108601" TEXT="obrien_cultural_2010"/>
-<node CREATED="1496646096075" ID="ID_662298902" MODIFIED="1496646097258" TEXT="ingold_toward_2012"/>
+<node CREATED="1493653037758" FOLDED="true" ID="ID_11239510" MODIFIED="1497979799171" TEXT="Empirical attractors">
+<node CREATED="1497976019197" ID="ID_1744232269" MODIFIED="1497979798351" TEXT="defining a phenomenon as qualifying as cultural attraction is not easy, because of the multi-level nature of culture and representations"/>
+<node CREATED="1497976082287" ID="ID_1525283827" MODIFIED="1497976098917" TEXT="acerbi_if_2015 note the definition of a cultural trait is not settled"/>
+<node CREATED="1497976101661" ID="ID_1350264354" MODIFIED="1497976232345" TEXT="take Cinderella for instance, it has dozens of features and any change can be meaningful: different words, concepts, setting, context"/>
+<node CREATED="1497976239517" ID="ID_1725690999" MODIFIED="1497976247469" TEXT="looking for &quot;information&quot; is no solution"/>
+<node CREATED="1497976247901" ID="ID_74218251" MODIFIED="1497976261843" TEXT="CAT recognises this, and one option is Relevance Theory"/>
+<node CREATED="1497976263705" ID="ID_1765809629" MODIFIED="1497976284054" TEXT="RT proposes an explanation for how agents select salient dimensions"/>
+<node CREATED="1497976287076" ID="ID_959634953" MODIFIED="1497976330764" TEXT="but it&apos;s still a challenge in practice, even if only distinguishing isolated importance of dimensions"/>
+<node CREATED="1497976354619" ID="ID_951188635" MODIFIED="1497976367351" TEXT="second, the scope is huge, making practical data collection challenging"/>
+<node CREATED="1497976373098" ID="ID_732230983" MODIFIED="1497976406445" TEXT="existing methods are: historical/anthropological compilation, laboratory experiment, digital trace analysis"/>
+<node CREATED="1497976418866" ID="ID_309016264" MODIFIED="1497976430020" TEXT="they&apos;re all hard, so doing more is even harder"/>
+<node CREATED="1497976431206" ID="ID_399875349" MODIFIED="1497976474082" TEXT="but combining them and pushing them further will open new questions and push theoretical issues"/>
+<node CREATED="1497976478113" ID="ID_1485065255" MODIFIED="1497976529666" TEXT="identifying an attractor also raises the question of its feedback loops (what loops does it generate, which are necessary to the emergence of the attractor)"/>
+<node CREATED="1497976545460" ID="ID_182290486" MODIFIED="1497976590205" TEXT="generally, fleshing out predictions will make evaluation of the theory more precise, and only that can tell us if it&apos;s fruitful for the study of cultural evolution"/>
 </node>
-<node CREATED="1497802272913" ID="ID_1039290674" MODIFIED="1497802277198" TEXT="claidiere_how_2014, scott-phillips_simple_2017, sperber_defining_2008"/>
+<node CREATED="1497976596216" FOLDED="true" ID="ID_1708030338" MODIFIED="1497981027211" TEXT="Framework versus formal theory contrasted with alternatives">
+<node CREATED="1497979754425" ID="ID_1090282594" MODIFIED="1497979762050" TEXT="sperber says CAT should not be a GUT"/>
+<node CREATED="1497979767710" ID="ID_291603720" MODIFIED="1497979813184" TEXT="it makes sense given the diversity of phenomena to explain, and the multi-level aspect of representations"/>
+<node CREATED="1497979819092" ID="ID_768884926" MODIFIED="1497979832038" TEXT="instead it proposes a framework to generate questions"/>
+<node CREATED="1497979833280" ID="ID_1438534279" MODIFIED="1497979849578" TEXT="still, there are two fundamentals that provide unity"/>
+<node CREATED="1497979888770" ID="ID_1777149570" MODIFIED="1497979905678" TEXT="first, a clear ontology: mental and public representations"/>
+<node CREATED="1497979906260" ID="ID_178416749" MODIFIED="1497979923024" TEXT="second, the idea that cultural transmission rests on ostensive communication"/>
+<node CREATED="1497979932779" ID="ID_3872682" MODIFIED="1497979945885" TEXT="Relevance Theory is a candidate to explain the details of that process"/>
+<node CREATED="1497979957498" ID="ID_1269045680" MODIFIED="1497980057260" TEXT="given those two points, what is preventing more modelling &#xe0; la Boyd &amp; Richerson? sterelny_cultural_2017 notes it&apos;s missing"/>
+<node CREATED="1497980368440" ID="ID_1004480710" MODIFIED="1497980381412" TEXT="the challenge is formalising representations and their context"/>
+<node CREATED="1497980388150" ID="ID_1756439688" MODIFIED="1497980579016" TEXT="it&apos;s not a necessary level of detail (claidiere_role_2007 and claidiere_how_2014 do higher level models)"/>
+<node CREATED="1497980582849" ID="ID_1958798601" MODIFIED="1497980625810" TEXT="but to get the full gamut of CAT, you must model representations and their transformations, since that&apos;s is core point"/>
+<node CREATED="1497980648384" ID="ID_1112591412" MODIFIED="1497980667371" TEXT="SCE doesn&apos;t need that, can obviate the nature of a cultural trait, and look at spread"/>
+<node CREATED="1497980681478" ID="ID_949165550" MODIFIED="1497980713702" TEXT="In CAT, you need more detail, to account for attraction-specific effects, and be general at the same time"/>
+<node CREATED="1497980731457" ID="ID_599512767" MODIFIED="1497980770026" TEXT="claidiere_role_2007 and claidiere_how_2014 did the first steps with discrete or one-dimensional continuous representations, showing attraction-specific effects"/>
+<node CREATED="1497980770521" ID="ID_679946597" MODIFIED="1497980783086" TEXT="the next step will probably involve something like RT"/>
+<node CREATED="1497980789252" ID="ID_881863825" MODIFIED="1497980816371" TEXT="it&apos;s ambitious, but would create a clear playing field to confront approaches"/>
+<node CREATED="1497980823274" ID="ID_1531940920" MODIFIED="1497980948438" TEXT="RT could indeed be replaced with an enactive account of interactions, as it also doscribes how people make sense of their world"/>
+<node CREATED="1497980964852" ID="ID_1016340662" MODIFIED="1497981008570" TEXT="So modelling in CAT can has not been pushed to its limits (for good reasons), but if it were successful it would mean real confrontation of real competitors"/>
+</node>
 </node>
 <node COLOR="#ff0000" CREATED="1493652975329" ID="ID_167583603" MODIFIED="1497876117526" TEXT="Stakes">
 <font NAME="SansSerif" SIZE="12"/>
