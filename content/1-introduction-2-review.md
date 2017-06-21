@@ -167,18 +167,18 @@ As such, a central goal in the CAT research stream has been to identify existing
 The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of psychology for the evolution of culture [@sperber_explaining_1996, p. 31] and its role in the emergence of attractors.
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).
 Combining this view with epidemiology of representations, Sperber argues, results in a theory avoiding both the blank slate approach to psychology [@sperber_explaining_1996, p. 63-66] and a naive application of neo-darwinist formalism to the specific case of culture [@sperber_explaining_1996, p. 101], while still being able to account for the diversity of cultures [@sperber_explaining_1996, p. 120].
-This specificity of CAT is often highlighted as one of the main differences with DIT [@sterelny_cultural_2017, p. 47];
-CAT is nonetheless compatible with the idea of gene-culture co-evolution developed by DIT [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but have different core focuses [@sterelny_cultural_2017; @acerbi_if_2015].
+This specificity of CAT is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47];
+CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but focus on slightly different questions [@sterelny_cultural_2017; @acerbi_if_2015].
 
-The space opened by the development of DIT and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; @mesoudi_science_2007].
+The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007].
 \add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
 [@Sec:intro-review-developments;@sec:intro-review-criticisms] come back to these debates and criticisms, which I group into two broad categories.
-The first concerns the specifics of the evolutionary approach adopted by DIT and CAT:
+The first concerns the specifics of the evolutionary approach adopted by SCE and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "informational dualism" of the notion of representation in cognitive science:
-at the concrete level, it questions whether a representationalist approach is able to naturalise meaning, a core aspect in the analysis of culture and life;
-at the programmatic level it suggests that, compared to a focus on dynamic couplings, a focus on representations in cognitive science has less heuristic value in guiding the exploration of the interactions between culture and psychology.
-Regardless of whether proponents can reconcile DIT and CAT with the second critique, I believe both approaches can benefit greatly from these debates, and that empirical study has a crucial role to play in exploring the implications of each side.
+at the concrete level, it questions whether a representationalist approach can naturalise meaning, a core aspect in the analysis of culture and life;
+at the programmatic level it suggests that, compared to the focus on dynamic couplings that Thompson and his colleagues develop under the "enactive approach" banner, a focus on representations in cognitive science has less heuristic value in guiding the exploration of the interactions between culture and psychology.
+Regardless of whether proponents can reconcile SCE and CAT with the second critique, I believe both approaches can benefit greatly from these debates, and that empirical study has a crucial role to play in exploring the implications of each side.
 
 The empirical exploration of CAT has proven a difficult task, for two main reasons.
 First, Sperber clarifies that CAT is not, and should not be, a "grand unitary theory":
@@ -190,35 +190,43 @@ Indeed, CAT accomplishes this:
 > "What the epidemiological analogy suggests is a general approach, types of questions to ask, ways of constructing concepts, and a plurality of not too grand theoretical aims." [@sperber_explaining_1996, p. 61]
 
 As a consequence, testing CAT means evaluating the fruitfulness of its paradigm.
-No one study, or collection of studies for that matter, will reach a yes/no answer to the validity of CAT.
+No single study, or collection of studies for that matter, will reach a yes or no answer to the validity of CAT.
 But we can reach a collective consensus about the usefulness of approaching the psychology-culture link with the tools and questions developed by that theory.
 
 As the name CAT indicates, an important part of that toolbox is the notion of cultural attractor, which is amenable to empirical study:
-the presence of a well-defined attractor in a given situation is a testable hypothesis, and approaching concrete domains from that angle can be more or less fruitful in inspiring studies and questions.
-Now quantitative data on out-of-laboratory cultural artefacts is not easy to collect, which is the second reason empirical exploration is a challenge.
-Although theoretical models to guide that exploration are gradually appearing [@claidiere_role_2007; @claidiere_how_2014], developing methods for the quantitative study of attractors is still an open problem.
-Studies that can be explicitly linked to CAT involve an array of methods.
-The meta-analysis of large numbers of anthropological or historical works has shown interesting results.
-@morin_how_2013, for instance, shows how painted portraits change over the centuries to increasingly use direct-gaze (vs. oblique) portraying.
-@miton_universal_2015 also used this technique to explain the historical success of the bloodletting practice, in spite of its medical ineffectiveness.
-@baumard_increased_2015 fruitfully exploited similar records to tie the evolution of religious values to the affluence of societies in which they develop.
-Morin and Miton (EHBEA 2017? \cn) model the evolution of heraldic coats of arms to test which hypotheses account best for the distribution of patterns and colours through time.
-A second approach simulates rapid evolution of content in artificial spread and transmission experiments.
-@claidiere_cultural_2014 explored the evolution of abstract visual patterns transmitted by apes;
-@claidiere_argumentation_2017 also investigated the effect of argumentation on the transmission of solutions to simple but counter-intuitive reasoning problems.
-\add{baumard-mutualistic-2013.}
-A large number of other disciplines are developing diverse methods to study questions relevant to CAT and DIT.
-I review these in greater detail in @sec:intro-review-neighbours.
+the presence or absence of a well-defined attractor in a given situation can be turned into a testable hypothesis.
+In addition at the meta-analytical level, one can readily evaluate the usefulness of a cultural attraction approach in concrete domains, by analysing whether or not the questions it encourages result in fruitful studies, on average, for that domain.
+So while testing CAT empirically is not a simple matter of yes or no, the theory provides a clear set of tools and lines of thought that are well worth evaluating in a wider, programmatic appraisal.
 
-While authors have acknowledged there is no core incompatibility between CAT and DIT [@acerbi_if_2015; @sterelny_cultural_2017] and a growing number of social scientists is discussing both approaches [see again the comments to @mesoudi_towards_2006; also @slingerland_what_2008], the work I present in this thesis is mainly focused on CAT itself, and less so DIT.
-While the prevalence of the theory in the French academic landscape naturally had an impact on this choice, CAT is also interesting to focus on for more valuable reasons.
-First, it puts cognitive science squarely in the middle of the problem, a focus I believe to be unavoidable.
-Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely continue developing), but to interest all disciplines studying human life in a common framework, by using *principled philosophical arguments*.
-Third, this approach in turn leads to a crystal-clear articulation of the philosophical principles defended, discussed, or tested by the theory.
-\add{it's not the clarity of hypotheses afforded by mathematics.}
+The second challenge to empirical exploration resides in the fact that quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
+Although theoretical models to guide that exploration are gradually appearing [@claidiere_role_2007; @claidiere_how_2014], developing methods for the quantitative study of attractors is still an open problem.
+The literature on CAT shows at least two important methods that have been used up to now.
+First, the meta-analysis of large numbers of anthropological or historical works, which has uncovered several relevant effects.
+The way portraits are painted over the centuries, for instance, has been show to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
+@miton_universal_2015 also used this technique to propose an explanation for the historical stability of the bloodletting practice, in spite of its medical ineffectiveness.
+Exploiting similar records, @baumard_increased_2015 showed a link between the evolution of religious values and the affluence of societies in which they develop.
+Morin and Miton (EHBEA 2017? \cn), using the same approach, model the evolution of heraldic coats of arms to test which hypotheses account best for the distribution of patterns and colours through time.
+
+A second approach is to reproduce the evolution of content with human or animal participants in the laboratory, where subjects repeatedly transmit or interact around pieces of content initially chosen by the experimenters.
+The resulting data is an approximation of the rapid evolution of artefacts in real life, yet in a controlled situation that can then be statistically analysed with access to all the parameters.
+This technique has been used in studies ranging from the evolution of visual patterns transmitted in a group of apes [@claidiere_cultural_2014], to the role of argumentation in the transmission of solutions to simple but counter-intuitive reasoning problems [@claidiere_argumentation_2017].
+\add{baumard-mutualistic-2013.}
+A number of other disciplines have developed methods that can be relevant to the study of CAT and SCE, and I review these in @sec:intro-review-neighbours.
+
+While authors have acknowledged that there is no core incompatibility between CAT and SCE [@acerbi_if_2015; @sterelny_cultural_2017] and a growing number of social scientists is discussing both approaches positively [see the comments to @mesoudi_towards_2006; and @slingerland_what_2008], the work I present in this thesis is mainly focused on CAT itself, and less so SCE.
+While the prevalence of the cultural attraction approach in the French academic landscape naturally had an impact on this choice, I see three other arguments for focusing on CAT.
+First, it puts cognitive science squarely in the middle of the problem because of the importance of psychology for the study culture.
+I admit to sharing that opinion (and given current evidence, it is not more than an opinion).
+Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely flourish in due time), but to interest all disciplines studying human life in a common framework by using *principled philosophical arguments*.
+Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.^[
+  In the words of Tim Ingold, an outspoken critic of both CAT and SCE:
+  > [Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions.
+  > [ingold_transmission_2001, p. 113]
+
+]
 \add{smaldino-let-2014.}
-As such, it seems to me that CAT is in a good position to generate productive debate between alternative approaches which, for now, are still competing on the principled level (such as those discussed in @sec:intro-review-criticisms). \add{in particular social anthropology.}
-In particular, the challenges that arise when attempting to study CAT experimentally, as is the case here for linguistic utterances, will prove helpful in developing a path to the resolution of the critiques faced by such cultural evolution approaches.
+As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as the propositions coming from social anthropology, and those discussed in @sec:intro-review-criticisms) which, at the moment, are still competing on the principled level.
+In particular, the challenges that arise when attempting to study CAT experimentally, as will be the case here for linguistic utterances, should prove helpful in developing a path to the resolution of the critiques faced by both CAT and SCE.
 
 
 ### Neighbouring empirical areas {#sec:intro-review-neighbours}
