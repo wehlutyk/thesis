@@ -19,7 +19,7 @@ But as those works also acknowledged, such a question raises issues in need of p
 what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
 Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
 
-@mauss_les_1936 initiated one approach to that issue, in his studies of the ways in which people of different societies, throughout history, use their bodies differently.
+@mauss_les_1936 represents one approach to that issue, in his studies of the ways in which people of different societies, throughout history, use their bodies differently.
 He noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different communities adopt, pass on to their offspring, and evolve through time.
 His endeavour focused precisely on describing (parts of) culture as an embodied and physical property of life, incorporated through the everyday practices of a community, into which children grow by imitation, teaching, or other kinds of learning.
 In this sense, he argued, there is no normal way of walking, there are only *ways* of walking:
@@ -36,9 +36,9 @@ According to him, norms become embedded in the fullest sense, through life, into
 Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction, building on the idea that members of a society grow into a *habitus* leading them to perceive events in ways that reinforce existing power structures.
 
 Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
-Another prominent approach, the *Theory of Structuration* from @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
+Another prominent approach, the *Theory of Structuration* developed by @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
 Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
-on one side, action arises by using existing structured resources, and its reliance on, or referring to, such structure is what makes it action (vs. noise);
+on one side, action arises by using existing structured resources, and its reliance structure, or referring to it, is what makes it action and not noise;
 on the other side, the production of action is a new reinforcement of the structure on which it relies.
 This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
 on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
@@ -67,8 +67,8 @@ Structure is what permits something to be emitted, and what results from the emi
 
 \add{According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach}
 
-Authors from Anthropology and Sociology have produced countless other insights about these problems;
-the miniature sample I exposed here represents the works which have most influenced the initial questions of this thesis.
+Anthropology and Sociology have produced much work about these problems;
+the sample I exposed here represents the works which have most influenced the initial questions of this thesis.
 Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
 This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
 I will come back to this line of work in @sec:intro-review-criticisms, and discuss it in more detail in @sec:discussion.
@@ -117,10 +117,11 @@ Inspired by the same initial analogy as darwinist authors from 20th century trad
 #### Californian
 
 @cavalli-sforza_cultural_1981 articulated this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
-Indeed [and following the synthesis provided by @lewontin_cultural_1982], the combination of (a) any transmission process leading to some nonrandom dependence of offspring phenotype on parent phenotype, (b) at least some variation of the phenotypes (against which to select), and (c) some differential survival and spread depending on phenotype, will lead to evolution by natural selection.
+Indeed, following the synthesis provided by @lewontin_cultural_1982:
+for any type of item, the combination of (a) a transmission process leading to nonrandom dependence of subsequent instances on preceding instances (e.g. offspring and parent phenotype), (b) at least some variation of the properties of items (against which to select), and (c) some level of differential survival and spread depending on those properties, will lead to evolution by natural selection.
 By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
-vertical (from parent to offspring), oblique (from a non-parent member of the previous generation, to member of the next generation), or horizontal (inside one generation).
-@boyd_culture_1985 [see also @boyd_origin_2005] further developed this line, leading to the formulation of *Dual Inheritance Theory* (or DIT) which offers a systematic analysis of some interactions between cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent studies].
+vertical (from parent to offspring), oblique (from a non-parent member of the previous generation, to member of the next generation), horizontal (inside one generation), or any combination thereof.
+@boyd_culture_1985 [-@boyd_origin_2005] further developed this line, leading to the formulation of *Standard Cultural Evolution* (hereafter SCE) which offers a systematic analysis of part of the interactions between cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent studies].
 A notable feature of this programme is that it does not constrain itself into a particular view of what culture is.
 While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from @sec:intro-review-social), the mathematical models do not constrain the concept of culture as much.
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
@@ -129,25 +130,25 @@ I return to this subject in more detail in @sec:intro-review-developments.
 
 #### Parisian {#sec:intro-review-parisian}
 
-\add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there isn't substantial disagreement with DIT, which is much less committed to EP.}
+\add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there is no substantial disagreement with SCE, which is much less committed to EP.}
 
 \add{Talk about Mesoudi 2011?}
 
 In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
-in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, or CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
-One of the guiding questions of Sperber's work is the following: how can we explain both the diversity culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
-In developing an answer, Sperber commits himself to presenting a coherent ontology where the status of each object he refers to is well defined.
+in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, hereafter noted CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
+One of the guiding questions of Sperber's work is the following: how can we explain both the diversity of culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
+In developing an answer, Sperber commits himself to presenting a coherent ontology where the status of each object he refers to is well defined, while at the same time connecting with the many ontologies he identifies in anthropology.
 
 The framework he suggests then starts from an ontology made of "mental representations", which correspond to those defined and studied by classical cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, etc..
 New mental representations are constantly formed in people's minds whenever they perceive or interpret public representations.
 For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
 Most of the time, the new representation in that person's head is different from my original representation.
-This last point is a defining feature of what Sperber proposes, in contrast to memetics of course, but also to DIT, outlined above [@sperber_explaining_1996, p. 25-26, 31].
+This last point is a defining feature of the theory Sperber proposes, in contrast to not only memetics, but also to SCE as outlined above [@sperber_explaining_1996, p. 25-26, 31].
 
 On this basis, Sperber proposes to model human societies as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions (in which mental representations play a role).
 To explain culture then, in this framework, is to analyse the processes by which representations circulate through a society, with different levels of change along the way.
-Those processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same mental representations of cognitive science.
+Those processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same notion of mental representations from cognitive science.
 
 By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
 In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles.
@@ -159,9 +160,9 @@ Such representations, spreading wider than others, become *cultural representati
 
 Why are those representations so stable, and how do they evolve?
 Sperber introduces an additional concept to analyse this evolution:
-the dynamical system which represents a society exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
+the dynamical system of representations which models a society's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
 Cultural attractors are one of the core concepts in CAT providing intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
-As such, a key goal in the CAT research stream has been that of identifying existing attractors, and explaining their emergence based on the psychological and ecological factors that create them.
+As such, a central goal in the CAT research stream has been to identify existing attractors, and explain their emergence based on the interaction of psychological and ecological factors.
 
 The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of psychology for the evolution of culture [@sperber_explaining_1996, p. 31] and its role in the emergence of attractors.
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).

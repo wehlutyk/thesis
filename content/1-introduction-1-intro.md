@@ -2,9 +2,9 @@
 
 \todo{This might be too high-level, so make it more focused}
 
-Current scientific knowledge describes the extraordinary complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
+Current scientific knowledge describes the complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
 Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
-But a strong diversity also begs for questions: how can we bring together programmes which, at times, seem to talk past one another in spite of taking humanity as the same core object?
+But diversity also begs for questions: how can we bring together programmes which, at times, seem to talk past one another in spite of taking humanity as the same core object?
 Do different programmes always correspond to different explanatory levels, or should we rather combine them as interlocking aspects of the same unique level?
 Which of those programmes build on incompatible ontologies or world views, making their perspectives on life irreconcilable?
 These questions have interested a great number of researchers throughout the 20th century and up to now.
