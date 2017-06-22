@@ -231,41 +231,57 @@ In particular, the challenges that arise when attempting to study CAT experiment
 
 ### Neighbouring empirical areas {#sec:intro-review-neighbours}
 
-A great number of disciplines and domains have developed interest in and contributed empirical studies to CAT.
-Simulation and experimental studies of the evolution of morality [@baumard_mutualistic_2013], religion [@boyer_religion_2001], or reasoning [@claidiere_argumentation_2017; @mercier_why_2011] have used the theory, as well as studies on the emergence and evolution of language, or online content through digital media.
-Those last two areas are the most relevant to the evolution of linguistic material, asking what kinds of factors can influence the evolution of content in a given domain, when do the changes build up cumulatively, or what role such accumulation plays in the long term evolution.
-These studies use the serial reproduction paradigm and its derivatives extensively.
+A number of adjacent disciplines have developed interest in and contributed to CAT.
+Simulations and experimental studies of the evolution of morality [@baumard_mutualistic_2013], religion [@boyer_religion_2001], or reasoning [@claidiere_argumentation_2017; @mercier_why_2011] have applied the theory;
+studies on the evolution of language, and of online content through digital media, are also part of this cluster.
+The latter two areas are particularly relevant for applying CAT to the evolution of linguistic material, as they have already explored factors in this process for a variety of domains, as well as conditions under which gradual changes can build up cumulatively, and the role that such accumulation plays in long term evolution.
+Essential to these studies are the serial reproduction paradigm and its derivatives, better known today as transmission chains and micro-societies, which have all been used extensively in recent works.
 
 
-#### Bartlett's paradigm
+#### The versatile serial reproduction paradigm
 
-The paradigm was initially introduced by @bartlett_remembering:_1995 as a variation of the repeated reproduction method (where each participant must recall the same item after increasing periods of time):
-similar to a game of Chinese Whispers, the experimenter gives a first participant initial material (typically a picture or a short piece of text) with instructions to read or memorise it;
+The serial reproduction paradigm was first applied in a series of influential studies on memorisation and recall by @bartlett_remembering:_1995, who was experimenting with ways of reproducing the evolution of content through its iterated production by and transmission to different people, under somewhat more controlled conditions than what can be achieved in field work.
+The paradigm was only one among several other techniques introduced by Bartlett, but it came to have a lasting impact on later studies linking memory to culture.
+Similar to a game of Chinese Whispers, people participate in a chain along which content is transmitted;
+the experimenter gives a first participant initial material, typically a picture or a short piece of text, with instructions to read or memorise it;
 that participant is later asked to recall or reproduce the material, and the experimenter uses their output as input for the next participant, thus constructing a chain of successive memorisation (or perception) and recollection (or reproduction) of the initial material.
-Important independent variables that may vary include the chain structure (e.g. the number and sources of preceding recollections a participant is exposed to), the reading or memorising instructions and context, the interval between exposition and recall, the possible task given during that interval (or, conversely, a possible overlap of exposition and recall, turning the task into copying), the recall instructions and context, the ordering and organisation of participants in the chain, or the ordering of the content itself in the chain (e.g. is a given participant exposed to material from a single generation of from random generations).
-Typical studies will then analyse the trends in the transformations that occurred, possibly comparing across different chains;
-if, as is often the case, the content itself is too complex to analyse systematically, studies often opt to contrast a simple measure (such as rate of change) for two different populations, two conditions in the independent variables mentioned above, or two minimally different types of content.
-The method is the simplest instantiation of the causal chains of public representation to mental representation to public representation (and so on) described by @sperber_explaining_1996 [p. 99], and has thus garnered much attention in the literature related to CAT.
+Participants may or may not know that they are part of a chain.
+The setup approximates the transmission and change process that happens in everyday life, and while it is quite idealised and imperfect it allows experimenters to explore effects of different factors on the process, and examine the evolution of the artefacts produced as a trace or signal of the overall phenomenon at work.
 
-Earlier work, contemporary to Bartlett, already contributed much to the question.
-@maxwell_remembering_1936 contrasted the evolution of a story containing deliberate inconsistencies in groups of different social status and age such as soldiers, priests, educated men or women, students, or boy scouts.
+Important independent variables that may vary include the chain structure (e.g. the number and sources of preceding recollections a participant is exposed to), the reading or memorising instructions and context, the interval between exposition and recall, the possible task given during that interval (or, conversely, a possible overlap of exposition and recall, turning the task into copying, or online interaction between participants), the recall instructions and context, the ordering and organisation of participants in the chain, or the ordering of the content itself in the chain (e.g. is a given participant exposed to material from a single generation all in one go, or to material successively sampled from random generations).
+Typical studies will then analyse the trends in the transformation of artefacts that were produced, possibly comparing the behaviour across different chains.
+When faced with the complexities of quantitatively analysing the content itself, studies often opt to contrast a simpler measure (such as rate of change) across two different populations, two conditions in the independent variables mentioned above, or two minimally different types of content.
+In CAT parlance, this method corresponds to the simplest instantiation of the causal chains of public representation to mental representation to public representation (and so on) described by @sperber_explaining_1996 [p. 99], and has thus garnered much attention in the literature related to cultural attraction.
+
+Early work contemporary to Bartlett's applied the technique in a variety of settings.
+A first stream of research explored ways in which verbal memory and social or cultural background can interact.
+@maxwell_remembering_1936, for instance, contrasted the evolution of a story containing deliberate inconsistencies in groups of different social status and age such as soldiers, priests, educated men or women, students, or boy scouts.
 He found indications that different groups shortened the story at different rates, and conserved or transformed different pieces of the initial story.
-@northway_influence_1936 also contrasted the conservation of story parts across groups of children from schools with different social backgrounds, relating the proportion of good recollections of a given item to the everyday activities of the children, or the types of transformations (addition, recasting, modification) to the different age groups, or to the diversity of backgrounds in a given group.
-@ward_experiment_1949 later related a record of European coin types from 4th to 1st century B.C. to the trends obtained by Bartlett in serial reproduction of pictures, confirming that what Bartlett called "representative detached details", that is parts of a picture that represent a distinctive pattern or object even when isolated from the whole, are well preserved both in artificial and historical serial reproductions.
-Ward thus suggests that comparing historical data to results of serial reproduction experiments can sometimes be a useful method to investigate the influence of universal-psychological versus local-cultural factors in theories of historical evolution of artefacts.
+@northway_influence_1936 also contrasted the conservation of story parts across groups of children from schools with different social backgrounds, relating the proportion of good recollections of a given item to the everyday activities of the children, or the types of transformations (addition, recasting, modification) to the different age groups and to the diversity of backgrounds in a given group.
+A later stream of research focused more on pictorial content, such as @ward_experiment_1949 who related a record of European coin types from 4th to 1st century B.C. to the trends obtained by Bartlett in serial reproduction of pictures.
+He confirmed that what Bartlett called "representative detached details", that is parts of a picture that represent a distinctive pattern or object even when isolated from the whole, are well preserved both in artificial and historical serial reproductions.
+Ward thus suggested that comparing historical data to results of serial reproduction experiments can be a useful method to investigate the influence of universal-psychological versus local-cultural factors in theories of historical evolution of artefacts.
 @hall_effect_1950 further explored hypotheses made by Bartlett on the effect of titles for pictorial and verbal serial reproduction:
 in those new experiments, it appeared that titles had a considerable influence on the reproduction of both pictures and texts, by acting as an interpretive frame that guides (or confuses) the participants in interpreting the material.^[
-  Hall also notes that such results have crucial political implications given the development mass media: "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered." [@hall_effect_1950, p. 120]
+  Hall, noting that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120], later reflects on the fact that such results have crucial political implications given the development of mass media.
 ]
-@gauld_experiments_1967, while still praising Bartlett for the progress his work represented compared to that of his predecessors, expressed a more critical stance on the reliability of serial reproductions experiments.
-Indeed the authors showed that changing the exposition instructions, for instance by giving strict memorisation instructions, or by adding a simple sentence asking participants to be "accurate", will considerably reduce the transformation rate in the resulting chains, a fact that questions the effect measured by a setup without explicit memorisation instructions.
-They also examined the level of conscientiousness of the participants in accomplishing their task, showing that it correlated negatively to the participants' transformation rate, thus suggesting that "errors could, it seemed, be avoided, if the subject was so inclined" [-@gauld_experiments_1967, p. 45] (this effect was not explained away by a measure of intelligence of participants), an issue that should be solvable by designing experiments that create an intrinsic motivation for participants to adopt the behaviour under study.
-More recently, @kashima_recovering_2000 offered a reappraisal of Bartlett's contributions and his view of the interaction of culture and psychology, in the context of current social psychology and in relation to views of culture from social science such as those evoked in @sec:intro-review-social.
-One recurrent problem, found across most of these studies, is the difficulty in quantitatively analysing meaning in the material [see the focus of @northway_influence_1936 on meaningfulness; @hall_effect_1950, p. 120; @gauld_experiments_1967, p. 42].
-Instead, studies recur to analyses of form, survival, or other measurable aspects of the participants' productions (e.g. for linguistic material, the length of a recollection, the number of words, concepts, or propositions accurately recalled, or a contrast of the concepts conserved at the end of the chains).
-This challenge still exists today, and current studies using meaningful material use the same fundamental techniques to get by (indeed, the studies presented here are no exception).
-While much progress can be made by using these workarounds to quantifying aspects of the material, or by focusing on artefacts bearing no more semantic information than their physical appearance already display, it seems a consensual account of meaning, and a corresponding means of analysis, will be necessary for a full-fledged theory of cultural change to establish itself.
-\change{should this last sentence go later?}
+More recently the reliability of Bartlett's studies has been discussed, shifting the focus towards a better control of experimental conditions:
+@gauld_experiments_1967, while still praising Bartlett for the progress that his work represented compared to that of his predecessors, showed that changing the exposition instructions, for instance by giving strict memorisation instructions, or by adding a simple sentence asking participants to be "accurate", would considerably reduce the transformation rate in the resulting chains, a fact that should question the effects measured by a setup that lacks explicit memorisation instructions.
+The authors also examined the level of conscientiousness of participants in accomplishing their task, showing that the measure correlated negatively to the participants' transformation rate.
+Noting that the effect was not explained away by a measure of intelligence of participants, they finally suggested that "errors could, it seemed, be avoided, if the subject was so inclined" [-@gauld_experiments_1967, p. 45].
+Today, one overcomes such an issue by designing experiments that create an intrinsic motivation for participants to adopt the behaviour under study [see @claidiere_argumentation_2017 for an example].
+In contemporary work, @kashima_recovering_2000 offered a reappraisal of the social aspect of Bartlett's contributions.
+Kashima argues that while Bartlett's legacy is mostly seen in psychological studies that adopt methodological individualism, Bartlett fiercely opposed that approach;
+indeed, his view of the interaction of culture and psychology had much in common with views from social science such as those evoked in @sec:intro-review-social, and with today's social psychology view of a deeper integration between culture and biology.
+
+One recurrent problem, found across most of the above studies, is the difficulty of quantitatively analysing meaning in the material transmitted along chains.
+@northway_influence_1936, through her focus on meaningfulness, @hall_effect_1950 [p. 120] and @gauld_experiments_1967 [p. 42] all indicate that analysing content itself is a laudable but yet unreachable goal.
+In facing that difficulty, studies recur to analyses of form, survival, or other measurable aspects of the participants' productions.
+For linguistic material for instance:
+the length of a recollection, the number of words, concepts, or propositions accurately recalled, or a contrast of the concepts conserved at the end of the chains.
+Today the problem remains, and contemporary studies of meaningful material use the same techniques to index or approximate changes in the content of artefacts produced (indeed, the work presented in this thesis will be no exception).
+While much progress can be made by using these approaches to quantifying aspects of the material, or by instead focusing on artefacts that bear no content, it seems a consensual account of meaning, and a corresponding means of analysis, will be necessary for a full-fledged theory of cultural change to establish itself.
+I will return to this issue in @sec:intro-problems.
 
 
 #### Contemporary revival
