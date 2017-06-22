@@ -1,5 +1,7 @@
 # Introduction
 
+\cam{This is an example comment from Camille}
+
 \todo{This might be too high-level, so make it more focused. Also add an early hint of what I'll do, which is not that broad. Remember to start easy (but rich) before going to more complex things.}
 
 Current scientific knowledge describes the complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
