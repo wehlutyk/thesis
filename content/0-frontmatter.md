@@ -58,7 +58,7 @@ header-includes:
   # Scale svg figures
   - \usepackage{calc}
   # Brains Copy Paste images
-  - \graphicspath{{images/brainscopypaste/}}
+  #- \graphicspath{{images/brainscopypaste/}}
   # Brains Copy Paste start/arrival words
   - \newcommand{\warrival}{w'}
   - \newcommand{\wstart}{w}
