@@ -286,39 +286,39 @@ I will return to this issue in @sec:intro-problems.
 
 #### Contemporary revival
 
-Probably owing to the development of DIT and CAT, the last two decades have seen a regain of interest for this setup (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in the development of new case studies and methodologies.
-Regarding the transformation that material undergoes, @bangerter_transformation_2000 showed for instance that in transmitting a scientifically styled account of human sexual reproduction, participants tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
-@mesoudi_hierarchical_2004 argued that the loss of detail observed in the transmission of reports of everyday events is due to a hierarchical encoding of memories, biasing participants' recollections in favour of higher-level descriptions.
-Another line of research focuses on the effect of information being more or less counter-intuitive, a contrast that can help test the Minimal Counter-Intuitiveness theory of religion [@boyer_religion_2001].
-Studies such as @barrett_spreading_2001 and @norenzayan_memory_2006 have thus devised linguistic material with varying degrees of counter-intuitiveness, and measured their differential transformation or conservation in transmission chain setups.
-@purzycki_mci_2016 offers a valuable critical discussion of these works.
-Other studies have focused on similar transmission advantages that certain types of information can have over competing types.
-@kashima_maintaining_2000, for instance, studied the fate of stereotype-consistent and stereotype-inconsistent information in a story, highlighting a higher degradation rate of stereotype-inconsistent information, compared to stereotype-consistent, when that information is relevant to the story plot;
-notably, the effect is not present in background information irrelevant to the plot.
-@heath_emotional_2001 showed an effect of disgust increasing their participants' willingness to pass on pieces of information.
-@mesoudi_bias_2006 elicited an effect of social information, in which stories about human interactions are better transmitted than individual human stories, or stories involving physical nonhuman elements alone.
+Owing to the development of SCE and CAT, the last two decades have seen a regain of interest for the serial reproduction paradigm (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in the development of new case studies and methodologies.
+A number of effects have been catalogued by recent works.
+@bangerter_transformation_2000, for instance, showed that in transmitting a scientifically styled account of human sexual reproduction, participants tended to personify ovum and sperm, and attribute stereotypical gender roles to them.
+@mesoudi_hierarchical_2004 have argued that the loss of detail that is repeatedly observed in transmission chains, and in particular in the transmission of reports of everyday events, is due to a hierarchical encoding of memories that biases participants' recollections in favour of higher-level descriptions.
+Works studying the evolution of religion have focused on the effect of counter-intuitive information:
+by studying transmission chains of stories made of elements with varying degrees of counter-intuitiveness, @barrett_spreading_2001 and @norenzayan_memory_2006 observed a conservation advantage for minimally counter-intuitive elements which supports the eponymous Minimal Counter-Intuitiveness account of religion [@boyer_religion_2001; and see @purzycki_mci_2016 for a critical discussion].
+Other similar transmission advantages have been identified in relation to stereotypes:
+for instance, elements of a story that are consistent with gender stereotypes are less degraded than elements that are inconsistent with such stereotypes, but only when relevant to the story plot [@kashima_maintaining_2000];
+stories made of social information, that is featuring human interactions and plots, are also better transmitted than stories involving non-interacting people or than stories about physical nonhuman elements alone [@mesoudi_bias_2006].
 The extensive reviews provided by @mesoudi_multiple_2008 and @whiten_cultural_2016 give a broader idea of the effects studied and methods used in the literature.
 
 \add{bebbington-sky-2017, stubbersfield-serial-2015}
 
-A more recent stream of research includes more explicit work on the individual steps and details of transmission chains.
-@eriksson_advantage_2012, for instance, showed that a setup with two parallel chains that cross-fertilise each other will improve transmission rates:
-at each generation, the two participants of the two parallel chains receive two inputs, one from each chain at the previous generation, leading to a decrease in information loss compared to a single chain where participants read twice the same content (of the previous generation).
-@acerbi_role_2016 further modelled such error-correcting redundancy, simulating toy scenarios that could favour its evolution at given cost-reward constraints.
-@eriksson_corpses_2014 continued this detailing endeavour by further breaking down real world transmission into choose-to-receive, encode-and-retrieve, and choose-to-transmit phases;
-focusing on emotional selection as studied by @heath_emotional_2001, they showed that any of those phases can be the target of selection pressure, further noticing that such pressures could be contradictory and could thus considerably complicate the simple picture used up to then.
-\add{acerbi-cultural-2016 argues that this is useful for digital media, as in that case encode-and-retrieve may be shunted by copy-paste.}
-@moussaid_amplification_2015, in studying the transmission of risk perception, used a much more free-form setup:
-after the first participant of a chain had read initial documents, later participants were left to talk freely in successive dyads, leaving open the interaction and underlying transmission of information.
-A analogous change of setup was operated by @caldwell_studying_2008 and @caldwell_experimental_2008 who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes (evaluated by their height or flight distance).
-A crucial point in those setups, @sterelny_cultural_2017 [n. 12] notes, is that participants could observe the preceding generation during their experimenting and building, thus providing rich context to the learning phase of transmission.
-Perhaps most interesting, @mcgraw_cultures_2014, in studying the evolution (though not the transmission) of Lego car constructions made by pairs of participants, integrate the critiques discussed in @sec:intro-review-criticisms:
-the authors take the complete joint interaction to be their ultimate object of study, proposing to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
-By looking at the characteristics of the cars built by participants, the authors claim their study "presents methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4].
-[These experiments are further analysed in @mitkidis_building_2015; and @wallot_beyond_2016].
-This short review shows there is much room for exploration, on one side, of the methodological choices in transmission chain experiments (some of which will turn out to be more important than others in the trends observed), and on the other, of the theoretical background that sustain a given study, and correspondingly of the debates that such experiments can bring insight to.
+A more recent stream of research explicitly focuses on the individual transmission step in a chain.
+For instance, setups with two parallel chains that cross-fertilise each other have been shown to improve transmission rates [@eriksson_advantage_2012]:
+if at each generation, the participants of two parallel chains both receive two inputs, one from each chain at the previous generation, information loss is decreased compared to a single chain where participants read twice the same piece of content (of the previous generation).
+@acerbi_role_2016 further modelled such error-correcting redundancy, simulating minimal scenarios that could favour its evolution given fixed cost-reward constraints.
+@eriksson_corpses_2014 also decomposed real world transmission into three phases:
+choose-to-receive, encode-and-retrieve, and choose-to-transmit.
+Focusing on emotional selection studies showing that participants are more willing to pass on stimuli that elicit disgust [@heath_emotional_2001], the authors showed that any of those phases can be the target of a selection pressure.
+Such pressures can additionally counteract each other, showing that the transmission process is more complex than was initially assumed.
+Studies of digital media have adopted the increased level of detail, as digital communication lets users copy-paste and bypass the encode-and-retrieve phase of transmission [@acerbi_cultural_2016].
 
-\todo{clean up the above}
+Methodological exploration has also led to more free-form interaction setups:
+in a study of the transmission of risk perception, @moussaid_amplification_2015 chose to make the interaction and underlying transmission of information an open-ended process.
+After initiating a chain by providing the first participant with a set of documents to read on their own, later participants were left to talk freely in successive dyads, and the whole session was recorded on film for subsequent analysis.
+An analogous change of setup was operated by @caldwell_studying_2008 [-@caldwell_experimental_2008] who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes, later evaluated by their height and flight distance.
+A crucial point in those setups, Sterelny notes [-@sterelny_cultural_2017, n. 12], is that participants could observe the preceding generation during their experimenting and building, meaning they had access to rich context for the learning phase of transmission.
+Taking another step to embrace interaction with a setup where participants had to repeatedly build Lego cars in pairs (though without transmission), @mcgraw_cultures_2014 take the complete joint interaction to be their object of study and propose to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
+By looking at the characteristics of the cars built by participants, the authors claim to present "methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4; see also @mitkidis_building_2015; and @wallot_beyond_2016], effectively integrating critiques that I discuss below in @sec:intro-review-criticisms.
+
+The works reviewed here show that there is much room for exploration, on one side, of the methodological choices in transmission chain experiments (some of which will turn out to be more important than others in the trends observed), and on the other, of the theoretical background that sustains a given study.
+Such experiments have therefore much to bring to underlying theoretical debates.
 
 
 #### Language change: Experimental semiotics and Iterated learning
