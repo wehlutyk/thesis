@@ -95,7 +95,7 @@ Take the much debated example of Cinderella:
 any telling of that story will differ from other instances on dozens of features, which could all be taken to be significant in a particular context.
 A change in prosody or in the choice of words might alter the overall feel of the story, but not its narrative structure.
 A change in narrative style or structure, or an instantiation of the characters in a modern setting, might completely change the face of the story while maintaining the "persecuted heroine" aspect that tale classification systems attribute to Cinderella.
-Telling the tale in a particular context or to certain people only, say for instance as an intimate bed-time story for one's child versus as a political metaphor in public discourse, can dramatically change the way it is received by its listeners.
+Telling the tale in a particular context or to certain people only, say as an intimate bed-time story for one's child versus as a political metaphor in public discourse, can dramatically change the way it is received by its listeners.
 Looking for the information encoded in a version of the tale, as it were, or the representation it can elicit, only serves to postpone the problem one step further.
 The nature of these effects is well recognised by most writings on CAT, and one way of tackling them could be using Relevance Theory.
 Nevertheless, treating this diversity in an empirical study, even if it is only by classifying levels to evaluate their isolated relevance, is very much an open question [even though @acerbi_if_2015 note that similar multi-level indetermination of the unit of analysis is also found in the study of genetics].

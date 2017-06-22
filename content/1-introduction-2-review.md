@@ -1,11 +1,7 @@
 ## Relevant works
 
-\todo{clean up cultural vs. biological talk (e.g. "cultural" evolution: what's the "cultural" in it?)}
 
-### 20th century traditions
-
-
-#### Social science {#sec:intro-review-social}
+### 20th social science {#sec:intro-review-social}
 
 Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
 Émile Durkheim already, in his seminal study [-@durkheim_suicide:_2012], was looking at the regularities of suicide rates over the years, and the correlation of those rates with a partition of society into religion-related groups.
@@ -19,7 +15,7 @@ But as those works also acknowledged, such a question raises issues in need of p
 what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
 Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
 
-@mauss_les_1936 represents one approach to that issue, in his studies of the ways in which people of different societies, throughout history, use their bodies differently.
+@mauss_les_1936, in his studies of the ways in which people of different societies and throughout history use their bodies differently, represents one approach to that question.
 He noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different communities adopt, pass on to their offspring, and evolve through time.
 His endeavour focused precisely on describing (parts of) culture as an embodied and physical property of life, incorporated through the everyday practices of a community, into which children grow by imitation, teaching, or other kinds of learning.
 In this sense, he argued, there is no normal way of walking, there are only *ways* of walking:
@@ -38,7 +34,7 @@ Together, incorporated norms form what he calls a person's *habitus*, a concept 
 Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
 Another prominent approach, the *Theory of Structuration* developed by @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
 Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
-on one side, action arises by using existing structured resources, and its reliance structure, or referring to it, is what makes it action and not noise;
+on one side, action arises by using existing structured resources, and its reliance on structure, or referring to it, is what makes it action and not noise;
 on the other side, the production of action is a new reinforcement of the structure on which it relies.
 This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
 on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
@@ -65,17 +61,16 @@ Structure is what permits something to be emitted, and what results from the emi
 
 \add{steiner-autonomy-2009, who connects Giddens (and others) with the questions of social cognition}
 
-\add{According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach}
-
-Anthropology and Sociology have produced much work about these problems;
-the sample I exposed here represents the works which have most influenced the initial questions of this thesis.
+Anthropology and sociology have produced considerable amounts of work concerned with the nature of culture in relation to psychology, the most prominent parts of which are reviewed by @risjord_models_2012.
+The sample I exposed here represents the approaches which have most influenced the initial questions of the present thesis.
 Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
-This concern has remained central in contemporary social anthropology, and offers a valuable critique to the cultural evolution approach that I will focus on in what follows.
-I will come back to this line of work in @sec:intro-review-criticisms, and discuss it in more detail in @sec:discussion.
+This concern has remained central in contemporary social anthropology, and is worth keeping in mind when studying the cultural evolution approach that I will focus on in what follows.
 
-\todo{Maybe add dropped authors? Simmel, Garfinkel, Geertz, Kroeber, Bateson}
-
-\add{risjord-models-2012}
+While current writings often argue that such a separation is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the dualism it comes from permeates most of our theories about non-human animals, human beings, and life in general.
+This thesis is no exception, as I am myself an apprentice of the traditions I present and discuss here.
+However I see no reason to believe it is the best conceptual dicing one could achieve, and am (for now) agnostic about whether or not it should be maintained;
+whenever such distinctions appear in what follows, for instance between cultural and biological evolution, I will thus be referring to the conception of the works discussed, and will attempt to clarify when otherwise.
+I will come back to the consequences of this dualism in @sec:intro-review-criticisms, and will propose a more detailed discussion in @sec:discussion.
 
 <!--
 
@@ -86,37 +81,41 @@ Dropped authors:
 - Geertz
 - Kroeber: review of the uses of "culture"
 - Bateson
+- According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach
+
+Psychology:
+
+- Gibson
+
+Darwinism
+
+- Plotkin
+- Murdoch
+- Sociobiology
+- Evolutionary Psychology
+- Memetics
 
 -->
 
 
-#### Psychology
-
-\todo{? - Gibson}
-
-
-#### Darwinism
-
-\todo{? - Plotkin, Murdoch, Sociobiology, Evolutionary Psychology, Memetics}
-
-
 ### Evolution of culture
 
-\add{the cog-soc link is also often viewed as the question of what human nature is (because an answer to that question would define the unit of analysis for culture and everything else)}
-
 Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
-Inspired by the same initial analogy as darwinist authors from 20th century traditions, a new wave of analyses developed throughout the eighties and nineties and proposed a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised darwinian principles may (or may not, depending on the case) bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably but not only through psychology.
+Inspired by the generality of the populational approach underlying contemporary evolutionary theory, a new wave of analyses developed throughout the eighties and nineties by proposing a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised evolutionary principles may, or may not, bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably through psychology, learning, and environmental engineering.
+The combination of (a) and (b) is not new, as a similar inspiration underlay the development of memetics.
+Tim Lewens clarifies the position of this new wave regarding previous evolutionary approaches to culture:
 
-\add{? lewens-cultural-2012, p. 466, "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance.}
+> "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance."
+> [@lewens_cultural_2012 p. 466]
+
+\(c), which differentiates current cultural evolutionists from previous approaches, has been developed into two parallel approaches, which @sterelny_cultural_2017 terms the Californian and the Parisian traditions.
 
 \add{scott-phillips-simple-2017, mesoudi-cultural-2016}
-
-\add{acerbi-cultural-2016: The distinction between cultural and non-cultural behavior is not a sharp one (Morin, 2015)}
 
 
 #### Californian
 
-@cavalli-sforza_cultural_1981 articulated this view in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
+@cavalli-sforza_cultural_1981 first articulated the combination of these three ideas in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
 Indeed, following the synthesis provided by @lewontin_cultural_1982:
 for any type of item, the combination of (a) a transmission process leading to nonrandom dependence of subsequent instances on preceding instances (e.g. offspring and parent phenotype), (b) at least some variation of the properties of items (against which to select), and (c) some level of differential survival and spread depending on those properties, will lead to evolution by natural selection.
 By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
@@ -127,12 +126,10 @@ While the main authors do define culture as "information that people acquire fro
 The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
 I return to this subject in more detail in @sec:intro-review-developments.
 
+\add{mesoudi-cultural-2011?}
+
 
 #### Parisian {#sec:intro-review-parisian}
-
-\add{sperber is a bit paradoxical. He (1996, 3, 101 FN 29, 113, 124) relies a lot on Evolutionary Psychology, but at the same time is very open about the complexities of the social/cultural. But now, most authors agree that there is no substantial disagreement with SCE, which is much less committed to EP.}
-
-\add{Talk about Mesoudi 2011?}
 
 In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, hereafter noted CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
@@ -170,8 +167,7 @@ Combining this view with epidemiology of representations, Sperber argues, result
 This specificity of CAT is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47];
 CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but focus on slightly different questions [@sterelny_cultural_2017; @acerbi_if_2015].
 
-The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007].
-\add{lewens-cultural-2012, p. 461-2. and that paper for more discussion.}
+The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012 p. 461-2 provides further discussion and context].
 [@Sec:intro-review-developments;@sec:intro-review-criticisms] come back to these debates and criticisms, which I group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by SCE and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
@@ -219,10 +215,7 @@ First, it puts cognitive science squarely in the middle of the problem because o
 I admit to sharing that opinion (and given current evidence, it is not more than an opinion).
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely flourish in due time), but to interest all disciplines studying human life in a common framework by using *principled philosophical arguments*.
 Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.^[
-  In the words of Tim Ingold, an outspoken critic of both CAT and SCE:
-  > [Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions.
-  > [ingold_transmission_2001, p. 113]
-
+  In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
 ]
 \add{smaldino-let-2014.}
 As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as the propositions coming from social anthropology, and those discussed in @sec:intro-review-criticisms) which, at the moment, are still competing on the principled level.
@@ -516,10 +509,10 @@ Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that
 Those constructed environmental states bias the natural selection of later generations (so-called "selective niche"), and also affect the social and ecological environment in which offspring develop (so-called "ontogenetic niche"), both being processes that can lead to evolutionary feedback loops.
 The evolution of dairying, as analysed by @obrien_genes_2012, is claimed as a paradigmatic case that is well accounted for by NCT.
 
-\add{if clear, add gilbert-eco-evo-devo:-2015}
+\add{gilbert-eco-evo-devo:-2015 if clearly aligned}
 
 NCT is part of a broader movement in evolutionary biology that seeks to integrate a strong view of such feedback dynamics into evolutionary theory, by combining evolutionary developmental biology ("Evo-Devo") with the evolution of the environment in which development take place.
-These works argue for an Extended Evolutionary Synthesis [EES, also presented as Eco-Evo-Devo by @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also constructed selective and ontogenetic niches. \todo{Check all the ontogenetic stuff can stay here.}
+These works argue for an Extended Evolutionary Synthesis [EES, also presented as Eco-Evo-Devo by @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also constructed selective and ontogenetic niches.
 The crux of the disagreement with SET lies in the importance of the dynamics that this feedback generates:
 SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for changes in DNA.
 Conversely, EES considers it more *fruitful* to define evolution as change in the whole organism-environment system, for which niche construction is a core evolutionary process, like genetic mutation or natural selection.
@@ -583,12 +576,8 @@ However for the current purposes I suggest we locate both approaches with respec
   DST further claims that evolution's unit of analysis should be the full life cycle of a developmental system (organism or other), which makes it more difficult to abstract out absolute information items but guarantees an accurate view of the causal parity of developmental resources, such that developmental processes are not obviated.
 - What notion of information should evolutionary theory rely on?
   Classical evolutionary theory and NCT rely on the idea that DNA bears the biological information that is used throughout development, in an interaction with the environment.
-  Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for the darwinian approach:
+  Conversely, DST refuses to conceptually separate inherited from acquired traits, a separation it sees as unnecessary for a populational approach:
   instead it adopts a relational notion of information as the co-product of development, "not by special creation from nothingness, but always from the conditional transformation of prior structure---that is, by ontogenetic processes" [@oyama_ontogeny_2000, p. 4].
-
-\todo{here and in what follows (and maybe elsewhere), note that sperber-defining-2008 [READ] and claidiere-how-2014 [READ] explicitly say that representations, artefacts/behaviours, should be taken as cultural traits. But then acerbi-if-2015 proposes information as the solution to what is considered indecision in the field.}
-
-\add{talk of representations vs. its expression creates a duality analog to that of genotype and phenotype; however it's not necessary for population thinking, according to Oyama.}
 
 Notably, the stances adopted by DST put it at odds with a dual-channel account of cultural evolution.
 While the developmental systems approach is compatible with population thinking, and thus with darwinian approaches in general [@griffiths_discussion:_2005], it sees no theoretical reason to conceptually isolate different genetic and cultural channels of inheritance.
@@ -635,8 +624,6 @@ Given this definition, a living system dies, that is loses its identity, if its 
 This value is the basis for the enactive notion of meaning, which displaces the focus on information, or content, in representationalist accounts.
 Since living systems use their environment to self-reproduce, they are continually coupled to it in order to maintain the organisation of their network of processes.
 Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment, and is an intrinsically meaning-making activity.
-
-\add{In the "relevant to language" part. Relevance Theory is not so far from this: it defines "comprehension" in terms of what is relevant to the individual: "an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect" (wilson-relevance-2004, p. 608 [READ]), so both theories are pretty competing for the same space (but starting from opposite ends). This approach and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 [READ] for discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life's organisation: sub-organism, and super-organism, such that much meaning is co-created.}
 
 The enactive approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, and can be relevant at several levels of a system's organisation.
 This notion, and the view of cognition as a *meaning-making* activity, are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].

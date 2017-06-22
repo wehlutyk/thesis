@@ -630,7 +630,7 @@
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1497602197355" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1498158199684" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
@@ -685,8 +685,7 @@
 <node CREATED="1493709180550" ID="ID_1655961620" MODIFIED="1494005538090" TEXT="For context, there is">
 <node CREATED="1494005526601" ID="ID_1724782550" MODIFIED="1494005555864" TEXT="Relevance Theory for language">
 <node CREATED="1493712374053" ID="ID_984289985" MODIFIED="1493712397963" TEXT="Not aware of implementations, but could work in principle"/>
-<node CREATED="1493712013029" ID="ID_1960379021" MODIFIED="1493712122191" TEXT="I want to leave aside, because it&apos;s based on formal semantics, and I don&apos;t see how it will be able to explain fuzzy things like poetry"/>
-<node COLOR="#ff0000" CREATED="1493709727697" ID="ID_395537700" MODIFIED="1493711861374" TEXT="Not entirely satisfying. Should I discuss in depth?"/>
+<node CREATED="1498158151029" ID="ID_1152579183" MODIFIED="1498158193382" TEXT="Relevance Theory is not so far from this the enactive approach: it defines &quot;comprehension&quot; in terms of what is relevant to the individual: &quot;an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect&quot; (wilson-relevance-2004, p. 608), so both theories are pretty much competing for the same space (but starting from opposite ends). RT and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 for a discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life&apos;s organisation: sub-organism, and super-organism, such that much meaning is co-created."/>
 </node>
 <node CREATED="1494005539674" ID="ID_1997099142" MODIFIED="1494364543560" TEXT="Niche construction / DST for global life cycle"/>
 </node>

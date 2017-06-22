@@ -1,6 +1,6 @@
 # Introduction
 
-\todo{This might be too high-level, so make it more focused}
+\todo{This might be too high-level, so make it more focused. Also add an early hint of what I'll do, which is not that broad. Remember to start easy (but rich) before going to more complex things.}
 
 Current scientific knowledge describes the complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
 Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
@@ -11,8 +11,6 @@ These questions have interested a great number of researchers throughout the 20t
 Indeed, if we aim to carve life at its joints, the way we combine the diverse theoretical and empirical programmes that describe it will constrain the resulting bones and muscles carved out.
 In other words, choosing an assembly of fields goes hand in hand with a view of what it means to be human, of what exactly nature and culture correspond to, and of how we can best approach the emergence, complexity, and evolution of human life through time.
 
-\todo{Not bad, but maybe needs to give an early hint of what I'll do, which is not that broad. Remember to start easy (but rich) before going to more complex things.}
-
 <!--
 These questions guide the works gathered in the present thesis.
 With it I aim to contribute, however modestly, to the development of an integral and open science of life and mind.
@@ -20,19 +18,19 @@ With it I aim to contribute, however modestly, to the development of an integral
 
 LOCATE
 
-Over the last 40 years the field of cognitive anthropology, alongside with the approach to cultural evolution it suggests, has emerged as the strongest view of how science could combine the findings of anthropology, cognitive science, and biology.
+Over the last 40 years the field of cognitive anthropology, along with the approach to cultural evolution it suggests, has emerged as the strongest view of how science could combine the findings of anthropology, cognitive science, and biology.
 This approach, now "a booming cottage industry on the borders of evolutionary biology, archaeology, and biological anthropology" [following @sterelny_cultural_2017, and the labels he suggests], has two central traditions: the Californian, initiated by parallel works of @cavalli-sforza_cultural_1981 and @boyd_culture_1985, and the Parisian, federated around the seminal work of @sperber_explaining_1996.
 The two traditions agree on the combination of fields they defend.
 
 
-- it has a number of variants, of which DIT and CAT, which seem to agree on the philosophical framing of things, but have open debates and differing focuses
+- it has a number of variants, of which SCE and CAT, which seem to agree on the philosophical framing of things, but have open debates and differing focuses
 - it also has stark critiques
 
 - at stake in those debates is the overarching vision/paradigm of how facets fit together, which defines the set of obvious and difficult things, guides the design of new questions, experiments, and implementations.
 
 - recently new generations have developed in several fields: cognitive science is at a crossroads, evolutionary biology also. 4E / DST / Eco-evo-devo
 
-- the particular question here is: observe actual phenomena, explain them. From there, what are the ways of accounting for all these phenomena in a unique framework, i.e. with a small number of guiding principles, that will give intelligibility at high level, and guide further questions. What are the differences between the various approaches, and which approaches are viable. Oyama 2001: "We believe that the heuristic value of the idea of developmental information in certain contexts is more than outweighed by its misleading connotations"
+- the particular question here is: observe actual phenomena, explain them. From there, what are the ways of accounting for all these phenomena in a unique framework, i.e. with a small number of guiding principles, that will give intelligibility at high level, and guide further questions. What are the differences between the various approaches, and which approaches are viable. Oyama 2001: "We believe that the heuristic value of the idea of developmental information in certain contexts is more than outweighed by its misleading connotations". (This problem, the cog-soc link, is also sometimes viewed as the question of what human nature is, because an answer to that question would define the unit of analysis for culture and everything else.)
 
 - How could there be any problems, and how is this a real question, since it's all a matter of empiricism? How is this a scientific question? Well it's a question at the level of scientific programmes
 - First, the breadth of things you can look at is such that a theory will let you define what things are worth looking at. It also makes some cases more natural to explain than others. So a first question is, how much of the phenomena does it capture easily.
@@ -52,7 +50,7 @@ FOCUS
 - the hypothesis of attractors is the main added value of the theory: it claims that because of the interaction of biology, cognition, environment, and current cultural state, the space of how things evolve is somewhat skewed
 
 - as can be understood by the recent name change, it's not clear that representations are the focus (e.g. distance when talking, or even the Claidière & Sperber 2007 example of smoking). I believe the central intuition was that psychology, in the form of at-the-time-emerging cognitive science, has a rich part to play in any synthesis, and is a core ingredient in the appearance of attractors.
-- indeed, that is what is emphasised in debates with DIT
+- indeed, that is what is emphasised in debates with SCE
 - also, it is not an explanatory theory in the sense of quantum physics (as it's not a GUT): Sperber reminds us that finding an attractor is only a cue to looking for its underlying causes. Instead it's a way of thinking at a high level, like a philosophy maybe
 - so in a way, it can't be proved or disproved. But it can be more or less fruitful in generating situations and ideas, and providing a global assembly of facts
 
