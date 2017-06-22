@@ -325,78 +325,85 @@ Such experiments have therefore much to bring to underlying theoretical debates.
 
 \add{tamariz-experimental-2017}
 
-A related strand of research develops similar methods to study the emergence and evolution of language.
-A central experimental paradigm is that of iterated learning, which resembles a transmission chain for artificial languages:
+A related strand of research has developed similar methods to study the emergence and evolution of language.
+A central experimental paradigm is that of iterated learning, which resembles a transmission chain for artificial languages where participants learn a communication system at each step:
 a first group of participants must learn to use a simple artificial language (e.g. an artificial vocabulary for naming a range of objects), after which a second group of participants must learn that language through some interaction with or transmission from the first group.
-The process is then iterated over successive generations.
-Another paradigm is the repeated cooperative task, where participants are paired and assigned a task that they repeatedly must solve cooperatively.
-Most often, participants can use a communication channel (or must create it) to help in coordination, and researchers investigate the way participants iteratively develop conventions over such a channel.
-Studies using these paradigms show that even simple biases in participants' interactions and learning capabilities can lead the final evolved communication system to exhibit significant structure.
-Factors under study include the pressure for simplicity or compressibility to ease learning, the structure of the meanings to communicate, the surrounding context, the transmission or interaction task for iterated learning, and the reinforcement rules favouring expressivity of the language.
+The process is then iterated over successive generations, leading to the evolution of the artificial language initially introduced.
+A related setup used in experimental semiotics surfaces the evolution of interaction without transmission across generations.
+It consists in pairing participants and assigning them a task that they must cooperatively solve over repeated iterations, without changing partners.
+Most often, participants can use a communication channel (or must create it) to help in coordination, such that the setup exposes the way participants iteratively develop conventions over the channel.
+Studies using these two paradigms have shown that simple biases in participants' interactions and learning capabilities can lead the final evolved communication system to exhibit non-trivial structure.
+Several factors have been shown to influence the process, including the structure of the objects referred to by the artificial language, the transmission or interaction task (and its surrounding context) for iterated learning, and the reinforcement rules favouring expressivity of the language that will interact with learnability pressures.
 
-A first major goal in this stream is to provide an non-nativist account of the emergence of communication systems, and of their structure [@kirby_innateness_2007].
-@galantucci_experimental_2005, for instance, studied pairs of participants facing a cooperative task requiring the development of ad hoc communication conventions to solve.
+A first major goal in this stream is to provide an non-nativist account of the emergence an structure of communication systems [@kirby_innateness_2007].
+@galantucci_experimental_2005, for instance, studied pairs of participants facing a cooperative task that required them to develop ad hoc communication conventions.
 The communication channel, a form of shared whiteboard, distorted participants' input by a constant drift such that they could not enter letters or pictorial drawings.
-The study highlighted the variety of strategies the participants used to develop conventional sign systems.
-In particular it showed the way those systems adapted to and depended on the history of the participants, and were deeply meshed with situation- and time-dependent information available, allowing the participants to solve their task by dynamically coordinating [@galantucci_experimental_2005, pp. 748-749].
-Stripping down a little further the set of assumptions built into the experimental setup, @scott-phillips_signalling_2009 created a cooperative task without providing a communication channel parallel to the task itself.
-To solve the challenge, participants thus had to develop a communication system where their own behaviour in the task could become an embodied communicative signal, aside from, at other times, accomplishing their action for the task.
-Here too, the authors underline the importance of developing a dialogue, based on common ground provided by the history of interactions, to bootstrap the creation of a communication system that can solve the task in all situations.
-@kirby_cumulative_2008 used an iterated learning setup to study the emergence of structure in an initially random artificial vocabulary set, which participants had to learn, use, and extrapolate in naming events (events were a combination of a shape, a colour, and a movement).
+The study highlighted the variety of strategies used by participants to develop conventional sign systems, and in particular the way those systems were adapted to the interaction history of dyads.
+The authors showed that sign systems were deeply meshed with the situated and time-dependent information that was available, allowing the participants to solve their task by dynamically coordinating [@galantucci_experimental_2005, pp. 748-749].
+Further stripping down the set of assumptions built into the experimental setup, @scott-phillips_signalling_2009 created a cooperative task without providing any communication channel parallel to the task itself.
+To solve the challenge, participants had to develop a communication system where their own behaviour in the task could become an embodied communicative signal, aside from accomplishing their action for the task either simultaneously or at other times.
+Here too, the authors underline the importance of developing a dialogue, based on common ground provided by the history of interactions, to bootstrap the creation of a general communication system that can solve the task in all situations.
+These studies show that communication systems are inherently embodied and situated, but still involve some degree of intentional design by the participants.
+
+Iterated learning setups, on the other side, have focused on the unintentional emergence of structure.
+@kirby_cumulative_2008, for instance, studied the evolution of an initially random artificial vocabulary set which participants had to learn, use, and extrapolate to name events (events were a combination of a shape, a colour, and a movement).
 By filtering ambiguities in the output vocabulary produced by one participant and given to the next, the authors were able to create a pressure for expressivity of the complete vocabulary;
 combined with the learnability pressure inherent to the task, and the fact that participants had to extrapolate to unknown events, the vocabulary gradually evolved to regularise variation with the emergence of compositionality corresponding to the three dimensions of the events to name.
 Crucially, the participants were not aware of the goals of the experiment, nor that they were part of a chain:
 the emergent structure in the vocabulary thus appeared without intentional design.
-Using a comparable setup where participants had to extrapolate a colour-naming vocabulary, a subset of which was then transmitted to the next generation, @xu_cultural_2013 observed that (probably culture-specific) cognitive biases in colour grouping played an important role in the convergence of vocabulary terms.
-@verhoef_emergence_2014 used the same paradigm to investigate the emergence of combinatorial structure and distinctiveness in a set of acoustic signals devoid of meaning, that participants had to learn and reproduce.
-@cornish_systems_2013 encountered similar results for sequences of categorical items:
+Using a comparable setup where participants had to extrapolate a colour-naming vocabulary, a subset of which was then transmitted to the next generation, @xu_cultural_2013 observed that (probably culture-specific) biases in colour grouping played an important role in the convergence of vocabulary terms.
+Combinatorial structure and distinctiveness has also been shown to emerge in a set of acoustic signals devoid of meaning that participants had to learn and reproduce [@verhoef_emergence_2014].
+@cornish_systems_2013 encountered similar results for sequences of categorical items that had no inherent meaning:
 since participants must reproduce a whole set of sequences, or acoustic signals, at each generation, the set behaves as a interconnected system for which learning pressures gradually increase the combinatorial structure.
-@garrod_foundations_2007, using a Pictionary-like collaborative task without transmission, studied the way symbolism emerges in a lexicon through what they termed an "interactive grounding process".
-@fay_interactive_2010 extended this process to a microsociety, showing that the emergence of globally shared symbols that are increasingly refined and simplified can happen through the gradual alignment of such interactive groundings.
-They thus proposed an additional mechanism, symbolisation, in the emergence of communication systems, based on intra-generational collaborative coordination through interaction, parallel to the inter-generational learning biases and bottlenecks studied by iterated learning studies.
-@winters_languages_2015, relying on the observation that a large part of the meaning of an utterance comes from its situational context, studied the influence of the situations in which participants use vocabulary items on the structure of the language that evolves from interaction and iterated learning [extending @silvey_word_2015].
-The authors show that, even when the complete set of items to name is more diverse, the vocabulary set often evolves to encode the sole item features that are relevant for the particular situational contexts in which those items appeared;
-in particular, if the usage situations shield the users from certain contrasts between items, the final vocabulary is often under-specified and does not encode the dimensions in which those contrasts appear, instead adapting to be useful in the situations under which it evolved, that is, the contrasts that users observed.
-This stream of research is active and developing to its full potential by gradually relaxing the constraining hypotheses made by initial studies.
-Making the meaning space more realistic, for instance, @carr_cultural_2017 further explore the emergence of vocabulary sets where participants communicate about a continuous unbounded set of meanings.
+
+Experimental semiotics and iterated learning also cross-fertilise each other:
+after @garrod_foundations_2007 used a Pictionary-like collaborative task, without transmission, to study the emergence of symbolism in a lexicon, a process they called "interactive grounding", @fay_interactive_2010 extended the findings to a micro-society.
+Fay and colleagues showed that globally shared symbols can emerge through the gradual alignment of such interactive groundings, leading to an increasingly refined and streamlined symbol system.
+The authors thus proposed "symbolisation" as an additional mechanism in the emergence of communication systems, based on intra-generational collaborative coordination through interaction, and parallel to the inter-generational learning biases and bottlenecks studied by iterated learning studies.
+Taking another leaf from experimental semiotics, @winters_languages_2015 exploited the observation that a large part of the meaning of an utterance comes from its situational context:
+they studied the influence of the situations in which participants use vocabulary items on the structure of the language that evolves from interaction and iterated learning [thus extending @silvey_word_2015].
+The authors show that, if the situations in which participants communicate do not contrast items on all the dimensions on which they differ, then the vocabulary set often evolves to not encode those dimensions.
+In other words, if the usage situations shield the participants from certain contrasts between items, the final vocabulary is often under-specified with respect to the full item space:
+it does not encode the dimensions that discriminate the unobserved contrasts, instead adapting to be useful only for the contrasts that users observed.
+This stream of research is active and gradually relaxing the constraining hypotheses made by initial studies.
+@carr_cultural_2017, for instance, recently made the space of items more realistic by exploring the emergence of vocabulary sets where participants communicate about a continuous unbounded set of items.
 
 A second, closely related question concerns how an already structured communication system evolves given a set of external, learning, or interaction pressures.
-@croft_evolutionary_2013 provides probably the best articulated framework for this question.
-Indeed, Croft develops a balanced theory of language change inspired by principles from biological evolution, drawing on recent debates on the nature of the evolutionary process to define what he considers to be the unit of evolution in such a framework.
-The author relies on Hull's General Analysis of Selection [@croft_evolutionary_2013, p. 16] to abstract out the principles of evolutionary processes;
-this leads to a distinction between replicator, interactor, and selection, three core components that provide "a model for disentangling different cultural evolutionary processes and identifying their interconnections" [@croft_evolutionary_2013, p. 18].
-Thus the Theory of Utterance Selection proposed by Croft considers linguemes, that is the linguistic structure of sounds, words, constructions and utterances, to be replicators;
+@croft_evolutionary_2013 provides a general framework for this question, inspired by principles from biological evolution and by recent debates on the nature of the evolutionary process, and crucially focused on identifying an adequate unit of analysis for the evolutionary study of language change.
+Indeed the author combines two key insights.
+On one side, Hull's General Analysis of Selection [@croft_evolutionary_2013, p. 16] lets him abstract out the principles of evolutionary processes and distinguish between replicator, interactor, and selection, three core components that provide "a model for disentangling different cultural evolutionary processes and identifying their interconnections" [@croft_evolutionary_2013, p. 18].
+On the other side, he draws on the critique that Developmental Systems Theory opposes to a gene-centred view of biological evolution [@oyama_cycles_2001], and insists that a theory of language change should consider utterances to be full life cycles made of pronunciation, meaning, and interpretation in context.
+He thus proposes the Theory of Utterance Selection, which takes linguemes (i.e. the linguistic structure of sounds, words, constructions and utterances) to be replicators, but always part of a larger cycle;
 language speakers are the interactors [-@croft_evolutionary_2013, p. 16], and the theory defines language as the "population of utterances in a speech community" [-@croft_evolutionary_2013, p. 35].
-Further taking stock of the critique that Developmental Systems Theory opposes to a gene-centred view of biological evolution [@oyama_cycles_2001], Croft insists that the theory consider utterances to be full life cycles made of pronunciation, meaning, and interpretation in context.
+
 A number of existing studies fit well in this framework.
 @tamariz_cultural_2014, for instance, used a common setup requiring participants to develop a pictorial vocabulary for a pre-given set of words, and modelled the trends participants exhibit in adopting new signs as they go through the interactions of the experiment.
 The authors found that participants do not select new signs neutrally;
-rather, they tend to favour signs they have used in the past, even if their partners had different ones, unless they encounter a sign seemingly superior in representative power.
-Similarly, in a picture-description transmission chain using an artificial minimal language, @smith_eliminating_2010 showed that individual participant biases accumulated to regularise the marking of plurals in the evolved language.
+rather, they tend to favour signs they have used in the past, even if their partners use different ones, unless they encounter a sign they find obviously superior in representative power.
+Similarly, in a picture-description transmission chain using an artificial minimal language, @smith_eliminating_2010 showed that the accumulation of individual participant biases will regularise the marking of plurals in the evolved language.
 @kirby_compression_2015, while studying the emergence of structure as the result of combined pressures of expressivity and compressibility [the latter often attributed to learning, @tamariz_culture:_2015], hint to the fact that the way structure emerges and evolves is highly dependent on the combination of such pressures.
 They note, in particular, that "there is some suggestive evidence that structure in language can be modulated by the composition of populations" [@kirby_compression_2015, p. 99]:
 different communication patterns at the population level, or a different fabric in the population responsible for the transmission and evolution of a language (e.g. more second-language learners, or more children learners), should lead to differences in the evolution of language structure.
-Regarding symbolism, @caldwell_cultural_2012 extended the microsociety Pictionary-like task studied by @fay_interactive_2010 to one where participants were gradually replaced, inducing increased symbolism and successful transmission of the evolved symbols at the same time.
-Initial members of the microsociety constructed highly iconic representations of the meanings to convey, but as the experiment introduced newcomers to those signs through observation, and later used them, the drawings gradually lost their iconic link to their meaning and became simpler.
+Regarding symbolism, @caldwell_cultural_2012 extended the micro-society Pictionary-like task studied by @fay_interactive_2010 to one where participants were gradually replaced, inducing increased symbolism and successful transmission of the evolved symbols at the same time.
+Initial members of the micro-society constructed highly iconic representations of the meanings to convey, but as the experiment introduced newcomers to those signs through observation and consequent use, the drawings gradually lost the iconic link to their referent and became simpler.
 
 Large portions of the iterated learning literature draws on and contributes to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
 @griffiths_language_2007 were the first to show that the analytical structure of iterated learning with uniform Bayesian agents can correspond, depending on the way the agents produce new iterations, to well-known statistical inference methods (Gibbs sampling and a flavour of the EM algorithm).
-In such a setup, iterated learning predictably converges towards distributions determined by the internal prior distributions agents have (i.e. their inference bias).
-As a consequence, in those analytically derived situations, one can straightforwardly predict the final distributions that should evolve under iterated learning, a fact that @kalish_iterated_2007 verified with humans in a function learning task.
+In such a setup, iterated learning predictably converges towards distributions determined by the internal prior distributions of agents (i.e. their inference bias).
+As a consequence, in those analytically derived situations one can straightforwardly predict the final distributions that should evolve under iterated learning, a fact that @kalish_iterated_2007 verified with humans in a function learning task.
 @griffiths_using_2008 further exploit this result by using it in the reverse direction:
 since the outcome of iterated learning, for specific setups, is predictable on the basis of participants' priors, one can use such experiments to investigate the inductive biases of participants.
-The authors confirmed this, showing that the method infers the well-known participant biases in category learning tasks.
-@griffiths_theoretical_2008 explored the relevance of these findings for the study of cultural evolution, showing in particular that individual cognitive biases can have significant effects on long-term cultural evolution.
-@reali_evolution_2009 further relate those results to the evolution of vocabulary, showing that they are consistent with experimental cases of word-meaning mapping regularisation.
-@perfors_language_2014, through analytical derivation and experimental confirmation, reintroduce the impact of the external world in those results;
-the authors show that the structure of the world of meanings talked about will also play a role in the final evolved language, whenever the distribution of meanings people talk about depends partly on that world (and not only on the language used to talk about those items).
+The authors confirmed this, showing that the method infers well-known participant biases in category learning tasks.
+@griffiths_theoretical_2008 then explored the relevance of these findings for the study of cultural evolution, showing in particular that individual cognitive biases can have significant effects on long-term cultural evolution.
+@reali_evolution_2009 further related those results to the evolution of vocabulary, showing that they are consistent with experimental cases of word-meaning mapping regularisation.
+Finally @perfors_language_2014, through analytical derivation and experimental confirmation, reintroduced the impact of the external world in those results;
+the authors showed that the structure of referents (i.e., the external world) will also play a role in the final evolved language, provided it has an effect on the choice of items people actually talk about (versus, the choice of items talked about only depends on the language itself).
 
-Naturally, the language evolution literature is much broader than the small snapshot presented here.
-@scott-phillips_language_2010 and @tamariz_cultural_2016 provide reviews of the iterated learning literature, and @galantucci_experimental_2012 and @roberts_investigating_2017 offer reviews of the experimental semiotics tradition.
-An interesting and important development in recent works is the introduction of pragmatics into the picture.
+@scott-phillips_language_2010 and @tamariz_cultural_2016 provide further reviews of the iterated learning literature, and @galantucci_experimental_2012 and @roberts_investigating_2017 offer reviews of experimental semiotics.
+An interesting and important development in recent works is the reintroduction of pragmatics into theoretical questions.
 @scott-phillips_pragmatics_2017, in particular, reaffirms the central role of pragmatics in the creation and understanding of meaning in context, and argues for a much stronger focus on the evolution of pragmatics itself, that is, as he envisions it, on the evolution of *ostensive communication*.
-Let me close this short review by noting that there is an increasing convergence both in the literature and in empirical questions, of the cultural evolution and language evolution fields;
-this combination of approaches should prove useful in further identification (and answering) of the core questions in cultural evolution.
+Let me close this review by noting that there is an increasing convergence both in the literature and in empirical questions, of the cultural evolution and language evolution fields;
+the intersection of questions from the two fields is likely to push theoretical issues forward.
 
 \add{sperber-beyond-2015}
 
