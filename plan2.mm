@@ -82,7 +82,7 @@
 <node CREATED="1494833073981" ID="ID_1399000348" MODIFIED="1494835077023" TEXT="Sociobiology, Evolutionary psychology/Tooby &amp; Cosmides, Memetics/Dawkins"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1497619245907" TEXT="Cultural Evolution">
+<node COLOR="#669900" CREATED="1468501391707" FOLDED="true" ID="ID_677606115" MODIFIED="1498593270065" TEXT="Cultural Evolution">
 <node CREATED="1494935824411" ID="ID_743558862" MODIFIED="1496236441016" TEXT="Today&apos;s discussion is structured by proponents from Cognitive Science"/>
 <node CREATED="1494935844587" ID="ID_982323188" MODIFIED="1496236441018" TEXT="Inspired by the darwinist principles of above, a new wave came to blend (a) evolutionary biology, (b) insights of darwinism for culture whenever applicable, (c) a view of parallel processes"/>
 <node CREATED="1493652130573" ID="ID_398585210" MODIFIED="1496236344827" TEXT="Dual Inheritance Theory">
@@ -101,8 +101,8 @@
 <node CREATED="1494937118863" ID="ID_1209841587" MODIFIED="1494937226228" TEXT="And there are real links with Niche Construction (Odling-Smee et al. 2003), wich offers promising steps towards views of culture that stress the developmental process"/>
 </node>
 </node>
-<node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1497464961486" TEXT="Cultural Attraction Theory">
-<node CREATED="1494938403817" FOLDED="true" ID="ID_54556517" MODIFIED="1496236310550" TEXT="Intro">
+<node CREATED="1493652111065" ID="ID_302804498" MODIFIED="1498593269341" TEXT="Cultural Attraction Theory">
+<node CREATED="1494938403817" FOLDED="true" ID="ID_54556517" MODIFIED="1498593266831" TEXT="Intro">
 <node CREATED="1494937681485" ID="ID_925941687" MODIFIED="1494937716642" TEXT="Formalised in the mid 90s: in a series of articles he proposes Epidemiology of Representations"/>
 <node CREATED="1494937722512" ID="ID_712014211" MODIFIED="1494937752998" TEXT="Seeks to provide a common framework for the cognitive and social sciences, to address interdisciplinary questions"/>
 <node CREATED="1494937767313" ID="ID_1361525670" MODIFIED="1494937804155" TEXT="One guiding question is: how to explain the diversity, and relative temporal stability, of cultures, knowing we&apos;re all made of the same stuff?"/>
@@ -546,7 +546,7 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_281753914" MODIFIED="1498037773936" POSITION="right" TEXT="Gistr">
+<node CREATED="1493653580005" ID="ID_281753914" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
 <node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
 <node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
 </node>
@@ -571,7 +571,7 @@
 </node>
 <node CREATED="1494061313278" ID="ID_1889881438" MODIFIED="1494061332697" TEXT="Advantages of transmission chains over element-wise analysis">
 <node CREATED="1494061334717" ID="ID_1929379121" MODIFIED="1494061351026" TEXT="First, it&apos;s not the best, it&apos;s just the simplest starting point"/>
-<node CREATED="1494061353866" ID="ID_1756412610" MODIFIED="1494061406668" TEXT="It lets you simulate something of a dynamics, and look at the stability and chaos"/>
+<node CREATED="1494061353866" ID="ID_1756412610" MODIFIED="1499629152917" TEXT="It lets you simulate something of a dynamics, and look at the stability, chaos, and spans"/>
 </node>
 <node CREATED="1494003172192" ID="ID_740197832" MODIFIED="1494003187758" TEXT="And we build a tool that allows systematizing the study of sources"/>
 </node>
@@ -630,7 +630,7 @@
 </node>
 <node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1498158199684" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1498238883910" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>

@@ -1,7 +1,7 @@
 ## Open problems {#sec:intro-problems}
 
 Moving back into the core of the cultural evolution framework put forth by Californian and Parisian cultural evolution, we can now put the focus on a number of outstanding questions for current and future research.
-The following discussion far from exhausts the questions to tackle, but gives nonetheless an overview of what I consider to be the most actionable of central items in the field.
+The following discussion far from exhausts the questions to tackle, but gives nonetheless an overview of what I consider to be the most actionable or central items in the field.
 
 
 ### Attraction versus source selection
