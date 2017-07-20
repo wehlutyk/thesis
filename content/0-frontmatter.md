@@ -40,10 +40,10 @@ header-includes:
   # General comments
   - \usepackage[usenames,dvipsnames]{color}
   - \newcommand{\add}[1]{{\color{MidnightBlue}\#~ADD:} {\color{MidnightBlue}#1}}
-  - \newcommand{\todo}[1]{{\color{BrickRed}\#~TODO:} {\color{BrickRed}#1}}
-  - \newcommand{\change}[1]{{\color{RedViolet}CHANGE} {\color{RedViolet}[#1]}}
+  - \newcommand{\todo}[1]{{\color{RedViolet}\#~TODO:} {\color{RedViolet}#1}}
+  - \newcommand{\change}[1]{{\color{RoyalPurple}CHANGE} {\color{RoyalPurple}[#1]}}
   - \newcommand{\opt}[1]{{\color{Gray}[#1]}}
-  - \newcommand{\cam}[1]{{\color{RoyalPurple}\#~CAM:} {\color{RoyalPurple}#1}}
+  - \newcommand{\cam}[1]{{\color{BrickRed}\#~CAM:} {\color{BrickRed}#1}}
   # Whenever citations are needed
   - \newcommand{\tb}[1]{\textcolor{blue}{#1}}
   - \newcommand{\cn}{\textsuperscript{\tb{[Citation needed]}}}
