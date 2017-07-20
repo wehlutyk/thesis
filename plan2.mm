@@ -589,24 +589,16 @@
 </node>
 <node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
 <node CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500368959133" TEXT="Experiment design principles and process">
-<node CREATED="1500545196558" ID="ID_1084570679" MODIFIED="1500545471239" TEXT="Complexity">
-<node CREATED="1500549179410" ID="ID_970578308" MODIFIED="1500549223200" TEXT="Exploratory approach for attractors, but no predefined strong hypothesis to test"/>
-<node CREATED="1500545196558" ID="ID_122145223" MODIFIED="1500545463513" TEXT="Breadth of problems to be tackled, huge potential complexity"/>
-<node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500551216969" TEXT="From BCP: missing links to have a complete viwe, missing read-write details, missing context"/>
-<node CREATED="1500545242951" ID="ID_1297879545" MODIFIED="1500545272098" TEXT="Sentence presentation form and parameters"/>
-<node CREATED="1500545254519" ID="ID_979442932" MODIFIED="1500545261826" TEXT="In-between task"/>
-<node CREATED="1500545303199" ID="ID_1189762403" MODIFIED="1500545306703" TEXT="Interaction of sentences"/>
-<node CREATED="1500545235223" ID="ID_1229714138" MODIFIED="1500545241551" TEXT="Incentive"/>
-<node CREATED="1500545325433" ID="ID_1012192777" MODIFIED="1500545332258" TEXT="Choice of sources"/>
-<node CREATED="1500545338505" ID="ID_341614899" MODIFIED="1500545476720" TEXT="Going from the bottom up"/>
+<node COLOR="#669900" CREATED="1500577254765" FOLDED="true" ID="ID_119937155" MODIFIED="1500579514644" TEXT="Transmission chains are the obvious way to go">
+<node CREATED="1500579412424" ID="ID_1903213209" MODIFIED="1500579426919" TEXT="They&apos;re the obvious way to go given the questions left open in the BCP chapter"/>
+<node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500579460191" TEXT="Problems from BCP: missing links to have a complete view, missing read-write details, missing context"/>
+<node CREATED="1500549179410" ID="ID_970578308" MODIFIED="1500579442782" TEXT="But we have an exploratory approach for attractors and transformations, and no predefined strong hypothesis to test"/>
+<node CREATED="1500579461769" ID="ID_1592526992" MODIFIED="1500579465051" TEXT="So we need more data"/>
 </node>
-<node CREATED="1500545351193" ID="ID_1118927909" MODIFIED="1500545357046" TEXT="Web experiment">
+<node COLOR="#669900" CREATED="1500545351193" FOLDED="true" ID="ID_1118927909" MODIFIED="1500579520414" TEXT="Web experiment">
 <node CREATED="1500550863029" ID="ID_1991976305" MODIFIED="1500550885235" TEXT="Web and smartphone experiments strike a different balance than that of laboratory experiments"/>
 <node CREATED="1500545366797" ID="ID_65077658" MODIFIED="1500545556538" TEXT="Pros">
 <node CREATED="1500545517228" ID="ID_191007815" MODIFIED="1500545528632" TEXT="Control"/>
-<node CREATED="1500545529549" ID="ID_12554321" MODIFIED="1500545535344" TEXT="Potential for embedding">
-<node CREATED="1500551068233" ID="ID_1152218724" MODIFIED="1500551073405" TEXT="Daydreaming example"/>
-</node>
 <node CREATED="1500545540076" ID="ID_505984217" MODIFIED="1500545547930" TEXT="Scale and speed of collection"/>
 <node CREATED="1500545548346" ID="ID_446020843" MODIFIED="1500545554421" TEXT="Flexible recruitment"/>
 </node>
@@ -614,6 +606,17 @@
 <node CREATED="1500545589196" ID="ID_845785524" MODIFIED="1500545598998" TEXT="Engineering cost / technical challenge"/>
 <node CREATED="1500545599580" ID="ID_711902568" MODIFIED="1500545605648" TEXT="Spam-control"/>
 <node CREATED="1500545606247" ID="ID_1572683906" MODIFIED="1500545609544" TEXT="Recruitment cost"/>
+</node>
+</node>
+<node CREATED="1500553772669" ID="ID_1365394623" MODIFIED="1500553780160" TEXT="In practice">
+<node CREATED="1500545196558" ID="ID_1084570679" MODIFIED="1500577254768" TEXT="Complexity">
+<node CREATED="1500545196558" ID="ID_122145223" MODIFIED="1500545463513" TEXT="Breadth of problems to be tackled, huge potential complexity"/>
+<node CREATED="1500545242951" ID="ID_1297879545" MODIFIED="1500545272098" TEXT="Sentence presentation form and parameters"/>
+<node CREATED="1500545254519" ID="ID_979442932" MODIFIED="1500545261826" TEXT="In-between task"/>
+<node CREATED="1500545303199" ID="ID_1189762403" MODIFIED="1500545306703" TEXT="Interaction of sentences"/>
+<node CREATED="1500545235223" ID="ID_1229714138" MODIFIED="1500545241551" TEXT="Incentive"/>
+<node CREATED="1500545325433" ID="ID_1012192777" MODIFIED="1500545332258" TEXT="Choice of sources"/>
+<node CREATED="1500545338505" ID="ID_341614899" MODIFIED="1500545476720" TEXT="Going from the bottom up"/>
 </node>
 <node CREATED="1500545378226" ID="ID_823354168" MODIFIED="1500545513317" TEXT="Technological choices, their evolution, and design overview">
 <node CREATED="1500549040439" ID="ID_106190090" MODIFIED="1500549056379" TEXT="No common system available, building my own"/>
