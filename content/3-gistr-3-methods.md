@@ -71,5 +71,12 @@ The corresponding costs are the following:
 
 #### Web-based transmission chains
 
-The balance that the Web-based approach achieves seems particularly adapted to the experimental  requirements outlined above.
+The balance achieved by the Web-based approach is particularly adapted to the experimental  requirements we outlined above.
 Since no existing system would fit our needs, we chose to develop a reusable Web-based platform to run a series of studies that would allow us, once ready, to gather sufficient amounts of high-quality data in short cycles.
+
+HERE
+
+The platform is a complete Web application with accompanying backend server built using current technologies,
+^[TODO: details: Elm, DRF, tests, free software on github, etc.
+]
+which can be used to run small- to large-scale transmission chains in short periods of time.

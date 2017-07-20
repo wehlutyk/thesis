@@ -608,7 +608,8 @@
 <node CREATED="1500545606247" ID="ID_1572683906" MODIFIED="1500545609544" TEXT="Recruitment cost"/>
 </node>
 </node>
-<node CREATED="1500553772669" ID="ID_1365394623" MODIFIED="1500553780160" TEXT="In practice">
+<node CREATED="1500553772669" ID="ID_1365394623" MODIFIED="1500581235698" TEXT="Web-based transmission chains">
+<node CREATED="1500581241872" ID="ID_1953533153" MODIFIED="1500581262104" TEXT="The balance is exactly what we need, so we made our own platform"/>
 <node CREATED="1500545196558" ID="ID_1084570679" MODIFIED="1500577254768" TEXT="Complexity">
 <node CREATED="1500545196558" ID="ID_122145223" MODIFIED="1500545463513" TEXT="Breadth of problems to be tackled, huge potential complexity"/>
 <node CREATED="1500545242951" ID="ID_1297879545" MODIFIED="1500545272098" TEXT="Sentence presentation form and parameters"/>
@@ -619,7 +620,6 @@
 <node CREATED="1500545338505" ID="ID_341614899" MODIFIED="1500545476720" TEXT="Going from the bottom up"/>
 </node>
 <node CREATED="1500545378226" ID="ID_823354168" MODIFIED="1500545513317" TEXT="Technological choices, their evolution, and design overview">
-<node CREATED="1500549040439" ID="ID_106190090" MODIFIED="1500549056379" TEXT="No common system available, building my own"/>
 <node CREATED="1500545642692" ID="ID_92163109" MODIFIED="1500549411650" TEXT="DRF backend distributes trees and sentences"/>
 <node CREATED="1500545629156" ID="ID_127681181" MODIFIED="1500549427079" TEXT="JS then Elm frontend locks trees and chooses a sentence, with automated tests for critical logic"/>
 <node CREATED="1500549729386" ID="ID_305234409" MODIFIED="1500551199111" TEXT="Walk through interface, simplest viable design: read-pause-write (so no context)"/>
