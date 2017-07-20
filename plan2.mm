@@ -518,6 +518,143 @@
 </node>
 </node>
 </node>
+<node CREATED="1493653580005" ID="ID_1316511126" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1500373043884" TEXT="Introduction">
+<node CREATED="1493994708787" ID="ID_1165265618" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations"/>
+<node CREATED="1494003133013" ID="ID_1739322211" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
+<node CREATED="1494060733021" ID="ID_123806247" MODIFIED="1494060740693" TEXT="Attraction factors can be">
+<node CREATED="1494060741709" ID="ID_18999177" MODIFIED="1494060749009" TEXT="psychological / ecological"/>
+<node CREATED="1494060749410" ID="ID_1713583982" MODIFIED="1494060753702" TEXT="local / global"/>
+</node>
+<node CREATED="1495620552970" ID="ID_389564640" MODIFIED="1495620559705" TEXT="In the literature, there is">
+<node CREATED="1495620561986" ID="ID_294881848" MODIFIED="1495620596744" TEXT="Contrasts of content types, some old studies on the transformations of content"/>
+<node CREATED="1495620597406" ID="ID_109869517" MODIFIED="1495620620282" TEXT="Iterated learning which focuses on the emergence of the communication means"/>
+</node>
+<node CREATED="1493671327434" ID="ID_1321623136" MODIFIED="1494061976052" TEXT="We&apos;re going for">
+<node CREATED="1494061977375" ID="ID_229205436" MODIFIED="1494061996835" TEXT="The actual evolution of content, not only a contrast"/>
+<node CREATED="1494061969448" ID="ID_24458895" MODIFIED="1494077811018" TEXT="i.e. a real view of psychological-general factors"/>
+<node CREATED="1494061997991" ID="ID_117977992" MODIFIED="1494062051290" TEXT="We know it&apos;s not an explanation, but if we identify a few effects we can look for the underlying (psychological, task, ecological) causes"/>
+</node>
+<node CREATED="1494061313278" ID="ID_122340064" MODIFIED="1494061332697" TEXT="Advantages of transmission chains over element-wise analysis">
+<node CREATED="1494061334717" ID="ID_1402280472" MODIFIED="1494061351026" TEXT="First, it&apos;s not the best, it&apos;s just the simplest starting point"/>
+<node CREATED="1494061353866" ID="ID_1050431" MODIFIED="1499629152917" TEXT="It lets you simulate something of a dynamics, and look at the stability, chaos, and spans"/>
+</node>
+<node CREATED="1494003172192" ID="ID_1680340392" MODIFIED="1494003187758" TEXT="And we build a tool that allows systematizing the study of sources"/>
+</node>
+<node CREATED="1493671341904" ID="ID_1025397226" MODIFIED="1493671788385" TEXT="With several levels of questions">
+<node CREATED="1493671407213" ID="ID_323718033" MODIFIED="1500363974843" TEXT="Simple descriptive statistics (length)"/>
+<node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500364066650" TEXT="A model for transformations, and the properties we observe to define it"/>
+<node CREATED="1500364070270" ID="ID_202410517" MODIFIED="1500364101179" TEXT="Feature effects for those transformations"/>
+<node CREATED="1493671407213" ID="ID_483663822" MODIFIED="1500364177136" TEXT="Aggregate effects of length, variability, transmissibility"/>
+<node CREATED="1493671549406" ID="ID_985400041" MODIFIED="1500364210271" TEXT="Link to case-specific studies"/>
+</node>
+</node>
+<node CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1500364215911" TEXT="Related Work">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1494060595629" TEXT="Bartlett"/>
+<node CREATED="1494060596364" ID="ID_1304178070" MODIFIED="1494060597539" TEXT="Nettle"/>
+<node CREATED="1494060598394" ID="ID_639592966" MODIFIED="1494060602755" TEXT="Bebbington"/>
+<node CREATED="1494060606168" ID="ID_1079390338" MODIFIED="1494060612282" TEXT="Mesoudi &amp; Whiten"/>
+<node CREATED="1494060613064" ID="ID_1013745124" MODIFIED="1494060617675" TEXT="Kirby &amp; Tamariz"/>
+<node CREATED="1494060634992" ID="ID_1779044891" MODIFIED="1494060636358" TEXT="Acerbi"/>
+<node CREATED="1494060643996" ID="ID_1554237411" MODIFIED="1494060653373" TEXT="Claidi&#xe8;re"/>
+<node COLOR="#ff0000" CREATED="1494061799755" ID="ID_463475949" MODIFIED="1494061809827" TEXT="More ..."/>
+</node>
+<node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
+<node CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500368959133" TEXT="Experiment design principles and process">
+<node CREATED="1494010206624" ID="ID_104207656" MODIFIED="1494010212719" TEXT="Engineering methods"/>
+</node>
+<node CREATED="1493669236975" ID="ID_654496403" MODIFIED="1493669522736" TEXT="Trials and errors in the design"/>
+<node CREATED="1493670174797" ID="ID_1154961931" MODIFIED="1493736031936" TEXT="Choice of sources">
+<node CREATED="1493670342185" ID="ID_199686146" MODIFIED="1493670377413" TEXT="1: From MT, famous quotes, hand-designed sentences"/>
+<node CREATED="1493670380463" ID="ID_555725490" MODIFIED="1493889284227" TEXT="2: From memorable/non-memorable quotes"/>
+<node CREATED="1493670395149" ID="ID_792099099" MODIFIED="1493670404587" TEXT="3: From short stories"/>
+</node>
+<node CREATED="1494061818295" ID="ID_1507936649" MODIFIED="1494061824653" TEXT="Spam-coding and elimination">
+<node CREATED="1494061826123" ID="ID_208790084" MODIFIED="1494061844139" TEXT="And how non-context makes some sentences ambiguous on spam"/>
+</node>
+</node>
+<node CREATED="1500364244812" ID="ID_147528875" MODIFIED="1500364246804" TEXT="Analysis">
+<node CREATED="1500369246959" ID="ID_921327933" MODIFIED="1500369342199" TEXT="Descriptive observations">
+<node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500369348067" TEXT="Lengths"/>
+<node CREATED="1500369348459" ID="ID_556410290" MODIFIED="1500369497534" TEXT="Measures of transformation rate and their evolution"/>
+<node CREATED="1500369499828" ID="ID_1189031225" MODIFIED="1500369508569" TEXT="As a censequence, transmissibility"/>
+<node CREATED="1500369524185" ID="ID_185582015" MODIFIED="1500372287717" TEXT="(No obvious convergence pattern)"/>
+</node>
+<node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
+<node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1500372271403" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
+</node>
+<node CREATED="1500369586303" ID="ID_481001751" MODIFIED="1500369603916" TEXT="Alignment tool">
+<node CREATED="1500369605464" ID="ID_742678504" MODIFIED="1500369647313" TEXT="DNA sequence alignments"/>
+<node CREATED="1500369647649" ID="ID_1174834586" MODIFIED="1500369675611" TEXT="Adapt to sentences with semantic distance for (mis)match score"/>
+<node CREATED="1500369685790" ID="ID_213102769" MODIFIED="1500369693639" TEXT="Recursively apply for exchanges"/>
+<node CREATED="1500369695298" ID="ID_513707657" MODIFIED="1500369702410" TEXT="Optimisation">
+<node CREATED="1500369718492" ID="ID_1249846434" MODIFIED="1500369724806" TEXT="Evaluate necessary training set"/>
+<node CREATED="1500369703783" ID="ID_1431986087" MODIFIED="1500369716883" TEXT="Hand-made shallow alignments"/>
+<node CREATED="1500369730696" ID="ID_682302651" MODIFIED="1500369891846" TEXT="Brute-force the optimisation of shallow alignments"/>
+<node CREATED="1500369876905" ID="ID_907977822" MODIFIED="1500369883232" TEXT="Hand-adjust exchange cost"/>
+<node CREATED="1500369897189" ID="ID_1707242680" MODIFIED="1500369903209" TEXT="Evaluate quality by hand"/>
+</node>
+</node>
+<node CREATED="1500372678419" ID="ID_842710601" MODIFIED="1500374175728" TEXT="A black-box model of chunks">
+<node CREATED="1500369909560" ID="ID_1687954003" MODIFIED="1500374136104" TEXT="Plot the branches, give a few examples with the text"/>
+<node CREATED="1500371891757" ID="ID_1074199525" MODIFIED="1500372056497" TEXT="Two analysis dimensions">
+<node CREATED="1500371968804" ID="ID_726647223" MODIFIED="1500372770679" TEXT="&apos;Branch level&apos;, i.e. horizontal: axis is depth in the branch, event is &apos;sentence transformation&apos;"/>
+<node CREATED="1500372000035" ID="ID_262035935" MODIFIED="1500372777653" TEXT="&apos;Sentence level&apos;, i.e. vertical: axis is position in the sentence, event is &apos;word transformation&apos;: deletion, insertion, replacement, exchange"/>
+</node>
+<node CREATED="1500372657473" ID="ID_717180596" MODIFIED="1500372800662" TEXT="Burstiness at the branch level and at the sentence level"/>
+<node CREATED="1500373888091" ID="ID_1346396699" MODIFIED="1500373934440" TEXT="So we&apos;re going to work with chunks and bursts, that is the black-box model that we&apos;re going to detail"/>
+</node>
+<node CREATED="1500372717609" ID="ID_1407774523" MODIFIED="1500374167629" TEXT="Detailing the model">
+<node CREATED="1500485116033" ID="ID_829609168" MODIFIED="1500485733739" TEXT="probability/size/count of chunk (all/specific) ~ size of sentence"/>
+<node CREATED="1500485031257" ID="ID_1177151082" MODIFIED="1500485749227" TEXT="probability/size/count of chunk ~ position in sentence"/>
+<node CREATED="1500374156666" ID="ID_845582753" MODIFIED="1500485493296" TEXT="joint counts of types of transformations (words/chunks) -&gt; dependencies between chunks"/>
+<node CREATED="1500485661706" ID="ID_256470032" MODIFIED="1500485674753" TEXT="corresponding sizes of close insertions/deletions"/>
+<node CREATED="1500486079422" ID="ID_1383918433" MODIFIED="1500486108872" TEXT="increase/decrease of sentence length, combined with sentence burstiness"/>
+<node CREATED="1500486148822" ID="ID_1352186173" MODIFIED="1500486196341" TEXT="probability of sentence transformation depending on preceding transformation">
+<node CREATED="1500486197782" ID="ID_829926226" MODIFIED="1500486199663" TEXT="burstiness"/>
+<node CREATED="1500486200129" ID="ID_977489009" MODIFIED="1500486209018" TEXT="increase/decrease in length"/>
+</node>
+<node CREATED="1500486393585" ID="ID_1288886687" MODIFIED="1500487214357" TEXT="feature makeup of each type, and long-term result"/>
+</node>
+<node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
+<node CREATED="1500486450524" ID="ID_1449125916" MODIFIED="1500486453405" TEXT="Meaning change">
+<node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
+</node>
+</node>
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500486787649" TEXT="Discussion">
+<node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
+<node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
+<node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
+</node>
+<node CREATED="1500369134404" ID="ID_1188883805" MODIFIED="1500369141878" TEXT="Conscientiousness">
+<node CREATED="1495449533348" ID="ID_217329616" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
+<node CREATED="1495449566297" ID="ID_286148887" MODIFIED="1497789424945" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in (it approximates the wear-and-tear and flop problems discussed by sterelny_cultural_2017)"/>
+<node CREATED="1495451735222" ID="ID_1439735737" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
+<node CREATED="1497595812170" ID="ID_1346494212" MODIFIED="1497595812170" TEXT="The rationale for not looking at age and word span effects in gistr was there seemed to be none in the first run. I think the main effect on accuracy, apart from actual operation/sentence span (but that&apos;s hard to separate from the actual gistr task), is conscientiousness. A way around that is to create an endogenous incentive like Claidi&#xe8;re did. But to do that stronger than a simple money bonus (which I did), you need to open the pandora box of interaction, which I didn&apos;t want to open so as to keep the most basic setup possible."/>
+</node>
+<node CREATED="1500368904847" ID="ID_1423784145" MODIFIED="1500369180907" TEXT="Content">
+<node CREATED="1495449517427" ID="ID_244642587" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
+<node CREATED="1497595869169" ID="ID_196961772" MODIFIED="1500369190801" TEXT="The rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). "/>
+<node CREATED="1495547569285" ID="ID_1569516378" MODIFIED="1500369170514" TEXT="The fact that many results in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
+<node CREATED="1495613547408" ID="ID_1431175862" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
+<node CREATED="1495613935136" ID="ID_1594022587" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
+</node>
+<node CREATED="1500369059784" ID="ID_1812231985" MODIFIED="1500369061559" TEXT="Context">
+<node CREATED="1497789472234" ID="ID_193736451" MODIFIED="1497789525810" TEXT="The fact that there is no context, i.e. no cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
+<node CREATED="1495449712034" ID="ID_1535169286" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
+<node CREATED="1495898083944" ID="ID_617425290" MODIFIED="1495898268523" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
+</node>
+</node>
+<node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1500486643831" TEXT="Attic">
+<node CREATED="1496063613136" ID="ID_557548698" MODIFIED="1496063622885" TEXT="Approval by ethical board?"/>
+<node CREATED="1493670170670" ID="ID_1234200292" MODIFIED="1493735463488" TEXT="High-level questions">
+<node CREATED="1493670312549" ID="ID_1968842191" MODIFIED="1493735473925" TEXT="Exp 1: Initially, testing for convergence"/>
+<node CREATED="1493670327524" ID="ID_1151141176" MODIFIED="1493735488470" TEXT="Exp 2: Exploring effect and evolution of memorability"/>
+<node CREATED="1493670457098" ID="ID_1406425123" MODIFIED="1493735522093" TEXT="Exp 3: Testing for standardised simplification of content, and some case-specific effects"/>
+</node>
+</node>
+</node>
 <node CREATED="1493653568209" FOLDED="true" ID="ID_1225066825" MODIFIED="1494935683808" POSITION="right" TEXT="MemeTracker">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#006699" CREATED="1493719401794" ID="ID_337599956" MODIFIED="1494933853806" TEXT="Added value: connect cultural evolution and psycholinguistics using online data"/>
@@ -545,90 +682,6 @@
 </node>
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
-</node>
-<node CREATED="1493653580005" ID="ID_281753914" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
-<node COLOR="#ff0000" CREATED="1493671851190" ID="ID_367396253" MODIFIED="1493719468812" TEXT="Added value">
-<node CREATED="1493671928289" ID="ID_455315078" MODIFIED="1493671945176" TEXT="Decide once the results are stable"/>
-</node>
-<node CREATED="1493669206627" ID="ID_1036336811" MODIFIED="1494003133027" TEXT="Introduction">
-<node CREATED="1493994708787" ID="ID_183196393" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations">
-<node CREATED="1497595812170" ID="ID_1996978658" MODIFIED="1497595812170" TEXT="The rationale for not looking at age and word span effects in gistr was there seemed to be none in the first run. I think the main effect on accuracy, apart from actual operation/sentence span (but that&apos;s hard to separate from the actual gistr task), is conscientiousness. A way around that is to create an endogenous incentive like Claidi&#xe8;re did. But to do that stronger than a simple money bonus (which I did), you need to open the pandora box of interaction, which I didn&apos;t want to open so as to keep the most basic setup possible."/>
-<node CREATED="1497595869169" ID="ID_621093249" MODIFIED="1497595870470" TEXT="Next, the rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). "/>
-</node>
-<node CREATED="1494003133013" ID="ID_1953428105" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
-<node CREATED="1494060733021" ID="ID_354448553" MODIFIED="1494060740693" TEXT="Attraction factors can be">
-<node CREATED="1494060741709" ID="ID_1538202575" MODIFIED="1494060749009" TEXT="psychological / ecological"/>
-<node CREATED="1494060749410" ID="ID_232271554" MODIFIED="1494060753702" TEXT="local / global"/>
-</node>
-<node CREATED="1495620552970" ID="ID_823495520" MODIFIED="1495620559705" TEXT="In the literature, there is">
-<node CREATED="1495620561986" ID="ID_1072318537" MODIFIED="1495620596744" TEXT="Contrasts of content types, some old studies on the transformations of content"/>
-<node CREATED="1495620597406" ID="ID_1658502244" MODIFIED="1495620620282" TEXT="Iterated learning which focuses on the emergence of the communication means"/>
-</node>
-<node CREATED="1493671327434" ID="ID_326009337" MODIFIED="1494061976052" TEXT="We&apos;re going for">
-<node CREATED="1494061977375" ID="ID_128839028" MODIFIED="1494061996835" TEXT="The actual evolution of content, not only a contrast"/>
-<node CREATED="1494061969448" ID="ID_1264460033" MODIFIED="1494077811018" TEXT="i.e. a real view of psychological-general factors"/>
-<node CREATED="1494061997991" ID="ID_586943153" MODIFIED="1494062051290" TEXT="We know it&apos;s not an explanation, but if we identify a few effects we can look for the underlying (psychological, task, ecological) causes"/>
-</node>
-<node CREATED="1494061313278" ID="ID_1889881438" MODIFIED="1494061332697" TEXT="Advantages of transmission chains over element-wise analysis">
-<node CREATED="1494061334717" ID="ID_1929379121" MODIFIED="1494061351026" TEXT="First, it&apos;s not the best, it&apos;s just the simplest starting point"/>
-<node CREATED="1494061353866" ID="ID_1756412610" MODIFIED="1499629152917" TEXT="It lets you simulate something of a dynamics, and look at the stability, chaos, and spans"/>
-</node>
-<node CREATED="1494003172192" ID="ID_740197832" MODIFIED="1494003187758" TEXT="And we build a tool that allows systematizing the study of sources"/>
-</node>
-<node CREATED="1493671341904" ID="ID_318906586" MODIFIED="1493671788385" TEXT="With several levels of questions">
-<node CREATED="1493671407213" ID="ID_280809433" MODIFIED="1493671623825" TEXT="Simple effects of length and transmissibility"/>
-<node CREATED="1493671356458" ID="ID_883434153" MODIFIED="1493671653749" TEXT="Reproduction and extension of word-level effects"/>
-<node CREATED="1493671627788" ID="ID_1041424065" MODIFIED="1493671677164" TEXT="Stability &amp; disappearances"/>
-<node CREATED="1493671549406" ID="ID_476325565" MODIFIED="1493671567033" TEXT="Case-specific studies"/>
-<node CREATED="1493671793153" ID="ID_803300195" MODIFIED="1493671796164" TEXT="Variability"/>
-</node>
-</node>
-<node CREATED="1493669606965" ID="ID_1361068873" MODIFIED="1493669609294" TEXT="Related Work">
-<node CREATED="1494060591330" ID="ID_513173866" MODIFIED="1494060595629" TEXT="Bartlett"/>
-<node CREATED="1494060596364" ID="ID_1228823279" MODIFIED="1494060597539" TEXT="Nettle"/>
-<node CREATED="1494060598394" ID="ID_90717037" MODIFIED="1494060602755" TEXT="Bebbington"/>
-<node CREATED="1494060606168" ID="ID_246523193" MODIFIED="1494060612282" TEXT="Mesoudi &amp; Whiten"/>
-<node CREATED="1494060613064" ID="ID_243906085" MODIFIED="1494060617675" TEXT="Kirby &amp; Tamariz"/>
-<node CREATED="1494060634992" ID="ID_1961055834" MODIFIED="1494060636358" TEXT="Acerbi"/>
-<node CREATED="1494060643996" ID="ID_1327990919" MODIFIED="1494060653373" TEXT="Claidi&#xe8;re"/>
-<node COLOR="#ff0000" CREATED="1494061799755" ID="ID_19165539" MODIFIED="1494061809827" TEXT="More ..."/>
-</node>
-<node CREATED="1493669627078" ID="ID_1867332189" MODIFIED="1493736031935" TEXT="General Methods">
-<node CREATED="1493669232382" ID="ID_1471337441" MODIFIED="1493669644648" TEXT="Experiment design principles"/>
-<node CREATED="1493669236975" ID="ID_1560804079" MODIFIED="1493669522736" TEXT="Trials and errors in the design"/>
-<node CREATED="1494061818295" ID="ID_1898411290" MODIFIED="1494061824653" TEXT="Spam-coding and elimination">
-<node CREATED="1494061826123" ID="ID_23447044" MODIFIED="1494061844139" TEXT="And how non-context makes some sentences ambiguous on spam"/>
-</node>
-<node CREATED="1494010206624" ID="ID_337210238" MODIFIED="1494010212719" TEXT="Engineering methods"/>
-</node>
-<node COLOR="#006699" CREATED="1493670260486" ID="ID_1835673601" MODIFIED="1493735454925" TEXT="Elements to fit in">
-<node CREATED="1496063613136" ID="ID_484147536" MODIFIED="1496063622885" TEXT="Approval by ethical board?"/>
-<node CREATED="1493670174797" ID="ID_537282413" MODIFIED="1493736031936" TEXT="Choice of sources">
-<node CREATED="1493670342185" ID="ID_416720077" MODIFIED="1493670377413" TEXT="1: From MT, famous quotes, hand-designed sentences"/>
-<node CREATED="1493670380463" ID="ID_1714474394" MODIFIED="1493889284227" TEXT="2: From memorable/non-memorable quotes"/>
-<node CREATED="1493670395149" ID="ID_323088763" MODIFIED="1493670404587" TEXT="3: From short stories"/>
-</node>
-<node CREATED="1493670170670" ID="ID_1200065850" MODIFIED="1493735463488" TEXT="High-level questions">
-<node CREATED="1493670312549" ID="ID_113996890" MODIFIED="1493735473925" TEXT="Exp 1: Initially, testing for convergence"/>
-<node CREATED="1493670327524" ID="ID_567804241" MODIFIED="1493735488470" TEXT="Exp 2: Exploring effect and evolution of memorability"/>
-<node CREATED="1493670457098" ID="ID_1147811019" MODIFIED="1493735522093" TEXT="Exp 3: Testing for standardised simplification of content, and some case-specific effects"/>
-</node>
-<node CREATED="1494010760232" ID="ID_515743791" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
-<node CREATED="1493670301784" ID="ID_1992263097" MODIFIED="1493670304864" TEXT="Results">
-<node COLOR="#ff0000" CREATED="1493708779272" ID="ID_1876306470" MODIFIED="1493735536077" TEXT="We find ..."/>
-</node>
-<node CREATED="1495449517427" ID="ID_750368804" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
-<node CREATED="1495449533348" ID="ID_1201013665" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
-<node CREATED="1497789472234" ID="ID_474542405" MODIFIED="1497789525810" TEXT="The fact that there is no context, i.e. no cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
-<node CREATED="1495449566297" ID="ID_1441313823" MODIFIED="1497789424945" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in (it approximates the wear-and-tear and flop problems discussed by sterelny_cultural_2017)"/>
-<node CREATED="1495451735222" ID="ID_709154587" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
-<node CREATED="1495449712034" ID="ID_1379835206" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
-<node CREATED="1495547569285" ID="ID_874424949" MODIFIED="1495547647041" TEXT="The fact that many relults in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
-<node CREATED="1495613547408" ID="ID_1391117185" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
-<node CREATED="1495613935136" ID="ID_800856184" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
-<node CREATED="1495898083944" ID="ID_749343664" MODIFIED="1495898268523" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
-</node>
-<node CREATED="1493670279014" ID="ID_744932518" MODIFIED="1493670281597" TEXT="Discussion"/>
 </node>
 <node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1498238883910" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
