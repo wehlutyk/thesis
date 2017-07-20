@@ -21,6 +21,7 @@ author: |
 documentclass: book
 # Numbering comes from pandoc itself (not pandoc-crossref)
 numbersections: True
+secnumdepth: 2
 lang: en-GB
 geometry: a4paper
 mainfont: TeX Gyre Pagella
