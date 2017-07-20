@@ -167,7 +167,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1497619257155" TEXT="Neighbouring areas">
+<node COLOR="#669900" CREATED="1493656507622" FOLDED="true" ID="ID_160050517" MODIFIED="1500544721961" TEXT="Neighbouring areas">
 <node CREATED="1495209350333" ID="ID_174113751" MODIFIED="1496246727847" TEXT="CAT tries to bring many areas together, so there are a lot of neighbours"/>
 <node CREATED="1495209408931" ID="ID_873369819" MODIFIED="1496246727845" TEXT="Works in morality (baumard_mutualistic_2013), in religion (boyer_religion_2001), reasoning (claidiere_argumentation_2017, mercier_why_2011)"/>
 <node CREATED="1495209596291" ID="ID_296498531" MODIFIED="1496246727845" TEXT="Here we&apos;ll look at empirical works relevant for evolution of linguistic materiall"/>
@@ -282,7 +282,7 @@
 </node>
 <node CREATED="1495207025935" ID="ID_1662838076" MODIFIED="1496226819275" TEXT="As noted above, acerbi_cultural_2016 provides an interesting discussion of more works"/>
 </node>
-<node CREATED="1496246704269" FOLDED="true" ID="ID_1724490551" MODIFIED="1497619251498" TEXT="Conclusion">
+<node CREATED="1496246704269" FOLDED="true" ID="ID_1724490551" MODIFIED="1500544721366" TEXT="Conclusion">
 <node CREATED="1496246709201" ID="ID_1744728202" MODIFIED="1496246711367" TEXT="There&apos;s more"/>
 <node CREATED="1493653687097" ID="ID_211664543" MODIFIED="1493714498697" TEXT="Literature we&apos;ll see later">
 <node CREATED="1493653308795" ID="ID_459860988" MODIFIED="1493653704861" TEXT="Psycholinguistics">
@@ -570,10 +570,8 @@
 <node CREATED="1494003172192" ID="ID_1680340392" MODIFIED="1494003187758" TEXT="And we build a tool that allows systematizing the study of sources"/>
 </node>
 <node CREATED="1493671341904" ID="ID_1025397226" MODIFIED="1493671788385" TEXT="With several levels of questions">
-<node CREATED="1493671407213" ID="ID_323718033" MODIFIED="1500363974843" TEXT="Simple descriptive statistics (length)"/>
-<node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500364066650" TEXT="A model for transformations, and the properties we observe to define it"/>
-<node CREATED="1500364070270" ID="ID_202410517" MODIFIED="1500364101179" TEXT="Feature effects for those transformations"/>
-<node CREATED="1493671407213" ID="ID_483663822" MODIFIED="1500364177136" TEXT="Aggregate effects of length, variability, transmissibility"/>
+<node CREATED="1493671407213" ID="ID_323718033" MODIFIED="1500549287841" TEXT="Descriptive statistics (length, transformation rate)"/>
+<node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500549265564" TEXT="A model for transformations, that we gradually refine and map out"/>
 <node CREATED="1493671549406" ID="ID_985400041" MODIFIED="1500364210271" TEXT="Link to case-specific studies"/>
 </node>
 </node>
@@ -586,27 +584,85 @@
 <node CREATED="1494060613064" ID="ID_1013745124" MODIFIED="1494060617675" TEXT="Kirby &amp; Tamariz"/>
 <node CREATED="1494060634992" ID="ID_1779044891" MODIFIED="1494060636358" TEXT="Acerbi"/>
 <node CREATED="1494060643996" ID="ID_1554237411" MODIFIED="1494060653373" TEXT="Claidi&#xe8;re"/>
+<node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1500544710274" TEXT="Smartphone psychology"/>
 <node COLOR="#ff0000" CREATED="1494061799755" ID="ID_463475949" MODIFIED="1494061809827" TEXT="More ..."/>
 </node>
 <node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
 <node CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500368959133" TEXT="Experiment design principles and process">
-<node CREATED="1494010206624" ID="ID_104207656" MODIFIED="1494010212719" TEXT="Engineering methods"/>
+<node CREATED="1500545196558" ID="ID_1084570679" MODIFIED="1500545471239" TEXT="Complexity">
+<node CREATED="1500549179410" ID="ID_970578308" MODIFIED="1500549223200" TEXT="Exploratory approach for attractors, but no predefined strong hypothesis to test"/>
+<node CREATED="1500545196558" ID="ID_122145223" MODIFIED="1500545463513" TEXT="Breadth of problems to be tackled, huge potential complexity"/>
+<node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500551216969" TEXT="From BCP: missing links to have a complete viwe, missing read-write details, missing context"/>
+<node CREATED="1500545242951" ID="ID_1297879545" MODIFIED="1500545272098" TEXT="Sentence presentation form and parameters"/>
+<node CREATED="1500545254519" ID="ID_979442932" MODIFIED="1500545261826" TEXT="In-between task"/>
+<node CREATED="1500545303199" ID="ID_1189762403" MODIFIED="1500545306703" TEXT="Interaction of sentences"/>
+<node CREATED="1500545235223" ID="ID_1229714138" MODIFIED="1500545241551" TEXT="Incentive"/>
+<node CREATED="1500545325433" ID="ID_1012192777" MODIFIED="1500545332258" TEXT="Choice of sources"/>
+<node CREATED="1500545338505" ID="ID_341614899" MODIFIED="1500545476720" TEXT="Going from the bottom up"/>
 </node>
-<node CREATED="1493669236975" ID="ID_654496403" MODIFIED="1493669522736" TEXT="Trials and errors in the design"/>
-<node CREATED="1493670174797" ID="ID_1154961931" MODIFIED="1493736031936" TEXT="Choice of sources">
-<node CREATED="1493670342185" ID="ID_199686146" MODIFIED="1493670377413" TEXT="1: From MT, famous quotes, hand-designed sentences"/>
-<node CREATED="1493670380463" ID="ID_555725490" MODIFIED="1493889284227" TEXT="2: From memorable/non-memorable quotes"/>
-<node CREATED="1493670395149" ID="ID_792099099" MODIFIED="1493670404587" TEXT="3: From short stories"/>
+<node CREATED="1500545351193" ID="ID_1118927909" MODIFIED="1500545357046" TEXT="Web experiment">
+<node CREATED="1500550863029" ID="ID_1991976305" MODIFIED="1500550885235" TEXT="Web and smartphone experiments strike a different balance than that of laboratory experiments"/>
+<node CREATED="1500545366797" ID="ID_65077658" MODIFIED="1500545556538" TEXT="Pros">
+<node CREATED="1500545517228" ID="ID_191007815" MODIFIED="1500545528632" TEXT="Control"/>
+<node CREATED="1500545529549" ID="ID_12554321" MODIFIED="1500545535344" TEXT="Potential for embedding">
+<node CREATED="1500551068233" ID="ID_1152218724" MODIFIED="1500551073405" TEXT="Daydreaming example"/>
 </node>
-<node CREATED="1494061818295" ID="ID_1507936649" MODIFIED="1494061824653" TEXT="Spam-coding and elimination">
+<node CREATED="1500545540076" ID="ID_505984217" MODIFIED="1500545547930" TEXT="Scale and speed of collection"/>
+<node CREATED="1500545548346" ID="ID_446020843" MODIFIED="1500545554421" TEXT="Flexible recruitment"/>
+</node>
+<node CREATED="1500545557120" ID="ID_35926386" MODIFIED="1500545558461" TEXT="Cons">
+<node CREATED="1500545589196" ID="ID_845785524" MODIFIED="1500545598998" TEXT="Engineering cost / technical challenge"/>
+<node CREATED="1500545599580" ID="ID_711902568" MODIFIED="1500545605648" TEXT="Spam-control"/>
+<node CREATED="1500545606247" ID="ID_1572683906" MODIFIED="1500545609544" TEXT="Recruitment cost"/>
+</node>
+<node CREATED="1500545378226" ID="ID_823354168" MODIFIED="1500545513317" TEXT="Technological choices, their evolution, and design overview">
+<node CREATED="1500549040439" ID="ID_106190090" MODIFIED="1500549056379" TEXT="No common system available, building my own"/>
+<node CREATED="1500545642692" ID="ID_92163109" MODIFIED="1500549411650" TEXT="DRF backend distributes trees and sentences"/>
+<node CREATED="1500545629156" ID="ID_127681181" MODIFIED="1500549427079" TEXT="JS then Elm frontend locks trees and chooses a sentence, with automated tests for critical logic"/>
+<node CREATED="1500549729386" ID="ID_305234409" MODIFIED="1500551199111" TEXT="Walk through interface, simplest viable design: read-pause-write (so no context)"/>
+<node CREATED="1500549437089" ID="ID_847019038" MODIFIED="1500549440645" TEXT="Both available online"/>
+</node>
+<node CREATED="1500545386026" ID="ID_1732371265" MODIFIED="1500549137145" TEXT="Launching with Prolific Academic">
+<node CREATED="1500549548445" ID="ID_747539052" MODIFIED="1500549553481" TEXT="Flexible recruiting"/>
+<node CREATED="1500549557687" ID="ID_1426185514" MODIFIED="1500549579219" TEXT="Complaint deluge when bugs"/>
+</node>
+</node>
+</node>
+<node CREATED="1493669236975" ID="ID_654496403" MODIFIED="1493669522736" TEXT="Trials and errors in the design">
+<node CREATED="1500549991463" ID="ID_1401648938" MODIFIED="1500549995325" TEXT="For what we want">
+<node CREATED="1500549851431" ID="ID_1806848484" MODIFIED="1500549855448" TEXT="Read-write parameters"/>
+<node CREATED="1500549634651" ID="ID_259812830" MODIFIED="1500549642515" TEXT="UI hints and affordances">
+<node CREATED="1500549864051" ID="ID_370583978" MODIFIED="1500549896736" TEXT="For general navigation (menus, profile, questionnaire, etc.)"/>
+<node CREATED="1500549897160" ID="ID_68842825" MODIFIED="1500549944661" TEXT="For conscientiousness &amp; quality"/>
+</node>
+</node>
+<node CREATED="1500550014338" ID="ID_1754292182" MODIFIED="1500550016323" TEXT="For spam">
+<node CREATED="1500549833702" ID="ID_515497193" MODIFIED="1500549843484" TEXT="Prolific user filtering and pricing"/>
+<node CREATED="1500549634651" ID="ID_1124195215" MODIFIED="1500550052557" TEXT="UI hints, controls, and affordances for spam"/>
+<node CREATED="1494061818295" ID="ID_1507936649" MODIFIED="1500550063428" TEXT="Spam-coding and elimination">
 <node CREATED="1494061826123" ID="ID_208790084" MODIFIED="1494061844139" TEXT="And how non-context makes some sentences ambiguous on spam"/>
+</node>
+</node>
+</node>
+<node CREATED="1493670174797" ID="ID_1154961931" MODIFIED="1500549725445" TEXT="Choice of sources and the timings">
+<node CREATED="1500552076924" ID="ID_1913648352" MODIFIED="1500552089959" TEXT="Vast possibilities for exploration"/>
+<node CREATED="1500552436595" ID="ID_1704538879" MODIFIED="1500552459087" TEXT="The experiment design makes the fit with sentences relatively narrow">
+<node CREATED="1500552469973" ID="ID_955086031" MODIFIED="1500552477547" TEXT="The task is easily too hard or too easy"/>
+<node CREATED="1500552478949" ID="ID_206502271" MODIFIED="1500552486846" TEXT="Choosing written or oral text changes that"/>
+<node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500552506496" TEXT="Some sentences are more susceptible to changes"/>
+</node>
+<node CREATED="1500552097592" ID="ID_1588074742" MODIFIED="1500552517475" TEXT="I used several sets, for which the descriptive observations are all valid, and we focused the rest of the analysis on the third set"/>
+<node CREATED="1493670342185" ID="ID_199686146" MODIFIED="1500552699724" TEXT="Exp 1: From MT, famous internet and movie quotes, hand-designed incongrent sentences, controversial news excerpts, short simple stories from Jefferies et al. 2004. Very heterogenous, riddled with spam (not because of the sentences)"/>
+<node CREATED="1493670380463" ID="ID_555725490" MODIFIED="1500552667467" TEXT="Exp 2: From memorable/non-memorable quotes: too easy"/>
+<node CREATED="1500552526374" ID="ID_1703311262" MODIFIED="1500552532472" TEXT="Pilots on jabberwockies"/>
+<node CREATED="1493670395149" ID="ID_792099099" MODIFIED="1500552663824" TEXT="Exp 3: From short stories, and Mesoudi case-study"/>
 </node>
 </node>
 <node CREATED="1500364244812" ID="ID_147528875" MODIFIED="1500364246804" TEXT="Analysis">
 <node CREATED="1500369246959" ID="ID_921327933" MODIFIED="1500369342199" TEXT="Descriptive observations">
 <node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500369348067" TEXT="Lengths"/>
 <node CREATED="1500369348459" ID="ID_556410290" MODIFIED="1500369497534" TEXT="Measures of transformation rate and their evolution"/>
-<node CREATED="1500369499828" ID="ID_1189031225" MODIFIED="1500369508569" TEXT="As a censequence, transmissibility"/>
+<node CREATED="1500369499828" ID="ID_1189031225" MODIFIED="1500544647435" TEXT="As a consequence, transmissibility"/>
 <node CREATED="1500369524185" ID="ID_185582015" MODIFIED="1500372287717" TEXT="(No obvious convergence pattern)"/>
 </node>
 <node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
@@ -654,7 +710,7 @@
 <node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
 </node>
 </node>
-<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500542964526" TEXT="Discussion">
+<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1500544763268" TEXT="Discussion">
 <node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
 <node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
 <node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
@@ -675,6 +731,7 @@
 <node CREATED="1497789472234" ID="ID_193736451" MODIFIED="1497789525810" TEXT="The fact that there is no context, i.e. no cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
 <node CREATED="1495449712034" ID="ID_1535169286" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
 <node CREATED="1495898083944" ID="ID_617425290" MODIFIED="1495898268523" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
+<node CREATED="1500544768269" ID="ID_133565159" MODIFIED="1500544784247" TEXT="Embedding and smartphone psychology is a way to go"/>
 </node>
 <node CREATED="1500368904847" ID="ID_1423784145" MODIFIED="1500542621759" TEXT="Caveats on content">
 <node CREATED="1495449517427" ID="ID_244642587" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
