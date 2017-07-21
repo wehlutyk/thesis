@@ -44,7 +44,7 @@ Their presence is largely due to random variations around casual expressions, wh
 To filter them out, we exclude quotes with less than 5 words or whose occurrences span more than 80 days (indicating causally unrelated occurrences), as well as quotes not written in English.
 Clusters that are emptied by this procedure are therefore excluded.
 If, after this screening, a cluster's occurrences still span more than 80 days (because of short-lived but unrelated quotes far apart in time), we also exclude it.
-We eventually keep 50,427 clusters (out of 71,568; i.e. 70.5%), containing a total of 141,324 unique quotes (out of 310,457; i.e. 45.5%) making up about 2.60m occurrences (out of 7.67m; i.e. 33.9%).^[
+We eventually keep \num{50427} clusters (out of \num{71568}; i.e. 70.5%), containing a total of \num{141324} unique quotes (out of \num{310457}; i.e. 45.5%) making up about 2.60m occurrences (out of 7.67m; i.e. 33.9%).^[
 The significantly larger loss in occurrences indicates that, on average, the clusters we lose contain more occurrences than those we keep, which is to be expected for everyday language utterances.
 ]
 Even if we lose some real event-related utterances which are present in clusters lasting more than 80 days (one such lost quote, for instance, is "the city is tired of me and the organization and I have run our course together"), we check that our filtering approach fulfills its goals by coding a random sub-sample of 100 clusters: 35 of them are rejected by the filter, with 15 false negatives (rejected clusters that should have been kept) and 9 false positives (clusters kept when they should have been rejected), giving a precision score of 0.862 and a recall score of 0.789.
@@ -241,9 +241,9 @@ the results were unchanged.
 
 \medskip
 
-In practice for the model first introduced above, from the 2.60m initial occurrences spread over 50,427 quotation families, with significant redundancy (many quotes are indeed simple duplicates), we mine 40,868 substitutions.
+In practice for the model first introduced above, from the 2.60m initial occurrences spread over \num{50427} quotation families, with significant redundancy (many quotes are indeed simple duplicates), we mine \num{40868} substitutions.
 From these substitutions we remove those featuring stopwords, minor spelling changes (e.g. center/centre), abbreviations (e.g. November/Nov or Senator/Sen), spelled out numbers, words unknown to WordNet, and deletions in substrings (which can appear as substitutions of non-deleted words);
-this eventually yields 6,177 valid substitutions.^[
+this eventually yields \num{6177} valid substitutions.^[
 Manually coding a random subset of 100 substitutions to evaluate this last filter showed that 84 were true negatives, 5 were false positives, and 11 true positives, giving a recall score of .688.
 Precision was evaluated over a random subset of 100 *kept* substitutions, showing a score of .87.
 Finally, note that excluding minor spelling changes does not bias our use of orthographic neighborhood density as a feature:
