@@ -588,14 +588,14 @@
 <node COLOR="#ff0000" CREATED="1494061799755" ID="ID_463475949" MODIFIED="1494061809827" TEXT="More ..."/>
 </node>
 <node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
-<node CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500368959133" TEXT="Experiment design principles and process">
-<node COLOR="#669900" CREATED="1500577254765" FOLDED="true" ID="ID_119937155" MODIFIED="1500579514644" TEXT="Transmission chains are the obvious way to go">
+<node COLOR="#669900" CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500672018125" TEXT="Experiment design principles">
+<node CREATED="1500577254765" ID="ID_119937155" MODIFIED="1500644423590" TEXT="Transmission chains are the obvious way to go">
 <node CREATED="1500579412424" ID="ID_1903213209" MODIFIED="1500579426919" TEXT="They&apos;re the obvious way to go given the questions left open in the BCP chapter"/>
 <node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500579460191" TEXT="Problems from BCP: missing links to have a complete view, missing read-write details, missing context"/>
 <node CREATED="1500549179410" ID="ID_970578308" MODIFIED="1500579442782" TEXT="But we have an exploratory approach for attractors and transformations, and no predefined strong hypothesis to test"/>
 <node CREATED="1500579461769" ID="ID_1592526992" MODIFIED="1500579465051" TEXT="So we need more data"/>
 </node>
-<node COLOR="#669900" CREATED="1500545351193" FOLDED="true" ID="ID_1118927909" MODIFIED="1500579520414" TEXT="Web experiment">
+<node CREATED="1500545351193" ID="ID_1118927909" MODIFIED="1500644551502" TEXT="Web experiments">
 <node CREATED="1500550863029" ID="ID_1991976305" MODIFIED="1500550885235" TEXT="Web and smartphone experiments strike a different balance than that of laboratory experiments"/>
 <node CREATED="1500545366797" ID="ID_65077658" MODIFIED="1500545556538" TEXT="Pros">
 <node CREATED="1500545517228" ID="ID_191007815" MODIFIED="1500545528632" TEXT="Control"/>
@@ -610,24 +610,23 @@
 </node>
 <node CREATED="1500553772669" ID="ID_1365394623" MODIFIED="1500581235698" TEXT="Web-based transmission chains">
 <node CREATED="1500581241872" ID="ID_1953533153" MODIFIED="1500581262104" TEXT="The balance is exactly what we need, so we made our own platform"/>
-<node CREATED="1500545196558" ID="ID_1084570679" MODIFIED="1500577254768" TEXT="Complexity">
-<node CREATED="1500545196558" ID="ID_122145223" MODIFIED="1500545463513" TEXT="Breadth of problems to be tackled, huge potential complexity"/>
-<node CREATED="1500545242951" ID="ID_1297879545" MODIFIED="1500545272098" TEXT="Sentence presentation form and parameters"/>
-<node CREATED="1500545254519" ID="ID_979442932" MODIFIED="1500545261826" TEXT="In-between task"/>
-<node CREATED="1500545303199" ID="ID_1189762403" MODIFIED="1500545306703" TEXT="Interaction of sentences"/>
-<node CREATED="1500545235223" ID="ID_1229714138" MODIFIED="1500545241551" TEXT="Incentive"/>
-<node CREATED="1500545325433" ID="ID_1012192777" MODIFIED="1500545332258" TEXT="Choice of sources"/>
-<node CREATED="1500545338505" ID="ID_341614899" MODIFIED="1500545476720" TEXT="Going from the bottom up"/>
+<node CREATED="1500644237543" ID="ID_138627056" MODIFIED="1500644242768" TEXT="We make it as simple as possible">
+<node CREATED="1500644330253" ID="ID_1565445370" MODIFIED="1500644332795" TEXT="No context"/>
+<node CREATED="1500644333188" ID="ID_711534249" MODIFIED="1500644336857" TEXT="No in-between task"/>
+<node CREATED="1500644339616" ID="ID_157717377" MODIFIED="1500644344315" TEXT="Monetary incentive"/>
+<node CREATED="1500644347800" ID="ID_1511840440" MODIFIED="1500644357613" TEXT="Lefit with reading time and choice of sources to adjust"/>
 </node>
-<node CREATED="1500545378226" ID="ID_823354168" MODIFIED="1500545513317" TEXT="Technological choices, their evolution, and design overview">
+<node CREATED="1500644244524" ID="ID_593622943" MODIFIED="1500644307337" TEXT="Walk through the steps for the subjects"/>
+<node CREATED="1500644254961" ID="ID_657754129" MODIFIED="1500644265353" TEXT="Explain the resulting shape of the data"/>
+<node CREATED="1500545378226" ID="ID_823354168" MODIFIED="1500644294850" TEXT="Technological choices and their evolution">
+<node CREATED="1500545629156" ID="ID_127681181" MODIFIED="1500644397838" TEXT="JS then Elm because of complaint deluge when bugs"/>
 <node CREATED="1500545642692" ID="ID_92163109" MODIFIED="1500549411650" TEXT="DRF backend distributes trees and sentences"/>
-<node CREATED="1500545629156" ID="ID_127681181" MODIFIED="1500549427079" TEXT="JS then Elm frontend locks trees and chooses a sentence, with automated tests for critical logic"/>
-<node CREATED="1500549729386" ID="ID_305234409" MODIFIED="1500551199111" TEXT="Walk through interface, simplest viable design: read-pause-write (so no context)"/>
+<node CREATED="1500644400698" ID="ID_1180526" MODIFIED="1500644404118" TEXT="With automated tests for critical logic"/>
 <node CREATED="1500549437089" ID="ID_847019038" MODIFIED="1500549440645" TEXT="Both available online"/>
 </node>
 <node CREATED="1500545386026" ID="ID_1732371265" MODIFIED="1500549137145" TEXT="Launching with Prolific Academic">
-<node COLOR="#990000" CREATED="1500549548445" ID="ID_747539052" MODIFIED="1500631519739" TEXT="Flexible recruiting"/>
-<node COLOR="#990000" CREATED="1500549557687" ID="ID_1426185514" MODIFIED="1500631519737" TEXT="Complaint deluge when bugs"/>
+<node CREATED="1500549548445" ID="ID_747539052" MODIFIED="1500644418172" TEXT="Flexible recruiting"/>
+<node CREATED="1500549557687" ID="ID_1426185514" MODIFIED="1500644418175" TEXT="Many subjects"/>
 </node>
 </node>
 </node>
@@ -640,7 +639,7 @@
 </node>
 </node>
 <node CREATED="1500550014338" ID="ID_1754292182" MODIFIED="1500550016323" TEXT="For spam">
-<node CREATED="1500549833702" ID="ID_515497193" MODIFIED="1500549843484" TEXT="Prolific user filtering and pricing"/>
+<node CREATED="1500549833702" ID="ID_515497193" MODIFIED="1500647667328" TEXT="Prolific user filtering, pricing and timing"/>
 <node CREATED="1500549634651" ID="ID_1124195215" MODIFIED="1500550052557" TEXT="UI hints, controls, and affordances for spam"/>
 <node CREATED="1494061818295" ID="ID_1507936649" MODIFIED="1500550063428" TEXT="Spam-coding and elimination">
 <node CREATED="1494061826123" ID="ID_208790084" MODIFIED="1494061844139" TEXT="And how non-context makes some sentences ambiguous on spam"/>
@@ -650,9 +649,9 @@
 <node CREATED="1493670174797" ID="ID_1154961931" MODIFIED="1500549725445" TEXT="Choice of sources and the timings">
 <node CREATED="1500552076924" ID="ID_1913648352" MODIFIED="1500552089959" TEXT="Vast possibilities for exploration"/>
 <node CREATED="1500552436595" ID="ID_1704538879" MODIFIED="1500552459087" TEXT="The experiment design makes the fit with sentences relatively narrow">
-<node CREATED="1500552469973" ID="ID_955086031" MODIFIED="1500552477547" TEXT="The task is easily too hard or too easy"/>
-<node CREATED="1500552478949" ID="ID_206502271" MODIFIED="1500552486846" TEXT="Choosing written or oral text changes that"/>
-<node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500552506496" TEXT="Some sentences are more susceptible to changes"/>
+<node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500644771269" TEXT="Some sentences are more susceptible to changes"/>
+<node CREATED="1500552478949" ID="ID_206502271" MODIFIED="1500644774258" TEXT="Choosing written or oral text changes that"/>
+<node CREATED="1500552469973" ID="ID_955086031" MODIFIED="1500644764858" TEXT="The task is easily too hard or too easy because of reading time, with sharp transition depending on the sentence type"/>
 </node>
 <node CREATED="1500552097592" ID="ID_1588074742" MODIFIED="1500552517475" TEXT="I used several sets, for which the descriptive observations are all valid, and we focused the rest of the analysis on the third set"/>
 <node CREATED="1493670342185" ID="ID_199686146" MODIFIED="1500552699724" TEXT="Exp 1: From MT, famous internet and movie quotes, hand-designed incongrent sentences, controversial news excerpts, short simple stories from Jefferies et al. 2004. Very heterogenous, riddled with spam (not because of the sentences)"/>
