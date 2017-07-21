@@ -72,11 +72,113 @@ The corresponding costs are the following:
 #### Web-based transmission chains
 
 The balance achieved by the Web-based approach is particularly adapted to the experimental  requirements we outlined above.
-Since no existing system would fit our needs, we chose to develop a reusable Web-based platform to run a series of studies that would allow us, once ready, to gather sufficient amounts of high-quality data in short cycles.
+Since no existing system would fit our needs, we chose to develop a reusable Web-based platform to run a series of studies that would allow us, once ready, to gather sufficient amounts of quality data in short cycles.
+We further decided to implement the simplest possible version of the transmission chain paradigm that is still viable, and leave the exploration of more complex setups for future research:
+the task we used asks subjects to read and memorise a short utterance, wait a few seconds, then rewrite what they have read as accurately as possible.
 
-HERE
+Subjects' productions are arranged in chains, such that what a given subject produces is used as the source utterance for the subject appearing next in a chain.
+In particular, the utterances to memorise are presented with no surrounding context, no distraction task is used between the reading and writing phases, and the material incentive for the task is purely monetary (although as we describe below we fine-tuned the interface to strongly encourage subjects to be conscientious).
+This simple setup lets us quickly gather data sets of several thousand utterance transformations, ensuring our results will be comparable to those from the set of \num{6177} substitutions we extracted in the previous chapter.
+Two parameters are left to vary:
+the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted, and the set of initial source utterances.
 
-The platform is a complete Web application with accompanying backend server built using current technologies,
-^[TODO: details: Elm, DRF, tests, free software on github, etc.
+The experiment is available to subjects as a website, and passing it involves the following steps:
+
+* Welcome and sign up ([@fig:gistr-welcome;@fig:gistr-signup]),
+* Answering a preliminary questionnaire (@fig:gistr-questionnaire),
+  ^[An early version of the experiment also included a word span test at this stage.
+  However, similarly to the age of subjects that we collect in the questionnaire, this data turned out to not be relevant in the analyses.
+  The magnitude of transformations depends far more on the conscientiousness of subjects, and this non-trivial test was later removed during one of the frontend rewrites.
+  ]
+* Subjects then start training for the main task, where they are asked to repeatedly memorise and rewrite short utterances as accurately as possible.
+  As the instructions in @fig:gistr-instructions indicate, an utterance is presented to the subject and after a short pause they are asked to rewrite it as remembered.
+  The process loops until the subject has completed all the utterances assigned to them (calibrated so that completing the experiment lasts at most one hour).
+  The real trials start after 3 to 5 training trials, depending on the overall experiment length.
+
+Each utterance from the initial set is used to create several parallel chains in order to allow for comparisons across chains with the same initial utterance.
+The final data thus consists in a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.
+^[We therefore use the terms "chain" and "branch" interchangeably in what follows.
 ]
-which can be used to run small- to large-scale transmission chains in short periods of time.
+The number of branches in a tree is also adjusted for each run of the experiment.
+Except for those who drop out before finishing the experiment, all subjects are exposed exactly once to each tree in random order, such that all the reformulations in a given tree are made by distinct subjects, and nearly all subjects (excluding dropouts) are present in each tree.
+Finally, note that when exposed to a tree, subjects are always randomly assigned to the tip of one of the branches that have not yet reached the target depth:
+subjects are thus randomly distributed across branches, but their depth-ordering loosely corresponds to time of arrival on the tree.
+In particular, if a subject starts the experiment after most other subjects have completed it, he or she will be mostly exposed to utterances deep in the branches.
+Due to the chained nature of the data, there is no economical way of countering this ordering bias.
+^[The following three approaches could be combined to counter ordering bias.
+(1) Have each subject do a single trial, that is, use as many subjects as there are reformulations in the full experiment;
+this is extremely expensive as there is a fixed minimal price for each subject, in order to give time to explore the interface, answer the initial questionnaire, and train for the task.
+(2) Have each subject wait an adjustable amount of time between each trial, to open the possibility of ordering subjects differently from their time of arrival;
+this is also expensive, as it means paying subjects for waiting most of the time they spend on the experiment.
+(3) Optimise the order of tree presentations of each subject so as to spread subjects across depths;
+while this approach could achieve some level of spread when combined with (2), it is contingent on the starting times of subjects and their synchronisation, which we do not control (subjects find the experiment through Prolific Academic notifications and are free to start whenever they want).
+]
+@Fig:gistr-trees shows a representation of the shape of the final trees.
+
+<div id="fig:gistr-start">
+
+![Welcome screen](images/gistr/gistr-welcome.png){#fig:gistr-welcome width=48%}
+<span> </span>
+![Signup form](images/gistr/gistr-signup.png){#fig:gistr-signup width=48%}
+
+Initial steps for a subject entering the experiment.
+</div>
+
+![Initial questionnaire.
+Subjects can additionally submit feedback on the questionnaire or any other aspect of the experiment on most screens of the website.
+](images/gistr/gistr-questionnaire.png){#fig:gistr-questionnaire width=90%}
+
+![Instructions for the main task
+](images/gistr/gistr-instructions-training.png){#fig:gistr-instructions width=75%}
+
+![Two example reformulation trees generated by the setup:
+the text on the left is the initial utterance for all branches of a tree, represented by a red dot in the right-hand graph; each grey dot in the graph represents an utterance produced by a subject on the basis of the preceding dot.
+Most subjects created one reformulation in each tree;
+however, since subjects from Prolific Academic do not always complete the whole set of utterances assigned to them, we recruit additional subjects to fill the trees that were left incomplete.
+This leads the other, already complete trees to receive more reformulations than needed, making some of their branches run deeper than the target depth (as is the case for the trees shown here).
+All branches are cropped to the target depth for analysis.
+](images/gistr/gistr-trees.png){#fig:gistr-trees width=75%}
+
+Technically, the platform is a complete Web application based on current technologies, with accompanying backend server to collect and distribute utterances.
+^[The frontend first used the Ember.js framework [@ember.js_contributors_ember.js:_2017], and was later rewritten and extended using the Elm programming language [@czaplicki_elm:_2017].
+The backend is a Python application written on top of the Django REST framework [@christie_django_2017].
+Most of the critical logic in the software is verified using automated tests, and the full source code is available under a Free Software licence at \url{https://github.com/interpretation-experiment/gistr-app} (frontend), and \url{https://github.com/interpretation-experiment/spreadr} (backend).
+]
+The experiment is available at \url{https://gistr.io} and subject recruitment was done using Prolific Academic, a service analogous to Amazon Mechanical Turk and geared towards academic research.
+^[The public url of the experiment was not advertised anywhere else, and checking the subjects' Prolific Academic ID confirmed that only people from that platform participated in each experiment.
+]
+
+Using the Prolific Academic service allowed us to select among a pool of over \num{26000} subjects, for which we used the following criteria:
+
+* First language English speaker
+* At least 18 years old
+* Current country of residence and place of most time spent before turning 18 must both be the UK
+* Normal or corrected to normal vision
+* No diagnosed literary difficulties
+* Completed secondary school
+* Not having participated in any of the preceding experiments
+
+Only the first two constraints were enforced for the first experiment, and the full set was used for all subsequent runs.
+The full filter provided over \num{2300} eligible subjects, from which the service automatically sampled the number of subjects we requested.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
