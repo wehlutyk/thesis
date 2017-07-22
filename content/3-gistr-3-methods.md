@@ -44,7 +44,8 @@ This approach makes a number of unusual trade-offs, the benefits of which can be
 * *Flexible recruitment*:
   while also a challenge (see costs below), subject recruitment is more flexible than in the laboratory:
   services like Prolific Academic
-  ^[\url{https://www.prolific.ac/}]
+  ^[\url{https://www.prolific.ac/}.
+  ]
   let the experimenter recruit at reasonable costs in pools of tens of thousands of subjects with fine-grained demographic filters.
   Wider audiences can be achieved by offering non-financial rewards, framing the experiment as a self-improvement application, or turning it into a game.
 
@@ -53,7 +54,8 @@ The corresponding costs are the following:
 * *Technical challenge*:
   developing Web and smartphone experiments involves a substantial amount of engineering, and makes use of an array of technologies that most researchers, even technical, are not familiar with.
   While a couple of all-in-one kits exist,
-  ^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.]
+  ^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.
+  ]
   creating an experiment that meets one's research questions requires learning average skills in most of the various technologies at play:
   a native or cross-platform smartphone development environment, Web application development, backend server programming, and some server administration skills.
   Most importantly, the paradigms and problems encountered are new to researchers:
@@ -296,3 +298,68 @@ The box is available in most screens of Experiments 2 and 3.
 
 
 ### Task difficulty and source complexity fit
+
+Given the simple task we used, difficulty is controlled by the reading time allotted to subjects and by the selection of source utterances.
+In order to unify reading times across utterances we decided that reading time would be proportional to the number of words in the utterance presented:
+for an utterance $u$, its number of words is noted $|u|_w$ and its reading time is defined as $|u|_w \cdot r$.
+We call $r$ the *reading factor*.
+Average reading speeds for university students are usually between 200 and 300 words per minute, that is between 3.33 and 5 words per second [see @rayner_eye_2010, where fast readers average at 330\ wpm and slow readers average at 207\ wpm].
+A reading factor of $r = 1$ therefore gives fast readers the time to read utterances more than 5 times, and slow readers about 3 to 4 times.
+A reading factor of $r = .3$ gives fast readers one or two readings, and slow readers at least one.
+$r = .2$ gives some readers one reading and others less than one, and $r = .1$ lets readers simply glance at the utterances without being able to read them completely.
+
+Pilots and manual exploration indicated that the difficulty of the task is not linear with $r$.
+Whatever the value of $r$, longer utterances (more than 25 words) are often more transformed, relative to their length, than shorter utterances;
+longer utterances also give more space for the subjects to reformulate, leading to more changes in style and permutations in the words.
+Changing $r$ has less effect on shorter utterances than on longer utterances, and on utterances in oral versus written style.
+For short utterances in an oral style, pilots indicated that there is an abrupt transition between a low transformation regime when subjects can read the sentence at least once, and an extremely noisy regime when the subjects do not have the time to read the utterances entirely at their normal speed.
+Conversely, the transition is smoother for longer utterances or utterances with a more formal written style.
+Choosing an adequate set of source utterances is therefore an integral factor in adjusting the difficulty of the task.
+
+Changing the source utterances also affects the sampling bias in ways that are difficult to measure given the multidimensionality of text.
+Contrasting minimally different utterances in different domains has resulted in domain-specific outcomes on for instance stereotypes, information hierarchy, and counter-intuitiveness [@kashima_maintaining_2000;@mesoudi_bias_2006;@barrett_spreading_2001;@mesoudi_multiple_2008], and authors have suggested that these outcomes are related to domain-specific biases in transformations (although to our knowledge these effects have not yet been studied jointly).
+In spite of this, we hypothesise that the low-level cognitive mechanisms underlying utterance transformation, that is the mechanisms that give rise to such accumulated outcomes, do not fundamentally change because of the type or the style of an utterance.
+If using news quotes instead of movie quotes or stories is likely to affect parameters of the observed transformations, it is less likely to affect the structure of the underlying cognitive mechanism, and therefore the general structure of transformations.
+Making this hypothesis lets us use utterance selection as an exploratory tool:
+by altering both the sampling of the transformations and the task difficulty, the exploration of different styles and types can help (1) improve data quality and (2) make general structure more visible, thus easier to measure and characterise.
+If this exploration yields insights about the structure of transformations and their effects in the long term, and if such insights are consistent with the previous chapter, then it will make sense to ask to what extent the uncovered structure is applicable to or varies with other types of utterances.
+Throughout pilots and experiments, our goal was therefore to find a set of utterances which would trigger varied transformations whose structure we could analyse and model, while at the same time helping the subjects to produce quality data by not creating too much pressure with reading time.
+
+The set of sources used in Experiment 1 covered a broad spectrum of utterance types sampled from the following categories:
+
+* Quotes from the MemeTracker data set used in the previous chapter,
+* Famous compelling quotes from Wikisource
+^[\url{https://en.wikisource.org/}.
+]
+such as "Never doubt that a small group of thoughtful committed citizens can change the world, it is the only thing that ever has"
+* Quotes extracted from the movie *12 Angry Men* such as "If you ask me I'd slap those tough kids down before they start any trouble, it saves a lot of time and money",
+* Excerpts from news stories on controversial subjects (such as "How will the cultural and religious aspects of so many migrants impact E.U. society?") or risk-related subjects such as stories about the risks of Triclosan [used by @moussaid_amplification_2015 in their study of the amplification of risk perception],
+* The tale "War of the Ghosts" used by @bartlett_remembering:_1995 in his original studies,
+^[Available online at \url{http://penta.ufrgs.br/edu/telelab/2/war-of-t.htm}.
+]
+as well as excerpts from other tales,
+* A small number of hand-crafted sentences such as surprising statements (e.g. "Don't forget to leave the door open when you leave the office") or stereotype incongruent statements (e.g. "The young boy was suddenly hit by the little girl").
+
+Each of these categories, we thought, could encourage the triggering of transformations.
+The spam level of Experiment 1, and especially the amount of misspelled words, made the exploration of the detailed transformations impossible and shifted the focus towards improving data quality through the interface.
+Nonetheless, it became clear that using such a heterogeneous set of utterances could surprise subjects, and was not be the best approach to elicit regularities in transformations.
+Experiments 2 and 3 relied on a more thorough exploration of possible source data sets.
+Pilots explored utterances extracted from previous studies [@bangerter_transformation_2000 on personification and increased stereotypes; @heath_emotional_2001 on the role of disgust; @maxwell_remembering_1936 on incoherent stories; @mesoudi_bias_2006 for the role of social information].
+
+Two larger and more homogeneous sets of utterances were also reconstituted and finally used in Experiments 2 and 3.
+First, a set of movie quotes provided by @danescu-niculescu-mizil_you_2012.
+This data set contains about 2200 pairs of quotes extracted from 1000 movie scripts;
+each pair is made of a quote that was marked as memorable by users of the Internet Movie Database, coupled with the closest quote in the same movie script that is spoken by the same character, has the same number of words, but is not marked as memorable on the Internet Movie Database.
+The 2200 pairs of quotes were filtered to keep only those which passed the spelling and punctuation quality tests from the previous section, and for which the number of words was strictly matched when excluding punctuation (this left 505 pairs).
+Second, a set of short stories from @feneon_novels_2007 was used.
+These stories are productions from Félix Fénéon originally anonymously published in the French newspaper *Le Matin* in 1906.
+They describe facts from everyday life such as accidents, suicides, or trials, in a terse and sometimes humorous style.
+A sample of 60 stories was extracted from the English version, for which French names and places were replaced with names and places more familiar to British subjects.
+Pilots explored these sets of utterances with reading factors of .1, .2, .3, .75 and 1.
+Finally, tests were also made using these utterances with content words replaced with pseudo-words, in order to restrict effects to the grammatical dimension only.
+^[Pseudo-words were generate using the Wuggy library [@keuleers_wuggy:_2010].
+]
+The pseudo-word tests were inconclusive, as the task became too confusing and subjects often replaced unknown words with real words.
+
+Experiment 2 used 25 of the 27 pairs of movie quotes that had exactly 15 or 16 words, providing a homogeneous set of 50 utterances in oral style, with a reading factor of .75.
+Experiment 3 used 43 of the 60 short stories by Fénéon (average number of words \num{21.2}) coupled with 4 utterances extracted from @mesoudi_bias_2006 (average number of words \num{60.3}) and 3 utterances extracted from the story used by @maxwell_remembering_1936 (average number of words \num{40.7}), with a reading factor of 1.

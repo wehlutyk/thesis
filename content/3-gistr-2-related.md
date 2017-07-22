@@ -1,5 +1,8 @@
 ## Related work {#sec:gistr-related}
 
+TBD
+
+<!--
 * Bartlett
 * Nettle
 * Bebbington
@@ -14,3 +17,4 @@
 
 
 their questions, and their limitations
+-->

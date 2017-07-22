@@ -1,6 +1,8 @@
 ## Discussion {#sec:gistr-discussion}
 
+TBD
 
+<!--
 The need for embedding
 
 Any quantitative study relies on abstracting out details of particular cases by reducing (most often averaging) values in each dimension to a few indicators.
@@ -23,3 +25,4 @@ While our team spent over a year developing the application, it allowed asking q
 * *Embedding*:
 as explained above, smartphone-based experiments allow for real-life embedding:
 the experiment designer can choose when and how interactions with the experiment and between subjects take place, and measure any number of variables the device gives them access to (geolocation, time, phone agitation through its accelerometers, general noise level, etc.), virtually at any moment.
+-->

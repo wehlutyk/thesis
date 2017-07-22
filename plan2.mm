@@ -588,7 +588,10 @@
 <node COLOR="#ff0000" CREATED="1494061799755" ID="ID_463475949" MODIFIED="1494061809827" TEXT="More ..."/>
 </node>
 <node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
-<node COLOR="#669900" CREATED="1493669232382" ID="ID_891608720" MODIFIED="1500672018125" TEXT="Experiment design principles">
+<node COLOR="#ff0000" CREATED="1500752225277" ID="ID_1496990986" MODIFIED="1500752246145" TEXT="Reorganise this outline once the text is settled">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1493669232382" FOLDED="true" ID="ID_891608720" MODIFIED="1500752254306" TEXT="Experiment design principles">
 <node CREATED="1500577254765" ID="ID_119937155" MODIFIED="1500644423590" TEXT="Transmission chains are the obvious way to go">
 <node CREATED="1500579412424" ID="ID_1903213209" MODIFIED="1500579426919" TEXT="They&apos;re the obvious way to go given the questions left open in the BCP chapter"/>
 <node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500579460191" TEXT="Problems from BCP: missing links to have a complete view, missing read-write details, missing context"/>
@@ -630,7 +633,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493669236975" ID="ID_654496403" MODIFIED="1500672057312" TEXT="Trials and errors in the design">
+<node COLOR="#669900" CREATED="1493669236975" FOLDED="true" ID="ID_654496403" MODIFIED="1500752252284" TEXT="Trials and errors in the design">
 <node CREATED="1500549991463" ID="ID_1401648938" MODIFIED="1500549995325" TEXT="For what we want">
 <node CREATED="1500549851431" ID="ID_1806848484" MODIFIED="1500549855448" TEXT="Read-write parameters"/>
 <node CREATED="1500549634651" ID="ID_259812830" MODIFIED="1500549642515" TEXT="UI hints and affordances">
@@ -646,7 +649,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493670174797" ID="ID_1154961931" MODIFIED="1500549725445" TEXT="Choice of sources and the timings">
+<node COLOR="#669900" CREATED="1493670174797" FOLDED="true" ID="ID_1154961931" MODIFIED="1500752253399" TEXT="Choice of sources and the timings">
 <node CREATED="1500552076924" ID="ID_1913648352" MODIFIED="1500552089959" TEXT="Vast possibilities for exploration"/>
 <node CREATED="1500552436595" ID="ID_1704538879" MODIFIED="1500552459087" TEXT="The experiment design makes the fit with sentences relatively narrow">
 <node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500644771269" TEXT="Some sentences are more susceptible to changes"/>
