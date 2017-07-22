@@ -4,20 +4,21 @@
 
 #### Advantages and challenges of transmission chains
 
-An obvious way to address the questions raised in the previous chapter is to use a transmission chain experiment to study the evolution of online quotations in a controlled setting:
+An obvious way to address the questions raised in the previous chapter is to use transmission chains in the laboratory to study the evolution of online quotations in a controlled setting:
 each subject reads, retains, and rewrites sentences that are then passed on to the next subject in a chain of reformulations.
-If designed carefully, such a setup can reproduce an idealised version of the read-remember-rewrite process which, we hypothesised, participates in the evolution of quotations in blogspace and media outlets.
+Such a setup can reproduce an idealised version of the read-remember-rewrite process which, we hypothesised, participates in the evolution of quotations in blogspace and media outlets.
 It also provides the information that our previous data set lacked in order to analyse the complete transformations of quotations, as well as the long-term effect of those changes:
-the links between parent and child sentences are naturally encoded in the data, such that the transformations undergone by each sentence can be studied in full detail without restricting ourselves to simpler changes as was necessary for the inference procedure used with digital traces from blogspace.
+the links between parent and child sentences are naturally encoded in the data, such that the transformations undergone by each sentence can be studied in full detail.
+There is no need to restrict ourselves to simpler changes as was necessary for the inference procedure used with digital traces from blogspace.
 By creating an artificial setting, the experiment design also lets us control the reading and writing conditions as well as the context in which sentences appear, which further removes one of the inevitable uncertainties of the previous protocol (albeit at the cost of less ecological conditions).
 
-As previously, our approach is exploratory, which renders the laboratory transmission chain paradigm difficult to apply directly:
+The laboratory transmission chain paradigm is not a good fit for our exploratory approach however:
 we aim to collect data that will allow us to study both the complete set of transformations undergone by short utterances such as online quotations, and the interactions and cumulative effect of such changes;
 yet we do not know in advance the types of changes that subjects will make, or the extent to which such changes vary according to the type of linguistic content.
 Transmission chain studies typically start with an a priori hypothesis focused on a well-identified type of content, which is then empirically tested by contrasting the evolutionary outcome of two classes of sentences.
-Our goal here, however, is to provide first steps in characterising the process by which such evolution of linguistic content arises, and observe how it accumulates in the long term.
+Instead, our goal here is to provide first steps in characterising the process by which such evolution of linguistic content arises, and observe how it accumulates in the long term.
 The setup must thus allow us to collect enough data to extract regularities in successive transformations operated by different subjects on different sentences, and provide a resolving power similar to that of substitutions in online quotations so that we can compare results with the previous chapter.
-Since our main target is the set of detailed transformations and their interactions, versus targeting the contrast of accumulated outcomes, it is also crucial to fine-tune the difficulty of the read-write task and the complexity of the source sentences, in order to trigger a set of transformations varied enough that it could approach some of the changes encountered in real life situations.
+Since our main target is the set of detailed transformations and their interactions, a phenomenan of higher dimensionality than the contrast of accumulated outcomes, it is also crucial to fine-tune the difficulty of the read-write task and the complexity of the source sentences, in order to trigger a set of transformations varied enough that it could approach some of the changes encountered in real life situations.
 Our progress therefore involves a non-trivial trial-and-error component:
 indeed, a task made too easy or too difficult, and more so a set of source sentences that are too complex or too straightforward, will lead to either mass deletions or perfect conservation (or the former followed by the latter), none of which can help characterise the more intricate changes that linguistic content undergoes in the ecological setting we aim to simulate.
 
@@ -38,7 +39,7 @@ This approach makes a number of unusual trade-offs, the benefits of which can be
   Interactions between subjects can also scale to involve synchronous or asynchronous contact between hundreds of people, without having to manage per-subject scheduling.
 * *Speed of data collection*:
   once the initial development is completed (see costs below), the data collection cycle is short.
-  One day can be enough to collect a data set comparable in size and quality to the final substitutions set extracted and analysed in the previous chapter.
+  One day can be enough to collect \num{1000}--\num{10000} usable data points, a size comparable to the final substitutions set extracted and analysed in the previous chapter.
   This is especially relevant for exploratory work which is made much easier with shorter trial-and-error cycles.
 * *Flexible recruitment*:
   while also a challenge (see costs below), subject recruitment is more flexible than in the laboratory:
@@ -51,37 +52,35 @@ The corresponding costs are the following:
 
 * *Technical challenge*:
   developing Web and smartphone experiments involves a substantial amount of engineering, and makes use of an array of technologies that most researchers, even technical, are not familiar with.
-  While some all-in-one kits exist,
+  While a couple of all-in-one kits exist,
   ^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.]
-  creating an experiment that meets one's research questions often requires learning average skills in most of the various technologies at play:
+  creating an experiment that meets one's research questions requires learning average skills in most of the various technologies at play:
   a native or cross-platform smartphone development environment, Web application development, backend server programming, and some server administration skills.
-  Most importantly, the paradigms and problems encountered are often new to researchers:
-  most programming is asynchronous due to network communication or the user interface, and technicalities such as user management or email validation can grow into difficult engineering challenges.
+  Most importantly, the paradigms and problems encountered are new to researchers:
+  programming is asynchronous due to network communication and the user interface, and technicalities such as user management or email validation can grow into difficult engineering challenges.
 * *Spam-control*:
   subjects are not constrained or encouraged by the face-to-face interaction of a laboratory experiment, neither are they (in most experiments) in the course of an interaction with friends that provides natural incentives for what they write, as can be the case with digital traces.
   Participants must have an incentive to perform the experiment's tasks well.
   If the spam introduced by one subject can be isolated in the design of the experiment, one possibility is to filter it once the data is collected and make payment depend on its prevalence.
   But if the spam introduced by one subject naturally propagates to data seen by other subjects in the experiment, as is the case for transmission chains, effective anti-spam pressures and motivations need to be factored into the design.
 * *Recruitment cost*:
-  while recruiting a few dozen or even a few hundred subjects is generally cheaper (not counting the cost of developing the experiment) than the equivalent for a laboratory experiment,
-  ^[Global competition on online platforms like Prolific Academic drive subject payments down.]
-  and can be very easy for fast prototyping and pilots, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
+  while recruiting up to a few hundred subjects is cheaper than the equivalent for a laboratory experiment (not counting the development cost),
+  ^[Global competition on online platforms like Prolific Academic drive subject payments down.
+  ]
+  and is easy to manage for fast prototyping and pilot tests, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
   Turning an experiment into a playful application or an application useful to the subjects (effectively making them users) involves yet another set of skills, can prove challenging, and must be factored into the development cost.
 
 
 #### General setup for Web-based transmission chains
 
-The balance achieved by the Web-based approach is particularly adapted to the experimental  requirements we outlined above.
-Since no existing system would fit our needs, we chose to develop a reusable Web-based platform to run a series of studies that would allow us, once ready, to gather sufficient amounts of quality data in short cycles.
+The balance achieved by the Web-based approach is well adapted to the experimental requirements we outlined above.
+Since no existing system would fit our needs, we chose to develop an in-house Web-based platform that could run all our transmission chains as Web experiments.
+Once ready, the platform would allow us to gather sufficient amounts of quality data in short cycles.
 We further decided to implement the simplest possible version of the transmission chain paradigm that is still viable, and leave the exploration of more complex setups for future research:
 the task we used asks subjects to read and memorise a short utterance, wait a few seconds, then rewrite what they have read as accurately as possible.
-In what follows we present the design, adjustment of parameters, analysis and results of 3 experiments we ran using this paradigm.
-Thanks to the results of each iteration, and to several small pilots testing the user interface changes and parameter adjustments that we detail below, the quality of the data gathered by each experiment greatly improved on the previous.
-Thus a large part of the final results we present will focus on Experiment 3, which achieved by far the best data quality, task difficulty and source complexity adjustment.
-As we shall see, while Experiments 1 and 2 produced poorer data than Experiment 3, \todo{the principles identified by our results apply nonetheless.? The results are valid across all data sets?}
-We first present the overall architecture of the setup, which is common to the three experiments.
-
-\todo{Add an introduction of the Exps themselves (numbers, their purposes and what they changed compared to the previous Exps).}
+We ran three main experiments using this evolving platform, and many smaller pilots in between to test improvements from the larger runs and adjust task parameters with source complexity, such that the overall quality of the data we gathered gradually increased.
+In what follows we present the general setup of the experiments, the data quality evaluation along with the changes implemented to improve it, and finally the adjustment of task complexity.
+Let us start with the architecture common to all experiments.
 
 Subjects' productions are arranged in chains, such that what a given subject produces is used as the source utterance for the subject appearing next in a chain.
 In particular, the utterances to memorise are presented with no surrounding context, no distraction task is used between the reading and writing phases, and the material incentive for the task is purely monetary (although as we describe below we fine-tuned the interface to strongly encourage subjects to be conscientious).
@@ -108,6 +107,7 @@ The final data thus consists in a set of reformulation trees, where each tree br
 ]
 The number of branches in a tree is also adjusted for each run of the experiment.
 Except for those who drop out before finishing the experiment, all subjects are exposed exactly once to each tree in random order, such that all the reformulations in a given tree are made by distinct subjects, and nearly all subjects (excluding dropouts) are present in each tree.
+Satisfying this constraint means that we must always have at least as many subjects as there are reformulations in a tree.
 Finally, note that when exposed to a tree, subjects are always randomly assigned to the tip of one of the branches that have not yet reached the target depth:
 subjects are thus randomly distributed across branches, but their depth-ordering loosely corresponds to time of arrival on the tree.
 In particular, if a subject starts the experiment after most other subjects have completed it, he or she will be mostly exposed to utterances deep in the branches.
@@ -148,7 +148,7 @@ All branches are cropped to the target depth for analysis.
 
 Technically, the platform is a complete Web application based on current technologies, with accompanying backend server to collect and distribute utterances.
 ^[The frontend first used the Ember.js framework [@ember.js_contributors_ember.js:_2017], and was later rewritten and extended using the Elm programming language [@czaplicki_elm:_2017].
-Indeed, the assurance of no runtime exceptions that Elm provides was a strong argument in favour of switching, as was made clear by the trying "customer support" experience of a bug hitting 40 to 50 subjects at once during the first experiment.
+Indeed, the assurance of no runtime exceptions that Elm provides was a strong argument in favour of switching, as was made clear by the trying "customer support" experience of a bug hitting 40 to 50 subjects at once during Experiment 1.
 The backend is a Python application written on top of the Django REST framework [@christie_django_2017].
 Most of the critical logic in the software is verified using automated tests, and the full source code is available under a Free Software licence at \url{https://github.com/interpretation-experiment/gistr-app} (frontend), and \url{https://github.com/interpretation-experiment/spreadr} (backend).
 ]
@@ -169,22 +169,43 @@ Using the Prolific Academic service allowed us to select among a pool of over \n
 Only the first two constraints were enforced for the first experiment, and the full set was used for all subsequent runs.
 The full filter provided over \num{2300} eligible subjects, from which the service automatically sampled the number of subjects we requested.
 
+Experiment 1 was the first non-trivial launch of the platform, with an initial 48 subjects, 54 root utterances, and trees targeted for 6 branches of depth 8.
+Subjects took an average 64 minutes to complete the experiment, and were rewarded with £6.5.
+A software bug that appeared and had to be fixed halfway through the experiment led the Prolific Academic service to recruit more subjects than was originally asked for, and the final number of participants was 53,
+^[The bug appeared only once a large proportion of trees had reached their target depth, and then affected all the subjects nearing completion of the experiment.
+The time taken to respond to complaints and realise that the experiment had to be paused led some subjects to exceed the maximum allowed time on Prolific Academic, and the service then sent the experiment out to new subjects.
+After fixing the bug, most subjects who had started the experiment accepted to finish it, leading the final subject count to be higher than originally requested.
+]
+gathering a total 2695 utterance reformulations (above the planned $54 \times 6 \times 8 = 2592$ reformulations).
+Manual inspection showed that large portions of the data were of poor quality, both linguistically and because of technical inefficiencies leading to badly shaped trees;
+the sections below provide further details on these questions.
+Pilots following Experiment 1 were therefore aimed at improving data quality and solving tree shaping issues.
+Experiment 2 was launched with 49 subjects, 50 root utterances, and trees targeted for 7 branches of depth 7, gathering a total 2450 utterance transformations.
+Subjects took an average 43 minutes to complete the experiment, and were rewarded with £6.
+Quality issues in this data set were solved, but the choice of source utterances proved too easy to trigger varied transformations.
+After pilots exploring different fits of task parameters with source complexity, Experiment 3 took advantage of a more complex set of source utterances.
+It was launched with two batches of 70 subjects each receiving 25 root utterances, and trees targeted for 7 branches of depth 10, gathering a total 3546 utterances transformations.
+Subjects took an average 37 minutes to complete the 25 transformations, and were rewarded with £4.25 on average.
 
-### Design process
+We now detail the evaluation of data quality and the measures that were taken to improve it.
+The section after this will focus on the fit of task parameters and source complexity, before moving on to the analysis and results.
+
+
+### Data quality
 
 The choice of a Web-based setup sets the requirements of the interface much higher than for a laboratory experiment.
 There is no opportunity for a face-to-face walk-through of the experiment or for questions, and subtle changes in the way the interface reacts to actions can lead subjects to interpret a signal where none was intended, or conversely to not notice an important message.
 The time of the subjects is not booked, and not having to travel to the laboratory or to talk to someone renders the interaction free of any commitment and generally more consumable:
 subjects can leave whenever they want, without having to feel bad about it (the only cost being the loss of their reward).
 The lack of human interaction with the experimenter also removes a natural incentive for subjects to take their time and perform according to what the experimenter in front of them explained.
-Combined together, these factors mean that if the interface is ambiguous in any way, subjects will often pick the interpretation that makes the process faster to complete with minimal engagement.
+Combined together, these factors mean that if the interface is strenuous or ambiguous in any way, subjects will often pick the interpretations that make the process faster and either complete the experiment with minimal engagement or drop out.
 Redacting detailed textual instructions often makes matters worse.
 Instead, the interface must lead the subjects through the necessary explanations while remaining enjoyable, and must be unambiguous while still hinting towards the expected behaviour at the right moment, either through subtle interface reactions or through explicit contextual aids.
 
 
 #### Manual spam-coding
 
-Failure to properly encourage and wherever possible enforce the experiment's expectations led to data riddled with spurious transformations that invalidate any utterances that come after them.
+Failure to properly encourage and wherever possible enforce the experiment's expectations led to data riddled with spurious transformations.
 Indeed, manual inspection of the data collected through Experiment 1, for which a substantial effort on instructions and for the overall interface had already been made, showed that large portions of the data was not usable as such.
 We therefore spam-coded all the utterances from this and subsequent experiments by hand.
 An utterance with any of the following properties was coded as spam:
@@ -201,7 +222,7 @@ such utterances were unambiguously incomplete, and were thus coded as spam.
 In subsequent experiments however, utterances that could be made complete with the addition or the deletion of a single, sometimes unimportant word, were questioned by the same criterion.
 For instance the simple sentence "Mr Jones was robbed during" can be completed by adding the word "dinner" at the end, or by removing the word "during".
 Such sentences do not seem tied to a misunderstanding of the task, and are arguably attributable to temporary distraction whose effects are relevant to our analysis.
-The benefit of the doubt was given to such utterances, such that they were not coded as spam.
+The benefit of the doubt was given to such utterances, and they were not coded as spam.
 
 Spam in transmission chains has the additional property of invalidating all the utterances that are made after it, such that the total number of utterances to discard is more than the spam introduced by subjects.
 Coded this way, Experiment 1 showed an accumulated spam rate of 22.4%.
@@ -222,7 +243,7 @@ The main tool we used to reduce the level of spam is the user interface.
 As explained above, minor changes in the way the interface reacts to the subjects' actions combined with relevant context-dependent information can have a comparatively large impact on the spam rate.
 
 
-#### Interface adjustments improve data quality
+#### User interface improvements
 
 The situation is similar to that of surveys, where much effort is put into mitigating the risk of users engaging the minimum possible effort to complete the survey [@krosnick_threat_2000].
 Successfully tuning the user interface is therefore a crucial factor in the quality of the data collected:
@@ -273,4 +294,4 @@ The box is available in most screens of Experiments 2 and 3.
 ](images/gistr/gistr-feedback.png){#fig:gistr-feedback width=75%}
 
 
-### Adjusting variables and sources
+### Task difficulty and source complexity fit
