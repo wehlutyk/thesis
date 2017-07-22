@@ -254,7 +254,7 @@ The most important points can be summed up as follows:
 * *Preventing digital copy-paste*:
   an obvious workaround to the task that most subjects will try in the first few trials.
 * *Constraining the input*:
-  a well-known behaviour in transmission chains of linguistic content is the rapid reduction in size of the content that is transmitted.\cn
+  a well-known behaviour in transmission chains of linguistic content is the rapid reduction in size of the content that is transmitted [@maxwell_remembering_1936;@bangerter_transformation_2000;@mesoudi_hierarchical_2004].
   In order to encourage subjects to rely on what they remember, and prevent them from quickly reaching empty sentences, an early version of the experiment would disable the "send" button if the subject's input was shorter than 10 words (Experiments 2 and 3 later relaxed this constraint to 5 words).
   However, some subjects interpreted the button becoming active after 10 words as a signal that their input was ready to be sent as is, even if it was only a partial sentence.
   This ambiguity, corrected in later versions, is responsible for a large part of the spam found in Experiment 1.
@@ -265,7 +265,7 @@ The most important points can be summed up as follows:
   emphasis was added to the fact that subjects' productions are later sent to other subjects, encouraging a more conscientious behaviour;
   a bonus was associated with high-fidelity trials, and the top 5 subjects with lowest transformation rates (as defined below in the analysis) received increased payment;
   most importantly, input from the subjects was also checked for repeated or inadequate punctuation, and for correct spelling against a combined British and American English dictionary.
-  Subjects were asked to correct any input that failed those tests, along with a short explanation emphasising the faulty behaviour and reminding the subject about the chain structure of the experiment.
+  The interface asked subjects to correct any input that failed those tests, and presented them with a short explanation that emphasised the faulty behaviour and recalled the chain structure of the experiment.
   Inspecting the platform logs showed that this last measure led subjects to often correct their utterances, a fact that was also confirmed by the increased average writing time.
 * *Relaxing the time pressure*:
   the interface of Experiment 1 made several mistakes that worsened the inherent pressure on subjects to complete the study as fast as possible (indeed, payment on Prolific Academic is per experiment, not per time spent -- which, conversely, would encourage subjects to be very slow).
@@ -279,7 +279,8 @@ The most important points can be summed up as follows:
   Such feedback channels have also become a norm in online services, and we therefore chose to give the possibility for subjects to comment on most screens of the experiment (excluding the read-write screens) through a side-ribbon which, when clicked, would overlay a comment box (see @fig:gistr-feedback).
   It seems, however, that a more interactive option would be more effective, as only a handful of subjects entered comments over the course of Experiments 2 and 3.
 * *Instructions*:
-  finally, a continuous effort was invested into fine-tuning the exact phrasing of instructions, and making the interface for instructions palatable using the now common pattern of highlighting and surrounding an area, and adding a tooltip with short instructions next to it.
+  finally, a continuous effort was invested into fine-tuning the exact phrasing of instructions, and making the interface for instructions palatable using a now common pattern:
+  for the instructions pictured in @fig:gistr-instructions for instance, different elements or images are successively foregrounded and highlighted, and a tooltip with short explanations appears next to the active element.
   ^[The pattern was popularised by software libraries such as Intro.js (\url{http://introjs.com/}).
   ]
   Here too, Experiment 1 and subsequent pilots allowed users to skip these instructions, leading a portion of the subjects to effectively never read them.
