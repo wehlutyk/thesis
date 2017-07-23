@@ -7,7 +7,7 @@
 <node CREATED="1493733689038" ID="ID_354172035" MODIFIED="1494930784482" TEXT="Contribute tests to CAT as a viable articulation of cog-soc"/>
 <node CREATED="1493733867440" ID="ID_1667893945" MODIFIED="1493735670937" TEXT="Discuss shortcomings of my approach, shortcomings of CAT beyond my approach, and the role of experiments to move forward"/>
 </node>
-<node CREATED="1493651794390" ID="ID_636762157" MODIFIED="1493651798803" POSITION="right" TEXT="Introduction">
+<node CREATED="1493651794390" FOLDED="true" ID="ID_636762157" MODIFIED="1500797041560" POSITION="right" TEXT="Introduction">
 <node CREATED="1493651847942" FOLDED="true" ID="ID_476400367" MODIFIED="1497597817685" TEXT="Introduction">
 <node COLOR="#669900" CREATED="1494931171126" FOLDED="true" ID="ID_491466827" MODIFIED="1494937415392" TEXT="Opening">
 <node CREATED="1494930970923" ID="ID_483470674" MODIFIED="1494930983360" TEXT="There is great diversity in approaches to human life"/>
@@ -547,7 +547,7 @@
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
 <node CREATED="1493653580005" ID="ID_1316511126" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" ID="ID_814065689" MODIFIED="1500543176406" TEXT="Introduction">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1500797034814" TEXT="Introduction">
 <node CREATED="1493994708787" ID="ID_1165265618" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations"/>
 <node CREATED="1494003133013" ID="ID_1739322211" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
 <node CREATED="1494060733021" ID="ID_123806247" MODIFIED="1494060740693" TEXT="Attraction factors can be">
@@ -575,7 +575,7 @@
 <node CREATED="1493671549406" ID="ID_985400041" MODIFIED="1500364210271" TEXT="Link to case-specific studies"/>
 </node>
 </node>
-<node CREATED="1493669606965" ID="ID_1998896082" MODIFIED="1500543177986" TEXT="Related Work">
+<node CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1500797035715" TEXT="Related Work">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1494060595629" TEXT="Bartlett"/>
 <node CREATED="1494060596364" ID="ID_1304178070" MODIFIED="1494060597539" TEXT="Nettle"/>
@@ -665,9 +665,10 @@
 </node>
 <node CREATED="1500364244812" ID="ID_147528875" MODIFIED="1500364246804" TEXT="Analysis">
 <node CREATED="1500369246959" ID="ID_921327933" MODIFIED="1500369342199" TEXT="Descriptive observations">
-<node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500369348067" TEXT="Lengths"/>
-<node CREATED="1500369348459" ID="ID_556410290" MODIFIED="1500369497534" TEXT="Measures of transformation rate and their evolution"/>
-<node CREATED="1500369499828" ID="ID_1189031225" MODIFIED="1500544647435" TEXT="As a consequence, transmissibility"/>
+<node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500802008038" TEXT="Drastic reduction in lengths"/>
+<node CREATED="1500803762955" ID="ID_835929258" MODIFIED="1500803778586" TEXT="ordered_content distance"/>
+<node CREATED="1500803783746" ID="ID_455100609" MODIFIED="1500841572332" TEXT="transmissibility and oc_rate: global and per length"/>
+<node CREATED="1500797189993" ID="ID_180851344" MODIFIED="1500804170851" TEXT="variability: scatter+mean"/>
 <node CREATED="1500369524185" ID="ID_185582015" MODIFIED="1500372287717" TEXT="(No obvious convergence pattern)"/>
 </node>
 <node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
@@ -715,7 +716,7 @@
 <node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
 </node>
 </node>
-<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1500544763268" TEXT="Discussion">
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500797038519" TEXT="Discussion">
 <node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
 <node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
 <node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
