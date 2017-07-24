@@ -151,8 +151,20 @@ All three increase significantly, although at different rates, here again tied t
 Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95% confidence interval).
 ](images/gistr-computed/variabilities.png){#fig:gistr-variabilities}
 
+We now wish to provide a much finer view of the process at work in this evolution by decomposing the transformation operations into smaller blocks.
+Indeed our goal is not so much to describe the outer shape of the evolution, as it is to reach a more synthetic and parsimonious understanding of the process at work.
+
 
 ### Transformation breakdown
+
+#### Sequence alignments
+
+Our first step towards a finer view of transformations is to take advantage of existing generalisations of the Levenshtein distance that underlies our measure of transformation rate $\rho$.
+Recall that the Levenshtein distance between two sequences of items $s$ and $s'$ computes the minimal number of insertions, deletions, and replacements necessary to turn $s$ into $s'$ (and vice-versa).
+The algorithm for this computation can also return the list of minimal sequences of operations that achieve that count.
+Furthermore it has also been generalised in several ways, and applied extensively to the problem of aligning DNA sequences, in order to detect similarities that could indicate evolutionary or structural relationships between genomes.
+
+We use the Needleman–Wunsch generalisation [@needleman_general_1970]
 
 
 ### Mechanistic transformation model

@@ -664,12 +664,11 @@
 </node>
 </node>
 <node CREATED="1500364244812" ID="ID_147528875" MODIFIED="1500364246804" TEXT="Analysis">
-<node CREATED="1500369246959" ID="ID_921327933" MODIFIED="1500369342199" TEXT="Descriptive observations">
+<node COLOR="#669900" CREATED="1500369246959" FOLDED="true" ID="ID_921327933" MODIFIED="1500933583003" TEXT="Descriptive observations">
 <node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500802008038" TEXT="Drastic reduction in lengths"/>
 <node CREATED="1500803762955" ID="ID_835929258" MODIFIED="1500803778586" TEXT="ordered_content distance"/>
 <node CREATED="1500803783746" ID="ID_455100609" MODIFIED="1500841572332" TEXT="transmissibility and oc_rate: global and per length"/>
 <node CREATED="1500797189993" ID="ID_180851344" MODIFIED="1500804170851" TEXT="variability: scatter+mean"/>
-<node CREATED="1500369524185" ID="ID_185582015" MODIFIED="1500372287717" TEXT="(No obvious convergence pattern)"/>
 </node>
 <node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
 <node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1500372271403" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
@@ -716,7 +715,7 @@
 <node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
 </node>
 </node>
-<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500797038519" TEXT="Discussion">
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500934093518" TEXT="Discussion">
 <node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
 <node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
 <node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
