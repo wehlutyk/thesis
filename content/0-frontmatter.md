@@ -52,6 +52,7 @@ header-includes:
   - \newcommand{\rn}{\textsuperscript{\tb{[Internal reference needed]}}}
   # Mathematics
   - \usepackage{bm}
+  - \usepackage{dsfont}
   # Format numbers
   - \usepackage[group-separator={,}]{siunitx}
   # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
