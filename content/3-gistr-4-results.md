@@ -135,7 +135,21 @@ The orange dashed line marks the maximum depth in the experiment, so as to diffe
 
 #### Variability
 
-![Slice variabilities](images/gistr-computed/variabilities.png){#fig:gistr-variabilities}
+\todo{remove this?}
+
+We add a final aggregate measure to the overall picture of these experiments:
+the variability of utterances at a given tree depth.
+For a given tree $t$, the variability $\kappa(t, d)$ measures the average transformation rate between all pairs of utterances at depth $d$ in $t$ (also called the *slice* of $t$ at depth $d$).
+
+$$\kappa(t, d) = \left< \rho(u, u') \right>_{\{u, u'\} \subset \left\{ \text{$u$ at depth $d$ in $t$}\right\} }$$
+
+This measure gives a sense of how fast branches diverge between each other.
+For each experiment, @fig:gistr-variabilities plots the variability of all slices of all trees, and the average variability averaged across trees.
+All three increase significantly, although at different rates, here again tied to the differences in root utterances.
+
+![Slice variabilities in the three experiments.
+Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95% confidence interval).
+](images/gistr-computed/variabilities.png){#fig:gistr-variabilities}
 
 
 ### Transformation breakdown
