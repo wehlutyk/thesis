@@ -670,9 +670,6 @@
 <node CREATED="1500803783746" ID="ID_455100609" MODIFIED="1500841572332" TEXT="transmissibility and oc_rate: global and per length"/>
 <node CREATED="1500797189993" ID="ID_180851344" MODIFIED="1500804170851" TEXT="variability: scatter+mean"/>
 </node>
-<node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
-<node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1500372271403" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
-</node>
 <node CREATED="1500369586303" ID="ID_481001751" MODIFIED="1500369603916" TEXT="Alignment tool">
 <node CREATED="1500369605464" ID="ID_742678504" MODIFIED="1500369647313" TEXT="DNA sequence alignments"/>
 <node CREATED="1500369647649" ID="ID_1174834586" MODIFIED="1500369675611" TEXT="Adapt to sentences with semantic distance for (mis)match score"/>
@@ -684,6 +681,9 @@
 <node CREATED="1500369876905" ID="ID_907977822" MODIFIED="1500369883232" TEXT="Hand-adjust exchange cost"/>
 <node CREATED="1500369897189" ID="ID_1707242680" MODIFIED="1500369903209" TEXT="Evaluate quality by hand"/>
 </node>
+</node>
+<node CREATED="1500369550867" ID="ID_826281229" MODIFIED="1500372717615" TEXT="A model for the process">
+<node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1500372271403" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
 </node>
 <node CREATED="1500372678419" ID="ID_842710601" MODIFIED="1500374175728" TEXT="A black-box model of chunks">
 <node CREATED="1500369909560" ID="ID_1687954003" MODIFIED="1500374136104" TEXT="Plot the branches, give a few examples with the text"/>

@@ -50,6 +50,8 @@ header-includes:
   - \newcommand{\cn}{\textsuperscript{\tb{[Citation needed]}}}
   - \newcommand{\cns}{\textsuperscript{\tb{[Multiple citations needed]}}}
   - \newcommand{\rn}{\textsuperscript{\tb{[Internal reference needed]}}}
+  # Formatting in monospace, with verbatim spaces, but with colors
+  - \usepackage{alltt}
   # Mathematics
   - \usepackage{bm}
   - \usepackage{dsfont}
