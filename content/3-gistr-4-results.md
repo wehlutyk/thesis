@@ -222,7 +222,10 @@ In the next sections we detail our application and extension of the NW algorithm
 The NW algorithm can be straightforwardly applied to sequences of any kind, provided we define scores for opening and extending gaps and a function to evaluate the comparison of two items (henceforth the match scoring function).
 We chose to use the algorithm on sequences of words, excluding punctuation, with a match scoring function that takes into account the semantic distance between the two word compared.
 For a given pair of utterances $u$ and $u'$, we start by tokenising them and removing all punctuation.
-We then apply the NW algorithm on the resulting sequences of tokens, with a match scoring function computed as an affine transformation of the similarity between two words $w$ and $w'$:
+We then apply the NW algorithm
+^[We used Biopython's implementation of the NW algorithm [@cock_biopython:_2009].
+]
+on the resulting sequences of tokens, with a match scoring function computed as an affine transformation of the similarity between two words $w$ and $w'$:
 
 $$
 \text{similarity}(w, w') = \begin{cases}
@@ -244,12 +247,12 @@ This definition thus uses an initial 4 scalar parameters (two gap scores, two af
 Since the final score of an alignment is computed as the sum of the scores of its individual operations, a linear scaling of all the parameters by the same amount does not change the choice of best-scoring alignments, such that we can further reduce the number of parameters by one.
 We choose to set the slope of the affine transformation of similarity to 1, and are then left with 3 alignment parameters:
 
-* $\beta_{mismatch}$, the base score for the match scoring function, such that
-  $$\text{score}(w, w') = \text{similarity}(w, w') + \beta_{mismatch}$$
-* $\beta_{open}$, the score for opening a gap;
-  $\beta_{open}$ is negative since it is a cost,
-* $\beta_{extend}$, the score for extending a gap;
-  $\beta_{extend}$ is also negative.
+* $\theta_{mismatch}$, the base score for the match scoring function, such that
+  $$\text{score}(w, w') = \text{similarity}(w, w') + \theta_{mismatch}$$
+* $\theta_{open}$, the score for opening a gap;
+  $\theta_{open}$ is negative since it is a cost,
+* $\theta_{extend}$, the score for extending a gap;
+  $\theta_{extend}$ is also negative.
 
 Given the right set of parameters, this tool lets us align two utterances and obtain the minimal set of operations that transform one into the other.
 Take for instance the following two utterances from Experiment 3:
@@ -260,37 +263,169 @@ Take for instance the following two utterances from Experiment 3:
 
 \todo{use labelled lists for quotes}
 
-With the set of parameters that we obtain through optimisation as explained below the procedure aligns these two utterances as follows (noting any gaps with "-", and colouring emphasising replacements):
+With the set of parameters that we obtain through training as explained below, the algorithm aligns these two utterances as follows (noting any gaps with "-", and emphasising replacements):
 
-\begin{quote}
-\begin{alltt}
-\small
+\begin{quote}\begin{alltt}\small
 Finding her son \emph{\textcolor{Sepia}{Arthur}} 69 hanged Mrs \textcolor{BrickRed}{Brown from} -    -  Brighton was so \emph{\textcolor{Sepia}{upset}}
 Finding her son \emph{\textcolor{Sepia}{Alvin}}  69 hanged Mrs -     -    \textcolor{OliveGreen}{Hunt of} Brighton was so \emph{\textcolor{Sepia}{depressed}}
 
 she could not cut him down
 she could not cut him down
-\end{alltt}
-\end{quote}
+\end{alltt}\end{quote}
 
 
+#### Detecting exchanges
+
+The application of the NW algorithm developed up to this point works rather well for simple transformations such as the one exemplified above.
+However, more complicated transformations include operations that the algorithm as is cannot detect or represent.
+Hand inspection of the data showed that exchanging sub-parts of an utterance, in particular, is a relatively common operation for which our current tool has no representation.
+Consider the following two utterances from Experiment 3 for instance:
+
+> $u_a$: "At Dover, the finale of the bailiffs convention, their duty said a speaker are delicate, dangerous and detailed" <!-- #49 -->
+
+> $u_b$: "At Dover, at a Bailiffs convention. a speaker said that their duty was to patience, and determination" <!-- #120 -->
+
+The current alignment algorithm, with parameters trained according to a procedure outlined below, produces the following:
+
+\begin{quote}\begin{alltt}\small
+At Dover \textcolor{BrickRed}{at a} -   -      -  -   \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{BrickRed}{a speaker said that} their duty
+At Dover -  - \textcolor{OliveGreen}{the finale of the} \emph{\textcolor{Sepia}{bailiffs}} convention - -       -    -    their duty
+
+\textcolor{BrickRed}{was to patience} -    - -       -   -        -         and \textcolor{BrickRed}{determination} -        
+-   -  -        \textcolor{OliveGreen}{said a speaker are delicate dangerous} and -             \textcolor{OliveGreen}{detailed}
+\end{alltt}\end{quote}
+
+This alignment misses the fact that the deleted part "a speaker said" is then found as "said a speaker" later in the reformulated utterance.
+The general idea to detect such exchanges is that blocks of insertions and blocks of deletions can be matched against one another with the same alignment algorithm, and the resulting deep (recursive) alignment can be scored and compared to the initial shallow alignment.
+If the final deep score $\chi_{deep}(u_a, u_b)$ is higher than the initial shallow score $\chi_{shallow}(u_a, u_b)$, then we adopt the deep alignment with exchange as the best solution.
+Suppose that for the alignment of the deletion block $u_-$ "a speaker said that" with the insertion block $u_+$ "said a speaker are delicate dangerous", we are able to compute an optimal deep alignment with associated score $\chi_{deep}(u_-, u_+)$;
+then the deep score for the top level $\chi_{deep}(u_a, u_b)$ is as follows:
+
+\begin{align*}
+  \chi_{deep}(u_a, u_b) & = \chi_{shallow}(u_a, u_b) & & \text{start from the initial shallow score} \\
+              &\qquad {} + \theta_{exchange} & & \text{score the addition of an exchange operation} \\
+              &\qquad {} - \text{score}(\text{deletion of }u_-) & & \text{recover the cost of the deletion block} \\
+              &\qquad {} - \text{score}(\text{insertion of }u_+) & & \text{recover the cost of the insertion block} \\
+              &\qquad {} + \chi_{deep}(u_-, u_+) & & \text{add the deep alignment score of the exchange}
+\end{align*}
+
+where $\theta_{exchange}$ is a new negative parameter that defines the cost of creating an exchange, to be added to the existing three shallow alignment parameters.
+The deep alignment extension we implemented follows exactly that recursive principle, but accommodates for the possibility of multiple exchanges at each level of the recursion.
+Algorithm \ref{alg:deep-alignment} provides an overview of the way this tree of alignments can be constructed.
+Note that for long utterances, the size of the deep alignment tree can grow very fast:
+
+* For a given deep alignment, there is a list of mappings between deletion and insertion blocks,
+* Each mapping is a set of (deletion block, insertion block) pairs,
+* Under each such pair, there is a list of deep alignments;
+  and from there on recursively.
+
+\begin{algorithm}
+\caption{An implementation of the deep alignment extension for detecting exchanges in NW alignments.
+Note that this implementation is grossly inefficient, but presentationally clearer than the implementation we made.
+}
+\label{alg:deep-alignment}
+\begin{algorithmic}
+\Function{shallowalign}{$u$, $u'$}
+  \State (Implemented by Biopython)
+  \State \Return List of optimal shallow alignments of $u$ and $u'$
+\EndFunction \\
+
+\Function{mappings}{$a_{shallow}$}
+  \State $\mathcal{D}\gets \{d | d\text{ deletion block in }a_{shallow}\}$
+  \State $\mathcal{I}\gets \{i | i\text{ deletion block in }a_{shallow}\}$
+  \State \Return $\mathcal{D}^{P(\mathcal{I})}$ \Comment{$P(\Omega)$ is the power set of $\Omega$}
+\EndFunction \\
+
+\Function{scoremapping}{$a_{shallow}$, $D_M$}
+  \State $s\gets 0$
+  \For{$((u_{e,-,} u_{e,+}), D_e)$ in $D_M$}
+    \State $s\gets s + \theta_{exchange}$
+    \State $s\gets s - \Call{score}{\text{deletion of }u_{e,-}} - \Call{score}{\text{insertion of }u_{e,+}}$
+    \State $s\gets s + \max\{\chi_{deep}(a_{deep}) | a_{deep} \in D_e\}$
+  \EndFor
+  \State \Return $s$
+\EndFunction \\
+
+\Function{deepalign}{$u$, $u'$}
+  \State $D\gets []$ \Comment{$D$ is the list of deep alignments trees we have explored}
+  \For{$a_{shallow}$ shallow alignment in \Call{shallowalign}{$u$, $u'$}}
+    \If{$a_{shallow}$ has no gaps or has only gaps}
+      \State $D\gets (a_{shallow}, [], \chi_{shallow}(a_{shallow}))$
+    \Else
+      \For{$M$ mapping in \Call{mappings}{$a_{shallow}$}}
+        \State $D_M\gets []$
+        \For{$(u_{e,-}, u_{e,+})$ exchange in $M$}
+          \State $D_M\gets D_M + ((u_{e,-}, u_{e,+}), \Call{deepalign}{u_{e,-}, u_{e,+}})$
+        \EndFor
+        \State $D\gets D + (a_{shallow}, D_M, \chi_{shallow}(a_{shallow}) + \Call{scoremapping}{a_{shallow}, D_M})$
+      \EndFor
+    \EndIf
+  \EndFor
+  \State \Return Recursively pruned version of $D$ with only maximally scoring deep alignments
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+Also, our implementation of the exploration of that tree is mostly brute force, and does not try to be smart in predicting which branches are dead-ends.
+In spite of this, we did not need to optimise the computation any further (aside from obvious gains in caching repeated computations), as most of the time of a deep alignment is spent computing shallow alignments, and most alignments of utterances are very shallow anyway.
+Finally, note that this approach provides no guarantee of finding the globally optimal deep alignment.
+Indeed, it starts from optimal shallow alignments, and explores the tree of possibles from there on.
+But the initial shallow alignments it extends may not be the best starting point, such that the exploration may return locally optimal deep alignments.
+
+Nonetheless, given a good set of parameters (see the next section where we derive those), this deep alignment algorithm produces surprisingly satisfying results given the simplicity of its underlying principles.
+In the case of the two utterances exemplified at the beginning of this section, the algorithm produces the following deep alignment tree.
+First, the top-level alignment:
+
+\begin{quote}\begin{alltt}\small
+At Dover \textcolor{BrickRed}{at a} -   -      -  -   \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{RoyalBlue}{a speaker said that} their duty
+At Dover -  - \textcolor{OliveGreen}{the finale of the} \emph{\textcolor{Sepia}{bailiffs}} convention \textcolor{RoyalBlue}{|-Exchange-1------|} their duty
+
+\textcolor{BrickRed}{was to patience} \textcolor{RoyalBlue}{|-Exchange-1------------------------|} and \textcolor{BrickRed}{determination} -
+-   -  -        \textcolor{RoyalBlue}{said a speaker are delicate dangerous} and -             \textcolor{OliveGreen}{detailed}
+\end{alltt}\end{quote}
+
+For which $\chi_{shallow} = -2.93$ and $\chi_{deep} = -2.89$.
+Then the alignment of Exchange 1:
+
+\begin{quote}\begin{alltt}\small
+\textcolor{RoyalBlue}{|E2|} a speaker \textcolor{RoyalBlue}{said that} -   -        -         
+\textcolor{RoyalBlue}{said} a speaker \textcolor{RoyalBlue}{|E2-----|} \textcolor{OliveGreen}{are delicate dangerous}
+\end{alltt}\end{quote}
+
+For which $\chi_{shallow} = -1.01$ and  $\chi_{deep} = -0.99$.
+And finally the alignment of Exchange 2, from inside Exchange 1:
+
+\begin{quote}\begin{alltt}\small
+said \textcolor{BrickRed}{that}
+said -    
+\end{alltt}\end{quote}
+
+For which $\chi_{shallow} = \chi_{deep} = -0.18$.
+
+Notice how in this deep alignment the phrase "are delicate and dangerous" was initially included in Exchange 1, only later to be recognised as an insertion in the alignment of Exchange 1.
+The same happened for "that", initially included in Exchange 1 and finally recognised as a deletion in the alignment of Exchange 2.
+Most cases of deep alignments look like this one, where a single path exists in the tree of recursive alignments.
+For longer utterances however, there are more easily several exchanges at each level, and the tree becomes much larger.
 
 
+#### Training alignment parameters
 
-
-
-
-#### Accounting for exchanges
-
-- works well for those simple changes
-
-
-
-
-
-#### Optimising alignment parameters
-
-example sentence 120
+- we need to get a good set of parameters
+- the idea is:
+  - to train the shallow alignments on gold standard (because hand coding the deep alignments is much more complicated),
+  - then infer the parameters for that (it's brute-forceable),
+  - then hand-adjust the exchange cost
+- we start by evaluating the necessary training set
+  - create alignments from a random parameter set
+  - create an objective function to minimise
+  - see what training size is necessary to recover parameters (through brute force) that extrapolate well
+- then write a cli to make the standard
+  - show screenshots
+- then brute force the parameters with our objective function
+  - see the final objective value, and the parameters inferred
+- then set a value for exchange cost, by hand
+- hand evaluate quality on samples with changes, and samples with deep alignments
+- and the examples above come from that
 
 
 ### Mechanistic transformation model

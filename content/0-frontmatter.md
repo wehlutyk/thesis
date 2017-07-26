@@ -55,6 +55,8 @@ header-includes:
   # Mathematics
   - \usepackage{bm}
   - \usepackage{dsfont}
+  - \usepackage[chapter]{algorithm}
+  - \usepackage{algpseudocode}
   # Format numbers
   - \usepackage[group-separator={,}]{siunitx}
   # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
