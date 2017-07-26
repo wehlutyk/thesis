@@ -268,8 +268,8 @@ Take for instance the following two utterances from Experiment 3:
 With the set of parameters that we obtain through training as explained below, the algorithm aligns these two utterances as follows (noting any gaps with "-", and emphasising replacements):
 
 \begin{quote}\begin{alltt}\small
-Finding her son \emph{\textcolor{Sepia}{Arthur}} 69 hanged Mrs \textcolor{BrickRed}{Brown from} -    -  Brighton was so \emph{\textcolor{Sepia}{upset}}
-Finding her son \emph{\textcolor{Sepia}{Alvin}}  69 hanged Mrs -     -    \textcolor{OliveGreen}{Hunt of} Brighton was so \emph{\textcolor{Sepia}{depressed}}
+Finding her son \emph{\textcolor{Sepia}{Alvin}}  69 hanged Mrs \textcolor{BrickRed}{Hunt of} -     -    Brighton was so \emph{\textcolor{Sepia}{depressed}}
+Finding her son \emph{\textcolor{Sepia}{Arthur}} 69 hanged Mrs -    -  \textcolor{OliveGreen}{Brown from} Brighton was so \emph{\textcolor{Sepia}{upset}}
 
 she could not cut him down
 she could not cut him down
@@ -290,17 +290,17 @@ Consider the following two utterances from Experiment 3 for instance:
 The current alignment algorithm, with parameters trained according to a procedure outlined below, produces the following:
 
 \begin{quote}\begin{alltt}\small
-At Dover \textcolor{BrickRed}{at a} -   -      -  -   \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{BrickRed}{a speaker said that} their duty
-At Dover -  - \textcolor{OliveGreen}{the finale of the} \emph{\textcolor{Sepia}{bailiffs}} convention - -       -    -    their duty
+At Dover \textcolor{BrickRed}{the finale of the} -  - \emph{\textcolor{Sepia}{bailiffs}} convention - -       -    -    their duty
+At Dover -   -      -  -   \textcolor{OliveGreen}{at a} \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{OliveGreen}{a speaker said that} their duty
 
-\textcolor{BrickRed}{was to patience} -    - -       -   -        -         and \textcolor{BrickRed}{determination} -        
--   -  -        \textcolor{OliveGreen}{said a speaker are delicate dangerous} and -             \textcolor{OliveGreen}{detailed}
+\textcolor{BrickRed}{said a speaker are delicate dangerous} -   -  -        and \textcolor{BrickRed}{detailed} -            
+-    - -       -   -        -         \textcolor{OliveGreen}{was to patience} and -         \textcolor{OliveGreen}{determination}
 \end{alltt}\end{quote}
 
-This alignment misses the fact that the deleted part "a speaker said" is then found as "said a speaker" later in the reformulated utterance.
+This alignment misses the fact that the deleted part "said a speaker" is found as "a speaker said" earlier in the reformulated utterance.
 The general idea to detect such exchanges is that blocks of insertions and blocks of deletions can be matched against one another with the same alignment algorithm, and the resulting deep (recursive) alignment can be scored and compared to the initial shallow alignment.
 If the final deep score $\chi_{deep}(u_a, u_b)$ is higher than the initial shallow score $\chi_{shallow}(u_a, u_b)$, then we adopt the deep alignment with exchange as the best solution.
-Suppose that for the alignment of the deletion block $u_-$ "a speaker said that" with the insertion block $u_+$ "said a speaker are delicate dangerous", we are able to compute an optimal deep alignment with associated score $\chi_{deep}(u_-, u_+)$;
+Suppose that for the alignment of the deletion block $u_-$ "said a speaker are delicate dangerous" with the insertion block $u_+$ "a speaker said that", we are able to compute an optimal deep alignment with associated score $\chi_{deep}(u_-, u_+)$;
 then the deep score for the top level $\chi_{deep}(u_a, u_b)$ is as follows:
 
 \begin{align*}
@@ -379,35 +379,35 @@ In the case of the two utterances exemplified at the beginning of this section, 
 First, the top-level alignment:
 
 \begin{quote}\begin{alltt}\small
-At Dover \textcolor{BrickRed}{at a} -   -      -  -   \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{RoyalBlue}{a speaker said that} their duty
-At Dover -  - \textcolor{OliveGreen}{the finale of the} \emph{\textcolor{Sepia}{bailiffs}} convention \textcolor{RoyalBlue}{|-Exchange-1------|} their duty
+At Dover \textcolor{BrickRed}{the finale of the} -  - \emph{\textcolor{Sepia}{bailiffs}} convention \textcolor{RoyalBlue}{|-Exchange-1------|} their duty
+At Dover -   -      -  -   \textcolor{OliveGreen}{at a} \emph{\textcolor{Sepia}{Bailiffs}} convention \textcolor{RoyalBlue}{a speaker said that} their duty
 
-\textcolor{BrickRed}{was to patience} \textcolor{RoyalBlue}{|-Exchange-1------------------------|} and \textcolor{BrickRed}{determination} -
--   -  -        \textcolor{RoyalBlue}{said a speaker are delicate dangerous} and -             \textcolor{OliveGreen}{detailed}
+\textcolor{RoyalBlue}{said a speaker are delicate dangerous} -   -  -        and \textcolor{BrickRed}{detailed} -            
+\textcolor{RoyalBlue}{|-Exchange-1------------------------|} \textcolor{OliveGreen}{was to patience} and -        \textcolor{OliveGreen}{determination}
 \end{alltt}\end{quote}
 
 For which $\chi_{shallow} = -2.93$ and $\chi_{deep} = -2.89$.
 Then the alignment of Exchange 1:
 
 \begin{quote}\begin{alltt}\small
-\textcolor{RoyalBlue}{|E2|} a speaker \textcolor{RoyalBlue}{said that} -   -        -         
-\textcolor{RoyalBlue}{said} a speaker \textcolor{RoyalBlue}{|E2-----|} \textcolor{OliveGreen}{are delicate dangerous}
+\textcolor{RoyalBlue}{said} a speaker \textcolor{BrickRed}{are delicate dangerous} \textcolor{RoyalBlue}{|E2-----|}
+\textcolor{RoyalBlue}{|E2|} a speaker -   -        -         \textcolor{RoyalBlue}{said that}
 \end{alltt}\end{quote}
 
 For which $\chi_{shallow} = -1.01$ and  $\chi_{deep} = -0.99$.
 And finally the alignment of Exchange 2, from inside Exchange 1:
 
 \begin{quote}\begin{alltt}\small
-said \textcolor{BrickRed}{that}
 said -    
+said \textcolor{OliveGreen}{that}
 \end{alltt}\end{quote}
 
 For which $\chi_{shallow} = \chi_{deep} = -0.18$.
 
-Notice how in this deep alignment the phrase "are delicate and dangerous" was initially included in Exchange 1, only later to be recognised as an insertion in the alignment of Exchange 1.
-The same happened for "that", initially included in Exchange 1 and finally recognised as a deletion in the alignment of Exchange 2.
+Notice how in this deep alignment the phrase "are delicate and dangerous" was initially included in Exchange 1, only later to be recognised as a deletion in the alignment of Exchange 1.
+The same happened for "that", initially included in Exchange 1 and finally recognised as an insertion in the alignment of Exchange 2.
 Most cases of deep alignments look like this one, where a single path exists in the tree of recursive alignments.
-For longer utterances however, there are more easily several exchanges at each level, and the tree becomes much larger.
+For longer utterances however, there can be several exchanges at each level, and the tree of alignments becomes much larger.
 
 
 #### Training alignment parameters
@@ -460,12 +460,12 @@ $$
 The value of the fit thus loosely corresponds to the total number of words whose alignments would need to be changed in order to go from one set of alignments to the other.
 Divided by the number of transformations $|\mathcal{T}|$, it tells us the average number of word alignment errors per transformation.
 The worst fit $\hat{f}_n$ then gives us an upper bound estimation of the error that can be produced by training on a set of size $n$.
-One caveat in this evaluation approach is that there is no guarantee that the hand-coded alignments on which we will train are could be produced by this parametrisation of alignments.
+One caveat in this evaluation approach is that there is no guarantee that the hand-coded alignments on which we will train could be produced by this parametrisation of alignments.
 We have no workaround for this caveat, other than hand-evaluation of the parameters after the training step.
 
 After having sampled a parameter set for step 1, we used $n = 20, 50, 100, 200$ and ran steps 2-4 ten times for each value of $n$.
 The worst values of the ten runs were $\hat{f}_{20} = 3652.5$ (1.71 errors per transformation), $\hat{f}_{50} = 1377.5$ (.65 errors per transformation), $\hat{f}_{100} = 847$ (.41 errors per transformation), and $\hat{f}_{200} = 636.5$ (.32 errors per transformation).
-For $n = 100$, we further resampled $\bm{\theta}^0$ ten times (step 1) and ran steps 2-4 ten times for each of those 10 parameters sets, yielding an overall $\hat{f}_{100} = 1437.5$, that is .70 errors per transformation.
+For $n = 100$, we further resampled $\bm{\theta}^0$ ten times (step 1) and ran steps 2-4 ten times for each of those 10 parameter sets, yielding an overall $\hat{f}_{100} = 1437.5$, that is .70 errors per transformation.
 We conclude from this evaluation that a training set between 100 and 200 alignments is enough to reduce the final error below one word per transformation.
 
 We thus developed a small console interface to hand-code 200 alignments of non-trivial transformations (see @fig:gistr-goldcli for how this is done).
@@ -491,10 +491,81 @@ To make sure this is also the case for deep alignments, we hand-coded errors in 
 An error was counted for each exchange that was missing, mistaken, or should not have been present at all.
 Of the 100 alignments, 81 had no errors, 17 had 1, and 2 had 2 errors.
 The parameters obtained here were thus used for all further analyses.
-They are also those used in the example alignments discussed in the previous sections.
+They are also the ones used in the example alignments discussed in the previous sections.
 
 
 ### Mechanistic transformation model
+
+#### Word and utterance filiations
+
+Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon into a parsimonious model.
+In particular, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, or how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
+By doing this we aim to get an idea of the best building blocks we could use to model the complete phenomenon.
+In more abstract terms, we are looking for the best way to dice the complete data into its internal components;
+such components need not be restricted to the level of individual utterance to utterance transformations, but can also span along branches and in a tree.
+
+To do so we use the alignment tool we just developed to build a more synthetic representation of the branches.
+Indeed with the information provided by each alignment it is now possible to follow the ancestry and descent of individual words through parent and child transformations in a branch.
+Consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
+Any word $w' \in u'$ can be identified as a new insertion or affiliated to a parent word $w \in u$ that was conserved, replaced, and/or moved in an exchange.
+On the child side, $w'$ can also be linked to its child $w''$ (if it wasn't deleted), thus continuing the lineage of this specific word along the branch.
+^[Note that the alignment tool produces a tree of possible deep alignments for each pair of utterances, such that a word in $u$ could be assigned to different words in $u'$ for different choices of deep alignments.
+To decide this uncertainty for a given word $w$ we first determine if it is conserved (either exactly or through replacement) in a majority of deep alignments;
+if so, we select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
+if not, the operation is considered a deletion.
+Any word in $u'$ that has no assigned parent word is considered an insertion.
+]
+
+@Fig:gistr-lineage-tree gathers this information and plots the lineages of the branches for an example tree from Experiment 3 (tree #4, also shown in @fig:gistr-trees).
+The root of this tree is the following utterance:
+
+> « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." » <!-- #4 -->
+
+and the example transformation used for our previous discussion of deep alignments (\todo{add refs for sentences}) corresponds to the transformation from depth 1 to depth 2 in branch #49.
+This representation of branches provides our most synthetic view yet of the process at work.
+Stepping back, we can now examine which trends are more salient in the evolution along the branches.
+At first sight, the plots show that transformations are quite varied, but also have several regularities.
+
+
+- the plots show variability, show the reduction in length, show the increase in transmissibility (likely because of length), but also regularity in the way utterances are transformed
+- interestingly, they show the proportion of replacements, which corresponds to BCP: it's not much! but it's all we could do on the web
+
+![Example lineages for all the branches of tree #4 from Experiment 3.
+Each subplot corresponds to a different branch.
+The horizontal axis is the depth in the branch, and the vertical axis is the index of each word in its utterance.
+A grey line represents a word lineage along the branch, and the darkness of the line corresponds to that word's frequency (darker lines represent more frequent words).
+At each depth, the darker background band indicates what the subject sees, and the lighter band indicates the transformation that the subject made.
+Inside lighter bands:
+red dots are word deletions, green dots are word insertions, blue dots are word replacements, and exchanges can be seen when bundles of lines cross each other.
+Dots inside each light band are spread out on the horizontal axis so as make them easier to distinguish visually, but the horizontal position of a dot inside its band has no further meaning.
+](images/gistr-computed/exp_3/lineage-tree-4.png){#fig:gistr-lineage-tree}
+
+
+#### Branch axis and utterance axis
+
+- we distinguish two levels of analysis
+  - horizontal, along the branch: event is 'sentence transformation'. show plot with timeline
+  - vertical, inside the utterances: event is 'word operation'. show rotated plot with timeline
+- back to the plots, we then see
+  - vertical:
+    - popout: there are many large grouped deletions, sometimes longer if the sentence is longer
+    - popout: speckled replacements
+    - popout: chunked exchanges
+    - lessobvious: operations rarely happen at the start of a sentence
+    - lessobvious: insertions come after deletions, same size ish
+  - horizontal:
+    - there are chunks
+    - big insertions convert to immediate reductions
+
+
+#### Bursty and chunky behaviours
+
+- it looks like there are chunks everywhere, of different sizes, but it would make a good base for modelling
+- we quantify the grouping on each dimension with burstiness, to validate our idea of operation chunks
+  - burstiness with 0s
+  - burstiness without 0s
+- did our tool shape/bias that? it made it possible, sure, but not necessary. the parameters we trained found that (other parameters, with extend>open could lead to less chunking). chunkiness of exchanges might be a bit biased, as there was no chance for extend>open, although the match accuracy also determines the size, so it's not all biased.
+- so we propose a blackbox model of chunks on both dimensions, and now look at their properties and the dependencies between them
 
 
 ### Inner structure {#sec:gistr-results-inner}
