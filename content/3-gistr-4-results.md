@@ -168,6 +168,8 @@ Each plot shows the variabilities of each slice of each tree (blue dots), as wel
 
 We now wish to achieve a much finer view of the process at work in this evolution, by decomposing the transformation operations into smaller blocks.
 Our goal from now on is to achieve a more synthetic understanding of the process at work, beyond the simple description of the outer shape of the evolution.
+In what follows we will focus primarily on the data set from Experiment 3, which provides the best overall quality of data and sampling of transformations.
+The procedure we develop is of course applicable to the other two experiments, but we will not discuss those applications in any detail. \todo{check that.}
 
 
 ### Transformation breakdown
@@ -229,16 +231,16 @@ on the resulting sequences of tokens, with a match scoring function computed as 
 
 $$
 \text{similarity}(w, w') = \begin{cases}
-  S_C \left( \vec{w}, \vec{w}' \right) & \text{if we have word vectors for both $w$ and $w'$} \\
+  S_C \left( \bm{w}, \bm{w}' \right) & \text{if we have word vectors for both $w$ and $w'$} \\
   \delta_{\text{lemma}(w), \text{lemma}(w')} & \text{otherwise}
 \end{cases}
 $$
 
-where $S_C$ is the cosine similarity function (one minus cosine distance) and $\vec{w}$ is a 300-dimensional vector representation of $w$ encoding the word's semantics,
+where $S_C$ is the cosine similarity function (one minus cosine distance) and $\bm{w}$ is a 300-dimensional vector representation of $w$ encoding the word's semantics,
 ^[The standard spaCy English language model includes "vectors for one million vocabulary entries, using the 300-dimensional vectors trained on the Common Crawl corpus using the GloVe algorithm" (\url{https://alpha.spacy.io/docs/usage/word-vectors-similarities}).
 The GloVe algorithm was developed by @pennington_glove:_2014.
 ]
-such that the $S_C(\vec{w}, \vec{w}')$ provides a measure of semantic similarity between $w$ and $w'$.
+such that the $S_C(\bm{w}, \bm{w}')$ provides a measure of semantic similarity between $w$ and $w'$.
 Finally, $\delta_{i,j}$ is Kronecker's delta which equals 1 if and only if $i = j$, and 0 otherwise.
 This function thus provides a "best effort" similarity measure which depends on whether we have detailed information about the words being compared or not.
 
@@ -410,22 +412,86 @@ For longer utterances however, there are more easily several exchanges at each l
 
 #### Training alignment parameters
 
-- we need to get a good set of parameters
-- the idea is:
-  - to train the shallow alignments on gold standard (because hand coding the deep alignments is much more complicated),
-  - then infer the parameters for that (it's brute-forceable),
-  - then hand-adjust the exchange cost
-- we start by evaluating the necessary training set
-  - create alignments from a random parameter set
-  - create an objective function to minimise
-  - see what training size is necessary to recover parameters (through brute force) that extrapolate well
-- then write a cli to make the standard
-  - show screenshots
-- then brute force the parameters with our objective function
-  - see the final objective value, and the parameters inferred
-- then set a value for exchange cost, by hand
-- hand evaluate quality on samples with changes, and samples with deep alignments
-- and the examples above come from that
+To finish the development of our alignment tool, it is necessary to determine a set of alignment parameters that produce plausible results.
+Recall that the parameters are:
+
+* $\theta_{mismatch}$, the base score for the match scoring function,
+* $\theta_{open}$ and $\theta_{extend}$, the scores for opening and extending a gap,
+* $\theta_{exchange}$, the score for creating an exchange.
+
+In order to make the problem of finding usable parameters tractable, we decided to restrict parameter training to the shallow alignment parameters only (henceforth noted $\bm{\theta} = (\theta_{mismatch}, \theta_{open}, \theta_{extend})$), and fine-tune $\theta_{exchange}$ by hand after the first three were defined (this also corresponds to the fact that deep alignments are made on the basis of optimal shallow alignments).
+Our general approach for this task is therefore to hand-code shallow alignments for a random set of utterance transformations in Experiment 3, train the shallow alignment parameters to that standard, before adjusting the exchange parameter by hand.
+Since the there are only three dimensions to explore, the training step is easiest to accomplish by brute force.
+
+We thus start by evaluating the size of the training set that is necessary to obtain a set of parameters that extrapolates well to untrained data.
+Indeed, a training set too small in size might provide too weak a constraint on the set of parameters, such that brute forcing would find many parameter sets that do not extrapolate well.
+On the other hand, manually coding alignments is time-consuming and we do not wish to code more than necessary.
+We used the following procedure to decide this trade-off:
+
+1. Uniformly sample a random parameter set $\bm{\theta}^0 \in [-1, 0]^3$ and use it to generate artificial alignments for all the non-trivial transformations in Experiment 3 (i.e. for which the transformation rate $\rho$ was positive, which amounts to 2159 transformations);
+   note these alignments $\mathcal{A}^0$.
+2. Sample a training set of size $n$ from the artificial alignments;
+   note the training set $\mathcal{A}_t^0$, and the remaining evaluation set $\mathcal{A}_e^0 = \mathcal{A}^0 \setminus \mathcal{A}_t^0$.
+3. Brute-force the sets of parameters $\hat{\bm{\theta}}_1, ..., \hat{\bm{\theta}}_m$ that best reproduce the training set $\mathcal{A}_t^0$, by exploring the sampling space $[-1, 0]^3$ with a discretisation step of.1;
+   parameters that perfectly reproduced the training set were always found, such that no finer-grained exploration was needed.
+4. Evaluate the worst fit $\hat{f}_n$ between the evaluation alignments $\mathcal{A}_e^0$ and the alignments produced by each of the $\hat{\bm{\theta}}_1, ..., \hat{\bm{\theta}}_m$ on the same transformations.
+
+For a given set $\mathcal{T}$ of transformations, the alignments generated by parameters $\bm{\theta}$ can be written:
+
+$$A\left(\mathcal{T}, \bm{\theta}\right) = \left\{ \text{aln}(u, u', \bm{\theta}) | (u, u') \in \mathcal{T} \right\}$$
+
+Where $\text{aln}(u, u', \bm{\theta})$ is the set of alignments between $u$ and $u'$ produced by $\bm{\theta}$.
+$A\left(\mathcal{T}, \bm{\theta}\right)$ is thus a set of sets of individual shallow alignments (indeed each pair of utterances generates its own set of shallow alignments).
+The fit between two such sets of sets of alignments $A\left(\mathcal{T}, \bm{\theta}_1\right)$ and $A\left(\mathcal{T}, \bm{\theta}_2\right)$ is then computed as:
+
+$$
+f(\mathcal{T}, \bm{\theta}_1, \bm{\theta}_2) =
+  \frac{1}{2}
+  \sum_{(u, u') \in \mathcal{T}}
+    \max_{((a_1, a'_1), (a_2, a'_2))
+      \in \text{aln}(u, u', \bm{\theta_1}) \times \text{aln}(u, u', \bm{\theta_2})}
+    \left\{
+      \text{lev}(a_1, a_2) + \text{lev}(a'_1, a'_2)
+    \right\}
+$$
+
+\todo{unify mathematics notations}
+
+The value of the fit thus loosely corresponds to the total number of words whose alignments would need to be changed in order to go from one set of alignments to the other.
+Divided by the number of transformations $|\mathcal{T}|$, it tells us the average number of word alignment errors per transformation.
+The worst fit $\hat{f}_n$ then gives us an upper bound estimation of the error that can be produced by training on a set of size $n$.
+One caveat in this evaluation approach is that there is no guarantee that the hand-coded alignments on which we will train are could be produced by this parametrisation of alignments.
+We have no workaround for this caveat, other than hand-evaluation of the parameters after the training step.
+
+After having sampled a parameter set for step 1, we used $n = 20, 50, 100, 200$ and ran steps 2-4 ten times for each value of $n$.
+The worst values of the ten runs were $\hat{f}_{20} = 3652.5$ (1.71 errors per transformation), $\hat{f}_{50} = 1377.5$ (.65 errors per transformation), $\hat{f}_{100} = 847$ (.41 errors per transformation), and $\hat{f}_{200} = 636.5$ (.32 errors per transformation).
+For $n = 100$, we further resampled $\bm{\theta}^0$ ten times (step 1) and ran steps 2-4 ten times for each of those 10 parameters sets, yielding an overall $\hat{f}_{100} = 1437.5$, that is .70 errors per transformation.
+We conclude from this evaluation that a training set between 100 and 200 alignments is enough to reduce the final error below one word per transformation.
+
+We thus developed a small console interface to hand-code 200 alignments of non-trivial transformations (see @fig:gistr-goldcli for how this is done).
+The manual alignments were then used as a parameter training set, on which brute forcing the best $\bm{\theta} \in [-1, 0]^3$ with discretisation step up to .025 achieved a training fit of 240 (i.e., 1.2 errors per transformation), confirming that our hand-coded alignments are most likely not possible to reproduce perfectly with this parametrisation.
+The final parameters obtained with this approach are $\theta_{mismatch} = -.89$, $\theta_{open} = -.29$, and $\theta_{extend} = -.12$.
+$\theta_{exchange}$ was then set to -.5 after manual trial and error.
+
+<div id="fig:gistr-goldcli">
+
+![Before manual alignment](images/gistr/gistr-goldcli-before.png)
+
+![After manual alignment](images/gistr/gistr-goldcli-after.png)
+
+Console interface for manual transformation alignment.
+The user moves their cursor (underline below "handed" and "Cardiff") along the word sequences to insert or remove gaps and align the two utterances by hand.
+</div>
+
+Finally, we manually evaluated the overall quality of these parameters by hand-coding the number of errors in a random set of 100 non-trivial alignments generated by the parameters.
+Errors were counted as the number of words whose alignment would have to be changed in order to obtain a perfect alignment.
+Of those 100 alignments, 79 were perfect, 12 had 1 error, 4 had 2 errors, and the remaining 5 had between 3 and 6 errors.
+Counting 1 error as acceptable, this method yields a successful alignment in 91% percent of the cases.
+To make sure this is also the case for deep alignments, we hand-coded errors in 100 random alignments for which the algorithm had explored exchanges (though not all of them are deep alignments, as it may be that the shallow alignment was the best).
+An error was counted for each exchange that was missing, mistaken, or should not have been present at all.
+Of the 100 alignments, 81 had no errors, 17 had 1, and 2 had 2 errors.
+The parameters obtained here were thus used for all further analyses.
+They are also those used in the example alignments discussed in the previous sections.
 
 
 ### Mechanistic transformation model
