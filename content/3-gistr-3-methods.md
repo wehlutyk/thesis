@@ -292,6 +292,8 @@ These changes reduced the spam rate drastically.
 On the same criteria as Experiment 1, Experiment 2 showed an accumulated spam rate of .8%, which combined with misplaced utterances led to a total 1.4% of utterances discarded.
 Experiment 3 showed an accumulated spam rate of 1.0%, and with misplaced utterances had to discard a total 1.1% of the data.
 
+\todo{Am I certain that I coded spam the same way in all three experiments?}
+
 ![Overlay feedback box opened in the instructions screen from @fig:gistr-instructions.
 The box is available in most screens of Experiments 2 and 3.
 ](images/gistr/gistr-feedback.png){#fig:gistr-feedback width=75%}
