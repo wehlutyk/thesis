@@ -498,11 +498,11 @@ They are also the ones used in the example alignments discussed in the previous 
 
 #### Word and utterance filiations
 
-Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon into a parsimonious model.
-In particular, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, or how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
+Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon into an intelligible model.
+In particular, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, and how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
 By doing this we aim to get an idea of the best building blocks we could use to model the complete phenomenon.
 In more abstract terms, we are looking for the best way to dice the complete data into its internal components;
-such components need not be restricted to the level of individual utterance to utterance transformations, but can also span along branches and in a tree.
+such components need not be restricted to the level of individual utterance-to-utterance transformations, but can also span along branches and in a tree.
 
 To do so we use the alignment tool we just developed to build a more synthetic representation of the branches.
 Indeed with the information provided by each alignment it is now possible to follow the ancestry and descent of individual words through parent and child transformations in a branch.
@@ -510,7 +510,7 @@ Consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
 Any word $w' \in u'$ can be identified as a new insertion or affiliated to a parent word $w \in u$ that was conserved, replaced, and/or moved in an exchange.
 On the child side, $w'$ can also be linked to its child $w''$ (if it wasn't deleted), thus continuing the lineage of this specific word along the branch.
 ^[Note that the alignment tool produces a tree of possible deep alignments for each pair of utterances, such that a word in $u$ could be assigned to different words in $u'$ for different choices of deep alignments.
-To decide this uncertainty for a given word $w$ we first determine if it is conserved (either exactly or through replacement) in a majority of deep alignments;
+To decide this uncertainty for a given word $w$ we first determine if it is conserved (either exactly or through replacement) in at least of all the deep alignments;
 if so, we select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
 if not, the operation is considered a deletion.
 Any word in $u'$ that has no assigned parent word is considered an insertion.
@@ -521,14 +521,12 @@ The root of this tree is the following utterance:
 
 > « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." » <!-- #4 -->
 
-and the example transformation used for our previous discussion of deep alignments (\todo{add refs for sentences}) corresponds to the transformation from depth 1 to depth 2 in branch #49.
+and the example transformation discussed in our introduction of deep alignments (\todo{add refs for sentences}) corresponds to the transition from depth 1 to depth 2 in branch #49 of the figure.
 This representation of branches provides our most synthetic view yet of the process at work.
 Stepping back, we can now examine which trends are more salient in the evolution along the branches.
-At first sight, the plots show that transformations are quite varied, but also have several regularities.
-
-
-- the plots show variability, show the reduction in length, show the increase in transmissibility (likely because of length), but also regularity in the way utterances are transformed
-- interestingly, they show the proportion of replacements, which corresponds to BCP: it's not much! but it's all we could do on the web
+First observations are that the plots reflect the rapid shortening of utterances, and that transformations are less important on shorter utterances.
+We also see here that word replacements, the process studied in the previous chapter with data from blogspace, is quite speckled, and both less frequent and of smaller magnitude than word deletions and word insertions.
+This obvious caveat was one of the motivations for our current experimental approach (indeed, replacements were the only process that could be extracted from the blogspace data set).
 
 ![Example lineages for all the branches of tree #4 from Experiment 3.
 Each subplot corresponds to a different branch.
@@ -543,9 +541,24 @@ Dots inside each light band are spread out on the horizontal axis so as make the
 
 #### Branch axis and utterance axis
 
-- we distinguish two levels of analysis
-  - horizontal, along the branch: event is 'sentence transformation'. show plot with timeline
-  - vertical, inside the utterances: event is 'word operation'. show rotated plot with timeline
+Despite being quite varied, transformations also have noticeable regularities.
+In what follows we distinguish the two axes of @fig:gistr-lineage-tree, which correspond to two time-directed dimensions of analysis.
+First, the horizontal axis where events are the transformation or conservation of an utterance (@fig:gistr-dimensions-branch), and we do not look at the detail of individual transformations.
+Call this the branch dimension.
+Second, the vertical axis where we go into the detail of a transformation:
+events are the insertion, deletion, replacement and/or exchange of a word (@fig:gistr-dimensions-utterance).
+Call this the utterance dimension.
+
+<div id="fig:gistr-dimensions">
+
+![Branch dimension](images/gistr/gistr-dimensions-branch.pdf){#fig:gistr-dimensions-branch}
+
+![Utterance dimension](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
+
+Analysis dimensions.
+</div>
+
+
 - back to the plots, we then see
   - vertical:
     - popout: there are many large grouped deletions, sometimes longer if the sentence is longer
