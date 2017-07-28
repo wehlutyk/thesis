@@ -541,34 +541,61 @@ Dots inside each light band are spread out on the horizontal axis so as make the
 
 #### Branch axis and utterance axis
 
-Despite being quite varied, transformations also have noticeable regularities.
-In what follows we distinguish the two axes of @fig:gistr-lineage-tree, which correspond to two time-directed dimensions of analysis.
-First, the horizontal axis where events are the transformation or conservation of an utterance (@fig:gistr-dimensions-branch), and we do not look at the detail of individual transformations.
+The plots show noticeable regularities in the way transformations vary.
+For a given branch, we distinguish between the two axes of @fig:gistr-lineage-tree as two scales of analysis, each of which corresponds to a different series of events.
+First the horizontal axis:
+an event at this level is the bulk transformation or conservation of an utterance by a subject, without going into the detail of the way an utterance changes (@fig:gistr-dimensions-branch).
+This yields a series of conservation and transformation events, one at each depth in the branch.
 Call this the branch dimension.
-Second, the vertical axis where we go into the detail of a transformation:
-events are the insertion, deletion, replacement and/or exchange of a word (@fig:gistr-dimensions-utterance).
-Call this the utterance dimension.
+Second, the vertical axis where we delve into the detail of a transformation:
+the transformation of an utterance can be seen as a series of word insertions, deletions, conservations and replacements with or without exchange, in their order of appearance in the utterance.
+In order to keep the rest of the analysis palatable we simplify this level's event types by setting aside word exchanges;
+indeed, an exchange is made by either conserving or replacing the exchanged word, and we choose to only take that aspect of the operation into account.
+The event series at this level thus involves 4 event types:
+conservation, replacement, insertion and deletion.
+We obtain a transformation's series of events by projecting the alignment between parent and source utterances onto a unique index in a normalised fashion, where insertions and deletions that happen together (shown face-to-face in @fig:gistr-lineage-tree) are ordered by deletions first, insertions second.
+This level, called the utterance dimension, is represented in @fig:gistr-dimensions-utterance.
+
+Manually inspecting all the branches' lineages on these two dimensions indicated the following trends, several of which are visible in @fig:gistr-lineage-tree.
+In the utterance dimension:
+
+* Deletions are bursty, that is they appear in large chunks, often longer if the utterance they appear in is longer,
+* Exchanges are also bursty (though we will not focus any more on exchanges in what follows),
+* Replacements, on the contrary, seem to occur independently and in isolation,
+* Insertions are bursty too, and seem to rarely occur without deletions;
+  when they appear with deletions, the two tend to be close to each other and of similar magnitude,
+* All operations are less frequent at the very beginning of utterances.
+
+In the branch dimension the main trend is, here too, the burstiness of events.
+The process here is likely very different though:
+a transformation by one subject seems to make further transformations by immediately following subjects more likely.
+
+A final trend appears by combining both dimensions:
+when a transformation features more word insertions than word deletions, that is when an utterance increases in length, the transformation following it is likely to correct that length increase by deleting about as many words as there were in surplus (see the transitions between depths 2, 3 and 4 in branch #257 in @fig:gistr-lineage-tree for an example).
 
 <div id="fig:gistr-dimensions">
 
-![Branch dimension](images/gistr/gistr-dimensions-branch.pdf){#fig:gistr-dimensions-branch}
+![Branch dimension.
+This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots).
+Similar to @fig:gistr-lineage-tree, light grey bands are what subjects see, and the bands between those represent what the subjects do with what they read.
+An orange band indicates that an utterance was transformed, that is a T event, and a dark grey band indicates that an utterance was perfectly conserved, that is a C event.
+The corresponding ordered series of events is shown underneath the axis' arrow.
+](images/gistr/gistr-dimensions-branch.pdf){#fig:gistr-dimensions-branch}
 
-![Utterance dimension](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
+![Utterance dimension.
+This level looks at the detail of a transformation, and turns it into a one-dimensional series of events by normalising the alignment between parent and child utterances:
+parent and child are merged into the same index, and blocks of insertions face-to-face with deletions are ordered by deletions first and insertions second.
+We further set aside the information provided by word exchanges, and only keep from those events the fact that a word is conserved or replaced (discarding its change of index).
+This procedure yields a series of conservations (C), replacements (R), insertions (I), and deletions (D), shown underneath the axis' arrow on the right.
+](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
 
 Analysis dimensions.
+Transformations are analysed along two dimensions, each of which yields a series of events with its own types.
+The branch dimension only looks at whether utterances are transformed or not, thus sees a series of T (transformed) and C (conserved) events.
+The utterance level looks at the detail of the transformations, thus sees a series of C (conservation), R (replacement), I (insertion), and D (deletion) events.
+This example is built on branch #49 from @fig:gistr-lineage-tree.
+\todo{Make this work in grayscale}
 </div>
-
-
-- back to the plots, we then see
-  - vertical:
-    - popout: there are many large grouped deletions, sometimes longer if the sentence is longer
-    - popout: speckled replacements
-    - popout: chunked exchanges
-    - lessobvious: operations rarely happen at the start of a sentence
-    - lessobvious: insertions come after deletions, same size ish
-  - horizontal:
-    - there are chunks
-    - big insertions convert to immediate reductions
 
 
 #### Bursty and chunky behaviours
