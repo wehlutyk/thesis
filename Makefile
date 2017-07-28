@@ -24,12 +24,12 @@ PDFS := thesis.pdf abstract.pdf
 default: $(PDFS)
 
 thesis.pdf: $(SRC) $(BIB)
-	pandoc $(SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex
-	echo "Done."
+	pandoc $(SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+	@echo "Done."
 
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
-	pandoc $(ABSTRACT_SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex
-	echo "Done."
+	pandoc $(ABSTRACT_SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+	@echo "Done."
 
 .PHONY: watch clean
 

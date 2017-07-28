@@ -1,2 +1,5 @@
 # LibreOffice stuff
 .~lock*
+
+# Svg latex package
+svg-inkscape/

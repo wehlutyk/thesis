@@ -63,8 +63,9 @@ header-includes:
   - \PassOptionsToPackage{capitalise}{cleveref}
   # Scale svg figures
   - \usepackage{calc}
-  # Brains Copy Paste images
-  #- \graphicspath{{images/brainscopypaste/}}
+  # Images
+  - \graphicspath{{images/brainscopypaste/}{images/gistr/}}
+  - \usepackage{svg}
   # Brains Copy Paste start/arrival words
   - \newcommand{\warrival}{w'}
   - \newcommand{\wstart}{w}
