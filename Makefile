@@ -18,23 +18,42 @@ BIB := $(CONTENT)/bibliography.bib
 ## CSL stylesheet (located in the csl folder of the PREFIX directory).
 #CSL = apsa
 
+## Pandoc options
+OPTS := --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+
 ## Output pdfs
 PDFS := thesis.pdf abstract.pdf
+
+## Tell the user what we're doing
+define print-info =
+  echo "Pandocking $@. New files:"
+  for src in $?; do \
+    echo "  $$src"; \
+  done
+endef
 
 default: $(PDFS)
 
 thesis.pdf: $(SRC) $(BIB)
-	pandoc $(SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+	@$(print-info)
+	@pandoc $(SRC) -o $@ $(OPTS)
 	@echo "Done."
 
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
-	pandoc $(ABSTRACT_SRC) -o $@ --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+	@$(print-info)
+	@pandoc $(ABSTRACT_SRC) -o $@ $(OPTS)
 	@echo "Done."
 
 .PHONY: watch clean
 
-watch:
-	@inotifywait -r -m -e close_write $(CONTENT) | while read path action file; do echo; echo "$$(date --rfc-3339=seconds): $$action $$file"; make --no-print-directory; done
+watch: default
+	@echo "Waiting for changes"
+	@inotifywait -rmq -e close_write $(CONTENT) | while read path action file; do \
+	  echo; \
+	  echo "$$(date --rfc-3339=seconds): $$action $$file"; \
+          jobs -p | xargs kill 2> /dev/null; \
+	  (make --no-print-directory 2>/dev/null) & \
+	done
 
 clean:
 	rm $(PDFS)
