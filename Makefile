@@ -46,7 +46,7 @@ abstract.pdf: $(ABSTRACT_SRC) $(BIB)
 
 .PHONY: watch clean
 
-watch: default
+watch:
 	@echo "Waiting for changes"
 	@inotifywait -rmq -e close_write $(CONTENT) | while read path action file; do \
 	  echo; \
