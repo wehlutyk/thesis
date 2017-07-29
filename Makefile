@@ -26,7 +26,7 @@ PDFS := thesis.pdf abstract.pdf
 
 ## Tell the user what we're doing
 define print-info =
-  @notify-send "Pandocking $@"
+  notify-send "Pandocking $@" "New files:\n  $$(echo $? | sed 's/ /\n  /g')"
   echo "Pandocking $@. New files:"
   for src in $?; do \
     echo "  $$src"; \
@@ -39,13 +39,13 @@ thesis.pdf: $(SRC) $(BIB)
 	@$(print-info)
 	@pandoc $(SRC) -o $@ $(OPTS)
 	@echo "Done."
-	@notify-send "$@ finished building"
+	@notify-send "Pdf built" "$@ finished pandocking"
 
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
 	@$(print-info)
 	@pandoc $(ABSTRACT_SRC) -o $@ $(OPTS)
 	@echo "Done."
-	@notify-send "$@ finished building"
+	@notify-send "Pdf built" "$@ finished pandocking"
 
 .PHONY: watch clean
 
@@ -55,7 +55,7 @@ watch:
 	  echo; \
 	  echo "$$(date --rfc-3339=seconds): $$action $$file"; \
           jobs -p | xargs kill 2> /dev/null; \
-	  (make --no-print-directory 2>/dev/null) & \
+	  (make --no-print-directory) & \
 	done
 
 clean:
