@@ -26,6 +26,7 @@ PDFS := thesis.pdf abstract.pdf
 
 ## Tell the user what we're doing
 define print-info =
+  @notify-send "Pandocking $@"
   echo "Pandocking $@. New files:"
   for src in $?; do \
     echo "  $$src"; \
@@ -38,11 +39,13 @@ thesis.pdf: $(SRC) $(BIB)
 	@$(print-info)
 	@pandoc $(SRC) -o $@ $(OPTS)
 	@echo "Done."
+	@notify-send "$@ finished building"
 
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
 	@$(print-info)
 	@pandoc $(ABSTRACT_SRC) -o $@ $(OPTS)
 	@echo "Done."
+	@notify-send "$@ finished building"
 
 .PHONY: watch clean
 
