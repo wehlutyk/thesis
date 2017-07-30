@@ -324,7 +324,7 @@ If using news quotes instead of movie quotes or stories is likely to affect para
 Making this hypothesis lets us use utterance selection as an exploratory tool:
 by altering both the sampling of the transformations and the task difficulty, the exploration of different styles and types can help (1) improve data quality and (2) make general structure more visible, thus easier to measure and characterise.
 If this exploration yields insights about the structure of transformations and their effects in the long term, and if such insights are consistent with the previous chapter, then it will make sense to ask to what extent the uncovered structure is applicable to or varies with other types of utterances.
-Throughout pilots and experiments, our goal was therefore to find a set of utterances which would trigger varied transformations whose structure we could analyse and model, while at the same time helping the subjects to produce quality data by not creating too much pressure with reading time.
+Throughout pilots and experiments, our goal was therefore to find a set of utterances which would trigger varied transformations whose structure we could analyse, while at the same time helping the subjects to produce quality data by not creating too much pressure with reading time.
 
 The set of sources used in Experiment 1 covered a broad spectrum of utterance types sampled from the following categories:
 
