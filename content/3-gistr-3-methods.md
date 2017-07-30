@@ -125,7 +125,6 @@ while this approach could achieve some level of spread when combined with (2), i
 @Fig:gistr-trees shows a representation of the shape of the final trees.
 
 <div id="fig:gistr-start">
-
 ![Welcome screen](images/gistr/gistr-welcome.png){#fig:gistr-welcome width=48%}
 <span> </span>
 ![Signup form](images/gistr/gistr-signup.png){#fig:gistr-signup width=48%}

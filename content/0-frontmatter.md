@@ -57,6 +57,7 @@ header-includes:
   - \usepackage{dsfont}
   - \usepackage[chapter]{algorithm}
   - \usepackage{algpseudocode}
+  - \usepackage{xfrac}
   # Format numbers
   - \usepackage[group-separator={,}]{siunitx}
   # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
