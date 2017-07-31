@@ -700,7 +700,7 @@
 <node CREATED="1500374156666" ID="ID_845582753" MODIFIED="1500485493296" TEXT="joint counts of types of transformations (words/chunks) -&gt; dependencies between chunks">
 <node CREATED="1500544034756" ID="ID_211977243" MODIFIED="1500544048708" TEXT="When a deletion appears, it seems to increase the probability of others in the same sentence"/>
 <node CREATED="1500544034757" ID="ID_1582079573" MODIFIED="1500544034757" TEXT="insertion: often (though not always) subordinated to a deletion, and not far in size"/>
-<node CREATED="1500544034757" MODIFIED="1500544034757" TEXT="exchange: 50-50 with or without deletion"/>
+<node CREATED="1500544034757" ID="ID_193219301" MODIFIED="1500544034757" TEXT="exchange: 50-50 with or without deletion"/>
 </node>
 <node CREATED="1500485661706" ID="ID_256470032" MODIFIED="1500485674753" TEXT="corresponding sizes of close insertions/deletions"/>
 <node CREATED="1500486079422" ID="ID_1383918433" MODIFIED="1500486108872" TEXT="increase/decrease of sentence length, combined with sentence burstiness"/>
@@ -711,9 +711,6 @@
 <node CREATED="1500486393585" ID="ID_1288886687" MODIFIED="1500487214357" TEXT="feature makeup of each type, and long-term result"/>
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
-<node CREATED="1500486450524" ID="ID_1449125916" MODIFIED="1500486453405" TEXT="Meaning change">
-<node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
-</node>
 </node>
 <node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500934093518" TEXT="Discussion">
 <node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
@@ -755,7 +752,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1498238883910" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1501463690188" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
@@ -777,6 +774,9 @@
 </node>
 </node>
 <node CREATED="1493708807781" ID="ID_886737445" MODIFIED="1493736031946" TEXT="Many unexplored possibilities">
+<node CREATED="1500486450524" ID="ID_1449125916" MODIFIED="1500486453405" TEXT="Meaning change">
+<node CREATED="1494010760232" ID="ID_192568136" MODIFIED="1495730638391" TEXT="Detailed examples of evolutions (like e.g. the garden path sentence &quot;told me about at that party&quot;), with a qualitative look at the data"/>
+</node>
 <node CREATED="1493708828871" ID="ID_1834477044" MODIFIED="1493719683071" TEXT="Dependency on the ordering of subjects (note some of Kirby&apos;s results depend on that)"/>
 <node CREATED="1493708840626" ID="ID_90314491" MODIFIED="1493720965819" TEXT="Task dependency: changing the reward function, changing the framing in instructions"/>
 <node CREATED="1493708877446" ID="ID_998035384" MODIFIED="1493708977867" TEXT="Adding a distraction task between reading and writing"/>

@@ -694,8 +694,35 @@ Grey lines are the 95% confidence intervals.
 
 ### Inner structure {#sec:gistr-results-inner}
 
+#### Link to utterance length
+
+probability/size/count of chunks
+
+
+#### Link to position in the utterance
+
+probability/size/count of chunks
+
+
+#### Dependencies between types
+
+- contingency table
+- exchange: 50-50 with or without deletion
+- when a deletion appears, it seems to increase the probability of others in the same sentence
+- insertion: often (though not always) subordinated to a deletion
+- insertion and deletion have similar size when close to each other
+
+
+#### Word feature makeup
+
+
+#### Branch effects
+
+- prob of transformation after transformation vs. overall (to confirm punctuated equilitbria)
+- length correction
+
+
+#### Branch feature evolution
+
 
 ### High-level case studies
-
-
-### Meaning change
