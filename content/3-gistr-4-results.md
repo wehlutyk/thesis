@@ -1,6 +1,6 @@
 ## Results {#sec:gistr-results}
 
-\add{a clearer outline of the analysis and the steps we're going to follow: overview of aggregate trends, then wanting to make a simple model through transformation-breakdown/exploration-plots/quantification-of-operations-and-deps}
+\add{a clearer outline of the analysis and the steps we're going to follow: overview of aggregate trends, then wanting to achieve a simple representations of the process through transformation-breakdown/exploration-plots/quantification-of-operations-and-deps}
 
 ### Descriptive observations
 
@@ -493,15 +493,12 @@ The parameters obtained here were thus used for all further analyses.
 They are also the ones used in the example alignments discussed in the previous sections.
 
 
-### Mechanistic transformation model
+### Streamlining the representation of transformations
 
-\add{the model is not realistic, not cognitive, but that's ok as it still gives us some insight into the main behaviours}
+#### Word filiations
 
-#### Word and utterance filiations
-
-Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon into an intelligible model.
-In particular, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, and how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
-By doing this we aim to get an idea of the best building blocks we could use to model the complete phenomenon.
+Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon with intelligible building blocks.
+Ideally, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, and how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
 In more abstract terms, we are looking for the best way to dice the complete data into its internal components;
 such components need not be restricted to the level of individual utterance-to-utterance transformations, but can also span along branches and in a tree.
 
@@ -540,46 +537,61 @@ Dots inside each light band are spread out on the horizontal axis so as make the
 ](images/gistr-computed/exp_3/lineage-tree-4.png){#fig:gistr-lineage-tree}
 
 
-#### Branch axis and utterance axis
-
-\add{an explanation of why we need to reduce to a 1D series (because it's the simplest model of things that will depend on each other and on total size)}
-
-\add{why we therefore need to ignore exchanges as they don't fit in that representation, and why it still benefits from our deep alignments (we see only real indels)}
+#### Branch and utterance axes
 
 The plots show noticeable regularities in the way transformations vary.
-For a given branch, we distinguish between the two axes of @fig:gistr-lineage-tree as two scales of analysis, each of which corresponds to a different series of events.
+For a given branch, we distinguish between the two axes of @fig:gistr-lineage-tree as two scales of analysis, each of which corresponds to a different set of events.
 First the horizontal axis:
-an event at this level is the bulk transformation or conservation of an utterance by a subject, without going into the detail of the way an utterance changes (@fig:gistr-dimensions-branch).
+an event at this level is the bulk transformation or conservation of an utterance by a subject, without going into the detail of the way an utterance changes.
 This yields a series of conservation and transformation events, one at each depth in the branch.
-Call this the branch dimension.
-Second, the vertical axis where we delve into the detail of a transformation:
-the transformation of an utterance can be seen as a series of word insertions, deletions, conservations and replacements with or without exchange, in their order of appearance in the utterance.
-In order to keep the rest of the analysis palatable we simplify this level's event types by setting aside word exchanges;
-indeed, an exchange is made by either conserving or replacing the exchanged word, and we choose to only take that aspect of the operation into account.
-The event series at this level thus involves 4 event types:
-conservation, replacement, insertion and deletion.
-We obtain a transformation's series of events by projecting the alignment between parent and source utterances onto a unique index in a normalised fashion, where insertions and deletions that happen together (shown face-to-face in @fig:gistr-lineage-tree) are ordered by deletions first, insertions second.
-This level, called the utterance dimension, is represented in @fig:gistr-dimensions-utterance.
+We call this the branch dimension, pictured in @fig:gistr-dimensions-branch.
+A salient feature on this dimension is the apparent burstiness of transformations.
+Since successive subjects perform transformations independently, confirming this trend would indicate a behaviour reminiscent of punctuated equilibria:
+a transformation occurring after a period of stability would result in a new utterance that is more likely to be transformed again (we quantify this trend below).
 
-Manually inspecting all the branches' lineages on these two dimensions indicated the following trends, several of which are visible in @fig:gistr-lineage-tree.
-In the utterance dimension:
+Second, the vertical axis where we delve into the detail of a transformation seen as a set of word insertions, deletions, conservations and replacements with or without exchange.
+Call this the utterance dimension.
+At this stage of our analysis, an ideal tool to quantify the properties of transformations in the utterance dimension would be a generative model of the transformative process.
+Unlike in the branch dimension however, the transformation of an utterance is a multi-level process that does not reduce easily to an ordered series of events.
+Indeed, manually inspecting the branches' transformations indicated several trends that complicate potential generative models (several of these are visible in @fig:gistr-lineage-tree):
 
-* Deletions are bursty, that is they appear in large chunks, often longer if the utterance they appear in is longer,
-* Exchanges are also bursty (though we will not focus any more on exchanges in what follows),
-* Replacements, on the contrary, seem to occur independently and in isolation,
-* Insertions are bursty too, and seem to rarely occur without deletions;
+* Deletions, exchanges, and insertions seem bursty (that is they appear in large chunks -- a behaviour that replacements do not seem to have), and the bursts seem often longer if the utterance they appear in is longer,
+* Insertions seem to rarely occur without deletions;
   when they appear with deletions, the two tend to be close to each other and of similar magnitude,
 * All operations are less frequent at the very beginning of utterances.
 
-Note that burstiness at the word level is no surprise, as words are not processed independently, and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
+Note that burstiness at the word level is no surprise, as words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
+However, combined with the dependencies between the sizes and positions of insertions and deletions, and the possibility for exchanges, it means that a full generative model capable of reproducing and predicting future transformations will most likely involve memory and attention span mechanisms that are beyond the scope of this chapter.
+We therefore wish to extract the regularities of individual utterance transformations without modelling their genesis.
 
-We observe a similar trend in the branch dimension however.
-The process that can lead to burstiness at this level is necessarily different, as successive subjects perform transformations independently, linked only through the utterance they see:
-this trend then suggests that a transformation occurring after a period of stability results in a new utterance that is more likely to be transformed again, indicating a behaviour reminiscent of punctuated equilibria.
-This behaviour seems exacerbated in a special case that combines both dimensions:
-when a transformation features more word insertions than word deletions, that is when an utterance increases in length, the transformation following it seems likely to correct that increase in length by deleting about as many words as there were in surplus (see the transitions between depths 2, 3 and 4 in branch #257 in @fig:gistr-lineage-tree for an example).
+To do so we still need a canonical representation of transformations whose properties we can examine without being biased by our choice of representation (such a representation could be the output of a generative model).
+Recall that the alignment tool we developed encodes a transformation as a pair of word sequences with gaps, an encoding that is not unique:
+insertions and deletions that happen together can be reordered (putting insertions before deletions instead of the other way around, or alternating an insertion with a deletion), and the exchange of two parts around a stable chunk can be re-encoded by inverting the roles of stable and exchanged chunks, all without changing the transformation represented by the encoding.
+Running statistics on this representation is thus not an option.
+However, compressing the gaps in this representation merges all the variations together and produces an encoding that is in bijection with transformations.
+This compressed representation of a transformation is precisely what the lineage plots of @fig:gistr-lineage-tree achieve, through another path.
+^[The lineage plots are built horizontal line by horizontal line, by following the path of each word along the branch, not by compressing utterance transformations.
+]
+We picture this correspondence between the transformation diagram produced by lineage plots and the compressed form of alignment sequences in @fig:gistr-dimensions-utterance.
+We thus take these diagrams as our canonical representation of a transformation.
 
-\todo{don't subsume to one dimension just yet. Keep exchanges, keep one axis for parent and one for child, at least til here. It might not be necessary to merge into one axis.}
+In what follows we further set aside part of the information provided by exchanges.
+The natural way of analysing an exchange in a transformation diagram is to look at it as the permutation of the words affected, with possible replacements, insertions and deletions added afterwards.
+We chose to leave the analysis of this aspect of transformations to further research, focusing instead on insertions, deletions, and replacements only.
+We therefore simplify exchanges to keep only the information on whether an exchanged word was conserved or replaced.
+^[Note that while we do not analyse exchanges per se, we still benefit from the deep alignment tool developed:
+the insertions and deletions we are left with correspond to real appearances and disappearances, not undetected exchanges.
+]
+
+From a given transformation diagram we then extract two arrays of word-level operations,
+^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations appear linearly in the utterances, but do not necessarily come from a one-dimensional generation process.
+The two terms refer to the same mathematical object, and simply change the interpretation of the index:
+for a series of events the index represents time, for an array of operations it does not.
+]
+one for the parent utterance and one for the child utterance.
+The parent array contains conservation, replacement and deletion operations, and the child array conservation, replacement and insertion operations.
+The diagram further provides us with the correspondence of conservation and replacement operations between the two arrays (except for operations that were involved in an exchange, for which we lose position information), such that we can measure the distance between two blocks of insertion and deletion operations (except if the two blocks are separated by operations involved in an exchange).
+This final representation of transformations is pictured in @fig:gistr-utterance-arrays.
 
 <div id="fig:gistr-dimensions">
 ![Branch dimension.
@@ -590,30 +602,36 @@ The corresponding ordered series of events is shown underneath the axis' arrow.
 ](images/gistr/gistr-dimensions-branch.pdf){#fig:gistr-dimensions-branch}
 
 ![Utterance dimension.
-This level looks at the detail of a transformation, and turns it into a one-dimensional series of events by normalising the alignment between parent and child utterances:
-parent and child are merged into the same index, and blocks of insertions face-to-face with deletions are ordered by deletions first and insertions second.
-We further set aside the information provided by word exchanges, and only keep from those events the fact that a word is conserved or replaced (discarding its change of index).
-This procedure yields a series of conservations (C), replacements (R), insertions (I), and deletions (D), shown underneath the axis' arrow on the right.
+This level looks at the detail of a transformation, and represents it with a diagram that compresses the pair of sequences produced by aligning parent and child utterances.
+This diagram uniquely represents the transformation, and merges any variations in encoding that can exist in pairs of sequences with gaps.
 ](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
 
+![Parent and child arrays of operations.
+The transformation diagram is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
+This procedure results in two arrays of word operations:
+a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
+Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).
+](images/gistr/gistr-utterance-arrays.pdf){#fig:gistr-utterance-arrays}
+
 Analysis dimensions.
-Transformations are analysed along two dimensions, each of which yields a series of events with its own types.
+Transformations are analysed along two dimensions.
 The branch dimension only looks at whether utterances are transformed or not, thus sees a series of T (transformed) and C (conserved) events.
-The utterance level looks at the detail of the transformations, thus sees a series of C (conservation), R (replacement), I (insertion), and D (deletion) events.
+The utterance level looks at the detail of the transformations, and after simplification represents them with two arrays of operations, one for the parent utterance (made of C, R and D operations) and one for the child utterance (made of C, R and I operations).
 This example is built on branch #49 from @fig:gistr-lineage-tree.
 \todo{Make this work in grayscale}
 </div>
 
 
-#### A model of bursts
+#### Bursty behaviours
 
-We now wish to move beyond such simple observations and quantify the regularities of transformations on both dimensions.
-Our first step is to quantify the extent to which each dimension does indeed feature bursty behaviour.
+We now wish to quantify the regularities of transformations on both dimensions.
+Our first step is to measure the extent to which each dimension does indeed feature bursty behaviour.
 Following @jo_circadian_2012 [who rely on @goh_burstiness_2008], we measure the burstiness of a series of events through the parameter $B$ defined as
 
 $$B = \frac{\sigma - \mu}{\sigma + \mu}$$
 
 where $\sigma$ and $\mu$ are respectively the standard deviation and mean of the distribution of inter-event times in the series of events.
+The same computation applies to arrays of operations (the two have the same mathematical description).
 $B$ has values between -1 and 1;
 $B = -1$ corresponds to a perfectly regular process ($\sigma = 0$, and $\mu > 0$ is the constant period between events), $B = 0$ indicates a burstiness equivalent to that of a Poisson process, where the occurrence of a new event does not depend on the presence of previous events (and $\sigma = \mu$), and $B = 1$ corresponds to an asymptotically perfectly bursty process (it is the limit $\sfrac{\mu}{\sigma} \rightarrow 0$).
 In other words, $B$ measures the intuition according to which a process with average inter-event time shorter than its standard deviation will often have events close to each other with a few long periods without events, and a process with an average inter-event time longer than its standard deviation will have events more evenly spaced (relative to their mean spacing).
@@ -630,73 +648,50 @@ Both measures show that the transformation process in the branch dimension is si
 This is consistent with our intuition that when a transformation appears after a period of stability, it is likely to trigger other transformations following it until a new stable (often much shorter) utterance is reached.
 
 The situation in the utterance dimension involves more event types.
-On the parent side, we note the series of deletion events $\mathcal{D}_p$, the series of replacements with or without exchange $\mathcal{R}_p$, and the series of exchanges $\mathcal{E}_p$ (with or without replacements, such that there is a small overlap with $\mathcal{R}_p$).
-On the child side, we note the series of insertion events $\mathcal{I}_c$, the series of replacements with or without exchange $\mathcal{R}_c$, and the series of exchanges $\mathcal{E}_c$ (here too with or without replacements).
+In the parent array, we note the series of deletion events $\mathcal{D}$ and the series of replacements $\mathcal{R}_p$.
+In the child array, we note the series of insertion events $\mathcal{I}$ and the series of replacements $\mathcal{R}_c$.
 A conserved word is considered an absence of event.
-Note that because of inserted and deleted words, replacements and exchanges may not appear with the same distributions on the parent and child sides.
-As a consequence, $\mathcal{R}_p$ and $\mathcal{R}_c$, as well as $\mathcal{E}_p$ and $\mathcal{E}_c$, may not have the same distribution of inter-event times.
+Note that because of inserted and deleted words, replacements may not appear with the same distributions in the parent and child arrays.
+As a consequence, $\mathcal{R}_p$ and $\mathcal{R}_c$ may not have the same distribution of inter-event times.
 The burstiness measures for each of these series are shown in @fig:gistr-utterance-burstiness-words, along with the burstiness of the series made of all parent or child events without distinguishing their type.
-The plots show that deletions, insertions and exchanges are all bursty, and replacements are undistinguishable from a non-bursty process such as a Poisson process.
-When all event types are joined together, the process is also bursty, albeit somewhat less.
+The plots show that deletions and insertions are both bursty, while replacements are undistinguishable from a non-bursty process such as a Poisson process.
+When all event types are joined together, the process is also bursty, albeit slightly less.
 
-Given the strength of this behaviour for deletions, insertions and exchanges, we further look at these series by collapsing each contiguous chunk of deleted, inserted, or exchanged words into a single event
-This leads to a series of deletion, insertion, or exchange chunks separated by word conservations (non-events).
-For inter-event times, it corresponds to removing the null values in the previous distributions of inter-event times (which separated words in the same chunk), such that computing the burstiness of the chunk process is straightforward.
+Given the strength of this behaviour for deletions and insertions, we further look at these series by collapsing each contiguous chunk of deleted or inserted words into a single event.
+This leads to a series of deletion and insertion chunks separated by word replacements and word conservations (non-events).
+For inter-event times, it corresponds to removing the null values in the previous distributions of inter-event times (which separated words in the same chunk);
+computing the burstiness of the chunk process is therefore straightforward.
 The values plotted in @fig:gistr-utterance-burstiness-chunks show that none of the chunk processes are bursty;
 rather, they are slightly more regular than a Poisson process would be.
 
 Although this behaviour is consistent with our intuition of the way an utterance is reformulated, there is a question as to whether the alignment tool we developed does not favour burstiness.
 In other words, are these measures not due to artefacts?
 Indeed, the scores of operations are parametrised in such a way that insertion and deletion gaps are assigned different costs for initial opening and extension.
-The same question goes for exchanges, which are penalised for creation but not for extension.
 Let us answer this concern.
-For insertions and deletions, the parametrisation of costs does make it possible for burstiness to be more easily identified, but does not make it a necessity:
+While the parametrisation of costs does make it possible for burstiness to be more easily identified, it does not make it a necessity:
 setting the gap opening cost to the same value as the gap extension cost would make the alignment tool neutral with respect to burstiness (setting it lower would be biased against burstiness, and the alignment algorithm would favour word mismatches over gaps to encode differences).
-In our case, the parameters we trained set the gap opening cost to a much higher value than the extension cost, such that the alignment tool does find bursty insertions and deletions more easily.
+In our case, the parameters we trained set the gap opening cost to a much higher value than the extension cost (.29 vs. .12 in absolute values), such that the alignment tool does find bursty insertions and deletions more easily.
 However, these parameters are learned from hand-coded alignments and their output has been validated on test samples:
 any bursty insertions or deletions detected by the alignments is therefore the product of the data itself.
-The situation for exchanges is slightly more complicated, but the detailed analysis shows no clear bias either in favour or against burstiness in the alignment procedure.
-^[We focus on the possibility for one-word exchanges, which are the hardest to produce, and contribute most to low burstiness.
-One-word exchanges can be produced in three situations we must distinguish:
-\(1) an exchange matching one-word gaps;
-\(2) an exchange matching a one-word gap with a gap of at least two words;
-\(3) an exchange matching two gaps of at least two words.
-For case (1), equation \ref{eq:exchange-score} entails that the base score of this one-word exchange is $\theta_{mismatch} + \theta_{exchange} - 2 \theta_{open} = -.81$
-An exchange must have a strictly positive score to be accepted, meaning that single word exchanges are possible if the matched pair of words has similarity $> .81$.
-For case (2), aligning the two parts of the exchange will yield a single word match and one or two gaps (if the match appears between gaps), such that the base score of the exchange is $\theta_{mismatch} + \theta_{exchange} - \theta_{open} - \theta_{extend} = -.98$ for a single internal gap, and $\theta_{mismatch} + \theta_{exchange} - 2 \theta_{extend} = -1.15$ for two internal gaps;
-a single word match can bring the first score above zero, but not the second, such that those exchanges are never accepted.
-Therefore, exchanges of a 2+ words gap with a one-word gap are possible, but only if the word match is at an extremity of the 2+ words gap.
-For case (3), aligning the parts of the exchange yields a single word match and two to four gaps (depending on where the match falls w.r.t. the gaps), none of which can be accepted.
-In short, case (1) is easily accepted, case (2) is accepted part of the time, and case (3) is always rejected as a candidate exchange.
-Exchanges with more than one word match easily override their initial cost.
-Without further information on the proportions represented by each case, we can only conclude to no clear bias either in favour or against burstiness in this detection procedure:
-some situations are accepted and others rejected.
-Note that not accepting all one-word exchanges is also necessary so as not to consider all the simple changes in stopwords as candidate exchanges.
-]
-Combined with the hand-evaluation of deep alignments on a test sample, it is safe to consider that the bursty behaviour of exchanges is no artefact, and is a real effect in the data.
 
-Given these measures, we propose to model a transformation along the utterance dimension as a series of chunk operations, acting either on the parent side or on the child side of the transformation.
-In order to keep the analysis palatable, we choose to set aside word exchanges and focus on word insertions, deletions and replacements.
-At each step in the series, a parent word is proposed for copy.
-An event can then be either the deletion of a chunk of words on the parent side (i.e. skipping that many candidate words for copy), or the insertion of a chunk of words on the child side, or the copying of the candidate word (either perfectly or with replacement).
-The process continues until there are no more candidate words left, at which point there may be a final insertion chunk, and the process stops.
-
-\todo{finish this exposition}
+We now move on to further characterising the size, position, and dependencies between replacements and insertion and deletion chunks.
 
 
 <div id="fig:gistr-utterance-burstiness">
 ![Burstiness of word operations
-](images/gistr-computed/exp_3/burstiness-words.png){#fig:gistr-utterance-burstiness-words width=50%}
+](images/gistr-computed/exp_3/burstiness-words.png){#fig:gistr-utterance-burstiness-words width=58%}
 ![Burstiness of chunks
-](images/gistr-computed/exp_3/burstiness-chunks.png){#fig:gistr-utterance-burstiness-chunks width=50%}
+](images/gistr-computed/exp_3/burstiness-chunks.png){#fig:gistr-utterance-burstiness-chunks width=42%}
 
-Burstiness in the utterance dimension. \todo{explanations}
+Burstiness of operations in the utterance dimension.
+The left pane shows the burstiness of each type of word-level operation (in parent and child arrays), as well as the burstiness of the series made of all operations joined regardless of their type.
+The right pane shows the burstiness for deletions, insertions, and joined events, where contiguous blocks of operations are collapsed into single events.
+This corresponds to the burstiness of *chunks* of deletions, insertions, and joined events (i.e. only considering strictly positive inter-event times).
+Grey lines are the 95% confidence intervals.
 </div>
 
 
 ### Inner structure {#sec:gistr-results-inner}
-
-\todo{outline}
 
 
 ### High-level case studies
