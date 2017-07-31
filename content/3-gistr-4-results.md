@@ -604,10 +604,12 @@ The corresponding ordered series of events is shown underneath the axis' arrow.
 ![Utterance dimension.
 This level looks at the detail of a transformation, and represents it with a diagram that compresses the pair of sequences produced by aligning parent and child utterances.
 This diagram uniquely represents the transformation, and merges any variations in encoding that can exist in pairs of sequences with gaps.
+The top level of the figure shows how the canonical representation comes from the lineage plots.
+The bottom level shows two equivalent encodings of the same transformation (as would be produced by the alignment tool), which compress to the same canonical representation.
 ](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
 
 ![Parent and child arrays of operations.
-The transformation diagram is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
+The canonical representation is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
 This procedure results in two arrays of word operations:
 a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
 Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).
@@ -675,7 +677,6 @@ However, these parameters are learned from hand-coded alignments and their outpu
 any bursty insertions or deletions detected by the alignments is therefore the product of the data itself.
 
 We now move on to further characterising the size, position, and dependencies between replacements and insertion and deletion chunks.
-
 
 <div id="fig:gistr-utterance-burstiness">
 ![Burstiness of word operations
