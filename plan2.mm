@@ -682,17 +682,17 @@
 <node CREATED="1500369897189" ID="ID_1707242680" MODIFIED="1500369903209" TEXT="Evaluate quality by hand"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1500369550867" FOLDED="true" ID="ID_826281229" MODIFIED="1501461366061" TEXT="A model for the process">
-<node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1500372271403" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
+<node COLOR="#669900" CREATED="1500369550867" FOLDED="true" ID="ID_826281229" MODIFIED="1501598449747" TEXT="A model for the process">
+<node CREATED="1500372187528" ID="ID_242049877" MODIFIED="1501598449065" TEXT="Goal: get an understanding of what the basic operations are, their probabilities and dependencies, before going into their detail"/>
 </node>
-<node COLOR="#669900" CREATED="1500372678419" FOLDED="true" ID="ID_842710601" MODIFIED="1501461364197" TEXT="A black-box model of chunks">
-<node CREATED="1500369909560" ID="ID_1687954003" MODIFIED="1501461353697" TEXT="Plot the branches, give a few examples with the text"/>
-<node CREATED="1500371891757" ID="ID_1074199525" MODIFIED="1501461353863" TEXT="Two analysis dimensions">
-<node CREATED="1500371968804" ID="ID_726647223" MODIFIED="1500372770679" TEXT="&apos;Branch level&apos;, i.e. horizontal: axis is depth in the branch, event is &apos;sentence transformation&apos;"/>
-<node CREATED="1500372000035" ID="ID_262035935" MODIFIED="1500372777653" TEXT="&apos;Sentence level&apos;, i.e. vertical: axis is position in the sentence, event is &apos;word transformation&apos;: deletion, insertion, replacement, exchange"/>
+<node COLOR="#669900" CREATED="1500372678419" FOLDED="true" ID="ID_842710601" MODIFIED="1501598449405" TEXT="A black-box model of chunks">
+<node CREATED="1500369909560" ID="ID_1687954003" MODIFIED="1501598448667" TEXT="Plot the branches, give a few examples with the text"/>
+<node CREATED="1500371891757" ID="ID_1074199525" MODIFIED="1501598448667" TEXT="Two analysis dimensions">
+<node CREATED="1500371968804" ID="ID_726647223" MODIFIED="1501598448667" TEXT="&apos;Branch level&apos;, i.e. horizontal: axis is depth in the branch, event is &apos;sentence transformation&apos;"/>
+<node CREATED="1500372000035" ID="ID_262035935" MODIFIED="1501598448667" TEXT="&apos;Sentence level&apos;, i.e. vertical: axis is position in the sentence, event is &apos;word transformation&apos;: deletion, insertion, replacement, exchange"/>
 </node>
-<node CREATED="1500372657473" ID="ID_717180596" MODIFIED="1501461353892" TEXT="Burstiness at the branch level and at the sentence level"/>
-<node CREATED="1500373888091" ID="ID_1346396699" MODIFIED="1501461353894" TEXT="So we&apos;re going to work with chunks and bursts, that is the black-box model that we&apos;re going to detail"/>
+<node CREATED="1500372657473" ID="ID_717180596" MODIFIED="1501598448669" TEXT="Burstiness at the branch level and at the sentence level"/>
+<node CREATED="1500373888091" ID="ID_1346396699" MODIFIED="1501598448669" TEXT="So we&apos;re going to work with chunks and bursts, that is the black-box model that we&apos;re going to detail"/>
 </node>
 <node CREATED="1500372717609" ID="ID_1407774523" MODIFIED="1500374167629" TEXT="Detailing the model">
 <node CREATED="1500485116033" ID="ID_829609168" MODIFIED="1500485733739" TEXT="probability/size/count of chunk (all/specific) ~ size of sentence"/>
@@ -752,7 +752,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1501463690188" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1501598470875" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>

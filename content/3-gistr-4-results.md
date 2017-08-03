@@ -584,7 +584,7 @@ the insertions and deletions we are left with correspond to real appearances and
 ]
 
 From a given transformation diagram we then extract two arrays of word-level operations,
-^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations appear linearly in the utterances, but do not necessarily come from a one-dimensional generation process.
+^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations appear linearly in the utterances, but do not necessarily come from a sequential generation process.
 The two terms refer to the same mathematical object, and simply change the interpretation of the index:
 for a series of events the index represents time, for an array of operations it does not.
 ]
@@ -688,20 +688,102 @@ Burstiness of operations in the utterance dimension.
 The left pane shows the burstiness of each type of word-level operation (in parent and child arrays), as well as the burstiness of the series made of all operations joined regardless of their type.
 The right pane shows the burstiness for deletions, insertions, and joined events, where contiguous blocks of operations are collapsed into single events.
 This corresponds to the burstiness of *chunks* of deletions, insertions, and joined events (i.e. only considering strictly positive inter-event times).
-Grey lines are the 95% confidence intervals.
+Grey lines are the 95% confidence intervals. \todo{FIXME: this is counting each tree as an independent measure, whereas what follows counts each sentence as an independent measure.}
 </div>
 
 
 ### Inner structure {#sec:gistr-results-inner}
 
-#### Link to utterance length
+#### Position and utterance length
 
-probability/size/count of chunks
+Transmissibility measures already showed us that longer utterances are transformed more, but we are now in a position to detail how exactly do transformations depend on the size of the utterance.
+We begin by looking at the probability of each operation as a function of utterance length.
+@Fig:gistr-ops-prob plots the logistic regression of the presence or absence of deletions, insertions, and replacements (on the parent side) as a function of the number of words in the parent utterance.
+(Child side replacements are similar to the parent side, so we omit them in the interest of readability.)
+The length of the parent utterance has a significant effect on all three operations, with deletions being the quickest to increase in probability, followed by replacements then insertions:
+the threshold for having deletions over half the time is 19 words, 22.6 for replacements, and 28.1 words for insertions;
+the slopes of the regressions are also ordered this way.
+In other words, a longer utterance will have a higher risk for all operations, and the increase is strongest for deletions, then for replacements, then for insertions.
 
+@Fig:gistr-ops-count further shows the number of operations as a function of parent utterance length, either counting one for each word affected or counting one for each contiguous chunk of words affected.
+The number of word and chunk operations increases close to linearly as a function of parent length.
+Deletions have by far the strongest link to parent length, both at the word and chunk levels, followed by insertions then replacements.
+Note that the replacement counts barely change between word and chunk level since this operation is not bursty:
+it affects mostly isolated words instead of chunks of words.
+In short, a longer utterance has a higher probability of suffering any type of operation, with on average over a quarter of the words deleted, the equivalent of a fourteenth of the original utterance in new words, and about a twentieth of the words replaced.
 
-#### Link to position in the utterance
+<div id="fig:gistr-ops-counts">
+![Probability of word operations w.r.t. parent length, computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
+Colours correspond to the colour-coding used in @fig:gistr-lineage-tree.
+Light shades are 95% confidence intervals.
+](images/gistr-computed/exp_3/p-ops_parent-length_logistic.png){#fig:gistr-ops-prob}
 
-probability/size/count of chunks
+![Number of word and chunk operations w.r.t. parent length.
+Parent lengths are binned into 5 quantile-based bins.
+Word operations counts the number of individual words affected by an operation (deletion, insertion, replacement).
+Chunk operations counts the number of contiguous chunks of words affected by an operation.
+Light shades and vertical bars are 95% confidence intervals.
+](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
+
+Probability and number of word-level or chunk-level operations.
+</div>
+
+Manual exploration of the lineage plots also indicated that operations are not positioned evenly in the utterances.
+To quantify this behaviour we apply the susceptibility measure developed in the previous chapter to positions in an utterance.
+For words at position $x \in [0, 1]$ relative to their utterance's length ($x = 0$ for words at the beginning, $x = 1$ for words at the end), the susceptibility $\sigma_O(x)$ to an operation $O \in \{D, I, R\}$ is defined as the ratio of $s_O(x)$, the number of times words at relative position $x$ are the target of operation $O$, to $s_O^0(x)$, the number of times those words would be the target of operation $O$ if the choice of words were random:
+^[Since operations in a given transformation are not independent, we scale both $s_O(x)$ and $s_O^0(x)$ such that each transformation has a maximum contribution of 1 to the total counts.
+This procedure is similar to the susceptibility scaling approach we followed in the previous chapter.
+]
+
+$$\sigma_O(x) = \frac{s_O(x)}{s_O^0(x)}$$
+
+@Fig:gistr-susc-ops plots $\sigma_O$ for deletions, insertions, and replacements (on the parent side) both overall and for binned parent lengths.
+The leftmost plots show that deletions and insertions are half as likely to appear at the very beginning of utterances as they would at random, and more likely than random in the second half of utterances.
+This is similar to the well-known primacy effect in recall of word lists.
+In this case, subjects transform much less the beginning of utterances compared to the rest.
+Replacements also feature this primacy effect to lesser extent, to which a slight recency effect is added:
+words at the extremities end of the utterance are slightly less replaced than non-extremity words.
+The plots at binned parent lengths show little to no variation in these patterns:
+mostly, the patterns are more or less marked depending on the parent sentence length (especially for replacements, which seem more uniform for short utterances), but the general behaviour is the same for different parent lengths.
+
+<div id="fig:gistr-susc-ops">
+![Deletions
+](images/gistr-computed/exp_3/susceptibility-del_position_parent-length.png){#fig:gistr-susc-del}
+
+![Insertions
+](images/gistr-computed/exp_3/susceptibility-ins_position_parent-length.png){#fig:gistr-susc-ins}
+
+![Replacements
+](images/gistr-computed/exp_3/susceptibility-rpl_parent_position_parent-length.png){#fig:gistr-susc-rpl}
+
+Susceptibility for word operations as a function of relative position in the utterance.
+The leftmost plot of each sub-figure (blue background) shows $\sigma$ computed over all transformations.
+The plots with the white backgrounds show $\sigma$ computed over transformations with binned parent utterance lengths, indicated in the plot titles.
+Parent length bins are quantile-based, that is computed to have the same number of utterances in each bin (the bins are identical to @fig:gistr-ops-count).
+Light shades are the 95% confidence intervals, computed by considering each transformation as an independent event.
+</div>
+
+Finally, we examine the dependence of operation chunk size on the position it appears in an utterance.
+Our manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
+since subjects delete words more often towards the end of the utterances, it might be that those deletions are also longer if they correspond to larger portions of the utterances being forgotten.
+@Fig:gistr-chunk-size shows the dependence of chunk size on position in the utterance, for deletions, insertions and replacements, both overall and for binned parent length.
+Deletions exhibit a slight effect of position on chunk size, which is significant for parent lengths between 11 and 15 words.
+That is, for those lengths, deletions towards the end of the utterance are significantly larger than deletions at the beginning (4.1 words versus 1.7 words on average), in addition to being more frequent (see the susceptibility plots above).
+The trend is present for deletions at all lengths, though most of the time not significative.
+Other operations do not seem to exhibit this behaviour.
+
+![Chunk operation size w.r.t. parent length and position in utterance.
+The leftmost plot (blue background) shows the average chunk size w.r.t. parent length for all utterances.
+The plots on its right (white background) divide that data into binned parent lengths (bins identical to [@fig:gistr-ops-count,@fig:gistr-susc-ops]).
+In each plot, the height of a line for a given relative position $x$ corresponds to the average size of the chunks in which words at position $x$ are found;
+for instance, a chunk that spans the first half of an utterance will contribute to all the values of $x \in [0, .5]$.
+Average sizes are computed such that each utterance contributes 1 unit.
+Light shades are the 95% confidence intervals computed with that scaling, that is considering each transformation as an independent event.
+](images/gistr-computed/exp_3/chunk-size_position_parent-length.png){#fig:gistr-chunk-size}
+
+Overall, these measures show that deletions are more frequent than insertions, which are more frequent than replacements.
+Operations happen preferentially in the second half of utterances (except for replacements favour all positions except extremities), and are proportional to the parent length in both number of words and number of chunks.
+Deletion chunks are also larger in the second half of utterances, compared to in the first half.
 
 
 #### Dependencies between types
@@ -713,16 +795,16 @@ probability/size/count of chunks
 - insertion and deletion have similar size when close to each other
 
 
-#### Word feature makeup
+#### Feature makeup
+
+- word makeup for each type
+- branch evolution
 
 
 #### Branch effects
 
-- prob of transformation after transformation vs. overall (to confirm punctuated equilitbria)
+- prob of transformation after transformation vs. overall (to confirm punctuated equilibria)
 - length correction
-
-
-#### Branch feature evolution
 
 
 ### High-level case studies
