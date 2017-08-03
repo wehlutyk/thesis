@@ -768,13 +768,15 @@ Our manual exploration of lineage plots did not hint to any effect at this level
 since subjects delete words more often towards the end of the utterances, it might be that those deletions are also longer if they correspond to larger portions of the utterances being forgotten.
 @Fig:gistr-chunk-size shows the dependence of chunk size on position in the utterance, for deletions, insertions and replacements, both overall and for binned parent length.
 Deletions exhibit a slight effect of position on chunk size, which is significant for parent lengths between 11 and 15 words.
+^[The plots also indicate that the overall chunk size increases with parent length, a slight effect which was confirmed for deletions and insertions with dedicated regressions, but which we do not discuss further given its mildness (slopes respectively .030 and .013, both significative with $p < .001$).
+]
 That is, for those lengths, deletions towards the end of the utterance are significantly larger than deletions at the beginning (4.1 words versus 1.7 words on average), in addition to being more frequent (see the susceptibility plots above).
 The trend is present for deletions at all lengths, though most of the time not significative.
 Other operations do not seem to exhibit this behaviour.
 
 ![Chunk operation size w.r.t. parent length and position in utterance.
 The leftmost plot (blue background) shows the average chunk size w.r.t. parent length for all utterances.
-The plots on its right (white background) divide that data into binned parent lengths (bins identical to [@fig:gistr-ops-count,@fig:gistr-susc-ops]).
+The plots on its right (white background) divide that data into binned parent lengths (bins identical to [@fig:gistr-ops-count;@fig:gistr-susc-ops]).
 In each plot, the height of a line for a given relative position $x$ corresponds to the average size of the chunks in which words at position $x$ are found;
 for instance, a chunk that spans the first half of an utterance will contribute to all the values of $x \in [0, .5]$.
 Average sizes are computed such that each utterance contributes 1 unit.
