@@ -725,7 +725,7 @@ Chunk operations counts the number of contiguous chunks of words affected by an 
 Light shades and vertical bars are 95% confidence intervals.
 ](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
 
-Probability and number of word-level or chunk-level operations.
+Probability and number of word-level or chunk-level operations. \todo{add raw distributions?}
 </div>
 
 Manual exploration of the lineage plots also indicated that operations are not positioned evenly in the utterances.
@@ -784,29 +784,117 @@ Light shades are the 95% confidence intervals computed with that scaling, that i
 ](images/gistr-computed/exp_3/chunk-size_position_parent-length.png){#fig:gistr-chunk-size}
 
 Overall, these measures show that deletions are more frequent than insertions, which are more frequent than replacements.
-Operations happen preferentially in the second half of utterances (except for replacements favour all positions except extremities), and are proportional to the parent length in both number of words and number of chunks.
+Operations happen preferentially in the second half of utterances (except replacements which favour all positions except extremities), and are proportional to the parent length in both number of words and number of chunks.
 Deletion chunks are also larger in the second half of utterances, compared to in the first half.
 
 
-#### Dependencies between types
+#### Dependencies between operations
 
-- contingency table
-- exchange: 50-50 with or without deletion
-- when a deletion appears, it seems to increase the probability of others in the same sentence
-- insertion: often (though not always) subordinated to a deletion
-- insertion and deletion have similar size when close to each other
+Manual exploration of the lineage plots indicated that operations have non-trivial dependencies between each other.
+The contingency table for the presence or absence of each operation gives an overview of these dependencies:
+for each operation, we count its presence or absence in all the transformations, then compute the total for each combination of operations.
+The resulting table is as follows:
+
+\begin{center}
+  \begin{tabular}{llrrrr}
+    \toprule
+     & & \multicolumn{4}{c}{\textbf{Deletion}} \\
+    \cmidrule(l){3-6}
+     & & \multicolumn{2}{c}{\emph{no}} & \multicolumn{2}{c}{\emph{yes}} \\
+    \cmidrule(lr){3-4} \cmidrule(l){5-6}
+    \multicolumn{2}{l}{\textbf{Replacement}} & \multicolumn{1}{c}{\emph{no}} & \multicolumn{1}{c}{\emph{yes}} & \multicolumn{1}{c}{\emph{no}} & \multicolumn{1}{c}{\emph{yes}} \\
+    \midrule
+    \multirow{2}{*}{\textbf{Insertion}} & \emph{no} & 1381 & 415 & 286 & 308 \\
+     & \emph{yes} & 66 & 94 & 399 & 512 \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+@Fig:gistr-contingencies illustrates this data with a mosaic plot, rendering some of the trends more visible.
+One way to look at these figures is by considering deletions first.
+Without deletions, insertions are very unlikely (8.2%), and replacements are also unlikely (though less so: 26.0%):
+the most likely event without deletion is by far a transformation with no change at all (70.1%).
+With deletions, all four possibilities are of comparable probabilities:
+having both insertions and replacements is the most likely case (34.0%), followed by insertions without replacements (26.5%), then replacements without insertions (20.5%), then neither replacements nor insertions (19%).
+Overall, deletions can be seen as a gate for other transformations:
+without them the most likely outcome is no change at all, with them all situations have relatively similar probabilities.
+A second way to look at the contingencies is to consider that insertions trigger deletions:
+without insertions, deletions happen only 24.9% of the time, whereas with them deletions are extremely likely (85.1%).
+Replacements are also linked to insertions, either with or without deletions:
+the presence of one always increases the probability of the other.
+
+The process is joint of course, and separating it into different stages would require more knowledge of the cognitive mechanisms that underlie these transformations.
+In spite of this, the relationship between insertions and deletions seems to be well constrained, a fact we see not only in the probability of presence or absence, but also in the number of operations inside a given transformation.
+The link between insertions and deletions can be seen by plotting the distribution of the number of insertions conditioned on the presence of deletions, and vice-versa.
+Both plots are shown on @fig:gistr-insdel-lv:
+without deletions, insertions are not only less probable but also much smaller in number compared to with deletions.
+A similar behaviour is observed in the opposite case:
+deletions that happen in the presence of an insertion are much greater in number than without insertions.
+
+![Mosaic plot of the contingency table between deletions, insertions, and replacements.
+Red rectangles indicate deletions are present;
+green rectangles or green dots indicate insertions are present;
+darker colours indicate replacements are present.
+Each rectangle also indicates the number of transformations it represents (corresponding to the rectangle area).
+](images/gistr-computed/exp_3/contingencies_mosaic.png){#fig:gistr-contingencies width=60%}
+
+<div id="fig:gistr-insdel-lv">
+![Number of insertions conditioned on the presence of deletions.
+](images/gistr-computed/exp_3/insertion-lv_del-presence.png){#fig:gistr-inslv width=40%}
+<span> </span>
+![Number of deletions conditioned on the presence of insertions.
+](images/gistr-computed/exp_3/deletion-lv_ins-presence.png){#fig:gistr-del-lv width=40%}
+
+Letter-value plots [@hofmann_letter-value_2011] of deletion and insertion counts conditioned on the presence of one another.
+In a given plot, the boundaries between boxes are placed at the $\sfrac{1}{2^i}$-th quantiles:
+the middle line is the median, and above it the biggest box stops at the third quartile, the second biggest stops at the seventh 8-quantile (octiles), and so on and so forth.
+Diamonds are outliers that do not fit into the smallest box.
+</div>
+
+Deletions and insertions thus seem closely linked, as our intuition of the process suggests:
+deletions could be the first manifestation of the subject having forgotten something in the parent utterance, and their presence then opens the door to further reformulations, possibly to make up for the forgotten content.
+
+This relates to the last observation produced by our manual exploration:
+insertions and deletions seemed to occur in similar sizes when close to one another.
+To quantify this observation we estimate a correlation function between the sizes of insertion and deletion chunks separated by fixed numbers of conserved or replaced words.
+More precisely, for each insertion chunk in the data set we identify the nearest deletion chunk either before or after it, separated by words that are not involved in an exchange.
+^[Indeed, when exchanges separate an insertion chunk from a deletion chunk there are several paths from one to the other, depending on when one traverses the exchange;
+different paths can have different final distances, such that the distance between an insertion chunk and a deletion chunk separated by an exchange is not clearly definable.
+]
+If an insertion chunk has such a nearest neighbour (it may not if there were no deletions, or if it occurred in the middle of exchanged words such as in @fig:gistr-utterance-arrays), we note $r$ the separation between the two chunks.
+If insertion and deletion chunks face each other, $r = 0$;
+otherwise, $r < 0$ if the deletion comes before the insertion, $r > 0$ if the deletion comes after, and $|r|$ equals the number of conserved or replaced words separating the two.
+For a given value of $r$, we compute a robust linear regression of insertion chunk size against deletion chunk size for all insertion-deletion chunks separated by $r$.
+We then take the slope of that regression as an indicator of the correspondence between the sizes of $r$-separated insertion and deletion chunks.
+^[The robust regression lets us minimise the impact of outliers in the distributions of insertion chunk sizes, which otherwise had a strong effect on more common correlation measures.
+The regression is computed using the Statsmodels statistics library for Python, which implements robust M-estimation using Huber's T norm [@huber_robust_1981] with a default parameter of 1.345.
+]
+
+@Fig:gistr-insdel-correlations shows the robust regressions and the estimated correlation function for $r \in \{ -5, ..., 5 \}$ (outside of which there was always less than 10 insertion-deletion couples).
+The plot shows three important points.
+First, insertion and deletion chunks that face each other ($r = 0$) significantly correlate in size.
+Second, that correlation initially decreases to become non-signifcant as $|r|$ increases.
+The third and most interesting point is that the correlation function is skewed towards the left:
+it is significantly above zero for $r = -1$ but not for $r = 1$, then also for $r = -4, -5$ at higher values than for $r = 4$.
+Note however that the last three points represent only 10 to 12 insertion-deletion couples each and are thus more susceptible to outliers (especially to deletion outliers, i.e. the x axis, which the M-estimation technique we used does not counter).
+Overall, the correlation is positive for insertion and deletion chunks facing each other, and also often for deletion chunks preceding insertions by a few words.
+^[The detail of these plots is sensitive to cropping in the data, and especially to constraints on the maximum deletion size since it can remove x-axis outliers.
+The general trend we observe is always conserved however:
+deletions preceding insertions correlate more than deletions following insertions.
+]
+This trend is consistent with the intuition we outlined above, according to which insertion chunks could come as tentative replacements for the content that was lost in the deletions that directly precede them.
+
+![Correlations between corresponding insertions and deletions at different distances.
+The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
+The white text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
+The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
+](images/gistr-computed/exp_3/insdel_distance_size.png){#fig:gistr-insdel-correlations}
 
 
 #### Feature makeup
 
 - word makeup for each type
 - branch evolution
-
-
-#### Branch effects
-
-- prob of transformation after transformation vs. overall (to confirm punctuated equilibria)
-- length correction
 
 
 ### High-level case studies

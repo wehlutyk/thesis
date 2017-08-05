@@ -52,6 +52,9 @@ header-includes:
   - \newcommand{\rn}{\textsuperscript{\tb{[Internal reference needed]}}}
   # Formatting in monospace, with verbatim spaces, but with colors
   - \usepackage{alltt}
+  # Tables
+  - \usepackage{booktabs}
+  - \usepackage{multirow}
   # Mathematics
   - \usepackage{bm}
   - \usepackage{dsfont}
