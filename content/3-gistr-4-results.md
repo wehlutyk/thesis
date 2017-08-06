@@ -645,7 +645,7 @@ had the branch continued, the stability could have been interrupted immediately,
 Including these truncated spans in the distribution of inter-event times artificially inflates the burstiness (because it adds underestimated spans to the distribution), but removing them biases our sample towards inter-event times for longer utterances (earlier in the branch), which could also inflate burstiness.
 We thus present measures for both distributions, with and without the truncated spans.
 
-Burstiness in the branch dimension with truncated spans is $B_{branch,all} = 0.251 \pm 0.029$, and burstiness without the truncated spans is $B_{branch,observed} = 0.305 \pm 0.031$ (both error estimates correspond to the 95% confidence interval).
+Burstiness in the branch dimension with truncated spans is $B_{branch,all} = 0.252 \pm 0.029$, and burstiness without the truncated spans is $B_{branch,observed} = 0.304 \pm 0.031$ (both error estimates correspond to the 95% confidence interval).
 Both measures show that the transformation process in the branch dimension is significantly bursty.
 This is consistent with our intuition that when a transformation appears after a period of stability, it is likely to trigger other transformations following it until a new stable (often much shorter) utterance is reached.
 
@@ -813,9 +813,9 @@ The resulting table is as follows:
 @Fig:gistr-contingencies illustrates this data with a mosaic plot, rendering some of the trends more visible.
 One way to look at these figures is by considering deletions first.
 Without deletions, insertions are very unlikely (8.2%), and replacements are also unlikely (though less so: 26.0%):
-the most likely event without deletion is by far a transformation with no change at all (70.1%).
+the most likely event without deletion is by far a transformation with no change at all (70.6%).
 With deletions, all four possibilities are of comparable probabilities:
-having both insertions and replacements is the most likely case (34.0%), followed by insertions without replacements (26.5%), then replacements without insertions (20.5%), then neither replacements nor insertions (19%).
+having both insertions and replacements is the most likely case (34.0%), followed by insertions without replacements (26.5%), then replacements without insertions (20.5%), then neither replacements nor insertions (19.0%).
 Overall, deletions can be seen as a gate for other transformations:
 without them the most likely outcome is no change at all, with them all situations have relatively similar probabilities.
 A second way to look at the contingencies is to consider that insertions trigger deletions:
@@ -847,7 +847,7 @@ Each rectangle also indicates the number of transformations it represents (corre
 
 Letter-value plots [@hofmann_letter-value_2011] of deletion and insertion counts conditioned on the presence of one another.
 In a given plot, the boundaries between boxes are placed at the $\sfrac{1}{2^i}$-th quantiles:
-the middle line is the median, and above it the biggest box stops at the third quartile, the second biggest stops at the seventh 8-quantile (octiles), and so on and so forth.
+the middle line is the median, and above and below it the biggest box stops at the first and third quartile, the second biggest stops at the first and seventh 8-quantile (octiles), and so on and so forth.
 Diamonds are outliers that do not fit into the smallest box.
 </div>
 
