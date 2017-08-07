@@ -969,33 +969,28 @@ $\nu_{\phi}$, average feature word of the appearing word as a function of the fe
 Refer to @fig:feature-variations-global for the detailed interpretation of the curves.
 ](images/gistr-computed/exp_3/feature-variation-rpl.png){#fig:gistr-variation-rpl}
 
+Since these features vary consistently, on average, with each transformation of the utterances, we finally ask if any long-term evolution due to the transformations is observable.
+We therefore plot the evolution of the average features of utterances as a function of branch depth for word frequency, age of acquisition, clustering and number of letters.
+@Fig:gistr-branchevo plots this information both for all utterances and divided into fixed content lengths.
+The evolution of each feature is consistent with its susceptibility to target and appearance, and its variation upon replacement.
+Average word frequency significantly increases with depth, both globally and at fixed content length.
+This fits with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
+The reverse is true for age of acquisition, which decreases with depth (albeit significantly for certain content lengths only).
+Clustering and number of letters both decrease also, though clustering shows no clear trend at fixed content lengths and its evolution might therefore be due to utterance shortening.
+It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words is the one that wins in the long run:
+average number of words decreases along the branches, even at fixed content length.
+While the trends are not strong, it is still noteworthy that they are visible at the level of utterance averages:
+in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
+Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
 
+<div id="fig:gistr-branchevo">
+![Word frequency](images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png)
 
+![Age of acquisition](images/gistr-computed/exp_3/feature-branchevo-aoa.png)
 
+![Clustering](images/gistr-computed/exp_3/feature-branchevo-clustering.png)
 
+![Number of letters](images/gistr-computed/exp_3/feature-branchevo-letters_count.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### High-level case studies
+Evolution of average sentence features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution.
+</div>
