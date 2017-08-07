@@ -500,21 +500,34 @@ They are also the ones used in the example alignments discussed in the previous 
 Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon with intelligible building blocks.
 Ideally, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, and how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
 In more abstract terms, we are looking for the best way to dice the complete data into its internal components;
-such components need not be restricted to the level of individual utterance-to-utterance transformations, but can also span along branches and in a tree.
+such components need not be restricted to the level of individual utterance-to-utterance transformations, but could also span along branches and in a tree.
 
 To do so we use the alignment tool we just developed to build a more synthetic representation of the branches.
 Indeed with the information provided by each alignment it is now possible to follow the ancestry and descent of individual words through parent and child transformations in a branch.
 Consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
 Any word $w' \in u'$ can be identified as a new insertion or affiliated to a parent word $w \in u$ that was conserved, replaced, and/or moved in an exchange.
 On the child side, $w'$ can also be linked to its child $w''$ (if it wasn't deleted), thus continuing the lineage of this specific word along the branch.
-^[Note that the alignment tool produces a tree of possible deep alignments for each pair of utterances, such that a word in $u$ could be assigned to different words in $u'$ for different choices of deep alignments.
-To decide this uncertainty for a given word $w$ we first determine if it is conserved (either exactly or through replacement) in at least of all the deep alignments;
+
+Note that the alignment tool produces a tree of possible deep alignments for each pair of utterances, such that a word in $u$ could be assigned to different words in $u'$ for different choices of deep alignments.
+To decide this uncertainty we construct a consensus alignment for each transformation $u \rightarrow u'$:
+for a given word $w$ in $u$ we first determine if it is conserved (either exactly or through replacement) in at least half of all the deep alignments;
 if so, we select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
 if not, the operation is considered a deletion.
 Any word in $u'$ that has no assigned parent word is considered an insertion.
+^[When a word is stable in exactly half the deep alignments and deleted in the other half, we still consider it stable;
+as a consequence the consensus alignment sometimes features one or two more stable words than in the deep alignments it synthesises.
+Such conflicts are inherent to any consensus method, and the alternative to this choice is to consider the word unstable, which adds deletions and insertions to the consensus alignment;
+we chose to favour stabilities.
+A small number of these cases create new single-word exchanges, as two such metastable words are assigned children at exchanged positions;
+manual inspection of these cases showed that such exchanges were consistent with the transformation.
+Finally, a stable word can have two equally probable candidate children, and conversely a given child word can two equally probable (often metastable, though not necessarily) parent words.
+In those cases, we decide in favour of the word closest to the end of the utterance. \todo{Favour the first, so as to stop suspicion of bias in position effect.}
+The procedure is consistent in both directions:
+the consensus alignment for $u \rightarrow u'$ is the same as for $u' \rightarrow u$.
+In practice, only 53 of the 3461 transformations in Experiment 3 have more than one deep alignment, 46 of which have 2 (the other seven have 3 to 6 deep alignments), such that any change here has virtually no impact on the results.
 ]
 
-@Fig:gistr-lineage-tree gathers this information and plots the lineages of the branches for an example tree from Experiment 3 (tree #4, also shown in @fig:gistr-trees).
+@Fig:gistr-lineage-tree gathers consensus alignments and plots the lineages of the branches for an example tree from Experiment 3 (tree #4, also shown in @fig:gistr-trees).
 The root of this tree is the following utterance:
 
 > « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." » <!-- #4 -->
@@ -529,7 +542,8 @@ This obvious caveat was one of the motivations for our current experimental appr
 ![Example lineages for all the branches of tree #4 from Experiment 3.
 Each subplot corresponds to a different branch.
 The horizontal axis is the depth in the branch, and the vertical axis is the index of each word in its utterance.
-A grey line represents a word lineage along the branch, and the darkness of the line corresponds to that word's frequency (darker lines represent more frequent words).
+A grey line represents a word lineage along the branch, and the darkness of the line corresponds to the length of the path between insertion (or branch start) and deletion (or branch end);
+darker lines thus represent words that lasted longer across transformations (however, since branches are not infinite as we necessarily stop the lineage, the darkness is less reliable for words that appeared towards the end of the branches).
 At each depth, the darker background band indicates what the subject sees, and the lighter band indicates the transformation that the subject made.
 Inside lighter bands:
 red dots are word deletions, green dots are word insertions, blue dots are word replacements, and exchanges can be seen when bundles of lines cross each other.
@@ -569,9 +583,7 @@ Recall that the alignment tool we developed encodes a transformation as a pair o
 insertions and deletions that happen together can be reordered (putting insertions before deletions instead of the other way around, or alternating an insertion with a deletion), and the exchange of two parts around a stable chunk can be re-encoded by inverting the roles of stable and exchanged chunks, all without changing the transformation represented by the encoding.
 Running statistics on this representation is thus not an option.
 However, compressing the gaps in this representation merges all the variations together and produces an encoding that is in bijection with transformations.
-This compressed representation of a transformation is precisely what the lineage plots of @fig:gistr-lineage-tree achieve, through another path.
-^[The lineage plots are built horizontal line by horizontal line, by following the path of each word along the branch, not by compressing utterance transformations.
-]
+This compressed representation of a transformation is precisely what the lineage plots of @fig:gistr-lineage-tree illustrate.
 We picture this correspondence between the transformation diagram produced by lineage plots and the compressed form of alignment sequences in @fig:gistr-dimensions-utterance.
 We thus take these diagrams as our canonical representation of a transformation.
 
@@ -595,7 +607,7 @@ This final representation of transformations is pictured in @fig:gistr-utterance
 
 <div id="fig:gistr-dimensions">
 ![Branch dimension.
-This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots).
+This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots and lines).
 Similar to @fig:gistr-lineage-tree, light grey bands are what subjects see, and the bands between those represent what the subjects do with what they read.
 An orange band indicates that an utterance was transformed, that is a T event, and a dark grey band indicates that an utterance was perfectly conserved, that is a C event.
 The corresponding ordered series of events is shown underneath the axis' arrow.
@@ -696,17 +708,16 @@ Grey lines are the 95% confidence intervals. \todo{FIXME: this is counting each 
 
 #### Position and utterance length
 
-Transmissibility measures already showed us that longer utterances are transformed more, but we are now in a position to detail how exactly do transformations depend on the size of the utterance.
+Transmissibility measures already showed us that longer utterances are transformed more, but we are now in a position to detail how exactly transformations depend on the size of the utterance.
 We begin by looking at the probability of each operation as a function of utterance length.
-@Fig:gistr-ops-prob plots the logistic regression of the presence or absence of deletions, insertions, and replacements (on the parent side) as a function of the number of words in the parent utterance.
-(Child side replacements are similar to the parent side, so we omit them in the interest of readability.)
+@Fig:gistr-ops-prob plots the logistic regression of the presence or absence of deletions, insertions, and replacements as a function of the number of words in the parent utterance.
 The length of the parent utterance has a significant effect on all three operations, with deletions being the quickest to increase in probability, followed by replacements then insertions:
 the threshold for having deletions over half the time is 19 words, 22.6 for replacements, and 28.1 words for insertions;
 the slopes of the regressions are also ordered this way.
 In other words, a longer utterance will have a higher risk for all operations, and the increase is strongest for deletions, then for replacements, then for insertions.
 
 @Fig:gistr-ops-count further shows the number of operations as a function of parent utterance length, either counting one for each word affected or counting one for each contiguous chunk of words affected.
-The number of word and chunk operations increases close to linearly as a function of parent length.
+The number of word and chunk operations increase close to linearly as a function of parent length.
 Deletions have by far the strongest link to parent length, both at the word and chunk levels, followed by insertions then replacements.
 Note that the replacement counts barely change between word and chunk level since this operation is not bursty:
 it affects mostly isolated words instead of chunks of words.
@@ -739,10 +750,10 @@ $$\sigma_O(x) = \frac{s_O(x)}{s_O^0(x)}$$
 
 @Fig:gistr-susc-ops plots $\sigma_O$ for deletions, insertions, and replacements (on the parent side) both overall and for binned parent lengths.
 The leftmost plots show that deletions and insertions are half as likely to appear at the very beginning of utterances as they would at random, and more likely than random in the second half of utterances.
-This is similar to the well-known primacy effect in recall of word lists.
+This is consistent with the well-known primacy effect in recall of word lists.
 In this case, subjects transform much less the beginning of utterances compared to the rest.
-Replacements also feature this primacy effect to lesser extent, to which a slight recency effect is added:
-words at the extremities end of the utterance are slightly less replaced than non-extremity words.
+Replacements also feature this primacy effect to a lesser extent, to which a slight recency effect is added:
+words at the end of the utterance are slightly less replaced than non-extremity words.
 The plots at binned parent lengths show little to no variation in these patterns:
 mostly, the patterns are more or less marked depending on the parent sentence length (especially for replacements, which seem more uniform for short utterances), but the general behaviour is the same for different parent lengths.
 
@@ -763,7 +774,7 @@ Parent length bins are quantile-based, that is computed to have the same number 
 Light shades are the 95% confidence intervals, computed by considering each transformation as an independent event.
 </div>
 
-Finally, we examine the dependence of operation chunk size on the position it appears in an utterance.
+Finally, we examine the dependence of operation chunk size on its position in an utterance.
 Our manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
 since subjects delete words more often towards the end of the utterances, it might be that those deletions are also longer if they correspond to larger portions of the utterances being forgotten.
 @Fig:gistr-chunk-size shows the dependence of chunk size on position in the utterance, for deletions, insertions and replacements, both overall and for binned parent length.
@@ -772,7 +783,7 @@ Deletions exhibit a slight effect of position on chunk size, which is significan
 ]
 That is, for those lengths, deletions towards the end of the utterance are significantly larger than deletions at the beginning (4.1 words versus 1.7 words on average), in addition to being more frequent (see the susceptibility plots above).
 The trend is present for deletions at all lengths, though most of the time not significative.
-Other operations do not seem to exhibit this behaviour.
+Other operations do not seem to exhibit this behaviour (the variations for insertions are not significative).
 
 ![Chunk operation size w.r.t. parent length and position in utterance.
 The leftmost plot (blue background) shows the average chunk size w.r.t. parent length for all utterances.
@@ -791,9 +802,7 @@ Deletion chunks are also larger in the second half of utterances, compared to in
 #### Dependencies between operations
 
 Manual exploration of the lineage plots indicated that operations have non-trivial dependencies between each other.
-The contingency table for the presence or absence of each operation gives an overview of these dependencies:
-for each operation, we count its presence or absence in all the transformations, then compute the total for each combination of operations.
-The resulting table is as follows:
+The contingency table for the presence or absence of each operation combination gives an overview of these dependencies:
 
 \begin{center}
   \begin{tabular}{llrrrr}
@@ -863,7 +872,7 @@ different paths can have different final distances, such that the distance betwe
 ]
 If an insertion chunk has such a nearest neighbour (it may not if there were no deletions, or if it occurred in the middle of exchanged words such as in @fig:gistr-utterance-arrays), we note $r$ the separation between the two chunks.
 If insertion and deletion chunks face each other, $r = 0$;
-otherwise, $r < 0$ if the deletion comes before the insertion, $r > 0$ if the deletion comes after, and $|r|$ equals the number of conserved or replaced words separating the two.
+otherwise, $r < 0$ if the deletion comes before the insertion in the utterances, $r > 0$ if the deletion comes after, and $|r|$ equals the number of conserved or replaced words separating the two.
 For a given value of $r$, we compute a robust linear regression of insertion chunk size against deletion chunk size for all insertion-deletion chunks separated by $r$.
 We then take the slope of that regression as an indicator of the correspondence between the sizes of $r$-separated insertion and deletion chunks.
 ^[The robust regression lets us minimise the impact of outliers in the distributions of insertion chunk sizes, which otherwise had a strong effect on more common correlation measures.
@@ -872,7 +881,7 @@ The regression is computed using the Statsmodels statistics library for Python, 
 
 @Fig:gistr-insdel-correlations shows the robust regressions and the estimated correlation function for $r \in \{ -5, ..., 5 \}$ (outside of which there was always less than 10 insertion-deletion couples).
 The plot shows three important points.
-First, insertion and deletion chunks that face each other ($r = 0$) significantly correlate in size.
+First, the vast majority of nearest neighbours insertion and deletion chunks face each other ($r = 0$), and their sizes significantly correlate.
 Second, that correlation initially decreases to become non-signifcant as $|r|$ increases.
 The third and most interesting point is that the correlation function is skewed towards the left:
 it is significantly above zero for $r = -1$ but not for $r = 1$, then also for $r = -4, -5$ at higher values than for $r = 4$.
@@ -893,8 +902,100 @@ The top plot shows the values of the regression slopes aligned to the bottom sub
 
 #### Feature makeup
 
-- word makeup for each type
-- branch evolution
+To get a finer view of what word operations is made of, we extend the feature analysis developed in the previous chapter to our current situation.
+We begin with word susceptibilities, then continue with feature variation upon replacement, and finally extend the analysis to the effect of accumulated transformations along the branches.
+
+The situation is parallel to that of the previous chapter, and our previous analysis can be directly applied.
+We measure the susceptibility of words to being the target of an operation (either by deletion or replacement) and to being the new word of an operation (either as replacing word or inserted word) in a similar manner to substitution susceptibility.
+For a given grouping of words $g$ (e.g. grammatical category or feature value), we compute its susceptibility $\sigma_g^-$ to being a target and its susceptibility $\sigma_g^+$ to newly appearing as the ratio of the number of times it is a target ($s_g^-$) or a new word ($s_g^+$) to the number of times it would be if the process were a random sampling from the available utterances ($s_g^0$):
+
+$$\sigma_g^- = \frac{s_g^-}{s_g^0} \quad \text{and} \quad \sigma_g^+ = \frac{s_g^+}{s_g^0}$$
+
+In order to render the results more comparable to the previous ones, in this section we also filter out stopwords in all the utterances.
+@Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
+Susceptibilities for the replaced and replacing words are very close to one another, and similarly to the online case there is little to no effect of the main categories on susceptibility:
+adjectives are involved at random, nouns appear slightly less than at random, and verbs slightly more.
+Verbs, nouns and proper nouns are all irrelevant for targeting, but adverbs are targeted very slightly above random.
+The other categories (adpositions, numerals and particles) total negligible amounts because they are affected by the stopword filter.
+Overall, the behaviour for targeting is consistent with what we observed in blogspace (the only difference being the trend for adverbs, which are also less present overall in this data set), and the behaviour for appearances indicates a slight bias in favour of verbs and against nouns (appearance susceptibilities were not analysed in the blogspace data set).
+
+![POS susceptibility to being replaced or deleted, and to replacing or being inserted.
+The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in replaced and deleted words in parent utterances ($s_{POS}^-$) and in replacing and inserted words in child utterances ($s_{POS}^+$).
+The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
+95% asymptotic confidence intervals are shown in grey, computed following the @goodman_simultaneous_1965 method for multinomial proportions.
+POS tags are from the Universal Dependencies tag set.
+](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
+
+For the sake of conciseness, we restrict feature results to only the four features that showed relevant effects in the previous chapter: word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
+Age of acquisition and clustering are identical to the previous chapter;
+word frequency was previously computed from the data set itself, and in the present case the overall data set is much smaller.
+Instead, we relied on an external word frequency dataset based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
+These frequencies are provided on what the authors introduce as the Zipf scale, computed as $\log_{10}(\text{Frequency per billion words})$.
+The frequency values thus use a different source from those of the previous chapter, but their final computation only differ by an affine transformation.
+@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities to targeting and appearance
+the trends for frequency, age of acquisition and clustering are consistent with previous results.
+Low frequency, high age of acquisition words very slightly tend to be more targeted, and clustering is mostly not relevant to the process.
+Number of letters has a different behaviour than previously, as not only long words but also short words are slightly more targeted than random.
+It is unclear where this change of effect comes from, as it could be due to any number of factors ranging from analysis tweaks (e.g. an update to the stopword list) to the fact that subjects could be more inclined to replace some words because of a different task context or a different set of utterances.
+All these trends are extremely subtle however (much more than in the blogspace data set), and we do not attempt to explain them any further at this point.
+@Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
+more frequent, lower age of acquisition words are more susceptible to appearance.
+Low clustering and short words appear also more than random, all of which are consistent with the variation patterns observed previously, and which we confirm below.
+
+<div id="fig:gistr-suscept-feature">
+![Susceptibility to targeting.
+](images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png){#fig:gistr-suscept-feature-delrpl}
+
+![Susceptibility to appearance.
+](images/gistr-computed/exp_3/feature-suscept-insrpl_child.png){#fig:gistr-suscept-feature-insrpl}
+
+Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial).
+</div>
+
+Indeed, the analysis of feature variation can also be directly applied to word replacements (though not to deletions or insertions), and @fig:gistr-variation-rpl shows the results for the current data set.
+The plots for frequency, age of acquisition and clustering are strikingly similar to previous results.
+Here too however, number of letters has a different behaviour than previously:
+instead of a uniform negative bias, $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed:
+both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer.
+In other words, the number of letters of words are better conserved in this data set than in blogspace.
+Two factors seem likely to have influenced this change of effect:
+first, the alignment tool favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
+Second, the fact that $\nu_{\phi}^{00}$ changes so much indicates that the sampling of source utterances also has a role.
+Recall that in this case  $\nu_{\phi}^{00}$ is the average number of letters of synonyms of words that are replaced:
+$\nu_{\phi}^{00}$ being closer to $y = x$ then indicates that synonyms of words in the current utterances are closer in size to their originals than is the case in the blogspace utterances, a fact that could contribute to the overall better conservation of number of letters.
+
+![Feature variation upon replacement.
+$\nu_{\phi}$, average feature word of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
+Refer to @fig:feature-variations-global for the detailed interpretation of the curves.
+](images/gistr-computed/exp_3/feature-variation-rpl.png){#fig:gistr-variation-rpl}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### High-level case studies
