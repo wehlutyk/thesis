@@ -1,30 +1,40 @@
 ## Results {#sec:gistr-results}
 
-\add{a clearer outline of the analysis and the steps we're going to follow: overview of aggregate trends, then wanting to achieve a simple representations of the process through transformation-breakdown/exploration-plots/quantification-of-operations-and-deps}
+Recall that the goal we set ourselves is to provide a better understanding of the process at work than what low-level feature analyses such as that of the previous chapter.
+In doing so we also hope to bring some light to the processes underlying high-level contrasts of utterance categories that have been extensively studied in the literature.
+The analysis we present is thus geared towards creating an intermediary representation of the effect of transformations on utterances, one that is at a midpoint between the low-level of word features and the high-level of category contrasts, and can be usefully modelled to better understand the evolution of utterance chains.
+Since this work was exploratory in nature, our presentation will also loosely follow a step-by-step development of the analysis with intermediate results.
+Our analysis consists in four broad steps.
+First, a presentation of the general trends observed in the collected data, which provide a coarse but relevant view of the behaviour of utterance reformulations in these experiments.
+Second, the actual procedure developed to break down transformations into smaller blocks and grasp their detail.
+Third, we develop a descriptive model of transformations based on the detailed view that the previous step provided.
+Finally, we refine this view by quantifying the main behaviours that the model lets us identify in the transmission chains.
+We begin with the general trends observed in the data.
 
-### Descriptive observations
+
+### General trends
 
 We begin the analysis of our three data sets by examining the evolution of aggregate measures as a function of depth in the trees.
 Here and in what follows, the analyses are made on the data cleaned of spam, and chains truncated at their target depth:
 the data from Experiment 1 is truncated at depth 8, Experiment 2 at depth 7, and Experiment 3 at depth 10, and all plots are aligned to the same depth axis to facilitate comparisons.
 The goal of this section is to give an overview of the shape of the data and highlight a few important trends to keep in mind in the rest of the analysis.
-We will come back to the details of the trends further down. \todo{do that.}
+The model we develop further down will then give a more precise view of the mechanisms underlying these trends.
 
 
 #### Utterance length
 
-A well-known effect in transmission chains with linguistic content is the quick reduction of utterance length.
-^[All NLP computations in this chapter are performed using the spaCy library for Python, version 1.9.0, available at \url{http://spacy.io/}.
-]
+A well-known effect in transmission chains with linguistic content is the quick reduction of utterance length as chains progress.
 These experiments are no exception:
 @fig:gistr-token-lengths shows a scatter plot of the number of words of an utterance $|u|_w$ versus depth in a tree.
+^[All NLP computations in this chapter are performed using the spaCy library for Python, version 1.9.0, available at \url{http://spacy.io/}.
+]
 The insets show the data restricted to trees for which root utterances have 30 words or less (thus most utterances in those trees also have 30 words or less);
 this boundary keeps all the Fénéon root utterances in Experiment 3, and we use it to separate longer from shorter utterances for the purposes of this figure.
 The plots confirm that word length quickly decreases as subjects read and rewrite utterances, and indicate that the reduction depends on the size of what is being transformed:
 very long utterances (above 100 words) are reduced to less than 100 words in 2 reformulations or less, whereas root utterances with up to 28 content words can maintain their size until the end of the branches of Experiment 3.
 Note that the differences in the speed of size reduction across the experiments are tied to surface features of the root utterances.
-Word count and average word frequency in particular, which we will later show are strongly related to transformation rate \todo{do that}, have different distributions in the set of root utterances of each experiment:
-word counts are disjoint between Experiments 2 and 3, and root utterances from Experiment 2 are in an oral style, with a higher proportion of stopwords than in Experiments 1 and 3 (stopwords are very frequent words, and make up 67% of the root utterances of Experiment 2, versus 58% in Experiment 1 and 48% in Experiment 3).
+Word count and average word frequency in particular, which we will later show are strongly related to transformation rate, have different distributions in the set of root utterances of each experiment:
+word counts are disjoint between Experiments 2 and 3, and root utterances from Experiment 2 are in an oral style, with a higher proportion of stopwords than in Experiments 1 and 3 (stopwords are alvays high-frequency words, and make up 67% of the root utterances of Experiment 2, versus 58% in Experiment 1 and 48% in Experiment 3).
 The steeper slopes in Experiments 1 and 3 compared to Experiment 2 are thus tied to the higher word counts and lower proportions of stopwords in their root utterances.
 
 Next, we eliminate stopwords from the utterances and focus on the reduction in number of content words (notice however that stopword recognition is less reliable in Experiment 1 than in Experiments 2 and 3, because of spelling mistakes).
@@ -51,13 +61,13 @@ All regression slopes are non-zero with $p < .001$.
 
 #### Utterance to utterance distance
 
-As a first approximation of the magnitude of transformations we introduce a measure of the distance $\lambda(u, u')$ between two utterances $u$ and $u'$, defined as the Levenshtein distance
+As a first approximation to the magnitude of transformations we introduce a measure of the distance $\lambda(u, u')$ between two utterances $u$ and $u'$, defined as the Levenshtein distance
 ^[The Levenshtein distance (also known as the edit distance) is defined between two lists of items, and counts the minimal number of insertions, deletions, and replacements that are needed to transform the first list of items into the second.
 It has all the properties of a metric (non-negativity, identity of indiscernibles, symmetry, and subadditivity).
 ]
 between the lemmas of the content words of $u$ and $u'$:
 
-$$\lambda(u, u') = \text{levenshtein}\left(\text{lemmatize}(c(u)), \text{lemmatize}(c(u'))\right)$$
+$$\lambda(u, u') = \text{lev}\left(\text{lemmatize}(c(u)), \text{lemmatize}(c(u'))\right)$$
 
 For example, consider the three following utterances taken from Experiment 1 (in a tree whose root is from the MemeTracker data set):
 
@@ -76,7 +86,7 @@ After removing the punctuation and converting all words to lowercase, the lemmas
 > $\text{lemmas}(c(u_c))$: "crisis", "happen", "today", "solve", "midnight"
 
 Such that $\lambda(u_a, u_b) = 0$ and $\lambda(u_a, u_c) = \lambda(u_b, u_c) = 3$.
-$\lambda$ thus measures differences in content words and is blind to minor transformations, such as changes of stopwords or word inflexions.
+$\lambda$ thus measures differences in content lemmas and obviates minor transformations such as changes of stopwords or word inflexions.
 In order to have a uniform quantity across utterances of different lengths, we define the *transformation rate* $\rho$ as the normalised distance between two utterances:
 
 $$\rho(u, u') = \frac{\lambda(u, u')}{\max\left(|c(u)|_w, |c(u')|_w\right)}$$
@@ -96,15 +106,15 @@ For instance with the following sentences,
 
 we have $\rho(u_d, u_e) = \rho(u_d, u_f) = 1$.
 The measure misrepresents the changes between these utterances, as $u_d$ and $u_e$ can easily be considered to have similar meanings at a high level, and their difference is far less important than the difference between $u_d$ and $u_f$.
-The measure performs reasonably well on utterances inside the same tree however:
+Nonetheless, the measure performs reasonably well on utterances inside the same tree:
 in that context all utterances come from the same source and have therefore some level of meaning in common, and there is no need to differentiate between the types of transformations that $u_d \rightarrow u_e$ and $u_d \rightarrow u_f$ represent.
 
 
 #### Transmissibility and transformation rate
 
 Together with transformation rate, we examine a measure derived from it:
-the *transmissibility* of utterances, defined as the proportion of utterances at a given depth whose content words are perfectly transmitted to their child, computed over all the branches of all the trees of an experiment [this measure was introduced as "average success" in @claidiere_cultural_2014].
-If we note $\mathds{1}_{\lambda(u, u') = 0}$ the success of a subject in transmitting an utterance's content (it equals 1 if the content words of $u$ and $u'$ match perfectly, and 0 if there was any change in content words), the transmissibility of utterances at depth $d$ can be expressed as:
+the *transmissibility* of utterances, defined as the proportion of utterances at a given depth whose content lemmas are perfectly transmitted to their child, computed over all the branches of all the trees of an experiment [this measure was introduced as "average success" in @claidiere_cultural_2014].
+If we note $\mathds{1}_{\lambda(u, u') = 0}$ the success of a subject in transmitting an utterance's content (it equals 1 if the content lemmas of $u$ and $u'$ match perfectly, and 0 if there was any change in content lemmas), the transmissibility $\eta(d)$ of utterances at depth $d$ can be expressed as:
 
 $$\eta(d) = \left< \mathds{1}_{\lambda(u, u') = 0} \right>_{\text{$u$ at depth $d$, $u'$ child of $u$}}$$
 
@@ -138,76 +148,80 @@ Finally, the different behaviours across experiments are here again tied to the 
 ![Experiment 3](images/gistr-computed/oc-rates-trans-exp-3.png){#fig:gistr-octrans-exp-3}
 
 Transmissibility and conservation rate for each experiment.
-Each individual graph shows both transmissibility (red line, with 95% confidence intervals) and one minus the transformation rate (blue dots) for a subset of all utterances.
+Each individual graph shows both transmissibility (red line) and one minus the transformation rate (blue dots) for a subset of all utterances.
+Light red areas are the 95% confidence intervals for transmissibility, based on Student's $t$-distribution and considering each transformation as an independent event.
 A blue dot at $y = 1$ is an instance of perfect transmission ($\rho = 0$), and pulls transmissibility upwards;
 a blue dot anywhere below is a transformation instance ($\rho > 0$), and pulls transmissibility downwards.
-The large plot on the left shows both measures for all the sentences of an experiment.
-The small plots on the right show both measures for utterances that have a given number of content words (up to 13 content words, after which the data is nonexistent or very sparse in all experiments).
+The large plot on the left shows both measures for all the utterances of an experiment.
+The small plots on the right show both measures for utterances that have a given number of content words (up to 13, after which the data is nonexistent or very sparse in all experiments).
 The orange dashed line marks the maximum depth in the experiment, so as to differentiate content lengths reaching the limit from content lengths disappearing before the limit.
 </div>
 
 
 #### Variability
 
-\todo{remove this?}
-
-Let us close this overview of the aggregate evolution in all experiments with a final measure:
+We close this overview of the general trends in all experiments with a final measure:
 the variability of utterances at a given tree depth.
-For a given tree $t$, the variability $\kappa(t, d)$ measures the average transformation rate between all pairs of utterances at depth $d$ in $t$ (also called the *slice* of $t$ at depth $d$):
+For a given tree $t$, the variability $\kappa(t, d)$ measures the average transformation rate between all pairs of utterances at depth $d$ in $t$ (henceforth the *slice* of $t$ at depth $d$):
 
 $$\kappa(t, d) = \left< \rho(u, u') \right>_{\{u, u'\} \subset \left\{ \text{$u$ at depth $d$ in $t$}\right\} }$$
 
 This measure gives a sense of how fast branches diverge between each other.
 For each experiment, @fig:gistr-variabilities plots the variability of all slices of all trees, and the average variability averaged across trees.
 All three increase significantly, meaning that utterances from different branches in a tree become more and more different as the chains progress.
-The different divergence rates correspond loosely to the transformation rates observed in @fig:gistr-octrans (Experiment 2 has lower transformation rates, and diverges slower), and are therefore again tied to the differences in root utterances.
+The increase is sublinear and plateaus for Experiments 1 and 3, suggesting that branches diverge most at the beginning and less at the end.
+This is consistent with the increases in transmissibility.
+The different divergence rates correspond to the transformation rates observed in @fig:gistr-octrans (Experiment 2 has lower transformation rates, and diverges slower), and are therefore again tied to the differences in root utterances.
 
 ![Slice variabilities in the three experiments.
-Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95% confidence interval).
+Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95% confidence interval based on Student's $t$-distribution, considering each tree slice as an independent measure).
 ](images/gistr-computed/variabilities.png){#fig:gistr-variabilities}
 
-We now wish to achieve a much finer view of the process at work in this evolution, by decomposing the transformation operations into smaller blocks.
-Our goal from now on is to achieve a more synthetic understanding of the process at work, beyond the simple description of the outer shape of the evolution.
-In what follows we will focus primarily on the data set from Experiment 3, which provides the best overall quality of data and sampling of transformations.
-The procedure we develop is of course applicable to the other two experiments, but we will not discuss those applications in any detail. \todo{check that.}
+These three measures provide a coarse view of the speed at which utterance length is reduced, whether or not transformations make utterances easier to remember, and how fast the specificity of branches develops.
+However, they provide little insight into the detail of these trends and the transformation mechanisms that underlie them.
+We address this question by constructing a model of transformations in three broad steps:
+break down the transformations into a more detailed encoding of operations, visualise these operations to create a descriptive model of transformations, and finally quantify the main behaviours that the model allows us to observe.
+In what follows we focus on the data set from Experiment 3, which provides the best quality of data and sampling of transformations.
+The procedure we present is applicable to the other two experiments, but we will not discuss those applications here.
 
 
 ### Transformation breakdown
 
 #### Sequence alignments
 
-Our first step towards this finer view of transformations is to take advantage of existing generalisations of the Levenshtein distance underlying our measure of transformation rate $\rho$.
+Our first step to construct a model of transformations is to take advantage of existing generalisations of the Levenshtein distance underlying the transformation rate measure $\rho$.
 Recall that the Levenshtein distance between two sequences of items $s$ and $s'$ computes the minimal number of insertions, deletions, and replacements necessary to turn $s$ into $s'$ (and vice-versa).
 This problem can equally be formulated as that of aligning the items of $s$ and $s'$:
 each item of $s$ can be paired either with an item from $s'$ (signifying a conservation if both items match, or a replacement if the two items are different), or with nothing (signifying a deletion in the transformation of $s$ into $s'$).
 Symmetrically, items from $s'$ can also be paired with nothing (aside from being paired with items from $s$), signifying an insertion in the transformation of $s$ into $s'$.
-In this formulation, insertions and deletions are merged into the same operation:
-a "gap" (or "indel"), found either in $s$ or in $s'$.
-As we will now see, this problem has become extremely important over the last 50 years in the subfield of bioinformatics known as sequence alignment.
+In this formulation, insertions and deletions are unified into the same operation:
+a "gap" (or "indel" for insertion-deletion), found either in $s$ or in $s'$.
+The problem thus formulated has become extremely important over the last 50 years in the subfield of bioinformatics known as sequence alignment.
 
 Sequence alignment is in the business of looking for similarities between sequences of DNA, RNA, or amino acids in proteins that could indicate evolutionary or structural relationships between two or more species.
-Research on this task has led to the development of several generalisations of the algorithm underlying the Levenshtein distance;
+Research on this problem has led to the development of several generalisations of the algorithm underlying the Levenshtein distance;
 these are geared towards assigning different weights or costs to the individual operations transforming one sequence into the other, finding optimal alignments of subparts of the two sequences (a task known as local alignment, in contrast to global alignment), or aligning more than two sequences simultaneously (multiple sequence alignment, in contrast to pairwise alignment).
 
-The problems tackled are strikingly similar to our present task:
-we aim to decompose the transformation from a parent utterance to a child utterance into small basic operations.
+The structure of the problem is strikingly similar to our present task:
+we aim to decompose the transformation of a parent utterance into a child utterance into a combination of small basic operations.
 In sequence alignment terms, this task is a pairwise global alignment of lists of words, for which the Needleman-Wunsch algorithm [@needleman_general_1970, henceforth NW] provides a flexible generalisation of the Levenshtein distance.
-For two sequences of items of any type, $s$ and $s'$, the NW algorithm assigns different scores to each basic operation (gap, mismatch a.k.a. replacement, and match, which is considered a scored operation like the first two), and returns the list of alignments between $s$ and $s'$ with maximal total score (there can be several such alignments that achieve the maximal total score).
-Each alignment can be directly interpreted as a list of operations to transform $s$ into $s'$ (or vice-versa).
+For two sequences of items of any type, $s$ and $s'$, the NW algorithm assigns different scores to each basic operation (gap, mismatch a.k.a. replacement, and match, which is considered a scored operation like the first two), and returns the list of alignments between $s$ and $s'$ with maximal total score.
+There can be several such alignments, and each of them can be directly interpreted as a minimally scoring list of operations to transform $s$ into $s'$ (and vice-versa).
 
 More precisely, let us note $s = (s_1, ..., s_n)$ and $s' = (s'_1, ..., s'_{n'})$ the items in both sequences, with $n$ and $n'$ the lengths of the sequences.
-The NW algorithm returns pairs of sequences $a$ and $a'$ of lengths $m = \max(n, n')$, made of the items from $s$ and $s'$ (respectively), in the same order, but interspersed with a "gap item" which we note $g$.
-Noting $a = (a_1, ..., a_m)$ and $a' = (a'_1, ..., a'_m)$, each pair $(a_i, a'_i)$ represents the pairing of an item from $s$ with an item from $s'$ (either match or mismatch), or with a gap if $a'_i = g$ (and vice versa if $a_i = g$).
-Considered as a transformation from $s$ to $s'$, gaps in $a'$ represent deletions, and gaps in $a$ represent insertions.
-$a$ and $a'$ are such that the sum of scores of the operations they represent is maximal.
+The NW algorithm returns pairs of sequences $a$ and $a'$ of lengths $m \geq \max(n, n')$, made of the items from $s$ and $s'$ (respectively), in the same order, but interspersed with a "gap item".
+We noting the gap item $g$, and the alignment sequences $a = (a_1, ..., a_m)$ and $a' = (a'_1, ..., a'_m)$.
+Each tuple $(a_i, a'_i)$ then represents the pairing of an item from $s$ with an item from $s'$ (either match or mismatch), or with a gap if $a'_i = g$ (and vice versa if $a_i = g$).
+Considered as a transformation from $s$ to $s'$, gap items in $a'$ represent deletions, and gap items in $a$ represent insertions.
+Each pair can thus be seen as an operation taking an item from $s$ to construct $s'$, and $a$ and $a'$ are such that the sum of scores of the operations they represent is maximal.
 
 Take for instance the DNA sequences $s =$ AGAACT and $s' =$ GACG.
 An example alignment between the two sequences can be represented as follows (with the gap item represented as "-", and matches shown with vertical bars):
 
 \begin{align*}
-  a  = & \text{\texttt{ AGAACT-}} \\
-       & \text{\texttt{  | ||}} \\
-  a' = & \text{\texttt{ -G-AC-G}}
+  a  = {} & \text{\texttt{AGAACT-}} \\
+       {} & \text{\texttt{  | ||}} \\
+  a' = {} & \text{\texttt{-G-AC-G}}
 \end{align*}
 
 The power of the NW algorithm is that gap, mismatch and match scores can be defined at compute time, knowing what items are being compared (or evaluated for a gap), and what operations would have been made up to that point if this operation were to be part of an optimal alignment.
@@ -222,7 +236,7 @@ In the next sections we detail our application and extension of the NW algorithm
 #### Application to utterance alignment
 
 The NW algorithm can be straightforwardly applied to sequences of any kind, provided we define scores for opening and extending gaps and a function to evaluate the comparison of two items (henceforth the match scoring function).
-We chose to use the algorithm on sequences of words, excluding punctuation, with a match scoring function that takes into account the semantic distance between the two word compared.
+We thus apply it to sequences of words without punctuation, with a match scoring function that takes into account the semantic distance between the two words compared.
 For a given pair of utterances $u$ and $u'$, we start by tokenising them and removing all punctuation.
 We then apply the NW algorithm
 ^[We used Biopython's implementation of the NW algorithm [@cock_biopython:_2009].
@@ -237,12 +251,14 @@ $$
 $$
 
 where $S_C$ is the cosine similarity function (one minus cosine distance) and $\bm{w}$ is a 300-dimensional vector representation of $w$ encoding the word's semantics,
-^[The standard spaCy English language model includes "vectors for one million vocabulary entries, using the 300-dimensional vectors trained on the Common Crawl corpus using the GloVe algorithm" (\url{https://alpha.spacy.io/docs/usage/word-vectors-similarities}).
-The GloVe algorithm was developed by @pennington_glove:_2014.
+^[Vector representations (also known as "word embeddings") encode words as vectors in a high-dimensional vector space.
+The high-dimensionality allows the vectors to bear part of the semantic information of the words as they appeared in a training corpus.
+Large pre-trained vocabulary sets are available in many NLP libraries, and the standard spaCy English language model includes "vectors for one million vocabulary entries, using the 300-dimensional vectors trained on the Common Crawl corpus using the GloVe algorithm" (\url{https://alpha.spacy.io/docs/usage/word-vectors-similarities}).
+The GloVe algorithm was introduced by @pennington_glove:_2014, and is one of several possible methods to train such word vectors (another well-known family of methods being word2vec).
 ]
 such that the $S_C(\bm{w}, \bm{w}')$ provides a measure of semantic similarity between $w$ and $w'$.
 Finally, $\delta_{i,j}$ is Kronecker's delta which equals 1 if and only if $i = j$, and 0 otherwise.
-This function thus provides a "best effort" similarity measure which depends on whether we have detailed information about the words being compared or not.
+This function thus provides a "best effort" similarity measure which depends on whether we have semantic information about the words being compared or not.
 
 Adding an affine transformation to similarity lets us adjust its importance with respect to gap scores, for which we only differentiate opening and extension scores.
 This definition thus uses an initial 4 scalar parameters (two gap scores, two affine parameters) that define the way each operation is scored against the others.
@@ -256,7 +272,7 @@ We choose to set the slope of the affine transformation of similarity to 1, and 
 * $\theta_{extend}$, the score for extending a gap;
   $\theta_{extend}$ is also negative.
 
-Given the right set of parameters, this tool lets us align two utterances and obtain the minimal set of operations that transform one into the other.
+Given the right set of parameters, the alignment produced by the NW algorithm to transform one utterance into another is a good approximation of the internal operations of said transformation.
 Take for instance the following two utterances from Experiment 3:
 
 > "Finding her son, Alvin, 69, hanged, Mrs Hunt, of Brighton, was so depressed she could not cut him down."  <!-- #2033 -->
@@ -278,8 +294,8 @@ she could not cut him down
 
 #### Detecting exchanges
 
-The application of the NW algorithm developed up to this point works rather well for simple transformations such as the one exemplified above.
-However, more complicated transformations include operations that the algorithm as is cannot detect or represent.
+Applying the NW algorithm in this manner works well for simple transformations such as the example above.
+However, more complicated transformations include operations that the algorithm does not know about.
 Hand inspection of the data showed that exchanging sub-parts of an utterance, in particular, is a relatively common operation for which our current tool has no representation.
 Consider the following two utterances from Experiment 3 for instance:
 
@@ -304,7 +320,7 @@ Suppose that for the alignment of the deletion block $u_-$ "said a speaker are d
 then the deep score for the top level $\chi_{deep}(u_a, u_b)$ is as follows:
 
 \begin{align}
-  \chi_{deep}(u_a, u_b) & = \chi_{shallow}(u_a, u_b) & & \text{start from the initial shallow score} \nonumber \\
+  \chi_{deep}(u_a, u_b) & = \chi_{shallow}(u_a, u_b) & & \text{initial shallow score} \nonumber \\
               &\qquad {} + \theta_{exchange} & & \text{score the addition of an exchange operation} \nonumber \\
               &\qquad {} - \text{score}(\text{deletion of }u_-) & & \text{recover the cost of the deletion block} \nonumber \\
               &\qquad {} - \text{score}(\text{insertion of }u_+) & & \text{recover the cost of the insertion block} \nonumber \\
@@ -323,7 +339,7 @@ Note that for long utterances, the size of the deep alignment tree can grow very
 
 \begin{algorithm}
 \caption{An implementation of the deep alignment extension for detecting exchanges in NW alignments.
-Note that this implementation is grossly inefficient, but presentationally clearer than the implementation we made.
+Note that this implementation is inefficient but presentationally clearer than the implementation we made.
 }
 \label{alg:deep-alignment}
 \begin{algorithmic}
@@ -412,7 +428,7 @@ For longer utterances however, there can be several exchanges at each level, and
 
 #### Training alignment parameters
 
-To finish the development of our alignment tool, it is necessary to determine a set of alignment parameters that produce plausible results.
+Finally, we need to determine a set of alignment parameters that produce useful results with this procedure.
 Recall that the parameters are:
 
 * $\theta_{mismatch}$, the base score for the match scoring function,
@@ -420,8 +436,8 @@ Recall that the parameters are:
 * $\theta_{exchange}$, the score for creating an exchange.
 
 In order to make the problem of finding usable parameters tractable, we decided to restrict parameter training to the shallow alignment parameters only (henceforth noted $\bm{\theta} = (\theta_{mismatch}, \theta_{open}, \theta_{extend})$), and fine-tune $\theta_{exchange}$ by hand after the first three were defined (this also corresponds to the fact that deep alignments are made on the basis of optimal shallow alignments).
-Our general approach for this task is therefore to hand-code shallow alignments for a random set of utterance transformations in Experiment 3, train the shallow alignment parameters to that standard, before adjusting the exchange parameter by hand.
-Since the there are only three dimensions to explore, the training step is easiest to accomplish by brute force.
+Our general approach for this task is therefore to hand-code shallow alignments for a random set of utterance transformations in Experiment 3, then train the shallow alignment parameters to that standard before adjusting the exchange parameter by hand.
+Since there are only three dimensions to explore, the training step is easiest to accomplish by brute force.
 
 We thus start by evaluating the size of the training set that is necessary to obtain a set of parameters that extrapolates well to untrained data.
 Indeed, a training set too small in size might provide too weak a constraint on the set of parameters, such that brute forcing would find many parameter sets that do not extrapolate well.
@@ -432,7 +448,7 @@ We used the following procedure to decide this trade-off:
    note these alignments $\mathcal{A}^0$.
 2. Sample a training set of size $n$ from the artificial alignments;
    note the training set $\mathcal{A}_t^0$, and the remaining evaluation set $\mathcal{A}_e^0 = \mathcal{A}^0 \setminus \mathcal{A}_t^0$.
-3. Brute-force the sets of parameters $\hat{\bm{\theta}}_1, ..., \hat{\bm{\theta}}_m$ that best reproduce the training set $\mathcal{A}_t^0$, by exploring the sampling space $[-1, 0]^3$ with a discretisation step of.1;
+3. Brute-force the sets of parameters $\hat{\bm{\theta}}_1, ..., \hat{\bm{\theta}}_m$ that best reproduce the training set $\mathcal{A}_t^0$, by exploring the sampling space $[-1, 0]^3$ with a discretisation step of .1;
    parameters that perfectly reproduced the training set were always found, such that no finer-grained exploration was needed.
 4. Evaluate the worst fit $\hat{f}_n$ between the evaluation alignments $\mathcal{A}_e^0$ and the alignments produced by each of the $\hat{\bm{\theta}}_1, ..., \hat{\bm{\theta}}_m$ on the same transformations.
 
@@ -468,8 +484,8 @@ The worst values of the ten runs were $\hat{f}_{20} = 3652.5$ (1.71 errors per t
 For $n = 100$, we further resampled $\bm{\theta}^0$ ten times (step 1) and ran steps 2-4 ten times for each of those 10 parameter sets, yielding an overall $\hat{f}_{100} = 1437.5$, that is .70 errors per transformation.
 We conclude from this evaluation that a training set between 100 and 200 alignments is enough to reduce the final error below one word per transformation.
 
-We thus developed a small console interface to hand-code 200 alignments of non-trivial transformations (see @fig:gistr-goldcli for how this is done).
-The manual alignments were then used as a parameter training set, on which brute forcing the best $\bm{\theta} \in [-1, 0]^3$ with discretisation step up to .025 achieved a training fit of 240 (i.e., 1.2 errors per transformation), confirming that our hand-coded alignments are most likely not possible to reproduce perfectly with this parametrisation.
+We thus hand-coded 200 alignments of non-trivial transformations, using a simple console interface illustrated in @fig:gistr-goldcli.
+The manual alignments were used as a parameter training set, on which brute forcing the best $\bm{\theta} \in [-1, 0]^3$ with discretisation step up to .025 achieved a training fit of 240 (i.e., 1.2 errors per transformation), confirming that our hand-coded alignments are most likely not possible to reproduce perfectly with this parametrisation.
 The final parameters obtained with this approach are $\theta_{mismatch} = -.89$, $\theta_{open} = -.29$, and $\theta_{extend} = -.12$.
 $\theta_{exchange}$ was then set to $-.5$ after manual trial and error.
 
@@ -493,117 +509,137 @@ The parameters obtained here were thus used for all further analyses.
 They are also the ones used in the example alignments discussed in the previous sections.
 
 
-### Streamlining the representation of transformations
+### Transformation model
 
-#### Word filiations
+The alignment procedure we just presented provides a list of deep alignment trees for each transformation in the data set.
+At this point we have showed that such deep alignments reliably encode the details of a transformation broken down into smaller operations, thus completing the first step of our modelling approach.
+We now proceed to the next step:
+first, create an accurate visualisation of the details of transformations captured by the alignments, then derive a transformation model based on that visualisation.
+The step after that will then refine the model and quantify the behaviours we can measure with it.
 
-Having developed a method to reliably break down individual transformations into simpler operations, we can come back to our initial goal of synthesising the overall phenomenon with intelligible building blocks.
-Ideally, we would like to know how often each basic operation of utterance alignment (deletion, replacement, exchange, conservation) is actually used by subjects, how those basic operations get grouped together, and how they depend on each other both inside a single utterance transformation and across successive transformations in branches.
-In more abstract terms, we are looking for the best way to dice the complete data into its internal components;
-such components need not be restricted to the level of individual utterance-to-utterance transformations, but could also span along branches and in a tree.
 
-To do so we use the alignment tool we just developed to build a more synthetic representation of the branches.
-Indeed with the information provided by each alignment it is now possible to follow the ancestry and descent of individual words through parent and child transformations in a branch.
-Consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
-Any word $w' \in u'$ can be identified as a new insertion or affiliated to a parent word $w \in u$ that was conserved, replaced, and/or moved in an exchange.
-On the child side, $w'$ can also be linked to its child $w''$ (if it wasn't deleted), thus continuing the lineage of this specific word along the branch.
+#### Consensus filiations
 
-Note that the alignment tool produces a tree of possible deep alignments for each pair of utterances, such that a word in $u$ could be assigned to different words in $u'$ for different choices of deep alignments.
-To decide this uncertainty we construct a consensus alignment for each transformation $u \rightarrow u'$:
-for a given word $w$ in $u$ we first determine if it is conserved (either exactly or through replacement) in at least half of all the deep alignments;
-if so, we select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
-if not, the operation is considered a deletion.
-Any word in $u'$ that has no assigned parent word is considered an insertion.
-^[When a word is stable in exactly half the deep alignments and deleted in the other half, we still consider it stable;
-as a consequence the consensus alignment sometimes features one or two more stable words than in the deep alignments it synthesises.
-Such conflicts are inherent to any consensus method, and the alternative to this choice is to consider the word unstable, which adds deletions and insertions to the consensus alignment;
-we chose to favour stabilities.
-A small number of these cases create new single-word exchanges, as two such metastable words are assigned children at exchanged positions;
-manual inspection of these cases showed that such exchanges were consistent with the transformation.
-Finally, a stable word can have two equally probable candidate children, and conversely a given child word can two equally probable (often metastable, though not necessarily) parent words.
-In those cases, we decide in favour of the word closest to the end of the utterance. \todo{Favour the first, so as to stop suspicion of bias in position effect.}
-The procedure is consistent in both directions:
+The first step to visualise the process encoded by alignments is to reduce the possibly multiple deep alignments encoding a transformation into a single version, which we call the consensus alignment.
+Indeed for a given transformation $u \rightarrow u'$, a word in $u$ could for instance be assigned to different words in $u'$ for different choices of deep alignments.
+Other cases are possible, as $w$ could be deleted in one deep alignment and not in others, and so on and so forth.
+A method to resolve conflicts across multiple deep alignments is therefore required.
+
+We adopt the following procedure to construct the consensus alignment.
+For a given transformation $u \rightarrow u'$, start by flattening each tree of deep alignments into a list:
+each branch in each tree becomes a different deep alignment, and we are left with a list of uniquely defined deep alignments for the the transformation.
+Now for a given word $w$ in $u$, determine if it is conserved either exactly or through replacement in at least half of all the deep alignments;
+if so, select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
+if not, the consider $w$ deleted.
+Any word in $u'$ that has no assigned parent word is then considered an insertion.
+
+A few details are worth mentioning here.
+First, since a word that is stable in exactly half the deep alignments and deleted in the other half is still considered stable, the procedure sometimes maintains one or two more stable words than the deep alignments it synthesises.
+Such conflicts are inherent to any consensus method, and the alternative in this case would be to consider the word unstable, adding deletions and insertions instead of stabilities to the consensus alignment;
+we choose to favour stabilities so as not to inflate operations artificially.
+Second, an analogous conflict can arise when a stable word has two equally probable candidate children, or conversely a given child word has two equally probable parent words.
+In those cases we decide in favour of the word closest to the end of the utterance \todo{Favour the first, so as to stop suspicion of bias in position effect.}, and the procedure is consistent in both directions:
 the consensus alignment for $u \rightarrow u'$ is the same as for $u' \rightarrow u$.
-In practice, only 53 of the 3461 transformations in Experiment 3 have more than one deep alignment, 46 of which have 2 (the other seven have 3 to 6 deep alignments), such that any change here has virtually no impact on the results.
+Finally, a small number of cases create new single-word exchanges, as two words are assigned not the same child but different children at exchanged positions;
+manual inspection of these cases showed that such exchanges are consistent with the transformation.
+In practice, only 53 of the 3461 transformations in Experiment 3 have more than one deep alignment, 46 of which have 2 (the other seven having 3 to 6 deep alignments), such that any change here has virtually no impact on the results.
+
+With a single consensus alignment thus constructed for each transformation, it is possible to follow the ancestry and descent of individual words through parent and child transformations in a branch.
+Consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
+A word $w'$ in the middle utterance $u'$ is now uniquely identified either as an insertion, or as the conservation or replacement of a parent word $w \in u$ (with or without movement due to an exchange).
+Continuing down the branch, $w'$ can also be linked to its child $w''$ (if it was not deleted), thus creating a lineage for this specific word along the branch.
+
+
+#### Branch and utterance axes
+
+@Fig:gistr-lineage-tree represents the lineages produced by this procedure on the branches of an example tree taken from Experiment 3, whose root is the following utterance:
+^[This is tree #4, which is also shown in @fig:gistr-trees.
+The transition from depth 1 to depth 2 in branch #49 of the figure also corresponds to the example transformation discussed when introducing deep alignments (\todo{add refs for sentences}).
 ]
 
-@Fig:gistr-lineage-tree gathers consensus alignments and plots the lineages of the branches for an example tree from Experiment 3 (tree #4, also shown in @fig:gistr-trees).
-The root of this tree is the following utterance:
-
 > « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." » <!-- #4 -->
-
-and the example transformation discussed in our introduction of deep alignments (\todo{add refs for sentences}) corresponds to the transition from depth 1 to depth 2 in branch #49 of the figure.
-This representation of branches provides our most synthetic view yet of the process at work.
-Stepping back, we can now examine which trends are more salient in the evolution along the branches.
-First observations are that the plots reflect the rapid shortening of utterances, and that transformations are less important on shorter utterances.
-We also see here that word replacements, the process studied in the previous chapter with data from blogspace, is quite speckled, and both less frequent and of smaller magnitude than word deletions and word insertions.
-This obvious caveat was one of the motivations for our current experimental approach (indeed, replacements were the only process that could be extracted from the blogspace data set).
 
 ![Example lineages for all the branches of tree #4 from Experiment 3.
 Each subplot corresponds to a different branch.
 The horizontal axis is the depth in the branch, and the vertical axis is the index of each word in its utterance.
-A grey line represents a word lineage along the branch, and the darkness of the line corresponds to the length of the path between insertion (or branch start) and deletion (or branch end);
-darker lines thus represent words that lasted longer across transformations (however, since branches are not infinite as we necessarily stop the lineage, the darkness is less reliable for words that appeared towards the end of the branches).
+A grey line represents a word lineage along the branch, and the darkness of the line corresponds to the length of the path between the word's first appearance (or the branch start) and its disappearance (or the branch end);
+darker lines thus represent words that last longer across transformations (since branches eventually stop, however, our view of the process is truncated and the darkness is less reliable for words that appear towards the end of a branch).
 At each depth, the darker background band indicates what the subject sees, and the lighter band indicates the transformation that the subject made.
 Inside lighter bands:
 red dots are word deletions, green dots are word insertions, blue dots are word replacements, and exchanges can be seen when bundles of lines cross each other.
 Dots inside each light band are spread out on the horizontal axis so as make them easier to distinguish visually, but the horizontal position of a dot inside its band has no further meaning.
 ](images/gistr-computed/exp_3/lineage-tree-4.png){#fig:gistr-lineage-tree}
 
+At first glance the plots reflect the rapid shortening of utterances, and the fact that transformations are less important on shorter utterances deeper in the branches.
+The figure also indicates that word replacements, studied in the previous chapter with data from blogspace, are quite speckled:
+they are less frequent than deletions and insertions, and affect smaller portions of the utterances when they appear.
+As replacements were the only process that could be extracted from the blogspace data set, suspecting this caveat was one of the motivations for our current experimental approach.
 
-#### Branch and utterance axes
-
-The plots show noticeable regularities in the way transformations vary.
-For a given branch, we distinguish between the two axes of @fig:gistr-lineage-tree as two scales of analysis, each of which corresponds to a different set of events.
+The plots also show noticeable regularities in the way transformations vary.
+To discuss these we distinguish between the two axes of @fig:gistr-lineage-tree as two scales of the representation, each of which corresponds to a different set of events.
 First the horizontal axis:
 an event at this level is the bulk transformation or conservation of an utterance by a subject, without going into the detail of the way an utterance changes.
 This yields a series of conservation and transformation events, one at each depth in the branch.
-We call this the branch dimension, pictured in @fig:gistr-dimensions-branch.
+Call this the branch dimension, pictured in @fig:gistr-dimensions-branch.
 A salient feature on this dimension is the apparent burstiness of transformations.
 Since successive subjects perform transformations independently, confirming this trend would indicate a behaviour reminiscent of punctuated equilibria:
-a transformation occurring after a period of stability would result in a new utterance that is more likely to be transformed again (we quantify this trend below).
+a transformation occurring after a period of stability would result in a new utterance that is more likely to be transformed again.
+We quantify this trend further down.
 
-Second, the vertical axis where we delve into the detail of a transformation seen as a set of word insertions, deletions, conservations and replacements with or without exchange.
+Second, the vertical axis which delves into the detail of a transformation represented as a set of word insertions, deletions, conservations and replacements with or without exchange.
 Call this the utterance dimension.
-At this stage of our analysis, an ideal tool to quantify the properties of transformations in the utterance dimension would be a generative model of the transformative process.
-Unlike in the branch dimension however, the transformation of an utterance is a multi-level process that does not reduce easily to an ordered series of events.
-Indeed, manually inspecting the branches' transformations indicated several trends that complicate potential generative models (several of these are visible in @fig:gistr-lineage-tree):
+An important feature of this representation of transformations is its uniqueness.
+Indeed, at the mathematical level a consensus alignment encodes a transformation as a pair of word sequences with gaps (and possible sub-alignments of exchanged parts), an encoding that is not unique.
+Insertions and deletions that happen together can be reordered (putting insertions before their neighbouring deletions instead of the other way around, or alternating an insertion with a deletion);
+The exchange of two parts around a stable chunk can also be re-encoded by inverting the roles of stable and exchanged chunks, all without changing the transformation represented by the encoding.
+By compressing the gaps in this encoding, the utterance dimension merges these equivalent versions together and produces a unique diagram representing the transformation.
+We picture this correspondence between the transformation diagram in the utterance dimension and the compressed form of consensus alignments in @fig:gistr-dimensions-utterance.
 
-* Deletions, exchanges, and insertions seem bursty (that is they appear in large chunks -- a behaviour that replacements do not seem to have), and the bursts seem often longer if the utterance they appear in is longer,
-* Insertions seem to rarely occur without deletions;
-  when they appear with deletions, the two tend to be close to each other and of similar magnitude,
+This subtlety in the encoding of transformations is not a coincidence. \todo{this would be interesting to detail.}
+It relates to the fact that, in spite of the one-dimensional nature of text written on a line, utterance transformation is a multi-level process that can operate on whole groups of words at a time (for instance when insertions and deletions happen together) and does not necessarily reduce to a sequential series of events.
+Manually inspecting the branches' transformations on the utterance dimension indicated several trends to that effect, several of which are visible in @fig:gistr-lineage-tree:
+
+* Deletions, exchanges, and insertions seem bursty, that is they appear in large chunks (a behaviour that replacements do not seem to have).
+  The bursts also seem longer if the utterance they appear in is longer.
+* Insertions seem to rarely occur without deletions.
+  When they appear with deletions, the two tend to be close to each other and of similar magnitude.
 * All operations are less frequent at the very beginning of utterances.
 
-Note that burstiness at the word level is no surprise, as words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
-However, combined with the dependencies between the sizes and positions of insertions and deletions, and the possibility for exchanges, it means that a full generative model capable of reproducing and predicting future transformations will most likely involve memory and attention span mechanisms that are beyond the scope of this chapter.
-We therefore wish to extract the regularities of individual utterance transformations without modelling their genesis.
+As we just noted, burstiness at the word level is no surprise:
+words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
+However, the behaviour of the bursts impose constraints on the kind of model that can account for the transformation process.
+In particular, to account for the possibility of insertion and deletion bursts that match in size when close to each other, a generative model would need to involve memory and attention span mechanisms that allow bursts to relate to their neighbouring operations (both preceding and following).
+Similarly, accounting for exchanges with a generative model also requires at least a memory component that is capable of recalling the postponed part of an exchange.
+Such mechanisms are beyond the score of this chapter, and we therefore focus on developing a descriptive---rather than generative---model.
+While it will not allow for a reconstruction of the transformation process, this approach will provide a synthetic understanding of the transformation behaviour without needing to rely on cognitive mechanisms.
+By abstracting out the basic building blocks of transformations, we will then be able to gradually increase the level of detail with which we understand the regularities of their interactions.
 
-To do so we still need a canonical representation of transformations whose properties we can examine without being biased by our choice of representation (such a representation could be the output of a generative model).
-Recall that the alignment tool we developed encodes a transformation as a pair of word sequences with gaps, an encoding that is not unique:
-insertions and deletions that happen together can be reordered (putting insertions before deletions instead of the other way around, or alternating an insertion with a deletion), and the exchange of two parts around a stable chunk can be re-encoded by inverting the roles of stable and exchanged chunks, all without changing the transformation represented by the encoding.
-Running statistics on this representation is thus not an option.
-However, compressing the gaps in this representation merges all the variations together and produces an encoding that is in bijection with transformations.
-This compressed representation of a transformation is precisely what the lineage plots of @fig:gistr-lineage-tree illustrate.
-We picture this correspondence between the transformation diagram produced by lineage plots and the compressed form of alignment sequences in @fig:gistr-dimensions-utterance.
-We thus take these diagrams as our canonical representation of a transformation.
 
-In what follows we further set aside part of the information provided by exchanges.
-The natural way of analysing an exchange in a transformation diagram is to look at it as the permutation of the words affected, with possible replacements, insertions and deletions added afterwards.
-We chose to leave the analysis of this aspect of transformations to further research, focusing instead on insertions, deletions, and replacements only.
-We therefore simplify exchanges to keep only the information on whether an exchanged word was conserved or replaced.
-^[Note that while we do not analyse exchanges per se, we still benefit from the deep alignment tool developed:
-the insertions and deletions we are left with correspond to real appearances and disappearances, not undetected exchanges.
-]
+#### Descriptive transformation model
+
+Our model relies on a simplification of the transformation diagrams in the utterance dimension of lineage plots, which we take to be the canonical representation of a transformation.
+In order to keep the model palatable, we first set aside part of the information provided by exchanges.
+Indeed, the natural way of analysing an exchange in a transformation diagram is to see it as a permutation of a sub-sequence of words in the utterance, with possible replacements, insertions and deletions added in-between.
+Analysing the regularities of such a process is matter for a model in itself, and we chose to leave this aspect of transformations for further research.
+We instead focus on insertions, deletions, and replacements, and keep from exchanges only the information about the conserved or replaced status of a word.
+Note that while this excludes any shifts in position from our model, the approach still benefits from having detected exchanges earlier in the procedure:
+this guarantees that the remaining insertions and deletions correspond to actual appearances and disappearances, not undetected exchanges.
 
 From a given transformation diagram we then extract two arrays of word-level operations,
-^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations appear linearly in the utterances, but do not necessarily come from a sequential generation process.
+^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations exist on the one-dimensional utterance axis, but do not necessarily come from a sequential generation process.
 The two terms refer to the same mathematical object, and simply change the interpretation of the index:
 for a series of events the index represents time, for an array of operations it does not.
 ]
 one for the parent utterance and one for the child utterance.
 The parent array contains conservation, replacement and deletion operations, and the child array conservation, replacement and insertion operations.
-The diagram further provides us with the correspondence of conservation and replacement operations between the two arrays (except for operations that were involved in an exchange, for which we lose position information), such that we can measure the distance between two blocks of insertion and deletion operations (except if the two blocks are separated by operations involved in an exchange).
-This final representation of transformations is pictured in @fig:gistr-utterance-arrays.
+The transformation diagram further provides us with the correspondence of conservation and replacement operations between the two arrays (except for operations that were involved in an exchange, for which we lose position information), such that we can measure the distance between two blocks of insertions and deletions (except if the two blocks are separated by operations involved in an exchange).
+
+@Fig:gistr-utterance-arrays illustrates this simplification of transformations, which we use as our model for the process:
+it represents transformation as two arrays of word-level operations, one for the parent utterance made of word conservations, replacements, and deletions, and one for the child utterance made of word conservations, replacements, and insertions.
+Operations that happen on several contiguous words are called chunks.
+Conservations and replacements in one array can additionally, but not necessarily, be paired with another conservation or replacement in the other array.
+When insertion and deletion chunks are separated by paired conservations or replacements, it is then possible to define the distance between the two chunks of operations as the number of conservations or replacements separating the two.
+When unpaired conservations or replacements separate an insertion and a deletion chunk, this distance is undefined.
 
 <div id="fig:gistr-dimensions">
 ![Branch dimension.
@@ -622,7 +658,7 @@ The bottom level shows two equivalent encodings of the same transformation (as w
 
 ![Parent and child arrays of operations.
 The canonical representation is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
-This procedure results in two arrays of word operations:
+The procedure results in two arrays of word operations:
 a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
 Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).
 ](images/gistr/gistr-utterance-arrays.pdf){#fig:gistr-utterance-arrays}
@@ -635,6 +671,8 @@ This example is built on branch #49 from @fig:gistr-lineage-tree.
 \todo{Make this work in grayscale}
 </div>
 
+
+### Model refinement {#sec:gistr-results-inner}
 
 #### Bursty behaviours
 
@@ -703,8 +741,6 @@ This corresponds to the burstiness of *chunks* of deletions, insertions, and joi
 Grey lines are the 95% confidence intervals. \todo{FIXME: this is counting each tree as an independent measure, whereas what follows counts each sentence as an independent measure.}
 </div>
 
-
-### Inner structure {#sec:gistr-results-inner}
 
 #### Position and utterance length
 

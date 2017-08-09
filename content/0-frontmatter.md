@@ -55,6 +55,11 @@ header-includes:
   # Tables
   - \usepackage{booktabs}
   - \usepackage{multirow}
+  # Numbering quotes
+  - \newcounter{quotecount}
+  - |
+    \newcommand{\numquote}[1]{\bigskip\refstepcounter{quotecount}%
+      \hspace{15pt}\parbox{\dimexpr\textwidth-60pt\relax}{``#1''}\hfill(\arabic{quotecount})\bigskip}
   # Mathematics
   - \usepackage{bm}
   - \usepackage{dsfont}

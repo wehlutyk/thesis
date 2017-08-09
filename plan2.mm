@@ -695,25 +695,25 @@
 <node CREATED="1500373888091" ID="ID_1346396699" MODIFIED="1501598448669" TEXT="So we&apos;re going to work with chunks and bursts, that is the black-box model that we&apos;re going to detail"/>
 </node>
 <node CREATED="1500372717609" ID="ID_1407774523" MODIFIED="1500374167629" TEXT="Detailing the model">
-<node CREATED="1500485116033" ID="ID_829609168" MODIFIED="1500485733739" TEXT="probability/size/count of chunk (all/specific) ~ size of sentence"/>
-<node CREATED="1500485031257" ID="ID_1177151082" MODIFIED="1500485749227" TEXT="probability/size/count of chunk ~ position in sentence"/>
-<node CREATED="1500374156666" ID="ID_845582753" MODIFIED="1500485493296" TEXT="joint counts of types of transformations (words/chunks) -&gt; dependencies between chunks">
+<node COLOR="#669900" CREATED="1500485116033" ID="ID_829609168" MODIFIED="1502128469759" TEXT="probability/size/count of chunk (all/specific) ~ size of sentence"/>
+<node COLOR="#669900" CREATED="1500485031257" ID="ID_1177151082" MODIFIED="1502128472541" TEXT="probability/size/count of chunk ~ position in sentence"/>
+<node COLOR="#669900" CREATED="1500374156666" ID="ID_845582753" MODIFIED="1502128476178" TEXT="joint counts of types of transformations (words/chunks) -&gt; dependencies between chunks">
 <node CREATED="1500544034756" ID="ID_211977243" MODIFIED="1500544048708" TEXT="When a deletion appears, it seems to increase the probability of others in the same sentence"/>
 <node CREATED="1500544034757" ID="ID_1582079573" MODIFIED="1500544034757" TEXT="insertion: often (though not always) subordinated to a deletion, and not far in size"/>
 <node CREATED="1500544034757" ID="ID_193219301" MODIFIED="1500544034757" TEXT="exchange: 50-50 with or without deletion"/>
 </node>
-<node CREATED="1500485661706" ID="ID_256470032" MODIFIED="1500485674753" TEXT="corresponding sizes of close insertions/deletions"/>
+<node COLOR="#669900" CREATED="1500485661706" ID="ID_256470032" MODIFIED="1502128478488" TEXT="corresponding sizes of close insertions/deletions"/>
 <node CREATED="1500486079422" ID="ID_1383918433" MODIFIED="1500486108872" TEXT="increase/decrease of sentence length, combined with sentence burstiness"/>
 <node CREATED="1500486148822" ID="ID_1352186173" MODIFIED="1500486196341" TEXT="probability of sentence transformation depending on preceding transformation">
 <node CREATED="1500486197782" ID="ID_829926226" MODIFIED="1500486199663" TEXT="burstiness"/>
 <node CREATED="1500486200129" ID="ID_977489009" MODIFIED="1500486209018" TEXT="increase/decrease in length"/>
 </node>
-<node CREATED="1500486393585" ID="ID_1288886687" MODIFIED="1500487214357" TEXT="feature makeup of each type, and long-term result"/>
+<node COLOR="#669900" CREATED="1500486393585" ID="ID_1288886687" MODIFIED="1502128485386" TEXT="feature makeup of each type, and long-term result"/>
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
 </node>
-<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1500934093518" TEXT="Discussion">
-<node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1500486767608" TEXT="Good things">
+<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1502128505094" TEXT="Discussion">
+<node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1502131454365" TEXT="Results">
 <node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
 <node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
 </node>
@@ -741,6 +741,9 @@
 <node CREATED="1495547569285" ID="ID_1569516378" MODIFIED="1500369170514" TEXT="The fact that many results in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
 <node CREATED="1495613547408" ID="ID_1431175862" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
 <node CREATED="1495613935136" ID="ID_1594022587" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
+</node>
+<node CREATED="1502131369398" ID="ID_1508561517" MODIFIED="1502131372915" TEXT="Open questions">
+<node CREATED="1502131394634" ID="ID_1118413737" MODIFIED="1502131415254" TEXT="To what extent does this model exhaust the process"/>
 </node>
 </node>
 <node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1500486643831" TEXT="Attic">
