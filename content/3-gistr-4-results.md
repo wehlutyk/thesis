@@ -967,7 +967,7 @@ $$\sigma_g^- = \frac{s_g^-}{s_g^0} \quad \text{and} \quad \sigma_g^+ = \frac{s_g
 
 In order to render the results more comparable to the previous chapter, in this section we also filter out stopwords in all the utterances.
 @Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
-Susceptibilities for the replaced and replacing words are very close to one another, and similarly to the online case there is little to no effect of the main categories on susceptibility:
+The two measures are very close to each another, and similarly to the online case there is little to no effect of the main categories on susceptibility:
 adjectives are involved at random, nouns appear slightly less than at random, and verbs slightly more.
 Verbs, nouns and proper nouns are all irrelevant for targeting, but adverbs are targeted very slightly above random.
 The other categories (adpositions, numerals and particles) total negligible amounts because they are affected by the stopword filter.
@@ -976,7 +976,7 @@ Overall, the behaviour for targeting is consistent with what we observed in blog
 ![POS susceptibility to being replaced or deleted, and to replacing or being inserted.
 The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in replaced and deleted words in parent utterances ($s_{POS}^-$) and in replacing and inserted words in child utterances ($s_{POS}^+$).
 The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
-95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions).
+95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions, considering each transformation as an independent measure).
 POS tags are from the Universal Dependencies tag set.
 ](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
 
@@ -991,7 +991,7 @@ The frequency values thus use a different source than those of the previous chap
 The trends for frequency, age of acquisition and clustering are consistent with previous results.
 Low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
 Number of letters has a different behaviour than previously, as short words are slightly more targeted than random, beyond the effect for long words.
-It is unclear where this change of effect comes from, as it could be due to any number of factors ranging from analysis tweaks (e.g. an update to the stopword list) to the fact that subjects could be more inclined to replace some words because of a different task context or a different set of utterances.
+It is unclear where this change of effect comes from, as it could be due to factors ranging from analysis tweaks (e.g. an update to the stopword list) to the fact that subjects could be more inclined to replace some words because of a different task context or a different set of utterances.
 All these trends are extremely subtle however (much more than in the blogspace data set), and we do not attempt to explain them any further at this point.
 @Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
 more frequent, lower age of acquisition words are more susceptible to appearance.
@@ -1004,14 +1004,14 @@ Low clustering and short words appear also more than random, all of which are co
 ![Susceptibility to appearance.
 ](images/gistr-computed/exp_3/feature-suscept-insrpl_child.png){#fig:gistr-suscept-feature-insrpl}
 
-Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial).
+Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial, considering each transformation as an independent measure).
 </div>
 
 Indeed, the analysis of feature variation can also be directly applied to word replacements (though not to deletions or insertions), and @fig:gistr-variation-rpl shows the results for the current data set.
 The plots for frequency, age of acquisition and clustering are strikingly similar to previous results.
 Here too however, number of letters has a different behaviour than previously:
 instead of a uniform negative bias, $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed:
-both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer.
+both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer to each other.
 In other words, the number of letters of words are better conserved in this data set than in blogspace.
 Two factors could have influenced this change of effect:
 first, the alignment procedure favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
@@ -1050,5 +1050,5 @@ Through transformations, subjects thus gradually evolve the utterances to use mo
 
 ![Number of letters](images/gistr-computed/exp_3/feature-branchevo-letters_count.png)
 
-Evolution of average sentence features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution.
+Evolution of average utterance features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution (considering each utterance as an independent measure).
 </div>

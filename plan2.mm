@@ -547,7 +547,13 @@
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
 <node CREATED="1493653580005" ID="ID_1316511126" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1500797034814" TEXT="Introduction">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1502315424419" TEXT="Introduction">
+<node CREATED="1502304411984" ID="ID_1330131425" MODIFIED="1502304418417" TEXT="reasons">
+<node CREATED="1502304435946" ID="ID_1025963882" MODIFIED="1502304480150" TEXT="for linguistic content, there are transmission bias studies, iterated learning, and online such as BCP"/>
+<node CREATED="1502304487282" ID="ID_1624503362" MODIFIED="1502304536226" TEXT="transmission bias is very high level, iterated learning is on artificial content, and online is very low level because of missing information"/>
+<node CREATED="1502304537382" ID="ID_1476345830" MODIFIED="1502304562669" TEXT="none of those give a view, or a plausible low-level explanation of what&apos;s going on"/>
+<node CREATED="1502304419408" ID="ID_1487273536" MODIFIED="1502304435188" TEXT="it&apos;s also the natural extension to the previous chapter"/>
+</node>
 <node CREATED="1493994708787" ID="ID_1165265618" MODIFIED="1493994824326" TEXT="it&apos;s an idealised situation, that doesn&apos;t model much of the real cultural evolution (not short term, let alone long term, as that is a step that should not be taken lightly), but it&apos;s a very simple setup and lets us explore trends in accumulated transformations"/>
 <node CREATED="1494003133013" ID="ID_1739322211" MODIFIED="1494003167679" TEXT="It&apos;s been used many times before, so what&apos;s the relevance?">
 <node CREATED="1494060733021" ID="ID_123806247" MODIFIED="1494060740693" TEXT="Attraction factors can be">
@@ -572,20 +578,28 @@
 <node CREATED="1493671341904" ID="ID_1025397226" MODIFIED="1493671788385" TEXT="With several levels of questions">
 <node CREATED="1493671407213" ID="ID_323718033" MODIFIED="1500549287841" TEXT="Descriptive statistics (length, transformation rate)"/>
 <node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500549265564" TEXT="A model for transformations, that we gradually refine and map out"/>
-<node CREATED="1493671549406" ID="ID_985400041" MODIFIED="1500364210271" TEXT="Link to case-specific studies"/>
 </node>
 </node>
-<node CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1500797035715" TEXT="Related Work">
+<node CREATED="1493669606965" ID="ID_1998896082" MODIFIED="1502303478548" TEXT="Related Work">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1494060595629" TEXT="Bartlett"/>
-<node CREATED="1494060596364" ID="ID_1304178070" MODIFIED="1494060597539" TEXT="Nettle"/>
-<node CREATED="1494060598394" ID="ID_639592966" MODIFIED="1494060602755" TEXT="Bebbington"/>
-<node CREATED="1494060606168" ID="ID_1079390338" MODIFIED="1494060612282" TEXT="Mesoudi &amp; Whiten"/>
-<node CREATED="1494060613064" ID="ID_1013745124" MODIFIED="1494060617675" TEXT="Kirby &amp; Tamariz"/>
-<node CREATED="1494060634992" ID="ID_1779044891" MODIFIED="1494060636358" TEXT="Acerbi"/>
-<node CREATED="1494060643996" ID="ID_1554237411" MODIFIED="1494060653373" TEXT="Claidi&#xe8;re"/>
-<node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1500544710274" TEXT="Smartphone psychology"/>
-<node COLOR="#ff0000" CREATED="1494061799755" ID="ID_463475949" MODIFIED="1494061809827" TEXT="More ..."/>
+<node CREATED="1502303404416" ID="ID_366332993" MODIFIED="1502314733465" TEXT="There is a ridiculously big catalog of transmission biases">
+<node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1502314779532" TEXT="Bartlett mother of all, Bangerter 2000 personification, Bebbington negativity bias, Mesoudi &amp; Whiten hierarchical bias, Mesoudi, Whiten &amp; Dunbar social bias, Counter-intuitiveness (bloodletting Miton, Claidi&#xe8;re, &amp; Mercier, 2015, Norenzayan 2006, Barrett &amp; Nyhof 2001), Acerbi &amp; Tehrani conformity/prestige bias "/>
+<node CREATED="1502314783032" ID="ID_1847518531" MODIFIED="1502314803046" TEXT="These contrast the evolution of categories of content, and see it differs"/>
+</node>
+<node CREATED="1502309372263" ID="ID_1201683955" MODIFIED="1502314841435" TEXT="On the modelling front, it&apos;s more chaotic and little profress has been made">
+<node CREATED="1494060643996" ID="ID_1554237411" MODIFIED="1502314889631" TEXT="Claidi&#xe8;re &amp; Sperber propose high-level models such as that for smoking, and a framework for looking at cultural evolution through ECM"/>
+<node CREATED="1502309376611" ID="ID_1659222020" MODIFIED="1502314983158" TEXT="Claidiere tetrominos and Iterated Learning (Verhoef et al., Cornish, Smith, and Kirby (2013), Tamariz), by working on well-constrained content (sequences, visual patterns), manage to extract deeper structure in the evolution: types of tetrominos, entropy/combinatoriality/compressibility in sequences"/>
+<node CREATED="1502309387366" ID="ID_1120233987" MODIFIED="1502315129398" TEXT="Moussaid, by making a hand analysis of videos, manages to extract features of what is transmitted without constraining the transmission at all; Lauf Valette &amp; Khouas similarly catalog changes by hand"/>
+<node CREATED="1502311637129" ID="ID_1641609994" MODIFIED="1502315107120" TEXT="Danescu, by machine-learning, manages to extract some features on semi-constrained content (but without transmission)"/>
+<node CREATED="1502315138877" ID="ID_243607515" MODIFIED="1502315177320" TEXT="So the big challenge is to manage to extract structure from operations on not-too-constrained content"/>
+<node CREATED="1502313035102" ID="ID_1720288424" MODIFIED="1502315193600" TEXT="Biological sequence alignment associated to NLP is a way to go there"/>
+</node>
+<node CREATED="1502310191407" ID="ID_171363015" MODIFIED="1502315214795" TEXT="A related queostion are the data collection strategies">
+<node CREATED="1502310414889" ID="ID_184105324" MODIFIED="1502315272677" TEXT="Constrained content collection can be large (tetrominos, iterated learning on sequences), as the analysis is automated"/>
+<node CREATED="1502310638626" ID="ID_1820400081" MODIFIED="1502315363918" TEXT="Free form (Moussaid, Lauf) must be smaller as the analysis is by hand"/>
+<node CREATED="1502312495001" ID="ID_1079751607" MODIFIED="1502315383252" TEXT="There is a race to biggest possible in the digital media area (Danescu, Adamic et al. on Facebook, to a lesser extent BCP), but it does not control the framing"/>
+<node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1502315414459" TEXT="Smartphone/Web psychology opens a way of collecting big while controlling the framing (e.g. Daydreaming)"/>
+</node>
 </node>
 <node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
 <node COLOR="#ff0000" CREATED="1500752225277" ID="ID_1496990986" MODIFIED="1500752246145" TEXT="Reorganise this outline once the text is settled">
