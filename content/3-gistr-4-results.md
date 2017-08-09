@@ -4,15 +4,16 @@ Recall that the goal we set ourselves is to provide a better understanding of th
 In doing so we also hope to bring some light to the processes underlying high-level contrasts of utterance categories that have been extensively studied in the literature.
 The analysis we present is thus geared towards creating an intermediary representation of the effect of transformations on utterances, one that is at a midpoint between the low-level of word features and the high-level of category contrasts, and can be usefully modelled to better understand the evolution of utterance chains.
 Since this work was exploratory in nature, our presentation will also loosely follow a step-by-step development of the analysis with intermediate results.
-Our analysis consists in four broad steps.
+Our analysis consists in five broad steps.
 First, a presentation of the general trends observed in the collected data, which provide a coarse but relevant view of the behaviour of utterance reformulations in these experiments.
 Second, the actual procedure developed to break down transformations into smaller blocks and grasp their detail.
 Third, we develop a descriptive model of transformations based on the detailed view that the previous step provided.
-Finally, we refine this view by quantifying the main behaviours that the model lets us identify in the transmission chains.
+We then refine this view by quantifying the main behaviours that the model lets us identify in the transmission chains.
+Finally, we characterise the lexical features of the words identified by the transformation model, and show how the accumulation of transformations gradually evolves the average features of utterances.
 We begin with the general trends observed in the data.
 
 
-### General trends
+### General trends {#sec:gistr-results-general}
 
 We begin the analysis of our three data sets by examining the evolution of aggregate measures as a function of depth in the trees.
 Here and in what follows, the analyses are made on the data cleaned of spam, and chains truncated at their target depth:
@@ -595,52 +596,6 @@ The exchange of two parts around a stable chunk can also be re-encoded by invert
 By compressing the gaps in this encoding, the utterance dimension merges these equivalent versions together and produces a unique diagram representing the transformation.
 We picture this correspondence between the transformation diagram in the utterance dimension and the compressed form of consensus alignments in @fig:gistr-dimensions-utterance.
 
-This subtlety in the encoding of transformations is not a coincidence. \todo{this would be interesting to detail.}
-It relates to the fact that, in spite of the one-dimensional nature of text written on a line, utterance transformation is a multi-level process that can operate on whole groups of words at a time (for instance when insertions and deletions happen together) and does not necessarily reduce to a sequential series of events.
-Manually inspecting the branches' transformations on the utterance dimension indicated several trends to that effect, several of which are visible in @fig:gistr-lineage-tree:
-
-* Deletions, exchanges, and insertions seem bursty, that is they appear in large chunks (a behaviour that replacements do not seem to have).
-  The bursts also seem longer if the utterance they appear in is longer.
-* Insertions seem to rarely occur without deletions.
-  When they appear with deletions, the two tend to be close to each other and of similar magnitude.
-* All operations are less frequent at the very beginning of utterances.
-
-As we just noted, burstiness at the word level is no surprise:
-words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
-However, the behaviour of the bursts impose constraints on the kind of model that can account for the transformation process.
-In particular, to account for the possibility of insertion and deletion bursts that match in size when close to each other, a generative model would need to involve memory and attention span mechanisms that allow bursts to relate to their neighbouring operations (both preceding and following).
-Similarly, accounting for exchanges with a generative model also requires at least a memory component that is capable of recalling the postponed part of an exchange.
-Such mechanisms are beyond the score of this chapter, and we therefore focus on developing a descriptive---rather than generative---model.
-While it will not allow for a reconstruction of the transformation process, this approach will provide a synthetic understanding of the transformation behaviour without needing to rely on cognitive mechanisms.
-By abstracting out the basic building blocks of transformations, we will then be able to gradually increase the level of detail with which we understand the regularities of their interactions.
-
-
-#### Descriptive transformation model
-
-Our model relies on a simplification of the transformation diagrams in the utterance dimension of lineage plots, which we take to be the canonical representation of a transformation.
-In order to keep the model palatable, we first set aside part of the information provided by exchanges.
-Indeed, the natural way of analysing an exchange in a transformation diagram is to see it as a permutation of a sub-sequence of words in the utterance, with possible replacements, insertions and deletions added in-between.
-Analysing the regularities of such a process is matter for a model in itself, and we chose to leave this aspect of transformations for further research.
-We instead focus on insertions, deletions, and replacements, and keep from exchanges only the information about the conserved or replaced status of a word.
-Note that while this excludes any shifts in position from our model, the approach still benefits from having detected exchanges earlier in the procedure:
-this guarantees that the remaining insertions and deletions correspond to actual appearances and disappearances, not undetected exchanges.
-
-From a given transformation diagram we then extract two arrays of word-level operations,
-^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations exist on the one-dimensional utterance axis, but do not necessarily come from a sequential generation process.
-The two terms refer to the same mathematical object, and simply change the interpretation of the index:
-for a series of events the index represents time, for an array of operations it does not.
-]
-one for the parent utterance and one for the child utterance.
-The parent array contains conservation, replacement and deletion operations, and the child array conservation, replacement and insertion operations.
-The transformation diagram further provides us with the correspondence of conservation and replacement operations between the two arrays (except for operations that were involved in an exchange, for which we lose position information), such that we can measure the distance between two blocks of insertions and deletions (except if the two blocks are separated by operations involved in an exchange).
-
-@Fig:gistr-utterance-arrays illustrates this simplification of transformations, which we use as our model for the process:
-it represents transformation as two arrays of word-level operations, one for the parent utterance made of word conservations, replacements, and deletions, and one for the child utterance made of word conservations, replacements, and insertions.
-Operations that happen on several contiguous words are called chunks.
-Conservations and replacements in one array can additionally, but not necessarily, be paired with another conservation or replacement in the other array.
-When insertion and deletion chunks are separated by paired conservations or replacements, it is then possible to define the distance between the two chunks of operations as the number of conservations or replacements separating the two.
-When unpaired conservations or replacements separate an insertion and a deletion chunk, this distance is undefined.
-
 <div id="fig:gistr-dimensions">
 ![Branch dimension.
 This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots and lines).
@@ -671,35 +626,88 @@ This example is built on branch #49 from @fig:gistr-lineage-tree.
 \todo{Make this work in grayscale}
 </div>
 
+This subtlety in the encoding of transformations is not a coincidence. \todo{this would be interesting to detail.}
+It relates to the fact that, in spite of the one-dimensional nature of text written on a line, utterance transformation is a multi-level process that can operate on whole groups of words at a time (for instance when insertions and deletions happen together) and does not necessarily reduce to a sequential series of events.
+Manually inspecting the branches' transformations on the utterance dimension indicated several trends to that effect, several of which are visible in @fig:gistr-lineage-tree:
+
+* Deletions, exchanges, and insertions seem bursty, that is they appear in large chunks (a behaviour that replacements do not seem to have).
+  The bursts also seem longer if the utterance they appear in is longer.
+* Insertions seem to rarely occur without deletions.
+  When they appear with deletions, the two tend to be close to each other and of similar magnitude.
+* All operations are less frequent at the very beginning of utterances.
+
+As we just noted, burstiness at the word level is no surprise:
+words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
+However, the behaviour of the bursts impose constraints on the kind of model that can account for the transformation process.
+In particular, to account for the possibility of insertion and deletion bursts that match in size when close to each other, a generative model would need to involve memory and attention span mechanisms that allow bursts to relate to their neighbouring operations (both preceding and following).
+Similarly, accounting for exchanges with a generative model also requires at least a memory component that is capable of recalling the postponed part of an exchange.
+Such mechanisms are beyond the score of this chapter, and we therefore focus on developing a descriptive---rather than generative---model.
+While it will not allow for a reconstruction of the transformation process, this approach will provide a synthetic understanding of the transformation behaviour without needing to rely on cognitive mechanisms.
+By abstracting out the basic building blocks of transformations, we will then be able to gradually increase the level of detail with which we understand the regularities of their interactions.
+
+
+#### Descriptive transformation model
+
+Our model relies on a simplification of the transformation diagrams in the utterance dimension of lineage plots, which we take to be the canonical representation of a transformation.
+In order to keep the model palatable, we first set aside part of the information provided by exchanges.
+Indeed, the natural way of analysing an exchange in a transformation diagram is to see it as a permutation of a sub-sequence of words in the utterance, with possible replacements, insertions and deletions added in-between.
+Analysing the regularities of such a process is matter for a model in itself, and we chose to leave this aspect of transformations for further research.
+We instead focus on insertions, deletions, and replacements, and keep from exchanges only the conserved or replaced status of a word.
+Note that while this excludes any shifts in position from our model, the approach still benefits from having detected exchanges earlier in the procedure:
+it guarantees that the remaining insertions and deletions correspond to actual appearances and disappearances, not undetected exchanges.
+
+From a given transformation diagram we then extract two arrays of word-level operations,
+^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations exist on the one-dimensional utterance axis, but do not necessarily come from a sequential generation process.
+The two terms refer to the same mathematical object, and simply change the interpretation of the index:
+for a series of events the index represents time, for an array of operations it does not.
+]
+one for the parent utterance and one for the child utterance.
+The parent array contains conservation, replacement and deletion operations, and the child array conservation, replacement and insertion operations.
+The transformation diagram further provides us with the correspondence of conservation and replacement operations between the two arrays (except for operations that were involved in an exchange, for which we lose position information), such that we can measure the distance between two blocks of insertions and deletions (except if the two blocks are separated by operations involved in an exchange).
+
+@Fig:gistr-utterance-arrays illustrates this simplification of transformations, which we use as our model for the process:
+it represents transformation as two arrays of word-level operations, one for the parent utterance made of word conservations, replacements, and deletions, and one for the child utterance made of word conservations, replacements, and insertions.
+Operations that happen on several contiguous words are called chunks.
+Conservations and replacements in one array can additionally, but not necessarily, be paired with another conservation or replacement in the other array.
+When insertion and deletion chunks are separated by paired conservations or replacements, it is then possible to define the distance between the two chunks of operations as the number of conservations or replacements separating the two.
+When unpaired conservations or replacements separate an insertion and a deletion chunk, this distance is undefined.
+
 
 ### Model refinement {#sec:gistr-results-inner}
 
+Having defined our model for transformations, we now delve into the detailed behaviour that it captures.
+We do so in three stages.
+First, we quantify the extent to which transformations are bursty, both in the branch dimension and in the detailed transformation model (utterance dimension).
+In doing so we establish the prevalence of operation chunks in the transformation model.
+We then characterise the number of individual and chunk-level operations that occur in utterances, linking their magnitude and probability to the length of the parent utterance and the position at which they occur.
+Finally, we examine the dependencies between each operation type, and highlighting a close relationship between insertions and deletions.
+
+
 #### Bursty behaviours
 
-We now wish to quantify the regularities of transformations on both dimensions.
-Our first step is to measure the extent to which each dimension does indeed feature bursty behaviour.
+We begin by measuring the extent to which each dimension features bursty behaviour.
 Following @jo_circadian_2012 [who rely on @goh_burstiness_2008], we measure the burstiness of a series of events through the parameter $B$ defined as
 
-$$B = \frac{\sigma - \mu}{\sigma + \mu}$$
+$$B = \frac{\sigma_{intervals} - \mu_{intervals}}{\sigma_{intervals} + \mu_{intervals}}$$
 
-where $\sigma$ and $\mu$ are respectively the standard deviation and mean of the distribution of inter-event times in the series of events.
+where $\sigma_{intervals}$ and $\mu_{intervals}$ are respectively the standard deviation and mean of the distribution of inter-event times in the series of events.
 The same computation applies to arrays of operations (the two have the same mathematical description).
 $B$ has values between -1 and 1;
-$B = -1$ corresponds to a perfectly regular process ($\sigma = 0$, and $\mu > 0$ is the constant period between events), $B = 0$ indicates a burstiness equivalent to that of a Poisson process, where the occurrence of a new event does not depend on the presence of previous events (and $\sigma = \mu$), and $B = 1$ corresponds to an asymptotically perfectly bursty process (it is the limit $\sfrac{\mu}{\sigma} \rightarrow 0$).
-In other words, $B$ measures the intuition according to which a process with average inter-event time shorter than its standard deviation will often have events close to each other with a few long periods without events, and a process with an average inter-event time longer than its standard deviation will have events more evenly spaced (relative to their mean spacing).
+$B = -1$ corresponds to a perfectly regular process ($\sigma_{intervals} = 0$, and $\mu_{intervals} > 0$ is the constant period of events), $B = 0$ indicates a burstiness equivalent to that of a Poisson process, where the occurrence of a new event does not depend on the presence of previous events (and $\sigma_{intervals} = \mu_{intervals}$), and $B = 1$ corresponds to an asymptotically perfectly bursty process (it is the limit $\sfrac{\mu_{intervals}}{\sigma_{intervals}} \rightarrow 0$).
+Intuitively, a process with average inter-event time shorter than its standard deviation will often have events close to each other with a few long intervals without events, and a process with an average inter-event time longer than its standard deviation will have events more evenly spaced relative to their mean spacing.
 
-In the branch dimension, we consider a transformation to be an event and a conservation to be the absence of an event.
+In the branch dimension, an event is the transformation of an utterance, and the absence of event is the conservation of an utterance.
 Note that our data in this dimension is truncated due to branches not being infinite.
 When the last subject in a branch does not transform the utterance they reproduce, we do not observe the actual duration of that stability:
 had the branch continued, the stability could have been interrupted immediately, or could have lasted for many more reproductions of the utterance.
-Including these truncated spans in the distribution of inter-event times artificially inflates the burstiness (because it adds underestimated spans to the distribution), but removing them biases our sample towards inter-event times for longer utterances (earlier in the branch), which could also inflate burstiness.
-We thus present measures for both distributions, with and without the truncated spans.
+Including these truncated intervals in the distribution of inter-event times artificially inflates the burstiness (because it adds underestimated intervals to the distribution), but removing them biases our sample towards inter-event times for longer utterances (earlier in the branch), which could also inflate burstiness.
+We thus present measures for both distributions, with and without the truncated intervals.
 
-Burstiness in the branch dimension with truncated spans is $B_{branch,all} = 0.252 \pm 0.029$, and burstiness without the truncated spans is $B_{branch,observed} = 0.304 \pm 0.031$ (both error estimates correspond to the 95% confidence interval).
+Burstiness in the branch dimension with truncated intervals is $B_{branch,all} = 0.252 \pm 0.029$, and burstiness without the truncated intervals is $B_{branch,observed} = 0.304 \pm 0.031$ (both error estimates correspond to the 95% confidence interval based on Student's $t$-distribution, considering each tree as an independent burstiness measure).
 Both measures show that the transformation process in the branch dimension is significantly bursty.
 This is consistent with our intuition that when a transformation appears after a period of stability, it is likely to trigger other transformations following it until a new stable (often much shorter) utterance is reached.
 
-The situation in the utterance dimension involves more event types.
+The situation in the utterance dimension transformation model involves more event types.
 In the parent array, we note the series of deletion events $\mathcal{D}$ and the series of replacements $\mathcal{R}_p$.
 In the child array, we note the series of insertion events $\mathcal{I}$ and the series of replacements $\mathcal{R}_c$.
 A conserved word is considered an absence of event.
@@ -716,18 +724,6 @@ computing the burstiness of the chunk process is therefore straightforward.
 The values plotted in @fig:gistr-utterance-burstiness-chunks show that none of the chunk processes are bursty;
 rather, they are slightly more regular than a Poisson process would be.
 
-Although this behaviour is consistent with our intuition of the way an utterance is reformulated, there is a question as to whether the alignment tool we developed does not favour burstiness.
-In other words, are these measures not due to artefacts?
-Indeed, the scores of operations are parametrised in such a way that insertion and deletion gaps are assigned different costs for initial opening and extension.
-Let us answer this concern.
-While the parametrisation of costs does make it possible for burstiness to be more easily identified, it does not make it a necessity:
-setting the gap opening cost to the same value as the gap extension cost would make the alignment tool neutral with respect to burstiness (setting it lower would be biased against burstiness, and the alignment algorithm would favour word mismatches over gaps to encode differences).
-In our case, the parameters we trained set the gap opening cost to a much higher value than the extension cost (.29 vs. .12 in absolute values), such that the alignment tool does find bursty insertions and deletions more easily.
-However, these parameters are learned from hand-coded alignments and their output has been validated on test samples:
-any bursty insertions or deletions detected by the alignments is therefore the product of the data itself.
-
-We now move on to further characterising the size, position, and dependencies between replacements and insertion and deletion chunks.
-
 <div id="fig:gistr-utterance-burstiness">
 ![Burstiness of word operations
 ](images/gistr-computed/exp_3/burstiness-words.png){#fig:gistr-utterance-burstiness-words width=58%}
@@ -735,16 +731,26 @@ We now move on to further characterising the size, position, and dependencies be
 ](images/gistr-computed/exp_3/burstiness-chunks.png){#fig:gistr-utterance-burstiness-chunks width=42%}
 
 Burstiness of operations in the utterance dimension.
-The left pane shows the burstiness of each type of word-level operation (in parent and child arrays), as well as the burstiness of the series made of all operations joined regardless of their type.
+The left pane shows the burstiness of each type of word-level operation in parent and child arrays, as well as the burstiness of the series made of all operations joined regardless of their type.
 The right pane shows the burstiness for deletions, insertions, and joined events, where contiguous blocks of operations are collapsed into single events.
 This corresponds to the burstiness of *chunks* of deletions, insertions, and joined events (i.e. only considering strictly positive inter-event times).
-Grey lines are the 95% confidence intervals. \todo{FIXME: this is counting each tree as an independent measure, whereas what follows counts each sentence as an independent measure.}
+Grey lines are the 95% confidence intervals based on Student's $t$-distribution, considering each tree as an independent burstiness measure. \todo{FIXME: is it okay that here we count each tree as an independent measure, whereas in what follows we count each transformation as an independent measure?}
 </div>
+
+Although this behaviour is consistent with our intuition of the way an utterance is reformulated, there is a question as to whether the alignment procedure does not favour burstiness.
+Indeed, the scores of operations are parametrised in such a way that insertion and deletion gaps are assigned different costs for initial opening and extension.
+However, while this parametrisation makes it possible for burstiness to be more easily identified, it does not make it a necessity:
+setting the gap opening cost to the same value as the gap extension cost would make the alignment tool neutral with respect to burstiness (setting it lower would be biased against burstiness, and the alignment algorithm would favour word mismatches over gaps to encode differences).
+In our case, the parameters we trained set the gap opening cost to a much higher value than the extension cost (.29 vs. .12 in absolute values), such that the alignment tool does find bursty insertions and deletions more easily.
+However, these parameters are learned from hand-coded alignments and their output has been validated on test samples:
+any bursty insertions or deletions detected by the alignments is therefore the product of the data itself.
 
 
 #### Position and utterance length
 
-Transmissibility measures already showed us that longer utterances are transformed more, but we are now in a position to detail how exactly transformations depend on the size of the utterance.
+The general trends presented in @sec:gistr-results-general indicated that utterance length has a strong effect on the probability and magnitude of transformations.
+The transformation models now lets us explore in detail the way word and chunk operations depend on the size of an utterance, on one side, and on the position at which they occur, on the other.
+
 We begin by looking at the probability of each operation as a function of utterance length.
 @Fig:gistr-ops-prob plots the logistic regression of the presence or absence of deletions, insertions, and replacements as a function of the number of words in the parent utterance.
 The length of the parent utterance has a significant effect on all three operations, with deletions being the quickest to increase in probability, followed by replacements then insertions:
@@ -762,14 +768,14 @@ In short, a longer utterance has a higher probability of suffering any type of o
 <div id="fig:gistr-ops-counts">
 ![Probability of word operations w.r.t. parent length, computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
 Colours correspond to the colour-coding used in @fig:gistr-lineage-tree.
-Light shades are 95% confidence intervals.
+Light shades are 95% regression confidence intervals.
 ](images/gistr-computed/exp_3/p-ops_parent-length_logistic.png){#fig:gistr-ops-prob}
 
 ![Number of word and chunk operations w.r.t. parent length.
 Parent lengths are binned into 5 quantile-based bins.
-Word operations counts the number of individual words affected by an operation (deletion, insertion, replacement).
-Chunk operations counts the number of contiguous chunks of words affected by an operation.
-Light shades and vertical bars are 95% confidence intervals.
+Word-level counts the number of individual words affected by an operation (deletion, insertion, replacement).
+Chunk-level counts the number of contiguous chunks of words affected by an operation.
+Light shades are 95% regression confidence intervals, and vertical bars are 95% confidence intervals for the value of a bin (Student $t$-based, here counting each operation as an independent measure \todo{FXME: vertical bars should count each transformation as independent}).
 ](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
 
 Probability and number of word-level or chunk-level operations. \todo{add raw distributions?}
@@ -784,14 +790,14 @@ This procedure is similar to the susceptibility scaling approach we followed in 
 
 $$\sigma_O(x) = \frac{s_O(x)}{s_O^0(x)}$$
 
-@Fig:gistr-susc-ops plots $\sigma_O$ for deletions, insertions, and replacements (on the parent side) both overall and for binned parent lengths.
-The leftmost plots show that deletions and insertions are half as likely to appear at the very beginning of utterances as they would at random, and more likely than random in the second half of utterances.
+@Fig:gistr-susc-ops plots $\sigma_D$, $\sigma_I$ and $\sigma_R$ (for replacements on the parent side) both overall and for binned parent lengths.
+The leftmost plots show that deletions and insertions are half as likely to appear at the very beginning of an utterance as they would at random, and more likely than random in the second half of an utterance.
 This is consistent with the well-known primacy effect in recall of word lists.
-In this case, subjects transform much less the beginning of utterances compared to the rest.
-Replacements also feature this primacy effect to a lesser extent, to which a slight recency effect is added:
-words at the end of the utterance are slightly less replaced than non-extremity words.
+In this case, subjects transform the beginning of an utterance on average much less than the rest.
+Replacements feature this primacy effect to a lesser extent, with the addition of a slight recency effect:
+words at the end of an utterance are slightly less replaced than non-extremity words.
 The plots at binned parent lengths show little to no variation in these patterns:
-mostly, the patterns are more or less marked depending on the parent sentence length (especially for replacements, which seem more uniform for short utterances), but the general behaviour is the same for different parent lengths.
+each pattern is more or less marked depending on the parent sentence length (especially for replacements, which seem more uniform for short utterances), but the general behaviour is the same for different parent lengths.
 
 <div id="fig:gistr-susc-ops">
 ![Deletions
@@ -807,12 +813,12 @@ Susceptibility for word operations as a function of relative position in the utt
 The leftmost plot of each sub-figure (blue background) shows $\sigma$ computed over all transformations.
 The plots with the white backgrounds show $\sigma$ computed over transformations with binned parent utterance lengths, indicated in the plot titles.
 Parent length bins are quantile-based, that is computed to have the same number of utterances in each bin (the bins are identical to @fig:gistr-ops-count).
-Light shades are the 95% confidence intervals, computed by considering each transformation as an independent event.
+Light shades are the 95% confidence intervals computed following the @goodman_simultaneous_1965 method for multinomial proportions, considering each transformation as an independent measure.
 </div>
 
 Finally, we examine the dependence of operation chunk size on its position in an utterance.
-Our manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
-since subjects delete words more often towards the end of the utterances, it might be that those deletions are also longer if they correspond to larger portions of the utterances being forgotten.
+The manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
+since subjects delete words on average more often towards the end of an utterance, it is possible that those deletions are also longer if they correspond to larger memory loss.
 @Fig:gistr-chunk-size shows the dependence of chunk size on position in the utterance, for deletions, insertions and replacements, both overall and for binned parent length.
 Deletions exhibit a slight effect of position on chunk size, which is significant for parent lengths between 11 and 15 words.
 ^[The plots also indicate that the overall chunk size increases with parent length, a slight effect which was confirmed for deletions and insertions with dedicated regressions, but which we do not discuss further given its mildness (slopes respectively .030 and .013, both significative with $p < .001$).
@@ -821,24 +827,24 @@ That is, for those lengths, deletions towards the end of the utterance are signi
 The trend is present for deletions at all lengths, though most of the time not significative.
 Other operations do not seem to exhibit this behaviour (the variations for insertions are not significative).
 
-![Chunk operation size w.r.t. parent length and position in utterance.
+![Chunk size w.r.t. parent length and position in utterance.
 The leftmost plot (blue background) shows the average chunk size w.r.t. parent length for all utterances.
 The plots on its right (white background) divide that data into binned parent lengths (bins identical to [@fig:gistr-ops-count;@fig:gistr-susc-ops]).
 In each plot, the height of a line for a given relative position $x$ corresponds to the average size of the chunks in which words at position $x$ are found;
-for instance, a chunk that spans the first half of an utterance will contribute to all the values of $x \in [0, .5]$.
-Average sizes are computed such that each utterance contributes 1 unit.
-Light shades are the 95% confidence intervals computed with that scaling, that is considering each transformation as an independent event.
+for instance, a deletion chunk that spans the second half of an utterance will be spread over $x \in [.5, 1]$.
+Average sizes are weighted such that each utterance contributes 1 unit.
+Light shades are the 95% confidence intervals (Student $t$-based, considering each transformation as an independent measure).
 ](images/gistr-computed/exp_3/chunk-size_position_parent-length.png){#fig:gistr-chunk-size}
 
 Overall, these measures show that deletions are more frequent than insertions, which are more frequent than replacements.
-Operations happen preferentially in the second half of utterances (except replacements which favour all positions except extremities), and are proportional to the parent length in both number of words and number of chunks.
+Operations happen preferentially in the second half of utterances (except replacements which favour all positions except extremities), and their number of words and number of chunks are proportional to the parent length.
 Deletion chunks are also larger in the second half of utterances, compared to in the first half.
 
 
 #### Dependencies between operations
 
 Manual exploration of the lineage plots indicated that operations have non-trivial dependencies between each other.
-The contingency table for the presence or absence of each operation combination gives an overview of these dependencies:
+The contingency table combining the presence or absence of each operation gives an overview of these dependencies:
 
 \begin{center}
   \begin{tabular}{llrrrr}
@@ -872,7 +878,7 @@ The process is joint of course, and separating it into different stages would re
 In spite of this, the relationship between insertions and deletions seems to be well constrained, a fact we see not only in the probability of presence or absence, but also in the number of operations inside a given transformation.
 The link between insertions and deletions can be seen by plotting the distribution of the number of insertions conditioned on the presence of deletions, and vice-versa.
 Both plots are shown on @fig:gistr-insdel-lv:
-without deletions, insertions are not only less probable but also much smaller in number compared to with deletions.
+aside from being less probable, insertions without deletions are also much smaller in number compared to with deletions.
 A similar behaviour is observed in the opposite case:
 deletions that happen in the presence of an insertion are much greater in number than without insertions.
 
@@ -892,7 +898,7 @@ Each rectangle also indicates the number of transformations it represents (corre
 
 Letter-value plots [@hofmann_letter-value_2011] of deletion and insertion counts conditioned on the presence of one another.
 In a given plot, the boundaries between boxes are placed at the $\sfrac{1}{2^i}$-th quantiles:
-the middle line is the median, and above and below it the biggest box stops at the first and third quartile, the second biggest stops at the first and seventh 8-quantile (octiles), and so on and so forth.
+the middle line is the median, and above and below it the biggest box stops at the first and third quartiles, the second biggest stops at the first and seventh 8-quantiles (octiles), and so on and so forth.
 Diamonds are outliers that do not fit into the smallest box.
 </div>
 
@@ -900,11 +906,12 @@ Deletions and insertions thus seem closely linked, as our intuition of the proce
 deletions could be the first manifestation of the subject having forgotten something in the parent utterance, and their presence then opens the door to further reformulations, possibly to make up for the forgotten content.
 
 This relates to the last observation produced by our manual exploration:
-insertions and deletions seemed to occur in similar sizes when close to one another.
+insertions and deletions seem to occur in similar sizes when close to one another.
 To quantify this observation we estimate a correlation function between the sizes of insertion and deletion chunks separated by fixed numbers of conserved or replaced words.
 More precisely, for each insertion chunk in the data set we identify the nearest deletion chunk either before or after it, separated by words that are not involved in an exchange.
-^[Indeed, when exchanges separate an insertion chunk from a deletion chunk there are several paths from one to the other, depending on when one traverses the exchange;
-different paths can have different final distances, such that the distance between an insertion chunk and a deletion chunk separated by an exchange is not clearly definable.
+^[As alluded to when introducing the transformation model, when exchanges separate an insertion chunk from a deletion chunk there are several paths from one to the other, depending on when one traverses the exchange;
+different paths can have different final distances, none of which are more or less plausible than the others.
+The distance between an insertion chunk and a deletion chunk separated by an exchange is thus not clearly defined.
 ]
 If an insertion chunk has such a nearest neighbour (it may not if there were no deletions, or if it occurred in the middle of exchanged words such as in @fig:gistr-utterance-arrays), we note $r$ the separation between the two chunks.
 If insertion and deletion chunks face each other, $r = 0$;
@@ -918,7 +925,7 @@ The regression is computed using the Statsmodels statistics library for Python, 
 @Fig:gistr-insdel-correlations shows the robust regressions and the estimated correlation function for $r \in \{ -5, ..., 5 \}$ (outside of which there was always less than 10 insertion-deletion couples).
 The plot shows three important points.
 First, the vast majority of nearest neighbours insertion and deletion chunks face each other ($r = 0$), and their sizes significantly correlate.
-Second, that correlation initially decreases to become non-signifcant as $|r|$ increases.
+Second, the correlation initially decreases to become non-signifcant as $|r|$ increases.
 The third and most interesting point is that the correlation function is skewed towards the left:
 it is significantly above zero for $r = -1$ but not for $r = 1$, then also for $r = -4, -5$ at higher values than for $r = 4$.
 Note however that the last three points represent only 10 to 12 insertion-deletion couples each and are thus more susceptible to outliers (especially to deletion outliers, i.e. the x axis, which the M-estimation technique we used does not counter).
@@ -929,25 +936,36 @@ deletions preceding insertions correlate more than deletions following insertion
 ]
 This trend is consistent with the intuition we outlined above, according to which insertion chunks could come as tentative replacements for the content that was lost in the deletions that directly precede them.
 
-![Correlations between corresponding insertions and deletions at different distances.
+![Size correlation between nearest-neighbour insertion and deletion chunks at different distances.
 The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
-The white text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
-The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
+The text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
+The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% regression confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
 ](images/gistr-computed/exp_3/insdel_distance_size.png){#fig:gistr-insdel-correlations}
 
 
-#### Feature makeup
+\bigskip
+The transformation model we introduced thus captures several important behaviours in the way subjects change utterances.
+Looking at transformations as made of word-level replacements, deletions and insertions, we see that both insertions and deletions are bursty, and that the presence and magnitude of an operation depends strongly on utterance size and the position at which it appears in the utterance.
+We further see that insertion and deletion chunks are closely related:
+insertions behave as if they were gated by the presence of a deletion, and their size tend to correlate to that of deletions appearing at the same time or shortly before them.
 
-To get a finer view of what word operations is made of, we extend the feature analysis developed in the previous chapter to our current situation.
-We begin with word susceptibilities, then continue with feature variation upon replacement, and finally extend the analysis to the effect of accumulated transformations along the branches.
 
-The situation is parallel to that of the previous chapter, and our previous analysis can be directly applied.
+### Lexical feature makeup
+
+We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
+To do so we extend the feature analysis developed in the previous chapter to our current situation.
+We begin with word susceptibilities, then continue with feature variation upon replacement, and finally show how the accumulation of transformations along the branches leads the lexical makeup of utterances to gradually evolve.
+
+
+#### Word features
+
+The situation is parallel to that of the previous chapter, and its analysis can be directly applied.
 We measure the susceptibility of words to being the target of an operation (either by deletion or replacement) and to being the new word of an operation (either as replacing word or inserted word) in a similar manner to substitution susceptibility.
 For a given grouping of words $g$ (e.g. grammatical category or feature value), we compute its susceptibility $\sigma_g^-$ to being a target and its susceptibility $\sigma_g^+$ to newly appearing as the ratio of the number of times it is a target ($s_g^-$) or a new word ($s_g^+$) to the number of times it would be if the process were a random sampling from the available utterances ($s_g^0$):
 
 $$\sigma_g^- = \frac{s_g^-}{s_g^0} \quad \text{and} \quad \sigma_g^+ = \frac{s_g^+}{s_g^0}$$
 
-In order to render the results more comparable to the previous ones, in this section we also filter out stopwords in all the utterances.
+In order to render the results more comparable to the previous chapter, in this section we also filter out stopwords in all the utterances.
 @Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
 Susceptibilities for the replaced and replacing words are very close to one another, and similarly to the online case there is little to no effect of the main categories on susceptibility:
 adjectives are involved at random, nouns appear slightly less than at random, and verbs slightly more.
@@ -958,20 +976,21 @@ Overall, the behaviour for targeting is consistent with what we observed in blog
 ![POS susceptibility to being replaced or deleted, and to replacing or being inserted.
 The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in replaced and deleted words in parent utterances ($s_{POS}^-$) and in replacing and inserted words in child utterances ($s_{POS}^+$).
 The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
-95% asymptotic confidence intervals are shown in grey, computed following the @goodman_simultaneous_1965 method for multinomial proportions.
+95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions).
 POS tags are from the Universal Dependencies tag set.
 ](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
 
-For the sake of conciseness, we restrict feature results to only the four features that showed relevant effects in the previous chapter: word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
+For the sake of conciseness, we now focus on the four lexical features that showed relevant effects in the previous chapter:
+word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
 Age of acquisition and clustering are identical to the previous chapter;
 word frequency was previously computed from the data set itself, and in the present case the overall data set is much smaller.
-Instead, we relied on an external word frequency dataset based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
+Instead, we relied on external word frequency ratings based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
 These frequencies are provided on what the authors introduce as the Zipf scale, computed as $\log_{10}(\text{Frequency per billion words})$.
-The frequency values thus use a different source from those of the previous chapter, but their final computation only differ by an affine transformation.
-@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities to targeting and appearance
-the trends for frequency, age of acquisition and clustering are consistent with previous results.
-Low frequency, high age of acquisition words very slightly tend to be more targeted, and clustering is mostly not relevant to the process.
-Number of letters has a different behaviour than previously, as not only long words but also short words are slightly more targeted than random.
+The frequency values thus use a different source than those of the previous chapter, but their final computation only differs by an affine transformation.
+@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities to targeting and appearance.
+The trends for frequency, age of acquisition and clustering are consistent with previous results.
+Low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
+Number of letters has a different behaviour than previously, as short words are slightly more targeted than random, beyond the effect for long words.
 It is unclear where this change of effect comes from, as it could be due to any number of factors ranging from analysis tweaks (e.g. an update to the stopword list) to the fact that subjects could be more inclined to replace some words because of a different task context or a different set of utterances.
 All these trends are extremely subtle however (much more than in the blogspace data set), and we do not attempt to explain them any further at this point.
 @Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
@@ -994,9 +1013,9 @@ Here too however, number of letters has a different behaviour than previously:
 instead of a uniform negative bias, $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed:
 both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer.
 In other words, the number of letters of words are better conserved in this data set than in blogspace.
-Two factors seem likely to have influenced this change of effect:
-first, the alignment tool favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
-Second, the fact that $\nu_{\phi}^{00}$ changes so much indicates that the sampling of source utterances also has a role.
+Two factors could have influenced this change of effect:
+first, the alignment procedure favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
+Second, the fact that $\nu_{\phi}^{00}$ changes so much from the its values in the previous chapter indicates that the sampling of source utterances also has a role.
 Recall that in this case  $\nu_{\phi}^{00}$ is the average number of letters of synonyms of words that are replaced:
 $\nu_{\phi}^{00}$ being closer to $y = x$ then indicates that synonyms of words in the current utterances are closer in size to their originals than is the case in the blogspace utterances, a fact that could contribute to the overall better conservation of number of letters.
 
@@ -1005,16 +1024,19 @@ $\nu_{\phi}$, average feature word of the appearing word as a function of the fe
 Refer to @fig:feature-variations-global for the detailed interpretation of the curves.
 ](images/gistr-computed/exp_3/feature-variation-rpl.png){#fig:gistr-variation-rpl}
 
+
+#### Branch evolution
+
 Since these features vary consistently, on average, with each transformation of the utterances, we finally ask if any long-term evolution due to the transformations is observable.
 We therefore plot the evolution of the average features of utterances as a function of branch depth for word frequency, age of acquisition, clustering and number of letters.
 @Fig:gistr-branchevo plots this information both for all utterances and divided into fixed content lengths.
-The evolution of each feature is consistent with its susceptibility to target and appearance, and its variation upon replacement.
+The evolution of each feature is consistent with its susceptibility to targeting and appearance, and its variation upon replacement.
 Average word frequency significantly increases with depth, both globally and at fixed content length.
 This fits with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
 The reverse is true for age of acquisition, which decreases with depth (albeit significantly for certain content lengths only).
 Clustering and number of letters both decrease also, though clustering shows no clear trend at fixed content lengths and its evolution might therefore be due to utterance shortening.
-It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words is the one that wins in the long run:
-average number of words decreases along the branches, even at fixed content length.
+It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words wins in the long run:
+average number of letters decreases along the branches, even at fixed content length.
 While the trends are not strong, it is still noteworthy that they are visible at the level of utterance averages:
 in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
 Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
