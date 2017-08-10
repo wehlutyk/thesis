@@ -952,6 +952,8 @@ insertions behave as if they were gated by the presence of a deletion, and their
 
 ### Lexical feature makeup
 
+\todo{There is space for improvement in this last discussion}
+
 We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
 To do so we extend the feature analysis developed in the previous chapter to our current situation.
 We begin with word susceptibilities, then continue with feature variation upon replacement, and finally show how the accumulation of transformations along the branches leads the lexical makeup of utterances to gradually evolve.

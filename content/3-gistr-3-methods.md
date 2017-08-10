@@ -12,20 +12,21 @@ the links between parent and child sentences are naturally encoded in the data, 
 There is no need to restrict ourselves to simpler changes as was necessary for the inference procedure used with digital traces from blogspace.
 By creating an artificial setting, the experiment design also lets us control the reading and writing conditions as well as the context in which sentences appear, which further removes one of the inevitable uncertainties of the previous protocol (albeit at the cost of less ecological conditions).
 
-The laboratory transmission chain paradigm is not a good fit for our exploratory approach however:
+However, the laboratory transmission chain paradigm is not a good fit for our exploratory approach:
 we aim to collect data that will allow us to study both the complete set of transformations undergone by short utterances such as online quotations, and the interactions and cumulative effect of such changes;
 yet we do not know in advance the types of changes that subjects will make, or the extent to which such changes vary according to the type of linguistic content.
 Transmission chain studies typically start with an a priori hypothesis focused on a well-identified type of content, which is then empirically tested by contrasting the evolutionary outcome of two classes of sentences.
-Instead, our goal here is to provide first steps in characterising the process by which such evolution of linguistic content arises, and observe how it accumulates in the long term.
+Instead, our goal here is to provide first steps to characterise the process by which such evolution of linguistic content arises, and observe how it accumulates in the long term.
 The setup must thus allow us to collect enough data to extract regularities in successive transformations operated by different subjects on different sentences, and provide a resolving power similar to that of substitutions in online quotations so that we can compare results with the previous chapter.
-Since our main target is the set of detailed transformations and their interactions, a phenomenan of higher dimensionality than the contrast of accumulated outcomes, it is also crucial to fine-tune the difficulty of the read-write task and the complexity of the source sentences, in order to trigger a set of transformations varied enough that it could approach some of the changes encountered in real life situations.
+Since our main target is the set of detailed transformations and their interactions, a phenomenon of higher dimensionality than the contrast of accumulated outcomes, it is also crucial to fine-tune the difficulty of the read-write task and the complexity of the source sentences, in order to trigger a set of transformations varied enough that it could approach some of the changes encountered in real life situations.
 Our progress therefore involves a non-trivial trial-and-error component:
 indeed, a task made too easy or too difficult, and more so a set of source sentences that are too complex or too straightforward, will lead to either mass deletions or perfect conservation (or the former followed by the latter), none of which can help characterise the more intricate changes that linguistic content undergoes in the ecological setting we aim to simulate.
 
 
 #### Web and smartphone experiments
 
-Complementary to laboratory studies and to approaches using online digital traces, a new empirical approach based on Web browsers and mobile computing is striking a different balance in the trade-offs of experimental work which seems very promising in addressing the problems outlined above.
+Complementary to laboratory studies and to approaches using online digital traces, a new empirical approach based on Web browsers and mobile computing is striking a different balance in the trade-offs of experimental work;
+it seems very promising in addressing the problems outlined above.
 Indeed, browsers (both on desktop and mobile) and smartphones have evolved into powerful, ubiquitous application environments for which one can develop any kind of experiment involving text, graphics, and human interactions.
 At the cost of increased engineering requirements and a different approach to subject recruitment, Web and smartphone experiments give the designer full control over what data is collected and the way interactions are framed (similar to laboratory experiments), and make it possible to quickly collect data sets at scales comparable to what filtered and cleaned digital traces provide.
 
@@ -52,14 +53,14 @@ This approach makes a number of unusual trade-offs, the benefits of which can be
 The corresponding costs are the following:
 
 * *Technical challenge*:
-  developing Web and smartphone experiments involves a substantial amount of engineering, and makes use of an array of technologies that most researchers, even technical, are not familiar with.
+  developing Web and smartphone experiments involves a substantial amount of engineering, and makes use of technologies that most researchers, even technical, are not familiar with.
   While a couple of all-in-one kits exist,
   ^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.
   ]
-  creating an experiment that meets one's research questions requires learning average skills in most of the various technologies at play:
+  creating an experiment that meets one's research questions requires learning average skills in most of the technologies at play:
   a native or cross-platform smartphone development environment, Web application development, backend server programming, and some server administration skills.
   Most importantly, the paradigms and problems encountered are new to researchers:
-  programming is asynchronous due to network communication and the user interface, and technicalities such as user management or email validation can grow into difficult engineering challenges.
+  control flow is asynchronous due to network communication and the user interface, and technicalities such as user management or email validation can grow into difficult engineering challenges.
 * *Spam-control*:
   subjects are not constrained or encouraged by the face-to-face interaction of a laboratory experiment, neither are they (in most experiments) in the course of an interaction with friends that provides natural incentives for what they write, as can be the case with digital traces.
   Participants must have an incentive to perform the experiment's tasks well.
@@ -67,7 +68,7 @@ The corresponding costs are the following:
   But if the spam introduced by one subject naturally propagates to data seen by other subjects in the experiment, as is the case for transmission chains, effective anti-spam pressures and motivations need to be factored into the design.
 * *Recruitment cost*:
   while recruiting up to a few hundred subjects is cheaper than the equivalent for a laboratory experiment (not counting the development cost),
-  ^[Global competition on online platforms like Prolific Academic drive subject payments down.
+  ^[Global competition on online platforms like Prolific Academic drives subject payments down.
   ]
   and is easy to manage for fast prototyping and pilot tests, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
   Turning an experiment into a playful application or an application useful to the subjects (effectively making them users) involves yet another set of skills, can prove challenging, and must be factored into the development cost.
@@ -75,21 +76,19 @@ The corresponding costs are the following:
 
 #### General setup for Web-based transmission chains
 
-The balance achieved by the Web-based approach is well adapted to the experimental requirements we outlined above.
-Since no existing system would fit our needs, we chose to develop an in-house Web-based platform that could run all our transmission chains as Web experiments.
+The balance achieved by Web-based experiments is well adapted to the requirements we outlined above.
+Since no existing system would fit our needs, we chose to develop a tailored Web-based platform that could run transmission chains as Web experiments.
 Once ready, the platform would allow us to gather sufficient amounts of quality data in short cycles.
 We further decided to implement the simplest possible version of the transmission chain paradigm that is still viable, and leave the exploration of more complex setups for future research:
 the task we used asks subjects to read and memorise a short utterance, wait a few seconds, then rewrite what they have read as accurately as possible.
-We ran three main experiments using this evolving platform, and many smaller pilots in between to test improvements from the larger runs and adjust task parameters with source complexity, such that the overall quality of the data we gathered gradually increased.
+We ran three main experiments using this evolving platform, and many smaller pilots in between to test lessons learned in the larger runs and adjust task parameters and source complexity.
+The overall quality of the data we gathered thus gradually increased.
 In what follows we present the general setup of the experiments, the data quality evaluation along with the changes implemented to improve it, and finally the adjustment of task complexity.
 Let us start with the architecture common to all experiments.
 
-Subjects' productions are arranged in chains, such that what a given subject produces is used as the source utterance for the subject appearing next in a chain.
-In particular, the utterances to memorise are presented with no surrounding context, no distraction task is used between the reading and writing phases, and the material incentive for the task is purely monetary (although as we describe below we fine-tuned the interface to strongly encourage subjects to be conscientious).
-This simple setup lets us quickly gather data sets of several thousand utterance transformations, ensuring our results will be comparable to those from the set of \num{6177} substitutions we extracted in the previous chapter.
-Two parameters are left to vary:
-the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted (and may or may not be shortened by the subject), and the set of initial source utterances.
-
+A transmission chain is defined by a type of content transmitted, a transmission task, and a layout defining which subject production is used as the source input for the next subject.
+In our implementation, subjects are presented with an utterance to memorise with no surrounding context;
+no distraction task is used between the reading and writing phases, and the material incentive for the task is purely monetary (although as we describe below we fine-tuned the interface to strongly encourage subjects to be conscientious).
 The experiment is available to subjects as a website, and passing it involves the following steps:
 
 * Welcome and sign up ([@fig:gistr-welcome;@fig:gistr-signup]),
@@ -98,10 +97,14 @@ The experiment is available to subjects as a website, and passing it involves th
   However, similarly to the age of subjects that we collect in the questionnaire, this data turned out to not be relevant in the analyses.
   The magnitude of transformations depends far more on the conscientiousness of subjects, and this non-trivial test was later removed during one of the frontend rewrites.
   ]
-* Subjects then start training for the main task, where they are asked to repeatedly memorise and rewrite short utterances as accurately as possible.
-  As the instructions in @fig:gistr-instructions indicate, an utterance is presented to the subject and after a short pause they are asked to rewrite it as remembered.
+* Training for the main task, where subjects are asked to repeatedly memorise and rewrite short utterances as accurately as possible.
+  As the instructions illustrated in @fig:gistr-instructions indicate, an utterance is presented to the subject and after a short pause they are asked to rewrite it as remembered.
   The process loops until the subject has completed all the utterances assigned to them (calibrated so that completing the experiment lasts at most one hour).
-  The real trials start after 3 to 5 training trials, depending on the overall experiment length.
+  The real trials started after 3 to 5 training trials, depending on the overall experiment length.
+
+This simple setup lets us quickly gather data sets of several thousand utterance transformations, ensuring our results were be comparable to those from the set of \num{6177} substitutions extracted in the previous chapter.
+Two parameters are then left to vary:
+the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted, and the set of initial source utterances.
 
 Each utterance from the initial set is used to create several parallel chains in order to allow for comparisons across chains with the same initial utterance.
 The final data thus consists in a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.
@@ -110,14 +113,19 @@ The final data thus consists in a set of reformulation trees, where each tree br
 The number of branches in a tree is also adjusted for each run of the experiment.
 Except for those who drop out before finishing the experiment, all subjects are exposed exactly once to each tree in random order, such that all the reformulations in a given tree are made by distinct subjects, and nearly all subjects (excluding dropouts) are present in each tree.
 Satisfying this constraint means that we must always have at least as many subjects as there are reformulations in a tree.
+As noted, a few subjects from Prolific Academic will usually not complete the whole set of utterances assigned to them;
+we thus recruit additional subjects to fill the trees that were left incomplete.
+This leads the other, already complete trees to receive more reformulations than needed, making some of their branches run a little deeper than the target depth.
+All branches are cropped to the target depth for analysis.
+
 Finally, note that when exposed to a tree, subjects are always randomly assigned to the tip of one of the branches that have not yet reached the target depth:
-subjects are thus randomly distributed across branches, but their depth-ordering loosely corresponds to time of arrival on the tree.
+subjects are thus randomly distributed across branches, but their depth-ordering loosely corresponds to the time of arrival on the tree.
 In particular, if a subject starts the experiment after most other subjects have completed it, he or she will be mostly exposed to utterances deep in the branches.
 Due to the chained nature of the data, there is no economical way of countering this ordering bias.
 ^[The following three approaches could be combined to counter ordering bias.
 (1) Have each subject do a single trial, that is, use as many subjects as there are reformulations in the full experiment;
-this is extremely expensive as there is a fixed minimal price for each subject, in order to give time to explore the interface, answer the initial questionnaire, and train for the task.
-(2) Have each subject wait an adjustable amount of time between each trial, to open the possibility of ordering subjects differently from their time of arrival;
+this is extremely expensive as there is a fixed minimal price for each subject, corresponding to the time needed to explore the interface, answer the initial questionnaire, and train for the main task.
+(2) Have each subject wait an adjustable amount of time between each trial, to open the possibility for ordering subjects differently than their time of arrival;
 this is also expensive, as it means paying subjects for waiting most of the time they spend on the experiment.
 (3) Optimise the order of tree presentations of each subject so as to spread subjects across depths;
 while this approach could achieve some level of spread when combined with (2), it is contingent on the starting times of subjects and their synchronisation, which we do not control (subjects find the experiment through Prolific Academic notifications and are free to start whenever they want).
@@ -141,10 +149,8 @@ Subjects can additionally submit feedback on the questionnaire or any other aspe
 
 ![Two example reformulation trees generated by the setup, targeted at 7 branches of depth 10:
 the text on the left is the initial utterance for all branches of a tree, represented by a red dot in the right-hand graph; each grey dot in the graph represents an utterance produced by a subject on the basis of the preceding dot.
-Most subjects created one reformulation in each tree;
-however, since subjects from Prolific Academic do not always complete the whole set of utterances assigned to them, we recruit additional subjects to fill the trees that were left incomplete.
-This leads the other, already complete trees to receive more reformulations than needed, making some of their branches run deeper than the target depth (as is the case for the trees shown here).
-All branches are cropped to the target depth for analysis.
+Subjects create at most one reformulation in each tree, and most create exactly one per tree.
+The fact that some subjects drop out before completing all their trees leads us to recruit new subjects to fill in the missing reformulations, which is why some branches are uneven.
 ](images/gistr/gistr-trees.png){#fig:gistr-trees width=75%}
 
 Technically, the platform is a complete Web application based on current technologies, with accompanying backend server to collect and distribute utterances.
@@ -161,8 +167,8 @@ Using the Prolific Academic service allowed us to select among a pool of over \n
 
 * First language English speaker
 * At least 18 years old
-* Current country of residence and place of most time spent before turning 18 must both be the UK
-* Normal or corrected to normal vision
+* Current country of residence and place of most time spent before turning 18 must both be in the UK
+* Normal or corrected-to-normal vision
 * No diagnosed literary difficulties
 * Completed secondary school
 * Not having participated in any of the preceding experiments
@@ -189,7 +195,7 @@ It was launched with two batches of 70 subjects each receiving 25 root utterance
 Subjects took an average 37 minutes to complete the 25 transformations, and were rewarded with £4.25 on average.
 
 We now detail the evaluation of data quality and the measures that were taken to improve it.
-The section after this will focus on the fit of task parameters and source complexity, before moving on to the analysis and results.
+The section after that will focus on the fit of task parameters and source complexity, before moving on to the analysis and results.
 
 
 ### Data quality
@@ -207,7 +213,7 @@ Instead, the interface must lead the subjects through the necessary explanations
 #### Manual spam-coding
 
 Failure to properly encourage and wherever possible enforce the experiment's expectations led to data riddled with spurious transformations.
-Indeed, manual inspection of the data collected through Experiment 1, for which a substantial effort on instructions and for the overall interface had already been made, showed that large portions of the data was not usable as such.
+Manual inspection of the data collected through Experiment 1, for which a substantial effort on instructions and for the overall interface had already been made, showed that large portions of the data were not usable as such.
 We therefore spam-coded all the utterances from this and subsequent experiments by hand.
 An utterance with any of the following properties was coded as spam:
 
@@ -229,7 +235,7 @@ Spam in transmission chains has the additional property of invalidating all the 
 Coded this way, Experiment 1 showed an accumulated spam rate of 22.4%.
 Combined with an initial technical oversight that led a small portion of utterances to be misplaced in the chains,
 ^[Ensuring that no two subjects are creating reformulations for the same chain tip at the same time, while not blocking other subjects from moving on with the experiment, is a non-trivial technical hurdle.
-Not solving it leads the chains to have "forks", that is, utterances with several children (possibly sub-branches) instead of a single one.
+Not solving it leads the chains to have "forks", that is, utterances with several children (possibly extending to sub-branches) instead of a single one.
 One of the children must then be chosen to form the main chain, and the others discarded.
 Solutions to the problem are difficult to test in practice, as they involve simulating dozens of subjects concurrently sending utterances to the platform.
 The approach adopted in Experiment 1 relied on client-side randomisation, but proved insufficient:
@@ -263,15 +269,15 @@ The most important points can be summed up as follows:
   Experiment 1 and subsequent pilots showed the need for strong incentives to write well-edited meaningful text.
   Indeed when pressed for time, some subjects will tend to write misspelled, poorly punctuated, or even meaningless utterances, which invalidate all the sentences that follow in the branch.
   Countering this tendency involved several changes to Experiments 2 and 3:
-  emphasis was added to the fact that subjects' productions are later sent to other subjects, encouraging a more conscientious behaviour;
+  emphasis was added to the fact that what is produced by one subject is later sent to other subjects, encouraging a more conscientious behaviour;
   a bonus was associated with high-fidelity trials, and the top 5 subjects with lowest transformation rates (as defined below in the analysis) received increased payment;
   most importantly, input from the subjects was also checked for repeated or inadequate punctuation, and for correct spelling against a combined British and American English dictionary.
   The interface asked subjects to correct any input that failed those tests, and presented them with a short explanation that emphasised the faulty behaviour and recalled the chain structure of the experiment.
   Inspecting the platform logs showed that this last measure led subjects to often correct their utterances, a fact that was also confirmed by the increased average writing time.
 * *Relaxing the time pressure*:
   the interface of Experiment 1 made several mistakes that worsened the inherent pressure on subjects to complete the study as fast as possible (indeed, payment on Prolific Academic is per experiment, not per time spent -- which, conversely, would encourage subjects to be very slow).
-  First, subjects could terminate the reading time of an utterance at will:
-  while this provided a measure of the effective reading time used by subjects, it also opened the possibility of speeding through the trials.
+  First, subjects could terminate the reading time of an utterance at will.
+  While this provided a measure of the effective reading time used by subjects, it also opened the possibility of speeding through the trials.
   Indeed over a third of the transformations of Experiment 1 were done by using less than half the allotted reading time.
   This pressure was increased by the presence of a "remaining time" clock in the reading and waiting phases, similar to the green clock shown on @fig:gistr-instructions for the writing phase.
   By removing superfluous clocks, keeping the reading time fixed, and proposing a break after each utterance, Experiments 2 and 3 relaxed the time pressure on the subjects and improved the final data quality.
@@ -291,8 +297,6 @@ These changes reduced the spam rate drastically.
 On the same criteria as Experiment 1, Experiment 2 showed an accumulated spam rate of .8%, which combined with misplaced utterances led to a total 1.4% of utterances discarded.
 Experiment 3 showed an accumulated spam rate of 1.0%, and with misplaced utterances had to discard a total 1.1% of the data.
 
-\todo{Am I certain that I coded spam the same way in all three experiments?}
-
 ![Overlay feedback box opened in the instructions screen from @fig:gistr-instructions.
 The box is available in most screens of Experiments 2 and 3.
 ](images/gistr/gistr-feedback.png){#fig:gistr-feedback width=75%}
@@ -300,7 +304,7 @@ The box is available in most screens of Experiments 2 and 3.
 
 ### Task difficulty and source complexity fit
 
-Given the simple task we used, difficulty is controlled by the reading time allotted to subjects and by the selection of source utterances.
+In the simple task we used, difficulty is controlled by the reading time allotted to subjects and by the selection of source utterances.
 In order to unify reading times across utterances we decided that reading time would be proportional to the number of words in the utterance presented:
 for an utterance $u$, its number of words is noted $|u|_w$ and its reading time is defined as $|u|_w \cdot r$.
 We call $r$ the *reading factor*.
@@ -339,15 +343,15 @@ such as "Never doubt that a small group of thoughtful committed citizens can cha
 ^[Available online at \url{http://penta.ufrgs.br/edu/telelab/2/war-of-t.htm}.
 ]
 as well as excerpts from other tales,
-* A small number of hand-crafted sentences such as surprising statements (e.g. "Don't forget to leave the door open when you leave the office") or stereotype incongruent statements (e.g. "The young boy was suddenly hit by the little girl").
+* A small number of hand-crafted sentences such as surprising statements (e.g. "Don't forget to leave the door open when you leave the office") or stereotype-incongruent statements (e.g. "The young boy was suddenly hit by the little girl").
 
 Each of these categories, we thought, could encourage the triggering of transformations.
 The spam level of Experiment 1, and especially the amount of misspelled words, made the exploration of the detailed transformations impossible and shifted the focus towards improving data quality through the interface.
-Nonetheless, it became clear that using such a heterogeneous set of utterances could surprise subjects, and was not be the best approach to elicit regularities in transformations.
+Nonetheless, it became clear that using such a heterogeneous set of utterances could surprise subjects, and was not the best approach to elicit regularities in transformations.
 Experiments 2 and 3 relied on a more thorough exploration of possible source data sets.
 Pilots explored utterances extracted from previous studies [@bangerter_transformation_2000 on personification and increased stereotypes; @heath_emotional_2001 on the role of disgust; @maxwell_remembering_1936 on incoherent stories; @mesoudi_bias_2006 for the role of social information].
 
-Two larger and more homogeneous sets of utterances were also reconstituted and finally used in Experiments 2 and 3.
+Two larger and more homogeneous sets of utterances were reconstituted and finally used in Experiments 2 and 3.
 First, a set of movie quotes provided by @danescu-niculescu-mizil_you_2012.
 This data set contains about 2200 pairs of quotes extracted from 1000 movie scripts;
 each pair is made of a quote that was marked as memorable by users of the Internet Movie Database, coupled with the closest quote in the same movie script that is spoken by the same character, has the same number of words, but is not marked as memorable on the Internet Movie Database.
