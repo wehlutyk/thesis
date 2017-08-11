@@ -72,11 +72,15 @@ $$\lambda(u, u') = \text{lev}\left(\text{lemmatize}(c(u)), \text{lemmatize}(c(u'
 
 For example, consider the three following utterances taken from Experiment 1 (in a tree whose root is from the MemeTracker data set):
 
-> $u_a$: "This crisis did not develop overnight and it will not be solved overnight" <!-- #8 -->
-
-> $u_b$: "the crisis did not developed overnight, and it will be not solved overnight" <!-- #2101 -->
-
-> $u_c$: "The crisis didn't happen today won't be solved by midnight." <!-- #2269 -->
+\begin{nquote} % <!-- #8 -->
+  $u_a$: "This crisis did not develop overnight and it will not be solved overnight"
+\end{nquote}
+\begin{nquote} % <!-- #2101 -->
+  $u_b$: "the crisis did not developed overnight, and it will be not solved overnight"
+\end{nquote}
+\begin{nquote} % <!-- #2269 -->
+  $u_c$: "The crisis didn't happen today won't be solved by midnight."
+\end{nquote}
 
 After removing the punctuation and converting all words to lowercase, the lemmas of the content words of these utterances are as follows:
 
@@ -98,12 +102,18 @@ $\rho(u, u') = 0$ if and only if $u$ and $u'$ have exactly the same content word
 Here, $\rho(u_a, u_b) = 0$ and $\rho(u_a, u_c) = \rho(u_b, u_c) = .6$.
 A major caveat of this measure is that it does not know about synonyms or expressions with similar meaning, such that two sentences separated by a transformation rate of 1 can have the same meaning at a higher level.
 For instance with the following sentences,
+^[$u_d$ and $u_f$ are from Experiment 1 ($u_d$ being originally from the MemeTracker data set), and $u_e$ was created for this comparison.
+]
 
-> $u_d$: "Will you investigate the gravest crimes of the Bush administration, including torture and warrantless wiretapping?" (from Experiment 1, originally from the MemeTracker data set)
-
-> $u_e$: "Will you research the worst problems of the 2004 mandate, like its surveillance?" (hand-crafted for this comparison)
-
-> $u_f$: "Don't forget to leave the door open when you leave the office" (from Experiment 1)
+\begin{nquote}
+  $u_d$: "Will you investigate the gravest crimes of the Bush administration, including torture and warrantless wiretapping?"
+\end{nquote}
+\begin{nquote}
+  $u_e$: "Will you research the worst problems of the 2004 mandate, like its surveillance?"
+\end{nquote}
+\begin{nquote}
+  $u_f$: "Don't forget to leave the door open when you leave the office"
+\end{nquote}
 
 we have $\rho(u_d, u_e) = \rho(u_d, u_f) = 1$.
 The measure misrepresents the changes between these utterances, as $u_d$ and $u_e$ can easily be considered to have similar meanings at a high level, and their difference is far less important than the difference between $u_d$ and $u_f$.
@@ -276,11 +286,12 @@ We choose to set the slope of the affine transformation of similarity to 1, and 
 Given the right set of parameters, the alignment produced by the NW algorithm to transform one utterance into another is a good approximation of the internal operations of said transformation.
 Take for instance the following two utterances from Experiment 3:
 
-> "Finding her son, Alvin, 69, hanged, Mrs Hunt, of Brighton, was so depressed she could not cut him down."  <!-- #2033 -->
-
-> "Finding her son Arthur 69 hanged Mrs Brown from Brighton was so upset she could not cut him down" <!-- #3790 -->
-
-\todo{use labelled lists for quotes}
+\begin{nquote} % <!-- #2033 -->
+  "Finding her son, Alvin, 69, hanged, Mrs Hunt, of Brighton, was so depressed she could not cut him down."
+\end{nquote}
+\begin{nquote} % <!-- #3790 -->
+  "Finding her son Arthur 69 hanged Mrs Brown from Brighton was so upset she could not cut him down"
+\end{nquote}
 
 With the set of parameters that we obtain through training as explained below, the algorithm aligns these two utterances as follows (noting any gaps with "-", and emphasising replacements):
 
@@ -300,9 +311,12 @@ However, more complicated transformations include operations that the algorithm 
 Hand inspection of the data showed that exchanging sub-parts of an utterance, in particular, is a relatively common operation for which our current tool has no representation.
 Consider the following two utterances from Experiment 3 for instance:
 
-> $u_a$: "At Dover, the finale of the bailiffs convention, their duty said a speaker are delicate, dangerous and detailed" <!-- #49 -->
-
-> $u_b$: "At Dover, at a Bailiffs convention. a speaker said that their duty was to patience, and determination" <!-- #120 -->
+\begin{nquote} % <!-- #49 -->
+  $u_a$: "At Dover, the finale of the bailiffs convention, their duty said a speaker are delicate, dangerous and detailed" \label{ut:49}
+\end{nquote}
+\begin{nquote} % <!-- #120 -->
+  $u_b$: "At Dover, at a Bailiffs convention. a speaker said that their duty was to patience, and determination" \label{ut:120}
+\end{nquote}
 
 The current alignment algorithm, with parameters trained according to a procedure outlined below, produces the following:
 
@@ -555,10 +569,12 @@ Continuing down the branch, $w'$ can also be linked to its child $w''$ (if it wa
 
 @Fig:gistr-lineage-tree represents the lineages produced by this procedure on the branches of an example tree taken from Experiment 3, whose root is the following utterance:
 ^[This is tree #4, which is also shown in @fig:gistr-trees.
-The transition from depth 1 to depth 2 in branch #49 of the figure also corresponds to the example transformation discussed when introducing deep alignments (\todo{add refs for sentences}).
+The transition from depth 1 to depth 2 in branch #49 of the figure also corresponds to the transformation of utterance \ref{ut:49} to utterance \ref{ut:120} discussed when introducing deep alignments.
 ]
 
-> « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." » <!-- #4 -->
+\begin{nquote} % <!-- #4 -->
+  « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." »
+\end{nquote}
 
 ![Example lineages for all the branches of tree #4 from Experiment 3.
 Each subplot corresponds to a different branch.

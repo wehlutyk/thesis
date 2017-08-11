@@ -55,11 +55,20 @@ header-includes:
   # Tables
   - \usepackage{booktabs}
   - \usepackage{multirow}
-  # Numbering quotes
-  - \newcounter{quotecount}
+  # Numbered quotes
+  - \setlength{\leftmargini}{3em}
+  - \newsavebox\nquotebox
   - |
-    \newcommand{\numquote}[1]{\bigskip\refstepcounter{quotecount}%
-      \hspace{15pt}\parbox{\dimexpr\textwidth-60pt\relax}{``#1''}\hfill(\arabic{quotecount})\bigskip}
+    \newenvironment{nquote}
+      {\begin{equation}
+       \begin{lrbox}{\nquotebox}
+       \begin{minipage}{\dimexpr\columnwidth-2\leftmargini}
+       \setlength{\leftmargini}{0pt}%
+       \begin{quote}}
+      {\end{quote}
+       \end{minipage}
+       \end{lrbox}\makebox[0pt]{\usebox{\nquotebox}}
+       \end{equation}}
   # Mathematics
   - \usepackage{bm}
   - \usepackage{dsfont}
