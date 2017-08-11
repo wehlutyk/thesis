@@ -968,7 +968,11 @@ insertions behave as if they were gated by the presence of a deletion, and their
 
 ### Lexical feature makeup
 
-\todo{There is space for improvement in this last discussion}
+\todo{There is space for improvement in this last discussion.
+- detailed correspondence with BCP graphs
+- comparison of appearance and targeting susceptibilities, which is what really counts (not absolute values)
+- relate replacement convergence points to branch evolution limits
+- branch evolution at fixed content length is stronger for longer utterances, i.e. it's more necessary to simplify}
 
 We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
 In doing so we also aim to validate the results of the previous chapter.
@@ -1017,10 +1021,10 @@ more frequent, lower age of acquisition words are more susceptible to appearance
 Low clustering and short words appear also more than random, all of which are consistent with the variation patterns observed previously, and which we confirm below.
 
 <div id="fig:gistr-suscept-feature">
-![Susceptibility to targeting.
+![Susceptibility to targeting
 ](images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png){#fig:gistr-suscept-feature-delrpl}
 
-![Susceptibility to appearance.
+![Susceptibility to appearance
 ](images/gistr-computed/exp_3/feature-suscept-insrpl_child.png){#fig:gistr-suscept-feature-insrpl}
 
 Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial, considering each transformation as an independent measure).
