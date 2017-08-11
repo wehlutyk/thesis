@@ -861,6 +861,13 @@ The contingency table combining the presence or absence of each operation gives 
   \end{tabular}
 \end{center}
 
+![Mosaic plot of the contingency table between deletions, insertions, and replacements.
+Red rectangles indicate deletions are present;
+green rectangles or green dots indicate insertions are present;
+darker colours indicate replacements are present.
+Each rectangle also indicates the number of transformations it represents (corresponding to the rectangle area).
+](images/gistr-computed/exp_3/contingencies_mosaic.png){#fig:gistr-contingencies width=60%}
+
 @Fig:gistr-contingencies illustrates this data with a mosaic plot, rendering some of the trends more visible.
 One way to look at these figures is by considering deletions first.
 Without deletions, insertions are very unlikely (8.2%), and replacements are also unlikely (though less so: 26.0%):
@@ -874,21 +881,6 @@ without insertions, deletions happen only 24.9% of the time, whereas with them d
 Replacements are also linked to insertions, either with or without deletions:
 the presence of one always increases the probability of the other.
 
-The process is joint of course, and separating it into different stages would require more knowledge of the cognitive mechanisms that underlie these transformations.
-In spite of this, the relationship between insertions and deletions seems to be well constrained, a fact we see not only in the probability of presence or absence, but also in the number of operations inside a given transformation.
-The link between insertions and deletions can be seen by plotting the distribution of the number of insertions conditioned on the presence of deletions, and vice-versa.
-Both plots are shown on @fig:gistr-insdel-lv:
-aside from being less probable, insertions without deletions are also much smaller in number compared to with deletions.
-A similar behaviour is observed in the opposite case:
-deletions that happen in the presence of an insertion are much greater in number than without insertions.
-
-![Mosaic plot of the contingency table between deletions, insertions, and replacements.
-Red rectangles indicate deletions are present;
-green rectangles or green dots indicate insertions are present;
-darker colours indicate replacements are present.
-Each rectangle also indicates the number of transformations it represents (corresponding to the rectangle area).
-](images/gistr-computed/exp_3/contingencies_mosaic.png){#fig:gistr-contingencies width=60%}
-
 <div id="fig:gistr-insdel-lv">
 ![Number of insertions conditioned on the presence of deletions.
 ](images/gistr-computed/exp_3/insertion-lv_del-presence.png){#fig:gistr-inslv width=40%}
@@ -901,6 +893,14 @@ In a given plot, the boundaries between boxes are placed at the $\sfrac{1}{2^i}$
 the middle line is the median, and above and below it the biggest box stops at the first and third quartiles, the second biggest stops at the first and seventh 8-quantiles (octiles), and so on and so forth.
 Diamonds are outliers that do not fit into the smallest box.
 </div>
+
+The process is joint of course, and separating it into different stages would require more knowledge of the cognitive mechanisms that underlie these transformations.
+In spite of this, the relationship between insertions and deletions seems to be well constrained, a fact we see not only in the probability of presence or absence, but also in the number of operations inside a given transformation.
+The link between insertions and deletions can be seen by plotting the distribution of the number of insertions conditioned on the presence of deletions, and vice-versa.
+Both plots are shown on @fig:gistr-insdel-lv:
+aside from being less probable, insertions without deletions are also much smaller in number compared to with deletions.
+A similar behaviour is observed in the opposite case:
+deletions that happen in the presence of an insertion are much greater in number than without insertions.
 
 Deletions and insertions thus seem closely linked, as our intuition of the process suggests:
 deletions could be the first manifestation of the subject having forgotten something in the parent utterance, and their presence then opens the door to further reformulations, possibly to make up for the forgotten content.
@@ -922,6 +922,12 @@ We then take the slope of that regression as an indicator of the correspondence 
 The regression is computed using the Statsmodels statistics library for Python, which implements robust M-estimation using Huber's T norm [@huber_robust_1981] with a default parameter of 1.345.
 ]
 
+![Size correlation between nearest-neighbour insertion and deletion chunks at different distances.
+The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
+The text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
+The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% regression confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
+](images/gistr-computed/exp_3/insdel_distance_size.png){#fig:gistr-insdel-correlations}
+
 @Fig:gistr-insdel-correlations shows the robust regressions and the estimated correlation function for $r \in \{ -5, ..., 5 \}$ (outside of which there was always less than 10 insertion-deletion couples).
 The plot shows three important points.
 First, the vast majority of nearest neighbours insertion and deletion chunks face each other ($r = 0$), and their sizes significantly correlate.
@@ -936,18 +942,12 @@ deletions preceding insertions correlate more than deletions following insertion
 ]
 This trend is consistent with the intuition we outlined above, according to which insertion chunks could come as tentative replacements for the content that was lost in the deletions that directly precede them.
 
-![Size correlation between nearest-neighbour insertion and deletion chunks at different distances.
-The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
-The text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
-The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% regression confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
-](images/gistr-computed/exp_3/insdel_distance_size.png){#fig:gistr-insdel-correlations}
-
 
 \bigskip
 The transformation model we introduced thus captures several important behaviours in the way subjects change utterances.
 Looking at transformations as made of word-level replacements, deletions and insertions, we see that both insertions and deletions are bursty, and that the presence and magnitude of an operation depends strongly on utterance size and the position at which it appears in the utterance.
 We further see that insertion and deletion chunks are closely related:
-insertions behave as if they were gated by the presence of a deletion, and their size tend to correlate to that of deletions appearing at the same time or shortly before them.
+insertions behave as if they were gated by the presence of a deletion, and their sizes tend to correlate to that of deletions appearing at the same time or shortly before them.
 
 
 ### Lexical feature makeup
@@ -955,13 +955,22 @@ insertions behave as if they were gated by the presence of a deletion, and their
 \todo{There is space for improvement in this last discussion}
 
 We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
-To do so we extend the feature analysis developed in the previous chapter to our current situation.
+In doing so we also aim to validate the results of the previous chapter.
+We thus extend the feature analysis of the previous chapter to our current situation.
 We begin with word susceptibilities, then continue with feature variation upon replacement, and finally show how the accumulation of transformations along the branches leads the lexical makeup of utterances to gradually evolve.
 
 
 #### Word features
 
-The situation is parallel to that of the previous chapter, and its analysis can be directly applied.
+For the sake of conciseness, we restrict features to the four lexical features that showed relevant effects in the previous chapter:
+word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
+Age of acquisition and clustering are identical to the previous chapter;
+word frequency was previously computed from the data set itself, and in the present case the overall data set is much smaller.
+Instead, we relied on external word frequency ratings based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
+These frequencies are provided on what the authors introduce as the Zipf scale, computed as $\log_{10}(\text{Frequency per billion words})$.
+The frequency values thus use a different source than those of the previous chapter, but their final computation only differs by an affine transformation.
+
+The situation is otherwise parallel to previously, and its procedure can be directly applied.
 We measure the susceptibility of words to being the target of an operation (either by deletion or replacement) and to being the new word of an operation (either as replacing word or inserted word) in a similar manner to substitution susceptibility.
 For a given grouping of words $g$ (e.g. grammatical category or feature value), we compute its susceptibility $\sigma_g^-$ to being a target and its susceptibility $\sigma_g^+$ to newly appearing as the ratio of the number of times it is a target ($s_g^-$) or a new word ($s_g^+$) to the number of times it would be if the process were a random sampling from the available utterances ($s_g^0$):
 
@@ -982,19 +991,11 @@ The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s
 POS tags are from the Universal Dependencies tag set.
 ](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
 
-For the sake of conciseness, we now focus on the four lexical features that showed relevant effects in the previous chapter:
-word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
-Age of acquisition and clustering are identical to the previous chapter;
-word frequency was previously computed from the data set itself, and in the present case the overall data set is much smaller.
-Instead, we relied on external word frequency ratings based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
-These frequencies are provided on what the authors introduce as the Zipf scale, computed as $\log_{10}(\text{Frequency per billion words})$.
-The frequency values thus use a different source than those of the previous chapter, but their final computation only differs by an affine transformation.
-@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities to targeting and appearance.
-The trends for frequency, age of acquisition and clustering are consistent with previous results.
-Low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
+@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities for targeting and appearance.
+The trends for frequency, age of acquisition and clustering are consistent with previous results:
+low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
 Number of letters has a different behaviour than previously, as short words are slightly more targeted than random, beyond the effect for long words.
-It is unclear where this change of effect comes from, as it could be due to factors ranging from analysis tweaks (e.g. an update to the stopword list) to the fact that subjects could be more inclined to replace some words because of a different task context or a different set of utterances.
-All these trends are extremely subtle however (much more than in the blogspace data set), and we do not attempt to explain them any further at this point.
+At this stage it is unclear where this change of effect comes from, as it could be due to the choice of source utterances, or to the fact that subjects could be more inclined to replace some words because of a different task context (the feature variation analysis, further down, gives more insight into this change).
 @Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
 more frequent, lower age of acquisition words are more susceptible to appearance.
 Low clustering and short words appear also more than random, all of which are consistent with the variation patterns observed previously, and which we confirm below.
@@ -1014,9 +1015,13 @@ The plots for frequency, age of acquisition and clustering are strikingly simila
 Here too however, number of letters has a different behaviour than previously:
 instead of a uniform negative bias, $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed:
 both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer to each other.
-In other words, the number of letters of words are better conserved in this data set than in blogspace.
+In other words, word sizes are better conserved in this data set than in blogspace.
 Two factors could have influenced this change of effect:
 first, the alignment procedure favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
+^[The role of synonym replacements could also explain the change of susceptibility for short words observed in @fig:gistr-suscept-delrpl.
+Indeed, separating susceptibility plots for deletions and replacements on the parent side shows that short words have a susceptibility to replacement higher than random (whose effect is seen in the aggregate figure), but not to deletion.
+The behaviour could therefore come from shorter words having more or more frequent synonyms.
+]
 Second, the fact that $\nu_{\phi}^{00}$ changes so much from the its values in the previous chapter indicates that the sampling of source utterances also has a role.
 Recall that in this case  $\nu_{\phi}^{00}$ is the average number of letters of synonyms of words that are replaced:
 $\nu_{\phi}^{00}$ being closer to $y = x$ then indicates that synonyms of words in the current utterances are closer in size to their originals than is the case in the blogspace utterances, a fact that could contribute to the overall better conservation of number of letters.
@@ -1030,18 +1035,7 @@ Refer to @fig:feature-variations-global for the detailed interpretation of the c
 #### Branch evolution
 
 Since these features vary consistently, on average, with each transformation of the utterances, we finally ask if any long-term evolution due to the transformations is observable.
-We therefore plot the evolution of the average features of utterances as a function of branch depth for word frequency, age of acquisition, clustering and number of letters.
-@Fig:gistr-branchevo plots this information both for all utterances and divided into fixed content lengths.
-The evolution of each feature is consistent with its susceptibility to targeting and appearance, and its variation upon replacement.
-Average word frequency significantly increases with depth, both globally and at fixed content length.
-This fits with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
-The reverse is true for age of acquisition, which decreases with depth (albeit significantly for certain content lengths only).
-Clustering and number of letters both decrease also, though clustering shows no clear trend at fixed content lengths and its evolution might therefore be due to utterance shortening.
-It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words wins in the long run:
-average number of letters decreases along the branches, even at fixed content length.
-While the trends are not strong, it is still noteworthy that they are visible at the level of utterance averages:
-in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
-Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
+This question could not be answered in the blogspace data set for lack of detectable chains.
 
 <div id="fig:gistr-branchevo">
 ![Word frequency](images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png)
@@ -1054,3 +1048,16 @@ Through transformations, subjects thus gradually evolve the utterances to use mo
 
 Evolution of average utterance features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution (considering each utterance as an independent measure).
 </div>
+
+We therefore plot the evolution of the average features of utterances as a function of branch depth for word frequency, age of acquisition, clustering and number of letters.
+@Fig:gistr-branchevo plots this information both for all utterances and divided into fixed content lengths.
+The evolution of each feature is consistent with its susceptibility to targeting and appearance, and its variation upon replacement.
+Average word frequency significantly increases with depth, both globally and at fixed content length.
+This fits with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
+The reverse is true for age of acquisition, which decreases with depth (albeit significantly for certain content lengths only).
+Clustering and number of letters both decrease also, though clustering shows no clear trend at fixed content lengths and its evolution might therefore be due to utterance shortening.
+It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words wins in the long run:
+average number of letters decreases along the branches, even at fixed content length.
+While the trends are not strong, it is still noteworthy that they are visible at the level of utterance averages:
+in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
+Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
