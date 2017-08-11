@@ -601,7 +601,7 @@
 <node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1502315414459" TEXT="Smartphone/Web psychology opens a way of collecting big while controlling the framing (e.g. Daydreaming)"/>
 </node>
 </node>
-<node CREATED="1493669627078" ID="ID_677883916" MODIFIED="1493736031935" TEXT="General Methods">
+<node CREATED="1493669627078" FOLDED="true" ID="ID_677883916" MODIFIED="1502460600229" TEXT="General Methods">
 <node COLOR="#ff0000" CREATED="1500752225277" ID="ID_1496990986" MODIFIED="1500752246145" TEXT="Reorganise this outline once the text is settled">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
@@ -677,7 +677,7 @@
 <node CREATED="1493670395149" ID="ID_792099099" MODIFIED="1500552663824" TEXT="Exp 3: From short stories, and Mesoudi case-study"/>
 </node>
 </node>
-<node CREATED="1500364244812" ID="ID_147528875" MODIFIED="1500364246804" TEXT="Analysis">
+<node CREATED="1500364244812" FOLDED="true" ID="ID_147528875" MODIFIED="1502460598357" TEXT="Analysis">
 <node COLOR="#669900" CREATED="1500369246959" FOLDED="true" ID="ID_921327933" MODIFIED="1500933583003" TEXT="Descriptive observations">
 <node CREATED="1500369343891" ID="ID_1550402741" MODIFIED="1500802008038" TEXT="Drastic reduction in lengths"/>
 <node CREATED="1500803762955" ID="ID_835929258" MODIFIED="1500803778586" TEXT="ordered_content distance"/>
@@ -726,41 +726,59 @@
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
 </node>
-<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1502128505094" TEXT="Discussion">
+<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1502460485343" TEXT="Discussion">
 <node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1502131454365" TEXT="Results">
-<node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1500486756762" TEXT="We break down the process into smaller bits, and understand its parts"/>
-<node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1500486673039" TEXT="No obvious convergence, but haven&apos;t looked very deep"/>
+<node CREATED="1502459313609" ID="ID_1551174469" MODIFIED="1502463090494" TEXT="We develop an online experimnt, and by fine-tuning its interface we manage to produce quality data in short cycles and large amounts"/>
+<node CREATED="1502459388741" ID="ID_433584210" MODIFIED="1502463157745" TEXT="Then, applying a biological sequence alignment algorithm, and extending it to account for exchanges, we break down the transformation process into smaller bits"/>
+<node CREATED="1500486734448" ID="ID_23899078" MODIFIED="1502459546337" TEXT="We model those bits, and identify several behaviours in the process: dependence on size, on position, a joint process between different types of transformations, and the correspondence of insertions and deletions"/>
+<node CREATED="1502462486395" ID="ID_1333448081" MODIFIED="1502462561470" TEXT="Hand-inspection indicates it corresponds to what Lauf et al. see: complements, details in general are removed (see hand exploration paper)"/>
+<node CREATED="1502463280229" ID="ID_521518284" MODIFIED="1502463497743" TEXT="Feature analysis also confirms BCP, and is consistent with known effects"/>
+<node CREATED="1502460693762" ID="ID_746531336" MODIFIED="1502460702137" TEXT="Relevance for Sperber">
+<node CREATED="1502460909279" ID="ID_1388648482" MODIFIED="1502462845111" TEXT="We provide a more detailed account of what&apos;s going on in transformations, at an intermediary level between word features and high-level contrasts"/>
+<node CREATED="1502460926789" ID="ID_1205786948" MODIFIED="1502463543115" TEXT="This could be useful to pick apart content and context effects, or provide a stepping point to connect with the cognitive level"/>
+<node CREATED="1500486651292" ID="ID_578189920" MODIFIED="1502463439033" TEXT="We didn&apos;t examine in more detail here as it wasn&apos;t the point, but we also see feature drift which corresponds +/- to replacement attraction and to appearance/disappearance susceptibilities; it&apos;s also stronger for longer utterances, so all the more relevant for long meaningful content"/>
+<node CREATED="1502462395450" ID="ID_1399518721" MODIFIED="1502463574484" TEXT="Apart from that no obvious convergence in the meanings (far from it), but haven&apos;t looked very deep"/>
 </node>
-<node CREATED="1500542573667" ID="ID_1688581920" MODIFIED="1500542612377" TEXT="Caveats on alignment tool">
-<node CREATED="1500542878084" MODIFIED="1500542878084" TEXT="no block replacement (implementable but a lot of work), so I code them as indels"/>
+</node>
+<node CREATED="1502460485295" ID="ID_1023750844" MODIFIED="1502460487399" TEXT="Caveats">
+<node CREATED="1500542573667" ID="ID_1688581920" MODIFIED="1502463746753" TEXT="Alignment procedure">
+<node CREATED="1500542878084" ID="ID_387893442" MODIFIED="1500542878084" TEXT="no block replacement (implementable but a lot of work), so I code them as indels"/>
 <node CREATED="1500542878084" MODIFIED="1500542878084" TEXT="no separation on punctuation: some alignments would benefit from knowing about punctuation, because replacements or indels respect their boundaries; here it does not"/>
 <node CREATED="1500542878086" ID="ID_894010966" MODIFIED="1500542928523" TEXT="a deep alignment is only explored on the basis of the best shallow alignment, which might not be the best basis for a deep alignment (see for instance #49-&gt;#120, the best basis for a further deep alignment may not be the best shallow alignment). I.e., we might fall in local minima. Still, hand-inspection the algorithm often seems to recover from that."/>
 <node CREATED="1500542878088" MODIFIED="1500542878088" TEXT="we could have done bottom up with local alignments (or rematch parts for different levels of subalignments"/>
 </node>
-<node CREATED="1500369134404" ID="ID_1188883805" MODIFIED="1500542617224" TEXT="Caveats on conscientiousness">
-<node CREATED="1495449533348" ID="ID_217329616" MODIFIED="1495449562233" TEXT="The fact that such setup puts the users in a &apos;subject&apos; (vs. active) position"/>
+<node CREATED="1500369134404" ID="ID_1188883805" MODIFIED="1502460496298" TEXT="Conscientiousness">
+<node CREATED="1495449533348" ID="ID_217329616" MODIFIED="1502463761083" TEXT="The fact that the setup puts the users in a &apos;subject&apos; (vs. active) position"/>
 <node CREATED="1495449566297" ID="ID_286148887" MODIFIED="1497789424945" TEXT="The fact that subjects may not be conscentious, but if so they are still inventing stuff that we are interested in (it approximates the wear-and-tear and flop problems discussed by sterelny_cultural_2017)"/>
 <node CREATED="1495451735222" ID="ID_1439735737" MODIFIED="1495451771143" TEXT="But they have only a weak intrinsic incentive (bonus, which they haven&apos;t experimented beforehand) to be accurate"/>
 <node CREATED="1497595812170" ID="ID_1346494212" MODIFIED="1497595812170" TEXT="The rationale for not looking at age and word span effects in gistr was there seemed to be none in the first run. I think the main effect on accuracy, apart from actual operation/sentence span (but that&apos;s hard to separate from the actual gistr task), is conscientiousness. A way around that is to create an endogenous incentive like Claidi&#xe8;re did. But to do that stronger than a simple money bonus (which I did), you need to open the pandora box of interaction, which I didn&apos;t want to open so as to keep the most basic setup possible."/>
 </node>
-<node CREATED="1500369059784" ID="ID_1812231985" MODIFIED="1500542626332" TEXT="Caveats on context">
-<node CREATED="1497789472234" ID="ID_193736451" MODIFIED="1497789525810" TEXT="The fact that there is no context, i.e. no cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
+<node CREATED="1500369059784" ID="ID_1812231985" MODIFIED="1502460500040" TEXT="Context">
+<node CREATED="1497789472234" ID="ID_193736451" MODIFIED="1502463822497" TEXT="The fact that there is no context, i.e. we don&apos;t control the cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
 <node CREATED="1495449712034" ID="ID_1535169286" MODIFIED="1495449747333" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
 <node CREATED="1495898083944" ID="ID_617425290" MODIFIED="1495898268523" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
 <node CREATED="1500544768269" ID="ID_133565159" MODIFIED="1500544784247" TEXT="Embedding and smartphone psychology is a way to go"/>
 </node>
-<node CREATED="1500368904847" ID="ID_1423784145" MODIFIED="1500542621759" TEXT="Caveats on content">
+</node>
+<node CREATED="1502131369398" ID="ID_1508561517" MODIFIED="1502462431233" TEXT="Further questions">
+<node CREATED="1502131394634" ID="ID_1118413737" MODIFIED="1502461050721" TEXT="This is a first real model, but how much does such a surface model (when made optimally) explain"/>
+<node CREATED="1502460385990" ID="ID_1498029717" MODIFIED="1502460403488" TEXT="What would be an endogenous way of measuring that -&gt; meaning, next chapter"/>
+<node CREATED="1502462440877" ID="ID_1468641734" MODIFIED="1502463240217" TEXT="Deeper down">
+<node CREATED="1502462462623" ID="ID_1236839991" MODIFIED="1502463266642" TEXT="We should look at the semantics of what is changed and removed, beyond categorisation &#xe0; la Lauf et al."/>
+<node CREATED="1502462445750" ID="ID_1139022336" MODIFIED="1502462879417" TEXT="We should connect back to the cognitive level: do the changes closely correspond to what is known of sentence changes"/>
+</node>
+<node CREATED="1502460407746" ID="ID_197146136" MODIFIED="1502460563571" TEXT="How context-dependent and loopy is it -&gt; how does it depend on sentence styles, on the task and the interpretation it encourages"/>
+<node CREATED="1502460424065" ID="ID_745067953" MODIFIED="1502460512682" TEXT="This question will open the interaction and context pandora box"/>
+<node CREATED="1500368904847" ID="ID_1423784145" MODIFIED="1502460503274" TEXT="Content">
 <node CREATED="1495449517427" ID="ID_244642587" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
 <node CREATED="1497595869169" ID="ID_196961772" MODIFIED="1500369190801" TEXT="The rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). "/>
 <node CREATED="1495547569285" ID="ID_1569516378" MODIFIED="1500369170514" TEXT="The fact that many results in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006"/>
 <node CREATED="1495613547408" ID="ID_1431175862" MODIFIED="1495613568918" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
 <node CREATED="1495613935136" ID="ID_1594022587" MODIFIED="1495613993839" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
 </node>
-<node CREATED="1502131369398" ID="ID_1508561517" MODIFIED="1502131372915" TEXT="Open questions">
-<node CREATED="1502131394634" ID="ID_1118413737" MODIFIED="1502131415254" TEXT="To what extent does this model exhaust the process"/>
 </node>
 </node>
-<node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1500486643831" TEXT="Attic">
+<node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1502459265825" TEXT="Attic">
 <node CREATED="1496063613136" ID="ID_557548698" MODIFIED="1496063622885" TEXT="Approval by ethical board?"/>
 <node CREATED="1493670170670" ID="ID_1234200292" MODIFIED="1493735463488" TEXT="High-level questions">
 <node CREATED="1493670312549" ID="ID_1968842191" MODIFIED="1493735473925" TEXT="Exp 1: Initially, testing for convergence"/>
