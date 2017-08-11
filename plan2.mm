@@ -580,13 +580,13 @@
 <node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500549265564" TEXT="A model for transformations, that we gradually refine and map out"/>
 </node>
 </node>
-<node CREATED="1493669606965" ID="ID_1998896082" MODIFIED="1502303478548" TEXT="Related Work">
+<node COLOR="#669900" CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1502401482566" TEXT="Related Work">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#669900" CREATED="1502303404416" ID="ID_366332993" MODIFIED="1502386435057" TEXT="There is a ridiculously big catalog of transmission biases">
+<node CREATED="1502303404416" ID="ID_366332993" MODIFIED="1502401480246" TEXT="There is a ridiculously big catalog of transmission biases">
 <node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1502370475467" TEXT="Bartlett mother of all, Bangerter 2000 personification, Bebbington negativity bias, Mesoudi &amp; Whiten hierarchical bias, Mesoudi, Whiten &amp; Dunbar social bias, Counter-intuitiveness (bloodletting Miton, Claidi&#xe8;re, &amp; Mercier, 2015, Norenzayan 2006, Barrett &amp; Nyhof 2001), Acerbi &amp; Tehrani conformity/prestige bias (without transmission)"/>
 <node CREATED="1502314783032" ID="ID_1847518531" MODIFIED="1502314803046" TEXT="These contrast the evolution of categories of content, and see it differs"/>
 </node>
-<node COLOR="#669900" CREATED="1502309372263" ID="ID_1201683955" MODIFIED="1502386437299" TEXT="On the modelling front, it&apos;s more chaotic and little progress has been made">
+<node CREATED="1502309372263" ID="ID_1201683955" MODIFIED="1502401480248" TEXT="On the modelling front, it&apos;s more chaotic and little progress has been made">
 <node CREATED="1494060643996" ID="ID_1554237411" MODIFIED="1502314889631" TEXT="Claidi&#xe8;re &amp; Sperber propose high-level models such as that for smoking, and a framework for looking at cultural evolution through ECM"/>
 <node CREATED="1502309376611" ID="ID_1659222020" MODIFIED="1502314983158" TEXT="Claidiere tetrominos and Iterated Learning (Verhoef et al., Cornish, Smith, and Kirby (2013), Tamariz), by working on well-constrained content (sequences, visual patterns), manage to extract deeper structure in the evolution: types of tetrominos, entropy/combinatoriality/compressibility in sequences"/>
 <node CREATED="1502309387366" ID="ID_1120233987" MODIFIED="1502315129398" TEXT="Moussaid, by making a hand analysis of videos, manages to extract features of what is transmitted without constraining the transmission at all; Lauf Valette &amp; Khouas similarly catalog changes by hand"/>
@@ -594,7 +594,7 @@
 <node CREATED="1502315138877" ID="ID_243607515" MODIFIED="1502369582801" TEXT="So the big challenge is to manage to extract structure from operations on not-too-constrained content, such as what is done for social networks (Granovetter etc.)"/>
 <node CREATED="1502313035102" ID="ID_1720288424" MODIFIED="1502315193600" TEXT="Biological sequence alignment associated to NLP is a way to go there"/>
 </node>
-<node CREATED="1502310191407" ID="ID_171363015" MODIFIED="1502369599612" TEXT="A related question are the data collection strategies">
+<node CREATED="1502310191407" ID="ID_171363015" MODIFIED="1502401480251" TEXT="A related question are the data collection strategies">
 <node CREATED="1502310414889" ID="ID_184105324" MODIFIED="1502315272677" TEXT="Constrained content collection can be large (tetrominos, iterated learning on sequences), as the analysis is automated"/>
 <node CREATED="1502310638626" ID="ID_1820400081" MODIFIED="1502315363918" TEXT="Free form (Moussaid, Lauf) must be smaller as the analysis is by hand"/>
 <node CREATED="1502312495001" ID="ID_1079751607" MODIFIED="1502315383252" TEXT="There is a race to biggest possible in the digital media area (Danescu, Adamic et al. on Facebook, to a lesser extent BCP), but it does not control the framing"/>
