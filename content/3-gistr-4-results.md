@@ -975,26 +975,33 @@ insertions behave as if they were gated by the presence of a deletion, and their
 - branch evolution at fixed content length is stronger for longer utterances, i.e. it's more necessary to simplify}
 
 We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
-In doing so we also aim to validate the results of the previous chapter.
-We thus extend the feature analysis of the previous chapter to our current situation.
-We begin with word susceptibilities, then continue with feature variation upon replacement, and finally show how the accumulation of transformations along the branches leads the lexical makeup of utterances to gradually evolve.
+We thus extend the feature analysis of the previous chapter to our current situation, and verify the consistency of the new results with previous word susceptibility and feature variation measures.
+Finally we extend the analysis to a point we could not reach in the previous data set, by looking at the accumulation of transformations along the branches and the evolution they cause in the lexical makeup of utterances.
 
 
 #### Word features
 
-For the sake of conciseness, we restrict features to the four lexical features that showed relevant effects in the previous chapter:
+For the sake of conciseness, we restrict features to the four lexical variables that showed relevant effects in the previous chapter:
 word frequency, age of acquisition, Free Association clustering and number of letters, thus leaving aside number of synonyms and orthographic neighbourhood density.
-Age of acquisition and clustering are identical to the previous chapter;
-word frequency was previously computed from the data set itself, and in the present case the overall data set is much smaller.
-Instead, we relied on external word frequency ratings based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
+Age of acquisition, clustering and (obviously) number of letters are identical to the previous chapter.
+Word frequency was previously computed from the complete set of online quotations;
+however, since the present data set is much smaller we relied instead on external word frequency ratings based on subtitles [@heuven_subtlex-uk:_2014], a source which has repeatedly beaten previous predictors of standard lexical decision times [see @heuven_subtlex-uk:_2014 for more details].
 These frequencies are provided on what the authors introduce as the Zipf scale, computed as $\log_{10}(\text{Frequency per billion words})$.
 The frequency values thus use a different source than those of the previous chapter, but their final computation only differs by an affine transformation.
 
 The situation is otherwise parallel to previously, and its procedure can be directly applied.
-We measure the susceptibility of words to being the target of an operation (either by deletion or replacement) and to being the new word of an operation (either as replacing word or inserted word) in a similar manner to substitution susceptibility.
+We measure the susceptibility of words to being the target of an operation (either by deletion or replacement) in a similar manner to substitution susceptibility.
+We additionally measure the susceptibility to being the new word of an operation (either as replacing word or inserted word).
 For a given grouping of words $g$ (e.g. grammatical category or feature value), we compute its susceptibility $\sigma_g^-$ to being a target and its susceptibility $\sigma_g^+$ to newly appearing as the ratio of the number of times it is a target ($s_g^-$) or a new word ($s_g^+$) to the number of times it would be if the process were a random sampling from the available utterances ($s_g^0$):
 
 $$\sigma_g^- = \frac{s_g^-}{s_g^0} \quad \text{and} \quad \sigma_g^+ = \frac{s_g^+}{s_g^0}$$
+
+![POS susceptibility to targeting (deletion and replacement on the parent side) and to appearance (insertions and replacement on the child side).
+The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in targeted words ($s_{POS}^-$) and in appearing words ($s_{POS}^+$).
+The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
+95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions, considering each transformation as an independent measure).
+POS tags are from the Universal Dependencies tag set.
+](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
 
 In order to render the results more comparable to the previous chapter, in this section we also filter out stopwords in all the utterances.
 @Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
@@ -1002,23 +1009,7 @@ The two measures are very close to each another, and similarly to the online cas
 adjectives are involved at random, nouns appear slightly less than at random, and verbs slightly more.
 Verbs, nouns and proper nouns are all irrelevant for targeting, but adverbs are targeted very slightly above random.
 The other categories (adpositions, numerals and particles) total negligible amounts because they are affected by the stopword filter.
-Overall, the behaviour for targeting is consistent with what we observed in blogspace (the only difference being the trend for adverbs, which are also less present overall in this data set), and the behaviour for appearances indicates a slight bias in favour of verbs and against nouns (appearance susceptibilities were not analysed in the blogspace data set).
-
-![POS susceptibility to being replaced or deleted, and to replacing or being inserted.
-The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in replaced and deleted words in parent utterances ($s_{POS}^-$) and in replacing and inserted words in child utterances ($s_{POS}^+$).
-The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
-95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions, considering each transformation as an independent measure).
-POS tags are from the Universal Dependencies tag set.
-](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
-
-@Fig:gistr-suscept-feature-delrpl plots the feature susceptibilities for targeting and appearance.
-The trends for frequency, age of acquisition and clustering are consistent with previous results:
-low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
-Number of letters has a different behaviour than previously, as short words are slightly more targeted than random, beyond the effect for long words.
-At this stage it is unclear where this change of effect comes from, as it could be due to the choice of source utterances, or to the fact that subjects could be more inclined to replace some words because of a different task context (the feature variation analysis, further down, gives more insight into this change).
-@Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
-more frequent, lower age of acquisition words are more susceptible to appearance.
-Low clustering and short words appear also more than random, all of which are consistent with the variation patterns observed previously, and which we confirm below.
+Overall, the behaviour for targeting is consistent with what we observed in blogspace (the only difference being the trend for adverbs, which are also less present overall in this data set), and the behaviour for appearances indicates a slight bias in favour of verbs and against nouns (note that appearance susceptibilities were not analysed in the blogspace data set, so we have no point of comparison).
 
 <div id="fig:gistr-suscept-feature">
 ![Susceptibility to targeting
@@ -1030,31 +1021,51 @@ Low clustering and short words appear also more than random, all of which are co
 Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial, considering each transformation as an independent measure).
 </div>
 
-Indeed, the analysis of feature variation can also be directly applied to word replacements (though not to deletions or insertions), and @fig:gistr-variation-rpl shows the results for the current data set.
-The plots for frequency, age of acquisition and clustering are strikingly similar to previous results.
-Here too however, number of letters has a different behaviour than previously:
-instead of a uniform negative bias, $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed:
-both are much closer to word conservation ($y = x$) than previously, and their intersections with $\nu_{\phi}^0$ and between each other are also closer to each other.
-In other words, word sizes are better conserved in this data set than in blogspace.
-Two factors could have influenced this change of effect:
-first, the alignment procedure favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
-^[The role of synonym replacements could also explain the change of susceptibility for short words observed in @fig:gistr-suscept-delrpl.
-Indeed, separating susceptibility plots for deletions and replacements on the parent side shows that short words have a susceptibility to replacement higher than random (whose effect is seen in the aggregate figure), but not to deletion.
-The behaviour could therefore come from shorter words having more or more frequent synonyms.
-]
-Second, the fact that $\nu_{\phi}^{00}$ changes so much from the its values in the previous chapter indicates that the sampling of source utterances also has a role.
-Recall that in this case  $\nu_{\phi}^{00}$ is the average number of letters of synonyms of words that are replaced:
-$\nu_{\phi}^{00}$ being closer to $y = x$ then indicates that synonyms of words in the current utterances are closer in size to their originals than is the case in the blogspace utterances, a fact that could contribute to the overall better conservation of number of letters.
+@Fig:gistr-suscept-feature-delrpl plots the susceptibilities for targeting and appearance for word frequency, age of acquisition, clustering and number of letters.
+The trends for the first three are consistent with previous results:
+low frequency, high age of acquisition words tend to be very slightly more targeted, and clustering is mostly not relevant to the process.
+Number of letters has a different behaviour than previously, as short words are slightly more targeted than random, beyond the effect for long words.
+At this stage it is unclear where this change of effect comes from, as it could be due to the choice of source utterances, or to the fact that subjects could be more inclined to replace some words because of a different task context (the feature variation analysis, further down, gives more insight into this change).
+@Fig:gistr-suscept-feature-insrpl shows the corresponding feature susceptibilities for appearance, where the trends for frequency and age of acquisition are reversed:
+more frequent, lower age of acquisition words are more susceptible to appearance.
+Low clustering and short words appear also more than random.
+
+Note that while we cannot produce variation measures for deletions and insertions (but we do for replacements further down), comparing the targeting and appearance susceptibility curves for each feature gives an idea of the effect of transformations:
+targeting susceptibilities indicate what kinds of words are preferentially picked for transformation, and appearance susceptibilities indicate what kinds of words appear instead (although not necessarily in one-to-one replacement).
+Thus transformations preferentially remove low frequency, high age-of-acquisition words, and preferentially add high frequency, low age-of-acquisition and low clustering words.
+The case of number of letters is interesting, as transformations remove more short words than long words, but also insert more short words than long words;
+however, the difference is stronger for appearance than for targeting, such that the final effect should be in favour of shorter words (a fact we confirm below).
+All these trends are also consistent with the variation patterns observed previously.
 
 ![Feature variation upon replacement.
-$\nu_{\phi}$, average feature word of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
-Refer to @fig:feature-variations-global for the detailed interpretation of the curves.
+$\nu_{\phi}$, average feature value of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
+Refer to @fig:feature-variations-global (\todo{ref to BCP variation figure}) for the detailed interpretation of the curves.
 ](images/gistr-computed/exp_3/feature-variation-rpl.png){#fig:gistr-variation-rpl}
+
+Our previous analysis of feature variation can also be directly applied to word replacements (though not to deletions or insertions), and @fig:gistr-variation-rpl shows the results for the current data set.
+The plots for frequency, age of acquisition and clustering are strikingly similar to previous results.
+The $\mathcal{H}_{00}$ curve ($\nu_{\phi}^{00}$) is slightly changed for high age of acquisition, as it gets much closer to and eventually crosses the first null hypothesis, $\nu_{\phi}^0$.
+The variation curve ($\nu_{\phi}$) shows the same uniform negative bias w.r.t. both null hypotheses, but its attractor point has moved to 6.
+Clustering has changed very little, and the attractor point is at -5.75.
+Here too however, number of letters has a different behaviour than previously:
+$\nu_{\phi}$ and $\nu_{\phi}^{00}$ are substantially changed and do not show the previous uniform negative bias:
+both are much closer to word conservation ($y = x$) than previously, and $\nu_{\phi}$ crosses both  $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$.
+In other words, word sizes are better conserved in this data set than in blogspace.
+Nonetheless, the process still features a slight negative bias with an attractor point close to 5 letters.
+Two factors could have influenced this change of effect:
+first, the alignment procedure favours replacements for closely related synonyms (evaluated by their vector similarity), which could explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
+^[The role of synonym replacements could also explain the change of susceptibility for short words observed in @fig:gistr-suscept-feature-delrpl.
+Indeed, separating susceptibility plots for deletions and replacements on the parent side shows that short words have a susceptibility to replacement higher than random (whose effect is seen in the aggregate figure), but not to deletion.
+The behaviour could therefore come from shorter words having more synonyms, or more frequent synonyms.
+]
+Second, the fact that $\nu_{\phi}^{00}$ changes so much from the its values in the previous chapter indicates that the sampling of source utterances also has a role.
+Recall that in this case  $\nu_{\phi}^{00}$ is the average word length of the synonyms of replaced words:
+$\nu_{\phi}^{00}$ being closer to $y = x$ then indicates that synonyms of words in the current utterances are closer in size to their originals than is the case in the blogspace utterances, a fact that could contribute to the overall better conservation of number of letters.
 
 
 #### Branch evolution
 
-Since these features vary consistently, on average, with each transformation of the utterances, we finally ask if any long-term evolution due to the transformations is observable.
+Beyond the confirmation of previous findings, we are now in a position to observe the evolution of lexical features along the branches, and relate any trends to the step-wise transformations.
 This question could not be answered in the blogspace data set for lack of detectable chains.
 
 <div id="fig:gistr-branchevo">
@@ -1069,15 +1080,18 @@ This question could not be answered in the blogspace data set for lack of detect
 Evolution of average utterance features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution (considering each utterance as an independent measure).
 </div>
 
-We therefore plot the evolution of the average features of utterances as a function of branch depth for word frequency, age of acquisition, clustering and number of letters.
-@Fig:gistr-branchevo plots this information both for all utterances and divided into fixed content lengths.
+@Fig:gistr-branchevo plots the evolution of the average features of utterances as a function of branch depth, both for all utterances and divided into fixed content lengths.
 The evolution of each feature is consistent with its susceptibility to targeting and appearance, and its variation upon replacement.
 Average word frequency significantly increases with depth, both globally and at fixed content length.
-This fits with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
+This is consistent with low frequency words being more susceptible to targeting and high frequency words more susceptible to appearing (@fig:gistr-suscept-feature), as well as with frequency increasing upon replacement (@fig:gistr-variation-rpl).
 The reverse is true for age of acquisition, which decreases with depth (albeit significantly for certain content lengths only).
-Clustering and number of letters both decrease also, though clustering shows no clear trend at fixed content lengths and its evolution might therefore be due to utterance shortening.
-It is worth noting that for number of letters, in spite of a small targeting bias in favour of short words, the much stronger appearance bias in favour of short words wins in the long run:
+Clustering and number of letters both decrease also, though the clustering trends at fixed content lengths are less uniform than for the other features.
+It is worth noting that for number of letters, in spite of the targeting bias in favour of short words, the much stronger appearance bias in favour of short words wins in the long run:
 average number of letters decreases along the branches, even at fixed content length.
-While the trends are not strong, it is still noteworthy that they are visible at the level of utterance averages:
+We also note that the asymptotic values (if we may, after 10 transformations) for each feature do not correspond exactly to the attraction values for replacements;
+this could be due to the fact that deletions and insertions are much more important in magnitude and are likely to change the exact attractor points, or to finer interactions (for instance in semantics) which the averaged variation and susceptibility plots we presented do not capture.
+
+Nonetheless, it is noteworthy that trends consistent with the step-wise behaviours are visible at the level of utterance averages:
 in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
 Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
+We reserve the discussion of this phenomenon for the next section.
