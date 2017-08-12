@@ -6,11 +6,14 @@ For linguistic content in particular, studies using that paradigm now provide a 
 These effects range from the stereotypical personification of objects [@bangerter_transformation_2000], the favouring of negative story aspects [@bebbington_sky_2017] or the increased hierarchical encoding of events [@mesoudi_hierarchical_2004], to biases in favour of social [@mesoudi_bias_2006] or counter-intuitive aspects of stories [@norenzayan_memory_2006;@barrett_spreading_2001].
 Other effects such as the role of emotions in the selection of items to reproduce [@heath_emotional_2001;@eriksson_corpses_2014], or conformity and prestige biases [@acerbi_did_2017] have been studied by focusing on the individual transmission step on which the evolution of content hinges.
 
-Often, such effects are identified by selecting two or more minimally different types content and contrasting the way they evolve in transmission chains (for instance measuring the speed at which they are degraded).
+Often, such effects are identified by selecting two or more minimally different types of content and contrasting the way they evolve in transmission chains (for instance measuring the rate at which they are degraded).
 When a type of content is significantly better transmitted than other types, it signals that a bias is acting on that contrast dimension.
 The technique is useful in the context of selectionist models of culture, as it identifies examples of biases which could create selection pressures for specific cultural types and thus drive cultural evolution.
-In is also relevant to the more recent approach introduced by @claidiere_how_2014, which proposes the use of evolutionary causal matrices to model the change processes which are attraction-based, rather than selection-based.
-However, the method gives little insight into the mechanisms that give rise to such contrasts, their commonalities and differences, what they depend on, and how exactly they can be explained in terms of cognitive and situated processing.
+It is also relevant to the Cultural Attraction framework, which focuses on the aspects of culture for which reconstructive processes are more important than selection.
+For instance, the approach introduced more recently by @claidiere_how_2014 proposes to use evolutionary causal matrices to model such attraction-based processes in cultural evolution, and could gain insight from the trends observed in transmission chains.
+In the terminology of @morin_how_2016, selectionist models focus on how culture survives in spite of wear-and-tear, and cultural attraction focuses on how culture survives in spite of possible flops, where a given item fails to elicit sufficient interest to be recreated at all.
+In theory, both these processes can be observed in transmission chains.
+However, in its current implementation focused on contrasting outcomes, the technique gives little insight into the underlying mechanisms at work, their commonalities and differences, what they depend on, and how exactly they can be explained in terms of cognitive and situated processing.
 
 Indeed, understanding the mechanisms behind transformations in chains, or even only quantitatively describing the details of said transformations, remains very much a challenge.
 This is especially true in the linguistic domain, where the complexity of language hinders most attempts to understand what is going on in a transformation.
@@ -60,7 +63,8 @@ In linguistics, the possibility for large-scale data collection has been success
 creating studies that involve many subjects at the same time is also made much simpler by the online logistics, an advantage that has been used for instance in the study of group conversations [@niculae_conversational_2016].
 More generally, these approaches relax the opposition between small-scale controlled experiments in the laboratory on one side, and analyses of large-scale but passively collected online data on the other side.
 Once the initial development cost is covered, they make it possible to collect relatively large data sets in short cycles, and combine simplified logistics with a level of control similar to that of laboratory experiments.
+
 The second field we rely on creates an opening for the detailed modelling of utterance transformations:
-biological sequence alignment, the sub-field of bioinformatics which attempts to uncover commonalities in sequences of DNA, RNA, or amino acids in proteins from different species, has developed over the last 50 years a range of general algorithms to relate sequences of items.
+biological sequence alignment, the sub-field of bioinformatics which seeks to uncover commonalities in sequences of DNA, RNA, or amino acids in proteins from different species, has developed over the last 50 years a range of general algorithms to relate sequences of items.
 One such algorithm in particular, introduced by @needleman_general_1970, extends the principles of the Levenshtein distance and is particularly well suited to the analysis of linguistic transformations when combined with standard natural language processing methods.
 Inspired by @lauf_analyzing_2013 who use similar tools to prepare their data for manual analysis, we use and extend the Needleman-Wunsch algorithm to reliably extract regularities in the way utterances are transformed through transmission chains.
