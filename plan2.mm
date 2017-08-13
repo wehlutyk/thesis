@@ -547,7 +547,7 @@
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
 <node CREATED="1493653580005" ID="ID_1316511126" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1502315424419" TEXT="Introduction">
+<node CREATED="1493669206627" ID="ID_814065689" MODIFIED="1502587197439" TEXT="Introduction">
 <node CREATED="1502304411984" ID="ID_1330131425" MODIFIED="1502304418417" TEXT="reasons">
 <node CREATED="1502304435946" ID="ID_1025963882" MODIFIED="1502304480150" TEXT="for linguistic content, there are transmission bias studies, iterated learning, and online such as BCP"/>
 <node CREATED="1502304487282" ID="ID_1624503362" MODIFIED="1502304536226" TEXT="transmission bias is very high level, iterated learning is on artificial content, and online is very low level because of missing information"/>
@@ -726,21 +726,7 @@
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
 </node>
-<node CREATED="1493670279014" ID="ID_1275305847" MODIFIED="1502460485343" TEXT="Discussion">
-<node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1502131454365" TEXT="Results">
-<node COLOR="#669900" CREATED="1502459313609" ID="ID_1551174469" MODIFIED="1502489860561" TEXT="We develop an online experimnt, and by fine-tuning its interface we manage to produce quality data in short cycles and large amounts"/>
-<node COLOR="#669900" CREATED="1502459388741" ID="ID_433584210" MODIFIED="1502489860557" TEXT="Then, applying a biological sequence alignment algorithm, and extending it to account for exchanges, we break down the transformation process into smaller bits"/>
-<node COLOR="#669900" CREATED="1500486734448" ID="ID_23899078" MODIFIED="1502489860552" TEXT="We model those bits, and identify several behaviours in the process: dependence on size, on position, a joint process between different types of transformations, and the correspondence of insertions and deletions"/>
-<node COLOR="#669900" CREATED="1502463280229" ID="ID_521518284" MODIFIED="1502489860536" TEXT="Feature analysis also confirms BCP, and is consistent with known effects"/>
-<node COLOR="#669900" CREATED="1500486651292" ID="ID_578189920" MODIFIED="1502491100274" TEXT="We also see feature drift which corresponds +/- to replacement attraction and to appearance/disappearance susceptibilities"/>
-<node CREATED="1502491073761" ID="ID_1369110412" MODIFIED="1502491078973" TEXT="It&apos;s also stronger for longer utterances, so all the more relevant for long meaningful content"/>
-<node CREATED="1502462395450" ID="ID_1399518721" MODIFIED="1502463574484" TEXT="Apart from that no obvious convergence in the meanings (far from it), but haven&apos;t looked very deep"/>
-<node COLOR="#669900" CREATED="1502462486395" ID="ID_1333448081" MODIFIED="1502489860547" TEXT="Hand-inspection indicates it corresponds to what Lauf et al. see: complements, details in general are removed (see hand exploration paper)"/>
-<node COLOR="#669900" CREATED="1502460693762" ID="ID_746531336" MODIFIED="1502491112553" TEXT="Relevance for Sperber">
-<node CREATED="1502460909279" ID="ID_1388648482" MODIFIED="1502491114465" TEXT="We provide a more detailed account of what&apos;s going on in transformations, at an intermediary level between word features and high-level contrasts"/>
-<node CREATED="1502460926789" ID="ID_1205786948" MODIFIED="1502491114462" TEXT="This could be useful to understand Wear-and-Tear and Flop"/>
-</node>
-</node>
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1502587190808" TEXT="Discussion">
 <node CREATED="1502460485295" ID="ID_1023750844" MODIFIED="1502460487399" TEXT="Caveats">
 <node COLOR="#669900" CREATED="1500542573667" ID="ID_1688581920" MODIFIED="1502493735533" TEXT="Alignment procedure">
 <node CREATED="1500542878084" ID="ID_387893442" MODIFIED="1500542878084" TEXT="no block replacement (implementable but a lot of work), so I code them as indels"/>
@@ -758,8 +744,22 @@
 <node COLOR="#669900" CREATED="1497789472234" ID="ID_193736451" MODIFIED="1502497221454" TEXT="The fact that there is no context, i.e. we don&apos;t control the cognitive niche in which the intepretation takes place (that sterelny_cultural_2017 refers to), so it misrepresents things a little"/>
 <node COLOR="#669900" CREATED="1495449712034" ID="ID_1535169286" MODIFIED="1502497225127" TEXT="The fact that context is completely ignored in the analysis and experimental setup"/>
 <node COLOR="#669900" CREATED="1502476234972" ID="ID_1477723218" MODIFIED="1502497230648" TEXT="The fact that some trees bleed into the others"/>
-<node COLOR="#ff0000" CREATED="1495898083944" ID="ID_617425290" MODIFIED="1502503660616" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
+<node CREATED="1495898083944" ID="ID_617425290" MODIFIED="1502587129356" TEXT="The divergence across branches is a sign of the importance of context, since if the process were only a result of cognitive biases there would be convergent evolution (see the second objective of fay_interactive_2010, p. 359)"/>
 <node CREATED="1500544768269" ID="ID_133565159" MODIFIED="1500544784247" TEXT="Embedding and smartphone psychology is a way to go"/>
+</node>
+</node>
+<node CREATED="1500486762367" ID="ID_1234441563" MODIFIED="1502131454365" TEXT="Results">
+<node COLOR="#669900" CREATED="1502459313609" ID="ID_1551174469" MODIFIED="1502489860561" TEXT="We develop an online experimnt, and by fine-tuning its interface we manage to produce quality data in short cycles and large amounts"/>
+<node COLOR="#669900" CREATED="1502459388741" ID="ID_433584210" MODIFIED="1502489860557" TEXT="Then, applying a biological sequence alignment algorithm, and extending it to account for exchanges, we break down the transformation process into smaller bits"/>
+<node COLOR="#669900" CREATED="1500486734448" ID="ID_23899078" MODIFIED="1502489860552" TEXT="We model those bits, and identify several behaviours in the process: dependence on size, on position, a joint process between different types of transformations, and the correspondence of insertions and deletions"/>
+<node COLOR="#669900" CREATED="1502463280229" ID="ID_521518284" MODIFIED="1502489860536" TEXT="Feature analysis also confirms BCP, and is consistent with known effects"/>
+<node COLOR="#669900" CREATED="1500486651292" ID="ID_578189920" MODIFIED="1502491100274" TEXT="We also see feature drift which corresponds +/- to replacement attraction and to appearance/disappearance susceptibilities"/>
+<node CREATED="1502491073761" ID="ID_1369110412" MODIFIED="1502491078973" TEXT="It&apos;s also stronger for longer utterances, so all the more relevant for long meaningful content"/>
+<node CREATED="1502462395450" ID="ID_1399518721" MODIFIED="1502463574484" TEXT="Apart from that no obvious convergence in the meanings (far from it), but haven&apos;t looked very deep"/>
+<node COLOR="#669900" CREATED="1502462486395" ID="ID_1333448081" MODIFIED="1502489860547" TEXT="Hand-inspection indicates it corresponds to what Lauf et al. see: complements, details in general are removed (see hand exploration paper)"/>
+<node COLOR="#669900" CREATED="1502460693762" ID="ID_746531336" MODIFIED="1502491112553" TEXT="Relevance for Sperber">
+<node CREATED="1502460909279" ID="ID_1388648482" MODIFIED="1502491114465" TEXT="We provide a more detailed account of what&apos;s going on in transformations, at an intermediary level between word features and high-level contrasts"/>
+<node CREATED="1502460926789" ID="ID_1205786948" MODIFIED="1502491114462" TEXT="This could be useful to understand Wear-and-Tear and Flop"/>
 </node>
 </node>
 <node CREATED="1502131369398" ID="ID_1508561517" MODIFIED="1502462431233" TEXT="Further questions">
@@ -773,14 +773,14 @@
 <node COLOR="#669900" CREATED="1502460424065" ID="ID_745067953" MODIFIED="1502504646910" TEXT="This question will open the interaction and context pandora box"/>
 <node CREATED="1500368904847" ID="ID_1423784145" MODIFIED="1502460503274" TEXT="Content">
 <node CREATED="1495449517427" ID="ID_244642587" MODIFIED="1495449641013" TEXT="The fact that analysing meaning quantitatively is difficult, and we haven&apos;t made much progress on this since Bartlett"/>
-<node COLOR="#ff0000" CREATED="1497595869169" ID="ID_196961772" MODIFIED="1502504665884" TEXT="The rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). ">
+<node CREATED="1497595869169" ID="ID_196961772" MODIFIED="1502587136328" TEXT="The rationale for gistr is to look at the evolution of content. And what that taught me is that for that you need a positive and operational account of content, and whichever your theory (RT or Enactive), for that you must open the interaction box. You also need that even just to properly define at which level you look at your content, and so at what level you look for attractors. Note that this is maybe not that far from what Sperber expected, since his view of meaning is use, and his view of representations is Millikan&apos;s, which is a context-bound representation (?). ">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#999999" CREATED="1495547569285" ID="ID_1569516378" MODIFIED="1502504145805" TEXT="The fact that many results in this literature are weak or not confirmed: e.g. eriksson_corpses_2014 noting (p. 22) that they don&apos;t reproduce mesoudi_bias_2006">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
-<node COLOR="#ff0000" CREATED="1495613547408" ID="ID_1431175862" MODIFIED="1502503663017" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
-<node COLOR="#ff0000" CREATED="1495613935136" ID="ID_1594022587" MODIFIED="1502504027034" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
+<node CREATED="1495613547408" ID="ID_1431175862" MODIFIED="1502587147879" TEXT="The path dependence discussed by mcgraw_culture_2014, pp. 8-9"/>
+<node CREATED="1495613935136" ID="ID_1594022587" MODIFIED="1502587149730" TEXT="The fact that attraction could be defined for any dimension: e.g. for mcgraw_culture_2014, there&apos;s no attraction in that path dependence is huge, but all participants still made cars, and that could be seen as an attractor"/>
 </node>
 </node>
 </node>
@@ -793,7 +793,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1501598470875" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1502587195936" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
