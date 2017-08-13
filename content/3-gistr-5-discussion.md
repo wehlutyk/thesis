@@ -91,6 +91,8 @@ Indeed, it later went through a long regularisation such that the final utteranc
 Examining the transformations in the branch suggested that the small typographical error rendered its surroundings ("non existent ... about a bomber") confusing and irrelevant, such that "new" was finally integrated as part of the "Kings Cross" proper noun instead.
 This behaviour is not frequent, as many times typographical errors are corrected by subsequent transformations, but it appears to be possible whenever an ambiguity is created or enhanced (not only through typographical errors).
 
+\todo{unpack some of the discussion points and suggestions below}
+
 Other intriguing semantic effects were observed.
 In one case for instance, small changes that accumulated in different parts of an utterance ended up combining into a larger semantic change, because the relationship between parts of the utterance had eventually changed.
 More broadly, tackling the question of semantic attraction (or more simply semantic transformations) could require the definition of semantic levels at which the transformations should be examined.
