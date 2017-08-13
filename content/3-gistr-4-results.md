@@ -968,12 +968,6 @@ insertions behave as if they were gated by the presence of a deletion, and their
 
 ### Lexical feature makeup
 
-\todo{There is space for improvement in this last discussion.
-- detailed correspondence with BCP graphs
-- comparison of appearance and targeting susceptibilities, which is what really counts (not absolute values)
-- relate replacement convergence points to branch evolution limits
-- branch evolution at fixed content length is stronger for longer utterances, i.e. it's more necessary to simplify}
-
 We finally descend to the lower level of lexical word features to characterise the words involved in insertions, deletions and replacements.
 We thus extend the feature analysis of the previous chapter to our current situation, and verify the consistency of the new results with previous word susceptibility and feature variation measures.
 Finally we extend the analysis to a point we could not reach in the previous data set, by looking at the accumulation of transformations along the branches and the evolution they cause in the lexical makeup of utterances.
