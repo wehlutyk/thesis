@@ -546,8 +546,8 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" ID="ID_1316511126" MODIFIED="1498240554169" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" ID="ID_814065689" MODIFIED="1502587197439" TEXT="Introduction">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_1316511126" MODIFIED="1503061702685" POSITION="right" TEXT="Gistr">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1502998983451" TEXT="Introduction">
 <node CREATED="1502304411984" ID="ID_1330131425" MODIFIED="1502304418417" TEXT="reasons">
 <node CREATED="1502304435946" ID="ID_1025963882" MODIFIED="1502304480150" TEXT="for linguistic content, there are transmission bias studies, iterated learning, and online such as BCP"/>
 <node CREATED="1502304487282" ID="ID_1624503362" MODIFIED="1502304536226" TEXT="transmission bias is very high level, iterated learning is on artificial content, and online is very low level because of missing information"/>
@@ -793,7 +793,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493654137848" FOLDED="true" ID="ID_1808416012" MODIFIED="1502587195936" POSITION="right" TEXT="Revisiting problems and contributions">
+<node CREATED="1493654137848" ID="ID_1808416012" MODIFIED="1502998984876" POSITION="right" TEXT="Revisiting problems and contributions">
 <node COLOR="#ff0000" CREATED="1493671839179" ID="ID_1238430561" MODIFIED="1493721066670" TEXT="Added value">
 <node CREATED="1493709245536" ID="ID_1764838917" MODIFIED="1493709287044" TEXT="1) Experiments can still bring a whole lot (everybody agrees on that)"/>
 <node CREATED="1493709548787" ID="ID_1914652251" MODIFIED="1493709713921" TEXT="2) But they skirt around the problem of content"/>
