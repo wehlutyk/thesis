@@ -21,6 +21,7 @@ author: |
 documentclass: book
 # Numbering comes from pandoc itself (not pandoc-crossref)
 numbersections: True
+secnumdepth: 2
 lang: en-GB
 geometry: a4paper
 mainfont: TeX Gyre Pagella
@@ -49,16 +50,40 @@ header-includes:
   - \newcommand{\cn}{\textsuperscript{\tb{[Citation needed]}}}
   - \newcommand{\cns}{\textsuperscript{\tb{[Multiple citations needed]}}}
   - \newcommand{\rn}{\textsuperscript{\tb{[Internal reference needed]}}}
+  # Formatting in monospace, with verbatim spaces, but with colors
+  - \usepackage{alltt}
+  # Tables
+  - \usepackage{booktabs}
+  - \usepackage{multirow}
+  # Numbered quotes
+  - \setlength{\leftmargini}{3em}
+  - \newsavebox\nquotebox
+  - |
+    \newenvironment{nquote}
+      {\begin{equation}
+       \begin{lrbox}{\nquotebox}
+       \begin{minipage}{\dimexpr\columnwidth-2\leftmargini}
+       \setlength{\leftmargini}{0pt}%
+       \begin{quote}}
+      {\end{quote}
+       \end{minipage}
+       \end{lrbox}\makebox[0pt]{\usebox{\nquotebox}}
+       \end{equation}}
   # Mathematics
   - \usepackage{bm}
+  - \usepackage{dsfont}
+  - \usepackage[chapter]{algorithm}
+  - \usepackage{algpseudocode}
+  - \usepackage{xfrac}
   # Format numbers
   - \usepackage[group-separator={,}]{siunitx}
   # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
   - \PassOptionsToPackage{capitalise}{cleveref}
   # Scale svg figures
   - \usepackage{calc}
-  # Brains Copy Paste images
-  #- \graphicspath{{images/brainscopypaste/}}
+  # Images
+  - \graphicspath{{images/brainscopypaste/}{images/gistr/}}
+  - \usepackage{svg}
   # Brains Copy Paste start/arrival words
   - \newcommand{\warrival}{w'}
   - \newcommand{\wstart}{w}
