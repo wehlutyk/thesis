@@ -47,13 +47,19 @@ These analyses were made at the cost of several trade-offs.
 Transformations in the online data set were restricted to single-word replacements so that we could infer missing source-destination links between quotations, and lack of data meant that no analysis could made of the context surrounding the quotations.
 The transmission chain experiments were led with an extremely (though intentionally, as a first step) simple read-and-rewrite task, which also did not open the analysis to the role of context in transformations and overall evolution of content.
 Nonetheless, these studies demonstrate that it is possible to decompose the transformations of utterances into combinations of smaller operations, and fully connect the behaviour of those operations with known effects in psycholinguistics, be it online (with a partial view of the process) or in controlled transmission chains (with a full view of the transformations).
+They further suggest that, due to cognitive biases in the way utterances and words are recalled, the evolution of short utterances like quotations could be subject to an attractor at the lexical level, making the words of utterances gradually easier to recall on top of other changes in the actual content conveyed.
 
 
 ### Challenges
+
+However, these studies do not tell us the way utterances evolve semantically.
+Indeed, apart from the comparison of individual words for scoring matched and mismatched pairs in utterance alignments (an arguably simplistic approach to word comparison), none of the analyses we put forward have a grip on the meaning of the utterances, and much less on the change in meaning upon transformation.
+While it is noteworthy that it was still possible to extract reliable decompositions of the transformations without such information (as the manual evaluation of alignments attests), these analyses are blind to changes in the content circulated by the utterances.
+
+
 what limits progress, from examples blending into theory
 
-- no grip on meaning
-- examples of meaning change in Gistr
+- examples of meaning change in Gistr, with interpretations depending on context
 - example on twitter
 - under-specified convergence problem
 - divides into: content problem, context problem, dynamics problem
