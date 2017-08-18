@@ -26,12 +26,27 @@ Finally, we present possibilities for refining and advancing the debate through 
 
 
 ### Synthesis of results
-path taken
 
-- initial question: empirical attractors in language
-- approaches taken: MT, Gistr
-- trade-offs in the process: simplification, engineering, no context
-- results: consistent with convergence, detailed model providing first bridge between lower and higher levels
+The path we took so far has consisted in entirely adopting the cultural attraction paradigm and developing experiments to evaluate one of its strong hypotheses, namely the existence of attractors in the evolution of representations.
+Indeed, cultural attractors are in many ways a cornerstone for the theory, as they reflect its explanation of the stability of culture in spite of strong micro-level transformations (they are the product of ecological and psychological factors interacting with each another), and they provide intelligibility into the complexity of cultural change as a whole.
+Linguistic utterances appeared as a good proxy to study representations that are part of everyday life and for which large corpora are readily available.
+Language is also one of the most versatile means by which representations circulate, making linguistic utterances an important study-case for the theory.
+
+Our initial high-level question was thus whether attraction could be observed in the evolution of linguistic utterances as they are interpreted and produced anew by successive people.
+The first case-study we developed relied on online quotations, a type of representation for which an implicit rule mandates perfect copy, yet which often changes as it propagates across blogs and news outlets.
+Our investigation of single-word replacements showed that, when transformed, words are reliably replaced by words easier to produce.
+Evaluated on standard lexical features, individual word replacements showed an attraction pattern specific to each feature and consistent with the hypothesis of an attractor at the lexical level, which could be due to cognitive biases in word production.
+Our second case-study explored utterance transformations in a more controlled situation, by setting up artificial transmission chains of short utterances on an online platform.
+Here, the analysis first focused on developing a descriptive model that would provide an overview of transformations decomposed into more basic operations.
+The transformation process was shown to have several regularities:
+operations strongly depend on each other (in particular, insertions appear to make up for some of the deletions, while still introducing substantial change), and also depend on the length of, and their position in, the utterance.
+The behaviour of insertion and deletion chunks, as well as replacements, was shown to be consistent with the biases identified in individual replacements in online quotations.
+The susceptibilities for being targeted by deletion or replacement, and appearing by insertion or replacement, closely complemented each other in accordance with the hypothesis of an attractor at the lexical level, and the overall evolution of the lexical makeup of utterances reflected those biases by drifting in a specific direction on each lexical feature (corresponding to better recall).
+
+These analyses were made at the cost of several trade-offs.
+Transformations in the online data set were restricted to single-word replacements so that we could infer missing source-destination links between quotations, and lack of data meant that no analysis could made of the context surrounding the quotations.
+The transmission chain experiments were led with an extremely (though intentionally, as a first step) simple read-and-rewrite task, which also did not open the analysis to the role of context in transformations and overall evolution of content.
+Nonetheless, these studies demonstrate that it is possible to decompose the transformations of utterances into combinations of smaller operations, and fully connect the behaviour of those operations with known effects in psycholinguistics, be it online (with a partial view of the process) or in controlled transmission chains (with a full view of the transformations).
 
 
 ### Challenges
