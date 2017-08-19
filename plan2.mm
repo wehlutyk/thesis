@@ -839,7 +839,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493717779005" ID="ID_1984119433" MODIFIED="1493736031951" TEXT="In my work">
 <node CREATED="1493657060913" ID="ID_398917637" MODIFIED="1493717799258" TEXT="Surfaces as the meaning/interpretation problem">
-<node CREATED="1497602191674" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
+<node CREATED="1497602191674" ID="ID_1836795607" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
 </node>
 <node CREATED="1493575674274" ID="ID_193169863" MODIFIED="1493717868154" TEXT="And leads to an under-specified CV problem">
 <font NAME="SansSerif" SIZE="12"/>
@@ -873,6 +873,8 @@
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
+<node CREATED="1503093952984" ID="ID_943727224" MODIFIED="1503093981541" TEXT="Camille&apos;s idea of categorised meanings with hand-coded classes"/>
+<node CREATED="1503163591023" ID="ID_1849359238" MODIFIED="1503163601267" TEXT="Fully-controlled games where interpretation is induced"/>
 <node CREATED="1494337382908" ID="ID_1162664349" MODIFIED="1494337456584" TEXT="See Gibson&apos;s remark on headrest opening the experimental study of vision, but not being all of it (The Ecological Approach..., 1979: xv)"/>
 <node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494095753024" TEXT="What else should be done to operationlise in a long-term project? How do we turn these philosophical questions into empirical questions?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1496245286249" TEXT="Sharing tools to empower, developing Smartphone psychology"/>
