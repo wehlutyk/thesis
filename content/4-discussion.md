@@ -98,7 +98,7 @@ Looking at the leaves of the seven branches this tree contains, 4 of them mainta
 #### Minor operations can create an ambiguity triggering larger changes
 
 As we discussed at the end of the previous chapter, minor changes can also lead to larger downstream consequences in surface representation (as well as in meaning).
-A second example of typographical error can be seen with the following sub-chain in Experiment 3:
+A second example of typographical error can be seen with the following sub-chain in Experiment 3 (putting aside the UK/US spelling change, "canceled" $\rightarrow$ "cancelled"):
 
 \begin{nquote} % 8#1376
   "The charge of embezzlement against the artillery has been canceled."
@@ -110,7 +110,7 @@ A second example of typographical error can be seen with the following sub-chain
   "The charge of embezzlement again, the charge has gone."
 \end{nquote}
 
-In this case, the "against" $\rightarrow$ "again" replacement operated in the first transformation leads the following subject to interpret the sentence quite differently, making an even larger change.
+In this case, the "against" $\rightarrow$ "again" replacement operated in the first transformation leads the following subject to interpret the sentence quite differently, making an larger change.
 This behaviour is far from systematic, as many times such small errors are corrected by later subjects.
 Consider for instance the following error made by a subject in Experiment 2:
 
@@ -121,13 +121,13 @@ Consider for instance the following error made by a subject in Experiment 2:
   "At least when they say they are going to have a war, they keep \textbf{there} word."
 \end{nquote}
 
-The "their" $\rightarrow$ "there" replacement is maintained by the next subject, but then reverted by the one after that, thus coming back to the original sentence.
+The "their" $\rightarrow$ "there" replacement is maintained by the next subject, but then reverted by the one after that, thus coming back to the original sentence (aside from the change in contraction, "they're" $\rightarrow$ "they are").
 
 
 #### Weak and strong pragmatics
 
-The examples above, and the variability that is observed in the type of transformations they illustrate, testify to the fact that different subjects can interpret the same utterance in strongly divergent ways.
-Subjects do not only differ on their performance in accurately reproducing the utterances presented, their productions also signal that different meanings are interpreted from the same root utterance (such differences accumulate, as was illustrated by the divergence of branches observed in the previous chapter).
+The examples above, and the variability they illustrate, testify to the fact that different subjects can interpret the same utterance in strongly divergent ways.
+Subjects do not only differ on their performance in accurately reproducing the utterances presented, their productions also signal that different meanings can be constructed from the same root utterance (such differences accumulate, as was illustrated by the divergence of branches observed in the previous chapter).
 Part of this observation is commonplace, as the meaning of an utterance depends in obvious ways on the context in which it is produced or read, such as when deictics are used (words such as "today" or "here", which are context-bound by nature).
 However, most isolated utterances are under-specified in a way that makes them much more dependent on the context and on the interaction they appear in then what deictics suggest.
 
@@ -145,8 +145,8 @@ To fully understand the utterances however, much more information on the interac
 one must know that the utterances, extracted from the 1997 movie "Devil's Advocate", are pronounced by a lawyer defending his client, a sexual abuser, while accusingly questionning Barbara, a victim of the abuser and witness in his trial.
 
 This example illustrates what @scott-phillips_pragmatics_2017 calls *strong* pragmatics.
-Contrary to *weak* pragmatics, which construes the context-dependence of meaning as a layer to be added on top of semantics, syntax, morphology, phonology and phonetics (an approach that could result from a focus on deictics), strong pragmatics refers to the fact that all communication fundamentally depends on social cognition, which cuts through the other layers of linguistic analysis such as semantics and syntax.
-Indeed, what is communicated through the utterances discussed above, and could be rephrased as "tell me this thing I already know but that the audience does not", could have been conveyed through an entirely different set of sentences (that is different semantics, syntax, morphology, and so on) because it depends above all on the social cognition situation that participants find themselves in.
+Contrary to *weak* pragmatics, which construes the context-dependence of meaning as a layer to be added on top of semantics, syntax, morphology, phonology and phonetics (an approach that could result from an exclusive focus on deictics), strong pragmatics refers to the fact that all communication fundamentally depends on social cognition, which cuts through the other layers of linguistic analysis such as semantics and syntax.
+Indeed, what is communicated through the utterances discussed above, which can be rephrased as "tell me this thing I already know but that the audience does not", could have been conveyed through an entirely different set of sentences (that is different semantics, syntax, morphology, and so on) because it depends above all on the social cognition situation that participants find themselves in.
 
 Examples of this phenomenon abund, and are not restricted to face-to-face interactions as depicted by films:
 no matter the type of mediation, any interaction is likely to feature strong pragmatics.
@@ -158,13 +158,13 @@ The short conversation reproduced below, for instance, illustrates the fact that
 It starts with the following tweet:
 
 \begin{nquote}
-  "We are all good-looking and ugly in someone else's eyes"
+  "We are all good-looking and ugly to someone else's eyes"
 \end{nquote}
 
 This utterance seems a priori neutral, and is commonplace and consensual enough for it to be marked as favorite, retweeted and published anew regularly.
 ^[A simple search on Twitter using the original text in French shows that the utterance appears about once a month, with most instances retweeted several times.
 ]
-But as illustrated by the following tweets, the actual meaning exchanged in the conversation is not available to the non-interacting reader.
+But as illustrated by the answers following it, the actual meaning exchanged in the conversation is not available to the non-interacting reader.
 A first answer is made in a humourous tone:
 
 \begin{nquote}
@@ -179,18 +179,32 @@ Then, two replies later, the conversation ends:
 
 Even after five replies, we cannot determine whether the meaning exchanged is about sexism and rejection, or simply a flimsy joke without consequence;
 yet when taken as cultural tokens, these two representations are diametrically opposed to each other.
-With no further information about the relationship between the participants, their past interactins or common history, and in spite of the conversation being entirely public, we cannot determine what the exchange is fundamentally about, or even decide what the initial tweet means to one or the other participant.
+With no further information about the relationship between the participants, their past interactions or common history, and in spite of the conversation being entirely public, we cannot determine what the exchange is fundamentally about, or even decide what the initial tweet means to one participant or the other.
 
 
 #### Problem summary
 
 Let us now return to our initial question, namely the identification of attractors in the evolution of linguistic content.
+As might be clear by now, this goal is challenging in at least three new and related ways.
+First, the importance of strong pragmatics renders it much more difficult to collect all the necessary data to understand the meaning that a subject attributes to an utterance, or what is exchanged in an interaction.
+Indeed, it is often necessary to rely on detailed information about the interaction situation to understand that meaning.
+Leaving aside the theoretical and technical apparatus that would be required to quantitatively analyse such data, the situations in which an experimenter can have access to the whole interactive situation, and thus have access to meanings exchanged (i.e. determine the content of the representations that circulate), are extremely rare.
+In most cases, an experiment only gives access to artefacts that are part of a broader cycle of meaning-creation.
 
-- note that we did transmission, not reactions to
+Second, even when the interactive situation is available to observation, the meaning of an utterance is not reducible to a simple object, and remains a multi-dimensional (and in particular multi-scale) target.
+Coming back once again to utterance \ref{u:party} with its surrounding context, what aspect of the meaning should one focus on when examining its evolution to identify attractors?
+The presence of a request to publicise private information, the implication that Barbara is lying or holding back such information, the lower-level structure of the question?
+In other words, the goal of identifying attractors in the evolution of meaningful utterances is, at least in our current formulation, under-specified.
+Of course, this problem is not new, and might even not be a theoretical problem for Cultural Attraction Theory:
+behind the multi-dimensionality of meaning is the fact that culture itself is a continuous and multi-dimensional phenomenon, difficult to characterise in simple mathematical terms.
+CAT works around this problem, as Sperber insists that it should not aim for a "grand unitary theory", and should rather generate useful domain-specific questions that depend on the matter at hand [@sperber_explaining_1996 pp. 61, 83].
+Thus the empirical decision of which meaning level to focus on must be resolved by appealing to the importance of each level as individually observed.
 
-- analysis of pragmatics, that is situation and interaction
-- under-specified convergence problem: What level do you choose to look at -- Maybe a consequence of not wanting a GUT, but that doesn't bring theory then
-- divides into: content problem, context problem, dynamics problem
+Finally, a more important theoretical challenge comes from the fact that strong pragmatics puts an important part of the responsibility for meaning, that is for the content of a linguistic representation, in the interactive situation itself.
+If the meaning of an utterance is determined in great part by the interaction it features in, and if that meaning corresponds to the content of the linguistic representations whose epidemiology we wish to study, then how is it possible to identify two representations from different situations as being the same (or being close to each other)?
+To make progress in the epidemiology of meaning-bearing utterances, an approach to strong pragmatics must thus be able to relate meanings that come from different interactive situations, to some extent at least.
+Indeed, evaluating the evolution of representations requires us to be able to identify, if not the path taken by specific strands of representations which inherit from each other, at least the overall trajectory of a population of representations in a common space.
+As a consequence, an approach to pragmatics must provide a way to declare meanings different, or identical, or evaluate the extent to which they differ, across situations (without which evolution can only be observed inside fixed interactive situations).
 
 
 ## No theory of content
@@ -206,6 +220,7 @@ The problems of meaning: hard problem of content
 expose the theoretical problem, and contenders: RT/Millikan and enactivism
 
 - inside the representational approach, the problem is 1) the content of representations (Millikan), 2) how communication infers the content (RT)
+- in theory this opens the door for context, although in practice context comes back in kicks you in the back, as there is no concrete way of doing it
 - inside enactivism, you start with some content, but you need a way to arrive to structure communication and fleshing out the details
 
 

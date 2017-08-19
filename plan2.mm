@@ -874,7 +874,8 @@
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
 <node CREATED="1503093952984" ID="ID_943727224" MODIFIED="1503093981541" TEXT="Camille&apos;s idea of categorised meanings with hand-coded classes"/>
-<node CREATED="1503163591023" ID="ID_1849359238" MODIFIED="1503163601267" TEXT="Fully-controlled games where interpretation is induced"/>
+<node CREATED="1503163591023" ID="ID_1849359238" MODIFIED="1503168925929" TEXT="Fully-controlled games where interpretation is induced"/>
+<node CREATED="1503168926481" ID="ID_1781374548" MODIFIED="1503168937709" TEXT="Fully-measured situations, for instance Deb Roy"/>
 <node CREATED="1494337382908" ID="ID_1162664349" MODIFIED="1494337456584" TEXT="See Gibson&apos;s remark on headrest opening the experimental study of vision, but not being all of it (The Ecological Approach..., 1979: xv)"/>
 <node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494095753024" TEXT="What else should be done to operationlise in a long-term project? How do we turn these philosophical questions into empirical questions?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1496245286249" TEXT="Sharing tools to empower, developing Smartphone psychology"/>
