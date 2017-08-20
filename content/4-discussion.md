@@ -142,10 +142,10 @@ The sentence is originally extracted from a movie script, and in this case the s
 
 With this minimal context, it is now clear that the speaker was not at the party, but is asking Barbara to tell him or her something he or she already knows.
 To fully understand the utterances however, much more information on the interaction is needed:
-one must know that the utterances, extracted from the 1997 movie "Devil's Advocate", are pronounced by a lawyer defending his client, a sexual abuser, while accusingly questionning Barbara, a victim of the abuser and witness in his trial.
+one must know that the utterances, extracted from the 1997 movie "The Devil's Advocate", are pronounced by a lawyer defending his client, a sexual abuser, while accusingly questionning Barbara, a victim of the abuser and witness in his trial.
 
 This example illustrates what @scott-phillips_pragmatics_2017 calls *strong* pragmatics.
-Contrary to *weak* pragmatics, which construes the context-dependence of meaning as a layer to be added on top of semantics, syntax, morphology, phonology and phonetics (an approach that could result from an exclusive focus on deictics), strong pragmatics refers to the fact that all communication fundamentally depends on social cognition, which cuts through the other layers of linguistic analysis such as semantics and syntax.
+Contrary to *weak* pragmatics, which construes the context-dependence of meaning as a layer to be added on top of semantics, syntax, morphology, phonology and phonetics, strong pragmatics refers to the fact that all communication fundamentally depends on social cognition, which cuts through the other layers of linguistic analysis such as semantics and syntax.
 Indeed, what is communicated through the utterances discussed above, which can be rephrased as "tell me this thing I already know but that the audience does not", could have been conveyed through an entirely different set of sentences (that is different semantics, syntax, morphology, and so on) because it depends above all on the social cognition situation that participants find themselves in.
 
 Examples of this phenomenon abund, and are not restricted to face-to-face interactions as depicted by films:
@@ -182,21 +182,21 @@ yet when taken as cultural tokens, these two representations are diametrically o
 With no further information about the relationship between the participants, their past interactions or common history, and in spite of the conversation being entirely public, we cannot determine what the exchange is fundamentally about, or even decide what the initial tweet means to one participant or the other.
 
 
-#### Problem summary
+#### Summary of problems
 
 Let us now return to our initial question, namely the identification of attractors in the evolution of linguistic content.
 As might be clear by now, this goal is challenging in at least three new and related ways.
 First, the importance of strong pragmatics renders it much more difficult to collect all the necessary data to understand the meaning that a subject attributes to an utterance, or what is exchanged in an interaction.
-Indeed, it is often necessary to rely on detailed information about the interaction situation to understand that meaning.
-Leaving aside the theoretical and technical apparatus that would be required to quantitatively analyse such data, the situations in which an experimenter can have access to the whole interactive situation, and thus have access to meanings exchanged (i.e. determine the content of the representations that circulate), are extremely rare.
-In most cases, an experiment only gives access to artefacts that are part of a broader cycle of meaning-creation.
+Indeed, it is often necessary to rely on detailed information about the interactive situation to understand that meaning.
+Leaving aside the question of the theoretical and technical apparatus that would be required to quantitatively analyse such data, the situations in which an experimenter can have access to the whole interactive situation, and thus have access to meanings exchanged (i.e. determine the content of the representations that circulate), are extremely rare.
+In most cases, an experiment only gives access to artefacts that are part of a broader cycle of meaning creation.
 
-Second, even when the interactive situation is available to observation, the meaning of an utterance is not reducible to a simple object, and remains a multi-dimensional (and in particular multi-scale) target.
+Second, even when the interactive situation is available to observation, the meaning of an utterance is not reducible to a simple object, and remains a multi-scale (and inside each scale, multi-dimensional) target.
 Coming back once again to utterance \ref{u:party} with its surrounding context, what aspect of the meaning should one focus on when examining its evolution to identify attractors?
 The presence of a request to publicise private information, the implication that Barbara is lying or holding back such information, the lower-level structure of the question?
 In other words, the goal of identifying attractors in the evolution of meaningful utterances is, at least in our current formulation, under-specified.
-Of course, this problem is not new, and might even not be a theoretical problem for Cultural Attraction Theory:
-behind the multi-dimensionality of meaning is the fact that culture itself is a continuous and multi-dimensional phenomenon, difficult to characterise in simple mathematical terms.
+This problem is not new, and might even not be a theoretical problem for Cultural Attraction Theory:
+behind the multi-dimensionality of meaning is the fact that culture itself is a multi-scale phenomenon (and multi-dimensional at each scale), difficult to characterise in simple mathematical terms.
 CAT works around this problem, as Sperber insists that it should not aim for a "grand unitary theory", and should rather generate useful domain-specific questions that depend on the matter at hand [@sperber_explaining_1996 pp. 61, 83].
 Thus the empirical decision of which meaning level to focus on must be resolved by appealing to the importance of each level as individually observed.
 
@@ -204,34 +204,47 @@ Finally, a more important theoretical challenge comes from the fact that strong 
 If the meaning of an utterance is determined in great part by the interaction it features in, and if that meaning corresponds to the content of the linguistic representations whose epidemiology we wish to study, then how is it possible to identify two representations from different situations as being the same (or being close to each other)?
 To make progress in the epidemiology of meaning-bearing utterances, an approach to strong pragmatics must thus be able to relate meanings that come from different interactive situations, to some extent at least.
 Indeed, evaluating the evolution of representations requires us to be able to identify, if not the path taken by specific strands of representations which inherit from each other, at least the overall trajectory of a population of representations in a common space.
-As a consequence, an approach to pragmatics must provide a way to declare meanings different, or identical, or evaluate the extent to which they differ, across situations (without which evolution can only be observed inside fixed interactive situations).
+As a consequence, an approach to pragmatics useful to CAT must provide a way to declare meanings different, or identical, or evaluate the extent to which they differ, across situations (without which evolution can only be observed inside fixed interactive situations).
 
 
-## No theory of content
-The problems of meaning: hard problem of content
+## Approaches to meaning
 
-- no clear definition of meaning (beyond word meaning)
-- varies with history, situation, attention
-- many levels
-- obviously comes from continuous interactions, but bears value, and the value can also be recognised and repeated
+If we broaden the scope to all interactions, whether face-to-face or digitally mediated, we are faced with the concrete question of how to understand the way an agent (participant, subject, person, or non-human organism) extracts or constructs meaning in such an interaction.
+That is, which of the infinite possible meanings the agent selects (or constructs), and how that selection (or construction) operates.
+As we just saw, such meaning is highly dependent on the context and interaction the agent finds itself in, such that viable approaches to meaning will necessarily be coping with the complexity of possible interactive situations.
+This makes the picture considerably more complicated than when dealing with simple context-free utterances.
 
 
-### Approaches to utterance meaning
-expose the theoretical problem, and contenders: RT/Millikan and enactivism
+### Relevance theory
 
-- inside the representational approach, the problem is 1) the content of representations (Millikan), 2) how communication infers the content (RT)
-- in theory this opens the door for context, although in practice context comes back in kicks you in the back, as there is no concrete way of doing it
-- inside enactivism, you start with some content, but you need a way to arrive to structure communication and fleshing out the details
+- fleshes out gricean communication with propositional meaning, and defines how meaning is selected
+- relies on a "cognitive effect" which grounds relevance
+- in theory this opens the door for interaction, although in practice there is no concrete way of doing it, as you need to infer the propositions, and context and interaction come back to kick you in the back
+- it also poses a philosophical problem, which is the content of representations; that's a huge debate and we're not going there in detail
+
+
+### The enactive approach
+(from article)
+
+- this other approach breaks a bit more with representations, so doesn't have the philosophical problem, and also starts much lower-level: it's enactivism.
+- C&S 2008: "the idea that thinking is computation allows one to see haw abstractions (numbers, meanings) can be encodoed in a mechanical system."
+- comes in several flavours, with SM, 4E, REC
+- this flavour gives you a different perspective/framework than representations, which gives a notion of relevance (that is, value to participants) straight up, but not how value can be transposed from another situation (that is, repetition/recognition, work done by the notion of representation)
+- it's applicable at the very low-level, but needs some work to structure communication
+
+- the two are not far from one another, as they provide a foundation and use of relevance to an organism (as CS2008 say, "the very same systems can profitably be explained dynamically and mechanically")
 
 
 ### Outside the linguistic domain
-show it's not limited to linguistics (ingold critique)
+(from article)
 
-- three layers
+- going without representations is not limited to the linguistic domain, and CAT's reliance on it is grounds for critique by ingold
+- three layers of description in CAT
 - three degrees of critique, relating to NCT/DST
+- however, the question comes back as to whether you can compare different values emerging in particularity (as that work is done by representations)
 
 
-## Baby and bathwater: From theory to empirical study
+## Down to empirical study
 ways to move forward
 
 - further determine if they compete for the exact same space
