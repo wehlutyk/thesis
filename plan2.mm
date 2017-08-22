@@ -805,7 +805,7 @@
 <node COLOR="#ff0000" CREATED="1493710780051" ID="ID_1824948192" MODIFIED="1493711426152" TEXT="What exactly?"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493655409373" ID="ID_1331299227" MODIFIED="1503233933970" TEXT="Synthesis of positive results">
+<node COLOR="#669900" CREATED="1493655409373" FOLDED="true" ID="ID_1331299227" MODIFIED="1503434577483" TEXT="Synthesis of positive results">
 <node CREATED="1493669429075" ID="ID_295290723" MODIFIED="1493669430540" TEXT="MT">
 <node CREATED="1493669331808" ID="ID_1224440570" MODIFIED="1493669476674" TEXT="Patterns compatible with convergence, applying CAT to online behaviour"/>
 <node CREATED="1493669398214" ID="ID_1241198916" MODIFIED="1493669441808" TEXT="Proof-of-concept for connecting online data to psycholinguistics"/>
@@ -837,7 +837,7 @@
 </node>
 <node CREATED="1493709128157" ID="ID_985105476" MODIFIED="1494009491432" TEXT="Review the &quot;No Theory of Content&quot; problem">
 <font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#669900" CREATED="1493717779005" ID="ID_1984119433" MODIFIED="1503233968287" TEXT="In my work">
+<node COLOR="#669900" CREATED="1493717779005" FOLDED="true" ID="ID_1984119433" MODIFIED="1503434572209" TEXT="In my work">
 <node CREATED="1493657060913" ID="ID_398917637" MODIFIED="1493717799258" TEXT="Surfaces as the meaning/interpretation problem">
 <node CREATED="1497602191674" ID="ID_1836795607" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
 </node>
@@ -846,14 +846,14 @@
 <node CREATED="1493576093254" ID="ID_1033465813" MODIFIED="1493656003801" TEXT="What level do you choose to look at"/>
 <node CREATED="1493578059852" ID="ID_660237896" MODIFIED="1493578100240" TEXT="Maybe a consequence of not wanting a GUT, but that doesn&apos;t bring theory then"/>
 </node>
-<node COLOR="#999999" CREATED="1493719848890" ID="ID_100848672" MODIFIED="1503233974859" TEXT="Divides into: content problem, context problem, dynamics problem (critics argue these are all the same)">
+<node COLOR="#999999" CREATED="1493719848890" ID="ID_100848672" MODIFIED="1503434570968" TEXT="Divides into: content problem, context problem, dynamics problem (critics argue these are all the same)">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
 <node CREATED="1493709180550" ID="ID_1655961620" MODIFIED="1494005538090" TEXT="For context, there is">
-<node CREATED="1494005526601" ID="ID_1724782550" MODIFIED="1494005555864" TEXT="Relevance Theory for language">
-<node CREATED="1493712374053" ID="ID_984289985" MODIFIED="1493712397963" TEXT="Not aware of implementations, but could work in principle"/>
-<node CREATED="1498158151029" ID="ID_1152579183" MODIFIED="1503234154208" TEXT="Relevance Theory is not so far from the enactive approach: it defines &quot;comprehension&quot; in terms of what is relevant to the individual: &quot;an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect&quot; (wilson-relevance-2004, p. 608), so both theories are pretty much competing for the same space (but starting from opposite ends). RT and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 for a discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life&apos;s organisation: sub-organism, and super-organism, such that much meaning is co-created."/>
+<node COLOR="#669900" CREATED="1494005526601" ID="ID_1724782550" MODIFIED="1503434571775" TEXT="Relevance Theory for language">
+<node CREATED="1493712374053" ID="ID_984289985" MODIFIED="1503434571775" TEXT="Not aware of implementations, but could work in principle"/>
+<node CREATED="1498158151029" ID="ID_1152579183" MODIFIED="1503434571775" TEXT="Relevance Theory is not so far from the enactive approach: it defines &quot;comprehension&quot; in terms of what is relevant to the individual: &quot;an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect&quot; (wilson-relevance-2004, p. 608), so both theories are pretty much competing for the same space (but starting from opposite ends). RT and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 for a discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life&apos;s organisation: sub-organism, and super-organism, such that much meaning is co-created."/>
 </node>
 <node CREATED="1494005539674" ID="ID_1997099142" MODIFIED="1494364543560" TEXT="Niche construction / DST for global life cycle"/>
 </node>

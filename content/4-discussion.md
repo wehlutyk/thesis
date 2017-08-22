@@ -354,11 +354,127 @@ Our hope is to convince the reader that this second approach, although less conn
 
 
 ### The enactive approach
-(from article)
 
-- this other approach breaks a bit more with representations, so doesn't have the philosophical problem, and also starts much lower-level: it's enactivism.
+#### A non-computational metaphor of cognition
+
+The enactive approach proposes a different foundational metaphor for the study of cognition.
+Indeed, Relevance Theory and Cultural Attraction Theory, along with our own experimental approach to their questions, mostly rely on a computational metaphor for the description of cognition:
+the mind is taken to be like a computer, that is an information-processing device which continuously receives stimuli, updates an internal representation of the world based on what it perceives, and acts based on its current representation and predictions given current stimuli.
+The human brain is our implementation of such an information-processing device.
+The approach we are interested in here is part of a range of approaches that question the utility of conceiving the mind as such an information-procssing system,
+^[These approaches are sometimes collectively termed the "E turn", in reference to the many titles starting with the letter "e" (in particular, enactive, embedded, embodied and extended approaches to cognition).
+]
+and explore the extent to which parts of (or all) the metaphor can be relaxed or replaced by other paradigms [see @chemero_after_2008 for a review of the options available in the debate, and the fields corresponding to each choice].
+In this area, the enactive approach has the advantage of being extremely consistent in its rejection of the computational paradigm and of the idea that cognitive systems represent their environment, and is to our knowledge the only contender that has started developing a non-computational approach to language itself.
+As we will see, instead of a computational paradigm the enactive approach proposes to base cognition on the dynamical coupling of organisms with their environment and with each other.
+Compared to Relevance Theory it can be located at the opposite end of the computational spectrum and starts from a different initial level of description, but is nonetheless concerned with questions common with RT.
+In particular, both aim to reach complete and plausible explanations of language and meaning.
+As @chemero_after_2008 argue however, the two are not necessarily opposed, and could be usefully combined to form complementary explanations.
+Our goal here is to present the basic tenets of the enactive approach and show how, by starting with a different metaphor, it faces an orthogonal set of problems compared to RT.
+In particular, the notion of meaning it develops seems more endogenous than that of RT (among other things, by being non-representational, it does not face the hard problem of content), but is currently much more low-level and not yet usable to fully comprehend actual linguistic interactions.
+What the theory currently provides can be seen as the explanation of preliminary steps common to language and less structured interaction, eventually to grow into a full theory of linguistic interactions (or, in enactive terms, "enlanguaged" interactions).
+
+The first concrete articulation of this approach in cognitive science is usually attributed to @varela_embodied_1991 who develop a view of cognition based on Merleau-Ponty's phenomenology.
+They propose to look at mind, cognition and meaning as fundamentally embodied and situated processes in which self-organisation plays a central role.
+Of course, nobody basing themselves on the computational paradigm would deny that what they talk about is ultimately grounded in physical embodied things;
+however the specificity of the enactive approach (and of other non-representational approaches with it) is that its explanations draw deeply on the embodiedness and situatedness of the processes, in that they create notions of cognition and meaning defined in terms of the coupling of physical systems, rather than in terms of symbolic processing.
+The initial formulation by @varela_embodied_1991 led to many developments.
+We present here the main theory going under the name "enactive approach", and do so in four important conceptual stages which we believe roughly (though drastically) summarise what has been developed by @torrance_search_2006, @thompson_mind_2007, @de_jaegher_participatory_2007, and @cuffari_participatory_2015.
+While this will by no means do justice to the complete approach, we hope these stages will provide a clear-enough stetch of the dynamical and embodied account of cognition that the enactive approach develops and proposes to use instead of the computational metaphor of mind.
+
+
+#### Sensorimotor contingencies
+
+The first stage is a reconceptualisation of the way an organism perceives its environment.
+This conceptualisation, known as the sensorimotor approach to perception [and thoroughly developed for vision by @oregan_sensorimotor_2001], essentially takes perception to be an exploratory activity based on a continuous perception-action loop.
+The default approach to perception is to construe it as an inference problem:
+through its senses, an organism receives information about the world and attempts to reconstruct an internal representation of it, which is challenging because the information is degraded in a number of ways.
+Instead, the sensorimotor approach construes perception as the exploration of the regularities in the way stimulations change when the organism moves around or acts on its environment (or on an object).
+Thus, rather than inferring and internally representing the properties and shape of an object that is being perceived (for instance), the sensorimotor approach construes an organism as exploring the changes it generates in the sensory stimulations when moving. thus making perception and action two parts of a common loop.
+As @oregan_sensorimotor_2001 put it:
+"seeing constitutes the ability to actively modify sensory impressions in certain law-obeying ways."
+An extreme example of such actively perceived properties is the softness of a sponge, which is felt by prodding and sequeezing it but not through static contact [@myin_account_2003].
+
+One of the strong motivations for this approach is that it provides an endogenous account of the feel of a perceptual modality (i.e. its perceptual consciousness), a longstanding problem in inferential approaches to perception.
+According to the sensorimotor approach, seeing and hearing feel differently (i.e. one can easily differentiate visual from auditory consciousness) not because they are processed by different parts of the brain, but because of the specific regularities with which stimulations are deformed in each sensory modality when the organism moves.
+Turning our head, for instance, generates a certain change of stimulation in vision, and a different change in hearing.
+The way each modality sees its stimulation change with movement is referred to as its *sensorimotor contingencies*, and is directly tied to the type of perceptual consciousness the modality creates.
+
+An interesting confirmation of this approach is found is experiments using "Tactile Visual Substitution systems", where blind people are equipped with a device that reproduces on their skin (through an array of stimulators) the luminance patterns captured by a camera.
+The subjects are then tested on their ability to recognise objects using this cutaneous stimulation, and are only able to do so if they actively control the movements of the camera itself [@oregan_sensorimotor_2001, p. 958].
+Furthermore, once they do control the camera, their sensations seem relatively close to actually seeing, because the sensorimotor contingencies are so similar:
+they begin to perceive objects as not on their skin but in front of them (in particular, they can be frightened by a zooming effect in the stimulations, which corresponds to an object approaching very fast), and the location of the stimulator array on the body becomes unimportant (subjects can easily transfer from stimulation on the back to on the forehead).
+Such experiments have contributed to showing that perception and action are two sides of the same dynamical interaction loop with the environment, and by generalising to other modalities, they suggest that sensorimotor contingencies provide an endogenous account of perceptual consciousness.
+
+
+#### Sense-making
+
+The second stage extends this approach to life itself [here we follow @de_jaegher_participatory_2007; and @thompson_mind_2007].
+In a nutshell, it can be seen as taking the reconceptualisation operated by the sensorimotor approach, which goes from a notion of perceptual consciousness based on inference to a notion made of sensorimotor contingencies arising in perception-action loops, and applying it to meaning in cognition:
+instead of being seen as the result of an inferential process, meaning will be seen as a property (or a regularity) of the dynamical interaction of an organism with its environment.
+
+Let us make this step more precise.
+Inspired by the notion of autopoiesis developed by @maturana_autopoiesis_1980, the enactive approach considers a living organism as an *autonomous system*, that is a network of processes with the following properties:
+
+1. The system is self-produced and self-maintained.
+   As a consequence the processes depend on each other for continued operation, that is, every process in the network is conditioned on the activity of one or several other processes of the network (a property called *operational closure*).
+   As a consequence, the network of processes acquires an identity (defined by its operational closure).
+2. The system continually produces a boundary that distinguishes it from the environment (this need not be a physical boundary).
+3. The system actively regulates its interaction with the environment in order to maintain its identity.
+
+Crucially, the identity generated by operational closure is precarious:
+it disappears if some or all of the processes that make up the system cease.
+The system is thus in a permanent tension to regenerate the conditions for the continuation of its identity, and any interaction with the environment thus acquires an inherent value to the system since it can have positive or negative consequences on the continuity of the system's identity and autonomy.
+Since interactions with the environment are necessary for the network of processes to keep self-generating, the system is continuously regulating the strength of its coupling with the environment in order to maintain its identity.
+Interaction with the environment then becomes inherently meaningful to the system, such that enactive approach calls it "sense-making".
+
+In this framework, cognition *is* precisely the sense-making activity, that is a system's actively regulating its coupling to the environment in order to maintain its identity.
+Notice how the enactive notion of meaning is defined in a parallel manner to the sensorimotor account of perceptual consciousness:
+instead of being inferred and represented, it is a property of the dynamics of the system's interaction with its environment.
+
+
+#### Participatory sense-making
+
+The third stage extends the theory to interaction between two autonomous systems, and introduces the notion of an autonomy of the interaction itself.
+@de_jaegher_participatory_2007 develop this in two steps.
+First, they show that some interactions can only be explained at the level of the interaction itself, rather than at the level of participants.
+An interesting point in that direction has been made in an experiment by @auvray_perceptual_2009.
+The experiment involves two subjects who share a virtual line on which they each have a cursor.
+The line and cursors are all invisible, but the subjects receive haptic feedback whenever their cursor is overlapping with the other's cursor.
+Aside from the subject's cursors, two fixed obstacles are placed on the line (each is perceivable by one subject and not the other), and the cursor of each subject has a shadow that follows it at a fixed distance:
+when subject A's cursor touches the shadow of subject B's cursor, subject A receives haptic feedback but subject B does not (and vice-versa).
+The subjects are told about obstacles but not about shadows, and are tasked with clicking as much as possible on each other's cursors.
+Interestingly, they succeed in doing so, but not because they are able to distinguish between real cursor and shadow.
+The experiment shows instead that they are not able to make the distinction individually, but solve the task because the interaction of real cursors is more stable (and thus more frequent) than the an interaction with a shadow:
+subjects individually fail the task while succeeding collectively, in a way that can only by understood because of the inherent (and unnoticed) stability of their interaction.
+The principle highlighted by this experiment is that of the stability of *perceptual crossings*:
+two organisms can have a dynamically stable interaction because they each look for a behaviour that they themselves create, without necessarily being aware of that fact (for instance mutual gaze of an infant and his mother, where the infant may not be aware that his mother maintains the gaze because he does too).
+
+Second, @de_jaegher_participatory_2007 argue that such stable interactions can acquire an autonomy of their own.
+An example that most people have experienced in everyday life usefully illustrates their point:
+when trying to cross someone else in the corridor of a train, and moving to the side to avoid them, at times the other person spontaneously moves to the same side you did;
+when this happens, you and the other person enter an interaction which both are trying to break from the start:
+each one moves to one side, and the other does the same, until your movements desynchronise and the interaction breaks down.
+During the time it persisted however, the interaction acquired its own autonomy which constrained both you and the other person, as neither could break free from it.
+
+This autonomy serves as the basis for defining sense-making at the level of the interaction itself:
+when two organisms interact while at the same time regulating their coupling to their environment (and respecting each other's autonomy), the interaction itself can spontaneously self-organise and become self-sustaining.
+Similarly to organisms, then, it acquires an identity of its own, and an interest in maintaining that identity:
+in that case, since the couplings of each organism to their environment and with each other have an impact on the continuation of the interaction, they become meaningful *to the interaction* which can then partly regulate them.
+A new sense-making activity thus appears at the level of the interaction itself, a level that neither of the participants fully control, and which has the potential to create constraints on them.
+This notion is termed *participatory sense-making* [@de_jaegher_participatory_2007].
+
+
+#### Languaging
+
+The fourth and final stage brings us to language.
+Relying on the concepts defined above, @cuffari_participatory_2015 propose to see language as a specially structured pattern of participatory sense-making, governed by several levels of conventions interlocked with one another.
+
+
+
+
+
 - C&S 2008: "the idea that thinking is computation allows one to see haw abstractions (numbers, meanings) can be encodoed in a mechanical system."
-- comes in several flavours, with SM, 4E, REC
 - this flavour gives you a different perspective/framework than representations, which gives a notion of relevance (that is, value to participants) straight up, but not how value can be transposed from another situation (that is, repetition/recognition, work done by the notion of representation)
 - it's applicable at the very low-level, but needs some work to structure communication
 
