@@ -9,13 +9,17 @@ studying word substitutions in online quotations first, and more general transfo
 However, these approaches did not bring us any closer to understanding the semantic changes that utterances undergo when they are transformed, be it online or in controlled transmission chains.
 
 We now wish to discuss the reasons for this limitation.
-Our purpose is first to convince the reader that meaning is a crucial aspect in the evolution of content which must eventually be analysed in order to fully understand the way representations circulate and change.
+Our purpose is first to convince the reader that meaning
+^[In what follows, we will always assume that meaning is meaning *to someone*.
+In other words, meaning to a listener is the listener's interpretation, and meaning to a speaker is the meaning intended to be communicated.
+]
+is a crucial aspect in the evolution of content which must eventually be analysed in order to fully understand the way representations circulate and change.
 Manual exploration of the changes in transmission chains in particular show that the surface measures that we used in quantitative analysis have no handle on the evolution of meaning.
 Indeed, meaning will appear as a deeply context- and interaction-dependent property, which cannot be understood by simply focusing on the utterances themselves.
 Second, we aim to show how this challenge can be traced to what is known in philosophy of mind as the "hard problem of content", and to how approaches to pragmatics deal with it.
 We will thus discuss two important approaches to studying the meaning of utterances in relation to the context and interaction in which they appear:
 Relevance Theory and the Enactive approach.
-The first is better developed and integrated with linguistics, but must face some version of the hard problem of content in order to provide an operational account of meaning.
+The first is better developed and integrated with linguistics, but is complex to implement and must face some version of the hard problem of content in order to provide a complete account of meaning.
 The second starts from a simpler endogenous notion of meaning which avoids the problem of content, but has yet to prove its viability and usefulness for the study of language.
 Favouring one or the other, or possibly combining parts of the two, is further related to the overall construal of cultural evolution and to the importance of representations in a theory of cultural change, as critiques of the cultural attraction framework have shown.
 Finally we believe that the question of meaning in cultural change, and the debates it relates to, can be moved forward through informed empirical investigation.
@@ -66,6 +70,7 @@ While it is noteworthy that it was still possible to extract reliable decomposit
 ]
 
 Let us show a few examples of the types of meaning change that were observed in the transmission chain experiments of the previous chapter.
+
 
 #### Minor operations can change the function of a part of the utterance
 
@@ -226,10 +231,16 @@ In spite of this, we will argue that both approaches to meaning could be product
 
 ### Relevance theory
 
+
+#### Principles
+
 As a general theory of communication, Relevance Theory has a very broad scope and relates to many areas of cognitive science.
 @sperber_relevance:_1995 and @wilson_truthfulness_2002 provide detailed presentations of the full theory, and many publications in between and since then have fleshed out its relations to a number of neighbouring questions.
 @wilson_meaning_2012, in particular, provides a thorough discussion of several linguistic phenomena based on Relevance Theory, as well as openings towards experimental and cultural evolution-related approaches to the question of meaning and relevance [for language evolution see in particular @sperber_pragmatic_2012].
 Here we will restrict ourselves to a sorely abridged presentation of the already summarising @wilson_relevance_2004, in the hopes that it will be enough for an approximate understanding of the principles underlying the theory and the explanations it provides.
+^[Our presentation focuses on the founding principles of Relevance Theory.
+The remainder of @wilson_relevance_2004 fleshes out the way the inferential procedure is applied to linguistic utterances, how the theory explains typical phenomena such as loose uses of language (e.g. the meaning of 'square' in expressions such as 'square face' or 'square mind'), irony, or poetry, and how it fits with the massive modularity of mind approach introduced in @sperber_explaining_1996, along with many detailed examples.
+]
 
 Relevance Theory (RT) opposes itself to the code model of linguistic communication, according to which a speaker's meaning is encoded in an utterance, passed on to the listener for instance by means of sound (the channel, or conduit), and then decoded by the listener to obtain the communicated meaning.
 By contrast, RT adopts an inferential model according to which an utterance does not encode a meaning per se, as the semantics of utterances provide only under-determined information about the speaker's meaning (as illustrated by the examples discussed above);
@@ -242,20 +253,20 @@ RT agrees with the intuition behind Grice's observations (although it differs on
 
 RT proposes that inferential communication is based on a cost-reward comparison of possible conclusions that derive from a speaker's utterance.
 Indeed, a given utterance (or non-linguistic communicative act) in a given context can lead a listener to any number of conclusions about the world.
-Each of those conclusions about the world can matter more or less to the listener (RT formulates this as the positivity of the cognitive effect created by the conclusion), and is also more or less costly to derive from the speaker's utterance and its context (processing cost in RT terminology).
+Each of those conclusions about the world can matter more or less to the listener (RT formulates this as the strength of the contextual effects created by the conclusion), and is also more or less costly to derive from the speaker's utterance and its context (processing cost in RT terminology).
 A conclusion that matters more to the listener achieves higher relevance, and conversely a higher processing cost will lower the relevance realised by a conclusion.
 These two dimensions let listeners order the conclusions that can be derived from a speaker's utterance based on their (context- and listener-dependent) relevance.
 For instance, hearing that Sperber or Wilson's train to work is one minute late is less relevant to them (because it matters less) than hearing that their train is late by a half hour.
-Conversely, a public announcement stating that their train is late provides a more relevant conclusion (because perceptually more available and thus easier to derive) than the same conclusion derived from a conversation overheard between the people sitting next to them (processing costs can also be inferential, not necessarily perceptual).
+Conversely, a public announcement stating that their train is late provides a more relevant conclusion (because easier to derive) than the same conclusion derived through more deductive effort from bits of a conversation overheard between the people sitting next to them.
 A central claim of RT is that evolution has shaped human cognition in such a way that people automatically and easily perform this derivation and comparison process on all the stimuli they perceive, picking out those among the myriad available which maximise relevance.
 The Cognitive Principle of Relevance expresses this claim:
 "Human cognition tends to be geared to the maximization of relevance" [@wilson_relevance_2004 p. 610].
 
 @wilson_relevance_2004 then define inferential communication as consisting of two elements.
-An *informative intention*, that is the intention of a speaker to inform an audience of something, and a *communicative intention*, that is the speaker's intention to inform the audience of their informative intention.
+An *informative intention*, that is the intention of a speaker to inform an audience of something (more precisely, to make certain assumptions more, or less, manifest to the listener), and a *communicative intention*, that is the speaker's intention to inform the audience of their informative intention.
 In other words, inferential communication happens whenever the speaker says (or does) something in order to make her audience recognise that she wants to convey X.
 The meaning is successfully understood when the audience recognises the speaker's informative intention, that is when the audience recognises that the speaker wants to convey X (note that X itself might not be conveyed if the audience does not trust the speaker -- the communication event is nonetheless successful, since the intention to convey X was recognised).
-Most often, the speaker does this by making an ostensive communication act (e.g. pointing, staring, or saying something that attracts the audience's attention) which signals to the audience that there is something relevant to attend to.
+Most often, the speaker does this by making an ostensive communication act (e.g. pointing, staring, or saying something that attracts the audience's attention) which signals to the audience that there is something worth processing to attend to.
 Indeed, ostensive stimuli create in the audience an automatic expectation for relevance, as the audience looks for the reason for which the speaker is attracting their attention.
 More precisely, RT posits that the audience automatically expects the stimulus to be *optimally* relevant;
 in the theory's terminology, this is formulated as the Communicative Principle of Relevance:
@@ -268,28 +279,78 @@ we are at a table and my glass is empty, a fact that you might notice.
 If you do (without me communicating anything), one conclusion you could reach is that I might like a drink.
 If, however, I wave my glass at you, or say "My glass is empty" (ostensive stimulus attracting your attention to my empty glass), a relevant conclusion you would reach is that I want to communicate that I want a drink (and, if you trust me, conclude that I want a drink, although that is not necessary for the communication to succeed).
 RT thus proposes a procedure that can account for the way utterances are understood:
-when perceiving a stimulus (possibly ostensive), compute its conclusions (i.e. cognitive effects in RT terminology) following a path of least effort first (since stimuli should be optimal), and stop whenever you have reached your expected level of relevance.
+when perceiving a stimulus (possibly ostensive), and given a certain context, compute the relevance of its conclusions (i.e. the strength of contextual effects pitted against the processing costs) following a path of least effort first (since the stimulus is expected to be optimal), and stop whenever you have reached your expected level of relevance.
 In other words, test hypotheses about the speaker's utterance such as possible disambiguations, resolution of entities and implicatures, and stop whenever the conclusions you have reached seem relevant enough to you.
-The conclusion you have then obtained will be your assumption of the speaker's meaning.
+The conclusion you have then obtained will be your assumption of the speaker's meaning for the context chosen at the beginning.
+Finally, note that this inference procedure can be operated in different possible contexts, as long as they are available given the memory constraints of the listener.
+The procedure thus also optimises on the context in which conclusions are drawn, and selects the context for which the final conclusion is most relevant.
 
 
+#### Application
+
+The framework provided by Relevance Theory is extremely rich, and has been the subject of extensive experimental exploration and validation [see @noveck_why_2012; and @van_der_henst_testing_2012 for reviews].
+In particular, it brings direct insight to some of the limitations concerning meaning in the experimental approach of the previous chapter.
+The transmission chains we set up are a clear case of ostensive communication:
+we ostentatively ask the subjects to direct their attention to the utterances they are asked to memorise and rewrite.
+However, the utterances are presented with no context other than the task itself, which frames the experiment as a memory exercise.
+There is no background information against which the subjects can evaluate the relevance of conclusions derived from the utterances, nor are the subjects involved in an activity that would make the conclusions matter in one way or another.
+Without an ecological activity to which the utterances can become relevant, the experiment has no control over the meanings that subjects will infer from the utterances, leaving the matter entirely under-specified.
+It is also easier to understand why subjects spontaneously wrote sentences directed to the experimenter such as "I can't remember":
+if the task does not create an ecological communicative activity that relates subjects to each other, and is instead (correctly) understood to be a memory task, the only valid interlocutor is the experimenter evaluating the accuracy.
+As a consequence, asking the subjects to keep in mind that their productions were sent to other subjects (as we did) was likely to create a slight discrepancy.
+
+The relevance-theoretic approach also opens the door for the analysis of interaction, context, or past history in the evolution of meanings.
+Using carefully constructed contexts to orient what is available to the inferential process, it should be possible to greatly reduce the possible meanings interpreted by subjects, and thus explore the way interpretations evolve through chains of contextually-augmented utterances (or chains of constrained interactions).
+In practive however, such an implementation is likely to be extremely challenging (much more so than the procedure developed in the previous chapter):
+whatever the theory, it is still necessary to extract the basic propositions semantically encoded in the utterances typed in by subjects, determine the way subjects select contexts, and automatically or manually derive the possible conclusions that can be reached for a given utterance in a given context.
+The three tasks are far from trivial.
+Second, efficiently constraining the context in which an utterance is interpreted will likely be much more difficult than it sounds, as real life interpretation involves our own personal history, memory, preoccupations and any other pregnant contexts we can recruit during the process [see @sperber_relevance:_1995, §3.3-4, which discusses the ways contexts are chosen in the inferential process].
+It is doubtful that simply adding a few sentences around the target utterance would suffice.
+Instead, it could be necessary to create more encompassing situations such as a controlled video game where much larger parts of the many contexts available to subjects can be experimentally manipulated.
 
 
+#### Meaning as indexed on knowledge optimisation
 
-in the case of gistr, there was ostensive communication (we bring the subjects to attend to the sentences), but the sentences do not matter to the subjects as they're not inserted in an ecological situation, so there's no way for them to infer one meaning out of the sentences.
-This is also an explanation of why the task can be a bit confusing, if not understood as literally a memory task, because the subjects have no indication of what could be our intention (or the intention of the one having written the sentence). That's why they'll easily say "I can't remember" as if they were communicating with the experimenter (that's the most relevant information they can give to the experimenter -- though not to the next subject)
+We have just seen that the notion of meaning provided by Relevance Theory is based on a maximisation of the relevance of conclusions derived by the listener.
+This account ultimately rests on the three following cognitive mechanisms:
 
+- Reconstruction of the logical form of an utterance, in order to start the inferential process [see @sperber_relevance:_1995, §4.3, for details],
+- Creation or selection of contexts inside which the inferential process operates [see @sperber_relevance:_1995, §3.3-4, for details],
+- The inferential process itself, operated by what is hypothesised to be a special-purpose deductive device [see @sperber_relevance:_1995, §2.4-5, for details].
 
-- the rest is; 0) explanation of why this is superior to Grice, 1) a fleshing out of how decoding/inference is done on linguistic utterances, 2) discussion of how it is superior the generalised implicatures, and 3) how it applies to phenomena such as looses uses of language (such as 'square face', 'square mind', or poetry), irony, 4) how it fits for the massive modularity of mind approach, 5) a few (among many) examples of empirical phenomena explained by the theory
-- poetry for instance is interesting approached through utterances that trigger an array of weak implicatures, none of which are necessary individually but at least one must be taken -- that could definitely be tested and inserted in chain experiments
-- so it's super rich, and has been experimnted on extensively (see @noveck_why_2012 and @van_der_henst_testing_2012)
-- in theory this opens the door for interaction
-- maybe applicable with carefully constructed context that simplifies the inference procedure that we model (we still have to extract the propositions from the subjects' inputs)
-- although in practice there is no concrete way of doing it as you must construct a hell of a lot, as you need to infer the propositions, and context and interaction come back to kick you in the back
+This account can also be formulated in terms of a system which optimises its representation of the world (without access to the truthfulness of what it perceives), and for which relevance indicates the path of strongest optimisation growth.
+To see this we must briefly return to the exact definition of relevance in the theory.
+Relevance in @sperber_relevance:_1995 is defined in the following three broad steps:
 
-- I would like to highlight that it relies on "what matters to the agents" (see @sperber_relevance:_1995 §3.1-2 for the definition), and on ostensivity of communication, i.e. attracting attention to something
-- it also poses a philosophical problem, which is the content of representations; that's a huge debate and we're not going there in detail. but we can note that Sperber's notion of representation is Millikan's, one that is close to non-represenationalism
-- so despite its strong reliance on representations (especially when arguing for a "dedicated inferential mechanism [...] which automatically computes a hypothesis about the speaker's meaning on the basis of the linguistic and other evidence provided" which would be in large part innate (@wilson_relevance_2004 p. 625), it has some commonalities with the approach tha follows
+1. Define the *deductive device* that is used for inference:
+   it is a mechanism for deriving conclusions from a set of premises P (usually coming from an utterance from a speaker) in a set of contextual assumptions C [@sperber_relevance:_1995, §2.4-5];
+   in this device, all assumptions, premises and conclusions have a certain strength, corresponding to their level of accessibility (this is not a logical measure of confidence that can be quantified, but rather an ordinal property that can be used to compare assumptions between each other).
+2. Define the notion of *contextual effect*:
+   a set of premises P (coming from an utterance) in a set of contextual assumptions C generates a contextual effect if and only if the deductive device can derive conclusions from the combination of P and C that it cannot derive from P or C alone.
+   Such conclusions can be new to C, can strengthen existing assumptions in C, or can weaken and even erase assumptions in C [@sperber_relevance:_1995, §2.6-7].
+   The notion of contextual effect thus provides a indication of the strength of the relationship between an utterance and a set of contextual assumptions C.
+3. Define the degree of *relevance* realised by conclusions derived by the deductive device from P and C:
+   conclusions are more relevant if they have stronger contextual effects, and less relevant if they have higher processing costs (in terms of deductive steps involved).
+
+With relevance thus defined, Relevance Theory's procedure for interpreting utterances and other stimuli can be seen as a tentative procedure to always improve the system's representation of the world:
+if the processing system has no access to the truthfulness of the stimuli and utterances it perceives, its best option is to process the incoming information in a way that maximises what it can infer about it, given its level of trust in the speaker.
+In other words, it will look for the set of assumptions that can most benefit from the new information.
+If the system functions with a deductive device such as the one defined above, this corresponds to finding the set of contextual assumptions C on which the new information (premises P) has the strongest contextual effect, with given processing cost constraints and for a given level of trust in the speaker (i.e., strength of the premises P);
+given the above definition of relevance, that is precisely the procedure to reach the most relevant conclusions.
+Under this description, higher relevance indicates a stronger update in contextual assumptions, thus a stronger update to the system's overall representation of the world.
+Thus Relevance Theory can be seen as indexing meaning on the increase in reliability of a listener's representation of the world.
+The Communicative Principle of Relevance then simply states that speakers know that listeners work by maximising inferred relevance, and will behave accordingly in order to be understood (i.e. by saying things which they know will trigger the right inferences for the listeners).
+
+Whichever the formulation we choose, RT crucially relies on a deductive device which can represent propositions extracted from utterances and process such propositions in order to derive new conclusions.
+Once the inference process is completed however, the meaning defined by RT is partially propositional, as it is made of a set of new assumptions that are made more less manifest (through a change of strength).
+Such meanings can thus be at least partially defined and used without reference to the situation they were deduced from, making them (partially) comparable to other meanings from other situations.
+The approach to pragmatics developed by RT is thus quite amenable to the study of cultural evolution (which is no surprise, given the authors).
+
+One disadvantage of the relevance-theoretic approach is the high level at which it starts its description, making concrete implementations more challenging.
+As we indicated earlier, it relies on the reconstruction of the logical form of utterances, on a mechanism for the creation of contexts, and on the inferential process itself.
+Second, a theoretically important, but experimentally less important consequence of the theory's reliance on propositions and mental representations is that a full account of meaning will eventually require an account of the content of such representations [a problem known in philosophy of mind as the hard problem of content, @hutto_radicalizing_2013].
+We will now turn to a second approach to meaning, one that does not rely on propositions or even representations, and starts from a much lower level of description.
+Our hope is to convince the reader that this second approach, although less connected to the standard body of linguistic research, should also be a fruitful avenue to explore the effects of interaction in relation to meaning in cultural evolution.
 
 
 ### The enactive approach
@@ -318,3 +379,4 @@ ways to move forward
 
 - further determine if they compete for the exact same space
 - it's a productive contradiction to build from (without falling into scholasticism), which can inspire experiments
+- explore how much more context constrains the evolution of utterances
