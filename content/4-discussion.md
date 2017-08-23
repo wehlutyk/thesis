@@ -502,7 +502,7 @@ One person initiates the act (e.g. extending a tentative hand to be shaken in th
 Otherwise the act fails and the interaction breaks down.
 On top of this level of normativity, another level can develop when social acts themselves serve to regulate other social acts (e.g. ostentatively staring at your own extended hand to signal to your interlocutor that they should shake it), leading to yet another higher level of normativity.
 The expansion thus continues by building each level of normativity as the resolution of a tension between the types of individual and interactive autonomies that exist at the previous level.
-@cuffari_participatory_2015 propose 8 levels of normativitiy,
+@cuffari_participatory_2015 propose 8 levels of normativity,
 ^[The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
 ]
 each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
@@ -520,22 +520,49 @@ A number of points can be noted about the approach we just outlined.
 Overall, the approach strongly reflects the intuitive idea hinted to in our previous discussion of meaning changes in transmission chains (@sec:discussion-empirical-results):
 in meaningful interactions, "everything matters".
 More precisely, anything *can* matter:
-any seemingly minor detail of the dynamics of an interaction may (or may not) become extremely important if for some reason the participants are sensitive to it in one way or another, and rely for instance on it to resolve a tension.
-In particlar, the (sometimes necessary) simplifications that are encouraged by an approach starting from symbolic processing can easily neglect aspects of meaningful interactions which turn out to be essential ingredients, ingredients that can be picked up by a reconstruction starting from simpler interactions such as the one encouraged by an enactive standpoint.
-As noted previously, the problem here is the extreme complexity of interactions and contextual situations, which the enactive approach tackles by using the language and tools of dynamical systems theory [see for instance @beer_dynamical_2000;-@beer_dynamical_2014].
+any seemingly minor detail of the dynamics of an interaction may (or may not) become extremely important if for some reason the participants are sensitive to it in one way or another, and rely on it for instance to resolve a tension.
+In particular, the (often necessary) simplifications that are encouraged by an approach starting from symbolic processing can neglect aspects of meaningful interactions which turn out to be essential ingredients.
+A reconstruction that starts from simpler interactions, such as the one encouraged by the enactive standpoint, is more likely to pick up on such ingredients.
+As noted previously, the problem here is the extreme complexity of interactions and contextual situations, which the enactive approach tackles by starting from simpler (but, crucially, always meaningful) interactions, and by using the language and tools of dynamical systems theory [see for instance @beer_dynamical_2000;-@beer_dynamical_2014].
+A second point related to the "anything can matter" intuition is that the coordination of interacting organisms that is necessary to achieve dynamical coupling can rely on a diversity of dimensions:
+while interacting organisms need to have comparable dynamics to make it possible for an actual coupling to emerge in their interaction, different dimensions of the dynamics are eligible to that role at different levels of interactive normativity.
+For instance, coupling in perceptual crossing experiments is likely to emerge only when the subjects make movements of comparable magnitude at the sub-second timescale.
+Turn-taking on the other hand, is likely to require the subjects to have comparable behaviour at the timescale of a few seconds (the duration of a turn in turn-taking).
+The poorer the match in dynamics in a given dimension at a given scale, the more difficult it should be for a coupling to appear in that dimension at that scale.
+Higher levels of interactive normativity will likely involve yet larger timescales [a point that could for instance be related to multi-scale complexity matching in conversations, @abney_complexity_2014].
 
+@dale_self-organization_2014 provide a review of the empirical work that has already been done in (not exclusively enactive) dynamical approaches to interaction.
+Interesting low-level illustrations of the enactive approach are also found in software implementations:
+@botelho_software_2015, for instance, develop software agents endowed with inherent goals, such that they could have a very simple but endogenous notion of meaning;
+@froese_dynamically_2013 further illustrate the dynamical coupling of maximally simple software agents that manage to collectively solve a task precisely (and only) thanks to their coupling (similar to what the perceptual crossing paradigm explores with human subjects).
+Now as regards language itself, the approach evidently needs to be much further developed and empirically explored.
+The problem seems tractable however, as the mysterious aspects of meaningful interaction are already part of the simpler levels of interaction that the current theory convincingly accounts for.
+We also note that the general approach of expanding normativity levels on top of the previous levels is promising in yet another aspect:
+on the enactive account, the grammar of a particular language as it is classically understood (i.e. structured utterances with phonetics, phonology, morphology and syntax in English or Spanish for instance -- leaving aside semantics and pragmatics since they are closer to meaning, which is accounted for across levels) could correspond to a particular expansion of normativity levels that differs from that of another language.
+In particular, if the grammar-related normativity levels differ, the levels above and below will also, a fact that could correspond to the different types of agency, and of interaction, afforded by different languages.
+Any speaker who is fluent enough in more than one language has experienced the change in the way social interactions feel and unfold when switching from one language to another (the effect is strongest when using different languages with the same person).
+English and Spanish for instance afford different types of interactions, as one constrains meanings differently than the other, each language implicitly expressing a particular set of relationships and making it necessary to spell out other parts more explicitly.
+In the words of @evans_your_2011, who develops this link between a language and social interaction:
+"Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011 p. 70].
+The enactive account of social interaction provides a natural continuity between a particular language and the type of agency that go with it, and one can expect this type of phenomenon to be explicable once the theory has been further fleshed out.
 
+Let us finally come back to the relevance of this approach to Cultural Attraction Theory.
+Compared to Relevance Theory, the Enactive approach starts from radically simpler types of interaction, and relies neither on a capacity for symbolic processing nor on internal representations of the environment.
+This makes the approach slightly more involved to present than Relevance Theory.
+In spite of their differencs, both approaches provide a notion of relevance or value to the individual, which is then used to ground a notion of meaning (be it linguistic or not).
+Unlike RT, the enactive notion of meaning exists even in the most basic types of interaction an organism can have with its environment.
 
-
-- needs more models and empirical investigation of higher levels (though the lower levels are very promising). more experimental review: @dale_self-organization_2014. software agents with concerns: @botelho_software_2015, software agents that are coupled: @froese_dynamically_2013
-- one thing that is being explored is the coordination through not only common ground, but matching of aspects (e.g. time-scales, change rates, etc) of the dynamics. Complexity matching in particular: @abney_complexity_2014 , @roy_predicting_2015
-- syntax is only one level in the path that keeps growing and encompasses broader social stuff. See e.g. the feel of different social being in different languages: @evans_your_2011
-
-
-
-- compared to CAT, this flavour gives you a different perspective/framework than representations, which gives a notion of relevance (that is, value to participants) straight up, but not how value can be transposed from another situation (that is, repetition/recognition, work done by the notion of representation). C&S 2008: "the idea that thinking is computation allows one to see haw abstractions (numbers, meanings) can be encodoed in a mechanical system."
-- right now it's applicable at the very low-level, but needs some work to structure communication
-- the two are not far from one another, as they provide a foundation and use of relevance to an organism (as CS2008 say, "the very same systems can profitably be explained dynamically and mechanically")
+The two approaches can be seen as starting from different descriptive levels and building what is missing for an account of meaning (though this characterisation does not exhaust their differences):
+RT starts with representations and symbolic processing, which are implementable in bodies (by following the model of computers) and come already structured in similar ways to abstract language, and constructs on top of those a notion of meaning, with a corresponding interpretation procedure (inference), that is subtle and flexible enough to apply to fuzzy cases like poetry or loose language.
+The Enactive approach starts from an embodied and dynamic notion of meaning, which by definition exists for all organisms and need not be inferred, but comes without any particular structure, and builds its account of language by detailing how interaction (and thus meaning) can become increasingly structured through a series of emerging levels of interactive normativity.
+^[In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations, and a mechanism for how they represent that content.
+For more details, see again @hutto_radicalizing_2013 on the hard problem of content.
+@harvey_content_2015 also provides a useful discussion of that question.
+]
+Unlike RT, it does not (yet) provide a clear way to compare meanings across interactive situations, as its very definition of meaning is intrinsically related to the subtle differences of dynamics in different interations.
+In RT, that work is done by the notion of representation (or more precisely, the informative intention that is inferred and represented), which is supposed to be more directly comparable to other representations.
+In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level details.
+Still, we believe that both approaches could be usefully combined for the study of meaning-related cultural evolution.
 
 
 ### Outside the linguistic domain
