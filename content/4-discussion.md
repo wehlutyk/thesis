@@ -30,10 +30,10 @@ Next, we present in more detail two possible approaches to pragmatics and meanin
 Finally, we present possibilities for refining and advancing the debate through empirical investigation.
 
 
-## Empirical epidemiology of linguistic representations
+## Empirical epidemiology of linguistic representations {#sec:discussion-empirical}
 
 
-### Relevant results
+### Relevant results {#sec:discussion-empirical-results}
 
 The path we took so far has consisted in entirely adopting the cultural attraction paradigm and developing experiments to evaluate one of its strong hypotheses, namely the existence of attractors in the evolution of representations.
 Indeed, cultural attractors are in many ways a cornerstone for the theory, as they reflect its explanation of the stability of culture in spite of strong micro-level transformations (they are the product of ecological and psychological factors interacting with each other), and they provide intelligibility into the complexity of cultural change as a whole.
@@ -61,7 +61,7 @@ Nonetheless, these studies demonstrate that it is possible to decompose the tran
 They further suggest that, due to cognitive biases in the way utterances and words are recalled, the evolution of short utterances like quotations could be subject to an attractor at the lexical level, making the words of utterances gradually easier to recall, on top of other changes in the actual content conveyed.
 
 
-### Challenges
+### Challenges {#sec:discussion-empirical-challenges}
 
 However, these studies do not tell us the way utterances evolve semantically.
 Indeed, apart from the vector-based comparison of individual words for scoring matched and mismatched pairs in utterance alignments (an arguably simplistic approach to word comparison), none of the analyses we put forward have a grip on the meaning of the utterances, and much less on the change in meaning upon transformation.
@@ -383,7 +383,7 @@ We present here the main theory going under the name "enactive approach", and do
 While this will by no means do justice to the complete approach, we hope these stages will provide a clear-enough stetch of the dynamical and embodied account of cognition that the enactive approach develops and proposes to use instead of the computational metaphor of mind.
 
 
-#### Sensorimotor contingencies
+#### Stage 1: sensorimotor contingencies
 
 The first stage is a reconceptualisation of the way an organism perceives its environment.
 This conceptualisation, known as the sensorimotor approach to perception [and thoroughly developed for vision by @oregan_sensorimotor_2001], essentially takes perception to be an exploratory activity based on a continuous perception-action loop.
@@ -407,7 +407,7 @@ they begin to perceive objects as not on their skin but in front of them (in par
 Such experiments have contributed to showing that perception and action are two sides of the same dynamical interaction loop with the environment, and by generalising to other modalities, they suggest that sensorimotor contingencies provide an endogenous account of perceptual consciousness.
 
 
-#### Sense-making
+#### Stage 2: sense-making
 
 The second stage extends this approach to life itself [here we follow @de_jaegher_participatory_2007; and @thompson_mind_2007].
 In a nutshell, it can be seen as taking the reconceptualisation operated by the sensorimotor approach, which goes from a notion of perceptual consciousness based on inference to a notion made of sensorimotor contingencies arising in perception-action loops, and applying it to meaning in cognition:
@@ -433,7 +433,7 @@ Notice how the enactive notion of meaning is defined in a parallel manner to the
 instead of being inferred and represented, it is a property of the dynamics of the system's interaction with its environment.
 
 
-#### Participatory sense-making
+#### Stage 3: participatory sense-making
 
 The third stage extends the theory to interaction between two autonomous systems, and introduces the notion of an autonomy of the interaction itself.
 @de_jaegher_participatory_2007 develop this in two steps.
@@ -449,6 +449,7 @@ The experiment shows instead that they are not able to make the distinction indi
 subjects individually fail the task while succeeding collectively, in a way that can only by understood because of the inherent (and unnoticed) stability of their interaction.
 The principle highlighted by this experiment is that of the stability of *perceptual crossings*:
 two organisms can have a dynamically stable interaction because they each look for a behaviour that they themselves create, without necessarily being aware of that fact (for instance mutual gaze of an infant and his mother, where the infant may not be aware that his mother maintains the gaze because he does too).
+Variations and detailed behaviours in this experimental paradigm have been extensively explored in this literature, providing further support for the results above [see for instance @bedia_quantifying_2014; @froese_embodied_2014].
 
 Second, @de_jaegher_participatory_2007 argue that such stable interactions can acquire an autonomy of their own.
 An example that most people have experienced in everyday life usefully illustrates their point:
@@ -462,29 +463,87 @@ when two organisms interact while at the same time regulating their coupling to 
 Similarly to organisms, then, it acquires an identity of its own, and an interest in maintaining that identity:
 in that case, since the couplings of each organism to their environment and with each other have an impact on the continuation of the interaction, they become meaningful *to the interaction* which can then partly regulate them.
 A new sense-making activity thus appears at the level of the interaction itself, a level that neither of the participants fully control, and which has the potential to create constraints on them.
-This notion is termed *participatory sense-making* [@de_jaegher_participatory_2007].
+This notion, termed *participatory sense-making* [@de_jaegher_participatory_2007], has become a key building block of the enactive theory of interaction as it provides a well-founded and naturalised path to explaining emergent effects in interactions.
 
 
-#### Languaging
+#### Stage 4: languaging
 
 The fourth and final stage brings us to language.
 Relying on the concepts defined above, @cuffari_participatory_2015 propose to see language as a specially structured pattern of participatory sense-making, governed by several levels of conventions interlocked with one another.
+More precisely, since a crucial feature of participatory sense-making is that the interaction itself acquires regularities that neither participant controls, it follows that interactions create some sort of tension between the way individual organisms regulate their autonomy and the regularities that the interaction may impose on them if they are to continue interacting.
+Consider once again the perceptual crossing experiment introduced above.
+In the initial setup by @auvray_perceptual_2009, subjects are not able to distinguish between the other's cursor and its shadow, such that prosociality is neither presupposed nor observed and yet the pair collectively succeeds in accomplishing the task (clicking more on the other's real cursor than on any other object on the shared line).
+They succeed because the interaction that appears when the two cursors cross each other is naturally stable:
+when the subjects cross each other, both are informed by haptic feedback, such that both come back on their steps to explore the object they just touched.
+The interaction thus leads both cursors to criss-cross each other for a small period of time, until one of them moves a bit too far and the stability breaks down;
+this kind of behaviour does not appear when a cursor touches a shadow, as in that case one of two subjects is not informed of the encounter.
+Thus the stability of the interaction results from the way the spontaneous actions of the two subjects dynamically interlock and become coupled;
+this is a regularity at the level of the interaction that participants do not control, and do not even detect (recall that they fail to individually distinguish between the other's real cursor and their shadow).
+
+Now suppose that subjects can be sensitive to that regularity:
+a tension appears between the naturally occurring stability, on one side, and the way subjects would like to act.
+Indeed, subjects become able to identify when they are in the course of a stable interaction and when they are not, but have a priori no way of influencing that interaction without breaking it, since its very existence relies on the naive behaviour described above:
+the only way to interact is by following the naive rules.
+@froese_embodied_2014 created exactly that situation with two small changes to the perceptual crossing experiment:
+first, they allowed each participant a single click per session, making them much more conservative in their behaviours;
+second, they framed the experiment as a cooperative task where subjects should help each other in detecting each other's cursor (subjects are still not aware of the behaviour of the shadow cursor).
+In this situation, subjects become sensitive to interactive stabilities, and most importantly they manage to resolve the tension described above.
+Instead of both cursors permanently criss-crossing each other, a kind of turn-taking behaviour spontaneously appears where one subject stays still while the other criss-crosses it, then the roles are reversed and the first one criss-crosses the second one that is now staying still.
+Thus a new order of interactive regularity appears, built on the previous one:
+turn-taking in the perceptual crossing.
+^[Interestingly, the authors also ask the subjects to give Perceptual Awareness Scale ratings for the moments at which they click, and find that such turn-taking episodes correspond to a mutually heightened perceptual awareness of the presence of an other.
+]
+
+@cuffari_participatory_2015 generalise and recursively expand this kind of emergence of a higher-order interactive norm.
+The level we just described corresponds to the emergence of what they call *co-defined social acts*.
+Co-defined social acts are like salutations, or acts of giving and receiving:
+they cannot be completed by one person alone.
+One person initiates the act (e.g. extending a tentative hand to be shaken in the case of a salutation, or holding out your keys to the person you want to give them to), but the other person must appropriately react to that initiation in order to complete the act (grasping the extended hand and shaking both together, for the case of salutation, or taking the keys offered in the case of giving and receiving).
+Otherwise the act fails and the interaction breaks down.
+On top of this level of normativity, another level can develop when social acts themselves serve to regulate other social acts (e.g. ostentatively staring at your own extended hand to signal to your interlocutor that they should shake it), leading to yet another higher level of normativity.
+The expansion thus continues by building each level of normativity as the resolution of a tension between the types of individual and interactive autonomies that exist at the previous level.
+@cuffari_participatory_2015 propose 8 levels of normativitiy,
+^[The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
+]
+each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
+Often, the new regularity and its regulation by the participants appears at a different time scale, or in a different dimension than at the previous level.
+The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step accounts for additional aspects of full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015 p. 32].
+To our knowledge, the higher levels of this expansion have not yet been empirically validated in the manner described above for the first two levels.
+The theory nonetheless proposes a clear roadmap for constructing an explanation of language, meaning, and linguistic interactions which is fully grounded in the dynamics of interaction between participants.
+More precisely, the explanation is in terms of recursive regularities and conventions in social interactions.
+Similarly to how the sensorimotor approach to perception accounts for visual consciousness in terms of regularities in the perception-action loop, the enactive approach accounts for meaning itself as being a combination of aspects of the regularities in social interactions.
+
+
+#### Discussion
+
+A number of points can be noted about the approach we just outlined.
+Overall, the approach strongly reflects the intuitive idea hinted to in our previous discussion of meaning changes in transmission chains (@sec:discussion-empirical-results):
+in meaningful interactions, "everything matters".
+More precisely, anything *can* matter:
+any seemingly minor detail of the dynamics of an interaction may (or may not) become extremely important if for some reason the participants are sensitive to it in one way or another, and rely for instance on it to resolve a tension.
+In particlar, the (sometimes necessary) simplifications that are encouraged by an approach starting from symbolic processing can easily neglect aspects of meaningful interactions which turn out to be essential ingredients, ingredients that can be picked up by a reconstruction starting from simpler interactions such as the one encouraged by an enactive standpoint.
+As noted previously, the problem here is the extreme complexity of interactions and contextual situations, which the enactive approach tackles by using the language and tools of dynamical systems theory [see for instance @beer_dynamical_2000;-@beer_dynamical_2014].
 
 
 
 
+- needs more models and empirical investigation of higher levels (though the lower levels are very promising). more experimental review: @dale_self-organization_2014. software agents with concerns: @botelho_software_2015, software agents that are coupled: @froese_dynamically_2013
+- one thing that is being explored is the coordination through not only common ground, but matching of aspects (e.g. time-scales, change rates, etc) of the dynamics. Complexity matching in particular: @abney_complexity_2014 , @roy_predicting_2015
+- syntax is only one level in the path that keeps growing and encompasses broader social stuff. See e.g. the feel of different social being in different languages: @evans_your_2011
 
-- C&S 2008: "the idea that thinking is computation allows one to see haw abstractions (numbers, meanings) can be encodoed in a mechanical system."
-- this flavour gives you a different perspective/framework than representations, which gives a notion of relevance (that is, value to participants) straight up, but not how value can be transposed from another situation (that is, repetition/recognition, work done by the notion of representation)
-- it's applicable at the very low-level, but needs some work to structure communication
 
+
+- compared to CAT, this flavour gives you a different perspective/framework than representations, which gives a notion of relevance (that is, value to participants) straight up, but not how value can be transposed from another situation (that is, repetition/recognition, work done by the notion of representation). C&S 2008: "the idea that thinking is computation allows one to see haw abstractions (numbers, meanings) can be encodoed in a mechanical system."
+- right now it's applicable at the very low-level, but needs some work to structure communication
 - the two are not far from one another, as they provide a foundation and use of relevance to an organism (as CS2008 say, "the very same systems can profitably be explained dynamically and mechanically")
 
 
 ### Outside the linguistic domain
 (from article)
 
-- going without representations is not limited to the linguistic domain, and CAT's reliance on it is grounds for critique by ingold
+- might be apparent by now that the enactive approach is different to what could be expected in CAT
+- not necessarily in contradiction, but it definitely fits with some concerns of anthropology with CAT
+- CAT's reliance on representations is grounds for critique by ingold
 - three layers of description in CAT
 - three degrees of critique, relating to NCT/DST
 - however, the question comes back as to whether you can compare different values emerging in particularity (as that work is done by representations)
@@ -492,6 +551,13 @@ Relying on the concepts defined above, @cuffari_participatory_2015 propose to se
 
 ## Down to empirical study
 ways to move forward
+
+- RT is extremely subtle in all the effects it discusses and wants to explain
+- it's also what should normally be plugged in to CAT when analysing meaningful representations (or at least we can suppose Sperber meant that)
+- but in practice, CAT encourages more of a code model (with associated dualism) by giving so much autonomy to representations
+- that's not a reason to drop CAT, but it is a reason to look for approaches (possibly pluggable into CAT) which do not lead us astray (in particular the Enactive approach) and try to connect them with CAT
+
+- @beer_information_2015 is an example of relating the two in experimental approaches
 
 - further determine if they compete for the exact same space
 - it's a productive contradiction to build from (without falling into scholasticism), which can inspire experiments
