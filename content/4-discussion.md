@@ -566,26 +566,38 @@ Still, we believe that both approaches could be usefully combined for the study 
 
 
 ### Outside the linguistic domain
-(from article)
 
-- might be apparent by now that the enactive approach is different to what could be expected in CAT
-- not necessarily in contradiction, but it definitely fits with some concerns of anthropology with CAT
-- CAT's reliance on representations is grounds for critique by ingold
-- three layers of description in CAT
-- three degrees of critique, relating to NCT/DST
-- however, the question comes back as to whether you can compare different values emerging in particularity (as that work is done by representations)
+- might be apparent by now that the enactive approach is different to what could be expected in CAT, as it is one of the non-representational approaches
+- CAT's approach to representations is not definite though (and can be seen as another starting point), so it's not necessarily in contradiction
+- but the open questions on meaning, highlighted by the Enactive approach, definitely reflect some concerns of anthropology with CAT, around the idea of a certain identifiability of ideas/representations
+
+- three layers of description in CAT: biological / cognitive / cultural
+- three degrees of critique, relating to NCT/DST and Enaction: dualisms at each level / separation between biological and cultural / organisms are not well defined
+
+- massive modularity in particular, which CAT initially relied on (though talk about that is less now, as CAT insists more on the interaction of cognitive and environmental factors), is quite at odds with the enactive approach, and the innateness it requires has the biological-cultural problem; @gibbs_jr._adaptive_2010 discusses the point for cognition
+- the question about the biological/cultural or genetic/non-genetic divide is very real, relates to NCT/DST, and is also well discussed by @griffiths_genetics_2013 (read intro); we take it as an open question about how to cluster the inheritance lifecycles, and cluster the artefacts they use (genetics, texts, practices, etc.)
+- given the approaches presented above, the question about the identifiability of representations is quite real (also in practice), i.e. having to compare different values emerging in particularity (as that work is supposedly done by representations, or interpretatively on pre-chosen dimensions, which amounts to quantitative sociology and obviates an account of what matters to the subjects)
+
+- now the core concern of CAT is still real: where does the stability come from; and the idea of a multi-scale dynamics of culture is very useful
 
 
 ## Down to empirical study
-ways to move forward
 
 - RT is extremely subtle in all the effects it discusses and wants to explain
 - it's also what should normally be plugged in to CAT when analysing meaningful representations (or at least we can suppose Sperber meant that)
 - but in practice, CAT encourages more of a code model (with associated dualism) by giving so much autonomy to representations
-- that's not a reason to drop CAT, but it is a reason to look for approaches (possibly pluggable into CAT) which do not lead us astray (in particular the Enactive approach) and try to connect them with CAT
+- that's not a reason to drop CAT, but it is a reason to look for approaches (possibly pluggable into CAT) which do not lead us astray (in particular the Enactive approach), and explore if they require us to change CAT (e.g. because of meaning identifiability, and if so, how much) and relate that to Ingold's idea of educating attention
 
-- @beer_information_2015 is an example of relating the two in experimental approaches
+- @beer_information_2015 is an example of relating mechanistic and dynamical in experimental approaches (check that their mechanistic stuff could correspond to what RT does)
+- so it's a productive contradiction to build from (without falling into scholasticism), which can inspire experiments
 
-- further determine if they compete for the exact same space
-- it's a productive contradiction to build from (without falling into scholasticism), which can inspire experiments
-- explore how much more context constrains the evolution of utterances
+- now ideas, at the complex end:
+  - small interactions where the subjects accept (or not) the sentences, giving them a horse in the race
+  - Camille's idea of categorised meanings with hand-coded classes
+  - fully-controlled games where interpretation is induced
+  - fully-measured situations, for instance @roy_predicting_2015, for which smartphone psychology is a boon
+- at the simple end:
+  - one point is to flesh out Enaction into full language
+  - a second point is to understand how to have normativity in meaning (how meaning can be replicable or repeatable, what would that be, what would it entail)
+  - another is to see how conventions and sense-making evolve in a community
+- integrating cognitive niches or other such evolutionary stuff, and clustering inheritance lifecycles, is a whole other game
