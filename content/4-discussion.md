@@ -532,7 +532,7 @@ The poorer the match in dynamics in a given dimension at a given scale, the more
 Higher levels of interactive normativity will likely involve yet larger timescales [a point that could for instance be related to multi-scale complexity matching in conversations, @abney_complexity_2014].
 
 @dale_self-organization_2014 provide a review of the empirical work that has already been done in (not exclusively enactive) dynamical approaches to interaction.
-Interesting low-level illustrations of the enactive approach are also found in software implementations:
+At the level of simple interactions, promising applications have been made through software implementations:
 @botelho_software_2015, for instance, develop software agents endowed with inherent goals, such that they could have a very simple but endogenous notion of meaning;
 @froese_dynamically_2013 further illustrate the dynamical coupling of maximally simple software agents that manage to collectively solve a task precisely (and only) thanks to their coupling (similar to what the perceptual crossing paradigm explores with human subjects).
 Now as regards language itself, the approach evidently needs to be much further developed and empirically explored.
@@ -546,7 +546,6 @@ In the words of @evans_your_2011, who develops this link between a language and 
 "Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011 p. 70].
 The enactive account of social interaction provides a natural continuity between a particular language and the type of agency that go with it, and one can expect this type of phenomenon to be explicable once the theory has been further fleshed out.
 
-Let us finally come back to the relevance of this approach to Cultural Attraction Theory.
 Compared to Relevance Theory, the Enactive approach starts from radically simpler types of interaction, and relies neither on a capacity for symbolic processing nor on internal representations of the environment.
 This makes the approach slightly more involved to present than Relevance Theory.
 In spite of their differencs, both approaches provide a notion of relevance or value to the individual, which is then used to ground a notion of meaning (be it linguistic or not).
@@ -560,25 +559,30 @@ For more details, see again @hutto_radicalizing_2013 on the hard problem of cont
 @harvey_content_2015 also provides a useful discussion of that question.
 ]
 Unlike RT, it does not (yet) provide a clear way to compare meanings across interactive situations, as its very definition of meaning is intrinsically related to the subtle differences of dynamics in different interations.
-In RT, that work is done by the notion of representation (or more precisely, the informative intention that is inferred and represented), which is supposed to be more directly comparable to other representations.
+In RT, that work is theoretically done by the notion of representation (or more precisely, the informative intention that is inferred and represented), although in practice much remains to be defined to directly compare representations between each other.
 In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level details.
-Still, we believe that both approaches could be usefully combined for the study of meaning-related cultural evolution.
 
+This finally brings us back to the usefulness of the Enactive approach for CAT.
+As might be apparent by now, the non-representational account of meaning it develops is not the most straightforward to integrate in CAT.
+Still, the fact that CAT is formulated in terms of representations is not necessarily constraining:
+similarly to the case of RT, representations can be seen as a particular starting point for the description without a strong import for the ontology of what is being transmitted or evolved,
+^[Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is quite close to non-representational views of content [@harvey_content_2015].
+]
+and we see no reason to consider a priori that the two approaches would be incompatible.
+^[However, at this point of the discussion it is interesting to note a parallel between, on one side, the criticism that the Enactive approach opposes to the computational metaphor of cognitive science, and on the other side the criticism that Developmental Systems Theory opposes to the gene-centred view of evolution.
+Both challengers criticise the dominant view of their field for providing a description that reifies a notion of information, which is seen as encoded in an object of the theory (genes for biology, representations for cognitive science).
+More precisely, without disagreeing on empirical facts, they both argue that having an object in the theory that is seen as containing or encoding information creates a dualism which itself creates artificial problems to explain.
+Both challengers thus recontextualise or deflate the role of the "informational" object (genes and cognitive representations) and emphasise that information is better maintained at the level of covariance between the behaviour of two objects (versus being encoded in one object).
+Tim Ingold has developed this parallel at length [-@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007], arguing that the whole project of Darwin-inspired approaches to cultural change (and CAT in particular) relies on such informational dualism, and is thus deeply misguided.
+The alternative he proposes is heavily inspired by dynamical approaches to cognition (such as the Enactive approach) and a developmental focus on biology and heredity.
+We agree that Developmental Systems Theory (as well as the Extended Evolutionary Synthesis) and dynamical approaches to cognition provide very promising resolutions of long-standing dichotomies in their fields.
+However, we believe that the core question that CAT tackles, that is the existence of cultural stability in the face of strong micro-level changes, remains to be explained.
+We further believe that, similarly to how Developmental Systems Theory is perfectly compatible with darwinian principles of evolution, the main tools that CAT uses to answer its question (dynamical stability arising from the interaction of diverse cognitive and ecological factors) could be compatible with these approaches.
+]
+Indeed, we believe that dynamical approaches to cognition could be usefully combined with CAT, and contrasted with Relevance Theory, for the study of meaning-related cultural evolution.
 
-### Outside the linguistic domain
-
-- might be apparent by now that the enactive approach is different to what could be expected in CAT, as it is one of the non-representational approaches
-- CAT's approach to representations is not definite though (and can be seen as another starting point), so it's not necessarily in contradiction
-- but the open questions on meaning, highlighted by the Enactive approach, definitely reflect some concerns of anthropology with CAT, around the idea of a certain identifiability of ideas/representations
-
-- three layers of description in CAT: biological / cognitive / cultural
-- three degrees of critique, relating to NCT/DST and Enaction: dualisms at each level / separation between biological and cultural / organisms are not well defined
-
-- massive modularity in particular, which CAT initially relied on (though talk about that is less now, as CAT insists more on the interaction of cognitive and environmental factors), is quite at odds with the enactive approach, and the innateness it requires has the biological-cultural problem; @gibbs_jr._adaptive_2010 discusses the point for cognition
-- the question about the biological/cultural or genetic/non-genetic divide is very real, relates to NCT/DST, and is also well discussed by @griffiths_genetics_2013 (read intro); we take it as an open question about how to cluster the inheritance lifecycles, and cluster the artefacts they use (genetics, texts, practices, etc.)
-- given the approaches presented above, the question about the identifiability of representations is quite real (also in practice), i.e. having to compare different values emerging in particularity (as that work is supposedly done by representations, or interpretatively on pre-chosen dimensions, which amounts to quantitative sociology and obviates an account of what matters to the subjects)
-
-- now the core concern of CAT is still real: where does the stability come from; and the idea of a multi-scale dynamics of culture is very useful
+One important question in this endeavour will be to determine if it can make sense to compare meanings across interactive situations, inferred (for RT) or enacted (for the Enactive approach) by different people in different situations.
+Another way of formulating this problem is to ask what amounts to the *repetition* of a meaning (or what is the equivalence regime of meanings), either in RT or in the Enactive approach, a question that must be decided both theoretically and empirically in order to talk about the evolution of meanings.
 
 
 ## Down to empirical study
@@ -600,4 +604,4 @@ Still, we believe that both approaches could be usefully combined for the study 
   - one point is to flesh out Enaction into full language
   - a second point is to understand how to have normativity in meaning (how meaning can be replicable or repeatable, what would that be, what would it entail)
   - another is to see how conventions and sense-making evolve in a community
-- integrating cognitive niches or other such evolutionary stuff, and clustering inheritance lifecycles, is a whole other game
+- integrating cognitive niches or other such evolutionary stuff, and clustering inheritance lifecycles, is a whole other game (and not necessary to solve straight away to make progress)
