@@ -529,7 +529,7 @@ while interacting organisms need to have comparable dynamics to make it possible
 For instance, coupling in perceptual crossing experiments is likely to emerge only when the subjects make movements of comparable magnitude at the sub-second timescale.
 Turn-taking on the other hand, is likely to require the subjects to have comparable behaviour at the timescale of a few seconds (the duration of a turn in turn-taking).
 The poorer the match in dynamics in a given dimension at a given scale, the more difficult it should be for a coupling to appear in that dimension at that scale.
-Higher levels of interactive normativity will likely involve yet larger timescales [a point that could for instance be related to multi-scale complexity matching in conversations, @abney_complexity_2014].
+Higher levels of interactive normativity will likely involve yet larger timescales [a point that could be related to multi-scale complexity matching in conversations, @abney_complexity_2014].
 
 @dale_self-organization_2014 provide a review of the empirical work that has already been done in (not exclusively enactive) dynamical approaches to interaction.
 At the level of simple interactions, promising applications have been made through software implementations:
@@ -542,18 +542,22 @@ on the enactive account, the grammar of a particular language as it is classical
 In particular, if the grammar-related normativity levels differ, the levels above and below will also, a fact that could correspond to the different types of agency, and of interaction, afforded by different languages.
 Any speaker who is fluent enough in more than one language has experienced the change in the way social interactions feel and unfold when switching from one language to another (the effect is strongest when using different languages with the same person).
 English and Spanish for instance afford different types of interactions, as one constrains meanings differently than the other, each language implicitly expressing a particular set of relationships and making it necessary to spell out other parts more explicitly.
-In the words of @evans_your_2011, who develops this link between a language and social interaction:
+In the words of @evans_your_2011, who details this link between a language and social interaction:
 "Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011 p. 70].
-The enactive account of social interaction provides a natural continuity between a particular language and the type of agency that go with it, and one can expect this type of phenomenon to be explicable once the theory has been further fleshed out.
+The enactive account of social interaction provides a natural continuity between a particular language and the type of agency that goes with it, and one can expect this type of phenomenon to be explicable once the theory has been further fleshed out.
+
+
+### Applied to cultural attraction
 
 Compared to Relevance Theory, the Enactive approach starts from radically simpler types of interaction, and relies neither on a capacity for symbolic processing nor on internal representations of the environment.
 This makes the approach slightly more involved to present than Relevance Theory.
-In spite of their differencs, both approaches provide a notion of relevance or value to the individual, which is then used to ground a notion of meaning (be it linguistic or not).
+In spite of their differences, both approaches provide a notion of relevance or value to the individual, which is then used to ground a notion of meaning (be it linguistic or not).
 Unlike RT, the enactive notion of meaning exists even in the most basic types of interaction an organism can have with its environment.
 
 The two approaches can be seen as starting from different descriptive levels and building what is missing for an account of meaning (though this characterisation does not exhaust their differences):
-RT starts with representations and symbolic processing, which are implementable in bodies (by following the model of computers) and come already structured in similar ways to abstract language, and constructs on top of those a notion of meaning, with a corresponding interpretation procedure (inference), that is subtle and flexible enough to apply to fuzzy cases like poetry or loose language.
-The Enactive approach starts from an embodied and dynamic notion of meaning, which by definition exists for all organisms and need not be inferred, but comes without any particular structure, and builds its account of language by detailing how interaction (and thus meaning) can become increasingly structured through a series of emerging levels of interactive normativity.
+RT starts with representations and symbolic processing, which are implementable in bodies (by following the model of computers) and come already structured in similar ways to language, and constructs on top of those a notion of meaning, with a corresponding interpretation procedure (inference), that is subtle and flexible enough to apply to fuzzy cases like poetry or loose language.
+The Enactive approach starts from an embodied and dynamic notion of meaning, which by definition exists for all organisms and need not be inferred, but comes without any particular structure;
+this approach then builds its account of language by detailing how interaction (and thus meaning) can become increasingly structured through a series of emerging levels of interactive normativity.
 ^[In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations, and a mechanism for how they represent that content.
 For more details, see again @hutto_radicalizing_2013 on the hard problem of content.
 @harvey_content_2015 also provides a useful discussion of that question.
@@ -562,46 +566,110 @@ Unlike RT, it does not (yet) provide a clear way to compare meanings across inte
 In RT, that work is theoretically done by the notion of representation (or more precisely, the informative intention that is inferred and represented), although in practice much remains to be defined to directly compare representations between each other.
 In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level details.
 
-This finally brings us back to the usefulness of the Enactive approach for CAT.
-As might be apparent by now, the non-representational account of meaning it develops is not the most straightforward to integrate in CAT.
-Still, the fact that CAT is formulated in terms of representations is not necessarily constraining:
-similarly to the case of RT, representations can be seen as a particular starting point for the description without a strong import for the ontology of what is being transmitted or evolved,
+This finally brings us back to the usefulness of both these approaches for CAT.
+Without he does not flesh out the connection, @sperber_explaining_1996 refers repeatedly to RT as an important tool to understand the role of interpretation in the epidemiology of representations;
+indeed, the information-processing account provided by RT fits well with the representational foundation of CAT.
+But the fact that CAT is formulated in terms of representations is not necessarily a theoretical constraint to integrate it with an enactive approach to meaning:
+similarly to what we argued above for RT, information-processing can be seen as a particular starting point for the description with no strong import for the ontology of what is being transmitted or evolved,
 ^[Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is quite close to non-representational views of content [@harvey_content_2015].
 ]
 and we see no reason to consider a priori that the two approaches would be incompatible.
-^[However, at this point of the discussion it is interesting to note a parallel between, on one side, the criticism that the Enactive approach opposes to the computational metaphor of cognitive science, and on the other side the criticism that Developmental Systems Theory opposes to the gene-centred view of evolution.
-Both challengers criticise the dominant view of their field for providing a description that reifies a notion of information, which is seen as encoded in an object of the theory (genes for biology, representations for cognitive science).
-More precisely, without disagreeing on empirical facts, they both argue that having an object in the theory that is seen as containing or encoding information creates a dualism which itself creates artificial problems to explain.
-Both challengers thus recontextualise or deflate the role of the "informational" object (genes and cognitive representations) and emphasise that information is better maintained at the level of covariance between the behaviour of two objects (versus being encoded in one object).
-Tim Ingold has developed this parallel at length [-@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007], arguing that the whole project of Darwin-inspired approaches to cultural change (and CAT in particular) relies on such informational dualism, and is thus deeply misguided.
+
+In current practice however, the fact that CAT gives so much autonomy to a contentful notion of representation encourages empirical approaches to use a code model and give context a minimal role (i.e. a representation is an encoding of some content).
+Most applications thus strip down the context-dependence of CAT, thus bypassing the motivation for Relevance Theory in the first place.
+By not seeing that the contents of a representation are inherently contextual and constructed in interaction, one reduces the cultural evolution process to a simple accumulation of interpretations that do not rely on context:
+such a simple model depicts representations as being straightforwardly interpreted into mental versions (with some degree of transformation through reconstruction) then produced anew as public versions (again with some degree of transformation), and the circulation and tranformation of representations creates a dynamical system with attractors.
+As we just saw, both the Enactive approach and RT show that taking context into account drastically changes the picture.
+The fact that it is possible to easily degrade CAT into a code model theory also suggests that integrating it with an approach to meaning might require some amendments.
+We thus see great value in contrasting and possibly combining the two approaches to replace the naive code model that is used in many applications of CAT.
+In practice, attempting to apply these two approaches will also let us explore if the theory must be amended in order to fully take the situatedness of meaning into account.
+^[Anthropologist Tim Ingold, for instance, has argued at length that the whole project of a Darwin-inspired theory of cultural change can only make sense if one accepts a misguided dualism between context-free information on one side and material implementation on the other, a dualism that is encouraged by the computational metaphor of cognition [@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007].
+The requirement of being able to compare meanings across situations (so as to analyse their evolution), in particular, would rest on being able to identify information that exists independently of the situation in which it emerged.
 The alternative he proposes is heavily inspired by dynamical approaches to cognition (such as the Enactive approach) and a developmental focus on biology and heredity.
-We agree that Developmental Systems Theory (as well as the Extended Evolutionary Synthesis) and dynamical approaches to cognition provide very promising resolutions of long-standing dichotomies in their fields.
-However, we believe that the core question that CAT tackles, that is the existence of cultural stability in the face of strong micro-level changes, remains to be explained.
-We further believe that, similarly to how Developmental Systems Theory is perfectly compatible with darwinian principles of evolution, the main tools that CAT uses to answer its question (dynamical stability arising from the interaction of diverse cognitive and ecological factors) could be compatible with these approaches.
+While we agree that computational approaches to cognition are prone to such dualism, information-processing analyses can also be used as a tool to combine with dynamical approaches, without taking the computational metaphor too seriously.
+Moreover, we see no reason to believe that dynamical approaches could not be compatible with Darwin-inspired approaches to cultural change.
+The question of how to relate meanings from different interactive situations is, we believe, better tackled through further formalisation and empirical investigation of the available accounts of meaning.
 ]
-Indeed, we believe that dynamical approaches to cognition could be usefully combined with CAT, and contrasted with Relevance Theory, for the study of meaning-related cultural evolution.
-
-One important question in this endeavour will be to determine if it can make sense to compare meanings across interactive situations, inferred (for RT) or enacted (for the Enactive approach) by different people in different situations.
-Another way of formulating this problem is to ask what amounts to the *repetition* of a meaning (or what is the equivalence regime of meanings), either in RT or in the Enactive approach, a question that must be decided both theoretically and empirically in order to talk about the evolution of meanings.
 
 
-## Down to empirical study
+## Meaning: an empirical approach
 
-- RT is extremely subtle in all the effects it discusses and wants to explain
-- it's also what should normally be plugged in to CAT when analysing meaningful representations (or at least we can suppose Sperber meant that)
-- but in practice, CAT encourages more of a code model (with associated dualism) by giving so much autonomy to representations
-- that's not a reason to drop CAT, but it is a reason to look for approaches (possibly pluggable into CAT) which do not lead us astray (in particular the Enactive approach), and explore if they require us to change CAT (e.g. because of meaning identifiability, and if so, how much) and relate that to Ingold's idea of educating attention
+Following @chemero_after_2008 and @beer_information_2015, we believe that contrasting and combining practical uses of the information-processing and dynamical approaches is the best way to move forward in debates that otherwise turn into scholasticism.
+This section proposes a few avenues to do so in the context of meaning-related cultural evolution.
+We separate approaches in two categories:
+first, approaches similar to the paradigm presented in the previous chapter, which work with ecological material;
+call this the complex starting point, as an analysis of such data must deal with the full complexity of language.
+Second, approaches similar to the perceptual crossing paradigm, which work with much simpler interaction situations;
+call this the minimal starting point, where the dimensionality of behaviours is lower, such that it is easier to understand complex dynamical patterns.
+We begin with suggestions for the first category that extend the transmission chain paradigm with elements inspired from Relevance Theory.
+We then advance a few proposals on the path to integrate the Enactive approach with principles from CAT.
 
-- @beer_information_2015 is an example of relating mechanistic and dynamical in experimental approaches (check that their mechanistic stuff could correspond to what RT does)
-- so it's a productive contradiction to build from (without falling into scholasticism), which can inspire experiments
 
-- now ideas, at the complex end:
-  - small interactions where the subjects accept (or not) the sentences, giving them a horse in the race
-  - Camille's idea of categorised meanings with hand-coded classes
-  - fully-controlled games where interpretation is induced
-  - fully-measured situations, for instance @roy_predicting_2015, for which smartphone psychology is a boon
-- at the simple end:
-  - one point is to flesh out Enaction into full language
-  - a second point is to understand how to have normativity in meaning (how meaning can be replicable or repeatable, what would that be, what would it entail)
-  - another is to see how conventions and sense-making evolve in a community
+### Complex starting point
+
+#### Hand-coded meaning classes
+
+Our first point is not so much an approach as an analysis method that combines manual and computational steps.
+It is directly applicable to the data sets of the previous chapter without necessarily adding a notion of context, but is also usable for analysing the data that would be generated by the approaches we delineate further down.
+
+Its first step is to devise a manual measure of the similarity between random pairs of utterances in a tree;
+given such a manual measure, a dimensionality reduction method can identify classes of meanings in the tree, and attribute each utterance of the tree to a particular meaning class.
+The operation makes the evolution much more manageable, as each utterance is now assigned to one of a finite number of meaning classes.
+Since such classes can be approximately represented in a 2-dimensional space (a result of the dimensionality reduction based on similarity measures), it then becomes possible to plot the evolution happening in each tree and observe when a transformation creates a transition from one class to another.
+The transition probabilities between each meaning class also give an idea of the types of transformations that happen most often at the level of meanings, as encoded in the first step.
+
+The main challenge for this method is the first step, that is gathering manual measures of similarity between utterances in a tree.
+One reliable approach to this problem is to gather similarity ratings in a triad comparison task [@romney_culture_1996]:
+manual coders are presented with three utterances, and must decide which of the three is most different in meaning to the other two (in which case the other two are considered to have some degree of similarity).
+While the complete set of triad comparisons grows as $n^3$ ($n$ being the number of utterances in a tree) and is thus too expensive for trees containing 71 utterances (such as in Experiment 3 in the previous chapter), it is not necessary to rate all the combinations in order to obtain a reliable measure.
+Indeed, in the complete set of triad comparisons, each pair of utterances appears $n-2$ times.
+The so-called Balanced-Incomplete Block Design [@weller_systematic_1988 pp. 49-55] compares triads without repeating pairs more than a fixed number of times, in which case the number of triads grows as $n^2$.
+^[A design where each pair appears once for $n = 70$ does not exist, however designs exist for $n = 69$ or $n = 73$, and can be created by removing utterances or adding dummy utterances.
+$n = 69$ yields 805 triad comparisons, and $n = 73$ yields 876 [see @weller_systematic_1988 for the detailed computation].
+More reliable measures can be obtained by having each pair appear twice, which doubles the number of triad comparisons.
+]
+Triad comparisons can be obtained in large quantities by outsourcing the task on platforms such as Amazon Mechanical Turk, or can alternatively be integrated in the online transmission chain platform.
+^[Consider for instance an experiment similar to Experiment 3 of the previous chapter, with 71 utterances per tree (one root, and 7 branches of 10 reformulations), and a targeted 70 subjects in total.
+In a given tree, the number of triad comparisons with each pair appearing exactly once is at most 876 (see previous footnote), which can be distributed as an average 12.51 comparisons per subject.
+Counting about 20 seconds per comparison, the added comparisons thus require each subject to spend, on average, an additional 4m10s on each tree.
+Given that individual transformations took an average 1m12s in Experiment 3, that is subjects spend on average 1m12s on each tree in Experiment 3, this conservative estimate multiplies the total cost of the experiment by about 4.5.
+Collecting these triad comparisons for all the trees is thus quite costly, but doing it for one or two trees only is very affordable.
+]
+
+The modified Correspondence Analysis used by @romney_culture_1996 on this type of data yields an $n$-dimensional representation of the utterances, where the first dimension distinguishes the utterances the most, and the last dimension the least.
+Utterances can then be plotted on the first two dimensions, grouped into classes by a clustering method, and the evolution along the branches thus reduced to transitions between meaning classes.
+Such a measure would provide an interesting first insight into the meaningful transformations operated by the subjects.
+
+
+#### Minimal interactions
+
+- small interactions where the subjects accept (or not) the sentences, giving them a horse in the race
+
+
+#### Fully controlled contexts
+
+- fully-controlled games where interpretation is induced
+
+
+#### Fully measured contexts
+
+- fully-measured situations, for instance @roy_predicting_2015, for which smartphone psychology is a boon
+
+
+### Minimal starting point
+
+#### Validating higher levels of normativity
+
+- one point is to flesh out Enaction into full language
+
+
+#### Discretising and comparing meanings
+
+- a second point is to understand how to have normativity in meaning (how meaning can be replicable or repeatable, what would that be, what would it entail)
+
+
+#### Evolving sense-making in a community
+
+- another is to see how conventions and sense-making evolve in a community
+
 - integrating cognitive niches or other such evolutionary stuff, and clustering inheritance lifecycles, is a whole other game (and not necessary to solve straight away to make progress)
