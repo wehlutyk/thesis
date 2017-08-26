@@ -1,3 +1,3 @@
-# Conclusion
+# General conclusion {-}
 
 # References

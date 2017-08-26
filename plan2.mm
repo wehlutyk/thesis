@@ -546,8 +546,8 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_1316511126" MODIFIED="1503061702685" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1502998983451" TEXT="Introduction">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_1316511126" MODIFIED="1503699073807" POSITION="right" TEXT="Gistr">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1503699072149" TEXT="Introduction">
 <node CREATED="1502304411984" ID="ID_1330131425" MODIFIED="1502304418417" TEXT="reasons">
 <node CREATED="1502304435946" ID="ID_1025963882" MODIFIED="1502304480150" TEXT="for linguistic content, there are transmission bias studies, iterated learning, and online such as BCP"/>
 <node CREATED="1502304487282" ID="ID_1624503362" MODIFIED="1502304536226" TEXT="transmission bias is very high level, iterated learning is on artificial content, and online is very low level because of missing information"/>
@@ -580,7 +580,7 @@
 <node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500549265564" TEXT="A model for transformations, that we gradually refine and map out"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1502401482566" TEXT="Related Work">
+<node COLOR="#669900" CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1503699070037" TEXT="Related Work">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502303404416" ID="ID_366332993" MODIFIED="1502401480246" TEXT="There is a ridiculously big catalog of transmission biases">
 <node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1502370475467" TEXT="Bartlett mother of all, Bangerter 2000 personification, Bebbington negativity bias, Mesoudi &amp; Whiten hierarchical bias, Mesoudi, Whiten &amp; Dunbar social bias, Counter-intuitiveness (bloodletting Miton, Claidi&#xe8;re, &amp; Mercier, 2015, Norenzayan 2006, Barrett &amp; Nyhof 2001), Acerbi &amp; Tehrani conformity/prestige bias (without transmission)"/>
@@ -601,11 +601,11 @@
 <node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1502315414459" TEXT="Smartphone/Web psychology opens a way of collecting big while controlling the framing (e.g. Daydreaming)"/>
 </node>
 </node>
-<node CREATED="1493669627078" FOLDED="true" ID="ID_677883916" MODIFIED="1502460600229" TEXT="General Methods">
+<node CREATED="1493669627078" FOLDED="true" ID="ID_677883916" MODIFIED="1503699066598" TEXT="General Methods">
 <node COLOR="#ff0000" CREATED="1500752225277" ID="ID_1496990986" MODIFIED="1500752246145" TEXT="Reorganise this outline once the text is settled">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#669900" CREATED="1493669232382" FOLDED="true" ID="ID_891608720" MODIFIED="1500752254306" TEXT="Experiment design principles">
+<node COLOR="#669900" CREATED="1493669232382" FOLDED="true" ID="ID_891608720" MODIFIED="1503699062467" TEXT="Experiment design principles">
 <node CREATED="1500577254765" ID="ID_119937155" MODIFIED="1500644423590" TEXT="Transmission chains are the obvious way to go">
 <node CREATED="1500579412424" ID="ID_1903213209" MODIFIED="1500579426919" TEXT="They&apos;re the obvious way to go given the questions left open in the BCP chapter"/>
 <node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500579460191" TEXT="Problems from BCP: missing links to have a complete view, missing read-write details, missing context"/>
@@ -647,7 +647,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493669236975" FOLDED="true" ID="ID_654496403" MODIFIED="1500752252284" TEXT="Trials and errors in the design">
+<node COLOR="#669900" CREATED="1493669236975" FOLDED="true" ID="ID_654496403" MODIFIED="1503699063941" TEXT="Trials and errors in the design">
 <node CREATED="1500549991463" ID="ID_1401648938" MODIFIED="1500549995325" TEXT="For what we want">
 <node CREATED="1500549851431" ID="ID_1806848484" MODIFIED="1500549855448" TEXT="Read-write parameters"/>
 <node CREATED="1500549634651" ID="ID_259812830" MODIFIED="1500549642515" TEXT="UI hints and affordances">
@@ -663,7 +663,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493670174797" FOLDED="true" ID="ID_1154961931" MODIFIED="1500752253399" TEXT="Choice of sources and the timings">
+<node COLOR="#669900" CREATED="1493670174797" FOLDED="true" ID="ID_1154961931" MODIFIED="1503699065924" TEXT="Choice of sources and the timings">
 <node CREATED="1500552076924" ID="ID_1913648352" MODIFIED="1500552089959" TEXT="Vast possibilities for exploration"/>
 <node CREATED="1500552436595" ID="ID_1704538879" MODIFIED="1500552459087" TEXT="The experiment design makes the fit with sentences relatively narrow">
 <node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500644771269" TEXT="Some sentences are more susceptible to changes"/>
@@ -726,7 +726,7 @@
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
 </node>
-<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1502587190808" TEXT="Discussion">
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1503699055920" TEXT="Discussion">
 <node CREATED="1502460485295" ID="ID_1023750844" MODIFIED="1502460487399" TEXT="Caveats">
 <node COLOR="#669900" CREATED="1500542573667" ID="ID_1688581920" MODIFIED="1502493735533" TEXT="Alignment procedure">
 <node CREATED="1500542878084" ID="ID_387893442" MODIFIED="1500542878084" TEXT="no block replacement (implementable but a lot of work), so I code them as indels"/>
@@ -784,7 +784,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1502459265825" TEXT="Attic">
+<node CREATED="1500369238483" ID="ID_263844156" MODIFIED="1503699025437" TEXT="Attic">
 <node CREATED="1496063613136" ID="ID_557548698" MODIFIED="1496063622885" TEXT="Approval by ethical board?"/>
 <node CREATED="1493670170670" ID="ID_1234200292" MODIFIED="1493735463488" TEXT="High-level questions">
 <node CREATED="1493670312549" ID="ID_1968842191" MODIFIED="1493735473925" TEXT="Exp 1: Initially, testing for convergence"/>
@@ -805,12 +805,12 @@
 <node COLOR="#ff0000" CREATED="1493710780051" ID="ID_1824948192" MODIFIED="1493711426152" TEXT="What exactly?"/>
 </node>
 </node>
-<node CREATED="1493655409373" ID="ID_1331299227" MODIFIED="1493736031939" TEXT="Synthesis of positive results">
+<node COLOR="#669900" CREATED="1493655409373" FOLDED="true" ID="ID_1331299227" MODIFIED="1503434577483" TEXT="Synthesis of positive results">
 <node CREATED="1493669429075" ID="ID_295290723" MODIFIED="1493669430540" TEXT="MT">
 <node CREATED="1493669331808" ID="ID_1224440570" MODIFIED="1493669476674" TEXT="Patterns compatible with convergence, applying CAT to online behaviour"/>
 <node CREATED="1493669398214" ID="ID_1241198916" MODIFIED="1493669441808" TEXT="Proof-of-concept for connecting online data to psycholinguistics"/>
 </node>
-<node COLOR="#ff0000" CREATED="1493669481954" ID="ID_1839179845" MODIFIED="1494009338411" TEXT="Gistr">
+<node CREATED="1493669481954" ID="ID_1839179845" MODIFIED="1503233929587" TEXT="Gistr">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -837,21 +837,23 @@
 </node>
 <node CREATED="1493709128157" ID="ID_985105476" MODIFIED="1494009491432" TEXT="Review the &quot;No Theory of Content&quot; problem">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1493717779005" ID="ID_1984119433" MODIFIED="1493736031951" TEXT="In my work">
+<node COLOR="#669900" CREATED="1493717779005" FOLDED="true" ID="ID_1984119433" MODIFIED="1503434572209" TEXT="In my work">
 <node CREATED="1493657060913" ID="ID_398917637" MODIFIED="1493717799258" TEXT="Surfaces as the meaning/interpretation problem">
-<node CREATED="1497602191674" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
+<node CREATED="1497602191674" ID="ID_1836795607" MODIFIED="1497602191674" TEXT="Why was this problem not apparent beforehand? Because there was a possibility that an attractor would be visible and obvious in the gistr data, which would have obviated the problem of content. There wasn&apos;t of course, and so we are faced with the real question: on what dimensions should we define meaningful representations."/>
 </node>
 <node CREATED="1493575674274" ID="ID_193169863" MODIFIED="1493717868154" TEXT="And leads to an under-specified CV problem">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493576093254" ID="ID_1033465813" MODIFIED="1493656003801" TEXT="What level do you choose to look at"/>
 <node CREATED="1493578059852" ID="ID_660237896" MODIFIED="1493578100240" TEXT="Maybe a consequence of not wanting a GUT, but that doesn&apos;t bring theory then"/>
 </node>
-<node CREATED="1493719848890" ID="ID_100848672" MODIFIED="1493720202114" TEXT="Divides into: content problem, context problem, dynamics problem (critics argue these are all the same)"/>
+<node COLOR="#999999" CREATED="1493719848890" ID="ID_100848672" MODIFIED="1503434570968" TEXT="Divides into: content problem, context problem, dynamics problem (critics argue these are all the same)">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
 </node>
 <node CREATED="1493709180550" ID="ID_1655961620" MODIFIED="1494005538090" TEXT="For context, there is">
-<node CREATED="1494005526601" ID="ID_1724782550" MODIFIED="1494005555864" TEXT="Relevance Theory for language">
-<node CREATED="1493712374053" ID="ID_984289985" MODIFIED="1493712397963" TEXT="Not aware of implementations, but could work in principle"/>
-<node CREATED="1498158151029" ID="ID_1152579183" MODIFIED="1498158193382" TEXT="Relevance Theory is not so far from this the enactive approach: it defines &quot;comprehension&quot; in terms of what is relevant to the individual: &quot;an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect&quot; (wilson-relevance-2004, p. 608), so both theories are pretty much competing for the same space (but starting from opposite ends). RT and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 for a discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life&apos;s organisation: sub-organism, and super-organism, such that much meaning is co-created."/>
+<node COLOR="#669900" CREATED="1494005526601" ID="ID_1724782550" MODIFIED="1503434571775" TEXT="Relevance Theory for language">
+<node CREATED="1493712374053" ID="ID_984289985" MODIFIED="1503434571775" TEXT="Not aware of implementations, but could work in principle"/>
+<node CREATED="1498158151029" ID="ID_1152579183" MODIFIED="1503434571775" TEXT="Relevance Theory is not so far from the enactive approach: it defines &quot;comprehension&quot; in terms of what is relevant to the individual: &quot;an input is relevant to an individual when its processing in a context of available assumptions yields a positive cognitive effect&quot; (wilson-relevance-2004, p. 608), so both theories are pretty much competing for the same space (but starting from opposite ends). RT and the languaging approach are both compatible with Grice (see cuffari-gestural-2012 for a discussion). One difference may be about dualisms (RT presupposes some form of propositions, I believe). Another about the continuous nature of meaning, that can appear at various levels of life&apos;s organisation: sub-organism, and super-organism, such that much meaning is co-created."/>
 </node>
 <node CREATED="1494005539674" ID="ID_1997099142" MODIFIED="1494364543560" TEXT="Niche construction / DST for global life cycle"/>
 </node>
@@ -873,6 +875,9 @@
 <node COLOR="#ff0000" CREATED="1493659841429" ID="ID_1074701157" MODIFIED="1494009606700" TEXT="Teasing apart approaches to meaning, and approaches to dualism"/>
 <node CREATED="1494009679014" ID="ID_1124418195" MODIFIED="1494009689828" TEXT="This might help differentiate long-term approaches"/>
 </node>
+<node CREATED="1503093952984" ID="ID_943727224" MODIFIED="1503093981541" TEXT="Camille&apos;s idea of categorised meanings with hand-coded classes"/>
+<node CREATED="1503163591023" ID="ID_1849359238" MODIFIED="1503168925929" TEXT="Fully-controlled games where interpretation is induced"/>
+<node CREATED="1503168926481" ID="ID_1781374548" MODIFIED="1503168937709" TEXT="Fully-measured situations, for instance Deb Roy"/>
 <node CREATED="1494337382908" ID="ID_1162664349" MODIFIED="1494337456584" TEXT="See Gibson&apos;s remark on headrest opening the experimental study of vision, but not being all of it (The Ecological Approach..., 1979: xv)"/>
 <node COLOR="#ff0000" CREATED="1494060312465" ID="ID_856107366" MODIFIED="1494095753024" TEXT="What else should be done to operationlise in a long-term project? How do we turn these philosophical questions into empirical questions?"/>
 <node CREATED="1493659868199" ID="ID_634762012" MODIFIED="1496245286249" TEXT="Sharing tools to empower, developing Smartphone psychology"/>
