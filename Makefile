@@ -13,7 +13,8 @@ SRC = $(sort $(filter-out $(ABSTRACT_SRC),$(wildcard $(CONTENT)/*.$(MEXT))))
 #PREFIX = $(HOME)/.pandoc
 
 ## Location of your working bibliography file
-BIB := $(CONTENT)/bibliography.bib
+BIB_SRC := $(CONTENT)/bibliography.bib
+BIB := $(CONTENT)/bibliography-fixed.bib
 
 ## CSL stylesheet (located in the csl folder of the PREFIX directory).
 #CSL = apsa
@@ -34,6 +35,9 @@ define print-info =
 endef
 
 default: $(PDFS)
+
+$(BIB): $(BIB_SRC)
+	@cat $(BIB_SRC) | sed 's/age--acquisition/age-of-acquisition/g' > $(BIB)
 
 thesis.pdf: $(SRC) $(BIB)
 	@$(print-info)

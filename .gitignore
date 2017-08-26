@@ -1,5 +1,9 @@
 # LibreOffice stuff
 .~lock*
 
+# No more Zotero BetterBibTex means we have to fix citation keys by hand
+# Makefile does that for us, but we don't keep the left-overs
+content/bibliography-fixed.bib
+
 # Svg latex package
 svg-inkscape/
