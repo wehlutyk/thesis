@@ -7,3 +7,7 @@ content/bibliography-fixed.bib
 
 # Svg latex package
 svg-inkscape/
+
+# Built pdfs
+thesis.pdf
+abstract.pdf
