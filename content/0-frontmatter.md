@@ -2,8 +2,7 @@
 title: |
   \large PhD Dissertation \
   \LARGE Epidemiology of Representations:\
-  An Empirical Approach\
-  \large ---original title may change---
+  An Empirical Approach
 author: |
   Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
