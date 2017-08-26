@@ -641,22 +641,64 @@ Utterances can then be plotted on the first two dimensions, grouped into classes
 Such a measure would provide an interesting first insight into the meaningful transformations operated by the subjects.
 
 
-#### Minimal interactions
+#### Minimal interaction and context
 
-- small interactions where the subjects accept (or not) the sentences, giving them a horse in the race
+The transmission chain paradigm can also be tweaked in at least two ways to begin exploring the role of context and interaction.
+One area to explore is to consider utterances not in isolation, but as part of a contextual paragraph.
+The surrounding paragraph could provide enough background for subjects to have a feel of what it amounts to pronounce that utterance in context.
+The task can then be framed as role-playing:
+subjects would be asked to imagine the scene depicted by the paragraph they just read, imagine themselves as the person pronouncing the last utterance (or an utterance in the middle, highlighted as they were reading), and rewrite it.
+The larger the context, the more constrained we expect interpretation to be, thus the more limited we expect transformations to be.
 
+A second change, which can be combined with the first, is to introduce minimal forms of live communication in the task so as to embed the subjects in an actual communicative task.
+For instance, the transmission step could be turned into a minimal interaction where the first subject proposes an utterance (that is, their memorisation of what they read) and the second can either accept it or ask for a better reformulation (up to a maximum number of times), in which case the first subject must rewrite their proposal.
+The interaction requires a fine balance of bonuses and rejection penalties so that the functionality is not abused, but it gives subjects an interest in the task:
+a receiving subject is encouraged to ask for a consistent utterance, because they will later be asked to pass on their own memorisation of that utterance to another subject.
+Combining such minimal interactions with contextual paragraphs could further ensure that subjects do not change to a completely different utterance in order to see their proposal accepted:
+if the receiver is presented with the contextual paragraph when deciding to accept or reject the proposed utterance, then they will expect the two to be consistent with each other.
 
-#### Fully controlled contexts
-
-- fully-controlled games where interpretation is induced
+While these changes allow us to introduce minimal forms of context and interaction in a transmission chain, the paradigm dissociates the complexity of one communication means, namely the utterances (which have highly complex linguistic structure), from the complexity of another communication means, namely the interaction itself (which is minimal).
+This is quite compatible with Relevance Theory, but the result is still somewhat unecological:
+if context and interactive situation are crucial to the way meaning is understood (according to both Relevance Theory and the Enactive approach), it would be more natural to match the complexity allowed by the interactive situation with the complexity of other communication means that are provided to the subjects.
+At the very least, it seems necessary to have an interactive situation at least as versatile as the productions that are asked of the subjects.
+Thus, asking subjects to write complex utterances while constraining their non-verbal interaction to a binary acceptance-rejection outcome still only makes sense in a code model theory, where complex meanings can be understood in spite of the interactive situation being extremely simple.
+To create situations where the meshing of context, interaction and meaning can be understood, then, it is necessary to match the complexity of all the communicative means provided to the subjects (interactive, verbal, or other).
+In what follows we discuss possibilities for analysing situations where the complexity is close to that of real life.
+We then move on to situations where both the interaction situation and the possible meanings have a much reduced complexity.
 
 
 #### Fully measured contexts
 
-- fully-measured situations, for instance @roy_predicting_2015, for which smartphone psychology is a boon
+In some cases, it is possible to fully measure all observables in an unconstrained interactive situation.
+The first way of doing this is to have enough sensors in an *in vivo* situation:
+the Human Speechome Project [@roy_human_2006], for instance, equips a family's house with wide-angle ceiling cameras and microphones that map the entire space of the house, and records the quasi-totality of what happens in the first three years of the life of a newborn in the family (with some privacy controls).
+Everything the child hears and sees, all the interactions she is involved in are taped in a way that makes it possible to reconstitute the detailed movements, vocal productions, and relevant interactive features (such as gaze) of participants.
+The analysis of such rich data is humongous and involves many novel semi-automated coding techniques (as the dozens of data-analysis publications related to the project^[See \url{https://www.media.mit.edu/cogmac/projects/hsp.html} for a full list.] attest to), but gives access to the full detail of interactions that a child is exposed to in her house.
+@roy_predicting_2015, for instance, use the data to explore the spatial and linguistic contexts in which a child is exposed to a word, and relate them to the context in which she first produces said word.
+Such longitudinal multi-modal data is exactly the type of measurement that is necessary to fully understand the meaning that is produced in an interaction, explore when that meaning is reproduced, and see how it changes through time.
+
+The second way is to create an *in vitro* interactive situation that is as encompassing as possible, and measure every possible aspect of the interaction in it.
+In the laboratory, this corresponds to the approach taken by @moussaid_amplification_2015, who taped unconstrained pairwise conversations chained one after the other, hand-coded them for specific features, and then measured the evolution of such features along chains.
+Another approach consists in taking advantage of online video games that create complete worlds in which the interactions of players can be measured in multiple modalities (gaming behaviours and parallel verbal conversations), as has been used for instance in the study of language learning [@zheng_multimodal_2012].
+As developing such a game for experimental purposes involves a substantial investment however, researchers must rely on existing gaming environments and communities to access the data.
+
+Fully measuring unconstrained interactions is thus one way of matching the complexity of the different communicative means available to the subjects.
+However, the problem with this approach for cultural evolution is precisely the increased complexity of context and interaction:
+existing works use important manual or semi-manual steps in their analyses, such that their access to meaning in the data is in large part interpretive.
+Using the relevance-theoretic approach to delve into the detail of how meaning is inferred in such situations is likely to become quickly unmanageable.
+We therefore turn to the other end of the spectrum:
+approaches which, by relying on the Enactive account for which simpler meanings can exist without the requirement of symbolic processing, manage to lower the complexity of interactions and possible meanings without creating trivial tasks.
 
 
 ### Minimal starting point
+
+The minimal starting point cashes out the empirical appeal of the Enactive approach:
+using paradigms similar to that of perceptual crossing, one can create interactions that have meaning to the participants without the need to use complex linguistic material.
+In such a situation, participants interact through a combination of low-dimensional channels in a task that has inherent meaning to them;
+both the interaction and the meaning that emerges from its dynamics, however, are reduced to extremely low complexity.
+Therefore, while this approach does not let participants communicate in a manner anywhere close to meanings in everyday life, it lets the experimenter introduce complexity in experimental tasks little by little, with the end goal of creating situations whose complexity can approach that of actual linguistic interactions.
+Let us detail how this could be done in practice.
+
 
 #### Validating higher levels of normativity
 
@@ -668,8 +710,9 @@ Such a measure would provide an interesting first insight into the meaningful tr
 - a second point is to understand how to have normativity in meaning (how meaning can be replicable or repeatable, what would that be, what would it entail)
 
 
-#### Evolving sense-making in a community
+#### Evolving minimal sense-making in a community
 
 - another is to see how conventions and sense-making evolve in a community
+
 
 - integrating cognitive niches or other such evolutionary stuff, and clustering inheritance lifecycles, is a whole other game (and not necessary to solve straight away to make progress)

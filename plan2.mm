@@ -546,8 +546,8 @@
 <node CREATED="1493654094088" ID="ID_1489096018" MODIFIED="1493654097525" TEXT="Discussion"/>
 <node CREATED="1493654098650" ID="ID_1878195409" MODIFIED="1493654108321" TEXT="Concluding remarks"/>
 </node>
-<node CREATED="1493653580005" FOLDED="true" ID="ID_1316511126" MODIFIED="1503061702685" POSITION="right" TEXT="Gistr">
-<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1502998983451" TEXT="Introduction">
+<node CREATED="1493653580005" FOLDED="true" ID="ID_1316511126" MODIFIED="1503699073807" POSITION="right" TEXT="Gistr">
+<node CREATED="1493669206627" FOLDED="true" ID="ID_814065689" MODIFIED="1503699072149" TEXT="Introduction">
 <node CREATED="1502304411984" ID="ID_1330131425" MODIFIED="1502304418417" TEXT="reasons">
 <node CREATED="1502304435946" ID="ID_1025963882" MODIFIED="1502304480150" TEXT="for linguistic content, there are transmission bias studies, iterated learning, and online such as BCP"/>
 <node CREATED="1502304487282" ID="ID_1624503362" MODIFIED="1502304536226" TEXT="transmission bias is very high level, iterated learning is on artificial content, and online is very low level because of missing information"/>
@@ -580,7 +580,7 @@
 <node CREATED="1500363823091" ID="ID_519112235" MODIFIED="1500549265564" TEXT="A model for transformations, that we gradually refine and map out"/>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1502401482566" TEXT="Related Work">
+<node COLOR="#669900" CREATED="1493669606965" FOLDED="true" ID="ID_1998896082" MODIFIED="1503699070037" TEXT="Related Work">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502303404416" ID="ID_366332993" MODIFIED="1502401480246" TEXT="There is a ridiculously big catalog of transmission biases">
 <node CREATED="1494060591330" ID="ID_1251882216" MODIFIED="1502370475467" TEXT="Bartlett mother of all, Bangerter 2000 personification, Bebbington negativity bias, Mesoudi &amp; Whiten hierarchical bias, Mesoudi, Whiten &amp; Dunbar social bias, Counter-intuitiveness (bloodletting Miton, Claidi&#xe8;re, &amp; Mercier, 2015, Norenzayan 2006, Barrett &amp; Nyhof 2001), Acerbi &amp; Tehrani conformity/prestige bias (without transmission)"/>
@@ -601,11 +601,11 @@
 <node CREATED="1500544705194" ID="ID_1789087592" MODIFIED="1502315414459" TEXT="Smartphone/Web psychology opens a way of collecting big while controlling the framing (e.g. Daydreaming)"/>
 </node>
 </node>
-<node CREATED="1493669627078" FOLDED="true" ID="ID_677883916" MODIFIED="1502460600229" TEXT="General Methods">
+<node CREATED="1493669627078" FOLDED="true" ID="ID_677883916" MODIFIED="1503699066598" TEXT="General Methods">
 <node COLOR="#ff0000" CREATED="1500752225277" ID="ID_1496990986" MODIFIED="1500752246145" TEXT="Reorganise this outline once the text is settled">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#669900" CREATED="1493669232382" FOLDED="true" ID="ID_891608720" MODIFIED="1500752254306" TEXT="Experiment design principles">
+<node COLOR="#669900" CREATED="1493669232382" FOLDED="true" ID="ID_891608720" MODIFIED="1503699062467" TEXT="Experiment design principles">
 <node CREATED="1500577254765" ID="ID_119937155" MODIFIED="1500644423590" TEXT="Transmission chains are the obvious way to go">
 <node CREATED="1500579412424" ID="ID_1903213209" MODIFIED="1500579426919" TEXT="They&apos;re the obvious way to go given the questions left open in the BCP chapter"/>
 <node CREATED="1500551167303" ID="ID_1417141788" MODIFIED="1500579460191" TEXT="Problems from BCP: missing links to have a complete view, missing read-write details, missing context"/>
@@ -647,7 +647,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493669236975" FOLDED="true" ID="ID_654496403" MODIFIED="1500752252284" TEXT="Trials and errors in the design">
+<node COLOR="#669900" CREATED="1493669236975" FOLDED="true" ID="ID_654496403" MODIFIED="1503699063941" TEXT="Trials and errors in the design">
 <node CREATED="1500549991463" ID="ID_1401648938" MODIFIED="1500549995325" TEXT="For what we want">
 <node CREATED="1500549851431" ID="ID_1806848484" MODIFIED="1500549855448" TEXT="Read-write parameters"/>
 <node CREATED="1500549634651" ID="ID_259812830" MODIFIED="1500549642515" TEXT="UI hints and affordances">
@@ -663,7 +663,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#669900" CREATED="1493670174797" FOLDED="true" ID="ID_1154961931" MODIFIED="1500752253399" TEXT="Choice of sources and the timings">
+<node COLOR="#669900" CREATED="1493670174797" FOLDED="true" ID="ID_1154961931" MODIFIED="1503699065924" TEXT="Choice of sources and the timings">
 <node CREATED="1500552076924" ID="ID_1913648352" MODIFIED="1500552089959" TEXT="Vast possibilities for exploration"/>
 <node CREATED="1500552436595" ID="ID_1704538879" MODIFIED="1500552459087" TEXT="The experiment design makes the fit with sentences relatively narrow">
 <node CREATED="1500552490458" ID="ID_1303607565" MODIFIED="1500644771269" TEXT="Some sentences are more susceptible to changes"/>
@@ -726,7 +726,7 @@
 </node>
 <node CREATED="1500486473421" ID="ID_1452538780" MODIFIED="1500486489264" TEXT="Application to Mesoudi and Popava case studies"/>
 </node>
-<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1502587190808" TEXT="Discussion">
+<node CREATED="1493670279014" FOLDED="true" ID="ID_1275305847" MODIFIED="1503699055920" TEXT="Discussion">
 <node CREATED="1502460485295" ID="ID_1023750844" MODIFIED="1502460487399" TEXT="Caveats">
 <node COLOR="#669900" CREATED="1500542573667" ID="ID_1688581920" MODIFIED="1502493735533" TEXT="Alignment procedure">
 <node CREATED="1500542878084" ID="ID_387893442" MODIFIED="1500542878084" TEXT="no block replacement (implementable but a lot of work), so I code them as indels"/>
@@ -784,7 +784,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1500369238483" FOLDED="true" ID="ID_263844156" MODIFIED="1502459265825" TEXT="Attic">
+<node CREATED="1500369238483" ID="ID_263844156" MODIFIED="1503699025437" TEXT="Attic">
 <node CREATED="1496063613136" ID="ID_557548698" MODIFIED="1496063622885" TEXT="Approval by ethical board?"/>
 <node CREATED="1493670170670" ID="ID_1234200292" MODIFIED="1493735463488" TEXT="High-level questions">
 <node CREATED="1493670312549" ID="ID_1968842191" MODIFIED="1493735473925" TEXT="Exp 1: Initially, testing for convergence"/>
