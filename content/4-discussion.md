@@ -463,6 +463,14 @@ The system is thus in a permanent tension to regenerate the conditions for the c
 Since interactions with the environment are necessary for the network of processes to keep self-generating, the system is continuously regulating the strength of its coupling with the environment in order to maintain its identity.
 Interaction with the environment then becomes inherently meaningful to the system, and the Enactive approach calls it "sense-making".
 
+![Sense-making:
+an autonomous system self-produces both itself and its separation from the environment (circling arrow);
+it is coupled to its environment (full arrows), and actively regulates the coupling in order to maintain its identity (dotted arrows).
+Reproduced from @froese_enactive_2011
+(©2010 E. Di Paolo;
+Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+](images/discussion/froese_enactive_2011-sense_making.jpg)
+
 In this framework, cognition *is* precisely the sense-making activity, that is a system's actively regulating its coupling to the environment in order to maintain its identity.
 Notice how the enactive notion of meaning is defined in a parallel manner to the sensorimotor account of perceptual consciousness:
 instead of being a piece of information that is inferred and represented, it is something that is felt as a property of the dynamics of the system's interaction with its environment.
@@ -490,6 +498,16 @@ The principle highlighted by this experiment is that of the stability of *percep
 two organisms can have a dynamically stable interaction because they each look for a behaviour that they themselves create, without necessarily being aware of that fact (for instance mutual gaze of an infant and his mother, where the infant may not be aware that his mother maintains the gaze because he does too).
 Variations and detailed behaviours in this experimental paradigm have been extensively explored in this literature, providing further support for the results above [see for instance @bedia_quantifying_2014; @froese_embodied_2014].
 
+![Perceptual crossing setup introduced by @auvray_perceptual_2009.
+Each participant controls a cursor on a shared virtual line (red squares), to which a sensor is attached (black ticks next to the red squares).
+The movements of each participant's cursor are mirrored by a shadow cursor (blue squares).
+Each participant additionally has a fixed obstacle on the line (one obstacle for each participant, black squares).
+Participants do not see the line or cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
+Reproduced from @de_jaegher_can_2010
+(©2010 H. De Jaegher, E. Di Paolo and S. Gallagher;
+Licenced under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+](images/discussion/de_jaegher_can_2010-perceptual_crossing.jpg)
+
 Second, @de_jaegher_participatory_2007 argue that such stable interactions can acquire an autonomy of their own.
 An example that most people have experienced in everyday life usefully illustrates their point:
 when trying to cross someone else in the corridor of a train, and moving to the side to avoid them, at times the other person spontaneously moves to the same side you did;
@@ -505,6 +523,13 @@ A new sense-making activity thus appears at the level of the interaction itself,
 This act, where two participants co-regulate an interaction that is beyond complete individual control, is termed *participatory sense-making* [@de_jaegher_participatory_2007].
 It has become a key building block of the enactive theory of interaction as it provides a well-founded and naturalised path to explaining emergent effects in interactions.
 It is also the foundation on which the enactive account of language is constructed, as we will now see in the fourth and final stage.
+
+![Participatory sense-making:
+each organism regulates its coupling with the environment, but the two regulations become themselves coupled such that the interaction between the two organisms acquires a level of autonomy of its own.
+Reproduced from @froese_enactive_2011
+(©2010 E. Di Paolo;
+Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+](images/discussion/froese_enactive_2011-participatory_sense_making.jpg)
 
 
 #### Stage 4: languaging
@@ -529,7 +554,7 @@ first, they allowed each participant a single click per session, making them muc
 second, they framed the experiment as a cooperative task where subjects should help each other in detecting each other's cursor (subjects are still not aware of the behaviour of the shadow cursor).
 In this situation, subjects become sensitive to interactive stabilities, and most importantly they manage to resolve the tension described above.
 Instead of both cursors permanently criss-crossing each other, a kind of turn-taking behaviour spontaneously appears where one subject stays still while the other criss-crosses it, then the roles are reversed and the first one criss-crosses the second one that is now staying still.
-Thus a new order of interactive regularity appears, built on the previous one:
+Thus a new level of interactive regularity appears, built on the previous one:
 turn-taking in the perceptual crossing.
 ^[Interestingly, the authors also ask the subjects to give Perceptual Awareness Scale ratings for the moments at which they click, and find that such turn-taking episodes correspond to a mutually heightened perceptual awareness of the presence of an other.
 ]
@@ -538,31 +563,42 @@ turn-taking in the perceptual crossing.
 The level we just described corresponds to the emergence of what they call *co-defined social acts*.
 Co-defined social acts are like salutations, or acts of giving and receiving:
 they cannot be completed by one person alone.
-One person initiates the act (e.g. extending a tentative hand to be shaken in the case of a salutation, or holding out your keys to the person you want to give them to), but the other person must appropriately react to that initiation in order to complete the act (grasping the extended hand and shaking both together, for the case of salutation, or taking the keys offered in the case of giving and receiving).
+One person can initiate a social act with a *partial act* (e.g. extending a tentative hand to be shaken in the case of a salutation, or holding out your keys to the person you want to give them to), but the other person must appropriately react to that initiation in order to complete the act (grasping the extended hand and shaking both together, for the case of salutation, or taking the keys offered in the case of giving and receiving).
 Otherwise the act fails and the interaction breaks down.
-On top of this level of normativity, another level can develop when social acts themselves serve to regulate other social acts (e.g. ostensively staring at your own extended hand to signal to your interlocutor that they should shake it), leading to yet another higher level of normativity.
+There is thus a new tension at this level:
+co-defined social acts can only be completed, or sustained, if both participants know how to behave when faced with a partial act.
+In the case of giving and receiving, if the person you are extending your keys to does not reach out to receive them, the act fails.
+In the case of perceptual crossing, this corresponds to one participant criss-crossing the other's cursor, and the other participant not responding with the same act;
+in such a case, turn-taking would not appear and the interaction would break down.
+
+Now, if in this situation participants become sensitive to the fact that a partial act is not being completed adequately, and if they have other social acts at their disposal, yet another level of
+interactive norm can develop:
+some social acts can be used to regulate other social acts (e.g. ostensively staring at your own extended hand to signal to your interlocutor that they should shake it).
+This new level of interactive norm then leads to its own tensions, which are again resolved by yet another higher interactive norm.
 The expansion thus continues by building each level of normativity as the resolution of a tension between the types of individual and interactive autonomies that exist at the previous level.
 @cuffari_participatory_2015 propose 8 levels of normativity,
 ^[The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
 ]
 each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
 Often, the new regularity and its regulation by the participants appears at a different time scale, or in a different dimension than at the previous level.
-The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step accounts for additional aspects of full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015 p. 32].
+The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step lays more of the groundwork necessary to construct full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015 p. 32].
 To our knowledge, the higher levels of this expansion have not yet been empirically validated in the manner described above for the first two levels.
-The theory nonetheless proposes a clear roadmap for constructing an explanation of language, meaning, and linguistic interactions which is fully grounded in the dynamics of interaction between participants.
-More precisely, the explanation is in terms of recursive regularities and conventions in social interactions.
-Similarly to how the sensorimotor approach to perception accounts for visual consciousness in terms of regularities in the perception-action loop, the Enactive approach accounts for meaning itself as being a combination of aspects of the regularities in social interactions.
+Indeed, as one progresses in the levels of normativity, the difficulty in creating simple interactive situations that can validate this proposal grows extremely.
+Still, the theory proposes a roadmap for making progress towards an explanation of language, meaning, and linguistic interactions which is fully grounded in the dynamics of interaction between participants.
+In such an account, linguistic meaning would appear as a particular structure of the interactive dynamics that is felt by its participants, and linguistic structure itself would result from the recursive interactive norms that are developed to resolve tensions in interacting communities.
+Here too, there is a parallel with the sensorimotor approach to perception:
+similarly to the way perception is seen as an exploration of the regularities of perception-action loops, the Enactive approach proposes an account of meaning itself as a regularity that is felt in social interaction, and structured by the contingencies of the interaction itself.
 
 
 #### Discussion
 
 A number of points can be noted about the approach we just outlined.
-Overall, the approach strongly reflects the intuitive idea hinted to in our previous discussion of meaning changes in transmission chains (@sec:discussion-empirical-results):
+First, it reflects the intuitive idea hinted to in our previous discussion of meaning changes in transmission chains (@sec:discussion-empirical-results):
 in meaningful interactions, "everything matters".
 More precisely, anything *can* matter:
 any seemingly minor detail of the dynamics of an interaction may (or may not) become extremely important if for some reason the participants are sensitive to it in one way or another, and rely on it for instance to resolve a tension.
-In particular, the simplifications that can occur when symbolically encoding utterances for use in Relevance Theory can neglect aspects of meaningful interactions which turn out to be essential ingredients.
-A reconstruction that starts from simpler interactions, such as the one encouraged by the enactive standpoint, is more likely to pick up on such ingredients.
+In particular, when starting from a higher level of description (such as symbolic processing in Relevance Theory), one can neglect aspects of meaningful interactions which turn out to be essential ingredients.
+A reconstruction that starts from both simpler interactions and simpler levels of description, such as the one encouraged by the enactive standpoint, is more likely to pick up on such ingredients.
 As noted previously, the problem here is the extreme complexity of interactions and contextual situations, which the Enactive approach tackles by starting from simpler (but, crucially, always meaningful) interactions, and by using the language and tools of dynamical systems theory [see for instance @beer_dynamical_2000;-@beer_dynamical_2014].
 A second point related to the "anything can matter" intuition is that the coordination of interacting organisms that is necessary to achieve dynamical coupling can rely on a diversity of dimensions:
 while interacting organisms need to have comparable dynamics to make it possible for an actual coupling to emerge in their interaction, different dimensions of the dynamics are eligible to that role at different levels of interactive normativity.
@@ -572,46 +608,50 @@ The poorer the match in dynamics in a given dimension at a given scale, the more
 Higher levels of interactive normativity will likely involve yet larger timescales [a point that could be related to multi-scale complexity matching in conversations, @abney_complexity_2014].
 
 @dale_self-organization_2014 provide a review of the empirical work that has already been done in (not exclusively enactive) dynamical approaches to interaction.
-At the level of simple interactions, promising applications have been made through software implementations:
+At the level of simple interactions, promising applications have been made with software implementations:
 @botelho_software_2015, for instance, develop software agents endowed with inherent goals, such that they could have a very simple but endogenous notion of meaning;
 @froese_dynamically_2013 further illustrate the dynamical coupling of maximally simple software agents that manage to collectively solve a task precisely (and only) thanks to their coupling (similar to what the perceptual crossing paradigm explores with human subjects).
 Now as regards language itself, the approach evidently needs to be much further developed and empirically explored.
 The problem seems tractable however, as the mysterious aspects of meaningful interaction are already part of the simpler levels of interaction that the current theory convincingly accounts for.
-We also note that the general approach of expanding normativity levels on top of the previous levels is promising in yet another aspect:
-on the enactive account, the grammar of a particular language as it is classically understood (i.e. structured utterances with phonetics, phonology, morphology and syntax in English or Spanish for instance -- leaving aside semantics and pragmatics since they are closer to meaning, which is accounted for across levels) could correspond to a particular expansion of normativity levels that differs from that of another language.
-In particular, if the grammar-related normativity levels differ, the levels above and below will also, a fact that could correspond to the different types of agency, and of interaction, afforded by different languages.
-Any speaker who is fluent enough in more than one language has experienced the change in the way social interactions feel and unfold when switching from one language to another (the effect is strongest when using different languages with the same person).
-English and Spanish for instance afford different types of interactions, as one constrains meanings differently than the other, each language implicitly expressing a particular set of relationships and making it necessary to spell out other parts more explicitly.
-In the words of @evans_your_2011, who details this link between a language and social interaction:
+
+Finally, let us note that the general approach of expanding normativity levels on top of the previous levels provides a natural continuity between language and other social interactions broadly construed, a property that is relevant when comparing meanings and interactions across languages.
+Any speaker who is fluent enough in more than one language has experienced the change in the way social interactions feel and unfold when switching from one language to another (the effect is strongest when using different languages with the same interlocutor).
+English and Spanish, for instance, afford different types of interactions:
+each language constrains meanings differently than the other;
+one language will implicitly express a particular set of connotations that the other does not, such that it is necessary to spell out those connotations explicitly when translating one language into the other.
+In the words of @evans_your_2011, who studies this link between a language and social interaction:
 "Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011 p. 70].
-The enactive account of social interaction provides a natural continuity between a particular language and the type of agency that goes with it, and one can expect this type of phenomenon to be explicable once the theory has been further fleshed out.
+One could go as far as saying that speaking another language is not so much a different encoding or a different set of rules, it is a different way of being.
+Now on the enactive account, the grammar of a particular language as it is classically understood (i.e. structured utterances with phonetics, phonology, morphology and syntax in English or Spanish) could correspond to a particular expansion of normativity levels that differs from that of another language.
+In particular, if the grammar-related normativity levels differ, the levels above and below will also, a fact that could correspond to the different types of agency and interaction afforded by different languages.
+One can thus expect the different feel of different languages to be explicable through such a continuity of language and agency, once the theory has been further fleshed out.
 
 
 ### Applied to cultural attraction
 
 Compared to Relevance Theory, the Enactive approach starts from radically simpler types of interaction, and relies neither on a capacity for symbolic processing nor on internal representations of the environment.
 This makes the approach slightly more involved to present than Relevance Theory.
-In spite of their differences, both approaches provide a notion of relevance or value to the individual, which is then used to ground a notion of meaning (be it linguistic or not).
+In spite of their differences, both approaches build on a notion of relevance or value to the individual, and use it to ground a notion of meaning (be it linguistic or not).
 Unlike RT, the enactive notion of meaning exists even in the most basic types of interaction an organism can have with its environment.
 
 The two approaches can be seen as starting from different descriptive levels and building what is missing for an account of meaning (though this characterisation does not exhaust their differences):
 RT starts with representations and symbolic processing, which are implementable in bodies (by following the model of computers) and come already structured in similar ways to language, and constructs on top of those a notion of meaning, with a corresponding interpretation procedure (inference), that is subtle and flexible enough to apply to fuzzy cases like poetry or loose language.
 The Enactive approach starts from an embodied and dynamic notion of meaning, which by definition exists for all organisms and need not be inferred, but comes without any particular structure;
-this approach then builds its account of language by detailing how interaction (and thus meaning) can become increasingly structured through a series of emerging levels of interactive normativity.
-^[In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations, and a mechanism for how they represent that content.
-For more details, see again @hutto_radicalizing_2013 on the hard problem of content.
+it then builds its account of language by detailing how interactions (and thus meaning) can become increasingly structured through a series of emerging levels of interactive normativity.
+^[In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations and a mechanism for how they represent that content.
+For more details, see again @hutto_radicalizing_2013 on the Hard Problem of Content.
 @harvey_content_2015 also provides a useful discussion of that question.
 ]
-Unlike RT, it does not (yet) provide a clear way to compare meanings across interactive situations, as its very definition of meaning is intrinsically related to the subtle differences of dynamics in different interations.
+Unlike RT, it does not yet provide a clear way to compare meanings across interactive situations, as its very definition of meaning is intrinsically related to the subtle differences of dynamics in different interactions.
 In RT, that work is theoretically done by the notion of representation (or more precisely, the informative intention that is inferred and represented), although in practice much remains to be defined to directly compare representations between each other.
-In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level details.
+In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level parts of the theory.
 
 This finally brings us back to the usefulness of both these approaches for CAT.
-Without he does not flesh out the connection, @sperber_explaining_1996 refers repeatedly to RT as an important tool to understand the role of interpretation in the epidemiology of representations;
-indeed, the information-processing account provided by RT fits well with the representational foundation of CAT.
+First, let us note that @sperber_explaining_1996 refers repeatedly to RT as an important tool to understand the role of interpretation in the epidemiology of representations.
+Indeed, while he does not flesh out the connection in more detail, the information-processing account provided by RT fits well with the representational foundation of CAT and of our own experimental approach.
 But the fact that CAT is formulated in terms of representations is not necessarily a theoretical constraint to integrate it with an enactive approach to meaning:
-similarly to what we argued above for RT, information-processing can be seen as a particular starting point for the description with no strong import for the ontology of what is being transmitted or evolved,
-^[Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is quite close to non-representational views of content [@harvey_content_2015].
+similarly to what we argued above for RT, information-processing can be seen as no more than a particular descriptive starting point, with no strong import for the ontology of what is being transmitted or evolved,
+^[Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is not so far from non-representational views of content [@harvey_content_2015].
 ]
 and we see no reason to consider a priori that the two approaches would be incompatible.
 
@@ -623,7 +663,7 @@ As we just saw, both the Enactive approach and RT show that taking context into 
 The fact that it is possible to easily degrade CAT into a code model theory also suggests that integrating it with an approach to meaning might require some amendments.
 We thus see great value in contrasting and possibly combining the two approaches to replace the naive code model that is used in many applications of CAT.
 In practice, attempting to apply these two approaches will also let us explore if the theory must be amended in order to fully take the situatedness of meaning into account.
-^[Anthropologist Tim Ingold, for instance, has argued at length that the whole project of a Darwin-inspired theory of cultural change can only make sense if one accepts a misguided dualism between context-free information on one side and material implementation on the other, a dualism that is encouraged by the computational metaphor of cognition [@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007].
+^[Anthropologist Tim Ingold, for instance, has argued at length that the whole project of a Darwin-inspired theory of cultural change can only make sense if one accepts a misguided dualism between context-free information on one side and material encoding of the information on the other, a dualism that is encouraged by the computational metaphor of cognition [@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007].
 The requirement of being able to compare meanings across situations (so as to analyse their evolution), in particular, would rest on being able to identify information that exists independently of the situation in which it emerged.
 The alternative he proposes is heavily inspired by dynamical approaches to cognition (such as the Enactive approach) and a developmental focus on biology and heredity.
 While we agree that computational approaches to cognition are prone to such dualism, information-processing analyses can also be used as a tool to combine with dynamical approaches, without taking the computational metaphor too seriously.
@@ -637,32 +677,32 @@ The question of how to relate meanings from different interactive situations is,
 Following @chemero_after_2008 and @beer_information_2015, we believe that contrasting and combining practical uses of the information-processing and dynamical approaches is the best way to move forward in debates that otherwise turn into scholasticism.
 This section proposes a few avenues to do so in the context of meaning-related cultural evolution.
 The first point we discuss is an additional method that is directly applicable to the previous chapter's data.
-The second, third and fourth points discuss approaches similar to the paradigm presented in the previous chapter, which work with ecological material;
-these approaches must deal with the full complexity of language.
-The final point discusses an approach similar to the perceptual crossing paradigm, which works with much simpler interaction situations;
-here the dimensionality of behaviours is lower, such that it should be easier to understand complex dynamical patterns.
+The second and third points discuss approaches similar to the paradigm presented in the previous chapter, where ecological material is used and the full complexity of language must be dealt with.
+The final point discusses an approach similar to the perceptual crossing paradigm, which uses much simpler interaction situations, creating behaviours of lower dimensionality where it is easier to understand complete dynamical patterns.
 
 
 ### Hand-coded meaning classes
 
 Our first point is an analysis method that combines manual and computational steps.
-It is directly applicable to the data sets of the previous chapter without necessarily adding a notion of context, but is also usable for analysing the data that would be generated by the approaches we delineate further down.
+It is directly applicable to the data sets of the previous chapter without necessarily adding a notion of context, and is also usable for analysing the data that would be generated by the approaches we delineate further down.
 
-Its first step is to devise a manual measure of the similarity between random pairs of utterances in a tree;
-given such a manual measure, a dimensionality reduction method can identify classes of meanings in the tree, and attribute each utterance of the tree to a particular meaning class.
-The operation makes the evolution much more manageable, as each utterance is now assigned to one of a finite number of meaning classes.
-Since such classes can be approximately represented in a 2-dimensional space (a result of the dimensionality reduction based on similarity measures), it then becomes possible to plot the evolution happening in each tree and observe when a transformation creates a transition from one class to another.
-The transition probabilities between each meaning class also give an idea of the types of transformations that happen most often at the level of meanings, as encoded in the first step.
+The first step is to devise a manual measure of the similarity between random pairs of utterances in a tree;
+given such a manual measure, a dimensionality reduction method can be used to represent utterances in a 2-dimensional space.
+Plotting the parent-child links between utterances will then provide a 2D representation of the evolution of meanings in the tree.
+On such a plot, one can further identify classes of closely-related meanings in the tree (an operation that can also be done through clustering on the similarity measures), and attribute each utterance of the tree to a particular meaning class.
+These techniques make the evolution of meaning much more manageable, as each utterance is then assigned to one of a finite number of meaning classes, and each transformation represents a transition from one class to another.
+The transition probabilities between meaning classes also give an idea of the types of transformations that happen most often at the level of meanings, as encoded by the similarity measure.
 
 The main challenge for this method is the first step, that is gathering manual measures of similarity between utterances in a tree.
 One reliable approach to this problem is to gather similarity ratings in a triad comparison task [@romney_culture_1996]:
 manual coders are presented with three utterances, and must decide which of the three is most different in meaning to the other two (in which case the other two are considered to have some degree of similarity).
-While the complete set of triad comparisons grows as $n^3$ ($n$ being the number of utterances in a tree) and is thus too expensive for trees containing 71 utterances (such as in Experiment 3 in the previous chapter), it is not necessary to rate all the combinations in order to obtain a reliable measure.
+While the complete set of triad comparisons grows as $n^3$ ($n$ being the number of utterances in a tree) and is thus too expensive for non-trivial trees (such as in Experiment 3 in the previous chapter, where trees contain 71 utterances), it is not necessary to rate all the combinations in order to obtain a reliable picture of meaning classes in the tree.
 Indeed, in the complete set of triad comparisons, each pair of utterances appears $n-2$ times.
 The so-called Balanced-Incomplete Block Design [@weller_systematic_1988 pp. 49-55] compares triads without repeating pairs more than a fixed number of times, in which case the number of triads grows as $n^2$.
-^[A design where each pair appears once for $n = 70$ does not exist, however designs exist for $n = 69$ or $n = 73$, and can be created by removing utterances or adding dummy utterances.
+^[For $n = 71$, as in Experiment 3 of the previous chapter, there are no Balanced-Incomplete Block Designs where each pair of utterances appears exactly once.
+However, designs exist for $n = 69$ and $n = 73$, and can be created from trees with 71 utterances by removing two random utterances or adding two dummy utterances.
 $n = 69$ yields 805 triad comparisons, and $n = 73$ yields 876 [see @weller_systematic_1988 for the detailed computation].
-More reliable measures can be obtained by having each pair appear twice, which doubles the number of triad comparisons.
+More reliable results can be obtained by using designs where each pair appears exactly twice, which doubles the number of triad comparisons.
 ]
 Triad comparisons can be obtained in large quantities by outsourcing the task on platforms such as Amazon Mechanical Turk, or can alternatively be integrated in the online transmission chain platform.
 ^[Consider for instance an experiment similar to Experiment 3 of the previous chapter, with 71 utterances per tree (one root, and 7 branches of 10 reformulations), and a targeted 70 subjects in total.
@@ -691,14 +731,17 @@ For instance, the transmission step could be turned into a minimal interaction w
 The interaction requires a fine balance of bonuses and rejection penalties so that the functionality is not abused, but it gives subjects an interest in the task:
 a receiving subject is encouraged to ask for a consistent utterance, because they will later be asked to pass on their own memorisation of that utterance to another subject.
 Combining such minimal interactions with contextual paragraphs could further ensure that subjects do not change to a completely different utterance in order to see their proposal accepted:
-if the receiver is presented with the contextual paragraph when deciding to accept or reject the proposed utterance, then they will expect the two to be consistent with each other.
+if the receiver is presented with the contextual paragraph when deciding to accept or reject the proposed utterance, then they will expect the proposal to be consistent with its context.
+The possibility for multiple proposals introduces a new challenge however:
+if, for instance, a receiving subject rejects two proposals and accepts the third, it is not clear which of the rejected or accepted proposals they will base themselves on when writing their own proposals for the next subject.
+Parent-child links thus become less well-defined in this situation.
 
-While these changes allow us to introduce minimal forms of context and interaction in a transmission chain, the paradigm dissociates the complexity of one communication means, namely the utterances (which have highly complex linguistic structure), from the complexity of another communication means, namely the interaction itself (which is minimal).
+While these changes may allow us to introduce minimal forms of context and interaction in a transmission chain, the paradigm still dissociates the complexity of one communication means, namely the utterances (which are realistic and thus have highly complex linguistic structure), from the complexity of another communication means, namely the interaction itself (which is minimal).
 This is quite compatible with Relevance Theory, but the result is still somewhat unecological:
 if context and interactive situation are crucial to the way meaning is understood (according to both Relevance Theory and the Enactive approach), it would be more natural to match the complexity allowed by the interactive situation with the complexity of other communication means that are provided to the subjects.
 At the very least, it seems necessary to have an interactive situation at least as versatile as the productions that are asked of the subjects.
-Thus, asking subjects to write complex utterances while constraining their non-verbal interaction to a binary acceptance-rejection outcome still only makes sense in a code model theory, where complex meanings can be understood in spite of the interactive situation being extremely simple.
-To create situations where the meshing of context, interaction and meaning can be understood, then, it is necessary to match the complexity of all the communicative means provided to the subjects (interactive, verbal, or other).
+In other words, asking subjects to write complex utterances while constraining their non-verbal interaction to a binary acceptance-rejection outcome still only makes sense in a code model theory, where complex meanings can be understood in spite of the interactive situation being extremely simple.
+To create situations where the meshing of context, interaction and meaning can be studied, then, it is necessary to match the complexity of all the communicative means provided to the subjects (interactive, verbal, or other).
 In what follows we discuss possibilities for analysing situations where the complexity is close to that of real life.
 We then move on to situations where both the interaction situation and the possible meanings have a much reduced complexity.
 
@@ -708,7 +751,7 @@ We then move on to situations where both the interaction situation and the possi
 In some cases, it is possible to fully measure all observables in an unconstrained interactive situation.
 The first way of doing this is to have enough sensors in an *in vivo* situation:
 the Human Speechome Project [@roy_human_2006], for instance, equips a family's house with wide-angle ceiling cameras and microphones that map the entire space of the house, and records the quasi-totality of what happens in the first three years of the life of a newborn in the family (with some privacy controls).
-Everything the child hears and sees, all the interactions she is involved in are taped in a way that makes it possible to reconstitute the detailed movements, vocal productions, and relevant interactive features (such as gaze) of participants.
+Everything the child hears and sees, all the interactions she is involved in are taped in a way that makes it possible to reconstitute the detailed movements, vocal productions, and relevant interactive features of participants (such as gaze).
 The analysis of such rich data is humongous and involves many novel semi-automated coding techniques (as the dozens of data-analysis publications related to the project^[See \url{https://www.media.mit.edu/cogmac/projects/hsp.html} for a full list.] attest to), but gives access to the full detail of interactions that a child is exposed to in her house.
 @roy_predicting_2015, for instance, use the data to explore the spatial and linguistic contexts in which a child is exposed to a word, and relate them to the context in which she first produces said word.
 Such longitudinal multi-modal data is exactly the type of measurement that is necessary to fully understand the meaning that is produced in an interaction, explore when that meaning is reproduced, and see how it changes through time.
@@ -716,19 +759,25 @@ Such longitudinal multi-modal data is exactly the type of measurement that is ne
 The second way is to create an *in vitro* interactive situation that is as encompassing as possible, and measure every possible aspect of the interaction in it.
 In the laboratory, this corresponds to the approach taken by @moussaid_amplification_2015, who taped unconstrained pairwise conversations chained one after the other, hand-coded them for specific features, and then measured the evolution of such features along chains.
 Another approach consists in taking advantage of online video games that create complete worlds in which the interactions of players can be measured in multiple modalities (gaming behaviours and parallel verbal conversations), as has been used for instance in the study of language learning [@zheng_multimodal_2012].
-As developing such a game for experimental purposes involves a substantial investment however, researchers must rely on existing gaming environments and communities to access the data.
+However, developing such a game for experimental purposes involves a substantial investment, such that researchers must often rely on existing gaming environments and communities to access the data.
+^[Smartphone psychology [@miller_smartphone_2012] might be another opening for this type of study:
+by getting a closed group of people to accept that all the measurable aspects of their interactions be recorded by their smartphone for a period of time (sound, surrounding luminosity, small movements of the device, precise location of the subject), an experimenter could potentially have access to a much richer view of interactions of everyday life.
+This does not seem possible for fully unconstrained interactions however, and must likely be restricted to a particular area such as work or home;
+otherwise, the consent of every person that a subject interacts with in their everyday life would have to be obtained.
+]
 
-Fully measuring unconstrained interactions is thus one way of matching the complexity of the different communicative means available to the subjects.
-However, the problem with this approach for cultural evolution is precisely the increased complexity of context and interaction:
-existing works use important manual or semi-manual steps in their analyses, such that their access to meaning in the data is in large part interpretive.
-Using the relevance-theoretic approach to delve into the detail of how meaning is inferred in such situations is likely to become quickly unmanageable.
-We therefore turn to the other end of the spectrum:
-approaches which, by relying on the Enactive account for which simpler meanings can exist without the requirement of symbolic processing, aims to lower the complexity of interactions and possible meanings.
+Fully measuring unconstrained interactions is thus one option for matching the complexity of the different communicative means available to the subjects.
+The challenge, however, is precisely the increased complexity of context and interaction:
+for cultural evolution, the works we reviewed in this and previous chapters use important manual or semi-automatic steps in their analyses, such that their access to meaning in the data is in large part interpretive.
+Still, while using the relevance-theoretic approach to study how meaning is inferred in such situations can quickly become unmanageable, it may be possible to gradually increase possibilities by developing better semi-automatic coding techniques, similarly to what has been done for the Human Speechome Project.
+
+We now turn to the other end of the spectrum:
+approaches which, by relying on the Enactive account for which simpler meanings can exist without the requirement of symbolic processing, aim to lower the complexity of both interactions and possible meanings.
 
 
 ### Preliminary enactive steps to language
 
-The final approach we discuus aims to take advantage of the empirical appeal of the Enactive approach:
+This final approach aims to take advantage of the empirical appeal of the enactive notion of meaning:
 using paradigms similar to that of perceptual crossing, one might be able to create interactions that have meaning to the participants without the need to use complex linguistic material.
 In such a situation, participants would interact through a combination of low-dimensional channels in a task that has inherent meaning to them, and both the interaction and the meaning emerging from it would have extremely low complexity.
 Such an approach would not enable participants to have everyday life conversations, but it would let the experimenter introduce complexity in experimental tasks little by little, with the end goal of creating situations whose complexity can approach that of actual linguistic interactions.
@@ -738,29 +787,29 @@ The phenomena it does account for, such as sensorimotor contingencies and percep
 they are elements that can be combined and fleshed out in order to develop an explanation of language.
 
 The theory of languaging developed by @cuffari_participatory_2015 proposes a way to do so:
-it progresses in a series of normative levels of interaction, each one appearing as a resolution of a tension at the previous level.
-The first normativity level is that of Participatory sense-making, which the perceptual crossing stability [@auvray_perceptual_2009] illustrates:
+it progresses in a series of levels of interactive normativity, each one appearing as a resolution of a tension at the previous level.
+The first normativity level is that of participatory sense-making, which the perceptual crossing stability illustrates [@auvray_perceptual_2009]:
 two participants are coupled in an interaction that neither of them controls, or even detects.
 The second normativity level is that of Social Agency, illustrated by the turn-taking phenomenon that appears in perceptual crossing when participants are sensitive to an interactive stability [@froese_embodied_2014].
-As we mentioned earlier, this phenomenon can be seen as a co-defined social act, that is an act that is initiated by one person (who makes a *partial* act), and must be completed by the other person recognising it and responding appropriately (e.g. giving and receiving).
+As we mentioned earlier, this phenomenon can be seen as a co-defined social act, that is an act that is initiated by one person (who makes a partial act), and must be completed by the other person recognising it and responding appropriately (e.g. giving and receiving).
 The authors propose another 6 conceptual stages which together would provide a first account of the languaging behaviour of human beings.
-While these stages are proposed as conceptual steps, and not as causal steps that would correspond to the actual progression of communicative complexities found in other species (or through evolution), an important milestone here would be to empirically validate the remaining six stages in a similar fashion to the first two.
+While these stages are proposed as conceptual steps, and not as causal steps that would correspond to the actual progression of communicative complexities found in other species or through evolution, an important milestone here would be to empirically validate the remaining six stages in a similar fashion to the first two.
 If successful, completing such a validation would provide a more comprehensive view of the enactive language account, and would open the way for integrations with cultural evolution theories.
 
-The third normativity level, for instance, is that of Coordination of Social Acts;
-it emerges when one social act is used to regulate another social act.
-The authors' example of this normativity level is a japanese woman extending her personal card to a westerner.
-The woman offers her card by holding it with both hands, which is the polite way in Japan.
-The polite way of responding to this partial act in Japan is to accept the card with both hands too.
-However, a westerner would spontaneously take the card with only one hand, a response that the woman would not consider appropriate (indeed, it amounts to answering with part of one's body to a partial act that involves the whole body).
-In response to this, the japanese woman could hold on to her card, and ostensively stare at the westerner's other hand, thus initiating a second partial act to regulate the first.
+The third normativity level, for instance, that of Coordination of Social Acts, emerges when one social act is used to regulate another social act.
+The authors' example of this normativity level is a Japanese woman extending her personal card to a westerner.
+The woman offers her card by using the partial act that is adequate in Japan:
+holding it out with *both* hands.
+The adequate completion of this partial act in Japan is to accept the card with both hands too.
+However, a westerner would spontaneously take the card with only one hand, a response that a Japanese would not consider appropriate (indeed, it amounts to answering with part of one's body to a partial act that involves the whole body).
+In response to this, the Japanese woman could hold on to her card, and ostensively stare at the westerner's other hand, thus initiating a second partial act to regulate the first.
 The westerner, understanding the regulatory stare, could nod (thus completing the regulatory act) and accept the card with both hands (thus completing the initial act of giving).
 
 This type of regulatory social act can appear when a second channel and a repertoire of acts are available to regulate what happens in a primary channel.
 To empirically validate this normativity level, then, one could imagine setting up two parallel perceptual crossing tasks:
 the first, more complex, would involve cursors on a shared surface instead of a line;
 the second, simpler, would be the classical uni-dimensional perceptual crossing setup.
-The reasoning is that the simpler channel could emerge as a regulatory aid for a new type of social act to emerge in the more complex channel.
+We reason that the simpler channel could emerge as a regulatory aid for a new type of social act to emerge in the more complex channel.
 This simple extension of perceptual crossing is most likely not the best, but it illustrates the type of experiment that one could devise in order to observe the emergence of the third stage.
 
 In the process of validating the third normativity level, several conventions will appear that depend on the history of interactions between agents and in a community.
@@ -768,23 +817,23 @@ For instance, one repertoire of social acts will develop in one community of fre
 Participants from different communities that are brought together will be forced to adjust, expand, or develop anew their repertoire of social acts.
 This setting opens a number of questions about the evolution of such minimal social acts in communities.
 In order to explore the integration of this approach with CAT, it will be necessary to empirically flesh out the full range of normativity levels in this manner.
-While the task is not easy, we believe that such a project has great potential to possibly complement a relevance-theoretic approach to meaning, on one side, and to identify incompatibilities and possibilities for integration with the current theories of cultural evolution, on the other.
+While the task is assuredly challenging, we believe that such a project has great potential to possibly complement a relevance-theoretic approach to meaning, on one side, and to identify incompatibilities and possibilities for integration with the current theories of cultural evolution, on the other.
 
 
 ## Conclusion
 
-In this chapter, we took a more in depth look at what would be required in order to understand the transformation of the meaning of utterances in short-term cultural evolution, be it in online quotations or in artificial transmission chains.
-We first discussed a number of examples of meaning change that appeared in the experiments of the previous chapter.
-We then presented two radically different, but both prominent, approaches to meaning in language:
+Our goal in this chapter has been to provide a clearer view of what would be required in order to understand the transformation of utterance meanings in short-term cultural evolution, be it in online quotations or in artificial transmission chains.
+We first took a closer qualitative look at how meaning can evolve in chains by discussing a number of examples that appeared in the experiments of the previous chapter.
+We then broadened the horizon and presented two prominent but radically different approaches to linguistic meaning that could provide insight into such changes:
 Relevance Theory, which bases its account on the inference of relevant conclusions given the context in which an utterance is pronounced;
 and the Enactive approach, which bases its account on the agent's sense-making activity by which it maintains its identity as an agent.
 While the two approaches sit at opposite ends of the computational-dynamical spectrum in cognitive science, both base their account of meaning on some notion of the relevance that interactions have for agents (though those notions are very different for the two theories).
 Notwithstanding the simpler integration of RT with Cultural Attraction Theory, we proposed that both RT and the Enactive approach could be valuable paths to explore in the study of meaning in this context.
-Finally, then, we extended a few speculations as to how these approaches could inspire future work aimed at understanding the way meanings evolve along with cultural evolution.
+Finally, we extended a few speculations as to how these approaches could inspire future work aimed at understanding the way meanings evolve along with cultural evolution.
 
 Our stance may be taken as very ecumenical, too much so maybe.
 How could it make sense to try and combine approaches that rely on bodies of philosophical works that continuously butcher each other?
 In their current state, neither Relevance Theory nor the Enactive approach provide complete accounts of what linguistic meaning is or how we understand it, but both provide extremely valuable steps to begin understanding the phenomenon.
 Our belief is that philosophical butchery is a healthy and necessary activity, and empirical combination and contrasting of the outcomes is too.
 While the two approaches clearly have disagreements on starting points and approaches to cognition overall, it is not said that different approaches to meaning, when fully formalised at the right level, could not be related to one another.
-In the meantime, both can inspire valuable empirical work and the design of new methods, be it to contrast or to combine them, all of which contribute to better understanding the issues at stake.
+In the meantime, both can inspire valuable empirical work and the design of new methods, be it to contrast them or to combine them, all of which will contribute to better understanding the way meaning changes when repeatedly transmitted or understood by different people.
