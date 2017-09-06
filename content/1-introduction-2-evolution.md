@@ -1,6 +1,6 @@
 ## Culture, stability and change
 
-### The notion of "culture": a question and a problem
+### The notion of "culture": two questions
 
 Habits, rituals, languages and ways of thinking are strikingly diverse across different regions of the globe.
 When spending time in a foreign country and getting to know people who live there, we are often surprised by the way their behaviour is so different from our own, either in obvious touristy attractions or in minute and unsuspected details.
@@ -14,10 +14,10 @@ The differences are such that we are easily tired, and after a while we become u
 One need not travel to distant countries to experience such changes:
 being immersed in an unfamiliar social circle at home can do the trick.
 This set of artefacts, practices, bodily and thinking habits, which can be so varied from one community to another, is what we commonly call a culture.
-Culture is a fuzzy notion of course, but an important one, since we use it to label the things that vary most across human communities, and to set them aside from those that vary less (for instance, the shape of the body).
+Culture is a fuzzy notion of course, but an important one, since we use it to label the aspects of life that vary most, or that vary the fastest, across human and animal communities, and to set them aside from those that vary less or more slowly (for instance, the shape of the body).
 
 The culture of a community changes over time (indeed the past is often seen as just another foreign country), yet the way it changes is remarkably slow and gradual.
-On one side, we intuitively notice that a culture is transmitted as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as frequently-interacting people of the same generation influence each other's behaviours.
+On one side, we intuitively notice that a culture is transmitted as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as interacting people of the same generation influence each other's behaviours.
 On the other side, it is not at all clear what exactly is transmitted between people, either in a given generation or from one generation to the next.
 How does such transmission come about, and what are the regularities in the changes it allows?
 The relative stability of cultures is all the more surprising given that, in everyday life, few activities seem to be actively transmitting anything at all.
@@ -25,23 +25,27 @@ Of course we sometimes imitate behaviours that we observe in someone else, and m
 But most routine interactions are not concerned with the conservation or transmission of anything, and it seems that aspects of a culture can be stable without ever being explicitly taught.
 Defining what culture is, then, immediately poses the question of what mechanisms underlie its transmission and gradual change.
 
-A second matter arises when attempting to separate what is cultural from what is not.
+A second general question arises when attempting to separate what is cultural from what is not.
+In the previous paragraphs we used a definition of culture as those aspects of life that vary more, or faster, across (human and non-human) animal communities, to be contrasted with those which vary less, or more slowly.
+Most definitions of culture nowadays make a more specific claim:
+they consider that culture is that which is not universal in a given species, and contrast it with that which is biologically determined and thus common to all members of the species.
+In this case, biological determination refers to the way an organism's genome constrains its normal anatomical and cognitive development in a viable environment.
+The details and extent of such determination are contentious issues however, and for now we will keep our definition in terms of faster and slower change rates.
+Whichever the definition of culture that one chooses to adopt, separating cultural from non-cultural aspects of life raises the obvious question of how each aspect influences the other.
+In particular, if cultural and non-cultural have different transmission mechanisms, how do these relate to each other?
+In the case of a definition that separates biological determination from variable behaviour in a species, the question translates to, first, how body and cognition influence culture and cultural change, and second, how cultural change influences the environment and the interactions in which an organism develops, both anatomically and cognitively.
+Indeed, such environmental changes can have effects on the way the body and cognitive capacities of an organism develop, thus creating feedback loops between anatomical and cognitive development, on one side, and cultural change on the other.
 
-
-
-
-
-
-
-
-- human beings are one species, so such diverse practices suggest extraordinary plasticity (compared to non-human animals)
-- recap: some things are extremely common (the shapes of our bodies for instance), and others are extremely varied in space but not so much in time (language for instance); so things must be passed on through generations, with changes at different time scales, but what and how?
-- what changes fast and varies across regions, we call culture
-
-- if one accepts culture as such a different thing from non-culture, a problem arises then: what are the relationships between cultural and non-cultural things (and their changes)?
-- Durkheim argued that "the social", including culture, has an autonomy of its own, and ever since the problem has turned into how to connect cultural phenomena with cognitive mechanisms, and further with biology: each one influences the other, but can one be studied in isolation, and if not how should they be connected
-- this thesis is concerned with the first question: stability/change, for which we now present the prominent approaches
-- in the next section, we briefly present the second question, as it will resurface towards the end of our work
+In this thesis we empirically study an application of the first question:
+we ask about the details of short-term cultural change in the case of linguistic utterances, whose evolution we observe in short transmission chains online and in controlled experiments.
+However, we will see that this study case is not entirely isolated from the second question:
+the issue of how cognition and culture depend on each other will reappear once we turn to the role of linguistic meaning in the short-term evolution of utterances.
+In the two subsections that follow, then, we present the theoretical and empirical approaches on which our work is based.
+These approaches argue that cultural and non-cultural evolution can be studied as *gene-culture co-evolution* which separates two parallel but interacting evolutionary processes:
+biological evolution based on genetic inheritance, and cultural evolution based on cultural transmission mechanisms.
+They further flesh out the details of cultural evolution, thus proposing a theoretical answer to the first question which we aim to empirically assess in the case of linguistic utterances.
+In the section that follows this one, we briefly present works that qualify the conceptual distinction between cultural and non-cultural aspects of life, and suggest that instead of a co-evolution with two parallel channels, several additional channels or a continuity of channels could be necessary.
+While we will not explicitly rely on these works in the following chapters, the debate they are part of is a useful piece of context for the final discussion of our results.
 
 
 ### Cultural evolution
