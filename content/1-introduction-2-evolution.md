@@ -1,19 +1,47 @@
 ## Culture, stability and change
 
+### The notion of "culture": a question and a problem
 
-- across space, cultures seem to be infinitely different from one another, e.g. they have different rationalities, they behave differently when faced with the same situation
-- across time however, they are strikingly similar, but still change gradually
-- both these things are surprising:
-  - human beings are one species, so such diverse cultures suggest extraordinary plasticity (compared to non-human animals)
-  - interactions don't seem to be transmitting the sort of things that are maintained
-- so some things must be passed on through generations, but what and how?
+Habits, rituals, languages and ways of thinking are strikingly diverse across different regions of the globe.
+When spending time in a foreign country and getting to know people who live there, we are often surprised by the way their behaviour is so different from our own, either in obvious touristy attractions or in minute and unsuspected details.
+People salute each other and lead mundane interactions differently;
+they wash and eat with different equipment, utensils, bodily movements, and at different rhythms and moments of the day.
+If one understands the language, it is often clear that people in a foreign country also *think* differently:
+thoughts that we feel are deeply counter-intuitive are obvious to them and need not be said;
+other things we might spontaneously say will outrage them;
+misunderstandings are widespread.
+The differences are such that we are easily tired, and after a while we become uncomfortable in daily interactions, without noticing exactly why.
+One need not travel to distant countries to experience such changes:
+being immersed in an unfamiliar social circle at home can do the trick.
+This set of artefacts, practices, bodily and thinking habits, which can be so varied from one community to another, is what we commonly call a culture.
+Culture is a fuzzy notion of course, but an important one, since we use it to label the things that vary most across human communities, and to set them aside from those that vary less (for instance, the shape of the body).
 
-- the diffusionist program was concerned with that question
-- but ever since Durkheim and the autonomy of culture, it has become a question of how to reconnect with psychology: each one influences the other, but can one be studied in isolation, and if not how should they be connected
+The culture of a community changes over time (indeed the past is often seen as just another foreign country), yet the way it changes is remarkably slow and gradual.
+On one side, we intuitively notice that a culture is transmitted as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as frequently-interacting people of the same generation influence each other's behaviours.
+On the other side, it is not at all clear what exactly is transmitted between people, either in a given generation or from one generation to the next.
+How does such transmission come about, and what are the regularities in the changes it allows?
+The relative stability of cultures is all the more surprising given that, in everyday life, few activities seem to be actively transmitting anything at all.
+Of course we sometimes imitate behaviours that we observe in someone else, and many education-related activities explicitly aim to transmit a particular skill or body of knowledge.
+But most routine interactions are not concerned with the conservation or transmission of anything, and it seems that aspects of a culture can be stable without ever being explicitly taught.
+Defining what culture is, then, immediately poses the question of what mechanisms underlie its transmission and gradual change.
+
+A second matter arises when attempting to separate what is cultural from what is not.
 
 
-### Two problems
 
+
+
+
+
+
+- human beings are one species, so such diverse practices suggest extraordinary plasticity (compared to non-human animals)
+- recap: some things are extremely common (the shapes of our bodies for instance), and others are extremely varied in space but not so much in time (language for instance); so things must be passed on through generations, with changes at different time scales, but what and how?
+- what changes fast and varies across regions, we call culture
+
+- if one accepts culture as such a different thing from non-culture, a problem arises then: what are the relationships between cultural and non-cultural things (and their changes)?
+- Durkheim argued that "the social", including culture, has an autonomy of its own, and ever since the problem has turned into how to connect cultural phenomena with cognitive mechanisms, and further with biology: each one influences the other, but can one be studied in isolation, and if not how should they be connected
+- this thesis is concerned with the first question: stability/change, for which we now present the prominent approaches
+- in the next section, we briefly present the second question, as it will resurface towards the end of our work
 
 
 ### Cultural evolution
