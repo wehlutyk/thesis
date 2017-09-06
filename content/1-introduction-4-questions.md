@@ -1,4 +1,6 @@
-## Open problems {#sec:intro-problems}
+## Current questions {#sec:intro-problems}
+
+\add{We focus on the first debate, though the second will appear again later on}
 
 Moving back into the core of the cultural evolution framework put forth by Californian and Parisian cultural evolution, we can now put the focus on a number of outstanding questions for current and future research.
 The following discussion far from exhausts the questions to tackle, but gives nonetheless an overview of what I consider to be the most actionable or central items in the field.
