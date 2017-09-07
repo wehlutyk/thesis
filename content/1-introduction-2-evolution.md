@@ -1,54 +1,83 @@
 ## Culture, stability and change
 
-### The notion of "culture": two questions
+### The notion of culture: a question and a problem
+
+#### Stability and change
 
 Habits, rituals, languages and ways of thinking are strikingly diverse across different regions of the globe.
 When spending time in a foreign country and getting to know people who live there, we are often surprised by the way their behaviour is so different from our own, either in obvious touristy attractions or in minute and unsuspected details.
 People salute each other and lead mundane interactions differently;
 they wash and eat with different equipment, utensils, bodily movements, and at different rhythms and moments of the day.
 If one understands the language, it is often clear that people in a foreign country also *think* differently:
-thoughts that we feel are deeply counter-intuitive are obvious to them and need not be said;
+ideas that we feel are deeply counter-intuitive are obvious to them and need not be said;
 other things we might spontaneously say will outrage them;
 misunderstandings are widespread.
 The differences are such that we are easily tired, and after a while we become uncomfortable in daily interactions, without noticing exactly why.
 One need not travel to distant countries to experience such changes:
-being immersed in an unfamiliar social circle at home can do the trick.
+being immersed in an unfamiliar social circle at home can be enough.
 This set of artefacts, practices, bodily and thinking habits, which can be so varied from one community to another, is what we commonly call a culture.
 Culture is a fuzzy notion of course, but an important one, since we use it to label the aspects of life that vary most, or that vary the fastest, across human and animal communities, and to set them aside from those that vary less or more slowly (for instance, the shape of the body).
 
-The culture of a community changes over time (indeed the past is often seen as just another foreign country), yet the way it changes is remarkably slow and gradual.
-On one side, we intuitively notice that a culture is transmitted as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as interacting people of the same generation influence each other's behaviours.
+@mauss_les_1936, for instance, set out to study the ways in which people of different communities and throughout history use their bodies differently.
+He noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different communities adopt, pass on to their offspring, and evolve through time.
+Mauss's observations of the evolution of practices bring us to the first general question posed by culture:
+while it is clear that the culture of a community changes over time (notice how the past is sometimes described as just another foreign country), the way it changes is remarkably slow and gradual.
+On one side, we know that a culture is transmitted in some form or other, as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as interacting people of the same generation influence each other's behaviours.
 On the other side, it is not at all clear what exactly is transmitted between people, either in a given generation or from one generation to the next.
+@durkheim_suicide:_2012, for instance, started his seminal study with the puzzle of the regularity of suicide rates over the years, and the correlation of those rates with social variables such as religion.
 How does such transmission come about, and what are the regularities in the changes it allows?
 The relative stability of cultures is all the more surprising given that, in everyday life, few activities seem to be actively transmitting anything at all.
-Of course we sometimes imitate behaviours that we observe in someone else, and many education-related activities explicitly aim to transmit a particular skill or body of knowledge.
+Of course we sometimes imitate behaviours that we observe in someone else, and many education-related activities explicitly aim to transmit a particular skill or body of knowledge (though hardly anything explicitly related to suicide).
 But most routine interactions are not concerned with the conservation or transmission of anything, and it seems that aspects of a culture can be stable without ever being explicitly taught.
 Defining what culture is, then, immediately poses the question of what mechanisms underlie its transmission and gradual change.
 
-A second general question arises when attempting to separate what is cultural from what is not.
-In the previous paragraphs we used a definition of culture as those aspects of life that vary more, or faster, across (human and non-human) animal communities, to be contrasted with those which vary less, or more slowly.
-Most definitions of culture nowadays make a more specific claim:
-they consider that culture is that which is not universal in a given species, and contrast it with that which is biologically determined and thus common to all members of the species.
-In this case, biological determination refers to the way an organism's genome constrains its normal anatomical and cognitive development in a viable environment.
-The details and extent of such determination are contentious issues however, and for now we will keep our definition in terms of faster and slower change rates.
-Whichever the definition of culture that one chooses to adopt, separating cultural from non-cultural aspects of life raises the obvious question of how each aspect influences the other.
-In particular, if cultural and non-cultural have different transmission mechanisms, how do these relate to each other?
-In the case of a definition that separates biological determination from variable behaviour in a species, the question translates to, first, how body and cognition influence culture and cultural change, and second, how cultural change influences the environment and the interactions in which an organism develops, both anatomically and cognitively.
-Indeed, such environmental changes can have effects on the way the body and cognitive capacities of an organism develop, thus creating feedback loops between anatomical and cognitive development, on one side, and cultural change on the other.
+
+#### Interaction of cultural and non-cultural aspects
+
+Mauss also asked what part psychological mechanisms play in the development of cultural practices, and what influence such practices have in turn on psychological mechanisms.
+This brings us to the second matter that arises when attempting to separate what is cultural from what is not:
+how does each aspect influence the other?
+In particular, if cultural and non-cultural have different transmission mechanisms, how do these interact with each other?
+
+Mauss, in his time, saw that cultural practices are intimately linked to the physiology of bodies, on one side, and to a community's history on the other, but also to inherited psychological mechanisms;
+indeed, he considered cultural practices to be complete *physio-psycho-sociological* phenomena.
+For Durkheim, the continuity of suicide over time and its dependency on social variables suggested that suicide was an autonomous *social fact*:
+a phenomenon which, in spite of manifesting itself individually, has emerging properties in large groups, with a causal life at the level of other emergent social phenomena, and causal effects on the psychological mechanisms of the members of a community.
+Mauss's endeavour proposed a somewhat different focus.
+For him, cultural practices were embodied properties of organisms, incorporated through the everyday practices of a community, into which children grow by imitation, teaching, or other kinds of learning.
+Because of this embodied nature of cultural practices, he argued, bodily capacities cannot be defined without referring to culture.
+Walking, for instance, becomes difficult to define in a standard or general way:
+there is no normal way of walking, there are only *ways* of walking.
+By living with different bodily practices, different communities develop different bodies, none of which are standard.
+Indeed, most of the techniques of the body documented by Mauss play a role in the physiological and psychological development of people growing into them, with noticeable effects such as making one able to sleep while standing or horse-riding.
+Thus, while Durkheim and Mauss would not necessarily agree on the causal autonomy of culture from physiology or psychological mechanisms, both argue that cultural practices have effects on individual psychological mechanisms.
+
+In our previous introduction of the question of cultural change, we used a definition of culture as those aspects of life that vary more, or faster, across (human and non-human) animal communities, to be contrasted with those which vary less, or more slowly.
+Most definitions of culture nowadays make a stronger claim:
+they consider that culture is that which is not universal in a given species, and contrast it with that which is biologically determined (or constrained) and thus common to all members of the species.
+In this case, biological determination refers to the way the genome constrains the physiological and cognitive development of an organism in a normal viable environment.
+Since the details of such determination, and more importantly its theoretical import, are contentious issues, in this thesis we will remain with a definition in terms of higher and lower variability.
+However, the culture-as-non-biological definition has the advantage of making the question of the reciprocal influence of culture and non-culture more explicit:
+first, how do body and cognition influence culture and cultural change, and second, how does cultural change influence the environment and the interactions in which an organism develops, both physiologically and cognitively?
+Since environmental changes can have effects on the way the body and cognitive capacities of an organism develop, such influence can create feedback loops between physiological and cognitive development, on one side, and cultural change on the other.
+The problem, then, is that such feedback loops may be so intricate that it becomes difficult or impossible to identify what is cultural and separate it from what is not, eventually questioning the utility of a cultural versus non-cultural separation in the first place.
+
+\bigskip
 
 In this thesis we empirically study an application of the first question:
 we ask about the details of short-term cultural change in the case of linguistic utterances, whose evolution we observe in short transmission chains online and in controlled experiments.
 However, we will see that this study case is not entirely isolated from the second question:
 the issue of how cognition and culture depend on each other will reappear once we turn to the role of linguistic meaning in the short-term evolution of utterances.
-In the two subsections that follow, then, we present the theoretical and empirical approaches on which our work is based.
-These approaches argue that cultural and non-cultural evolution can be studied as *gene-culture co-evolution* which separates two parallel but interacting evolutionary processes:
+In the two subsections that follow ([@sec:intro-culture-evo;@sec:intro-culture-empirical]), then, we present the theoretical and empirical approaches on which our work is based.
+These approaches argue that cultural and non-cultural evolution can be studied as *gene-culture co-evolution*, which separates two parallel but interacting evolutionary processes:
 biological evolution based on genetic inheritance, and cultural evolution based on cultural transmission mechanisms.
-They further flesh out the details of cultural evolution, thus proposing a theoretical answer to the first question which we aim to empirically assess in the case of linguistic utterances.
-In the section that follows this one, we briefly present works that qualify the conceptual distinction between cultural and non-cultural aspects of life, and suggest that instead of a co-evolution with two parallel channels, several additional channels or a continuity of channels could be necessary.
+They further flesh out the details of cultural evolution, thus proposing a theoretical answer to the first question.
+It is this proposal which we aim to empirically assess in the case of linguistic utterances.
+In the section that follows this one (@sec:intro-cogsoc), we briefly present works that qualify the conceptual distinction between cultural and non-cultural aspects of life, and suggest that instead of a co-evolution with two parallel channels, several additional channels or a continuity of channels could be necessary.
 While we will not explicitly rely on these works in the following chapters, the debate they are part of is a useful piece of context for the final discussion of our results.
 
 
-### Cultural evolution
+### Cultural evolution {#sec:intro-culture-evo}
 
 Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
 Inspired by the generality of the populational approach underlying contemporary evolutionary theory, a new wave of analyses developed throughout the eighties and nineties by proposing a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised evolutionary principles may, or may not, bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably through psychology, learning, and environmental engineering.
@@ -172,7 +201,7 @@ As such, it seems that CAT is in a good position to generate productive debate b
 In particular, the challenges that arise when attempting to study CAT experimentally, as will be the case here for linguistic utterances, should prove helpful in developing a path to the resolution of the critiques faced by both CAT and SCE.
 
 
-### Empirical work {#sec:intro-review-neighbours}
+### Empirical work {#sec:intro-culture-empirical}
 
 A number of adjacent disciplines have developed interest in and contributed to CAT.
 Simulations and experimental studies of the evolution of morality [@baumard_mutualistic_2013], religion [@boyer_religion_2001], or reasoning [@claidiere_argumentation_2017; @mercier_why_2011] have applied the theory;

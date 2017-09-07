@@ -1,4 +1,4 @@
-## Culture-cognition links and evolutionary syntheses
+## Culture-cognition links and evolutionary syntheses {#sec:intro-cogsoc}
 
 - a second, related debate is how to integrate theories of cultural evolution with cognition and biology itself
 - Ingold intro (who shares the fact that anthropology has not concerned itself with psychology recently, for various reasons). (For him there is no cognition that is not cultural, the same way there is no movement that is not cultural for Mauss, and the same way there is no culture that is not cognitively-determined or influenced.) (Giddens, and even Mauss (and Bourdieu, Gibson, etc.), support that (discussed by steiner-autonomy-2009))
@@ -12,26 +12,14 @@
 ### In social science {#sec:intro-review-social}
 
 Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
-Émile Durkheim already, in his seminal study [-@durkheim_suicide:_2012], was looking at the regularities of suicide rates over the years, and the correlation of those rates with a partition of society into religion-related groups.
-The continuity of suicide over time, and the links between suicide rate and social group, he argued, suggest we should study suicide as a *social fact*:
-a phenomenon which, in spite of manifesting itself individually, has emerging properties in large groups, with a causal life at the level of other emergent social phenomena.
-In particular, this emergent level has effects on individual psychology (one of Durkheim's aims was to establish the autonomy of sociology as a natural science of society).
-By what mechanisms does such an effect operate, and what role does it play in shaping the stability and evolution of cultures?
+
+
 Contemporaries of Durkheim, as well as later researchers, made this matter one of their central preoccupations.
 
 But as those works also acknowledged, such a question raises issues in need of prior clarification:
 what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
 Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
 
-@mauss_les_1936, in his studies of the ways in which people of different societies and throughout history use their bodies differently, represents one approach to that question.
-He noticed and began documenting the resting postures, the attitudes, the ways of walking, of swimming, or of sleeping, that different communities adopt, pass on to their offspring, and evolve through time.
-His endeavour focused precisely on describing (parts of) culture as an embodied and physical property of life, incorporated through the everyday practices of a community, into which children grow by imitation, teaching, or other kinds of learning.
-In this sense, he argued, there is no normal way of walking, there are only *ways* of walking:
-by living with different bodily practices, different communities develop different bodies, none of which is standard.
-Indeed most of these *techniques of the body* documented by Mauss play a role in the physiological development of people growing into them, with noticeable effects:
-they will make one able to crouch for long periods of time or sleep while standing or horse-riding, and will also, Mauss argued for instance, change the silhouette of an adult body by influencing the way bones develop.
-While such practices are undeniably linked to the physiology and to the history of communities, and in that sense are both biological and social, Mauss also asked what part psychology plays in their development, and what influence they have in turn on psychology:
-he considered these practices complete *physio-psycho-sociological* phenomena.
 
 The question of the incorporation of culture, and behind it the inseparability of culture, physiology, and psychology, has remained central in social science.
 Works closer to us have contributed to the matter:
