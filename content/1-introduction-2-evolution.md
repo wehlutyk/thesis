@@ -45,21 +45,22 @@ Durkheim on the other hand gave more autonomy to sociological facts.
 He argued for instance that suicide, because of its continuity over time and its dependency on social variables, should be viewed as a *social fact*:
 a phenomenon which, in spite of manifesting itself individually, has emerging properties in large groups, with a causal life at the level of other emergent social phenomena and causal effects on the psychological mechanisms of the members of a community.
 Mauss proposed a somewhat different focus.
-For him, cultural practices were embodied properties of organisms, incorporated through the everyday actions of a community, into which children grow by imitation, teaching, or other kinds of learning.
+For him, cultural practices are embodied properties of organisms, incorporated through the everyday actions of a community, into which children grow by imitation, teaching, or other kinds of learning.
 Because of this embodied nature of cultural practices, he argued, bodily capacities cannot be defined without referring to culture.
 Walking, for instance, becomes difficult to define in a standard or general way:
 there is no normal way of walking, there are only *ways* of walking.
 By living with different bodily practices, different communities develop different bodies, none of which are standard.
 Indeed, most of the techniques of the body documented by Mauss play a role in the physiological and psychological development of people growing into them, with noticeable effects such as making one able to sleep while standing or horse-riding.
-Thus, while Durkheim and Mauss would not necessarily agree on the causal autonomy of culture from physiology or psychological mechanisms, both argue that cultural practices have effects on individual psychological mechanisms.
+Thus, while Durkheim and Mauss would not necessarily agree on the causal autonomy of culture from physiology or psychological mechanisms, both agree (unsurprisingly) that there are strong interactions between cultural practices, individual physiology, and psychological mechanisms.
 
 In our previous introduction of the question of cultural change, we used a definition of culture as those aspects of life that vary more, or faster, across (human or non-human) communities, to be contrasted with those which vary less, or more slowly.
 Most definitions of culture nowadays make a stronger claim:
 they consider that culture is that which is not universal in a given species, and contrast it with that which is biologically determined (or constrained) and thus common to all members of the species.
 In this case, biological determination refers to the way the genome constrains the physiological and cognitive development of an organism in a normal viable environment.
-Since the details of such determination, and more importantly its theoretical import, are contentious issues, in this thesis we will remain with a definition in terms of higher and lower variability.
-However, the culture-as-non-biological definition has the advantage of making the question of the reciprocal influence of culture and non-culture more explicit and relatable to Mauss's and Durkheim's concerns.
-The question becomes, first, how do body and cognition influence culture and cultural change, and second, how does cultural change influence the environment and the interactions in which an organism develops, both physiologically and cognitively?
+Let us then call this the *culture-as-non-genetic* definition.
+Since the details of such genetic determination, and more importantly its theoretical import, are contentious issues, in this thesis we will remain with a definition in terms of higher and lower variability.
+However, the culture-as-non-genetic definition has the advantage of making the question of the reciprocal influence of culture and non-culture more explicit and relatable to Mauss's and Durkheim's concerns.
+The question translates to, first, how body and cognition influence culture and cultural change, and second, how cultural change influences the environment and the interactions in which an organism develops, both physiologically and cognitively.
 Since environmental changes can have effects on the way the body and cognitive capacities of an organism develop, such influence can create feedback loops between physiological and cognitive development, on one side, and cultural change on the other.
 The problem, then, is that such feedback loops may be so intricate that it becomes difficult or impossible to differentiate what is cultural from what is not, eventually questioning the utility of a cultural versus non-cultural separation in the first place.
 
@@ -80,33 +81,54 @@ While we will not explicitly rely on these works in the following chapters, the 
 
 ### Cultural evolution {#sec:intro-culture-evo}
 
-Today's discussion of the ties between culture and psychology is more influenced by proponents from cognitive science.
-Inspired by the generality of the populational approach underlying contemporary evolutionary theory, a new wave of analyses developed throughout the eighties and nineties by proposing a blend of (a) the gene-centred level of evolutionary theory, (b) insights that the application of generalised evolutionary principles may, or may not, bring to the study of cultural change, and (c) a construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably through psychology, learning, and environmental engineering.
-The combination of (a) and (b) is not new, as a similar inspiration underlay the development of memetics.
+Today's study of cultural stability and change is heavily influenced by proponents from cognitive science and biology.
+Inspired by the generality of the populational approach underlying contemporary evolutionary theory, a wave of theories of cultural stability and change developed throughout the eighties and nineties by adopting the culture-as-non-genetic definition and proposing a blend of three fundamental components to study it:
+
+(a) Standard evolutionary theory to describe the evolution of gene frequencies (i.e., non-cultural evolution),
+(b) Insights that the application of generalised evolutionary principles may, or may not, bring to the study of cultural stability and change,
+(c) A construal of the two processes of change, genetic and cultural, as parallel evolutions that actively interact, notably through cognitive mechanisms, learning, and environmental engineering.
+
+The combination of (a) and (b) is not new, as a similar inspiration underlay the development of memetics [@dawkins_selfish_2006].
+\(b) can be fleshed out in different manners however.
+Memetics, for instance, suggested that the full details of the neo-darwinian synthesis could be applied to culture:
+it considered culture as a collection of particles (memes, the cultural counterpart of genes) that are transmitted from person to person with random variation, and differentially reproduced because of their competition for attention.
+The new wave, which we will call *cultural evolutionist*, is not committed to such a genetic view of culture:
+for these approaches culture need not be particulate, and the way cultural things change when they are transmitted or learned is by no means random.
+Mostly, cultural evolutionists suggest that it can be useful to study how much cultural change differs from or is similar to genetic change, and then to apply only the analytical tools which remain valid in light of that comparison (if any).
 Tim Lewens clarifies the position of this new wave regarding previous evolutionary approaches to culture:
 
 > "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance."
 > [@lewens_cultural_2012 p. 466]
 
-\(c), which differentiates current cultural evolutionists from previous approaches, has been developed into two parallel approaches, which @sterelny_cultural_2017 terms the Californian and the Parisian traditions.
-
-\add{scott-phillips-simple-2017, mesoudi-cultural-2016}
+Finally, the addition of (c) is another important difference between the new wave and previous darwinian approaches to culture:
+not only can general evolutionary principles be useful to the study of culture itself, but culture and genes can also be seen as bearers of two different types of information, transmitted across generations through two parallel channels.
+The way changes occur in each transmission channel leads to evolution of genes and culture at different time scales;
+furthermore, since culture can have an effect on the environment in which genetic mutations are selected for, and since genes constrain the organisms that bear and transmit culture, the two evolutionary processes interact and become co-evolutionary.
+The way genetic and cultural evolutionary processes interact has been studied in two parallel approaches, which @sterelny_cultural_2017 terms the Californian and the Parisian traditions.
 
 
 #### Californian
 
-@cavalli-sforza_cultural_1981 first articulated the combination of these three ideas in detail, by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
-Indeed, following the synthesis provided by @lewontin_cultural_1982:
-for any type of item, the combination of (a) a transmission process leading to nonrandom dependence of subsequent instances on preceding instances (e.g. offspring and parent phenotype), (b) at least some variation of the properties of items (against which to select), and (c) some level of differential survival and spread depending on those properties, will lead to evolution by natural selection.
-By looking at genetic models of evolution as a special case of those general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
-vertical (from parent to offspring), oblique (from a non-parent member of the previous generation, to member of the next generation), horizontal (inside one generation), or any combination thereof.
-@boyd_culture_1985 [-@boyd_origin_2005] further developed this line, leading to the formulation of *Standard Cultural Evolution* (hereafter SCE) which offers a systematic analysis of part of the interactions between cultural and genetic evolution, an approach which is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent studies].
-A notable feature of this programme is that it does not constrain itself into a particular view of what culture is.
-While the main authors do define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], a definition which at first sight might prove difficult to reconcile with a non-informational view of culture (such as the incorporated views from @sec:intro-review-social), the mathematical models do not constrain the concept of culture as much.
-The approach also has deep links with the analysis of *Niche Construction* [e.g. @odling-smee_niche_2003], which offers promising steps towards a reconciliation with non-informational views of culture stressing the importance of the development process in evolution.
-I return to this subject in more detail in @sec:intro-review-developments.
+@cavalli-sforza_cultural_1981 were the first to provide a detailed articulation of these three components:
+evolutionary theory, evolutionary principles applied to culture, and the co-evolution of the two.
+They did so by building on the fact that an evolutionary process need not be mediated by genetic transmission to take place.
+Indeed, as @lewontin_cultural_1982 synthesises, evolution can happen whenever a population of items has the following three characteristics:
 
-\add{mesoudi-cultural-2011?}
+- There exists a transmission process by which a new item correlates to the initial item it was created from (e.g. the phenotype of an offspring depends on the phenotype of the parent)
+- There is variation in the properties of items in the population,
+- Items survive and spread differentially depending on these varying properties.
+
+By looking at genetic models of evolution as a special case of these general principles of evolution, @cavalli-sforza_cultural_1981 developed the mathematical analysis of purely phenotypic transmission, which can take different paths in a given population:
+vertical (from parent to offspring), oblique (from a non-parent member of the previous generation to a member of the next generation), horizontal (inside one generation), or any combination thereof.
+@boyd_culture_1985 [-@boyd_origin_2005] further developed this line, leading to the formulation of *Standard Cultural Evolution* (hereafter SCE) which offers a systematic analysis of part of the interactions between cultural and genetic evolution.
+This approach is now vibrant with empirical work [see @acerbi_if_2015 for a review of recent studies].
+
+A notable feature of this programme is that it does not constrain itself into a particular view of culture.
+While the main authors define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], the mathematical models they develop can be used without giving too much conceptual strength to the notion of cultural information itself (which is difficult to define).
+Indeed, their results are based on the correlation of behaviours because *something* is transmitted across individuals in a community, not on an ontological claim about the nature of what exactly is being transmitted.
+The approach also has strong links to works that qualify the conceptual distinction between non-genetic and genetic aspects of life [in particular through the analysis of niche construction, to which we come back later on].
+It is thus a central theory for the study of how cultural and non-cultural aspects of life interact.
+In this thesis, however, we will mostly focus on the Parisian approach to cultural evolution, which we can now present in more detail.
 
 
 #### Parisian {#sec:intro-review-parisian}
