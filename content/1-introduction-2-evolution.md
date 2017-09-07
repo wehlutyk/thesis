@@ -133,21 +133,25 @@ In this thesis, however, we will mostly focus on the Parisian approach to cultur
 
 #### Parisian {#sec:intro-review-parisian}
 
-In the mid-nineties Dan Sperber formalised a second influential approach to the question of the evolution of culture:
-in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, hereafter noted CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary questions.
-One of the guiding questions of Sperber's work is the following: how can we explain both the diversity of culture across regions, and its relative stability through time, knowing that all human beings are more or less made of the same ingredients?
-In developing an answer, Sperber commits himself to presenting a coherent ontology where the status of each object he refers to is well defined, while at the same time connecting with the many ontologies he identifies in anthropology.
+In the mid-nineties Dan Sperber formalised a second influential approach to the question of cultural stability and change:
+in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, hereafter noted CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary matters such as cultural evolution.
+One of the guiding questions of Sperber's work is the following:
+how can we explain the relative stability of cultures through time despite the fact that most interactions between human beings seem to be transmitting very little (if anything at all) about a community's culture?
+In developing an answer, Sperber commits himself to presenting a coherent ontology to define culture and identify exactly what is transmitted in human interactions, while at the same time connecting with the many ontologies he identifies in anthropology.
 
-The framework he suggests then starts from an ontology made of "mental representations", which correspond to those defined and studied by classical cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, etc..
+---
+
+The framework he suggests starts from an ontology made of "mental representations", which correspond to those defined and studied by classical cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, et caetera.
 New mental representations are constantly formed in people's minds whenever they perceive or interpret public representations.
 For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
 Most of the time, the new representation in that person's head is different from my original representation.
-This last point is a defining feature of the theory Sperber proposes, in contrast to not only memetics, but also to SCE as outlined above [@sperber_explaining_1996, p. 25-26, 31].
+This last point is a defining feature of the theory Sperber proposes, in contrast to not only memetics, but also the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
 
-On this basis, Sperber proposes to model human societies as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions (in which mental representations play a role).
-To explain culture then, in this framework, is to analyse the processes by which representations circulate through a society, with different levels of change along the way.
-Those processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same notion of mental representations from cognitive science.
+On this basis, Sperber proposes to model human communities as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions (in which mental representations play a role).
+Culture, he argues, can be seen as the pool of representations that circulate in a given community, and the study of culture then amounts to an *epidemiology of representations*.
+In other words, to explain culture is to analyse the processes by which representations circulate through a society, with different levels of change along the way.
+These processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same notion of mental representations from cognitive science.
 
 By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
 In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles.
@@ -178,6 +182,9 @@ at the concrete level, it questions whether a representationalist approach can n
 at the programmatic level it suggests that, compared to the focus on dynamic couplings that Thompson and his colleagues develop under the "enactive approach" banner, a focus on representations in cognitive science has less heuristic value in guiding the exploration of the interactions between culture and psychology.
 Regardless of whether proponents can reconcile SCE and CAT with the second critique, I believe both approaches can benefit greatly from these debates, and that empirical study has a crucial role to play in exploring the implications of each side.
 
+
+#### Empirical exploration of the Parisian approach
+
 The empirical exploration of CAT has proven a difficult task, for two main reasons.
 First, Sperber clarifies that CAT is not, and should not be, a "grand unitary theory":
 
@@ -189,27 +196,27 @@ Indeed, CAT accomplishes this:
 
 As a consequence, testing CAT means evaluating the fruitfulness of its paradigm.
 No single study, or collection of studies for that matter, will reach a yes or no answer to the validity of CAT.
-But we can reach a collective consensus about the usefulness of approaching the psychology-culture link with the tools and questions developed by that theory.
+Still, we can reach a collective consensus about the usefulness of approaching the psychology-culture link with the tools and questions developed by that theory.
 
 As the name CAT indicates, an important part of that toolbox is the notion of cultural attractor, which is amenable to empirical study:
 the presence or absence of a well-defined attractor in a given situation can be turned into a testable hypothesis.
-In addition at the meta-analytical level, one can readily evaluate the usefulness of a cultural attraction approach in concrete domains, by analysing whether or not the questions it encourages result in fruitful studies, on average, for that domain.
-So while testing CAT empirically is not a simple matter of yes or no, the theory provides a clear set of tools and lines of thought that are well worth evaluating in a wider, programmatic appraisal.
+Additionally, at the meta-analytical level one can readily evaluate the usefulness of a cultural attraction approach in concrete domains, by analysing whether or not the questions it encourages result in fruitful studies, on average, for that domain.
+In short, while testing CAT empirically is not a simple matter of yes or no, the theory provides a clear set of tools and lines of thought that are well worth evaluating in a wider, programmatic appraisal.
 
 The second challenge to empirical exploration resides in the fact that quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
 Although theoretical models to guide that exploration are gradually appearing [@claidiere_role_2007; @claidiere_how_2014], developing methods for the quantitative study of attractors is still an open problem.
 The literature on CAT shows at least two important methods that have been used up to now.
 First, the meta-analysis of large numbers of anthropological or historical works, which has uncovered several relevant effects.
-The way portraits are painted over the centuries, for instance, has been show to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
+The way portraits are painted over the centuries, for instance, has been shown to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
 @miton_universal_2015 also used this technique to propose an explanation for the historical stability of the bloodletting practice, in spite of its medical ineffectiveness.
 Exploiting similar records, @baumard_increased_2015 showed a link between the evolution of religious values and the affluence of societies in which they develop.
-Morin and Miton (EHBEA 2017? \cn), using the same approach, model the evolution of heraldic coats of arms to test which hypotheses account best for the distribution of patterns and colours through time.
 
 A second approach is to reproduce the evolution of content with human or animal participants in the laboratory, where subjects repeatedly transmit or interact around pieces of content initially chosen by the experimenters.
 The resulting data is an approximation of the rapid evolution of artefacts in real life, yet in a controlled situation that can then be statistically analysed with access to all the parameters.
 This technique has been used in studies ranging from the evolution of visual patterns transmitted in a group of apes [@claidiere_cultural_2014], to the role of argumentation in the transmission of solutions to simple but counter-intuitive reasoning problems [@claidiere_argumentation_2017].
-\add{baumard-mutualistic-2013.}
-A number of other disciplines have developed methods that can be relevant to the study of CAT and SCE, and I review these in @sec:intro-review-neighbours.
+A number of other disciplines have developed methods that can be relevant to the study of CAT and SCE, and I review these in the next subsection (@sec:intro-culture-empirical).
+
+\bigskip
 
 While authors have acknowledged that there is no core incompatibility between CAT and SCE [@acerbi_if_2015; @sterelny_cultural_2017] and a growing number of social scientists is discussing both approaches positively [see the comments to @mesoudi_towards_2006; and @slingerland_what_2008], the work I present in this thesis is mainly focused on CAT itself, and less so SCE.
 While the prevalence of the cultural attraction approach in the French academic landscape naturally had an impact on this choice, I see three other arguments for focusing on CAT.
@@ -219,7 +226,6 @@ Second, its initial goal is not so much to develop a mathematical theory of cult
 Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.^[
   In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
 ]
-\add{smaldino-let-2014.}
 As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as the propositions coming from social anthropology, and those discussed in @sec:intro-review-criticisms) which, at the moment, are still competing on the principled level.
 In particular, the challenges that arise when attempting to study CAT experimentally, as will be the case here for linguistic utterances, should prove helpful in developing a path to the resolution of the critiques faced by both CAT and SCE.
 
