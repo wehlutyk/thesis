@@ -173,11 +173,11 @@ A cultural attractor is thus a region in representation space towards which repr
 Such attraction can be due a variety of factors.
 The tale of Little Red Riding Hood, for instance, could have remained stable through time because of an attractor due to basic cognitive mechanisms favouring a particular structure in the story.
 The recipe for Mornay sauce could be stable through time because of constraints on the way it is taught, and the physical possibilities to realise the mixture of ingredients.
-To take yet another example, the practice of smoking can be seen as exhibiting two natural attractors:
-either not smoking at all, or developing a dependency and smoking around 25 cigarettes a day [@claidiere_role_2007].
+To take yet another example, the practice of smoking can be seen as a range of public representations with two attractors:
+either not smoking at all, or developing an addiction and behavioural habits for smoking around 25 cigarettes a day [@claidiere_role_2007].
 Note that distribution of representations in a community depends not only on attractors, but on where new representations come from and where they disappear.
 In the case of smoking, one can imagine a constant flow of people starting to smoke about 10 cigarettes a day, and gradually being attracted to 0 or 25 a day, such that the steady-state distribution of smoking behaviours is rather flat from 0 to 25 cigarettes a day [@claidiere_role_2007].
-Cultural attractors are therefore one of the core concepts of CAT, as they provide intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
+Cultural attractors are one of the core concepts of CAT, as they provide intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
 As such, a central goal in the CAT research stream has been to identify existing attractors, and explain their emergence based on the interaction of psychological and ecological factors.
 
 The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of individual psychology for the evolution of culture and its role in the emergence of attractors [@sperber_explaining_1996, p. 31].
@@ -222,36 +222,45 @@ As a consequence, testing CAT means evaluating the fruitfulness of its paradigm.
 No single study, or collection of studies for that matter, will reach a yes or no answer to the validity of CAT.
 Still, we can reach a collective consensus about the usefulness of approaching the psychology-culture link with the tools and questions developed by that theory.
 
-As the name CAT indicates, an important part of that toolbox is the notion of cultural attractor, which is amenable to empirical study:
+As the name Cultural Attraction Theory indicates, an important part of that toolbox is the notion of cultural attractor, which can be empirically studied:
 the presence or absence of a well-defined attractor in a given situation can be turned into a testable hypothesis.
-Additionally, at the meta-analytical level one can readily evaluate the usefulness of a cultural attraction approach in concrete domains, by analysing whether or not the questions it encourages result in fruitful studies, on average, for that domain.
+Additionally, at the meta-analytical level one can evaluate if tackling a problem with a cultural attraction approach encourages useful questions and fruitful studies, or if it is more of a hindrance in explaining the phenomena at hand.
 In short, while testing CAT empirically is not a simple matter of yes or no, the theory provides a clear set of tools and lines of thought that are well worth evaluating in a wider, programmatic appraisal.
 
 The second challenge to empirical exploration resides in the fact that quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
 Although theoretical models to guide that exploration are gradually appearing [@claidiere_role_2007; @claidiere_how_2014], developing methods for the quantitative study of attractors is still an open problem.
 The literature on CAT shows at least two important methods that have been used up to now.
 First, the meta-analysis of large numbers of anthropological or historical works, which has uncovered several relevant effects.
-The way portraits are painted over the centuries, for instance, has been shown to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
-@miton_universal_2015 also used this technique to propose an explanation for the historical stability of the bloodletting practice, in spite of its medical ineffectiveness.
+The way portraits were painted in Europe over the centuries, for instance, has been shown to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
+In terms of CAT, existing paintings are a collection of public representation from which younger painters learn and inspire themselves, creating their own mental representations of the paintings.
+A cultural attraction towards direct-gaze portraits (whose exact roots could be a cognitive bias, but that is not yet clear) then seems to have driven the evolution of the overall distribution of public representations painted over the centuries in Europe.
+@miton_universal_2015 also used such archive analysis techniques to propose an explanation for the historical stability of the practice of bloodletting, in spite of its medical ineffectiveness.
 Exploiting similar records, @baumard_increased_2015 showed a link between the evolution of religious values and the affluence of societies in which they develop.
+Here again, the practice corresponding to a particular religious value (e.g. asceticism) would be the public representation that is interpreted and reproduced by people who practice the religion.
+@baumard_increased_2015 hypothesise that the increased affluence that various societies experienced in the first millennium B.C. could have led to a change of life strategies (being more cooperative, investing more in the self), which in turn created a bias in the way religions are transmitted, leading religions to evolve from ritual practices into moralising practices.
+In CAT terms, a change in ecological conditions would have created a transmission bias to attract religions towards more moralising values.
 
 A second approach is to reproduce the evolution of content with human or animal participants in the laboratory, where subjects repeatedly transmit or interact around pieces of content initially chosen by the experimenters.
 The resulting data is an approximation of the rapid evolution of artefacts in real life, yet in a controlled situation that can then be statistically analysed with access to all the parameters.
 This technique has been used in studies ranging from the evolution of visual patterns transmitted in a group of apes [@claidiere_cultural_2014], to the role of argumentation in the transmission of solutions to simple but counter-intuitive reasoning problems [@claidiere_argumentation_2017].
-A number of other disciplines have developed methods that can be relevant to the study of CAT and SCE, and I review these in the next subsection (@sec:intro-culture-empirical).
+The structure of the technique is straightforward:
+pick a type of public representation, simulate the way it is transmitted in a community with given contextual constraints, and study the way it evolves in order to identify possible attraction patterns (due to ecological and psychological factors).
+Naturally, such a setup is not exclusive to proponents of CAT, and is quite common in the study of cultural evolution in general.
+Other methods for studying cultural evolution have also been developed by a number of adjacent disciplines, and we review these in the next subsection (@sec:intro-culture-empirical).
 
 \bigskip
 
-While authors have acknowledged that there is no core incompatibility between CAT and SCE [@acerbi_if_2015; @sterelny_cultural_2017] and a growing number of social scientists is discussing both approaches positively [see the comments to @mesoudi_towards_2006; and @slingerland_what_2008], the work I present in this thesis is mainly focused on CAT itself, and less so SCE.
-While the prevalence of the cultural attraction approach in the French academic landscape naturally had an impact on this choice, I see three other arguments for focusing on CAT.
-First, it puts cognitive science squarely in the middle of the problem because of the importance of psychology for the study culture.
-I admit to sharing that opinion (and given current evidence, it is not more than an opinion).
+Let us close this presentation of theories by explaining why we chose to focus our work on CAT and not on SCE.
+While the prevalence of the cultural attraction approach in the French academic landscape certainly had an impact on our choice, three better arguments can justify a deeper focus on CAT.
+First, it puts cognitive science squarely in the middle of the problem, by acknowledging the importance of psychological processes in the study of culture.
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely flourish in due time), but to interest all disciplines studying human life in a common framework by using *principled philosophical arguments*.
-Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.^[
-  In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
+Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.
+^[In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
 ]
-As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as the propositions coming from social anthropology, and those discussed in @sec:intro-review-criticisms) which, at the moment, are still competing on the principled level.
-In particular, the challenges that arise when attempting to study CAT experimentally, as will be the case here for linguistic utterances, should prove helpful in developing a path to the resolution of the critiques faced by both CAT and SCE.
+As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as propositions coming from social anthropology or other branches of cognitive science) which, at the moment, are still competing on the principled level.
+Recall however that CAT and SCE have no core incompatibility, as both can be applied to analyse different facets and different scales of the same situation [@acerbi_if_2015; @sterelny_cultural_2017].
+A growing number of social scientists is also discussing both approaches positively [see the comments to @mesoudi_towards_2006; and @slingerland_what_2008], and a convergence between the two is likely to occur in the near future.
+Therefore, the challenges that arise when attempting to study CAT experimentally, as will be the case here for linguistic utterances, should prove helpful in developing a path to the resolution of the critiques faced by both CAT and SCE.
 
 
 ### Empirical work {#sec:intro-culture-empirical}
