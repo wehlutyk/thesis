@@ -139,39 +139,61 @@ One of the guiding questions of Sperber's work is the following:
 how can we explain the relative stability of cultures through time despite the fact that most interactions between human beings seem to be transmitting very little (if anything at all) about a community's culture?
 In developing an answer, Sperber commits himself to presenting a coherent ontology to define culture and identify exactly what is transmitted in human interactions, while at the same time connecting with the many ontologies he identifies in anthropology.
 
----
-
-The framework he suggests starts from an ontology made of "mental representations", which correspond to those defined and studied by classical cognitive science, and "public representations", which are the expressions of mental representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, et caetera.
+Sperber suggests that culture can be defined with a simple ontology made of *representations*.
+Representations can be *mental*, as defined and studied by cognitive science, or can be expressed as *public* representations in diverse cultural artefacts such as pieces of text, utterances, pictures, myths, built structures, et caetera.
 New mental representations are constantly formed in people's minds whenever they perceive or interpret public representations.
 For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
 Most of the time, the new representation in that person's head is different from my original representation.
-This last point is a defining feature of the theory Sperber proposes, in contrast to not only memetics, but also the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
+^[The recognition that representations change so much when they are transmitted through human interactions is a defining feature of the theory Sperber proposes, in contrast to memetics and to the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
+]
 
-On this basis, Sperber proposes to model human communities as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions (in which mental representations play a role).
-Culture, he argues, can be seen as the pool of representations that circulate in a given community, and the study of culture then amounts to an *epidemiology of representations*.
-In other words, to explain culture is to analyse the processes by which representations circulate through a society, with different levels of change along the way.
-These processes are many and heterogeneous, which corresponds to the diversity of cultural domains that exist in societies, but the basic ontology remains grounded in the same notion of mental representations from cognitive science.
+On this basis, Sperber proposes to model human communities as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions, in which mental representations play a role.
+Culture, he then suggests, can be seen as the pool of representations that circulate in a given community, and studying the stability and change of a culture amounts to describing the *epidemiology of representations* in a community.
+In other words, to explain culture in this framework is to describe the processes by which representations circulate through a society, leading certain strains to spread more or less widely as they are transmitted and transformed by individual interactions.
+The exact processes that lead representations to spread or change can be extremely varied, as representations themselves correspond to diverse cultural domains.
+A military technique, for instance, is transmitted and transformed through different processes than the ones at work for the transmission of, say, a particular game at school.
+The first involves military instruction, a hierarchy of members, explicit knowledge bases and so on, while the second involves informal imitation and daily interactions of children playing with each other during school breaks.
+Still, the basic ontology remains grounded in the unique notion of mental representations from cognitive science.
 
 By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
-In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles.
-It is amenable to anthropology, and encourages the combination of the two bodies of knowledge in a well defined way.
+Using an ontologically clear notion of representation is a useful step, Sperber argues, as the notions of representation in social science are so diverse that no common definition can be be agreed upon;
+instead, the cognitive notion of representation can be used to unify the various notions already studied in social science [@sperber_explaining_1996 p. 16, 24-25, 33, 61-63, 78-80].
+In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles, while at the same time recognising the diversity of cultural phenomena to be studied.
+It is thus amenable to anthropology, and encourages the combination of the two bodies of knowledge with clear definitions.
 Sperber can then rephrase interdisciplinary questions in terms of spread and transformation of representations.
-For instance:
-what types of representations are less transformed than others as people integrate them or perceive them, and produce them anew, making them circulate in a society?
-Such representations, spreading wider than others, become *cultural representations* and will characterise a given society (for instance the habit of clothing, eating customs or values, or technological knowledge).
+In particular, the question of how culture remains relatively stable through time can be reformulated as follows:
+Why do some representations spread much more than others in a given community, remaining stable at the population level in spite of being repeatedly transformed by individual interactions?
+Such representations, called *cultural representations*, can be taken to characterise the culture of a given community (for instance clothing habits, eating customs or values, or technological knowledge).
+Thus, in the epidemiological framework proposed by Sperber, the question of cultural stability and change is the question of the stability of cultural representations at the population level.
 
-Why are those representations so stable, and how do they evolve?
-Sperber introduces an additional concept to analyse this evolution:
-the dynamical system of representations which models a society's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
-Cultural attractors are one of the core concepts in CAT providing intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
+To answer this question, Sperber introduces an additional concept:
+the dynamical system of representations which models a community's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors in the transmission of representations, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
+A cultural attractor is thus a region in representation space towards which representations tend to come closer whenever they are transformed in an interaction.
+Such attraction can be due a variety of factors.
+The tale of Little Red Riding Hood, for instance, could have remained stable through time because of an attractor due to basic cognitive mechanisms favouring a particular structure in the story.
+The recipe for Mornay sauce could be stable through time because of constraints on the way it is taught, and the physical possibilities to realise the mixture of ingredients.
+To take yet another example, the practice of smoking can be seen as exhibiting two natural attractors:
+either not smoking at all, or developing a dependency and smoking around 25 cigarettes a day [@claidiere_role_2007].
+Note that distribution of representations in a community depends not only on attractors, but on where new representations come from and where they disappear.
+In the case of smoking, one can imagine a constant flow of people starting to smoke about 10 cigarettes a day, and gradually being attracted to 0 or 25 a day, such that the steady-state distribution of smoking behaviours is rather flat from 0 to 25 cigarettes a day [@claidiere_role_2007].
+Cultural attractors are therefore one of the core concepts of CAT, as they provide intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
 As such, a central goal in the CAT research stream has been to identify existing attractors, and explain their emergence based on the interaction of psychological and ecological factors.
 
-The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of psychology for the evolution of culture [@sperber_explaining_1996, p. 31] and its role in the emergence of attractors.
+The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of individual psychology for the evolution of culture and its role in the emergence of attractors [@sperber_explaining_1996, p. 31].
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).
-Combining this view with epidemiology of representations, Sperber argues, results in a theory avoiding both the blank slate approach to psychology [@sperber_explaining_1996, p. 63-66] and a naive application of neo-darwinist formalism to the specific case of culture [@sperber_explaining_1996, p. 101], while still being able to account for the diversity of cultures [@sperber_explaining_1996, p. 120].
+Combining this view with epidemiology of representations, Sperber argues, results in a theory that avoids two common pitfalls.
+On one side, the abstract approach to representations considers that it is possible to completely study culture without going into the details of individual cognitive processes;
+this approach has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, p. 63-66].
+Taking into account the role of psychological constraints is also not incompatible with an account of the diversity of cultures as observed in ethnography [@sperber_explaining_1996, chap. 6].
+On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) are a grotesque simplification of the details of culture, and of the diversity of interactions and domains that exist in the world [@sperber_explaining_1996, p. 101].
+
+---
+
 This specificity of CAT is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47];
 CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but focus on slightly different questions [@sterelny_cultural_2017; @acerbi_if_2015].
+
+- it converged with SCE
 
 The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012 p. 461-2 provides further discussion and context].
 [@Sec:intro-review-developments;@sec:intro-review-criticisms] come back to these debates and criticisms, which I group into two broad categories.
