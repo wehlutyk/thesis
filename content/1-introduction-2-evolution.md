@@ -252,7 +252,7 @@ Other methods for studying cultural evolution have also been developed by a numb
 
 Let us close this presentation of theories by explaining why we chose to focus our work on CAT and not on SCE.
 While the prevalence of the cultural attraction approach in the French academic landscape certainly had an impact on our choice, three better arguments can justify a deeper focus on CAT.
-First, it puts cognitive science squarely in the middle of the problem, by acknowledging the importance of psychological processes in the study of culture.
+First, it puts cognitive science squarely in the middle of the problem, by acknowledging the importance of psychological processes in the study of culture [@scott-phillips_simple_2017].
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely flourish in due time), but to interest all disciplines studying human life in a common framework by using *principled philosophical arguments*.
 Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.
 ^[In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
