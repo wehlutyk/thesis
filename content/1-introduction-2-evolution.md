@@ -24,7 +24,7 @@ Mauss's observations of the evolution of practices bring us to the first general
 while it is clear that the culture of a community changes over time (notice how the past is sometimes described as just another foreign country), the way it changes is remarkably slow and gradual.
 On one side, we know that a culture is transmitted in some form or other, as newer generations of a community grow into a pre-existing set of habits, practices and ideas, or as interacting people of the same generation influence each other's behaviours.
 On the other side, it is not at all clear what exactly is transmitted between people, either in a given generation or from one generation to the next.
-@durkheim_suicide:_2012, for instance, started his seminal study by puzzling at the regularity of suicide rates over the years, and at the correlation of those rates with social variables such as religion.
+@durkheim_suicide:_2012, for instance, started his seminal study by puzzling at the regularity of suicide rates over the years, and at the correlation of these rates with social variables such as religion.
 How does the stability of such phenomena come about, and what are the regularities in the changes that occur?
 The relative stability of cultures is all the more surprising given that, in everyday life, few activities seem to be actively transmitting anything at all.
 Of course we sometimes imitate behaviours that we observe in someone else, and many education-related activities explicitly aim to transmit a particular skill or body of knowledge (though hardly anything explicitly related to suicide).
@@ -183,26 +183,28 @@ As such, a central goal in the CAT research stream has been to identify existing
 The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of individual psychology for the evolution of culture and its role in the emergence of attractors [@sperber_explaining_1996, p. 31].
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).
 Combining this view with epidemiology of representations, Sperber argues, results in a theory that avoids two common pitfalls.
-On one side, the abstract approach to representations considers that it is possible to completely study culture without going into the details of individual cognitive processes;
-this approach has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, p. 63-66].
-Taking into account the role of psychological constraints is also not incompatible with an account of the diversity of cultures as observed in ethnography [@sperber_explaining_1996, chap. 6].
-On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) are a grotesque simplification of the details of culture, and of the diversity of interactions and domains that exist in the world [@sperber_explaining_1996, p. 101].
+On one side, too abstract approaches tend to consider that culture can be completely studied without going into the details of individual cognitive processes;
+this stance has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, p. 63-66].
+Taking into account the role of psychological constraints is also not incompatible with an account of the diversity of cultures as observed in ethnography [@sperber_explaining_1996, chapter 6].
+On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) lead to a grotesque simplification of culture itself, and of the role of cognitive processes in the cultural evolution [@sperber_explaining_1996, p. 101].
+The importance that CAT gives to individual psychology is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47].
+Indeed, the main question for SCE is how organisms select the sources from which they copy cultural traits, as in that framework such choices can have large effects on the overall cultural evolution (for instance selecting for prestige, conforming to majority choices, etc.).
+For CAT, instead, the main question is how the interaction of psychological and ecological factors leads to cultural attractors, an interaction that can explain the overall stability of some representations in the face of important micro-level transformations.
+CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE;
+in fact, the two theories seem to be converging towards common accounts lately, and most authors consider that the two focus on slightly different but complementary questions [@sperber_explaining_1996, p. 114;@acerbi_if_2015;@sterelny_cultural_2017].
 
----
+The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012 p. 461-2 provides further discussion and context], especially concerning the way these theories model the interaction of cultural and non-cultural aspects of life.
+We will come back to these debates in @sec:intro-cogsoc.
+For now, let us turn to the empirical validation of CAT.
 
-This specificity of CAT is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47];
-CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE [@sperber_explaining_1996, p. 114], and most authors consider that both theories are compatible but focus on slightly different questions [@sterelny_cultural_2017; @acerbi_if_2015].
-
-- it converged with SCE
-
-The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012 p. 461-2 provides further discussion and context].
-[@Sec:intro-review-developments;@sec:intro-review-criticisms] come back to these debates and criticisms, which I group into two broad categories.
+<!-- comes back to these debates and criticisms, which we group into two broad categories.
 The first concerns the specifics of the evolutionary approach adopted by SCE and CAT:
 what evolutionary mechanisms should they take into account (for instance niche construction, or epigenetic or extended inheritance) and, correspondingly, how long the restriction of inheritance to two isolated and parallel channels will remain the best approximation.
 The second critique concerns what @thompson_mind_2007 has termed the "informational dualism" of the notion of representation in cognitive science:
 at the concrete level, it questions whether a representationalist approach can naturalise meaning, a core aspect in the analysis of culture and life;
 at the programmatic level it suggests that, compared to the focus on dynamic couplings that Thompson and his colleagues develop under the "enactive approach" banner, a focus on representations in cognitive science has less heuristic value in guiding the exploration of the interactions between culture and psychology.
 Regardless of whether proponents can reconcile SCE and CAT with the second critique, I believe both approaches can benefit greatly from these debates, and that empirical study has a crucial role to play in exploring the implications of each side.
+-->
 
 
 #### Empirical exploration of the Parisian approach
@@ -285,7 +287,7 @@ A later stream of research focused more on pictorial content, such as @ward_expe
 He confirmed that what Bartlett called "representative detached details", that is parts of a picture that represent a distinctive pattern or object even when isolated from the whole, are well preserved both in artificial and historical serial reproductions.
 Ward thus suggested that comparing historical data to results of serial reproduction experiments can be a useful method to investigate the influence of universal-psychological versus local-cultural factors in theories of historical evolution of artefacts.
 @hall_effect_1950 further explored hypotheses made by Bartlett on the effect of titles for pictorial and verbal serial reproduction:
-in those new experiments, it appeared that titles had a considerable influence on the reproduction of both pictures and texts, by acting as an interpretive frame that guides (or confuses) the participants in interpreting the material.^[
+in these new experiments, it appeared that titles had a considerable influence on the reproduction of both pictures and texts, by acting as an interpretive frame that guides (or confuses) the participants in interpreting the material.^[
   Hall, noting that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120], later reflects on the fact that such results have crucial political implications given the development of mass media.
 ]
 More recently the reliability of Bartlett's studies has been discussed, shifting the focus towards a better control of experimental conditions:
@@ -328,7 +330,7 @@ if at each generation, the participants of two parallel chains both receive two 
 @acerbi_role_2016 further modelled such error-correcting redundancy, simulating minimal scenarios that could favour its evolution given fixed cost-reward constraints.
 @eriksson_corpses_2014 also decomposed real world transmission into three phases:
 choose-to-receive, encode-and-retrieve, and choose-to-transmit.
-Focusing on emotional selection studies showing that participants are more willing to pass on stimuli that elicit disgust [@heath_emotional_2001], the authors showed that any of those phases can be the target of a selection pressure.
+Focusing on emotional selection studies showing that participants are more willing to pass on stimuli that elicit disgust [@heath_emotional_2001], the authors showed that any of these phases can be the target of a selection pressure.
 Such pressures can additionally counteract each other, showing that the transmission process is more complex than was initially assumed.
 Studies of digital media have adopted the increased level of detail, as digital communication lets users copy-paste and bypass the encode-and-retrieve phase of transmission [@acerbi_cultural_2016].
 
@@ -336,7 +338,7 @@ Methodological exploration has also led to more free-form interaction setups:
 in a study of the transmission of risk perception, @moussaid_amplification_2015 chose to make the interaction and underlying transmission of information an open-ended process.
 After initiating a chain by providing the first participant with a set of documents to read on their own, later participants were left to talk freely in successive dyads, and the whole session was recorded on film for subsequent analysis.
 An analogous change of setup was operated by @caldwell_studying_2008 [-@caldwell_experimental_2008] who investigated the cumulative aspect of the evolution of building techniques in a series of experiments asking participants to construct spaghetti towers or paper planes, later evaluated by their height and flight distance.
-A crucial point in those setups, Sterelny notes [-@sterelny_cultural_2017, n. 12], is that participants could observe the preceding generation during their experimenting and building, meaning they had access to rich context for the learning phase of transmission.
+A crucial point in these setups, Sterelny notes [-@sterelny_cultural_2017, n. 12], is that participants could observe the preceding generation during their experimenting and building, meaning they had access to rich context for the learning phase of transmission.
 Taking another step to embrace interaction with a setup where participants had to repeatedly build Lego cars in pairs (though without transmission), @mcgraw_cultures_2014 take the complete joint interaction to be their object of study and propose to use the constructions resulting from interacting dyads as a trace of the processes that took place in the interaction.
 By looking at the characteristics of the cars built by participants, the authors claim to present "methods for discerning, and quantifying, schema-like intersubjective understandings in material form" [@mcgraw_cultures_2014, p. 4; see also @mitkidis_building_2015; and @wallot_beyond_2016], effectively integrating critiques that I discuss below in @sec:intro-review-criticisms.
 
@@ -361,7 +363,7 @@ Several factors have been shown to influence the process, including the structur
 A first major goal in this stream is to provide an non-nativist account of the emergence an structure of communication systems [@kirby_innateness_2007].
 @galantucci_experimental_2005, for instance, studied pairs of participants facing a cooperative task that required them to develop ad hoc communication conventions.
 The communication channel, a form of shared whiteboard, distorted participants' input by a constant drift such that they could not enter letters or pictorial drawings.
-The study highlighted the variety of strategies used by participants to develop conventional sign systems, and in particular the way those systems were adapted to the interaction history of dyads.
+The study highlighted the variety of strategies used by participants to develop conventional sign systems, and in particular the way such systems were adapted to the interaction history of dyads.
 The authors showed that sign systems were deeply meshed with the situated and time-dependent information that was available, allowing the participants to solve their task by dynamically coordinating [@galantucci_experimental_2005, pp. 748-749].
 Further stripping down the set of assumptions built into the experimental setup, @scott-phillips_signalling_2009 created a cooperative task without providing any communication channel parallel to the task itself.
 To solve the challenge, participants had to develop a communication system where their own behaviour in the task could become an embodied communicative signal, aside from accomplishing their action for the task either simultaneously or at other times.
@@ -408,18 +410,18 @@ Similarly, in a picture-description transmission chain using an artificial minim
 They note, in particular, that "there is some suggestive evidence that structure in language can be modulated by the composition of populations" [@kirby_compression_2015, p. 99]:
 different communication patterns at the population level, or a different fabric in the population responsible for the transmission and evolution of a language (e.g. more second-language learners, or more children learners), should lead to differences in the evolution of language structure.
 Regarding symbolism, @caldwell_cultural_2012 extended the micro-society Pictionary-like task studied by @fay_interactive_2010 to one where participants were gradually replaced, inducing increased symbolism and successful transmission of the evolved symbols at the same time.
-Initial members of the micro-society constructed highly iconic representations of the meanings to convey, but as the experiment introduced newcomers to those signs through observation and consequent use, the drawings gradually lost the iconic link to their referent and became simpler.
+Initial members of the micro-society constructed highly iconic representations of the meanings to convey, but as the experiment introduced newcomers to these signs through observation and consequent use, the drawings gradually lost the iconic link to their referent and became simpler.
 
 Large portions of the iterated learning literature draws on and contributes to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
 @griffiths_language_2007 were the first to show that the analytical structure of iterated learning with uniform Bayesian agents can correspond, depending on the way the agents produce new iterations, to well-known statistical inference methods (Gibbs sampling and a flavour of the EM algorithm).
 In such a setup, iterated learning predictably converges towards distributions determined by the internal prior distributions of agents (i.e. their inference bias).
-As a consequence, in those analytically derived situations one can straightforwardly predict the final distributions that should evolve under iterated learning, a fact that @kalish_iterated_2007 verified with humans in a function learning task.
+As a consequence, in these analytically derived situations one can straightforwardly predict the final distributions that should evolve under iterated learning, a fact that @kalish_iterated_2007 verified with humans in a function learning task.
 @griffiths_using_2008 further exploit this result by using it in the reverse direction:
 since the outcome of iterated learning, for specific setups, is predictable on the basis of participants' priors, one can use such experiments to investigate the inductive biases of participants.
 The authors confirmed this, showing that the method infers well-known participant biases in category learning tasks.
 @griffiths_theoretical_2008 then explored the relevance of these findings for the study of cultural evolution, showing in particular that individual cognitive biases can have significant effects on long-term cultural evolution.
-@reali_evolution_2009 further related those results to the evolution of vocabulary, showing that they are consistent with experimental cases of word-meaning mapping regularisation.
-Finally @perfors_language_2014, through analytical derivation and experimental confirmation, reintroduced the impact of the external world in those results;
+@reali_evolution_2009 further related these results to the evolution of vocabulary, showing that they are consistent with experimental cases of word-meaning mapping regularisation.
+Finally @perfors_language_2014, through analytical derivation and experimental confirmation, reintroduced the impact of the external world in these results;
 the authors showed that the structure of referents (i.e., the external world) will also play a role in the final evolved language, provided it has an effect on the choice of items people actually talk about (versus, the choice of items talked about only depends on the language itself).
 
 @scott-phillips_language_2010 and @tamariz_cultural_2016 provide further reviews of the iterated learning literature, and @galantucci_experimental_2012 and @roberts_investigating_2017 offer reviews of experimental semiotics.
@@ -436,7 +438,7 @@ the intersection of questions from the two fields is likely to push theoretical 
 @acerbi_cultural_2016 defines digital media as "media encoded in digital format, typically to be transmitted and consumed on electronic devices, such as computers and smartphones".
 The ubiquity of this medium, which created the ongoing avalanche of available digital traces, has opened both questions and possibilities for the study of cultural evolution over the past 15 years.
 Indeed digital media is both a measurement tool and an object of study, as it has become embedded in everyday life in many societies, with its own practices of interaction, mediation, or transmission, possibly impacting cultural evolution.
-While digital practices are different from those in physical encounters, the digital transition remains an addition to the possible range of interaction media, and the cultural evolution framework can study it as such, with increased access to the artefacts those interactions produce.
+While digital practices are different from those in physical encounters, the digital transition remains an addition to the possible range of interaction media, and the cultural evolution framework can study it as such, with increased access to the artefacts these interactions produce.
 @acerbi_cultural_2016 argues precisely for such an approach to digital media, and reviews relevant works that have explored that space.
 In what follows I present three areas of focus that have received particular attention in the literature.
 
