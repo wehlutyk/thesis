@@ -254,6 +254,16 @@ as noted above, @croft_evolutionary_2013 provides a compelling account of langua
 The shift in focus, from intrinsic capabilities of information-processing systems to the dynamical properties of the coupling of organisms with their environment, is also aligned with parts of the criticisms addressed by anthropologists to the initial versions of Californian and Parisian cultural evolution [@fuentes_evolution_2006; -@fuentes_new_2009; @ingold_complementarity_1998; -@ingold_transmission_2001].
 
 
+<!--
+@croft_evolutionary_2013 provides a general framework for language change, inspired by principles from biological evolution and by recent debates on the nature of the evolutionary process, and crucially focused on identifying an adequate unit of analysis for the evolutionary study of language change.
+Indeed the author combines two key insights.
+On one side, Hull's General Analysis of Selection [@croft_evolutionary_2013, p. 16] lets him abstract out the principles of evolutionary processes and distinguish between replicator, interactor, and selection, three core components that provide "a model for disentangling different cultural evolutionary processes and identifying their interconnections" [@croft_evolutionary_2013, p. 18].
+On the other side, he draws on the critique that Developmental Systems Theory opposes to a gene-centred view of biological evolution [@oyama_cycles_2001], and insists that a theory of language change should consider utterances to be full life cycles made of pronunciation, meaning, and interpretation in context.
+He thus proposes the Theory of Utterance Selection, which takes linguemes (i.e. the linguistic structure of sounds, words, constructions and utterances) to be replicators, but always part of a larger cycle;
+language speakers are the interactors [-@croft_evolutionary_2013, p. 16], and the theory defines language as the "population of utterances in a speech community" [-@croft_evolutionary_2013, p. 35].
+-->
+
+
 #### "4E" revisited: the enactive approach
 
 \todo{use chemero-after-2008 for this summary}
