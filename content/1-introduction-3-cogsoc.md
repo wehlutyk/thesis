@@ -1,140 +1,65 @@
 ## Culture-cognition links and evolutionary syntheses {#sec:intro-cogsoc}
 
-- a second, related debate is how to integrate theories of cultural evolution with cognition and biology itself
-- Ingold intro (who shares the fact that anthropology has not concerned itself with psychology recently, for various reasons). (For him there is no cognition that is not cultural, the same way there is no movement that is not cultural for Mauss, and the same way there is no culture that is not cognitively-determined or influenced.) (Giddens, and even Mauss (and Bourdieu, Gibson, etc.), support that (discussed by steiner-autonomy-2009))
-- the debate is how much are culture/psychology/biology independent, versus in close feedback loops
-- some parts are discussed in the SCE/CAT literature: NCT/EES, 4E a little
-- some parts are not discussed: DST/Enactive (more radical)
-- the cognitive level of things will resurface later on
+### The complementarity thesis
 
-
-
-### In social science {#sec:intro-review-social}
-
-Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
-
-
-Contemporaries of Durkheim, as well as later researchers, made this matter one of their central preoccupations.
-
-But as those works also acknowledged, such a question raises issues in need of prior clarification:
-what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
-Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
-
-
-The question of the incorporation of culture, and behind it the inseparability of culture, physiology, and psychology, has remained central in social science.
-Works closer to us have contributed to the matter:
-for @bourdieu_sens_1980, societal norms are also incorporated in perception, and shape our everyday unreflective interpretation of events, our way of navigating life (our *sens pratique*).
-According to him, norms become embedded in the fullest sense, through life, into our low-level perception and exploration of the environment.
-Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction, building on the idea that members of a society grow into a *habitus* leading them to perceive events in ways that reinforce existing power structures.
-
-Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
-Another prominent approach, the *Theory of Structuration* developed by @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
-Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
-on one side, action arises by using existing structured resources, and its reliance on structure, or referring to it, is what makes it action and not noise;
-on the other side, the production of action is a new reinforcement of the structure on which it relies.
-This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
-on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
-on the other side, the production of a meaningful utterance contributes to maintaining language as a structured totality.
-
-<!--
-
-To someone coming from mathematics, such a discussion can be seen as stating the obvious: in a network, the parts' identities are defined by their position respective to the rest of the network, and the totality is made of the identities of the parts.
-So necessarily any definition separating parts and totality will be recursive.
-But the discussion does bear on the distinction between culture and psychology, which exists in academic disciplines.
-
--->
-
-<!--
-
-Giddens, on the structure and agency debate
-After the functionalists and the structuralists (orthodoxy that collapsed), and after the critics from hermeneutics that revive the Verstehen/Erklären debate
-Double Hermeneutics and Teoría social informada hermenéuticamente
-Theory of structuration: theory of the subject, without falling into subjectivism. Both subject (human agent) and object (society, institutions) are made in and of recurrent practices.
-Describes a continuous process of action-monitoring, with unconscious components, and a conscience pratique, with a simplistic view of the cognitive, but there nonetheless.
-Structure is what permits something to be emitted, and what results from the emission (e.g. in language.), which is the way to escape a dualism in explaining the relation of part to totality.
-
--->
-
-\add{steiner-autonomy-2009, who connects Giddens (and others) with the questions of social cognition}
-
-Anthropology and sociology have produced considerable amounts of work concerned with the nature of culture in relation to psychology, the most prominent parts of which are reviewed by @risjord_models_2012.
-The sample I exposed here represents the approaches which have most influenced the initial questions of the present thesis.
-Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
-This concern has remained central in contemporary social anthropology, and is worth keeping in mind when studying the cultural evolution approach that I will focus on in what follows.
-
-While current writings often argue that such a separation is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the dualism it comes from permeates most of our theories about non-human animals, human beings, and life in general.
-This thesis is no exception, as I am myself an apprentice of the traditions I present and discuss here.
-However I see no reason to believe it is the best conceptual dicing one could achieve, and am (for now) agnostic about whether or not it should be maintained;
-whenever such distinctions appear in what follows, for instance between cultural and biological evolution, I will thus be referring to the conception of the works discussed, and will attempt to clarify when otherwise.
-I will come back to the consequences of this dualism in @sec:intro-review-criticisms, and will propose a more detailed discussion in @sec:discussion.
-
-<!--
-
-Dropped authors:
-
-- Simmel: reciprocity of the sociation process
-- Garfinkel: ethnomethodology. Understand agents in their context.
-- Geertz
-- Kroeber: review of the uses of "culture"
-- Bateson
-- According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach
-
-Psychology:
-
-- Gibson
-
-Darwinism
-
-- Plotkin
-- Murdoch
-- Sociobiology
-- Evolutionary Psychology
-- Memetics
-
--->
-
-*These two parapraphs come from the removed discussion of Ingold, but can introduce the chat about NCT/EES/DST/Evo-devo. Simplify them.*
-
-Ingold argues that Cultural Attraction Theory, as well as other approaches inpired by Darwin, relies on a description of life in three broad layers:
+An important question that arises in cultural evolutionary approaches is how culture interacts with non-cultural aspects of life, and the extent to which the two can be studied separately.
+@ingold_complementarity_1998 [-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007], for instance, has argued at length that Cultural Attraction Theory and Standard Cultural Evolution rely on a description of life in three broad layers:
 the biological layer, which serves as the substrate for the second layer, cognitive, which itself serves as the substrate for the third layer, cultural.
 Each layer identifies a conceptual domain taken to be fundamentally different from the other two.
 The biological level is described by the modern synthesis of evolutionary theory, centred on genetic change, and studies the *body*.
-The cognitive level is described by cognitive science using the computational metaphor, which allows for the study of *mind* without necessarily worrying about its biological manifestation.
+The cognitive level is described by cognitive science using a computational metaphor, which allows for the study of *mind* without necessarily worrying about its biological manifestation.
 In turn, the cultural level is described by (for instance) Cultural Attraction Theory, which studies *culture* as a distribution of representations circulating in society.
 The biological and cognitive layers define constraints on the way representations evolve at the cultural level (in particular through cognitive biases), but knowledge about the cultural level is not crucial to study the essential, universal parts of the mind or the body.
 
 Each layer thus corresponds to its own object of study, implemented by the lower layers but conceptually independent from them.
 Ingold calls this assembly the *complementarity thesis*, referring to the way body, mind and culture are construed as separate and complementary parts of reality [@ingold_complementarity_1998].
-The criticism he opposes to this approach can then be grouped into three essential points:
-(1) Each layer of the complementarity thesis is rooted in a problematic dualism that separates form and substance.
-(2) Without such dualisms, it is not possible to conceptually distinguish the three layers:
-there concrete manifestations are inextricable from one another, as they appear interlocked in a single object of study:
-the organism.
-If it is necessary to conceptually dice reality into parts or layers, it is not clear that the separation between biology, cognition and culture is the best way of doing so.
-(3) The notion of organism is itself problematic.
+He opposes three main points to this approach, essentially criticising it for reproducing a nature-nurture fallacy:
 
-- the question about the genetic/non-genetic divide is precisely what is discussed by NCT/EES/DST/Evo-devo, and is also well discussed by @griffiths_genetics_2013 (read intro); we take it as an open question about how to cluster the inheritance lifecycles
-- debates on the cognitive side of things are beyond the scope of this intro/review, though chapter 4 will touch on them
+(1) Each layer of the complementarity thesis is rooted in a reified distinction between form and substance, or between material realisation and abstract information:
+at the biological layer, genes are seen as bearers of information that is materially realised through development;
+at the cognitive layer, learning instincts are seen as cognitive blueprints which are realised in cognitive development;
+at the cultural layer, representations are seen as bearing cultural information which is used in concrete situations, but can still exist in abstract definitions.
+(2) While these distinctions can be useful for practical uses, in general they underestimate the interaction of genes with developmental environment, of learning instincts with cognitive developmental environment, and of representations with interactive situation of use.
+These interactions are such that it becomes difficult to define the information that is borne by genes, instincts or representations without referring to the concrete situations in which they appear (in which case they may not be bearing information in themselves).
+(3) Without these distinctions, it is not possible to conceptually distinguish the three layers:
+their concrete manifestations are inextricable from one another, as they appear interlocked in a single object of study:
+the organism.
+^[Ingold further argues that the notion of organism is itself problematic, as its general definition outside of practical use cases is also not clear.
+]
+If it is necessary to conceptually dice reality into parts or layers, it is not clear that the separation between biology, cognition and culture is the best way of doing so.
+
+Ingold's critique does not entirely do justice to the contributions made by Cultural Attraction Theory and Standard Cultural Evolution.
+First, a major benefit of CAT is that it proposes a concrete way to move forward in integrating disciplines which, in practice and for over a century, have been studying life as made of these three separate layers [this is especially true for the divide between culture and cognition, an assessment shared by Ingold].
+It creates conceptual bridges that can generate fruitful conversation.
+Such integration is bound to have its problems, but it has the advantage of being a concrete proposal that can be evaluated through argumentation and validation, moving the debate out of polemic.
+Second, the formalism put forward by SCE itself does not need to distinguish between cultural information and concrete realisation in order to be applicable.
+Standard Cultural Evolution also proposes the co-evolution of genes and culture, which acknowledges and models the interactions between the biological, cognitive and cultural layers.
+
+Once these reservations are made clear, however, the critique usefully highlights questions that are raised, and partially tackled, by CAT and SCE in maintaining a separation between cultural and non-cultural aspects of life:
+to what extent and in what ways are bodies and cognitive mechanisms independent from the practices of the community and environment in which they develop?
+How do the transmission mechanisms and the overall evolutionary processes of cultural and non-cultural aspects of life interact?
+In practice, how is one to distinguish what is cultural from what is not?
+These questions resonate with current debates in evolutionary biology and in cognitive science.
+While the empirical work presented in this thesis does not explicitly rely on such debates, we will see that the way utterances are interpreted and thus transformed in short-term evolution cannot be entirely isolated from an answer to these questions.
+
+In what follows, therefore, we briefly present the relevant parts of the evolutionary biology and cognitive science debates on the subject.
+The first set of works we present can be seen to develop or flesh out parts of CAT and SCE as formulated above.
+They are well integrated with evolutionary approaches to culture, and the communities studying them partially overlap.
+We then present a second set of works that generalise the first, and possibly call for a deeper rethink of the cultural evolution paradigm.
+To our knowledge, the second set of works is not yet explicitly debated in the cultural evolution literature.
+Overall, the questions in this section are more theoretical than above, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
+This is not to say the debates in evolutionary biology and cognitive science concern theory alone, as each debated position is well supported by empirical work;
+rather, up to now the disagreements in these debates have not yet been entirely decided by experiments that could contrast all possible predictions in the same situation.
+Some authors also argue that the different perspectives we present are not incompatible, and could be usefully combined to describe the same phenomenon.
 
 
 ### Developments {#sec:intro-review-developments}
-
-The exact nature of evolution is subject to debate in biology and philosophy of biology, and some of the recent developments have made their way into the core of cultural evolution theory.
-In a parallel movement, the nature of cognition is itself debated inside philosophy of cognitive science.
-The aim of the next two sections is to briefly discuss the relevant parts of those debates for the cultural evolution approach, delineating first the elements that could be---or are already partly---integrated into mainstream CAT, and second the critiques which, at least in current writings, seem to call for a partial rethink of the paradigm.
-The questions here are more theoretical than above, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
-This is not to say the debates in biology and cognitive science concern theory alone, as each debated position is well supported by empirical work;
-rather, up to now those works have not translated to actionable contradictory predictions in the study of cultural evolution proper.
-Nonetheless, I will argue in @sec:discussion that these debates provide crucial context to understand a particular practical challenge in the empirical study of CAT, namely the definition of the meaning of representations and its impact on the dimensions of attraction.
-I begin with developments then, that is the elements that seem possible to integrate into CAT.
-These also lay some of the groundwork for the subsequent criticisms, which I believe challenge CAT closer to its foundations.
-
 
 #### Niche construction theory
 
 A central question in the study of evolution is the definition of what counts as heritable material, for which two broad views are competing.
 The debate, agreements and disagreements between both views are well documented, and I base the following discussion on the recent reviews provided by @laland_does_2014 and @scott-phillips_niche_2014.
-The standard account of biological evolution, or Standard Evolutionary Theory (SET) as termed by @scott-phillips_niche_2014, defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; referring to @futuyma_evolution_2005].
+The standard account of biological evolution, or Standard Evolutionary Theory (SET), defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; referring to @futuyma_evolution_2005].
 Such change occurs through what is known as an evolutionary process:
 
 > "Evolutionary processes are generally thought of as processes by which these changes occur. Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration [@fisher_genetical_1930; @haldane_causes_1932]. The latter two generate variation; the first two sort it."
@@ -152,44 +77,71 @@ a beaver-built dam creates a local lake, and its presence actively changes the e
 The constructed niche is inherited across generations such that it can have a lasting impact on the selection pressures under which later generations evolve.
 SET recognises this phenomenon and defenders of the classical account are among those who actively study it [@laland_does_2014].
 Niche Construction Theory [NCT, @odling-smee_niche_2003], however, contends that increasing amounts of evidence are unsatisfactorily accounted for by SET (though not in contradiction with it), and proposes "a broadened concept of inheritance, including 'ecological inheritance,' the modified environmental states that niche-constructing organisms bequeath to their descendants" [@scott-phillips_niche_2014, p. 1233].
-Those constructed environmental states bias the natural selection of later generations (so-called "selective niche"), and also affect the social and ecological environment in which offspring develop (so-called "ontogenetic niche"), both being processes that can lead to evolutionary feedback loops.
-The evolution of dairying, as analysed by @obrien_genes_2012, is claimed as a paradigmatic case that is well accounted for by NCT.
+These constructed environmental states change the context in which natural selection of later generations takes place, making some traits more useful than others in the new context, and possibly leading to evolutionary feedback loops between changes in DNA and changes in the environment.
+An example of such changes is given by the evolution of dairying, claimed as a paradigmatic case that is well accounted for by Niche Construction Theory [@obrien_genes_2012].
 
-\add{gilbert-eco-evo-devo:-2015 if clearly aligned}
-
-NCT is part of a broader movement in evolutionary biology that seeks to integrate a strong view of such feedback dynamics into evolutionary theory, by combining evolutionary developmental biology ("Evo-Devo") with the evolution of the environment in which development take place.
-These works argue for an Extended Evolutionary Synthesis [EES, also presented as Eco-Evo-Devo by @gilbert_eco-evo-devo:_2015], conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also constructed selective and ontogenetic niches.
-The crux of the disagreement with SET lies in the importance of the dynamics that this feedback generates:
+NCT is part of a broader movement in evolutionary biology that seeks to integrate a strong view of such feedback dynamics into evolutionary theory, by combining evolutionary developmental biology with the evolution of the environment in which development and selection take place.
+These works argue for an Extended Evolutionary Synthesis (EES), conceiving of evolution as the co-evolution of organism and environment, a system that inherits genetic material, but also constructed environmental niches.
+The crux of the disagreement with Standard Evolutionary Theory lies in the importance of the dynamics that this feedback generates:
 SET considers it more parsimonious to define evolution as change in frequency of DNA sequences, and thus frames niche construction and other ecological inheritance processes as a cause for changes in DNA.
-Conversely, EES considers it more *fruitful* to define evolution as change in the whole organism-environment system, for which niche construction is a core evolutionary process, like genetic mutation or natural selection.
-According to @scott-phillips_niche_2014, the current evidence does not tease the two perspectives apart unequivocally:
+Conversely, defenders of the Extended Evolutionary Synthesis consider it more *fruitful* to define evolution as change in the whole organism-environment system, for which niche construction is a core evolutionary process, like genetic mutation or natural selection.
+The current evidence does not tease the two perspectives apart unequivocally [@scott-phillips_niche_2014]:
 all known phenomena can still be explained by both approaches with varying degrees of shoehorning, and predictions from each theory can be rephrased into the other one (although such inseparability might not last).
-However, proponents of EES argue that the study of ecological processes in evolution, while present in SET, has become systematic only thanks to the change of focus brought by the development of NCT.
+However, proponents of Extended Evolutionary Synthesis argue that the study of ecological processes in evolution, while present in Standard Evolutionary Theory, has become systematic only thanks to the change of focus brought by the development of Niche Construction Theory.
 
-The Extended Evolutionary Synthesis offers a natural framework for the study of all aspects of evolution, be they cultural or biological, and indeed the gene-culture co-evolution framework fits well with this synthesis.
-The communities developing those approaches overlap partially (Marcus Feldman, notably, is a core contributor to both research streams), and @sterelny_cultural_2017 argues that NCT is a core---if sometimes implicit---component of both Californian and Parisian cultural evolution.
-Indeed, EES is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand then joins up with that of dual inheritance theory, presented above:
+
+#### Selective and ontogenetic niches
+
+Niche Construction Theory offers more than a feedback loop between environmental and genetic change:
+it also highlights the co-evolution of behaviour and environment.
+Indeed, a constructed niche has two important consequences.
+First, as stated above, it changes the context in which natural selection of offspring takes place:
+when a generation of beavers builds a dam on its river, the selection pressures that act on their offspring (and other organisms living in the river) are slightly changed.
+The most successful traits might not be the same with or without a dam, such that the constructed niche changes the traits that are favoured by selection.
+@stotz_human_2010 calls this the *selective niche*.
+Second, a constructed niche changes the environment in which organisms grow, that is it changes the set of resources, affordances, props and stimulations in which all offspring develop their own behaviours.
+Human beings, in particular, can be seen as highly active engineers of the developmental environment of their offspring.
+@stotz_human_2010 calls this the *ontogenetic niche*, and notes that for human beings such niche construction is in large part cognitive:
+each generation actively modifies the cognitive environment in which its offspring grows, creating environmental supports and even whole pedagogical institutions for the development of specific cognitive and problem-solving capacities.
+Thus the notion of niche construction, when additionally looked at under the light of the plasticity of development, is a powerful concept to understand the complex interactions between genetic and cultural evolutions.
+
+In sum, the Extended Evolutionary Synthesis offers a natural framework for the study of cultural and non-cultural aspects of evolution, and the gene-culture co-evolution framework underlying Standard Cultural Evolution and Cultural Attraction Theory integrates well with it [@sterelny_cultural_2017].
+^[Note also that the communities developing these approaches overlap partially.
+Marcus Feldman, in particular, is an important contributor to both Niche Construction Theory and Standard Cultural Evolution.
+]
+Indeed, the Extended Evolutionary Synthesis is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand then becomes that of the gene-culture co-evolution approach, presented above:
 identifying the co-evolution dynamics of genetic and environmental inheritance channels.
-On this view, then, culture is accounted for by a blend of ecological and cognitive-epistemic niche construction processes.
+On this view, then, culture could be studied in terms of environmental and cognitive-ontogenetic niche construction processes, on one side, and developmental processes in a given constructed niche on the other.
 
 
-#### "4E" cognitive science: the extended mind
+#### The extended mind
 
-\todo{use chemero-after-2008 for this summary}
+The notion of cognitive-ontogenetic niche finds strong support in recent developments in cognitive science.
+In a strikingly parallel movement to the debate on the interaction of genes and environment, the cognitive units of analysis have been debated along two broad dimensions [@chemero_after_2008]:
 
-In a strikingly parallel movement in cognitive science and philosophy of mind, the nature of cognition and its units of analysis have been debated along two broad dimensions [see @chemero_after_2008 for a detailed review of questions and possible answers].
-\(1) The boundaries of cognition:
-are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998; @menary_extended_2010].
-\(2) The role of time-dependent dynamics, and the corresponding construal of the nature of cognition:
-are cognitive systems best described as digital computers processing information in the form of representations (i.e. symbol processing systems), where time can often be reduced to an ordering of events, or are they best described as dynamical systems where time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998; @beer_information_2015].
-In treating these questions, the extended, embedded, embodied, and enactive approaches to cognitive science (the so-called "4E") have argued to various degrees that cognition is not only (or not at all) an information-processing operation that can take place in the void, but also (or exclusively) a situated activity supported by (or a dynamic coupling with) its environment.
-The extended mind theory, among the less radical 4E approaches, is quite compatible with EES and thus with both Californian and Parisian cultural evolution.
-Indeed @sterelny_minds:_2010 [-@sterelny_evolved_2012], building on NCT, has argued that the extended mind approach is a special case of epistemic niche construction.
-He suggests that the environments human beings grow in are the result of cumulative cognitive niche construction processes, that engineer the material and social environment of humans to support the growth of everyday cognitive capacities, thus scaffolding cognition during development and life.
+(1) The boundaries of cognition:
+are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998;@menary_extended_2010].
+(2) The explanatory approach and metaphor to adopt:
+are cognitive systems best described through a computational metaphor, with a mechanistic explanation where a system is separated into components that each fulfil a function, the combination of which can explain the activity of the system;
+or are they best described through a dynamical approach, that is with sets of differential equations that describe the dynamics of coupling between variables in the system, be they high-level [e.g. coordination in bodily movements, @kelso_haken-kelso-bunz_2008] or low-level [e.g. decision-making dynamics, @busemeyer_decision_1993].
+^[The mechanistic approach models cognitive systems as digital computers, processing information in the form of representations (i.e. symbol processing systems).
+In this case, the time dimension can often be reduced to an ordering of events.
+Conversely, the dynamical approach models cognitive systems as dynamical systems, that is systems whose properties simultaneously change through time in a coupled way.
+In this case time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998;@beer_information_2015].
+While the views of the nature of cognition that each approach encourages are quite different, the actual explanatory tools they provide are not incompatible and can be fruitfully combined to describe the same system [@chemero_after_2008].
+]
+
+In treating these two questions, the extended, embedded, embodied and enactive approaches to cognitive science (so-called "4E") have argued to various degrees that cognitive processes are not brain- or body-bound, and do not necessarily involve abstract information processing mechanisms of which the brain would be an implementation.
+Instead, cognition has increasingly been described as a situated activity supported and co-constituted by its environment.
+The extended mind approach, in particular, claims that the environment of an organism has a driving role in its cognitive mechanisms.
+In other words, it claims that cognitive mechanisms span across the brain and body boundaries because they couple the organism with external entities.
+For instance, an external memory device such as a notebook can act as an active component in the memory processes of an organism [@menary_extended_2010].
+This approach integrates well with Niche Construction Theory, and provides compelling cases for the influence that an ontogenetic niche can have on cognitive processes.
+@sterelny_minds:_2010 [-@sterelny_evolved_2012] strengthens the connection by considering that ontogenetic niches provide continuous support for the development and operation of cognitive mechanisms, by providing material and social resources that act like an overall scaffold to the mind.
+A view of the mind as extended into the environment is thus quite compatible with the Extended Evolutionary Synthesis, and ultimately with both the Californian and the Parisian approaches to cultural evolution.
 
 
-### Criticisms {#sec:intro-review-criticisms}
-
+### Generalisations {#sec:intro-review-criticisms}
 
 #### Developmental systems theory
 
@@ -297,3 +249,99 @@ So it really isn't a reductionism, but a "bridging the gaps" between approaches.
 }
 
 \add{Somewhere: "The psychological features pertinent to determining types of cultural things may well include features of their content. Of course, content features can be characterized only interpretively. To say that various representations share a content feature amounts to saying that they can all be interpreted, at a given level and from a given point of view, in the same way. Still, that property of common interpretability, with all its vagueness, may suffice, if not to describe, then at least to pick out, a class of phenomena all affected by some identical causal factors." (p. 54)}
+
+- the question about the genetic/non-genetic divide is precisely what is discussed by NCT/EES/DST/Evo-devo, and is also well discussed by @griffiths_genetics_2013 (read intro); we take it as an open question about how to cluster the inheritance lifecycles
+- debates on the cognitive side of things are beyond the scope of this intro/review, though chapter 4 will touch on them
+
+
+- some parts are discussed in the SCE/CAT literature: NCT/EES, 4E a little
+- some parts are not discussed: DST/Enactive (more radical)
+- the cognitive level of things will resurface later on
+
+
+
+---
+
+### In social science {#sec:intro-review-social}
+
+Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
+
+
+Contemporaries of Durkheim, as well as later researchers, made this matter one of their central preoccupations.
+
+But as those works also acknowledged, such a question raises issues in need of prior clarification:
+what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
+Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
+
+
+The question of the incorporation of culture, and behind it the inseparability of culture, physiology, and psychology, has remained central in social science.
+Works closer to us have contributed to the matter:
+for @bourdieu_sens_1980, societal norms are also incorporated in perception, and shape our everyday unreflective interpretation of events, our way of navigating life (our *sens pratique*).
+According to him, norms become embedded in the fullest sense, through life, into our low-level perception and exploration of the environment.
+Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction, building on the idea that members of a society grow into a *habitus* leading them to perceive events in ways that reinforce existing power structures.
+
+Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
+Another prominent approach, the *Theory of Structuration* developed by @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
+Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
+on one side, action arises by using existing structured resources, and its reliance on structure, or referring to it, is what makes it action and not noise;
+on the other side, the production of action is a new reinforcement of the structure on which it relies.
+This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
+on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
+on the other side, the production of a meaningful utterance contributes to maintaining language as a structured totality.
+
+<!--
+
+To someone coming from mathematics, such a discussion can be seen as stating the obvious: in a network, the parts' identities are defined by their position respective to the rest of the network, and the totality is made of the identities of the parts.
+So necessarily any definition separating parts and totality will be recursive.
+But the discussion does bear on the distinction between culture and psychology, which exists in academic disciplines.
+
+-->
+
+<!--
+
+Giddens, on the structure and agency debate
+After the functionalists and the structuralists (orthodoxy that collapsed), and after the critics from hermeneutics that revive the Verstehen/Erklären debate
+Double Hermeneutics and Teoría social informada hermenéuticamente
+Theory of structuration: theory of the subject, without falling into subjectivism. Both subject (human agent) and object (society, institutions) are made in and of recurrent practices.
+Describes a continuous process of action-monitoring, with unconscious components, and a conscience pratique, with a simplistic view of the cognitive, but there nonetheless.
+Structure is what permits something to be emitted, and what results from the emission (e.g. in language.), which is the way to escape a dualism in explaining the relation of part to totality.
+
+-->
+
+\add{steiner-autonomy-2009, who connects Giddens (and others) with the questions of social cognition}
+
+Anthropology and sociology have produced considerable amounts of work concerned with the nature of culture in relation to psychology, the most prominent parts of which are reviewed by @risjord_models_2012.
+The sample I exposed here represents the approaches which have most influenced the initial questions of the present thesis.
+Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
+This concern has remained central in contemporary social anthropology, and is worth keeping in mind when studying the cultural evolution approach that I will focus on in what follows.
+
+While current writings often argue that such a separation is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the dualism it comes from permeates most of our theories about non-human animals, human beings, and life in general.
+This thesis is no exception, as I am myself an apprentice of the traditions I present and discuss here.
+However I see no reason to believe it is the best conceptual dicing one could achieve, and am (for now) agnostic about whether or not it should be maintained;
+whenever such distinctions appear in what follows, for instance between cultural and biological evolution, I will thus be referring to the conception of the works discussed, and will attempt to clarify when otherwise.
+I will come back to the consequences of this dualism in @sec:intro-review-criticisms, and will propose a more detailed discussion in @sec:discussion.
+
+<!--
+
+Dropped authors:
+
+- Simmel: reciprocity of the sociation process
+- Garfinkel: ethnomethodology. Understand agents in their context.
+- Geertz
+- Kroeber: review of the uses of "culture"
+- Bateson
+- According to Sperber (1996 : 31), there's also the diffusionist program, which is a precursor to his approach
+
+Psychology:
+
+- Gibson
+
+Darwinism
+
+- Plotkin
+- Murdoch
+- Sociobiology
+- Evolutionary Psychology
+- Memetics
+
+-->
