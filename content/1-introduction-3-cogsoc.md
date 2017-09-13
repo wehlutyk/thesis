@@ -222,17 +222,6 @@ language speakers are the interactors [-@croft_evolutionary_2013, p. 16], and th
 -->
 
 <!--
-Sperber
-
-"The epidemiological approach renders manageable the methodological problem raised by the fact that our access to the content of representations is unavoidably interpretive. The solution to this methodological problem of ethnography is not to devise some special hermeneutics giving us access to representations belonging to a culture, yet uninstantiated in the individual heads or the physical environment of its members. The solution is merely to render more reliable our ordinary ability to understand what people like you, Opote or me say and think. This is so because, in an epidemiological explanation, the explanatory mechanisms are individual mental mechanisms and inter-individual mechanisms of communication; the representations to be taken into account are those which are constructed and transformed by these micro-mechanisms. In other words, the relevant representations are at the same concrete level as those that daily social intercourse causes us to interpret." (p. 53)
-So it really isn't a reductionism, but a "bridging the gaps" between approaches.
-"The kind of naturalism I have in mind aims at bridging gaps between the sciences. not at universal reduction. Some important generalizations are likely to be missed when causal relationships are not accounted for in terms of lower-level mechanisms. Other valuable generalizations would be lost if we paid attention to lower-level mechanisms only. If we want bridges, it is so as to be able to move both ways." (p. 98)
-
-"The psychological features pertinent to determining types of cultural things may well include features of their content. Of course, content features can be characterized only interpretively. To say that various representations share a content feature amounts to saying that they can all be interpreted, at a given level and from a given point of view, in the same way. Still, that property of common interpretability, with all its vagueness, may suffice, if not to describe, then at least to pick out, a class of phenomena all affected by some identical causal factors." (p. 54)}
-
--->
-
-<!--
 
 Giddens, on the structure and agency debate
 After the functionalists and the structuralists (orthodoxy that collapsed), and after the critics from hermeneutics that revive the Verstehen/Erklären debate
