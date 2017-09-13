@@ -209,7 +209,7 @@ Finally, note that while current writings often argue that the separation betwee
 This is no surprise of course, as western thought is built on the dualism of mind and matter which permeates most of our theories about non-human animals, human beings and life in general, and is diversely instantiated in the separations between culture and nature, abstract information and concrete realisation, and so on and so forth.
 This thesis is no exception:
 I am myself an apprentice of the traditions I present and discuss here.
-Hopefully though, by the end of the exercise, we will also have a better view of what this dualism entails when studying the evolution of linguistic utterances.
+Hopefully however, by the end of the exercise we will also have gained some insight into what this dualism entails when studying the evolution of linguistic utterances.
 
 
 <!--
