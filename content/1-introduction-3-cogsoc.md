@@ -126,18 +126,12 @@ In a strikingly parallel movement to the debate on the interaction of genes and 
 - The explanatory approach and metaphor to adopt:
   are cognitive systems best described through a computational metaphor, with a mechanistic explanation where a system is separated into components that each fulfil a function, the combination of which can explain the activity of the system;
   or are they best described through a dynamical approach, that is with sets of differential equations that describe the dynamics of coupling between variables in the system, be they high-level [e.g. coordination in bodily movements, @kelso_haken-kelso-bunz_2008] or low-level [e.g. decision-making dynamics, @busemeyer_decision_1993].
-  ^[The mechanistic approach models cognitive systems as digital computers, processing information in the form of representations (i.e. symbol processing systems).
-  In this case, the time dimension can often be reduced to an ordering of events.
-  Conversely, the dynamical approach models cognitive systems as dynamical systems, that is systems whose properties simultaneously change through time in a coupled way.
-  In this case time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998;@beer_information_2015].
-  While the views of the nature of cognition that each approach encourages are quite different, the actual explanatory tools they provide are not incompatible and can be fruitfully combined to describe the same system [@chemero_after_2008].
-  ]
 
 In treating these two questions, the extended, embedded, embodied and enactive approaches to cognitive science (so-called "4E") have argued to various degrees that cognitive processes are not brain- or body-bound, and do not necessarily involve abstract information processing mechanisms of which the brain would be an implementation.
 Instead, cognition has increasingly been described as a situated activity supported and co-constituted by its environment.
 The extended mind approach, in particular, claims that the environment of an organism has a driving role in its cognitive mechanisms.
 In other words, it claims that cognitive mechanisms span across the brain and body boundaries because they couple the organism with external entities.
-For instance, an external memory device such as a notebook can act as an active component in the memory processes of an organism [@menary_extended_2010].
+For instance, an external memory device such as a notebook can act as an active component in the memory processes of an organism [@clark_extended_1998;@menary_extended_2010].
 This approach integrates well with Niche Construction Theory, and provides compelling cases for the influence that a developmental niche can have on cognitive processes [@wheeler_culture_2008].
 The connection is strengthened once we recognise that developmental niches provide continuous support for the development and operation of cognitive mechanisms.
 The material and social resources that a niche provides are such that they can be seen as an overall scaffold to the mind [@sterelny_minds:_2010;-@sterelny_evolved_2012].
@@ -146,35 +140,77 @@ A view of the mind as extended into and supported by the environment is thus qui
 
 #### The Enactive approach
 
-More radical approaches in the 4E movement contend that the computational metaphor of mind based on a notion of representation creates untractable philosophical problems, and is unnecessary to account for the vast majority---if not all---of human cognition.
-The main problem with a computational metaphor of mind is that it must account for the way such a system can semantically represent things.
-In other words, it must account for the content of representations, a matter that has attracted much work in philosophy of mind [for recent works see e.g. @hutto_radicalizing_2013;@harvey_content_2015].
+Now consider the second dimension mentioned above in the debate around cognitive units of analysis:
+mechanistic versus dynamical explanations.
+The mechanistic approach models cognitive systems as digital computers, processing information in the form of representations (i.e. symbol processing systems).
+In this case, the time dimension can often be reduced to an ordering of events.
+Conversely, the dynamical approach models cognitive systems as dynamical systems, that is systems whose properties simultaneously change through time in a coupled way.
+In this case time is important to define rates of change, flows, or dynamic couplings [@van_gelder_dynamical_1998;@beer_information_2015].
+Often, a dynamical approach to cognition coincides with some form of externalism, considering that the environment plays an active role in cognitive processes [although this is not a necessary association, @chemero_after_2008].
 
-Instead of facing this problem, non-representational theories develop alternative, often dynamical approaches to cognition, where the capacity of cognitive systems to represent may be seen as a contingent property and not a constitutive part.
-The Enactive approach [@varela_embodied_1991;@di_paolo_autopoiesis_2005;@thompson_mind_2007] is one such approach.
+One of the more radical dynamical approaches to cognition is the Enactive approach [@varela_embodied_1991;@di_paolo_autopoiesis_2005;@thompson_mind_2007].
+Along with other approaches in the 4E movement it contends that the computational metaphor of mind, which is based on the idea that cognition revolves around inferring and mentally representing the world, creates untractable philosophical problems and is unnecessary to account for the vast majority---if not all---of human cognition.
+Indeed, a major challenge with the computational metaphor of mind is that it must account for the way cognitive systems can semantically represent things.
+In other words, it must account for the content of representations, a matter that has attracted much work in philosophy of mind [for recent examples see e.g. @hutto_radicalizing_2013;@harvey_content_2015].
+Instead of accepting this problem, non-representational theories suggest alternative, often dynamical approaches where the capacity of cognitive systems to represent may be seen as a contingent and emergent property instead of a constitutive capacity of the system.
 
----
+The Enactive approach proposes such a view of cognition, which differs radically from the more computational and mechanistic view of cognition used in Cultural Attraction Theory.
+The main thrust of the approach is that, instead of consisting of a computational inference and representation mechanism, cognition is the activity by which an organism actively regulates the way it is coupled to its environment.
+In this approach, all living systems are viewed as *autonomous systems* (a variety of autopoietic systems).
+Autonomous systems are networks of processes that continuously produce the boundaries that separate them from their environment (this need not be a physical boundary), and at the same time closely interact with the environment to reproduce their own processes and the conditions for their continuation.
+Autonomous systems are a case of self-organised systems:
+the internal interaction of their processes leads to emergent structural properties (e.g. boundaries with the environment), and those structural properties participate in the continuation of the processes from which they emerge.
+Such systems have an intrinsic identity because of their organisational structure and the boundaries they create to maintain that structure, and they subordinate all interactions with the environment to the continuation of that identity.
+As a consequence, any interaction with the environment bears intrinsic value for an autonomous system, because it has direct positive or negative consequences on the continuation of its identity.
 
-It builds its theory on the notion of autopoiesis and ties cognition directly to living systems:
-in the Enactive approach,  considered as networks of processes that depend on each other for continued operation and continually produce and reproduce both the boundaries separating them from their environment and the conditions of their operation.
-Given this definition, a living system dies, that is loses its identity, if its network of self-producing processes ceases from functioning, and as such every interaction with the environment bears intrinsic value in terms of its contribution to the maintenance of the system's identity.
-This value is the basis for the enactive notion of meaning, which displaces the focus on information, or content, in representationalist accounts.
-Since living systems use their environment to self-reproduce, they are continually coupled to it in order to maintain the organisation of their network of processes.
-Cognition, then, is the dynamic regulation that the system operates on its coupling with the environment, and is an intrinsically meaning-making activity.
+At the most basic level, then, cognition is the activity of an autonomous system who actively regulates its coupling with the environment in order to maintain its identity.
+The value that interactions with the environment have for the system is the basis for the enactive notion of *meaning*, a notion which is as central here as the notion of information in the computational metaphor.
+Indeed, on this account cognition is seen as always creative of meaning, and is called a *sense-making* activity.
+Much of the work of enactive theorists consists in fleshing out how this basic notion of cognition, along with its intrinsic notion of meaning (both of which can be applied at different descriptive levels of a given system), can be developed and structured in order to account for more complex cognitive behaviours such as social cognition [@de_jaegher_participatory_2007] or the processes underlying language [@cuffari_participatory_2015].
 
-The enactive approach leads to a notion of meaning as a property emerging from the dynamics of interaction with the environment, and can be relevant at several levels of a system's organisation.
-This notion, and the view of cognition as a *meaning-making* activity, are also central in enactive accounts of social cognition [@de_jaegher_participatory_2007] and of the basic processes underlying language [@cuffari_participatory_2015].
-The rationale for the approach is quite similar to that of developmental systems theory:
-talk of representations (or of biological information, in the case of DST) easily leads to what @thompson_mind_2007, building on @oyama_ontogeny_2000, calls an "informational dualism".
-The conceptual separation between matter and content creates a gap, and reifies information in a way that makes it difficult to naturalise.
+Aside from avoiding some of the ontological challenges that come with the notion of representation, the Enactive approach has two main advantages in our context.
+First, it provides a means of creating experimental setups whose complexity is low enough to study and understand the complete dynamics of interactions, while at the same time being intrinsically meaningful to participants [e.g. @auvray_perceptual_2009;@froese_embodied_2014].
+This contrasts with more traditional transmission chain setups using realistic language, where the complexity of utterances is such that several aspects must be set aside in order to make the analysis manageable (as will be the case in the work presented in this thesis).
+We shall see that this can be a fruitful avenue for further research on the role of meaning in short-term evolution of utterances.
+Second, the Enactive approach provides an understanding of how cognitive processes are meshed with the interaction practices of the community in which an organism develops, and as such it has strong connections with theories of the culture-cognition link in social science.
 
-These works are not explicitly directed towards the study of cultural evolution, and are by no means the only proposals competing within the debate on representations.
-Yet I will argue in [@sec:gistr;@sec:discussion] that CAT's reliance on mental representations as a unit of analysis renders this matter especially relevant, both theoretically and empirically, to the study of cultural evolution.
-The enactive treatment, among the most radical of the positive accounts because of its non-representationalist commitment, can serve as a useful point of reference, at the far end of the spectrum, in assessing approaches to information and meaning in the context of cultural evolution.
 
-+Giddens & Bourdieu
+#### Enactive theory and social science
 
-### Attic
+Indeed the question of the incorporation of culture in cognition, and behind it the possibility of joining the study of cultural and non-cultural aspects of life, has remained central in social science throughout the 20th century [@risjord_models_2012].
+@bourdieu_sens_1980, for instance, saw societal norms as incorporated in perception:
+he argued that norms shape our everyday unreflective interpretation of events and our way of navigating life, which Bourdieu calls our *sens pratique*.
+In other words, norms shape our embodied knowledge of how to behave in and understand social situations, and thus become embedded in the fullest sense into our low-level perception of the environment.
+Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction.
+^[Bourdieu's theory of social reproduction is based on the idea that members of a society grow into a *habitus* that depends on their social class, and the habitus they grow in makes them perceive and behave in ways that reinforce existing power structures.
+]
+The incorporation of social norms theorised by Bourdieu is a clear case of embodied enculturation that can be analysed in enactive terms.
+
+Social scientists often criticise Bourdieu's approach for not providing an account of individual agency, as his theory seems to oppose free will and societal norms, the latter acting as a set of constraints on the former.
+In other words, Bourdieu doesn't account for the way norms are themselves produced by the actions of individuals.
+The *Theory of Structuration* developed by @giddens_constitution_1984 tackles exactly this question, and offers a balanced way out of the tension between agency and structure (or norms).
+Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve the opposition between the two, Giddens sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
+on one side, people's actions exist by using existing structured resources, and their reliance on structure, or referring to it, is what makes them actions and not noise;
+on the other side, any action is a new reinforcement of the structure on which it relies.
+The structuration process that Giddens theorises is strikingly similar to the way enactive theorists envision the role and emergence of structure in sense-making interactions [e.g. @cuffari_participatory_2015], so much that explicit parallels have been drawn by some authors between the enactive account of social cognition and Gidden's structuration theory [@steiner_autonomy_2009].
+
+
+#### Conclusion
+
+Different views of cognition thus provide different approaches to the question of how cultural and non-cultural aspects of life interact, and how cognitive processes could be inserted in an extended evolutionary synthesis.
+The Enactive approach in particular, among the most radical dynamical approaches to cognition, proposes a view that is radically different from the more mechanistic and computational view used in CAT.
+While the two approaches suggest different notions of the nature of cognition, the actual explanatory tools used by mechanistic and dynamical approaches are not incompatible.
+Indeed they can be fruitfully combined to describe the same systems [@chemero_after_2008], and we will argue in favour of such ecumenic approaches later on.
+
+Our goal in this section has been to provide a broader context to the debates surrounding cultural evolutionary approaches.
+While the works presented are often not explicitly directed towards the study of cultural evolution, and are by no means the only proposals competing in this space, they provide an overview of the directions that are currently being explored to integrate established evolutionary theory with long-standing questions in social science, and with recent formalisms for the study of culture.
+
+Finally, note that while current writings often argue that the separation between cultural and non-cultural aspects of life is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the isolation of disciplines and the amount of effort that is spent on bringing the two aspects together suggest that such separation is deeply rooted in contemporary thought and social structures.
+This is no surprise of course, as western thought is built on the dualism of mind and matter which permeates most of our theories about non-human animals, human beings and life in general, and is diversely instantiated in the separations between culture and nature, abstract information and concrete realisation, and so on and so forth.
+This thesis is no exception:
+I am myself an apprentice of the traditions I present and discuss here.
+Hopefully though, by the end of the exercise, we will also have a better view of what this dualism entails when studying the evolution of linguistic utterances.
+
 
 <!--
 @croft_evolutionary_2013 provides a general framework for language change, inspired by principles from biological evolution and by recent debates on the nature of the evolutionary process, and crucially focused on identifying an adequate unit of analysis for the evolutionary study of language change.
@@ -185,45 +221,16 @@ He thus proposes the Theory of Utterance Selection, which takes linguemes (i.e. 
 language speakers are the interactors [-@croft_evolutionary_2013, p. 16], and the theory defines language as the "population of utterances in a speech community" [-@croft_evolutionary_2013, p. 35].
 -->
 
----
+<!--
+Sperber
 
-\add{Somewhere: "The epidemiological approach renders manageable the methodological problem raised by the fact that our access to the content of representations is unavoidably interpretive. The solution to this methodological problem of ethnography is not to devise some special hermeneutics giving us access to representations belonging to a culture, yet uninstantiated in the individual heads or the physical environment of its members. The solution is merely to render more reliable our ordinary ability to understand what people like you, Opote or me say and think. This is so because, in an epidemiological explanation, the explanatory mechanisms are individual mental mechanisms and inter-individual mechanisms of communication; the representations to be taken into account are those which are constructed and transformed by these micro-mechanisms. In other words, the relevant representations are at the same concrete level as those that daily social intercourse causes us to interpret." (p. 53)
+"The epidemiological approach renders manageable the methodological problem raised by the fact that our access to the content of representations is unavoidably interpretive. The solution to this methodological problem of ethnography is not to devise some special hermeneutics giving us access to representations belonging to a culture, yet uninstantiated in the individual heads or the physical environment of its members. The solution is merely to render more reliable our ordinary ability to understand what people like you, Opote or me say and think. This is so because, in an epidemiological explanation, the explanatory mechanisms are individual mental mechanisms and inter-individual mechanisms of communication; the representations to be taken into account are those which are constructed and transformed by these micro-mechanisms. In other words, the relevant representations are at the same concrete level as those that daily social intercourse causes us to interpret." (p. 53)
 So it really isn't a reductionism, but a "bridging the gaps" between approaches.
 "The kind of naturalism I have in mind aims at bridging gaps between the sciences. not at universal reduction. Some important generalizations are likely to be missed when causal relationships are not accounted for in terms of lower-level mechanisms. Other valuable generalizations would be lost if we paid attention to lower-level mechanisms only. If we want bridges, it is so as to be able to move both ways." (p. 98)
-}
 
-\add{Somewhere: "The psychological features pertinent to determining types of cultural things may well include features of their content. Of course, content features can be characterized only interpretively. To say that various representations share a content feature amounts to saying that they can all be interpreted, at a given level and from a given point of view, in the same way. Still, that property of common interpretability, with all its vagueness, may suffice, if not to describe, then at least to pick out, a class of phenomena all affected by some identical causal factors." (p. 54)}
+"The psychological features pertinent to determining types of cultural things may well include features of their content. Of course, content features can be characterized only interpretively. To say that various representations share a content feature amounts to saying that they can all be interpreted, at a given level and from a given point of view, in the same way. Still, that property of common interpretability, with all its vagueness, may suffice, if not to describe, then at least to pick out, a class of phenomena all affected by some identical causal factors." (p. 54)}
 
-
----
-
-### In social science {#sec:intro-review-social}
-
-Social science has concerned itself with the stability, temporal evolution, and spatial variations and regularities of cultures since the start of its discipline.
-
-
-Contemporaries of Durkheim, as well as later researchers, made this matter one of their central preoccupations.
-
-But as those works also acknowledged, such a question raises issues in need of prior clarification:
-what is the exact status of culture in relation to psychology, or even biology, and how separable are they?
-Correspondingly, the question of how culture and psychology are part of one another and, if at all separable, how are the two related, or how best to describe the intermingling of these possible levels, has generated much debate throughout the 20th century.
-
-
-The question of the incorporation of culture, and behind it the inseparability of culture, physiology, and psychology, has remained central in social science.
-Works closer to us have contributed to the matter:
-for @bourdieu_sens_1980, societal norms are also incorporated in perception, and shape our everyday unreflective interpretation of events, our way of navigating life (our *sens pratique*).
-According to him, norms become embedded in the fullest sense, through life, into our low-level perception and exploration of the environment.
-Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction, building on the idea that members of a society grow into a *habitus* leading them to perceive events in ways that reinforce existing power structures.
-
-Social scientists often criticise Bourdieu's approach for not providing a satisfactory account of individual agency, as in this view it still seems opposed to structure acting as a constraint on action.
-Another prominent approach, the *Theory of Structuration* developed by @giddens_constitution_1984, offers a more balanced way out of the tension between agency and structure (or norms), and in doing so reflects yet a different view of the relation between psychology and culture.
-Acknowledging that approaches that conceive of structure as an external constraint on individual agency cannot resolve that opposition, Giddens (closer to the notion used in structuralist works) sees structure itself as a set of properties of social systems that bear an inherent duality, and cannot be meaningfully isolated from agency:
-on one side, action arises by using existing structured resources, and its reliance on structure, or referring to it, is what makes it action and not noise;
-on the other side, the production of action is a new reinforcement of the structure on which it relies.
-This notion of structure is akin to Saussure's notion of linguistic structure, which in turn inspired the structuralist tradition in social science:
-on one side, Giddens recalls, in producing an utterance we rely on incorporated syntactic rules;
-on the other side, the production of a meaningful utterance contributes to maintaining language as a structured totality.
-
+-->
 
 <!--
 
@@ -235,19 +242,6 @@ Describes a continuous process of action-monitoring, with unconscious components
 Structure is what permits something to be emitted, and what results from the emission (e.g. in language.), which is the way to escape a dualism in explaining the relation of part to totality.
 
 -->
-
-\add{steiner-autonomy-2009, who connects Giddens (and others) with the questions of social cognition}
-
-Anthropology and sociology have produced considerable amounts of work concerned with the nature of culture in relation to psychology, the most prominent parts of which are reviewed by @risjord_models_2012.
-The sample I exposed here represents the approaches which have most influenced the initial questions of the present thesis.
-Common behind the works of Mauss, Bourdieu, Giddens, and authors contemporary to each of them, lies a certain interest in eliminating biology-culture, nature-nurture, or substance-form dualisms which we routinely rely on in our conception of life.
-This concern has remained central in contemporary social anthropology, and is worth keeping in mind when studying the cultural evolution approach that I will focus on in what follows.
-
-While current writings often argue that such a separation is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the dualism it comes from permeates most of our theories about non-human animals, human beings, and life in general.
-This thesis is no exception, as I am myself an apprentice of the traditions I present and discuss here.
-However I see no reason to believe it is the best conceptual dicing one could achieve, and am (for now) agnostic about whether or not it should be maintained;
-whenever such distinctions appear in what follows, for instance between cultural and biological evolution, I will thus be referring to the conception of the works discussed, and will attempt to clarify when otherwise.
-I will come back to the consequences of this dualism in @sec:intro-review-criticisms, and will propose a more detailed discussion in @sec:discussion.
 
 <!--
 
