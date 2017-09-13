@@ -1,20 +1,26 @@
 # Introduction
 
-\todo{This might be too high-level, so make it more focused. Also add an early hint of what I'll do, which is not that broad. Remember to start easy (but rich) before going to more complex things.}
+Have you ever been hit by the sudden memory of a sentence you read somewhere, maybe in an article a few days back, without being able to locate exactly when or where that was?
+You type what you remember of the sentence in an online search engine, but nothing comes out.
+You recall the ideas that the sentence had triggered for you.
+You change the wording a little, playing around with the phrasing, trying to recreate the particular rhythm and sequence of words that had led you to ideas that are still so crisp and clear in your mind.
+You are positive that these particular words were used;
+maybe not that one;
+but this one yes.
+You might even tell a friend about it, to see if it reminds her of something you could be missing.
+Hours or days later, a chance encounter leads you to remember which article you read the sentence in.
+You open the article, find the sentence and read it carefully, and while the idea you remembered is definitely there, it becomes clear that your own phrasing was somewhat different.
+What you had typed in the search engine was missing the middle part, and one or two words were changed.
+In such cases I think "No wonder I couldn't find the original article in the first place!"
 
-Current scientific knowledge describes the complexity of life, and of human life in particular, through a wide array of theoretical and empirical approaches.
-Given the heterogeneity of the phenomena we aim to understand, we consider it no surprise that biology, psychology, cognitive science, linguistics, anthropology, sociology, or philosophy claim such varied problems and explanatory programmes.
-But diversity also begs for questions: how can we bring together programmes which, at times, seem to talk past one another in spite of taking humanity as the same core object?
-Do different programmes always correspond to different explanatory levels, or should we rather combine them as interlocking aspects of the same unique level?
-Which of those programmes build on incompatible ontologies or world views, making their perspectives on life irreconcilable?
-These questions have interested a great number of researchers throughout the 20th century and up to now.
-Indeed, if we aim to carve life at its joints, the way we combine the diverse theoretical and empirical programmes that describe it will constrain the resulting bones and muscles carved out.
-In other words, choosing an assembly of fields goes hand in hand with a view of what it means to be human, of what exactly nature and culture correspond to, and of how we can best approach the emergence, complexity, and evolution of human life through time.
+In your search for the sentence you might have used half a dozen formulations of the idea you were thinking of.
+The present thesis is interested in these reformulations.
+What do they have in common with the original?
+What are they missing, what has changed?
+Do the changes have anything to do with what you were doing when you first read the sentence?
+Or with what triggered the memory of the sentence?
+How would such changes accumulate if you were to tell your own phrasing to someone else, to be later recalled?
 
-<!--
-These questions guide the works gathered in the present thesis.
-With it I aim to contribute, however modestly, to the development of an integral and open science of life and mind.
--->
 
 LOCATE
 
