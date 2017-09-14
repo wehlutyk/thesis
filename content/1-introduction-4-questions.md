@@ -145,7 +145,7 @@ More generally, fleshing out the predictions that attraction makes in specific e
 Much more empirical application is needed to evaluate the framework, and only such extensive testing in varied domains will determine how fruitful that approach is for the study of cultural evolution.
 
 The present thesis aims to contribute to this project.
-In the following chapters, I will present two empirical projects aimed at testing for the presence of attractors in a particular case:
+In the following chapters, I will present two empirical approaches aimed at testing for the presence of attractors in a particular case:
 the evolution of short linguistic written utterances.
 The practical goals throughout this work have been (1) to combine disconnected but complementary disciplines to improve on current empirical techniques, and (2) to explore dimensions in which those techniques can be pushed beyond existing limitations.
 In doing so, we shall also face the tension between two general approaches.
