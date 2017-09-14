@@ -107,7 +107,7 @@ Two parameters are then left to vary:
 the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted, and the set of initial source utterances.
 
 Each utterance from the initial set is used to create several parallel chains in order to allow for comparisons across chains with the same initial utterance.
-The final data thus consists in a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.
+The final data thus consists of a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.
 ^[We therefore use the terms "chain" and "branch" interchangeably in what follows.
 ]
 The number of branches in a tree is also adjusted for each run of the experiment.
@@ -191,7 +191,7 @@ Experiment 2 was launched with 49 subjects, 50 root utterances, and trees target
 Subjects took an average 43 minutes to complete the experiment, and were rewarded with £6.
 Quality issues in this data set were solved, but the choice of source utterances proved too easy to trigger varied transformations.
 After pilots exploring different fits of task parameters with source complexity, Experiment 3 took advantage of a more complex set of source utterances.
-It was launched with two batches of 70 subjects each receiving 25 root utterances, and trees targeted for 7 branches of depth 10, gathering a total 3546 utterances transformations.
+It was launched with two batches of 70 subjects each receiving 25 root utterances, and trees targeted for 7 branches of depth 10, gathering a total 3546 utterance transformations.
 Subjects took an average 37 minutes to complete the 25 transformations, and were rewarded with £4.25 on average.
 
 We now detail the evaluation of data quality and the measures that were taken to improve it.
@@ -326,7 +326,7 @@ Contrasting minimally different utterances in different domains has resulted in 
 In spite of this, we hypothesise that the low-level cognitive mechanisms underlying utterance transformation, that is the mechanisms that give rise to such accumulated outcomes, do not fundamentally change because of the type or the style of an utterance.
 If using news quotes instead of movie quotes or stories is likely to affect parameters of the observed transformations, it is less likely to affect the structure of the underlying cognitive mechanism, and therefore the general structure of transformations.
 Making this hypothesis lets us use utterance selection as an exploratory tool:
-by altering both the sampling of the transformations and the task difficulty, the exploration of different styles and types can help (1) improve data quality and (2) make general structure more visible, thus easier to measure and characterise.
+by altering both the sampling of the transformations and the task difficulty, the exploration of different styles and types can help (1) improve data quality and (2) make the general structure more visible, thus easier to measure and characterise.
 If this exploration yields insights about the structure of transformations and their effects in the long term, and if such insights are consistent with the previous chapter, then it will make sense to ask to what extent the uncovered structure is applicable to or varies with other types of utterances.
 Throughout pilots and experiments, our goal was therefore to find a set of utterances which would trigger varied transformations whose structure we could analyse, while at the same time helping the subjects to produce quality data by not creating too much pressure with reading time.
 
@@ -362,15 +362,13 @@ They describe facts from everyday life such as accidents, suicides, or trials, i
 A sample of 60 stories was extracted from the English version, for which French names and places were replaced with names and places more familiar to British subjects.
 Pilots explored these sets of utterances with reading factors of .1, .2, .3, .75 and 1.
 Finally, tests were also made using these utterances with content words replaced with pseudo-words, in order to restrict effects to the grammatical dimension only.
-^[Pseudo-words were generate using the Wuggy library [@keuleers_wuggy:_2010].
+^[Pseudo-words were generated using the Wuggy library [@keuleers_wuggy:_2010].
 ]
-The pseudo-word tests were inconclusive, as the task became too confusing and subjects often replaced unknown words with real words.
+The pseudo-word tests turned out not to fit our exploration framework however, as the task became too confusing and subjects often replaced unknown words with real words.
 
 Experiment 2 used 25 of the 27 pairs of movie quotes that had exactly 15 or 16 words, providing a homogeneous set of 50 utterances in oral style, with a reading factor of .75.
 Experiment 3 used 43 of the 60 short stories by Fénéon (average number of words \num{21.2}) coupled with 4 utterances extracted from @mesoudi_bias_2006 (average number of words \num{60.3}) and 3 utterances extracted from the story used by @maxwell_remembering_1936 (average number of words \num{40.7}), with a reading factor of 1.
 
 \add{clean counts.}
-
-\add{mispelling proportion in exp 1}
 
 \add{a few example sentences for each experiment}
