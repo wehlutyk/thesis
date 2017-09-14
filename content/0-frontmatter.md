@@ -11,11 +11,11 @@ author: |
   \hfill \
   Supervisor: Jean-Pierre Nadal^[
     CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
-    Email: \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+    Email: \hbox{\href{mailto:jpnadal@ehess.fr}{jpnadal@ehess.fr}}
   ] \
   Co-supervisor: Camille Roth^[
     CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po, médialab (Paris).
-    Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
+    Email: \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
   ]
 documentclass: book
 # Numbering comes from pandoc itself (not pandoc-crossref)
