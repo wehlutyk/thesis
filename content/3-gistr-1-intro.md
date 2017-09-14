@@ -1,4 +1,4 @@
-# Gistr {#sec:gistr}
+# Full transformations in large-scale transmission chains {#sec:gistr}
 
 ## Introduction {#sec:gistr-intro}
 

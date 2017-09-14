@@ -1,4 +1,4 @@
-# Discussion {#sec:discussion}
+# Meaning in utterance transformations {#sec:discussion}
 
 ## Introduction
 

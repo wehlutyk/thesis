@@ -1,4 +1,4 @@
-# Brains Copy Paste {#sec:brainscopypaste}
+# Word substitutions in blogspace quotations {#sec:brainscopypaste}
 
 ## Introduction
 
