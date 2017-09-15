@@ -1,7 +1,5 @@
 ## Discussion {#sec:gistr-discussion}
 
-\add{refs to substantiate; this should be easier once the final discussion chapter is clear}
-
 We set out to better understand the process at work in the short term evolution of linguistic content.
 In an approach complementary to the previous chapter, we decided to design a controlled experiment that would provide the complete data needed to model the process.
 We developed an online platform for the purpose, and after adjusting task difficulty and source complexity we were able to gather relatively large data sets of linguistic transmission chains with low levels of spam.
@@ -90,8 +88,6 @@ Indeed, it later went through a long regularisation such that the final utteranc
 
 Examining the transformations in the branch suggested that the small typographical error rendered its surroundings ("non existent ... about a bomber") confusing and irrelevant, such that "new" was finally integrated as part of the "Kings Cross" proper noun instead.
 This behaviour is not frequent, as many times typographical errors are corrected by subsequent transformations, but it appears to be possible whenever an ambiguity is created or enhanced (not only through typographical errors).
-
-\todo{unpack some of the discussion points and suggestions below}
 
 Other intriguing semantic effects were observed.
 In one case for instance, small changes that accumulated in different parts of an utterance ended up combining into a larger semantic change, because the relationship between parts of the utterance had eventually changed.

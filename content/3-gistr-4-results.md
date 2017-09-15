@@ -135,6 +135,23 @@ Transmissibility provides a coarser measure of the evolution of transmission suc
 perfect transmission, and transformation.
 A classic effect of transmission chains for various types of content is that transmissibility increases with depth in the chains.
 
+<div id="fig:gistr-octrans">
+![Experiment 1](images/gistr-computed/oc-rates-trans-exp-1.png){#fig:gistr-octrans-exp-1}
+
+![Experiment 2](images/gistr-computed/oc-rates-trans-exp-2.png){#fig:gistr-octrans-exp-2}
+
+![Experiment 3](images/gistr-computed/oc-rates-trans-exp-3.png){#fig:gistr-octrans-exp-3}
+
+Transmissibility and conservation rate for each experiment.
+Each individual graph shows both transmissibility (red line) and one minus the transformation rate (blue dots) for a subset of all utterances.
+Light red areas are the 95% confidence intervals for transmissibility, based on Student's $t$-distribution and considering each transformation as an independent event.
+A blue dot at $y = 1$ is an instance of perfect transmission ($\rho = 0$), and pulls transmissibility upwards;
+a blue dot anywhere below is a transformation instance ($\rho > 0$), and pulls transmissibility downwards.
+The large plot on the left shows both measures for all the utterances of an experiment.
+The small plots on the right show both measures for utterances that have a given number of content words (up to 13, after which the data is nonexistent or very sparse in all experiments).
+The orange dashed line marks the maximum depth in the experiment, so as to differentiate content lengths reaching the limit from content lengths disappearing before the limit.
+</div>
+
 @Fig:gistr-octrans shows the transmissibility and one minus the transformation rates ($1 - \rho$) for the three experiments, both overall and grouped by content length of the utterances.
 @Fig:gistr-octrans-exp-1 shows an increase in transmissibility with respect to depth (from .40 to .67), when considering the whole data set from Experiment 1.
 However, the plots on the right show only a slight increase in transmissibility (or even no increase at all for $|c(u)|_w \notin [7, 10]$) for utterances of a given content length.
@@ -152,23 +169,6 @@ This effect is stronger than in Experiment 1, and indicates that long utterances
 As noted previously, utterances found at the end of a chain will often come from much longer utterances at the start, such that improved transmission success along a single branch is always mixed with the shortening of content.
 However, for long utterances (content lengths 8 and above), utterances found at the end of all chains are on average better transmitted than utterances *of the same content length* at the start of all chains, meaning that transmission along the chains has an effect on transmissibility of long utterances beyond the shortening of the content.
 Finally, the different behaviours across experiments are here again tied to the differences in word count and stopword proportion distributions in the root utterances.
-
-<div id="fig:gistr-octrans">
-![Experiment 1](images/gistr-computed/oc-rates-trans-exp-1.png){#fig:gistr-octrans-exp-1}
-
-![Experiment 2](images/gistr-computed/oc-rates-trans-exp-2.png){#fig:gistr-octrans-exp-2}
-
-![Experiment 3](images/gistr-computed/oc-rates-trans-exp-3.png){#fig:gistr-octrans-exp-3}
-
-Transmissibility and conservation rate for each experiment.
-Each individual graph shows both transmissibility (red line) and one minus the transformation rate (blue dots) for a subset of all utterances.
-Light red areas are the 95% confidence intervals for transmissibility, based on Student's $t$-distribution and considering each transformation as an independent event.
-A blue dot at $y = 1$ is an instance of perfect transmission ($\rho = 0$), and pulls transmissibility upwards;
-a blue dot anywhere below is a transformation instance ($\rho > 0$), and pulls transmissibility downwards.
-The large plot on the left shows both measures for all the utterances of an experiment.
-The small plots on the right show both measures for utterances that have a given number of content words (up to 13, after which the data is nonexistent or very sparse in all experiments).
-The orange dashed line marks the maximum depth in the experiment, so as to differentiate content lengths reaching the limit from content lengths disappearing before the limit.
-</div>
 
 
 #### Variability
@@ -488,8 +488,6 @@ f(\mathcal{T}, \bm{\theta}_1, \bm{\theta}_2) =
     \right\}
 $$
 
-\todo{unify mathematics notations}
-
 The value of the fit thus loosely corresponds to the total number of words whose alignments would need to be changed in order to go from one set of alignments to the other.
 Divided by the number of transformations $|\mathcal{T}|$, it tells us the average number of word alignment errors per transformation.
 The worst fit $\hat{f}_n$ then gives us an upper bound estimation of the error that can be produced by training on a set of size $n$.
@@ -650,7 +648,6 @@ Transformations are analysed along two dimensions.
 The branch dimension only looks at whether utterances are transformed or not, thus sees a series of T (transformed) and C (conserved) events.
 The utterance level looks at the detail of the transformations, and after simplification represents them with two arrays of operations, one for the parent utterance (made of C, R and D operations) and one for the child utterance (made of C, R and I operations).
 This example is built on branch #49 from @fig:gistr-lineage-tree.
-\todo{Make this work in grayscale}
 </div>
 
 This subtlety in the encoding of transformations is not a coincidence.
@@ -825,7 +822,8 @@ Light shades are 95% regression confidence intervals.
 Parent lengths are binned into 5 quantile-based bins.
 The word-level counts the number of individual words affected by an operation (deletion, insertion, replacement).
 The chunk-level counts the number of contiguous sets of words affected by an operation.
-Light shades are 95% regression confidence intervals, and vertical bars are 95% confidence intervals for the value of a bin (Student $t$-based, here counting each operation as an independent measure \todo{FIXME: vertical bars should count each transformation as independent}).
+Light shades are 95% regression confidence intervals, and vertical bars are 95% confidence intervals for the value of a bin (Student $t$-based, here counting each operation as an independent measure).
+<!-- \todo{FIXME: vertical bars should count each transformation as independent}-->
 ](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
 
 Probability and number of word-level or chunk-level operations.
@@ -940,7 +938,7 @@ the presence of one always increases the probability of the other.
 
 Letter-value plots [@hofmann_letter-value_2011] of deletion and insertion counts conditioned on the presence of one another.
 Each plot represents the distribution of operation counts.
-The left panel shows that utterances where a deletion is present also have many more insertions than if there were no deletion (the red distribution reaches much higher numbers of insertions than the grey distribution).
+The left panel shows that utterances where a deletion is present also have many more insertions than if there were no deletions (the red distribution reaches much higher numbers of insertions than the grey distribution).
 Similarly in the right panel, deletions appear in greater numbers in utterances that have an insertion.
 (More technically, in a given plot the boundaries between boxes are placed at the $2^i$-th quantiles:
 the middle line is the median, and above and below it the biggest box stops at the first and third quartiles, such that it contains half the data points;
@@ -1134,4 +1132,17 @@ this could be due to the fact that deletions and insertions are much more import
 Nonetheless, it is noteworthy that trends consistent with the step-wise behaviours are visible at the level of utterance averages:
 in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
 Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
-We reserve the discussion of this phenomenon for the next section.
+@Fig:gistr-summary provides a summary of the behaviours we have described, complete with dependencies between operations, susceptibilities and long-term effects of the transformations.
+We now turn to the discussion of this phenomenon..
+
+![Summary of results.
+The upper part of the figure pictures the dependencies observed in the detail of transformations.
+Transformations can be made of deletions, insertions and replacements.
+Deletions and insertions may appear in chunks, but replacements do not.
+Two main factors were shown to influence the likelihood of an operation in a given area of an utterance:
+the position of the words considered for transformation in the utterance, and the overall length of the utterance transformed.
+Arrows thus connect each factor to the frequency and the chunk size of operations, indicating the relationship between the factor and the operation (the $\propto$ symbol indicates that frequency or chunk size is roughly proportional to the factor at the beginning of the arrow).
+Three additional arrows connect deletions and insertions directly, to render the dependencies observed between these two operations.
+A summary of the types of words targeted by each operation is provided inside the darker boxes.
+Finally, the lower part of the figure recalls that transformations appear in bursts in transmission chains, and accumulate to produce the effects summarised in the "Long term" box.
+](images/gistr/gistr-summary.pdf){#fig:gistr-summary height=100%}
