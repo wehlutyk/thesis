@@ -1,23 +1,21 @@
 ## Discussion {#sec:gistr-discussion}
 
-\add{refs to substantiate; this should be easier once the final discussion chapter is clear}
-
 We set out to better understand the process at work in the short term evolution of linguistic content.
-In an approach complementary to the previous chapter, we decided to design a controlled experiment that would provide the complete data needed to develop a model of the process.
+In an approach complementary to the previous chapter, we decided to design a controlled experiment that would provide the complete data needed to model the process.
 We developed an online platform for the purpose, and after adjusting task difficulty and source complexity we were able to gather relatively large data sets of linguistic transmission chains with low levels of spam.
 Then, by combining standard NLP methods with our extension of a biological sequence alignment algorithm, we decomposed the utterance transformation process into small, analysable operations that subjects use in their reformulations.
 
 A few important points are worth noting to qualify the results we just presented.
-First, several choices in the alignment procedure we followed are obviously sub-optimal, and were made in the interest of time.
+First, several choices in the alignment procedure we followed are sub-optimal, and were made in the interest of concrete progress.
 The Needleman-Wunsch algorithm we used does not allow the detection of chunk replacements.
 For instance, abbreviations or short paraphrases, which @lauf_analyzing_2013 identify as non-negligible in their data set (e.g. "has no idea" $\rightarrow$ "doesn’t know"), are not captured by our approach.
-Extending the algorithm to allow this is technically possible, but involves a substantial amount of additional work.
+Extending the algorithm to allow this is technically possible, but involves a substantial amount of additional work, and we opted to leave such extensions for further research.
 The algorithm is also blind to syntactic boundaries such as punctuation, which insertions and deletions are likely to respect at least part of the time.
 Manual inspection of the alignments showed a few cases where a deletion would affect two contiguous parts of an utterance separated by a comma, for which distinguishing the parts could help in improving the final alignment.
 Finally, deep alignments are only explored on the basis of optimal shallow alignments, which are not guaranteed to be the best starting point:
 it is possible that the search will find a locally optimal alignment, when a better solution could have been found by starting from other (non-optimal) shallow alignments.
-There are many other possible improvements that we did not explore fully for lack of time, for instance matching insertion-deletion blocks from exchanges at different depths to overcome local optima, or starting with local instead of global shallow alignments.
-The manual evaluation of alignments indicated that the current approach was good enough however, and that these optimisations could be left for further research without jeopardising our model.
+Many other improvements could be made in the future, for instance matching insertion-deletion blocks from exchanges at different depths to overcome local optima, or starting with local instead of global shallow alignments.
+The manual evaluation of alignments indicated that the current approach was good enough however, and that these optimisations could indeed be left for further research without jeopardising our model.
 
 Concerning the design of the task, we note that the incentive provided for subjects to perform well also leaves room for improvement (a point related to the spam levels).
 Subjects had a monetary incentive with bonuses for outstanding performance, but they did not experience the bonus until after the experiment was completed.
@@ -38,7 +36,7 @@ As a consequence however, we have no control over the situation in which subject
 Preceding text is very likely to have effects on the transformations, as these are reliably observed in the study of intrusions in recall of word lists [@zaromb_temporal_2006].
 Manual exploration of the data also showed (rare) cases of words from one utterance bleeding into later transformations:
 in one case, a subject reintroduced a word that they had read in an utterance three trials earlier.
-This phenomenon is difficult to control for beyond the randomisation we applied, and we note that the cases we observed were extremely rare.
+This phenomenon is difficult to control beyond the randomisation we applied, and we note that the cases we observed were extremely rare.
 
 In spite of these caveats, we showed that transformations can be usefully analysed as made of bursty deletions and insertions, speckled with word replacements (and exchanges, which we left aside in the analysis).
 Deletions are by far the most frequent operation, and they act as a gate for insertions;
@@ -91,8 +89,6 @@ Indeed, it later went through a long regularisation such that the final utteranc
 Examining the transformations in the branch suggested that the small typographical error rendered its surroundings ("non existent ... about a bomber") confusing and irrelevant, such that "new" was finally integrated as part of the "Kings Cross" proper noun instead.
 This behaviour is not frequent, as many times typographical errors are corrected by subsequent transformations, but it appears to be possible whenever an ambiguity is created or enhanced (not only through typographical errors).
 
-\todo{unpack some of the discussion points and suggestions below}
-
 Other intriguing semantic effects were observed.
 In one case for instance, small changes that accumulated in different parts of an utterance ended up combining into a larger semantic change, because the relationship between parts of the utterance had eventually changed.
 More broadly, tackling the question of semantic attraction (or more simply semantic transformations) could require the definition of semantic levels at which the transformations should be examined.
@@ -101,8 +97,13 @@ This can range from a typographical error, to a change in punctuation, or a mino
 The question is thus shifted from the structure of utterances themselves to what subjects attend to, in an utterance, for a given task or in a given interaction situation.
 In other words, analysing the semantic changes of utterances goes hand in hand with a determination of what aspects of an utterance are relevant for a given task or interaction, that is, it requires an approach to utterance pragmatics.
 
-Without delving into utterance pragmatics, a more palatable development of this approach would be to ask about the role of simple semantics and syntax in the transformations:
+Without delving into utterance pragmatics, a more palatable development of this approach would be to focus on a smaller number of root utterances with less branches in each tree, and explore evolution of content at the very long term.
+While such an approach would be more dependent on the initial utterances, it would allow us to explore higher-level evolutionary dynamics along the chain (e.g. recurring sets of changes).
+Testing for the existence of attractors, in particular, might require such long-lived chains, as the number of iterations is an important factor to consider.
+A second approach, which could be combined with long-lived chains, would be to ask about the role of simple semantics and syntax in the transformations:
 beyond lexical features and word categorisations, one could attempt to quantify and thus characterise the change in meaning at each transformation and overall through the chains, possibly through deeper integration with existing NLP methods.
+Semantic parsing methods, in particular, can provide a first useful model of the semantics encoded in a sentence.
+Depending on the way such information is represented, an alignment technique similar to the one developed here could be used to study the changes in semantic parses along a chain, thus opening the study of the regularities in semantic transformations.
 Conversely, the extent to which word meanings (or word relationships with the rest of the utterance) participate in the transformation process could be explored.
 Better integrating these results with what is known of the way utterances are cognitively processed and produced could also be fruitful:
 known mechanisms in sentence parsing and processing could explain the patterns observed by our model, and integrating with current knowledge of sentence production could make it possible to develop generative models of the transformation process.
