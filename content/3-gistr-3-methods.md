@@ -359,7 +359,7 @@ each pair is made of a quote that was marked as memorable by users of the Intern
 The 2200 pairs of quotes were filtered to keep only those which passed the spelling and punctuation quality tests from the previous section, and for which the number of words was strictly matched when excluding punctuation (this left 505 pairs).
 Here is an example pair from this data set (first the memorable quote, then the non-memorable counterpart):
 
-> "The first and most important rule of gunrunning is never get shot with your own merchandise.""
+> "The first and most important rule of gunrunning is never get shot with your own merchandise."
 
 > "At least when they say they're going to have a war, they keep their word."
 
@@ -379,5 +379,3 @@ The pseudo-word tests turned out not to fit our exploration framework however, a
 
 Experiment 2 used 25 of the 27 pairs of movie quotes that had exactly 15 or 16 words, providing a homogeneous set of 50 utterances in oral style, with a reading factor of .75.
 Experiment 3 used 43 of the 60 short stories by Fénéon (average number of words \num{21.2}) coupled with 4 utterances extracted from @mesoudi_bias_2006 (average number of words \num{60.3}) and 3 utterances extracted from the story used by @maxwell_remembering_1936 (average number of words \num{40.7}), with a reading factor of 1.
-
-\add{a few example sentences for each experiment}
