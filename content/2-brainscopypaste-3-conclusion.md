@@ -5,7 +5,7 @@ The data set we used imposed a few constraints on our analysis:
 first, it was necessary to infer source-destination links, an operation made more reliable when restricting the scope of transformations to very simple cases, which we did by focusing on single word substitutions.
 Second, contrary to laboratory experiments which produce data made of many repeated measures on a small number of cases (e.g. a given list of words), we have a great number of different cases (one case per cluster in which substitutions are found, i.e. 698 cases), with very few measures on each of them (average 9, median 5).
 This rendered the prediction of individual words impractical: if we cannot compute a percentage of explained data for a given case, any approximate prediction will be heavily underestimated.
-This last factor, added to the potential for variation of external conditions when authors wrote the quotes, led us to use word features to analyze the transformations by aggregating over individual cases.
+This last factor, added to the potential for variation of external conditions when authors wrote the quotes, led us to use word features to analyse the transformations by aggregating over individual cases.
 
 By characterizing substitutions with 6 features on the disappearing word, we show that authors preferentially substitute words known for being harder to recall:
 most prominently words with low frequency [@gregg_word_1976], learned later [@dewhurst_separate_1998], or made up of more letters [@nickels_dissociating_2004], both globally and in comparison to the sentence they appear in.
@@ -29,19 +29,8 @@ Indeed substitutions, and more generally all transformations, also participate i
 One can ask, therefore, what are the reciprocal effects between, on one side, the corpus-level evolution of quotes through iterated transformations, and on the other side, a gradual change in the properties of transformations operated because of the evolution of surrounding context.
 Such interactions have been shown to underlie the lineage specificity observed in transmission chains [@claidiere_cultural_2014].
 Exploring how similar loop interactions happen in real-life data could indeed be the next step in understanding the coevolution of cultural content and the ways in which it is transformed.
-In our particular case, such insight could shed some light on how the feature attractors examined in this paper actually emerge, and help assess their potential role on this coevolution.
+In our particular case, such insight could shed some light on how the feature attractors examined in this chapter actually emerge, and help assess their potential role on this coevolution.
 
-## Concluding remarks
-
-The theory of Epidemiology of Representations proposes a unifying framework for the study of cultural evolution.
-One of its core claims, the existence of cultural attractors, has been both a challenge to test empirically and a fruitful line to pursue in the study of cultural evolution.
-We aimed to contribute to testing this hypothesis by studying a simple everyday-life task where individuals are implicitly trying to reproduce quotations.
-To some extent, our work amounts to an out-of-laboratory experiment where we examine the influence of well-known word features on the accuracy of reproduction of short sentences.
-Our analysis of substitutions shows that words are attracted, in each dimension, to feature-specific values.
-Furthermore, the features' known effects in psycholinguistic experiments are reflected in the biases of these attraction points, meaning that the evolution of such quotations can be partially explained by known low-level cognitive biases.
-We believe that such an approach, which combines psycholinguistic knowledge and data mining tools, can be fruitfully developed to improve the study of cultural attractors and explore the reciprocal influences of cognition and culture.
-
-Let us conclude by noting that the question of short- and long-term cultural evolution, and the approaches to study them, are becoming increasingly relevant to other fields.
-In biology in particular, work on evo-devo and non-genetic inheritance has accumulated evidence that is poorly accounted for by the modern synthesis of biological evolution, and is creating a demand for new or extended  approaches to joint cultural and biological evolution [see @gilbert_eco-evo-devo:_2015 for instance].
-Such an approach has long been called upon by anthropologists like @ingold_beyond_2004 [-@ingold_complementarity_1998], in line with Mauss' initial works [@mauss_les_1936], and the question is not entirely foreign to the enactive-representational debate in cognitive science.
-The study of cultural evolution will most likely benefit greatly from the growing interactions between these disciplines.
+The next chapter provides some of the groundwork for such questions to be tackled.
+It develops a second experimental paradigm, much closer to laboratory transmission chain experiments, where the full transformations of quotes can be observed without having to sacrifice on the complexity of utterances studied, or on the size of the data set gathered.
+It then models the complete transformations that utterances undergo, providing a crucial missing link to connect low-level psycholinguistics factors with effects at the evolutionary level.

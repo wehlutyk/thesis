@@ -47,7 +47,7 @@ If, after this screening, a cluster's occurrences still span more than 80 days (
 We eventually keep \num{50427} clusters (out of \num{71568}; i.e. 70.5%), containing a total of \num{141324} unique quotes (out of \num{310457}; i.e. 45.5%) making up about 2.60m occurrences (out of 7.67m; i.e. 33.9%).^[
 The significantly larger loss in occurrences indicates that, on average, the clusters we lose contain more occurrences than those we keep, which is to be expected for everyday language utterances.
 ]
-Even if we lose some real event-related utterances which are present in clusters lasting more than 80 days (one such lost quote, for instance, is "the city is tired of me and the organization and I have run our course together"), we check that our filtering approach fulfills its goals by coding a random sub-sample of 100 clusters: 35 of them are rejected by the filter, with 15 false negatives (rejected clusters that should have been kept) and 9 false positives (clusters kept when they should have been rejected), giving a precision score of 0.862 and a recall score of 0.789.
+Even if we lose some real event-related utterances which are present in clusters lasting more than 80 days (one such lost quote, for instance, is "the city is tired of me and the organization and I have run our course together"), we check that our filtering approach fulfils its goals by coding a random sub-sample of 100 clusters: 35 of them are rejected by the filter, with 15 false negatives (rejected clusters that should have been kept) and 9 false positives (clusters kept when they should have been rejected), giving a precision score of 0.862 and a recall score of 0.789.
 Furthermore, all but one of the 9 false positives are left with a single non-rejected quote, meaning those clusters are ignored by our substitution analysis; this brings the effective precision of our filter to 0.982.^[
 A similar analysis was made for language detection, which is part of the cluster filtering:
 out of 100 randomly sampled quotes, 17 are rejected because their detected language is not English, with no false positives and 6 false negatives, giving a precision score of 1 and a recall score of 0.933.
@@ -62,7 +62,7 @@ We first introduce some lexical measures on words.
 
 * **Word frequency**: the frequency at which words appear in our data set, known to be relevant for both recognition and recall [@gregg_word_1976],
 * **Age of Acquisition**: the average age at which words are learned [obtained from @kuperman_age-of-acquisition_2012], known to have different effects than word frequency [@morrison_roles_1995;@dewhurst_separate_1998],
-* **Phonological** and **Orthographic Neighborhood Density** [obtained from @marian_clearpond:_2012], also known to be relevant for word production [@garlock_age-of-acquisition_2001],
+* **Phonological** and **Orthographic Neighbourhood Density** [obtained from @marian_clearpond:_2012], also known to be relevant for word production [@garlock_age-of-acquisition_2001],
 * The average **Number of Phonemes** and **Number of Syllables** for all pronunciations of a word [obtained from the Carnegie Mellon University Pronouncing Dictionary, @weide_cmu_1998]^[
   The CMU Pronouncing Dictionary is included in the NTLK package [@bird_natural_2009], the natural language processing toolkit we used for the analysis.
   ],
@@ -92,9 +92,9 @@ We used three standard measures on the FA network:
   This quantity tells us if some words behave as unavoidable waypoints on association chains connecting one word to another.^[
   For this measure, weights are interpreted as inverse cost:
   the stronger a link, the easier it is to travel across it.
-  A stronger link will be favored over weaker links in the computation of the shortest path between two words.
+  A stronger link will be favoured over weaker links in the computation of the shortest path between two words.
   ]
-* **Clustering coefficient**, which measures the extent to which a node belongs to a local aggregate of tightly connected nodes [@watts_collective_1998], computed on the undirected weighted version of the FA network.^[he Clustering coefficient is formally defined as the ratio between the number of actual versus possible edges between a node's neighbors;
+* **Clustering coefficient**, which measures the extent to which a node belongs to a local aggregate of tightly connected nodes [@watts_collective_1998], computed on the undirected weighted version of the FA network.^[he Clustering coefficient is formally defined as the ratio between the number of actual versus possible edges between a node's neighbours;
   this is poorly defined in the case of directed networks, which led us to ignore the direction of links in the network for this measure (if two words are connected in both directions, the weights of both links are added to make the final undirected link's weight).
   ]
   This tells us if a word belongs more or less to a group of equivalent words (from a free association point of view).
@@ -109,18 +109,18 @@ To make correlation values as well as future comparisons more reliable, we log-t
 The pairwise correlations in the initial set of features appears in @fig:feature-corrs-initial.
 By looking at absolute values, three subsets of highly correlated features can be easily identified:
 (a) number of letters, phonemes, and syllables with pairwise correlations greater than .75;
-(b) orthographic and phonological neighborhood densities, with a correlation of .8;
+(b) orthographic and phonological neighbourhood densities, with a correlation of .8;
 (c) age of acquisition, betweenness, degree, and pagerank centralities, with absolute pairwise correlations at .41, .59, .6, .61, .63 and .85.
 Applying a feature agglomeration algorithm targeted at 6 groups refined this observation by producing identical (a) and (b) groups, a (c) group without betweenness centrality which was instead assigned to a group (d) with clustering coefficient, and the remaining features (frequency and number of synonyms) as singletons.^[
-Agglomerating into less than 6 groups merged groups (a) and (b), which we excluded to keep neighborhood densities in their own group;
+Agglomerating into less than 6 groups merged groups (a) and (b), which we excluded to keep neighbourhood densities in their own group;
 agglomerating into more than 6 groups separated age of acquisition from group (c), which we excluded given its high correlation values to the rest of group (c).
 We used scikit-learn's FeatureAgglomeration class for this procedure [@pedregosa_scikit-learn:_2011].
 ]
 
-Since our data is about written transformations, number of letters and orthographic neighborhood density are the natural representatives of groups (a) and (b) respectively.
+Since our data is about written transformations, number of letters and orthographic neighbourhood density are the natural representatives of groups (a) and (b) respectively.
 Given the importance of age of acquisition in the lexical feature literature, we chose it to represent group (c).
 Finally we used clustering coefficient to represent group (d) since it has already been used in previous studies.
-The final set of features we will discuss in the rest of the paper, as well as their cross-correlations, can be seen in @fig:feature-corrs-filtered.^[
+The final set of features we will discuss in the rest of the chapter, as well as their cross-correlations, can be seen in @fig:feature-corrs-filtered.^[
 Note that feature values stem from different data sets which do not always encode the same words.
 Indeed, we have data on frequency for about 33.5k words, on age of acquisition for 30.1k words, on clustering coefficient for 5.7k words, number of synonyms 111.2k, and orthographic density 17.8k words.
 Quite often then, not all features are available for a given word in our data set;
@@ -246,8 +246,8 @@ From these substitutions we remove those featuring stopwords, minor spelling cha
 this eventually yields \num{6177} valid substitutions.^[
 Manually coding a random subset of 100 substitutions to evaluate this last filter showed that 84 were true negatives, 5 were false positives, and 11 true positives, giving a recall score of .688.
 Precision was evaluated over a random subset of 100 *kept* substitutions, showing a score of .87.
-Finally, note that excluding minor spelling changes does not bias our use of orthographic neighborhood density as a feature:
-out of the first 100 substitutions coded for recall, those with Levenshtein distance equal to 1 [which is what orthographic neighborhood density codes, @marian_clearpond:_2012] were all typos or UK/US spelling changes, neither of which are relevant for this study.
+Finally, note that excluding minor spelling changes does not bias our use of orthographic neighbourhood density as a feature:
+out of the first 100 substitutions coded for recall, those with Levenshtein distance equal to 1 [which is what orthographic neighbourhood density codes, @marian_clearpond:_2012] were all typos or UK/US spelling changes, neither of which are relevant for this study.
 ]
 
 ## Results
@@ -256,7 +256,7 @@ Substitutions usually replace a word with another semantically related word:
 manual observation of a random subset of 100 substitutions shows that, compared to the word it replaces, the new word often achieves a similar meaning in the context of its sentence while still slightly changing the implications or the attitude expressed by the author.^[
 However, the substituted and substituting words are not so often direct synonyms:
 only a third of all substitutions travel less than 3 hops on the hyponym-hypernym network defined by WordNet (direct synonyms count as 0 hops on this network), meaning that at least two thirds involve non-synonyms.
-A similar phenomenon is observed on the FA network, where about 104 clusters have substitutions traveling only 1 hop, 110 traveling 2 hops, 137 traveling 3, 72 traveling 4, and 13 traveling 5.
+A similar phenomenon is observed on the FA network, where about 104 clusters have substitutions traveling only 1 hop, 110 travelling 2 hops, 137 travelling 3, 72 travelling 4, and 13 travelling 5.
 ]
 The following examples illustrate this phenomenon:
 
@@ -322,8 +322,8 @@ Word frequency, Age of acquisition, and Number of letters each exhibit significa
 High-frequency words, much easier to recall, are substituted about half as much as they would be at random; conversely low-frequency words, harder to recall, are substituted about 50% more than random.
 Age of acquisition and Number of letters show the opposite pattern, consistent with their negative correlation to word frequency ($-.4$ and $-.19$):
 words learned before 5 or 6 years old, or made of less than 5 letters, are substituted less than random, whereas words learned after 10 years old, or made of more than 8 letters, are substituted far more than random.
-Orthographic neighborhood density also shows a slight effect (significant at $p < .05$ in 15 of the 16 substitution models):
-words with very sparse neighborhoods are more substituted than random (which may seem counter-intuitive, but is probably because over 70% of those words have 7 letters or more).
+Orthographic neighbourhood density also shows a slight effect (significant at $p < .05$ in 15 of the 16 substitution models):
+words with very sparse neighbourhoods are more substituted than random (which may seem counter-intuitive, but is probably because over 70% of those words have 7 letters or more).
 Clustering coefficient shows no effect on susceptibility, and neither does Number of synonyms:
 in particular, words with many synonyms do not attract substitutions more than random (in fact, half the substitution models show they have a slight tendency to be substituted less than random).
 
@@ -377,7 +377,7 @@ This means that for each feature $\phi$, whichever the value $\phi(\wstart)$ of 
 This reasoning is standard in the analysis of dynamical systems (where the same transformation is applied to the whole system over and over), and becomes obvious when one manually simulates a substitution on the graph by picking a start value, using the $\nu_{\phi}$ curve to obtain the corresponding arrival value, and comparing it to the start value:
 the arrival value is always closer to the intersection with $y=x$, meaning that that intersection is an attractor point for the substitution process.
 If the slope of $\nu_{\phi}$ were greater than one (in absolute value), the arrival value would always be *farther* from the intersection than the start value was, making the intersection with $y=x$ a *repulsor* point.
-This is how the number of intersections with $y=x$ and the slope of $\nu_{\phi}$ at those intersections characterize the behavior of substitutions.
+This is how the number of intersections with $y=x$ and the slope of $\nu_{\phi}$ at those intersections characterize the behaviour of substitutions.
 ]
 In other words, beyond individual variation patterns, the substitution process exhibits a unique attractor for each feature.
 Note that this is also true under $\mathcal{H}_0$ or $\mathcal{H}_{00}$ (both null hypothesis curves have single intersections with $y=x$ with slopes smaller than 1):
@@ -394,11 +394,11 @@ Second, the comparison with $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ shows that ther
 * there is a triple intersection (of $y=x$, $\nu_{\phi}$, and $\nu_{\phi}^0$ or $\nu_{\phi}^{00}$);
 * or $\nu_{\phi}$ always remains above or below $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$.
 
-The first class (Number of synonyms and Orthographic neighborhood density) are features for which the substitution process only brings words slightly closer to $\nu_{\phi}^0$ (for Number of synonyms) or $\nu_{\phi}^{00}$ (for Orthographic neighborhood density), and no uniform bias can be observed.
+The first class (Number of synonyms and Orthographic neighbourhood density) are features for which the substitution process only brings words slightly closer to $\nu_{\phi}^0$ (for Number of synonyms) or $\nu_{\phi}^{00}$ (for Orthographic neighbourhood density), and no uniform bias can be observed.
 The second class (comprising Word frequency, Age of acquisition, Clustering coefficient, and Number of letters) are features for which the substitution process has a clear bias, positive or negative, with respect to both the purely random situation ($\mathcal{H}_0$) and the semantically plausible random situation ($\mathcal{H}_{00}$).
 
 Word frequency, with $\nu_{\phi}$ always significantly above $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$, exhibits a strong bias towards more frequent words.
-This, in turn, is consistent with the hypothesis that substitution is a recall process, since common words are favored over awkward ones.
+This, in turn, is consistent with the hypothesis that substitution is a recall process, since common words are favoured over awkward ones.
 Age of acquisition, Clustering coefficient and Number of letters, on the other hand, exhibit a clear negative bias for the substitution process (except for high clustering values or very high number of letters).
 The three curves are significantly below their respective $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ curves for most start values, which is consistent with the literature on recall:
 words learned earlier, with lower clustering coefficient or with fewer letters are easier to produce than average [@nelson_how_2013;@zevin_age_2002;@baddeley_word_1975].
@@ -444,7 +444,7 @@ $\nu_{\phi_r}$, average sentence-relative feature value of the appearing word as
 $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ are similarly converted to be sentence-relative.
 Attraction, magnitude and direction of bias with respect to null hypotheses are similar to @fig:feature-variations-global.
 However, attractors are always positioned between sentence median ($y=0$) on one side and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side.
-Clustering coefficient, Number of synonyms and Orthographic neighborhood density are limit cases, with triple intersections with one of the null hypothesis curves.
+Clustering coefficient, Number of synonyms and Orthographic neighbourhood density are limit cases, with triple intersections with one of the null hypothesis curves.
 ](images/brainscopypaste-computed/paper-variations-quantilebins_sentencerel.png){#fig:feature-variations-sentencerel}
 
 The alterations we study are always made in a context, that is while the author is writing.
@@ -462,7 +462,7 @@ since the random situation would equally distribute a fourth of all substitution
 Taking for instance word frequency, this measure tells us if words that have high- or low-frequency *compared to the quote they appear in* are more or less substituted than at random.
 
 Surprisingly the results for this measure are no different from the context-free measure, as can be seen in @fig:feature-susceptibilities-in_sentence:
-low-frequency words compared to the sentence are substituted much more than higher-frequency words, words learned earlier than the rest of the sentence are substituted less than words learned later, shorter words less than longer words, and words with scarce neighborhoods slightly more than words with denser neighborhoods.
+low-frequency words compared to the sentence are substituted much more than higher-frequency words, words learned earlier than the rest of the sentence are substituted less than words learned later, shorter words less than longer words, and words with scarce neighbourhoods slightly more than words with denser neighbourhoods.
 Clustering coefficient and Number of synonyms are, here again and across all substitution models, not significantly different from $\mathcal{H}_0$:
 with or without context, they do not seem relevant to the selection of substitution targets.
 
@@ -473,10 +473,10 @@ $$\phi_r(w) = \phi(w) - \operatorname{median}\left\lbrace \phi(w) | w \in \text{
 $\nu_{\phi}$, $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ each transpose to $\nu_{\phi_r}$, $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ (note that $\nu_{\phi_r}^0$ now depends on $w$ since it is sentence-relative, whereas $\nu_{\phi}^0$ did not).
 
 The results for sentence-relative feature variations are gathered in @fig:feature-variations-sentencerel.
-Here too, the behavior is strikingly similar to the context-free measure:
+Here too, the behaviour is strikingly similar to the context-free measure:
 a single attractor is visible for each feature, and the magnitude and direction of biases are near-identical to those for the previous measure.
 The values of the appearing words give an additional insight into the process, however:
-the attractor value of a feature, at the intersection of $\nu_{\phi_r}$ and $y=x$, is always between the sentence median, on one side, and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side (for Number of synonyms it is a triple intersection with $\nu_{\phi_r}^0$; for Clustering coefficient and Orthographic neighborhood density, a triple intersection with $\nu_{\phi_r}^{00}$).
+the attractor value of a feature, at the intersection of $\nu_{\phi_r}$ and $y=x$, is always between the sentence median, on one side, and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side (for Number of synonyms it is a triple intersection with $\nu_{\phi_r}^0$; for Clustering coefficient and Orthographic neighbourhood density, a triple intersection with $\nu_{\phi_r}^{00}$).
 Substitutions, therefore, seem to attract words closer to the sentence median than what a random process would do.
 This is true with respect to both null hypotheses (semantically plausible or not) for Frequency, Age of Acquisition and Number of letters, and true with respect to at least one of the two null hypotheses for the remaining features.
 

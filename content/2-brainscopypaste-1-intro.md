@@ -9,13 +9,13 @@ More recently, Dan Sperber has drawn on this principle to explicitly connect ant
 
 The collection of works by @aunger_darwinizing_2000 [in particular @bloch_well-disposed_2000; and @kuper_if_2000] has shown how memetics cannot account for the levels of transformation culture undergoes as it is transmitted.
 @mesoudi_multiple_2008 discuss the uses of transmission chain experiments to test what dual inheritance theory can explain about cultural evolution.
-@morin_how_2013 and @miton_universal_2015, by carefully compiling a series of anthropological works, demonstrate how cognitive biases have influenced the evolution of cultural artifacts over several centuries.
+@morin_how_2013 and @miton_universal_2015, by carefully compiling a series of anthropological works, demonstrate how cognitive biases have influenced the evolution of cultural artefacts over several centuries.
 @kirby_cumulative_2008 and @cornish_systems_2013 have shown how evolutionary pressures lead to the emergence of structured and expressive artificial languages in simulations and laboratory experiments.
 Such transmission chain experiments have also been explored in non-human primates by @claidiere_cultural_2014.
 
 The theory of Epidemiology of Representations proposes a unifying framework for all these works by recasting them as questions of spread and transformation of representations:
-these are alternatively located in the mind ("mental representations" in Sperber's terminology), or in the outer world ("public representations") as expressions of mental representations in diverse cultural artifacts (pieces of text, utterances, pictures, building techniques, etc.).
-A human society is then modeled as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on what they have previously interpreted.
+these are alternatively located in the mind ("mental representations" in Sperber's terminology), or in the outer world ("public representations") as expressions of mental representations in diverse cultural artefacts (pieces of text, utterances, pictures, building techniques, etc.).
+A human society is then modelled as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on what they have previously interpreted.
 Two key points are that (a) transmission is not reliable (representations change significantly each time they are interpreted and produced anew, as opposed to e.g. memetics), and (b) the reciprocal influences of cognition and culture can be captured by studying the evolution of public representations themselves, which is what the above-cited studies are doing.
 
 The theory makes an additional strong hypothesis, which this paper focuses on:
@@ -25,18 +25,18 @@ there should be areas of the representation space where cognitive effects in tra
 Attractors need not be points in fact, they can also be sub-areas; in that case any transformation brings representations in the area closer to (or confined to) the target sub-area.
 ]
 
-This hypothesis, a cornerstone of the theory because of the intelligibility it gives to cultural evolution, has been hard to test in concrete situations as quantitative data on out-of-laboratory cultural artifacts is not easy to collect.
+This hypothesis, a cornerstone of the theory because of the intelligibility it gives to cultural evolution, has been hard to test in concrete situations as quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
 One approach, as mentioned above, has been the meta-analysis of large bodies of anthropological studies [see @miton_universal_2015, for instance].
-This paper exemplifies a second approach, taking advantage of the ever-increasing avalanche of available digital footprints since the 2000's.
-Indeed, tools and computing power to analyze such data are now widespread, and the body of research aimed at describing online communities and content is growing accordingly.
-For instance, the propagation of cultural artifacts across social networks has been studied in blogspace [@gruhl_information_2004] and in emails [@liben-nowell_tracing_2008];
+This chapter exemplifies a second approach, taking advantage of the ever-increasing avalanche of available digital footprints since the 2000's.
+Indeed, tools and computing power to analyse such data are now widespread, and the body of research aimed at describing online communities and content is growing accordingly.
+For instance, the propagation of cultural artefacts across social networks has been studied in blogspace [@gruhl_information_2004] and in emails [@liben-nowell_tracing_2008];
 @cointet_socio-semantic_2009 described the reciprocal influence between the social network topology and the distribution of issues;
 @leskovec_meme-tracking_2009 detailed the characteristic times and diffusion cycles both within these social networks and with respect to the topical dynamics of news media, and @danescu-niculescu-mizil_you_2012 studied the characteristics of particularly memorable quotes that circulate in those networks.
 We believe these works can connect the field of cultural evolution with psycholinguistics to advance the testing of cultural attractors.
 
 \bigskip
 
-To show this we analyze how quotes in blogs and media outlets are modified when they are copied from website to website.
+To show this we analyse how quotes in blogs and media outlets are modified when they are copied from website to website.
 These public representations should normally not change as they spread on the Web (as opposed to more elaborate expressions or opinions, not identified as quoted utterances), but empirical observation shows that they are in fact occasionally transformed [@simmons_memes_2011]:
 authors spontaneously transform quotes, not only cropping them but also replacing words.
 For instance the quote "we will not be scared of these cowards" (a substring of a quote from former Pakistani President Asif Ali Zardari) is also found as "we will not be **afraid** of these cowards".
@@ -51,10 +51,10 @@ This also impedes us from observing the effect of accumulated transformations in
 While this limits the scope of our results to the particular data set we use, the methodological point we also make is left intact.  By characterizing words using 6 well-studied features, we identify what makes a substitution more likely, and how a word changes when it is substituted.
 This exploratory approach uncovers a number of transmission biases consistent with known effects in linguistics.
 While the transformations we describe are not the only ones at work in this data set, our analysis also indicates that feature-specific attractors could exist because of the substitution process.
-This study can be viewed as analyzing part of the transmission step operating in transmission chains of artificial languages like those studied by @kirby_cumulative_2008, yet with natural language out of the laboratory.
+This study can be viewed as analysing part of the transmission step operating in transmission chains of artificial languages like those studied by @kirby_cumulative_2008, yet with natural language out of the laboratory.
 
 The next section describes our hypotheses along with a review of the psycholinguistics literature.
-Then, we describe the data set and detail the various assumptions that were made in order to analyze it.
+Then, we describe the data set and detail the various assumptions that were made in order to analyse it.
 Next, we introduce the measures we built to observe cognitive biases operating in quote transmission.
 Finally, we discuss the relevance of these results for the study of cultural evolution, followed with general guidelines for further work.
 
@@ -97,12 +97,12 @@ As is explained further down however, our data set is shaped the opposite way: a
 ]
 If a cognitive bias in the substitution of words manifests itself with simple measures, then it will be worth applying predictive models of the substitution process in further research.
 
-Lexical features, then, are obvious well-studied word measures that can be analyzed in aggregate.
-Indeed word frequency [see @yonelinas_nature_2002 for a review], age-of-acquisition [@zevin_age_2002], number of phonemes [see for instance @rey_phoneme_1998;@nickels_dissociating_2004], and phonological neighborhood density [@garlock_age-of-acquisition_2001] to name a few, all have known effects on word recognition or production.
+Lexical features, then, are obvious well-studied word measures that can be analysed in aggregate.
+Indeed word frequency [see @yonelinas_nature_2002 for a review], age-of-acquisition [@zevin_age_2002], number of phonemes [see for instance @rey_phoneme_1998;@nickels_dissociating_2004], and phonological neighbourhood density [@garlock_age-of-acquisition_2001] to name a few, all have known effects on word recognition or production.
 More complex features based on word networks built from free association or phonological data have also been analyzed:
-@nelson_how_2013 for instance, show the importance of clustering coefficient in such a semantic network by studying the role it plays in a variety of recall and recognition tasks (extralist and intralist cuing, single item recognition, and primed free association).
+@nelson_how_2013 for instance, show the importance of clustering coefficient in such a semantic network by studying the role it plays in a variety of recall and recognition tasks (extra-list and intra-list cuing, single item recognition, and primed free association).
 @chan_network_2010 show that pictures are named faster and with fewer mistakes when they have a lower clustering coefficient in an underlying phonological network.
-@griffiths_google_2007 analyze a task where subjects are asked to name the first word which comes to their mind when they are presented with a random letter from the alphabet.
+@griffiths_google_2007 analyse a task where subjects are asked to name the first word which comes to their mind when they are presented with a random letter from the alphabet.
 The authors show that there is a link between the ease of recall of words and their authority position (pagerank) in a language-wide semantic network built from external word association data [@austerweil_human_2012 further develop this tool to give a parsimonious account of the fact that related words are often retrieved together from memory].
 
 On the whole, research on lexical features hints towards two antagonistic types of effects [also known as the "word-frequency paradox", @mandler_word-frequency_1982].
