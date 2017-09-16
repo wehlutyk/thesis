@@ -45,16 +45,3 @@ Let us conclude by noting that the question of short- and long-term cultural evo
 In biology in particular, work on evo-devo and non-genetic inheritance has accumulated evidence that is poorly accounted for by the modern synthesis of biological evolution, and is creating a demand for new or extended  approaches to joint cultural and biological evolution [see @gilbert_eco-evo-devo:_2015 for instance].
 Such an approach has long been called upon by anthropologists like @ingold_beyond_2004 [-@ingold_complementarity_1998], in line with Mauss' initial works [@mauss_les_1936], and the question is not entirely foreign to the enactive-representational debate in cognitive science.
 The study of cultural evolution will most likely benefit greatly from the growing interactions between these disciplines.
-
-### Acknowledgements {-}
-
-We are warmly grateful to Ana Sofia Morais for her precious feedback and advice on this research, and to Telmo Menezes, Jean-Philippe Cointet, Jean-Pierre Nadal, Sharon Peperkamp, Nicolas Claidière and Nicolas Baumard for useful suggestions and comments.
-
-This work has also been partially supported by the French National Agency of Research (ANR) through the grant Algopol (ANR-12-CORD-0018).
-
-### Software colophon {-}
-
-Finally, this paper was developed using Python's scientific computing ecosystem [@millman_python_2011].
-In particular, we directly used NumPy and SciPy [@van_der_walt_numpy_2011], Matplotlib [@hunter_matplotlib:_2007], Pandas [@mckinney_data_2010], scikit-learn [@pedregosa_scikit-learn:_2011], NetworkX [@hagberg_exploring_2008], NLTK [@bird_natural_2009], IPython [@perez_ipython:_2007], and many other libraries from the Python ecosystem.
-The software and analyses written for the paper are documented and published under a Free Software license.
-They can be found at [github.com/wehlutyk/brainscopypaste](https://github.com/wehlutyk/brainscopypaste).
