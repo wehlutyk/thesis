@@ -12,9 +12,9 @@ More generally, the empirical exploration of quantitative approaches to the evol
 Yet improved empirical approaches are a crucial tool not only to assess the validity of cultural evolutionary theories, but also to help in identifying the benefits and difficulties that come with using them, and to highlight overlooked questions that need further clarification.
 
 We therefore set out to develop two novel empirical methods that would contribute detailed use cases related to CAT, provide reusable improvements to current methods for the broader exploration of cultural evolutionary ideas, and pinpoint questions that require more exploration.
-Linguistic utterances appeared as a particularly interesting matter to focus on.
+Written utterances appeared as a particularly interesting matter to focus on.
 First, they are one of the most versatile artefacts involved in cultural evolution, which renders them more challenging to study but also makes them relevant to a wide array of cultural domains.
-Second, language is one of the focal points on which CAT can be differentiated from other theories of cultural change and of underlying approaches to cognition itself.
+Second, language (written or not) is one of the focal points on which CAT can be differentiated from other theories of cultural change and of underlying approaches to cognition itself.
 
 In @sec:brainscopypaste, then, we analysed substitutions undergone by online quotes in blogspace.
 By combining psycholinguistic knowledge with data mining tools, we showed that these transformations attract words, on average, towards feature-specific values, and are thus compatible with the hypothesis of an attractor at the lexical level.
