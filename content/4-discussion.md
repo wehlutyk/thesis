@@ -436,9 +436,10 @@ This experimental approach is generalisable to other perceptual modalities, and 
 #### Stage 2: sense-making
 
 The second stage builds on sensorimotor principles, and extends them to all of cognition.
-Before we present the stage in itself, however, note that the Enactive approach considers life and cognition to be on a continuum going from one to the other, and thus recognises different degrees of cognitivity.
+Before we present the stage in itself, however, let us make a precision about the explanatory strategy adopted by the theory.
+The Enactive approach considers life and cognition to be on a continuum, thus recognising different degrees of cognitivity.
 On that continuum, it identifies a number of dynamical and organisational principles that repeat themselves at several levels, such as self-constitution, self-organisation and self-coordination.
-Sense-making, the focus of the current stage, is one of these principles.
+Sense-making, which the current stage focuses on, is one of these principles.
 A full explanation of human (or animal) cognition, then, would take the form of a multi-layered combination of such layers, where the principles serve to explain the dynamics of a layer and the way lower and upper layers connect to each other.
 Because of this strategy, the examples we discuss in the next subsections might seem somewhat simple compared to the level of detail that a mechanistic explanation builds up:
 what such examples do is illustrate the way a fundamental principle functions at one of the possible levels.
@@ -471,7 +472,7 @@ An autonomous system's first property is that it is autopoietic, that is it cons
 In particular, the network has *operational closure*:
 every process in the network is conditioned on the activity of one or several other processes of the network, and on the functioning of the whole as a network.
 The very existence of this operational closure defines an identity for the network of processes:
-the system's identity is a stable form in spite of ever-changing material substrate.
+the system's identity is its stable organisational form in spite of ever-changing material substrate.
 However, this identity is precarious:
 if any of the processes cease, of if the networked organisation of the processes falls apart, operational closure is broken, and the identity and the system as a whole disintegrate.
 Thus this identity is a new kind of object that emerges from the organisation of material processes, but its existence is binary:
@@ -524,19 +525,19 @@ The tension it exhibits then serves as the basis for the gradual structuring of 
 The first step is to flesh out the way some dyadic interactions can be made of emergent dynamics.
 When a single organism interacts with its environment, in many cases the interaction can be sustained by the simple fact of the organism deciding to do so.
 For instance, you reading this text is an interaction that you entirely control;
-you can start it or interrupt it at will.
+you can start or interrupt it at will.
 The situation is different when two organisms are interacting with one another.
 First, the interaction is often only sustained if both agree to continue interacting (though some interactions may also persist for a few moments without the participants' wanting it):
 when conversing with someone, either of the participants can decide to end the conversation unilaterally.
-The existence of a two-organism interaction often depends on a second property:
-often, an interaction only exists because of the way participants' actions *respond* to each other.
+The existence of a two-organism interaction also often depends on a second property:
+the interaction is enabled by the way participants' actions *respond* to each other.
 For instance, a conversation continues only as long as both participants listen and answer to each other;
 if either of the participants stops doing this, or keeps talking without relation to what the other says, the conversation is ended:
 we are left with two people talking in isolation.
 This property of an interaction cannot be explained by the isolated actions of the participants:
 it is a property of the way each participant's actions respond to the other.
 
-An experimental confirmation of a minimal version of this phenomenon has recently been provided by an experiment by @auvray_perceptual_2009.
+An experimental confirmation of a minimal version of this phenomenon has recently been provided by @auvray_perceptual_2009.
 The setup, illustrated in @fig:discussion-perceptual-crossing, involves two subjects who share a virtual line on which they each have a cursor.
 The line and cursors are all invisible, but the subjects receive haptic feedback whenever their cursor is overlapping with the other's cursor.
 Aside from the subject's cursors, two fixed obstacles are placed on the line (each is perceivable by one subject and not the other), and the cursor of each subject has a shadow that follows it at a fixed distance:
@@ -547,24 +548,25 @@ The experiment shows instead that they are not able to make the distinction indi
 subjects individually fail the task while succeeding collectively, in a way that can only by understood because of the inherent (and unnoticed) stability of their interaction.
 The principle highlighted by this experiment is that of the stability of *perceptual crossings*:
 two organisms can have a dynamically stable interaction because they each look for a behaviour that they themselves create, without necessarily being aware of that fact (for instance mutual gaze of an infant and his mother, where the infant may not be aware that his mother maintains the gaze because he does too).
-Variations and detailed behaviours in this experimental paradigm have been extensively explored in this literature, providing further support for the results above [see for instance @bedia_quantifying_2014; @froese_embodied_2014].
+Variations and detailed behaviours in this experimental paradigm have been extensively explored in the literature, providing further support for the results above [see for instance @bedia_quantifying_2014; @froese_embodied_2014].
 
 ![Perceptual crossing setup introduced by @auvray_perceptual_2009.
 Each participant controls a cursor on a shared virtual line (red squares), to which a sensor is attached (black ticks facing the red squares).
 The movements of each participant's cursor are mirrored by a shadow cursor (blue squares).
 Each participant additionally has a fixed obstacle on the line (one obstacle for each participant, black squares).
-Participants do not see the line or cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
+Participants do not see the line or the cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
 Reproduced from @de_jaegher_can_2010
 (©2010 H. De Jaegher, E. Di Paolo and S. Gallagher;
 Licenced under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
 ](images/discussion/de_jaegher_can_2010-perceptual_crossing.jpg){#fig:discussion-perceptual-crossing}
 
 The second step is to flesh out the constraints that such an emergent interaction can exert on its participants.
-An example that most people have experienced in everyday life usefully illustrates their point:
+An example that most people have experienced in everyday life usefully illustrates this point:
 when trying to cross someone else in the corridor of a train, and moving to the side to avoid them, at times the other person spontaneously moves to the same side you did;
 when this happens, you and the other person enter a fleeting interaction which both are trying to break from the start:
-each one moves to one side, and the other does the same, until your movements desynchronise and the interaction breaks down.
-During the time that undesired interaction persisted however, it constrained both you and the other person, as the coupling of your spontaneous reactions meant that neither could break free from the interaction.
+each one moves to one side, and the other does the same.
+Your movements dynamically respond to each other for a few moments, after which they desynchronise and the interaction breaks down.
+During the time that the undesired interaction persisted however, it constrained both you and the other person, as the coupling of your spontaneous reactions meant that neither could break free from the interaction.
 Other interactions do not constrain their participants into them, but simply set conditions under which they can exist (for instance, a conversation has tacit interaction rules).
 In both cases however, the interaction follows a dynamic that emerges from the coupling of the two participants.
 A consequence of this is that each participant's regulation of their exchange with the environment (i.e. their individual sense-making) is affected by what the other does, as they are coupled in the interaction:
@@ -577,7 +579,7 @@ The tension it elicits is also the foundation on which the enactive account of l
 
 ![Participatory sense-making:
 each organism regulates its coupling with the environment;
-the two regulations become themselves coupled, such that the interaction between the two organisms has an emerging dynamic that neither participant fully controls.
+the two regulatory activities become themselves coupled, such that the interaction between the two organisms has an emerging dynamic that neither participant fully controls.
 Participants therefore lose part of their control over individual sense-making, entering a participatory sense-making regime.
 Reproduced from @froese_enactive_2011
 (©2010 E. Di Paolo;
@@ -594,8 +596,8 @@ In the initial setup by @auvray_perceptual_2009, subjects are not able to distin
 They succeed because the interaction that appears when the two cursors cross each other is naturally stable:
 when the subjects cross each other, both are informed by haptic feedback, such that both come back on their steps to explore the object they just touched.
 The interaction thus leads both cursors to criss-cross each other for a small period of time, until one of them moves a bit too far and the stability breaks down;
-this kind of behaviour does not appear when a cursor touches a shadow, as in that case one of the two subjects is not informed of the encounter.
-Thus the stability of the interaction results from the way the spontaneous actions of the two subjects dynamically interlock and become coupled;
+this kind of behaviour does not appear when a cursor touches a shadow, since in that case one of the two subjects is not informed of the encounter.
+Thus the stability of the interaction results from the way the spontaneous actions of the two subjects dynamically interlock and become coupled (leading the cursors to criss-cross each other repeatedly);
 this is a regularity at the level of the interaction that participants do not control, and do not even detect (recall that they fail to individually distinguish between the other's real cursor and their shadow).
 
 Now suppose that subjects can be sensitive to that regularity:
@@ -616,7 +618,7 @@ turn-taking in the perceptual crossing.
 ]
 Such regularities behave as interactive norms that the subjects can either follow, thus sustaining the interaction in its existing format, or not follow, thus breaking down the interaction but possibly creating a higher level of regularity that can evolve into a new norm.
 
-@cuffari_participatory_2015 generalise and recursively expand this kind of emergence of a higher-order interactive norms.
+@cuffari_participatory_2015 generalise and recursively expand this kind of emergence of a higher-order interactive norm.
 The level we just described corresponds to the emergence of what they call *co-defined social acts*.
 Co-defined social acts are like salutations, or acts of giving and receiving:
 they cannot be completed by one person alone.
@@ -636,7 +638,7 @@ The expansion thus continues by building each level of normativity as the resolu
 ^[The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. a stare regulating an act of giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
 ]
 each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
-Often, the new regularity and its regulation by the participants appears at a different time scale, or in a different dimension than at the previous level.
+Often, the new regularity and its regulation by the participants appears at a different time scale (as in the turn-taking example above), or in a different dimension than at the previous level (for instance, coordinating social acts across a community).
 The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step lays more of the groundwork necessary to construct full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015 p. 32].
 To our knowledge, the higher levels of this expansion have not yet been empirically validated in the manner described above for the first two levels.
 Indeed, as one progresses in the levels of normativity, creating simple interactive situations that can validate this proposal becomes increasingly difficult.
@@ -654,7 +656,7 @@ in meaningful interactions, "everything matters".
 More precisely, anything *can* matter:
 any seemingly minor detail of the dynamics of an interaction may (or may not) become extremely important if for some reason the participants are sensitive to it in one way or another, and rely on it for instance to resolve a tension.
 In particular, when starting from a higher level of description (such as symbolic processing in Relevance Theory), one can neglect aspects of meaningful interactions which turn out to be essential ingredients.
-A reconstruction that starts from both simpler interactions and simpler levels of description, such as the one encouraged by the enactive standpoint, is more likely to pick up on such ingredients.
+A reconstruction that starts from both simpler interactions and simpler basic principles, such as the one encouraged by the enactive standpoint, is more likely to pick up on such ingredients.
 As noted previously, the problem here is the extreme complexity of interactions and contextual situations, which the Enactive approach tackles by starting from simpler (but, crucially, always meaningful) interactions, and by using the language and tools of dynamical systems theory [see for instance @beer_dynamical_2000;-@beer_dynamical_2014].
 A second point related to the "anything can matter" intuition is that the coordination of interacting organisms that is necessary to achieve dynamical coupling can rely on a diversity of dimensions:
 while interacting organisms need to have comparable dynamics to make it possible for an actual coupling to emerge in their interaction, different dimensions of the dynamics are eligible to that role at different levels of interactive normativity.
@@ -708,11 +710,11 @@ similarly to what we argued above for RT, information-processing can be seen as 
 ]
 and we see no reason to consider a priori that the two approaches would be incompatible.
 
-In current practice however, the fact that CAT gives so much autonomy to a contentful notion of representation encourages empirical approaches to use a code model and give context a minimal role (i.e. consider that a representation is an encoding of some content).
+In current practice however, the fact that CAT gives so much autonomy to a contentful notion of representation encourages empirical approaches to use a code model and give context a minimal role (i.e. consider that a representation is a direct encoding of some content).
 Most applications thus strip down the context-dependence of CAT, thereby obviating the need for Relevance Theory in the first place.
 By not seeing that the contents of a representation are inherently contextual and constructed in interaction, one reduces the cultural evolution process to a simple accumulation of interpretations that do not rely on context:
 such a simple model depicts representations as being straightforwardly interpreted into mental versions (with some degree of transformation through reconstruction) then produced anew as public versions (again with some degree of transformation), and the circulation and transformation of representations creates a dynamical system with attractors.
-As we just saw, both the Enactive approach and RT show that taking context into account is necessary and that it drastically changes the picture.
+As we just saw, both the Enactive approach and RT show, first, that taking context into account is necessary, and second, that doing so drastically changes the picture.
 The fact that it is possible to easily degrade CAT into a code model theory also suggests that integrating it with an approach to meaning might require some amendments.
 We thus see great value in contrasting and possibly combining the two approaches to replace the naive code model that is used in many applications of CAT.
 In practice, attempting to apply these two approaches will also let us explore if the theory must be amended in order to fully take the situatedness of meaning into account.
@@ -737,7 +739,7 @@ The final point discusses an approach similar to the perceptual crossing paradig
 ### Hand-coded meaning classes
 
 Our first point is an analysis method that combines manual and computational steps.
-Essentially, it is a method to outsource the measurement of meaning to humans, by asking them to fulfil a relatively easy task that provides information on the structure of meanings;
+Essentially, it is a method to outsource an evaluation of meaning to humans, using a relatively simple task that can gather information on both the relevance-theoretic and enactive structure of meanings;
 the reconstructed meaning structure can then be used in quantitative analyses.
 The method is directly applicable to the data sets of the previous chapter without necessarily adding a notion of context, and is also usable for analysing the data that would be generated by the approaches we delineate further down.
 As such, it could be used as a generic tool to test hypotheses generated by the relevance-theoretic and dynamical approaches to meaning in specific experimental setups.
