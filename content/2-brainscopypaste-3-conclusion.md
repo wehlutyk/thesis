@@ -31,6 +31,6 @@ Such interactions have been shown to underlie the lineage specificity observed i
 Exploring how similar loop interactions happen in real-life data could indeed be the next step in understanding the coevolution of cultural content and the ways in which it is transformed.
 In our particular case, such insight could shed some light on how the feature attractors examined in this chapter actually emerge, and help assess their potential role on this coevolution.
 
-The next chapter provides some of the groundwork for such questions to be tackled.
+The next chapter provides some of the groundwork to tackle such questions.
 It develops a second experimental paradigm, much closer to laboratory transmission chain experiments, where the full transformations of quotes can be observed without having to sacrifice on the complexity of utterances studied, or on the size of the data set gathered.
 It then models the complete transformations that utterances undergo, providing a crucial missing link to connect low-level psycholinguistics factors with effects at the evolutionary level.
