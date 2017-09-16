@@ -1,40 +1,16 @@
-# Word substitutions in blogspace quotations {#sec:brainscopypaste}
+# Word substitutions in blogspace quotations^[This chapter was originally published in *Cognitive Science* under the title "The Semantic Drift of Quotations in Blogspace: A Case Study in Short-Term Cultural Evolution" [@lerique_semantic_2017]. The version presented here was slightly adapted to fit in the thesis. It also presents an inconclusive attempt to analyse substitution chains in the data set (@sec:brainscopypaste-aborted-chains), which was not included in the journal version.] {#sec:brainscopypaste}
 
 ## Introduction
 
-The reciprocal influence between cognition and culture has a long history in both social science and psychology.
-While this question has been the subject of intense debate in the social sciences in the 20th century, today's discussion is mostly structured by proponents from cognitive science, who construe culture as an evolutionary process analogous and parallel to biological evolution.
-That analogy can be traced a long way back, with milestones such as Kroeber's works [-@kroeber_nature_1952], Dawkins' *Memetics* [-@dawkins_selfish_2006], and later the development of *Dual Inheritance Theory* by @boyd_culture_1985 and @cavalli-sforza_cultural_1981 among others.
-More recently, Dan Sperber has drawn on this principle to explicitly connect anthropology and cognitive science through the theory of *Epidemiology of Representations* [@sperber_explaining_1996], and the study of cultural evolution has been growing steadily since.
+The review we just provided shows that the hypothesis of cultural attractors, a cornerstone of the theory because of the intelligibility it gives to cultural evolution, has remained hard to test in concrete situations:
+quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
+This chapter exemplifies an approach that takes advantage of the ever-increasing avalanche of available digital footprints since the 2000's.
 
-The collection of works by @aunger_darwinizing_2000 [in particular @bloch_well-disposed_2000; and @kuper_if_2000] has shown how memetics cannot account for the levels of transformation culture undergoes as it is transmitted.
-@mesoudi_multiple_2008 discuss the uses of transmission chain experiments to test what dual inheritance theory can explain about cultural evolution.
-@morin_how_2013 and @miton_universal_2015, by carefully compiling a series of anthropological works, demonstrate how cognitive biases have influenced the evolution of cultural artefacts over several centuries.
-@kirby_cumulative_2008 and @cornish_systems_2013 have shown how evolutionary pressures lead to the emergence of structured and expressive artificial languages in simulations and laboratory experiments.
-Such transmission chain experiments have also been explored in non-human primates by @claidiere_cultural_2014.
-
-The theory of Epidemiology of Representations proposes a unifying framework for all these works by recasting them as questions of spread and transformation of representations:
-these are alternatively located in the mind ("mental representations" in Sperber's terminology), or in the outer world ("public representations") as expressions of mental representations in diverse cultural artefacts (pieces of text, utterances, pictures, building techniques, etc.).
-A human society is then modelled as a large dynamical system of people constantly interpreting public representations into mental representations, and producing new public representations based on what they have previously interpreted.
-Two key points are that (a) transmission is not reliable (representations change significantly each time they are interpreted and produced anew, as opposed to e.g. memetics), and (b) the reciprocal influences of cognition and culture can be captured by studying the evolution of public representations themselves, which is what the above-cited studies are doing.
-
-The theory makes an additional strong hypothesis, which this paper focuses on:
-as transformations accumulate, some representations evolve to be very stable and spread throughout an entire society without changing any more (they are called "cultural representations", because they characterize a given culture).
-This process should manifest itself as attractors (called "cultural attractors") in the dynamical system that models cultural evolution, that is:
-there should be areas of the representation space where cognitive effects in transformations bring representations closer to a given stable asymptotic point.^[
-Attractors need not be points in fact, they can also be sub-areas; in that case any transformation brings representations in the area closer to (or confined to) the target sub-area.
-]
-
-This hypothesis, a cornerstone of the theory because of the intelligibility it gives to cultural evolution, has been hard to test in concrete situations as quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
-One approach, as mentioned above, has been the meta-analysis of large bodies of anthropological studies [see @miton_universal_2015, for instance].
-This chapter exemplifies a second approach, taking advantage of the ever-increasing avalanche of available digital footprints since the 2000's.
 Indeed, tools and computing power to analyse such data are now widespread, and the body of research aimed at describing online communities and content is growing accordingly.
 For instance, the propagation of cultural artefacts across social networks has been studied in blogspace [@gruhl_information_2004] and in emails [@liben-nowell_tracing_2008];
 @cointet_socio-semantic_2009 described the reciprocal influence between the social network topology and the distribution of issues;
 @leskovec_meme-tracking_2009 detailed the characteristic times and diffusion cycles both within these social networks and with respect to the topical dynamics of news media, and @danescu-niculescu-mizil_you_2012 studied the characteristics of particularly memorable quotes that circulate in those networks.
 We believe these works can connect the field of cultural evolution with psycholinguistics to advance the testing of cultural attractors.
-
-\bigskip
 
 To show this we analyse how quotes in blogs and media outlets are modified when they are copied from website to website.
 These public representations should normally not change as they spread on the Web (as opposed to more elaborate expressions or opinions, not identified as quoted utterances), but empirical observation shows that they are in fact occasionally transformed [@simmons_memes_2011]:
@@ -48,7 +24,8 @@ We chose to restrict our analysis to substitutions (i.e., one word being replace
 As explained further down, source-destination links between quotes must be inferred from the data set, an operation which is much more reliable if we restrict our analysis to substitutions.
 This also impedes us from observing the effect of accumulated transformations in the long term, limiting our results to a view of the individual evolutionary step.
 ]
-While this limits the scope of our results to the particular data set we use, the methodological point we also make is left intact.  By characterizing words using 6 well-studied features, we identify what makes a substitution more likely, and how a word changes when it is substituted.
+While this limits the scope of our results to the particular data set we use, the methodological point we also make is left intact.
+By characterizing words using 6 well-studied features, we identify what makes a substitution more likely, and how a word changes when it is substituted.
 This exploratory approach uncovers a number of transmission biases consistent with known effects in linguistics.
 While the transformations we describe are not the only ones at work in this data set, our analysis also indicates that feature-specific attractors could exist because of the substitution process.
 This study can be viewed as analysing part of the transmission step operating in transmission chains of artificial languages like those studied by @kirby_cumulative_2008, yet with natural language out of the laboratory.
