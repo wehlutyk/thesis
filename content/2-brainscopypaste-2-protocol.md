@@ -250,6 +250,61 @@ Finally, note that excluding minor spelling changes does not bias our use of ort
 out of the first 100 substitutions coded for recall, those with Levenshtein distance equal to 1 [which is what orthographic neighbourhood density codes, @marian_clearpond:_2012] were all typos or UK/US spelling changes, neither of which are relevant for this study.
 ]
 
+### Inconclusive chain model {#sec:brainscopypaste-aborted-chains}
+
+We also attempted to examine the evolution of quotation families under the repeated action of substitutions, an analysis which was inconclusive for lack of data.
+Our goal in this step was to identify the long-term effect of quote transformations over the lifetimes of quotation families.
+
+To do so we computed the distribution of word features for each time bin $\mathcal{B}_n$ of each quotation family, and aggregated the distributions of words over all the quotes of all the quotation families.
+This yields a distribution of word feature values for each $n$, which is the simplest possible view of the state of quotation families in their $n$-th time bin, that is after $n \times \Delta t$ days.
+^[For consistency, if we do this for $n$ going up to $N$, we only include quotation families that span long enough to have at least $N$ time bins.
+]
+Such a computation, based solely on the binning of quotation families, makes no assumptions about the types of transformations that quotations undergo over time:
+it simply measures the change in the feature makeup of quotations as we progress through the life of a quotation family.
+The feature distributions built with this computation are stationary.
+That is, the full transformations of quotations over time have no global effect on quotation families.
+This could be because external quotations are continuously fed into the family and compensate for the effect of transformations, because transformations operate on a marginal portion of the quotation families, or because transformations themselves have no effect on quotes (in what follows we will show this is not the case, at least for substitutions, who significantly change word features in a quote).
+
+To narrow this view to the specific effects of the transformations we can measure, that is substitutions, we consider substitution \emph{chains}:
+using the substitution detection model described in the previous section, we filter bins to include only new quotes produced by substitutions themselves based on quotes produced by substitutions, and so on recursively.
+The first bin of a quotation family is therefore untouched, the second contains the quotations produced by substitutions from the first, the third by substitutions from the second, and so on (see @fig:substitution-chains for an illustration of this process).
+As a result, the number of observed words drastically decreases over time,
+^[In particular, being able to detect more transformations than single substitutions would provide us with more quotations in each bin.
+However, since we can only detect substitutions, we can only construct chains of repeated substitutions.
+]
+yet the measure unambiguously focuses on the accumulated effect of substitutions in the quotations.
+
+\begin{figure}[h]
+  \centering
+  \def\svgwidth{.7\linewidth}
+  \small
+  \input{images/brainscopypaste/substitution-chains.pdf_tex}
+  \caption{{\bf Substitution chains:}
+  the figure represents the filtering of three time bins in order to construct chains.
+  At each step, what is kept from the preceding bin is shown, along with the currently considered bin.
+  The dark blue outline indicates what is kept from the current bin:
+  it consists of the quotes in the current bin that result from a substitution originating in what is kept from the previous bin (the dark blue outline thus stays inside the current bin, but includes more than what is kept from the previous bin).
+  The contents of the blue outline, that is what is kept from the current bin, are then reproduced at the next time step.
+  $\mathcal{B}_0$ (blue oval on the left) is thus left unchanged:
+  the blue outline contains the full bin.
+  From $\mathcal{B}_1$ (orange oval), we keep only the quotes that come from a substitution whose parent is a quote in $\mathcal{B}_0$:
+  the blue outline represents this.
+  Finally, from $\mathcal{B}_2$ (purple oval) we keep only the quotes coming from a substitution whose parent is a quote \emph{in what we kept from} $\mathcal{B}_1$.
+  }
+  \label{fig:substitution-chains}
+\end{figure}
+
+We thus observe only the repeatedly-affected portion of the quotation families, and obtain a simple view of the longitudinal effect of word substitutions.
+This measure should show us how quote features are evolving in the long term due to substitutions and, perhaps, converging towards specific attractors:
+if quotes have many substitutions, it may be possible to observe their accumulated effect in the distributions of words in quotations.
+We were not able to answer this question.
+Indeed, the chains that this procedure constructed were extremely short:
+with $\Delta t = 1$ day, quotation families yielded only a handful of substitution chains lasting a maximum of 3 to 4 iterations.
+While the aggregation of quotes in bin 0 of all families provided distributions of feature values for 7 to 15 million words (depending on the feature, as not all words are encoded by one feature), at bin 3 the number of remaining words was between 200 and 350 (again depending on the feature), corresponding to only a dozen quotes.
+The chains were thus not usable to build significant word feature distributions for more than two iterations, such that we could not observe the accumulated effects of substitutions.
+We therefore set this analysis aside for the rest of the chapter.
+
+
 ## Results
 
 Substitutions usually replace a word with another semantically related word:
