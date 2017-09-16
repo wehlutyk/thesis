@@ -260,9 +260,9 @@ A similar phenomenon is observed on the FA network, where about 104 clusters hav
 ]
 The following examples illustrate this phenomenon:
 
-* "This is \{socialism $\rightarrow$ welfare\} for the rich,
-* [The] "perverse logic of \{clashes $\rightarrow$ confrontation\} and violence,
-* "This \{crisis $\rightarrow$ problem\} did not develop overnight and it will not be solved overnight.
+* "This is \{socialism $\rightarrow$ welfare\} for the rich,"
+* [The] "perverse logic of \{clashes $\rightarrow$ confrontation\} and violence,"
+* "This \{crisis $\rightarrow$ problem\} did not develop overnight and it will not be solved overnight."
 
 Our question concerns the low-level properties of these substitutions: we ask (a) which words are targets of the substitutions and (b) what change these words are subjected to. To this end, we build the following two observables for each word feature.
 First, we measure which word features are more or less substituted compared to how often they would be if the process were random, in order to capture the susceptibility for words to be the target of a substitution in a quote.
@@ -272,7 +272,7 @@ Since sentence context is also central to this process, we extend these two obse
 Note that since we only consider substitutions and not faithful copies, we measure the features of an alteration *knowing that there has been an alteration*, that is we do not take invariant quotations into account.
 Indeed, in the former case we know there has been a human reformulation, whereas in the latter case we cannot know whether there has been perfect human reformulation or simply digital copy-pasting of a source ("[Ctrl-C]{style="font-variant:small-caps;"}/[Ctrl-V]{style="font-variant:small-caps;"}").
 Moreover, perfect human reformulation possibly involves different practices than those involved in alteration --- for instance drafting before publishing, double-checking sources, proof-reading --- and may not be representative of the cognitive processes at work during alteration.
-The two situations are different enough to be studied separately, and we focus here on the latter.
+The two situations are different enough to be studied separately, and we focus here on the former.
 
 ### Susceptibility
 
@@ -343,7 +343,7 @@ In other words, plotting the $y=x$ line, we can see if substitutions tend to att
 
 We also introduce two null hypotheses, $\mathcal{H}_0$ and $\mathcal{H}_{00}$, to compare the actual variation of a word's feature to expected variations under unbiased transformations.
 $\mathcal{H}_0$ models the situation where the arrival word $\warrival$ is randomly chosen from the whole pool of words available in the data set for that feature.^[
-For instance, when considering the feature "Clustering coefficient, the arrival word is randomly chosen among words present in the data set of FA norms.
+For instance, when considering the feature "Clustering coefficient", the arrival word is randomly chosen among words present in the data set of FA norms.
 ]
 In this case, since $\phi(\warrival)$ becomes a constant value in the above averaging (by definition $\warrival$ does not depend on $\wstart$ anymore), the baseline variation under $\mathcal{H}_0$ may be rewritten as:
 $$\nu_{\phi}^0 (f) = \left<\phi\right>$$
@@ -415,11 +415,11 @@ In other words there is little to no interaction between a disappearing word's f
 To make things concrete, here is an example substitution taking place in the data set.
 Around mid-November 2008 several media websites reported the following quote from Burmese poet Saw Wai (arrested for one of his poems),
 
-> "Senior general Than Shwe is foolish with power.
+> "Senior general Than Shwe is foolish with power."
 
 and a smaller number of media websites, and blogs, reported the following,
 
-> "Senior general Than Shwe is **crazy** with power.
+> "Senior general Than Shwe is **crazy** with power."
 
 The word *foolish* is acquired at an average of 8.94 years old, appears 675 times in the data set, has a Clustering coefficient of $8.2 \times 10^{-3}$ and is 7 letters long.
 The word it was replaced with, *crazy*, is acquired on average at 5.22 years old, appears about 4.1k times in the data set, has a Clustering coefficient of $1.7 \times 10^{-3}$, and is 5 letters long.
