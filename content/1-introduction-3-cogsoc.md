@@ -156,14 +156,14 @@ Instead of accepting this problem, non-representational theories suggest alterna
 
 The Enactive approach proposes such a view of cognition, which differs radically from the more computational and mechanistic view of cognition used in Cultural Attraction Theory.
 The main thrust of the approach is that, instead of consisting of a computational inference and representation mechanism, cognition is the activity by which an organism actively regulates the way it is coupled to its environment.
-In this approach, all living systems are viewed as *autonomous systems* (a variety of autopoietic systems).
-Autonomous systems are networks of processes that continuously produce the boundaries that separate them from their environment (this need not be a physical boundary), and at the same time closely interact with the environment to reproduce their own processes and the conditions for their continuation.
+In this approach, all living systems are viewed as *autonomous systems* (a variety of autopoietic systems which can act in order to maintain their autopoiesis).
+Autonomous systems are networks of processes that continuously produce the boundaries that separate them from their environment, and at the same time closely interact with the environment to reproduce their own processes and the conditions for their continuation.
 Autonomous systems are a case of self-organised systems:
 the internal interaction of their processes leads to emergent structural properties (e.g. boundaries with the environment), and those structural properties participate in the continuation of the processes from which they emerge.
 Such systems have an intrinsic identity because of their organisational structure and the boundaries they create to maintain that structure, and they subordinate all interactions with the environment to the continuation of that identity.
 As a consequence, any interaction with the environment bears intrinsic value for an autonomous system, because it has direct positive or negative consequences on the continuation of its identity.
 
-At the most basic level, then, cognition is the activity of an autonomous system who actively regulates its coupling with the environment in order to maintain its identity.
+At the most basic level, then, what makes an action cognitive is that it relates to the continuation of the autonomous system's identity.
 The value that interactions with the environment have for the system is the basis for the enactive notion of *meaning*, a notion which is as central here as the notion of information in the computational metaphor.
 Indeed, on this account cognition is seen as always creative of meaning, and is called a *sense-making* activity.
 Much of the work of enactive theorists consists in fleshing out how this basic notion of cognition, along with its intrinsic notion of meaning (both of which can be applied at different descriptive levels of a given system), can be developed and structured in order to account for more complex cognitive behaviours such as social cognition [@de_jaegher_participatory_2007] or the processes underlying language [@cuffari_participatory_2015].
