@@ -75,7 +75,7 @@ header-includes:
   - \usepackage{algpseudocode}
   - \usepackage{xfrac}
   # Format numbers
-  - \usepackage[group-separator={,}]{siunitx}
+  - \usepackage[group-separator={,},detect-all]{siunitx}
   # Format internal chapter references (pandoc-crossref ignores this for section and figure refs)
   - \PassOptionsToPackage{capitalise}{cleveref}
   # Scale svg figures
