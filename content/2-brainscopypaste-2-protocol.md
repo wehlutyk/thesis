@@ -106,7 +106,7 @@ To make correlation values as well as future comparisons more reliable, we log-t
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{images/brainscopypaste-computed/all-feature_correlations.png}
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/all-feature_correlations.png}
   \caption[Spearman correlations in the initial set of features]{
   {\bf Spearman correlations in the initial set of features.}
   }
