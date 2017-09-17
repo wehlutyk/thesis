@@ -141,7 +141,7 @@ The "their" $\rightarrow$ "there" replacement is maintained by the next subject,
 The examples above, and the variability they illustrate, testify to the fact that different subjects can interpret the same utterance in strongly divergent ways.
 Subjects do not only differ on their performance in accurately reproducing the utterances presented, their productions also signal that different meanings can be constructed from the same root utterance (such differences accumulate, as was illustrated by the divergence of branches observed in the previous chapter).
 Part of this observation is commonplace, as the meaning of an utterance depends in obvious ways on the context in which it is produced or read, such as when deictics are used (words such as "today" or "here", which are context-bound by nature).
-However, most isolated utterances are under-specified in a way that makes them much more dependent on the context and on the interaction they appear in then what deictics suggest.
+However, most isolated utterances are under-specified in a way that makes them much more dependent on the context and on the interaction they appear in than what deictics suggest.
 
 Consider once again utterance \ref{u:party}.
 With no further context, it is not clear what party the speaker is referring to, who the participants were, or why the speaker is asking about it.
@@ -350,9 +350,9 @@ Or they can represent something that does not currently exist in the world (e.g.
 The problem comes from the fact that, at the physical level, representations are supposed to exist in the brain:
 they are patterns of neuronal activations that result from processing mechanisms and external stimuli.
 What, then, allows to say that such a pattern is *representing* this or that?
-One can say that a pattern represents a perceived stimuli because its internal structure has a correspondence to that stimuli (due to causation).
+One can say that a pattern represents a perceived stimulus because its internal structure has a correspondence to that stimulus (due to causation).
 However, if these patterns are a causal (albeit complex) consequence of the processing mechanisms and stimuli from which they arise, how can they be thought to *misrepresent* something?
-Furthermore, how can they represent something for which no stimuli exists?
+Furthermore, how can they represent something for which no stimulus exists?
 This question has attracted much attention in philosophy of mind, where critical authors in particular call it the "Hard Problem of Content" [@hutto_radicalizing_2013].
 
 We now turn to a second approach to meaning, based on a dynamical account of interactions which does not rely on propositions or representations.
@@ -474,7 +474,7 @@ every process in the network is conditioned on the activity of one or several ot
 The very existence of this operational closure defines an identity for the network of processes:
 the system's identity is its stable organisational form in spite of ever-changing material substrate.
 However, this identity is precarious:
-if any of the processes cease, of if the networked organisation of the processes falls apart, operational closure is broken, and the identity and the system as a whole disintegrate.
+if any of the processes cease, or if the networked organisation of the processes falls apart, operational closure is broken, and the identity and the system as a whole disintegrate.
 Thus this identity is a new kind of object that emerges from the organisation of material processes, but its existence is binary:
 it either is or is not.
 
@@ -720,7 +720,7 @@ For more details, see again @hutto_radicalizing_2013 on the Hard Problem of Cont
 ]
 Unlike RT, it does not yet provide a clear way to compare meanings across interactive situations, as its very definition of meaning is intrinsically related to the subtle differences of dynamics in different interactions.
 In RT, that work is theoretically done by the notion of representation (or more precisely, the informative intention that is inferred and represented), although in practice much remains to be defined to directly compare representations between each other.
-In its current state, the Enactive approach is applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level parts of the theory.
+In its current state, the Enactive approach is only applicable to much simpler interactions than those tackled by RT, as more experimental work is needed to confirm the higher-level parts of the theory.
 
 This finally brings us back to the usefulness of both these approaches to CAT.
 First, let us note that @sperber_explaining_1996 refers repeatedly to RT as an important tool to understand the role of interpretation in the epidemiology of representations.
