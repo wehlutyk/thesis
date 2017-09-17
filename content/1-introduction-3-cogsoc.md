@@ -43,7 +43,7 @@ These questions resonate with recent debates in evolutionary biology and in cogn
 While the empirical work presented in this thesis does not explicitly rely on these debates, we will see that the way utterances are interpreted and thus transformed in short-term evolution cannot be entirely isolated from an answer to these questions.
 
 In what follows, therefore, we briefly present the relevant parts of the evolutionary biology and cognitive science debates on the subject.
-Part of these works can be seen to develop or flesh out parts of CAT and SCE as formulated above, and well integrated with evolutionary approaches to culture.
+Part of these works can be seen to develop or flesh out parts of CAT and SCE as formulated above, and are well integrated with evolutionary approaches to culture.
 Others are not yet explicitly discussed in the literature.
 Overall, the questions in this section are more theoretical than above, as they explore both the way different disciplines studying life are best meshed together, and what core components should be at the root of such a convergence.
 This is not to say the debates in evolutionary biology and cognitive science concern theory alone, as each debated position is well supported by empirical work;
@@ -122,10 +122,10 @@ The notion of cognitive-developmental niche finds strong support in recent devel
 In a strikingly parallel movement to the debate on the interaction of genes and environment, the cognitive units of analysis have been debated along two broad dimensions [@chemero_after_2008]:
 
 - The boundaries of cognition:
-  are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998;@menary_extended_2010].
+  Are cognitive processes brain-bound, do they extend to the body, or do they include the environment or the surrounding (cognitive) organisms, and if so in what sense [@clark_extended_1998;@menary_extended_2010]?
 - The explanatory approach and metaphor to adopt:
-  are cognitive systems best described through a computational metaphor, with a mechanistic explanation where a system is separated into components that each fulfil a function, the combination of which can explain the activity of the system;
-  or are they best described through a dynamical approach, that is with sets of differential equations that describe the dynamics of coupling between variables in the system, be they high-level [e.g. coordination in bodily movements, @kelso_haken-kelso-bunz_2008] or low-level [e.g. decision-making dynamics, @busemeyer_decision_1993].
+  Are cognitive systems best described through a computational metaphor, with a mechanistic explanation where a system is separated into components that each fulfil a function, the combination of which can explain the activity of the system?
+  Or are they best described through a dynamical approach, that is with sets of differential equations that describe the dynamics of coupling between variables in the system, be they high-level [e.g. coordination in bodily movements, @kelso_haken-kelso-bunz_2008] or low-level [e.g. decision-making dynamics, @busemeyer_decision_1993]?
 
 In treating these two questions, the extended, embedded, embodied and enactive approaches to cognitive science (so-called "4E") have argued to various degrees that cognitive processes are not brain- or body-bound, and do not necessarily involve abstract information processing mechanisms of which the brain would be an implementation.
 Instead, cognition has increasingly been described as a situated activity supported and co-constituted by its environment.

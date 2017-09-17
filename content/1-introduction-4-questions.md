@@ -8,7 +8,7 @@ However, the matter is not independent from the other three questions, and a sec
 
 ### Attraction versus source selection
 
-The Californian and Parisian research streams are built around two complementary processes:
+The Parisian and Californian research streams are built around two complementary processes:
 attraction and source selection.
 Attraction is the umbrella phenomenon studied mostly under the Parisian approach, and is a central concept to explain cultural constancy and change when there is no clear copying behaviour (i.e. transmission is low-fidelity):
 if we find constancy and gradual change in a given cultural domain in spite of interpretation, rich effects of psychology, cognitive biases, interaction, and no clear copying behaviour of agents, then cultural attraction might be a good candidate to explain its evolution.

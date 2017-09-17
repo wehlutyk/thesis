@@ -48,12 +48,12 @@ these figures show how the effect acts on each set of root utterances, but do no
 \begin{figure}[!ht]
   \centering
   \subfloat[Numbers of words, $|u|_w$]{
-    \includegraphics{images/gistr-computed/token_lengths-tokens_m31.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/token_lengths-tokens_m31.png}
     \label{fig:gistr-token-lengths}
   }
 
   \subfloat[Numbers of content words, $|c(u)|_w$]{
-    \includegraphics{images/gistr-computed/content_lengths-tokens_m31.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/content_lengths-tokens_m31.png}
     \label{fig:gistr-content-lengths}
   }
   \caption[Reduction in utterance word count and content word count]{
@@ -146,17 +146,17 @@ A classic effect of transmission chains for various types of content is that tra
 \begin{figure}[!ht]
   \centering
   \subfloat[Experiment 1]{
-    \includegraphics{images/gistr-computed/oc-rates-trans-exp-1.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/oc-rates-trans-exp-1.png}
     \label{fig:gistr-octrans-exp-1}
   }
 
   \subfloat[Experiment 2]{
-    \includegraphics{images/gistr-computed/oc-rates-trans-exp-2.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/oc-rates-trans-exp-2.png}
     \label{fig:gistr-octrans-exp-2}
   }
 
   \subfloat[Experiment 3]{
-    \includegraphics{images/gistr-computed/oc-rates-trans-exp-3.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/oc-rates-trans-exp-3.png}
     \label{fig:gistr-octrans-exp-3}
   }
   \caption[Transmissibility and conservation rate for each experiment]{
@@ -208,7 +208,7 @@ The different divergence rates correspond to the transformation rates observed i
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{images/gistr-computed/variabilities.png}
+  \includegraphics[width=\linewidth]{images/gistr-computed/variabilities.png}
   \caption[Slice variabilities in the three experiments]{
   \textbf{Slice variabilities in the three experiments.}
   Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95\% confidence interval based on Student's $t$-distribution, considering each tree slice as an independent measure).
@@ -535,11 +535,11 @@ $\theta_{exchange}$ was then set to $-.5$ after manual trial and error.
 \begin{figure}[!ht]
   \centering
   \subfloat[Before manual alignment]{
-    \includegraphics{images/gistr/gistr-goldcli-before.png}
+    \includegraphics[width=\linewidth]{images/gistr/gistr-goldcli-before.png}
   }
 
   \subfloat[After manual alignment]{
-    \includegraphics{images/gistr/gistr-goldcli-after.png}
+    \includegraphics[width=\linewidth]{images/gistr/gistr-goldcli-after.png}
   }
   \caption[Console interface for manual transformation alignment]{
   \textbf{Console interface for manual transformation alignment.}
@@ -620,7 +620,7 @@ The transition from depth 1 to depth 2 in branch #49 of the figure also correspo
 
 \begin{figure}[p]
   \centering
-  \includegraphics{images/gistr-computed/exp_3/lineage-tree-4.png}
+  \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/lineage-tree-4.png}
   \caption[Example lineages for all the branches of tree \#4 from Experiment 3]{
   \textbf{Example lineages for all the branches of tree \#4 from Experiment 3.}
   Each subplot corresponds to a different branch.
@@ -667,7 +667,7 @@ We picture this correspondence between the transformation diagram in the utteran
   Similar to Fig.~\ref{fig:gistr-lineage-tree}, light grey bands are what subjects see, and the bands between those represent what the subjects do with what they read.
   An orange band indicates that an utterance was transformed, that is a T event, and a dark grey band indicates that an utterance was perfectly conserved, that is a C event.
   The corresponding ordered series of events is shown underneath the axis' arrow.]{
-    \includegraphics{images/gistr/gistr-dimensions-branch.pdf}
+    \includegraphics[width=\linewidth]{images/gistr/gistr-dimensions-branch.pdf}
     \label{fig:gistr-dimensions-branch}
   }
 
@@ -676,7 +676,7 @@ We picture this correspondence between the transformation diagram in the utteran
   This diagram uniquely represents the transformation, and merges any variations in encoding that can exist in pairs of sequences with gaps.
   The top level of the figure shows how the canonical representation comes from the lineage plots.
   The bottom level shows two equivalent encodings of the same transformation (as would be produced by the alignment tool), which compress to the same canonical representation.]{
-    \includegraphics{images/gistr/gistr-dimensions-utterance.pdf}
+    \includegraphics[width=\linewidth]{images/gistr/gistr-dimensions-utterance.pdf}
     \label{fig:gistr-dimensions-utterance}
   }
 
@@ -685,7 +685,7 @@ We picture this correspondence between the transformation diagram in the utteran
   The procedure results in two arrays of word operations:
   a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
   Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).]{
-    \includegraphics{images/gistr/gistr-utterance-arrays.pdf}
+    \includegraphics[width=\linewidth]{images/gistr/gistr-utterance-arrays.pdf}
     \label{fig:gistr-utterance-arrays}
   }
   \caption[Analysis dimensions]{
@@ -868,23 +868,31 @@ Note that the replacement counts barely change between word and chunk level sinc
 it affects mostly isolated words instead of contiguous sets of words.
 In short, a longer utterance has a higher probability of suffering any type of operation, with on average over a quarter of the words deleted, the equivalent of a fourteenth of the original utterance in new words, and about a twentieth of the words replaced.
 
-<div id="fig:gistr-ops-counts">
-![**Probability of word operations w.r.t. parent length.**
-Computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
-Colours correspond to the colour-coding used in @fig:gistr-lineage-tree.
-Light shades are 95% regression confidence intervals.
-](images/gistr-computed/exp_3/p-ops_parent-length_logistic.png){#fig:gistr-ops-prob}
+\begin{figure}[!ht]
+  \centering
+  \subfloat[\textbf{Probability of word operations w.r.t. parent length.}
+  Computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
+  Colours correspond to the colour-coding used in Fig.~\ref{fig:gistr-lineage-tree}.
+  Light shades are 95\% regression confidence intervals.]{
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/p-ops_parent-length_logistic.png}
+    \label{fig:gistr-ops-prob}
+  }
 
-![**Number of word-level and chunk-level operations w.r.t. parent length.**
-Parent lengths are binned into 5 quantile-based bins.
-The word-level counts the number of individual words affected by an operation (deletion, insertion, replacement).
-The chunk-level counts the number of contiguous sets of words affected by an operation.
-Light shades are 95% regression confidence intervals, and vertical bars are 95% confidence intervals for the value of a bin (Student $t$-based, here counting each operation as an independent measure).
-<!-- \todo{FIXME: vertical bars should count each transformation as independent}-->
-](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
-
-Probability and number of word-level or chunk-level operations
-</div>
+  \subfloat[\textbf{Number of word-level and chunk-level operations w.r.t. parent length.}
+  Parent lengths are binned into 5 quantile-based bins.
+  The word-level counts the number of individual words affected by an operation (deletion, insertion, replacement).
+  The chunk-level counts the number of contiguous sets of words affected by an operation.
+  Light shades are 95\% regression confidence intervals, and vertical bars are 95\% confidence intervals for the value of a bin (Student $t$-based, here counting each operation as an independent measure).
+  % \todo{FIXME: vertical bars should count each transformation as independent}
+  ]{
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/chunk-size_parent-length.png}
+    \label{fig:gistr-ops-count}
+  }
+  \caption[Probability and number of word-level or chunk-level operations]{
+  \textbf{Probability and number of word-level or chunk-level operations.}
+  }
+  \label{fig:gistr-ops-counts}
+\end{figure}
 
 Manual exploration of the lineage plots also indicated that operations are not positioned evenly in the utterances.
 To quantify this behaviour we apply the susceptibility measure developed in the previous chapter to positions in an utterance.
@@ -907,17 +915,17 @@ each pattern is more or less marked depending on the parent sentence length (esp
 \begin{figure}[!ht]
   \centering
   \subfloat[Deletions]{
-    \includegraphics{images/gistr-computed/exp_3/susceptibility-del_position_parent-length.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/susceptibility-del_position_parent-length.png}
     \label{fig:gistr-susc-del}
   }
 
   \subfloat[Insertions]{
-    \includegraphics{images/gistr-computed/exp_3/susceptibility-ins_position_parent-length.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/susceptibility-ins_position_parent-length.png}
     \label{fig:gistr-susc-ins}
   }
 
   \subfloat[Replacements]{
-    \includegraphics{images/gistr-computed/exp_3/susceptibility-rpl_parent_position_parent-length.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/susceptibility-rpl_parent_position_parent-length.png}
     \label{fig:gistr-susc-rpl}
   }
   \caption[Susceptibility for word operations as a function of relative position in the utterance]{
@@ -943,7 +951,7 @@ Other operations do not seem to exhibit this behaviour (the variations for inser
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{images/gistr-computed/exp_3/chunk-size_position_parent-length.png}
+  \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/chunk-size_position_parent-length.png}
   \caption[Chunk-level operation size w.r.t. parent length and position in utterance]{
   \textbf{Chunk-level operation size w.r.t. parent length and position in utterance.}
   The leftmost plot (blue background) shows the average chunk-level operation size w.r.t. parent length for all utterances.
@@ -1061,7 +1069,7 @@ The regression is computed using the Statsmodels statistics library for Python, 
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{images/gistr-computed/exp_3/insdel_distance_size.png}
+  \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/insdel_distance_size.png}
   \caption[Size correlation between nearest-neighbour chunk-level insertions and deletions at different distances]{
   \textbf{Size correlation between nearest-neighbour chunk-level insertions and deletions at different distances.}
   The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
@@ -1146,12 +1154,12 @@ Overall, the behaviour for targeting is consistent with what we observed in blog
 \begin{figure}[!ht]
   \centering
   \subfloat[Susceptibility to targeting]{
-    \includegraphics{images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png}
     \label{fig:gistr-suscept-feature-delrpl}
   }
 
   \subfloat[Susceptibility to appearance]{
-    \includegraphics{images/gistr-computed/exp_3/feature-suscept-insrpl_child.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-suscept-insrpl_child.png}
     \label{fig:gistr-suscept-feature-insrpl}
   }
   \caption[Feature susceptibilities of words to targeting and appearance]{
@@ -1179,7 +1187,7 @@ All these trends are also consistent with the variation patterns observed previo
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics{images/gistr-computed/exp_3/feature-variation-rpl.png}
+  \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-variation-rpl.png}
   \caption[Feature variation upon replacement]{
   \textbf{Feature variation upon replacement.}
   $\nu_{\phi}$, average feature value of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95\% asymptotic confidence intervals based on Student's $t$-distribution.
@@ -1221,19 +1229,19 @@ This question could not be answered in the blogspace data set for lack of detect
 \begin{figure}[!ht]
   \centering
   \subfloat[Word frequency]{
-    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png}
   }
 
   \subfloat[Age of acquisition]{
-    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-aoa.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-branchevo-aoa.png}
   }
 
   \subfloat[Clustering]{
-    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-clustering.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-branchevo-clustering.png}
   }
 
   \subfloat[Number of letters]{
-    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-letters_count.png}
+    \includegraphics[width=\linewidth]{images/gistr-computed/exp_3/feature-branchevo-letters_count.png}
   }
   \caption[Evolution of average utterance features]{
   \textbf{Evolution of average utterance features.}

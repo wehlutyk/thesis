@@ -104,7 +104,14 @@ We used three standard measures on the FA network:
 Several of these features are strongly related and can be grouped together.
 To make correlation values as well as future comparisons more reliable, we log-transformed features that have marked exponential distributions (i.e. a few words valued orders of magnitude higher than the vast majority of other words).
 
-![Spearman correlations in the initial set of features](images/brainscopypaste-computed/all-feature_correlations.png){#fig:feature-corrs-initial}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/brainscopypaste-computed/all-feature_correlations.png}
+  \caption[Spearman correlations in the initial set of features]{
+  {\bf Spearman correlations in the initial set of features.}
+  }
+  \label{fig:feature-corrs-initial}
+\end{figure}
 
 The pairwise correlations in the initial set of features appears in @fig:feature-corrs-initial.
 By looking at absolute values, three subsets of highly correlated features can be easily identified:
@@ -126,7 +133,14 @@ Indeed, we have data on frequency for about 33.5k words, on age of acquisition f
 Quite often then, not all features are available for a given word in our data set;
 however this is not problematic since the analysis is done on a per-feature basis, and not all words need be encoded in all features.]
 
-![Spearman correlations in the filtered set of features](images/brainscopypaste-computed/paper-feature_correlations-v2.png){#fig:feature-corrs-filtered width=64.12%}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=.6412\linewidth]{images/brainscopypaste-computed/paper-feature_correlations-v2.png}
+  \caption[Spearman correlations in the filtered set of features]{
+  {\bf Spearman correlations in the filtered set of features.}
+  }
+  \label{fig:feature-corrs-filtered}
+\end{figure}
 
 ### Substitution model
 
@@ -350,7 +364,7 @@ i.e. it measures the preferential selection of some word properties for substitu
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/all-susceptibilities-pos.png}
+  \includegraphics[width=.7\linewidth]{images/brainscopypaste-computed/all-susceptibilities-pos.png}
   \caption[POS-related results]{
   \textbf{POS-related results.}
   Categories are simplified from the TreeTagger tag set: \emph{C} means \emph{Closed class-like} (see main text for details), \emph{J} means adjective, \emph{N} noun, \emph{R} adverb, and \emph{V} means verb.
@@ -458,7 +472,7 @@ the substitution process naturally leads to an attraction even under reasonable 
 
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-variations_regression-globals_to_globalsvariation-heatmap.png}
+  \includegraphics[width=.7\linewidth]{images/brainscopypaste-computed/paper-variations_regression-globals_to_globalsvariation-heatmap.png}
   \caption[Feature variations regression coefficients]{
   \textbf{Feature variations regression coefficients.}
   Source feature values (columns) and feature variations (rows) were normalized to $[0; 1]$ to ensure the coefficients are comparable.

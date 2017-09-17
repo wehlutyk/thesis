@@ -132,13 +132,22 @@ while this approach could achieve some level of spread when combined with (2), i
 ]
 @Fig:gistr-trees shows a representation of the shape of the final trees.
 
-<div id="fig:gistr-start">
-![Welcome screen](images/gistr/gistr-welcome.png){#fig:gistr-welcome width=48%}
-<span> </span>
-![Signup form](images/gistr/gistr-signup.png){#fig:gistr-signup width=48%}
-
-Initial steps for a subject entering the experiment
-</div>
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Welcome screen]{
+    \includegraphics[width=.48\linewidth]{images/gistr/gistr-welcome.png}
+    \label{fig:gistr-welcome}
+  }
+  ~
+  \subfloat[Signup form]{
+    \includegraphics[width=.48\linewidth]{images/gistr/gistr-signup.png}
+    \label{fig:gistr-signup}
+  }
+  \caption[Initial steps for a subject entering the experiment]{
+  \textbf{Initial steps for a subject entering the experiment.}
+  }
+  \label{fig:gistr-start}
+\end{figure}
 
 \begin{figure}[!ht]
   \centering
@@ -150,8 +159,14 @@ Initial steps for a subject entering the experiment
   \label{fig:gistr-questionnaire}
 \end{figure}
 
-![Instructions for the main task
-](images/gistr/gistr-instructions-training.png){#fig:gistr-instructions width=75%}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=.75\linewidth]{images/gistr/gistr-instructions-training.png}
+  \caption[Instructions for the main task]{
+  \textbf{Instructions for the main task.}
+  }
+  \label{fig:gistr-instructions}
+\end{figure}
 
 \begin{figure}[!ht]
   \centering
@@ -314,7 +329,7 @@ Experiment 3 showed an accumulated spam rate of 1.0%, and with misplaced utteran
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=.75\linewidth]{images/gistr/gistr-feedback.png}
-  \caption[Example reformulation trees]{
+  \caption[Overlay feedback box]{
   \textbf{Overlay feedback box.}
   Opened in the instructions screen from Fig.~\ref{fig:gistr-instructions}.
   The box is available in most screens of Experiments 2 and 3.

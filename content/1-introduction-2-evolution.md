@@ -90,7 +90,7 @@ Inspired by the generality of the populational approach underlying contemporary 
 
 The combination of (a) and (b) is not new, as a similar inspiration underlay the development of memetics [@dawkins_selfish_2006].
 \(b) can be fleshed out in different manners however.
-Memetics, for instance, suggested that the full details of the neo-darwinian synthesis could be applied to culture:
+Memetics, for instance, suggested that the full details of the neo-Darwinian synthesis could be applied to culture:
 it considered culture as a collection of particles (memes, the cultural counterpart of genes) that are transmitted from person to person with random variation, and differentially reproduced because of their competition for attention.
 The new wave, which we will call *cultural evolutionist*, is not committed to such a genetic view of culture:
 for these approaches culture need not be particulate, and the way cultural things change when they are transmitted or learned is by no means random.
@@ -100,7 +100,7 @@ Tim Lewens clarifies the position of this new wave regarding previous evolutiona
 > "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance."
 > [@lewens_cultural_2012 p. 466]
 
-Finally, the addition of (c) is another important difference between the new wave and previous darwinian approaches to culture:
+Finally, the addition of (c) is another important difference between the new wave and previous Darwinian approaches to culture:
 not only can general evolutionary principles be useful to the study of culture itself, but culture and genes can also be seen as bearers of two different types of information, transmitted across generations through two parallel channels.
 The way changes occur in each transmission channel leads to evolution of genes and culture at different time scales;
 furthermore, since culture can have an effect on the environment in which genetic mutations are selected for, and since genes constrain the organisms that bear and transmit culture, the two evolutionary processes interact and become co-evolutionary.
@@ -134,7 +134,7 @@ In this thesis, however, we will mostly focus on the Parisian approach to cultur
 #### Parisian {#sec:intro-review-parisian}
 
 In the mid-nineties Dan Sperber formalised a second influential approach to the question of cultural stability and change:
-in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, hereafter noted CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary matters such as cultural evolution.
+in a series of innovative articles gathered in @sperber_explaining_1996, the author puts forward a research programme called *Epidemiology of Representations* (better known today as *Cultural Attraction Theory*, i.e. CAT), and seeks to provide the cognitive and social sciences with a common framework with which to address interdisciplinary matters such as cultural evolution.
 One of the guiding questions of Sperber's work is the following:
 how can we explain the relative stability of cultures through time despite the fact that most interactions between human beings seem to be transmitting very little (if anything at all) about a community's culture?
 In developing an answer, Sperber commits himself to presenting a coherent ontology to define culture and identify exactly what is transmitted in human interactions, while at the same time connecting with the many ontologies he identifies in anthropology.
@@ -170,14 +170,14 @@ Thus, in the epidemiological framework proposed by Sperber, the question of cult
 To answer this question, Sperber introduces an additional concept:
 the dynamical system of representations which models a community's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors in the transmission of representations, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
 A cultural attractor is thus a region in representation space towards which representations tend to come closer whenever they are transformed in an interaction.
-Such attraction can be due a variety of factors.
+Such attraction can be due to a variety of factors.
 The tale of Little Red Riding Hood, for instance, could have remained stable through time because of an attractor due to basic cognitive mechanisms favouring a particular structure in the story.
 The recipe for Mornay sauce could be stable through time because of constraints on the way it is taught, and the physical possibilities to realise the mixture of ingredients.
 To take yet another example, the practice of smoking can be seen as a range of public representations with two attractors:
 either not smoking at all, or developing an addiction and behavioural habits for smoking around 25 cigarettes a day [@claidiere_role_2007].
 Note that distribution of representations in a community depends not only on attractors, but on where new representations come from and where they disappear.
 In the case of smoking, one can imagine a constant flow of people starting to smoke about 10 cigarettes a day, and gradually being attracted to 0 or 25 a day, such that the steady-state distribution of smoking behaviours is rather flat from 0 to 25 cigarettes a day [@claidiere_role_2007].
-Cultural attractors are one of the core concepts of CAT, as they provide intelligibility to the evolution of culture and to the reciprocal influence of psychology, culture, and environment.
+Cultural attractors are one of the core concepts of CAT, as they provide intelligibility for the evolution of culture and for the reciprocal influence of psychology, culture, and environment.
 As such, a central goal in the CAT research stream has been to identify existing attractors, and explain their emergence based on the interaction of psychological and ecological factors.
 
 The most important intuition in Sperber's proposal, and what differentiates it from previous works, is the centrality of individual psychology for the evolution of culture and its role in the emergence of attractors [@sperber_explaining_1996, p. 31].
@@ -224,7 +224,7 @@ Still, we can reach a collective consensus about the usefulness of approaching t
 
 As the name Cultural Attraction Theory indicates, an important part of that toolbox is the notion of cultural attractor, which can be empirically studied:
 the presence or absence of a well-defined attractor in a given situation can be turned into a testable hypothesis.
-Additionally, at the meta-analytical level one can evaluate if tackling a problem with a cultural attraction approach encourages useful questions and fruitful studies, or if it is more of a hindrance in explaining the phenomena at hand.
+One can also evaluate, at the meta-analytical level, if tackling a problem with a cultural attraction approach generates productive questions and fruitful studies, or if it is more of a hindrance in explaining the phenomena at hand.
 In short, while testing CAT empirically is not a simple matter of yes or no, the theory provides a clear set of tools and lines of thought that are well worth evaluating in a wider, programmatic appraisal.
 
 The second challenge to empirical exploration resides in the fact that quantitative data on out-of-laboratory cultural artefacts is not easy to collect.
@@ -232,7 +232,7 @@ Although theoretical models to guide that exploration are gradually appearing [@
 The literature on CAT shows at least two important methods that have been used up to now.
 First, the meta-analysis of large numbers of anthropological or historical works, which has uncovered several relevant effects.
 The way portraits were painted in Europe over the centuries, for instance, has been shown to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
-In terms of CAT, existing paintings are a collection of public representation from which younger painters learn and inspire themselves, creating their own mental representations of the paintings.
+In CAT terms, existing paintings are a collection of public representation from which younger painters learn and are inspired, creating their own mental representations of the paintings.
 A cultural attraction towards direct-gaze portraits (whose exact roots could be a cognitive bias, but that is not yet clear) then seems to have driven the evolution of the overall distribution of public representations painted over the centuries in Europe.
 @miton_universal_2015 also used archival analysis techniques to propose an explanation for the historical stability of the practice of bloodletting, in spite of its medical ineffectiveness.
 Exploiting similar records, @baumard_increased_2015 showed a link between the evolution of religious values and the affluence of societies in which they develop.
@@ -285,7 +285,7 @@ Participants may or may not know that they are part of a chain.
 The setup approximates the transmission and change process that happens in everyday life.
 While it is quite idealised and imperfect, it allows experimenters to study the effects of different factors on the evolution of artefacts, taken as a trace of the overall process at work.
 
-Important independent variables that may vary include the chain structure (e.g. the number and sources of preceding recollections a participant is exposed to), the reading or memorising instructions and context, the interval between exposition and recall, the possible task given during that interval (or, conversely, a possible overlap of exposition and recall, turning the task into copying, or online interaction between participants), the recall instructions and context, the ordering and organisation of participants in the chain, or the ordering of the content itself in the chain (e.g. is a given participant exposed to material from a single generation all in one go, or to material successively sampled from random generations).
+Important independent variables that may vary include the chain structure (e.g. the number and sources of preceding recollections a participant is exposed to), the reading or memorising instructions and context, the interval between exposition and recall, the possible task given during that interval (or, conversely, a possible overlap of exposition and recall, turning the task into copying, or online interaction between participants), the recall instructions and context, the ordering and organisation of participants in the chain, or the ordering of the content itself in the chain (e.g. whether a given participant is exposed to material from a single generation all in one go, or exposed instead to material successively sampled from random generations).
 Typical studies will then analyse the trends in the transformation of artefacts that were produced, possibly comparing the behaviour across different chains.
 When faced with the complexities of quantitatively analysing the content itself, studies often opt to contrast a simpler measure (such as rate of change) across two different populations, two conditions in the independent variables mentioned above, or two minimally different types of content.
 In CAT parlance, this method corresponds to the simplest instantiation of the causal chains of public representation to mental representation to public representation (and so on) described by @sperber_explaining_1996 [p. 99], and has thus garnered much attention in the literature related to cultural attraction.
@@ -294,7 +294,7 @@ Early work contemporary to Bartlett's applied the technique in a variety of sett
 A first stream of research explored ways in which verbal memory and social or cultural background can interact.
 The way short stories are conserved and transformed was shown to depend on variables such as daily activity, diversity of social backgrounds in a group, social status and age [@northway_influence_1936;@maxwell_remembering_1936].
 Later works confirmed other aspects of Bartlett's intuitions, for instance the role of identifiable details in the evolution of pictures [@ward_experiment_1949], or the influence of titles on the way content is interpreted and transformed [@hall_effect_1950].
-^[In a note that is quite relevant note for today's situation, Hall notes that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120].
+^[In a note that is quite relevant for today's situation, Hall notes that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120].
 He later reflects on the fact that such results have crucial political implications given the development of mass media.
 ]
 
@@ -314,10 +314,10 @@ While much progress can be made by using these approaches to quantifying aspects
 
 #### Contemporary revival
 
-Owing to the development of SCE and CAT, the last two decades have seen a regain of interest for the serial reproduction paradigm (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in a multiplication of case studies.
+Owing to the development of SCE and CAT, the last two decades have seen a renewed interest for the serial reproduction paradigm (now known as a transmission chain) and its derivatives (generally known as cultural transmission experiments), resulting in a multiplication of case studies.
 Recent works have catalogued a number of high-level effects such as the stereotypification and personification of content [@bangerter_transformation_2000], the loss of details and clustering of events [@mesoudi_hierarchical_2004], the differential transformation of content depending on counter-intuitiveness [@barrett_spreading_2001;@norenzayan_memory_2006], on its consistency with gender stereotypes [@kashima_maintaining_2000], or on the amount of social information that it features [@mesoudi_bias_2006].
 The hypothesis here is that the cognitive processes involved in interpretation, memorisation and recall, will influence the transformation of content in ways that might not be observable in the individual transmission step, but will be observable in the outcome of transmission chains where changes have gradually accumulated.
-The evolution of content is thus often related to hypothesised cognitive biases such as hierarchicalisation [@mesoudi_hierarchical_2004], negativity [@bebbington_sky_2017], or the favouring of survival or social information [@mesoudi_bias_2006;@stubbersfield_serial_2015].
+The evolution of content is thus often related to hypothesised cognitive biases such as hierarchicalization [@mesoudi_hierarchical_2004], negativity [@bebbington_sky_2017], or the favouring of survival or social information [@mesoudi_bias_2006;@stubbersfield_serial_2015].
 However, the aims of such a catalogue of effects and the methods used to establish it have spurred some criticism [e.g. @gibbs_jr._adaptive_2010], and an approach that can separate a cognitive bias from confounding factors at the linguistic or interactive level has yet to be proposed.
 
 A more recent stream of research explicitly focuses on the individual transmission step in a chain.
@@ -368,7 +368,7 @@ When repeatedly used in the interaction of a pair, communication systems also ev
 Pair-specific communication systems will gradually align themselves into a global system when switching pairs in a community of participants [@fay_interactive_2010], and symbols will additionally lose iconicity when participants of a community are progressively replaced and the system has to be learned by newcomers [@caldwell_cultural_2012].
 Note that to ensure the emergence of a communication system, these experiments task participants with an explicitly cooperative problem, which in turn means that the emerging system still has a small degree of intentional design by the participants themselves.
 
-Thus the *unintentional* emergence of structure is studied separately, by analysing the conditions under which an existing unstructured communication system will evolve structure without participants being aware of it.
+Thus the *unintentional* emergence of structure is studied separately, by analysing the conditions under which structure will emerge in an existing unstructured communication system without participants being aware of it.
 This is done using the iterated learning paradigm.
 @kirby_cumulative_2008, for instance, ask a first participant to learn and use an initially random vocabulary of object names, and extrapolate it to unknown objects;
 her production is then used as the input vocabulary set for the next participant, who must in turn learn it and extrapolate it to unknown objects, and so on and so forth.
@@ -386,7 +386,7 @@ it will not encode the dimensions that discriminate the unobserved contrasts, in
 Second, changing the combination of pressures will change the way structure evolves.
 In particular, it is likely that different communication patterns at the population level, or a different fabric in the population responsible for the transmission and evolution of a language (e.g. more second-language learners, or more children learners), should lead to differences in the evolution of language structure [@kirby_compression_2015].
 
-Large portions of the iterated learning literature draw on and contributes to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
+Large portions of the iterated learning literature draw on and contribute to a parallel theoretical track which laid down the first analytical predictions for models of Bayesian agents learning and producing languages in chains.
 @griffiths_language_2007 were the first to show that the analytical structure of iterated learning with uniform Bayesian agents can correspond, depending on the way the agents produce new iterations, to well-known statistical inference methods (Gibbs sampling and a flavour of the EM algorithm).
 In such a setup, iterated learning predictably converges towards distributions determined by the internal prior distributions of agents (i.e. their inference bias).
 In the case of vocabulary sets used to name objects, the structure of the object space will also play a role in the final evolved language, provided it has an effect on the choice of items people actually talk about [versus, the choice of objects talked about only depends on the vocabulary itself, @perfors_language_2014].
@@ -432,7 +432,7 @@ Information cascades have become an important conceptual tool to understand the 
 Later work, for instance, has integrated its principles with the network structure of populations [@watts_simple_2002], identifying which subset of a structured population should be targeted in order to trigger cascades [@kempe_maximizing_2003;@bakshy_everyones_2011], or exploring the effect of repeated exposition to a piece of information due to circulation in the network [@de_kerchove_role_2009].
 
 While the study of information diffusion is not new [see also @rogers_diffusion_2005], the recent rise of social media and even more so the growth in computing power to make sense of the digital traces created have boosted empirical developments and validations of earlier analytical approaches.
-Computational social science and the study of complex systems have boomed over the past two decades, with studies of the network structure and emergent dynamics of information diffusion multiplying for blogspace [@gruhl_information_2004], email networks [@liben-nowell_tracing_2008] and social media platforms [@cha_measurement-driven_2009;@bakshy_social_2009;@onnela_spontaneous_2010].
+Computational social science and the study of complex systems have boomed over the past two decades, with a multiplication of studies of the network structure and emergent dynamics of information diffusion in blogspace [@gruhl_information_2004], email networks [@liben-nowell_tracing_2008] and social media platforms [@cha_measurement-driven_2009;@bakshy_social_2009;@onnela_spontaneous_2010].
 More recently, works have modelled more complex forms of information retention and transmission, by exploring the co-evolution of network structure and information topics [@cointet_socio-semantic_2009], the role of limited attention in the constant flow of information [@weng_competition_2012;@weng_attention_2015], the differential role of repeated expositions depending on the nature of the information transmitted [@romero_differences_2011], or the role of immune agents who resist the spread of a piece of information [@ruan_kinetics_2015].
 
 With few exceptions [e.g. @klemm_globalization_2005, who use scalar content], works studying the complex dynamics of diffusion rely on an atomistic model of information:
