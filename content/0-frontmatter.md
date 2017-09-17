@@ -35,6 +35,9 @@ figPrefix:
 secPrefix:
   - "Section"
   - "Sections"
+# We use Latex syntax for all the figures that have long captions, which makes it impossible to cite using pandoc-citeproc. So we cite what we need by hand, and add this here.
+nocite: |
+  @goodman_simultaneous_1965, @hofmann_letter-value_2011
 # Additional headers
 header-includes:
   # General comments
@@ -44,6 +47,12 @@ header-includes:
   - \newcommand{\change}[1]{{\color{RoyalPurple}CHANGE} {\color{RoyalPurple}[#1]}}
   - \newcommand{\opt}[1]{{\color{Gray}[#1]}}
   - \newcommand{\cam}[1]{{\color{BrickRed}\#~CAM:} {\color{BrickRed}#1}}
+  # Citation inside Latex figure captions (see above the "nocite" field)
+  - \newcommand{\goodman}{Goodman (1965)}
+  - \newcommand{\hofmannP}{Hofmann, Kafadar, and Wickham 2011}
+  - \newcommand{\froese}{Froese and Di Paolo (2011)}
+  - \newcommand{\auvray}{Auvray, Lenay, and Stewart (2009)}
+  - \newcommand{\jaegher}{De Jaegher, Di Paolo, and Gallagher (2010)}
   # Whenever citations are needed
   - \newcommand{\tb}[1]{\textcolor{blue}{#1}}
   - \newcommand{\cn}{\textsuperscript{\tb{[Citation needed]}}}
@@ -87,3 +96,9 @@ header-includes:
   - \newcommand{\warrival}{w'}
   - \newcommand{\wstart}{w}
 ---
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+{\hypersetup{linkcolor=black}
+ \listoffigures}

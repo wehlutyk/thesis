@@ -149,11 +149,11 @@ $q''$ is only one substitution away from $q'$ however, so we could also consider
 Conversely, the occurrence of $q''$ on the 20th could be considered as a substitution from $q'$, or as a faithful copy from its initial occurrence on January 19.
 (Options shown in @fig:substitution-unmodelled.)
 
-\begin{figure}[h]
+\begin{figure}[!ht]
   \centering
   \small
   \input{images/brainscopypaste/substitution-unmodelled.pdf_tex}
-  \caption{{\bf Possible paths from occurrence to occurrence.}
+  \caption[Possible paths from occurrence to occurrence]{{\bf Possible paths from occurrence to occurrence.}
   $q$, $q'$ and $q''$ are three quotation variants belonging to the same cluster.
   $q$ and $q''$ differ by two words, but $q'$ differs from both $q$ and $q''$ by one word.
   The second occurrence of $q$ can safely be considered a faithful copy of the first, but the occurrences of $q'$ and $q''$ are uncertain:
@@ -163,7 +163,7 @@ Conversely, the occurrence of $q''$ on the 20th could be considered as a substit
   \label{fig:substitution-unmodelled}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!ht]
   \centering
   \subfloat[Source must be majority in preceding bin, destination can be anything]{
     \def\svgscale{.49}
@@ -192,9 +192,9 @@ Conversely, the occurrence of $q''$ on the 20th could be considered as a substit
     \input{images/brainscopypaste/substitution-Time=discrete-Source=all-Past=last_bin-Durl=exclude_past.pdf_tex}
     \label{fig:substitution-modelled-all-exclude_past}
   }
-  \caption{
+  \caption[Substitution models]{
   {\bf Substitution models.}
-  Substitutions inferred by four models in the situation introduced by Fig. \ref{fig:substitution-unmodelled}.
+  Substitutions inferred by four models in the situation introduced by Fig.~\ref{fig:substitution-unmodelled}.
   Each of these models uses bins spanning 1 day aligned to midnight (see the main text for a complete description of parameters).
   In the top left panel (a), $q$ holds the majority in the first bin and is considered the unique basis for $q'$ in bin 2.
   $q'$ and $q''$ have equal maximum frequency in bin 2 however, so both are sources of substitutions towards bin 3.
@@ -274,13 +274,13 @@ However, since we can only detect substitutions, we can only construct chains of
 ]
 yet the measure unambiguously focuses on the accumulated effect of substitutions in the quotations.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
   \centering
   \def\svgwidth{.7\linewidth}
   \small
   \input{images/brainscopypaste/substitution-chains.pdf_tex}
-  \caption{{\bf Substitution chains:}
-  the figure represents the filtering of three time bins in order to construct chains.
+  \caption[Substitution chains]{{\bf Substitution chains.}
+  The figure represents the filtering of three time bins in order to construct chains.
   At each step, what is kept from the preceding bin is shown, along with the currently considered bin.
   The dark blue outline indicates what is kept from the current bin:
   it consists of the quotes in the current bin that result from a substitution originating in what is kept from the previous bin (the dark blue outline thus stays inside the current bin, but includes more than what is kept from the previous bin).
@@ -348,11 +348,17 @@ i.e. it measures the preferential selection of some word properties for substitu
 
 \medskip
 
-![**POS-related results:**
-categories are simplified from the TreeTagger tag set: *C* means *Closed class-like* (see main text for details), *J* means adjective, *N* noun, *R* adverb, and *V* means verb.
-The top panel shows the actual $s_{POS}$ and $s_{POS}^0$ counts. The bottom panel shows the substitution susceptibility $\sigma_{POS}$, which is the ratio between the two previous counts.
-Confidence intervals are computed with the @goodman_simultaneous_1965 method for multinomial proportions.
-](images/brainscopypaste-computed/all-susceptibilities-pos.png){#fig:pos-susceptibilities}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/all-susceptibilities-pos.png}
+  \caption[POS-related results]{
+  \textbf{POS-related results.}
+  Categories are simplified from the TreeTagger tag set: \emph{C} means \emph{Closed class-like} (see main text for details), \emph{J} means adjective, \emph{N} noun, \emph{R} adverb, and \emph{V} means verb.
+  The top panel shows the actual $s_{POS}$ and $s_{POS}^0$ counts. The bottom panel shows the substitution susceptibility $\sigma_{POS}$, which is the ratio between the two previous counts.
+  Confidence intervals are computed with the \goodman{} method for multinomial proportions.
+  }
+  \label{fig:pos-susceptibilities}
+\end{figure}
 
 @Fig:pos-susceptibilities gathers the results for POS groups.
 A Goodman-based multinomial goodness-of-fit test [@goodman_simultaneous_1965] shows that these categories have a significant effect on susceptibility ($p < .05$ in all substitution models), but this seems mostly due to the *Closed class-like*^[
@@ -368,9 +374,15 @@ none of the other categories are significantly different from $\mathcal{H}_0$ (e
 While we acknowledge the low susceptibilities of adverbs and closed class-likes, these categories concern less than 7% of all substitutions under $\mathcal{H}_0$ (and even less in the actual data);
 it seems, then, that POS categories do not capture any strong bias in the selection of substitution targets.
 
-![**Substitution susceptibility for feature values:**
-susceptibility to substitution versus feature value of a candidate word for substitution (binned by quartiles), with 95% asymptotic confidence intervals (Goodman-based multinomial).
-](images/brainscopypaste-computed/paper-susceptibilities-quantilebins_global.png){#fig:feature-susceptibilities-global}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-susceptibilities-quantilebins_global.png}
+  \caption[Substitution susceptibility for feature values]{
+  \textbf{Substitution susceptibility for feature values.}
+  Susceptibility to substitution versus feature value of a candidate word for substitution (binned by quartiles), with 95\% asymptotic confidence intervals (Goodman-based multinomial).
+  }
+  \label{fig:feature-susceptibilities-global}
+\end{figure}
 
 The results for word features presented in @fig:feature-susceptibilities-global, on the other hand, show marked effects for several features.
 Word frequency, Age of acquisition, and Number of letters each exhibit significant susceptibility variations (Goodman goodness-of-fit with $p < .05$ in all substitution models, $p < .001$ in most) consistent with known effects of those features on recall.
@@ -415,14 +427,20 @@ This approach yields a fine-grained view of how word features evolve upon substi
 (b) a random arrival (vs. $\nu_{\phi}^0$), and
 (c) an unbiased semantically plausible arrival (vs. $\nu_{\phi}^{00}$).
 
-![**Feature variation upon substitution:**
-$\nu_\phi$, average feature value of the appearing word as a function of the feature value of the disappearing word in a substitution (binned by quartiles), with 95% asymptotic confidence intervals based on Student's *t*-distribution.
-The overall position of the curve with respect to the dashed line representing $\mathcal{H}_0$ (constant $\nu_{\phi}^0$) indicates the direction of the cognitive bias compared to a purely random variation.
-The position with respect to the dash-dotted line representing $\mathcal{H}_{00}$ ($\nu_{\phi}^{00}$) indicates the bias compared to a semantically plausible random variation obtained by choosing a random synonym of the disappearing word.
-The intersection with $y = x$ marks the attractor value.
-The fact that all curves have slopes smaller than 1 in absolute value means that the substitution operation is contractile on average:
-it brings each feature closer to its own specific asymptotic range.
-](images/brainscopypaste-computed/paper-variations-quantilebins_global.png){#fig:feature-variations-global}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-variations-quantilebins_global.png}
+  \caption[Feature variation upon substitution]{
+  \textbf{Feature variation upon substitution.}
+  $\nu_\phi$, average feature value of the appearing word as a function of the feature value of the disappearing word in a substitution (binned by quartiles), with 95\% asymptotic confidence intervals based on Student's $t$-distribution.
+  The overall position of the curve with respect to the dashed line representing $\mathcal{H}_0$ (constant $\nu_{\phi}^0$) indicates the direction of the cognitive bias compared to a purely random variation.
+  The position with respect to the dash-dotted line representing $\mathcal{H}_{00}$ ($\nu_{\phi}^{00}$) indicates the bias compared to a semantically plausible random variation obtained by choosing a random synonym of the disappearing word.
+  The intersection with $y = x$ marks the attractor value.
+  The fact that all curves have slopes smaller than 1 in absolute value means that the substitution operation is contractile on average:
+  it brings each feature closer to its own specific asymptotic range.
+  }
+  \label{fig:feature-variations-global}
+\end{figure}
 
 \medskip
 
@@ -438,12 +456,18 @@ In other words, beyond individual variation patterns, the substitution process e
 Note that this is also true under $\mathcal{H}_0$ or $\mathcal{H}_{00}$ (both null hypothesis curves have single intersections with $y=x$ with slopes smaller than 1):
 the substitution process naturally leads to an attraction even under reasonable random conditions.
 
-![**Feature variations regression coefficients**:
-source feature values (columns) and feature variations (rows) were normalized to $[0; 1]$ to ensure the coefficients are comparable.
-Significance levels for individual *t*-tests against the hypothesis of a null coefficient are denoted by stars below the corresponding coefficient (*** for $p \leq .001$, ** for $p \leq .01$, * for $p \leq .05$, and nothing when $p > .05$).
-Frequency has a slight effect on Age of acquisition and Clustering coefficient, with small coefficients compared to the respective diagonal ones.
-Aside from those two, only diagonal values are significantly non null.
-](images/brainscopypaste-computed/paper-variations_regression-globals_to_globalsvariation-heatmap.png){#fig:feature-variations_regression-global}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-variations_regression-globals_to_globalsvariation-heatmap.png}
+  \caption[Feature variations regression coefficients]{
+  \textbf{Feature variations regression coefficients.}
+  Source feature values (columns) and feature variations (rows) were normalized to $[0; 1]$ to ensure the coefficients are comparable.
+  Significance levels for individual $t$-tests against the hypothesis of a null coefficient are denoted by stars below the corresponding coefficient (*** for $p \leq .001$, ** for $p \leq .01$, * for $p \leq .05$, and nothing when $p > .05$).
+  Frequency has a slight effect on Age of acquisition and Clustering coefficient, with small coefficients compared to the respective diagonal ones.
+  Aside from those two, only diagonal values are significantly non null.
+  }
+  \label{fig:feature-variations_regression-global}
+\end{figure}
 
 Second, the comparison with $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ shows that there are two classes of attractors, depending on whether:
 * there is a triple intersection (of $y=x$, $\nu_{\phi}$, and $\nu_{\phi}^0$ or $\nu_{\phi}^{00}$);
@@ -457,7 +481,7 @@ This, in turn, is consistent with the hypothesis that substitution is a recall p
 Age of acquisition, Clustering coefficient and Number of letters, on the other hand, exhibit a clear negative bias for the substitution process (except for high clustering values or very high number of letters).
 The three curves are significantly below their respective $\nu_{\phi}^0$ and $\nu_{\phi}^{00}$ curves for most start values, which is consistent with the literature on recall:
 words learned earlier, with lower clustering coefficient or with fewer letters are easier to produce than average [@nelson_how_2013;@zevin_age_2002;@baddeley_word_1975].
-All these effects are significant with two-tailed *t*-tests at $p < .05$ (and more often $p < .001$) and were verified across the 16 substitution models.
+All these effects are significant with two-tailed $t$-tests at $p < .05$ (and more often $p < .001$) and were verified across the 16 substitution models.
 
 To make sure our observations are not the product of correlations or interactions, we model the variations of the 6 features as a linear function of the start word's feature values:
 $$\bm{\phi}(\warrival) - \bm{\phi}(\wstart) = \bm{A} +  \bm{B} \cdot \bm{\phi}(\wstart)$$
@@ -490,17 +514,29 @@ foolish / crazy
 
 ### Sentence context
 
-![**Substitution susceptibility for in-quote feature quartiles:**
-susceptibility to substitution versus quartile of the feature distribution in the originating quote, with 95% asymptotic confidence intervals (Goodman-based multinomial).
-](images/brainscopypaste-computed/paper-susceptibilities-sentencequantiles.png){#fig:feature-susceptibilities-in_sentence}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-susceptibilities-sentencequantiles.png}
+  \caption[Substitution susceptibility for in-quote feature quartiles]{
+  \textbf{Substitution susceptibility for in-quote feature quartiles.}
+  Susceptibility to substitution versus quartile of the feature distribution in the originating quote, with 95\% asymptotic confidence intervals (Goodman-based multinomial).
+  }
+  \label{fig:feature-susceptibilities-in_sentence}
+\end{figure}
 
-![**Sentence-relative feature variation:**
-$\nu_{\phi_r}$, average sentence-relative feature value of the appearing word as a function of the sentence-relative value of the disappearing word (binned by quartiles), with 95% asymptotic confidence intervals based on Student's *t*-distribution.
-$\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ are similarly converted to be sentence-relative.
-Attraction, magnitude and direction of bias with respect to null hypotheses are similar to @fig:feature-variations-global.
-However, attractors are always positioned between sentence median ($y=0$) on one side and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side.
-Clustering coefficient, Number of synonyms and Orthographic neighbourhood density are limit cases, with triple intersections with one of the null hypothesis curves.
-](images/brainscopypaste-computed/paper-variations-quantilebins_sentencerel.png){#fig:feature-variations-sentencerel}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-variations-quantilebins_sentencerel.png}
+  \caption[Sentence-relative feature variation]{
+  \textbf{Sentence-relative feature variation.}
+  $\nu_{\phi_r}$, average sentence-relative feature value of the appearing word as a function of the sentence-relative value of the disappearing word (binned by quartiles), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
+  $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ are similarly converted to be sentence-relative.
+  Attraction, magnitude and direction of bias with respect to null hypotheses are similar to Fig.~\ref{fig:feature-variations-global}.
+  However, attractors are always positioned between sentence median ($y=0$) on one side and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side.
+  Clustering coefficient, Number of synonyms and Orthographic neighbourhood density are limit cases, with triple intersections with one of the null hypothesis curves.
+  }
+  \label{fig:feature-variations-sentencerel}
+\end{figure}
 
 The alterations we study are always made in a context, that is while the author is writing.
 We wish to ask, therefore, if taking that context into account can provide more insight into the substitution process.

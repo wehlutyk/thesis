@@ -45,19 +45,27 @@ Here too, the differences in regression values across experiments and between th
 In other words, the size reduction is sampled differently by each experiment:
 these figures show how the effect acts on each set of root utterances, but do not indicate that the mechanism is any different across experiments nor that it depends on the actual meaning of the utterances (versus primarily on surface features such as word count and average word frequency).
 
-<div id="fig:gistr-lengths">
-![Numbers of words, $|u|_w$
-](images/gistr-computed/token_lengths-tokens_m31.png){#fig:gistr-token-lengths}
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Numbers of words, $|u|_w$]{
+    \includegraphics{images/gistr-computed/token_lengths-tokens_m31.png}
+    \label{fig:gistr-token-lengths}
+  }
 
-![Numbers of content words, $|c(u)|_w$
-](images/gistr-computed/content_lengths-tokens_m31.png){#fig:gistr-content-lengths}
-
-Reduction in utterance word count and content word count as a function of depth ($d$) in the three experiments.
-Each blue dot represents an utterance.
-For a given experiment, the same utterances appear in panels (a) and (b).
-The insets show the utterances for which the tree root has 30 or less words ($|u_{\text{root}}|_w \leq 30$), with the numerical values of the linear regression slope and correlation coefficient.
-All regression slopes are non-zero with $p < .001$.
-</div>
+  \subfloat[Numbers of content words, $|c(u)|_w$]{
+    \includegraphics{images/gistr-computed/content_lengths-tokens_m31.png}
+    \label{fig:gistr-content-lengths}
+  }
+  \caption[Reduction in utterance word count and content word count]{
+  \textbf{Reduction in utterance word count and content word count.}
+  Reduction as a function of depth ($d$) in the three experiments.
+  Each blue dot represents an utterance.
+  For a given experiment, the same utterances appear in panels (a) and (b).
+  The insets show the utterances for which the tree root has 30 or less words ($|u_{\text{root}}|_w \leq 30$), with the numerical values of the linear regression slope and correlation coefficient.
+  All regression slopes are non-zero with $p < .001$.
+  }
+  \label{fig:gistr-lengths}
+\end{figure}
 
 
 #### Utterance to utterance distance
@@ -135,22 +143,34 @@ Transmissibility provides a coarser measure of the evolution of transmission suc
 perfect transmission, and transformation.
 A classic effect of transmission chains for various types of content is that transmissibility increases with depth in the chains.
 
-<div id="fig:gistr-octrans">
-![Experiment 1](images/gistr-computed/oc-rates-trans-exp-1.png){#fig:gistr-octrans-exp-1}
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Experiment 1]{
+    \includegraphics{images/gistr-computed/oc-rates-trans-exp-1.png}
+    \label{fig:gistr-octrans-exp-1}
+  }
 
-![Experiment 2](images/gistr-computed/oc-rates-trans-exp-2.png){#fig:gistr-octrans-exp-2}
+  \subfloat[Experiment 2]{
+    \includegraphics{images/gistr-computed/oc-rates-trans-exp-2.png}
+    \label{fig:gistr-octrans-exp-2}
+  }
 
-![Experiment 3](images/gistr-computed/oc-rates-trans-exp-3.png){#fig:gistr-octrans-exp-3}
-
-Transmissibility and conservation rate for each experiment.
-Each individual graph shows both transmissibility (red line) and one minus the transformation rate (blue dots) for a subset of all utterances.
-Light red areas are the 95% confidence intervals for transmissibility, based on Student's $t$-distribution and considering each transformation as an independent event.
-A blue dot at $y = 1$ is an instance of perfect transmission ($\rho = 0$), and pulls transmissibility upwards;
-a blue dot anywhere below is a transformation instance ($\rho > 0$), and pulls transmissibility downwards.
-The large plot on the left shows both measures for all the utterances of an experiment.
-The small plots on the right show both measures for utterances that have a given number of content words (up to 13, after which the data is nonexistent or very sparse in all experiments).
-The orange dashed line marks the maximum depth in the experiment, so as to differentiate content lengths reaching the limit from content lengths disappearing before the limit.
-</div>
+  \subfloat[Experiment 3]{
+    \includegraphics{images/gistr-computed/oc-rates-trans-exp-3.png}
+    \label{fig:gistr-octrans-exp-3}
+  }
+  \caption[Transmissibility and conservation rate for each experiment]{
+  \textbf{Transmissibility and conservation rate for each experiment.}
+  Each individual graph shows both transmissibility (red line) and one minus the transformation rate (blue dots) for a subset of all utterances.
+  Light red areas are the 95\% confidence intervals for transmissibility, based on Student's $t$-distribution and considering each transformation as an independent event.
+  A blue dot at $y = 1$ is an instance of perfect transmission ($\rho = 0$), and pulls transmissibility upwards;
+  a blue dot anywhere below is a transformation instance ($\rho > 0$), and pulls transmissibility downwards.
+  The large plot on the left shows both measures for all the utterances of an experiment.
+  The small plots on the right show both measures for utterances that have a given number of content words (up to 13, after which the data is nonexistent or very sparse in all experiments).
+  The orange dashed line marks the maximum depth in the experiment, so as to differentiate content lengths reaching the limit from content lengths disappearing before the limit.
+  }
+  \label{fig:gistr-octrans}
+\end{figure}
 
 @Fig:gistr-octrans shows the transmissibility and one minus the transformation rates ($1 - \rho$) for the three experiments, both overall and grouped by content length of the utterances.
 @Fig:gistr-octrans-exp-1 shows an increase in transmissibility with respect to depth (from .40 to .67), when considering the whole data set from Experiment 1.
@@ -186,9 +206,15 @@ The increase is sublinear and plateaus for Experiments 1 and 3, suggesting that 
 This is consistent with the increases in transmissibility.
 The different divergence rates correspond to the transformation rates observed in @fig:gistr-octrans (Experiment 2 has lower transformation rates, and diverges slower), and are therefore again tied to the differences in root utterances.
 
-![Slice variabilities in the three experiments.
-Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95% confidence interval based on Student's $t$-distribution, considering each tree slice as an independent measure).
-](images/gistr-computed/variabilities.png){#fig:gistr-variabilities}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/gistr-computed/variabilities.png}
+  \caption[Slice variabilities in the three experiments]{
+  \textbf{Slice variabilities in the three experiments.}
+  Each plot shows the variabilities of each slice of each tree (blue dots), as well as the average variability across slices of all trees at a given depth (red line with 95\% confidence interval based on Student's $t$-distribution, considering each tree slice as an independent measure).
+  }
+  \label{fig:gistr-variabilities}
+\end{figure}
 
 These three measures provide a coarse view of the speed at which utterance length is reduced, whether or not transformations make utterances easier to remember, and how fast the specificity of branches develops.
 However, they provide little insight into the detail of these trends and the transformation mechanisms that underlie them.
@@ -506,14 +532,21 @@ This confirms that our hand-coded alignments are most likely not possible to rep
 The final parameters obtained with this approach are $\theta_{mismatch} = -.89$, $\theta_{open} = -.29$, and $\theta_{extend} = -.12$.
 $\theta_{exchange}$ was then set to $-.5$ after manual trial and error.
 
-<div id="fig:gistr-goldcli">
-![Before manual alignment](images/gistr/gistr-goldcli-before.png)
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Before manual alignment]{
+    \includegraphics{images/gistr/gistr-goldcli-before.png}
+  }
 
-![After manual alignment](images/gistr/gistr-goldcli-after.png)
-
-Console interface for manual transformation alignment.
-The user moves their cursor (underline below "handed" and "Cardiff") along the word sequences to insert or remove gaps and align the two utterances by hand.
-</div>
+  \subfloat[After manual alignment]{
+    \includegraphics{images/gistr/gistr-goldcli-after.png}
+  }
+  \caption[Console interface for manual transformation alignment]{
+  \textbf{Console interface for manual transformation alignment.}
+  The user moves their cursor (underline below "handed" and "Cardiff") along the word sequences to insert or remove gaps and align the two utterances by hand.
+  }
+  \label{fig:gistr-goldcli}
+\end{figure}
 
 Finally, we manually evaluated the overall quality of these parameters by hand-coding the number of errors in a random set of 100 non-trivial alignments generated by the parameters.
 Errors were counted as the number of words whose alignment would have to be changed in order to obtain a perfect alignment.
@@ -585,16 +618,22 @@ The transition from depth 1 to depth 2 in branch #49 of the figure also correspo
   « At Dover, the finale of the bailiffs' convention. Their duties, said a speaker, are "delicate, dangerous, and insufficiently compensated." »
 \end{nquote}
 
-![Example lineages for all the branches of tree #4 from Experiment 3.
-Each subplot corresponds to a different branch.
-The horizontal axis is the depth in the branch, and the vertical axis is the index of each word in its utterance.
-A grey line represents a word lineage along the branch, and the darkness of the line corresponds to the length of the path between the word's first appearance (or the branch start) and its disappearance (or the branch end);
-darker lines thus represent words that last longer across transformations (since branches eventually stop, however, our view of the process is truncated and the darkness is less reliable for words that appear towards the end of a branch).
-At each depth, the darker background band indicates what the subject sees, and the lighter band indicates the transformation that the subject made.
-Inside lighter bands:
-red dots are word deletions, green dots are word insertions, blue dots are word replacements, and exchanges can be seen when bundles of lines cross each other.
-Dots inside each light band are spread out on the horizontal axis so as make them easier to distinguish visually, but the horizontal position of a dot inside its band has no further meaning.
-](images/gistr-computed/exp_3/lineage-tree-4.png){#fig:gistr-lineage-tree}
+\begin{figure}[p]
+  \centering
+  \includegraphics{images/gistr-computed/exp_3/lineage-tree-4.png}
+  \caption[Example lineages for all the branches of tree \#4 from Experiment 3]{
+  \textbf{Example lineages for all the branches of tree \#4 from Experiment 3.}
+  Each subplot corresponds to a different branch.
+  The horizontal axis is the depth in the branch, and the vertical axis is the index of each word in its utterance.
+  A grey line represents a word lineage along the branch, and the darkness of the line corresponds to the length of the path between the word's first appearance (or the branch start) and its disappearance (or the branch end);
+  darker lines thus represent words that last longer across transformations (since branches eventually stop, however, our view of the process is truncated and the darkness is less reliable for words that appear towards the end of a branch).
+  At each depth, the darker background band indicates what the subject sees, and the lighter band indicates the transformation that the subject made.
+  Inside lighter bands:
+  red dots are word deletions, green dots are word insertions, blue dots are word replacements, and exchanges can be seen when bundles of lines cross each other.
+  Dots inside each light band are spread out on the horizontal axis so as make them easier to distinguish visually, but the horizontal position of a dot inside its band has no further meaning.
+  }
+  \label{fig:gistr-lineage-tree}
+\end{figure}
 
 At first glance the plots reflect the rapid shortening of utterances, and the fact that transformations are less important on shorter utterances deeper in the branches.
 The figure also indicates that word replacements, studied in the previous chapter with data from blogspace, are quite speckled:
@@ -621,34 +660,43 @@ The exchange of two parts around a stable chunk can also be re-encoded by invert
 By compressing the gaps in this encoding, the utterance dimension merges these equivalent versions together and produces a unique diagram representing the transformation.
 We picture this correspondence between the transformation diagram in the utterance dimension and the compressed form of consensus alignments in @fig:gistr-dimensions-utterance.
 
-<div id="fig:gistr-dimensions">
-![Branch dimension.
-This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots and lines).
-Similar to @fig:gistr-lineage-tree, light grey bands are what subjects see, and the bands between those represent what the subjects do with what they read.
-An orange band indicates that an utterance was transformed, that is a T event, and a dark grey band indicates that an utterance was perfectly conserved, that is a C event.
-The corresponding ordered series of events is shown underneath the axis' arrow.
-](images/gistr/gistr-dimensions-branch.pdf){#fig:gistr-dimensions-branch}
+\begin{figure}[p]
+  \centering
+  \subfloat[\textbf{Branch dimension.}
+  This level looks at whether or not an utterance is transformed, without going into the detail of changes (hence the greyed out dots and lines).
+  Similar to Fig.~\ref{fig:gistr-lineage-tree}, light grey bands are what subjects see, and the bands between those represent what the subjects do with what they read.
+  An orange band indicates that an utterance was transformed, that is a T event, and a dark grey band indicates that an utterance was perfectly conserved, that is a C event.
+  The corresponding ordered series of events is shown underneath the axis' arrow.]{
+    \includegraphics{images/gistr/gistr-dimensions-branch.pdf}
+    \label{fig:gistr-dimensions-branch}
+  }
 
-![Utterance dimension.
-This level looks at the detail of a transformation, and represents it with a diagram that compresses the pair of sequences produced by aligning parent and child utterances.
-This diagram uniquely represents the transformation, and merges any variations in encoding that can exist in pairs of sequences with gaps.
-The top level of the figure shows how the canonical representation comes from the lineage plots.
-The bottom level shows two equivalent encodings of the same transformation (as would be produced by the alignment tool), which compress to the same canonical representation.
-](images/gistr/gistr-dimensions-utterance.pdf){#fig:gistr-dimensions-utterance}
+  \subfloat[\textbf{Utterance dimension.}
+  This level looks at the detail of a transformation, and represents it with a diagram that compresses the pair of sequences produced by aligning parent and child utterances.
+  This diagram uniquely represents the transformation, and merges any variations in encoding that can exist in pairs of sequences with gaps.
+  The top level of the figure shows how the canonical representation comes from the lineage plots.
+  The bottom level shows two equivalent encodings of the same transformation (as would be produced by the alignment tool), which compress to the same canonical representation.]{
+    \includegraphics{images/gistr/gistr-dimensions-utterance.pdf}
+    \label{fig:gistr-dimensions-utterance}
+  }
 
-![Parent and child arrays of operations.
-The canonical representation is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
-The procedure results in two arrays of word operations:
-a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
-Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).
-](images/gistr/gistr-utterance-arrays.pdf){#fig:gistr-utterance-arrays}
-
-Analysis dimensions.
-Transformations are analysed along two dimensions.
-The branch dimension only looks at whether utterances are transformed or not, thus sees a series of T (transformed) and C (conserved) events.
-The utterance level looks at the detail of the transformations, and after simplification represents them with two arrays of operations, one for the parent utterance (made of C, R and D operations) and one for the child utterance (made of C, R and I operations).
-This example is built on branch #49 from @fig:gistr-lineage-tree.
-</div>
+  \subfloat[\textbf{Parent and child arrays of operations.}
+  The canonical representation is further simplified by discarding the change in position encoded by word exchanges, and only keeping the information on whether a word is conserved or replaced.
+  The procedure results in two arrays of word operations:
+  a parent array made of conservations (C), replacements (R) and deletions (D), and a child array made of conservations, replacements and insertions (I).
+  Conservations and replacements in the parent array, if not involved in exchanges, are linked to their corresponding operation in the child array, such that we can compute the distance between a block of insertions in the child and a block of deletions in the parent (except when exchanges separated the blocks).]{
+    \includegraphics{images/gistr/gistr-utterance-arrays.pdf}
+    \label{fig:gistr-utterance-arrays}
+  }
+  \caption[Analysis dimensions]{
+  \textbf{Analysis dimensions.}
+  Transformations are analysed along two dimensions.
+  The branch dimension only looks at whether utterances are transformed or not, thus sees a series of T (transformed) and C (conserved) events.
+  The utterance level looks at the detail of the transformations, and after simplification represents them with two arrays of operations, one for the parent utterance (made of C, R and D operations) and one for the child utterance (made of C, R and I operations).
+  This example is built on branch \#49 from Fig.~\ref{fig:gistr-lineage-tree}.
+  }
+  \label{fig:gistr-dimensions}
+\end{figure}
 
 This subtlety in the encoding of transformations is not a coincidence.
 It relates to the fact that, in spite of the one-dimensional nature of text written on a line, utterance transformation is a multi-level process that can operate on whole groups of words at a time (for instance when insertions and deletions happen together) and does not necessarily reduce to a sequential series of events.
@@ -750,18 +798,26 @@ computing the burstiness of the chunk-level process is therefore straightforward
 The values plotted in @fig:gistr-utterance-burstiness-chunks show that none of the chunk-level processes are bursty;
 rather, they are slightly more regular than a Poisson process would be.
 
-<div id="fig:gistr-utterance-burstiness">
-![Burstiness of word-level operations
-](images/gistr-computed/exp_3/burstiness-words.png){#fig:gistr-utterance-burstiness-words width=58%}
-![Burstiness of chunk-level operations
-](images/gistr-computed/exp_3/burstiness-chunks.png){#fig:gistr-utterance-burstiness-chunks width=42%}
-
-Burstiness of operations in the utterance dimension.
-The left pane shows the burstiness of each type of word-level operation in parent and child arrays, as well as the burstiness of the series made of all operations joined regardless of their type.
-The right pane shows the burstiness for deletions, insertions, and joined events, where contiguous sets of operations are collapsed into single events.
-This corresponds to the burstiness of chunk-level deletions, insertions, and joined events.
-Grey lines are the 95% confidence intervals based on Student's $t$-distribution, considering each tree as an independent burstiness measure.
-</div>
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Burstiness of word-level operations]{
+    \includegraphics[width=.55\linewidth]{images/gistr-computed/exp_3/burstiness-words.png}
+    \label{fig:gistr-utterance-burstiness-words}
+  }
+  ~
+  \subfloat[Burstiness of chunk-level operations]{
+    \includegraphics[width=.40\linewidth]{images/gistr-computed/exp_3/burstiness-chunks.png}
+    \label{fig:gistr-utterance-burstiness-chunks}
+  }
+  \caption[Burstiness of operations in the utterance dimension]{
+  \textbf{Burstiness of operations in the utterance dimension.}
+  The left pane shows the burstiness of each type of word-level operation in parent and child arrays, as well as the burstiness of the series made of all operations joined regardless of their type.
+  The right pane shows the burstiness for deletions, insertions, and joined events, where contiguous sets of operations are collapsed into single events.
+  This corresponds to the burstiness of chunk-level deletions, insertions, and joined events.
+  Grey lines are the 95\% confidence intervals based on Student's $t$-distribution, considering each tree as an independent burstiness measure.
+  }
+  \label{fig:gistr-utterance-burstiness}
+\end{figure}
 
 Although this behaviour is consistent with our intuition of the way an utterance is reformulated, there is a question as to whether the alignment procedure does not favour burstiness.
 Indeed, the scores of operations are parametrised in such a way that insertion and deletion gaps are assigned different costs for initial opening and extension.
@@ -813,12 +869,13 @@ it affects mostly isolated words instead of contiguous sets of words.
 In short, a longer utterance has a higher probability of suffering any type of operation, with on average over a quarter of the words deleted, the equivalent of a fourteenth of the original utterance in new words, and about a twentieth of the words replaced.
 
 <div id="fig:gistr-ops-counts">
-![Probability of word operations w.r.t. parent length, computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
+![**Probability of word operations w.r.t. parent length.**
+Computed as the log-odds logistic regression of the presence or absence of a given operation in the transformation of $u_p$ (parent) into $u_c$ (child), versus the number of words in $u_p$.
 Colours correspond to the colour-coding used in @fig:gistr-lineage-tree.
 Light shades are 95% regression confidence intervals.
 ](images/gistr-computed/exp_3/p-ops_parent-length_logistic.png){#fig:gistr-ops-prob}
 
-![Number of word-level and chunk-level operations w.r.t. parent length.
+![**Number of word-level and chunk-level operations w.r.t. parent length.**
 Parent lengths are binned into 5 quantile-based bins.
 The word-level counts the number of individual words affected by an operation (deletion, insertion, replacement).
 The chunk-level counts the number of contiguous sets of words affected by an operation.
@@ -826,7 +883,7 @@ Light shades are 95% regression confidence intervals, and vertical bars are 95% 
 <!-- \todo{FIXME: vertical bars should count each transformation as independent}-->
 ](images/gistr-computed/exp_3/chunk-size_parent-length.png){#fig:gistr-ops-count}
 
-Probability and number of word-level or chunk-level operations.
+Probability and number of word-level or chunk-level operations
 </div>
 
 Manual exploration of the lineage plots also indicated that operations are not positioned evenly in the utterances.
@@ -847,22 +904,31 @@ words at the end of an utterance are slightly less replaced than non-extremity w
 The plots at binned parent lengths show little to no variation in these patterns:
 each pattern is more or less marked depending on the parent sentence length (especially for replacements, which seem more uniform for short utterances), but the general behaviour is the same for different parent lengths.
 
-<div id="fig:gistr-susc-ops">
-![Deletions
-](images/gistr-computed/exp_3/susceptibility-del_position_parent-length.png){#fig:gistr-susc-del}
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Deletions]{
+    \includegraphics{images/gistr-computed/exp_3/susceptibility-del_position_parent-length.png}
+    \label{fig:gistr-susc-del}
+  }
 
-![Insertions
-](images/gistr-computed/exp_3/susceptibility-ins_position_parent-length.png){#fig:gistr-susc-ins}
+  \subfloat[Insertions]{
+    \includegraphics{images/gistr-computed/exp_3/susceptibility-ins_position_parent-length.png}
+    \label{fig:gistr-susc-ins}
+  }
 
-![Replacements
-](images/gistr-computed/exp_3/susceptibility-rpl_parent_position_parent-length.png){#fig:gistr-susc-rpl}
-
-Susceptibility for word operations as a function of relative position in the utterance.
-The leftmost plot of each sub-figure (blue background) shows $\sigma$ computed over all transformations.
-The plots with the white backgrounds show $\sigma$ computed over transformations with binned parent utterance lengths, indicated in the plot titles.
-Parent length bins are quantile-based, that is computed to have the same number of utterances in each bin (the bins are identical to @fig:gistr-ops-count).
-Light shades are the 95% confidence intervals computed following the @goodman_simultaneous_1965 method for multinomial proportions, considering each transformation as an independent measure.
-</div>
+  \subfloat[Replacements]{
+    \includegraphics{images/gistr-computed/exp_3/susceptibility-rpl_parent_position_parent-length.png}
+    \label{fig:gistr-susc-rpl}
+  }
+  \caption[Susceptibility for word operations as a function of relative position in the utterance]{
+  \textbf{Susceptibility for word operations as a function of relative position in the utterance.}
+  The leftmost plot of each sub-figure (blue background) shows $\sigma$ computed over all transformations.
+  The plots with the white backgrounds show $\sigma$ computed over transformations with binned parent utterance lengths, indicated in the plot titles.
+  Parent length bins are quantile-based, that is computed to have the same number of utterances in each bin (the bins are identical to Fig.~\ref{fig:gistr-ops-count}).
+  Light shades are the 95\% confidence intervals computed following the \goodman{} method for multinomial proportions, considering each transformation as an independent measure.
+  }
+  \label{fig:gistr-susc-ops}
+\end{figure}
 
 Finally, we examine the dependence of chunk-level operation size on its position in an utterance.
 The manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
@@ -875,14 +941,20 @@ That is, for those lengths, deletions towards the end of the utterance are signi
 The trend is present for deletions at all lengths, though most of the time not significative.
 Other operations do not seem to exhibit this behaviour (the variations for insertions are not significative).
 
-![Chunk-level operation size w.r.t. parent length and position in utterance.
-The leftmost plot (blue background) shows the average chunk-level operation size w.r.t. parent length for all utterances.
-The plots on its right (white background) divide that data into binned parent lengths (bins identical to [@fig:gistr-ops-count;@fig:gistr-susc-ops]).
-In each plot, the height of a line for a given relative position $x$ corresponds to the average size of the chunk-level operations in which words at position $x$ are found;
-for instance, a chunk-level deletion that spans the second half of an utterance will be spread over $x \in [.5, 1]$.
-Average sizes are weighted such that each utterance contributes 1 unit.
-Light shades are the 95% confidence intervals (Student $t$-based, considering each transformation as an independent measure).
-](images/gistr-computed/exp_3/chunk-size_position_parent-length.png){#fig:gistr-chunk-size}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/gistr-computed/exp_3/chunk-size_position_parent-length.png}
+  \caption[Chunk-level operation size w.r.t. parent length and position in utterance]{
+  \textbf{Chunk-level operation size w.r.t. parent length and position in utterance.}
+  The leftmost plot (blue background) shows the average chunk-level operation size w.r.t. parent length for all utterances.
+  The plots on its right (white background) divide that data into binned parent lengths (bins identical to Figs.~\ref{fig:gistr-ops-count}--\ref{fig:gistr-susc-ops}).
+  In each plot, the height of a line for a given relative position $x$ corresponds to the average size of the chunk-level operations in which words at position $x$ are found;
+  for instance, a chunk-level deletion that spans the second half of an utterance will be spread over $x \in [.5, 1]$.
+  Average sizes are weighted such that each utterance contributes 1 unit.
+  Light shades are the 95\% confidence intervals (Student $t$-based, considering each transformation as an independent measure).
+  }
+  \label{fig:gistr-chunk-size}
+\end{figure}
 
 Overall, these measures show that deletions are more frequent than insertions, which are more frequent than replacements.
 Operations happen preferentially in the second half of utterances (except replacements which favour all positions except extremities), and the number of word-level and chunk-level operations are proportional to the parent length.
@@ -909,12 +981,18 @@ The contingency table combining the presence or absence of each operation gives 
   \end{tabular}
 \end{center}
 
-![Mosaic plot of the contingency table between deletions, insertions, and replacements.
-Red rectangles indicate deletions are present;
-green rectangles or green dots indicate insertions are present;
-darker colours indicate replacements are present.
-Each rectangle also indicates the number of transformations it represents (corresponding to the rectangle area).
-](images/gistr-computed/exp_3/contingencies_mosaic.png){#fig:gistr-contingencies width=60%}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=.6\linewidth]{images/gistr-computed/exp_3/contingencies_mosaic.png}
+  \caption[Mosaic plot of the contingency table between deletions, insertions, and replacements]{
+  \textbf{Mosaic plot of the contingency table between deletions, insertions, and replacements.}
+  Red rectangles indicate deletions are present;
+  green rectangles or green dots indicate insertions are present;
+  darker colours indicate replacements are present.
+  Each rectangle also indicates the number of transformations it represents (corresponding to the rectangle area).
+  }
+  \label{fig:gistr-contingencies}
+\end{figure}
 
 @Fig:gistr-contingencies illustrates this data with a mosaic plot, rendering some of the trends more visible.
 One way to look at these figures is by considering deletions first.
@@ -929,22 +1007,29 @@ without insertions, deletions happen only 24.9% of the time, whereas with them d
 Replacements are also linked to insertions, either with or without deletions:
 the presence of one always increases the probability of the other.
 
-<div id="fig:gistr-insdel-lv">
-![Number of insertions conditioned on the presence of deletions.
-](images/gistr-computed/exp_3/insertion-lv_del-presence.png){#fig:gistr-inslv width=40%}
-<span> </span>
-![Number of deletions conditioned on the presence of insertions.
-](images/gistr-computed/exp_3/deletion-lv_ins-presence.png){#fig:gistr-del-lv width=40%}
-
-Letter-value plots [@hofmann_letter-value_2011] of deletion and insertion counts conditioned on the presence of one another.
-Each plot represents the distribution of operation counts.
-The left panel shows that utterances where a deletion is present also have many more insertions than if there were no deletions (the red distribution reaches much higher numbers of insertions than the grey distribution).
-Similarly in the right panel, deletions appear in greater numbers in utterances that have an insertion.
-(More technically, in a given plot the boundaries between boxes are placed at the $2^i$-th quantiles:
-the middle line is the median, and above and below it the biggest box stops at the first and third quartiles, such that it contains half the data points;
-the second biggest box stops at the first and seventh 8-quantiles, i.e. octiles, and so on and so forth.
-Diamonds are outliers that do not fit into the smallest box.)
-</div>
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Number of insertions conditioned on the presence of deletions.]{
+    \includegraphics[width=.4\linewidth]{images/gistr-computed/exp_3/insertion-lv_del-presence.png}
+    \label{fig:gistr-ins-lv}
+  }
+  ~
+  \subfloat[Number of deletions conditioned on the presence of insertions.]{
+    \includegraphics[width=.4\linewidth]{images/gistr-computed/exp_3/deletion-lv_ins-presence.png}
+    \label{fig:gistr-del-lv}
+  }
+  \caption[Deletion and insertion counts conditioned on the presence of one another]{
+  \textbf{Deletion and insertion counts conditioned on the presence of one another.}
+  All distributions of operation counts are shown as letter-value plots (\hofmannP{}).
+  The left panel shows that utterances where a deletion is present also have many more insertions than if there were no deletions (the red distribution reaches much higher numbers of insertions than the grey distribution).
+  Similarly in the right panel, deletions appear in greater numbers in utterances that have an insertion.
+  (More technically, in a given plot the boundaries between boxes are placed at the $2^i$-th quantiles:
+  the middle line is the median, and above and below it the biggest box stops at the first and third quartiles, such that it contains half the data points;
+  the second biggest box stops at the first and seventh 8-quantiles, i.e. octiles, and so on and so forth.
+  Diamonds are outliers that do not fit into the smallest box.)
+  }
+  \label{fig:gistr-insdel-lv}
+\end{figure}
 
 The process is joint of course, and separating it into different stages would require more knowledge of the cognitive mechanisms that underlie these transformations.
 In spite of this, the relationship between insertions and deletions seems to be well constrained, a fact we see not only in the probability of presence or absence, but also in the number of operations inside a given transformation.
@@ -974,11 +1059,17 @@ We then take the slope of that regression as an indicator of the correspondence 
 The regression is computed using the Statsmodels statistics library for Python, which implements robust M-estimation using Huber's T norm [@huber_robust_1981] with a default parameter of 1.345.
 ]
 
-![Size correlation between nearest-neighbour chunk-level insertions and deletions at different distances.
-The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
-The text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
-The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95% regression confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
-](images/gistr-computed/exp_3/insdel_distance_size.png){#fig:gistr-insdel-correlations}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/gistr-computed/exp_3/insdel_distance_size.png}
+  \caption[Size correlation between nearest-neighbour chunk-level insertions and deletions at different distances]{
+  \textbf{Size correlation between nearest-neighbour chunk-level insertions and deletions at different distances.}
+  The bottom subplots show the robust regressions for couples of insertion-deletion chunks separated by a given value of $r$.
+  The text at the top of each subplot indicates the number of insertion-deletion couples that the subplot represents.
+  The top plot shows the values of the regression slopes aligned to the bottom subplots, with 95\% regression confidence intervals and star-coded significance levels (*** for $p < .001$, ** for $p < .01$, * for $p < .05$ and nothing otherwise).
+  }
+  \label{fig:gistr-insdel-correlations}
+\end{figure}
 
 @Fig:gistr-insdel-correlations shows the robust regressions and the estimated correlation function for $r \in \{ -5, ..., 5 \}$ (outside of which there was always less than 10 insertion-deletion couples).
 The plot shows three important points.
@@ -993,7 +1084,6 @@ The general trend we observe is always conserved however:
 deletions preceding insertions correlate more than deletions following insertions.
 ]
 This trend is consistent with the intuition we outlined above, according to which chunk-level insertions could come as tentative replacements for the content that was lost in the deletions that directly precede them.
-
 
 \bigskip
 The transformation model we introduced thus captures several important behaviours in the way subjects change utterances.
@@ -1030,12 +1120,20 @@ Together, these measures provide a more precise view of susceptibilities than th
 first, the measures integrate insertions and deletions as well as replacements (more generally, here we see all possible operations, when the previous chapter had to be restricted to single-word substitutions);
 second, we distinguish the susceptibility to appearing from the susceptibility to disappearing, thus allowing us to compare the types of words that disappear to the types of words that appear.
 
-![POS susceptibility to targeting (deletion and replacement on the parent side) and to appearance (insertions and replacement on the child side).
-The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in targeted words ($s_{POS}^-$) and in appearing words ($s_{POS}^+$).
-The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
-95% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions, considering each transformation as an independent measure).
-POS tags are from the Universal Dependencies tag set.
-](images/gistr-computed/exp_3/pos-suscept-rplinsdel.png){#fig:gistr-suscept-pos width=75%}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=.75\linewidth]{images/gistr-computed/exp_3/pos-suscept-rplinsdel.png}
+  \caption[POS susceptibility to targeting and to appearance]{
+  \textbf{POS susceptibility to targeting and to appearance.}
+  Targeting, that is on the parent side, can be either deletion or replacement;
+  appearance, that is on the child side, can be either insertion or replacement.
+  The top panel shows the proportions of POS categories observed in utterances overall ($s_{POS}^0$), in targeted words ($s_{POS}^-$) and in appearing words ($s_{POS}^+$).
+  The bottom panel shows susceptibilities, that is the ratio of $s_{POS}^-$ and $s_{POS}^+$ to $s_{POS}^0$.
+  95\% asymptotic confidence intervals are shown in grey (Goodman-based multinomial proportions, considering each transformation as an independent measure).
+  POS tags are from the Universal Dependencies tag set.
+  }
+  \label{fig:gistr-suscept-pos}
+\end{figure}
 
 In order to render the results more comparable to the previous chapter, in this subsection we also filter out stopwords in all the utterances.
 @Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
@@ -1045,15 +1143,23 @@ Verbs, nouns and proper nouns are all irrelevant for targeting, but adverbs are 
 The other categories (adpositions, numerals and particles) total negligible amounts because they are affected by the stopword filter.
 Overall, the behaviour for targeting is consistent with what we observed in blogspace (the only difference being the trend for adverbs, which are also less present overall in this data set), and the behaviour for appearances indicates a slight bias in favour of verbs and against nouns (note that appearance susceptibilities were not analysed in the blogspace data set, so we have no point of comparison).
 
-<div id="fig:gistr-suscept-feature">
-![Susceptibility to targeting
-](images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png){#fig:gistr-suscept-feature-delrpl}
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Susceptibility to targeting]{
+    \includegraphics{images/gistr-computed/exp_3/feature-suscept-delrpl_parent.png}
+    \label{fig:gistr-suscept-feature-delrpl}
+  }
 
-![Susceptibility to appearance
-](images/gistr-computed/exp_3/feature-suscept-insrpl_child.png){#fig:gistr-suscept-feature-insrpl}
-
-Feature susceptibilities of words to targeting (deletion and replacement on the parent side) and appearance (insertion and replacement on the child side), binned by quartiles, with 95% asymptotic confidence intervals (Goodman-based multinomial, considering each transformation as an independent measure).
-</div>
+  \subfloat[Susceptibility to appearance]{
+    \includegraphics{images/gistr-computed/exp_3/feature-suscept-insrpl_child.png}
+    \label{fig:gistr-suscept-feature-insrpl}
+  }
+  \caption[Feature susceptibilities of words to targeting and appearance]{
+  \textbf{Feature susceptibilities of words to targeting and appearance.}
+  Values are binned by quartiles, with 95\% asymptotic confidence intervals (Goodman-based multinomial, considering each transformation as an independent measure).
+  }
+  \label{fig:gistr-suscept-feature}
+\end{figure}
 
 @Fig:gistr-suscept-feature-delrpl plots the susceptibilities for targeting and appearance for word frequency, age of acquisition, clustering and number of letters.
 The trends for the first three are consistent with previous results:
@@ -1071,10 +1177,16 @@ The case of number of letters is interesting, as transformations remove more sho
 however, the difference is stronger for appearance than for targeting, such that the final effect should be in favour of shorter words (a fact we confirm below).
 All these trends are also consistent with the variation patterns observed previously.
 
-![Feature variation upon replacement.
-$\nu_{\phi}$, average feature value of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
-Refer to @fig:feature-variations-global for the detailed interpretation of the curves.
-](images/gistr-computed/exp_3/feature-variation-rpl.png){#fig:gistr-variation-rpl}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/gistr-computed/exp_3/feature-variation-rpl.png}
+  \caption[Feature variation upon replacement]{
+  \textbf{Feature variation upon replacement.}
+  $\nu_{\phi}$, average feature value of the appearing word as a function of the feature value of the targeted word (fixed bins), with 95\% asymptotic confidence intervals based on Student's $t$-distribution.
+  Refer to Fig.~\ref{fig:feature-variations-global} for the detailed interpretation of the curves.
+  }
+  \label{fig:gistr-variation-rpl}
+\end{figure}
 
 Our previous analysis of feature variation can also be directly applied to word replacements (though not to deletions or insertions), and @fig:gistr-variation-rpl shows the results for the current data set.
 The plots for frequency, age of acquisition and clustering are strikingly similar to previous results.
@@ -1106,17 +1218,29 @@ While the last factor seems the most likely, we did not attempt to tease these e
 Beyond the confirmation of previous findings, we are now in a position to observe the evolution of lexical features along the branches, and relate any trends to the step-wise transformations.
 This question could not be answered in the blogspace data set for lack of detectable chains.
 
-<div id="fig:gistr-branchevo">
-![Word frequency](images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png)
+\begin{figure}[!ht]
+  \centering
+  \subfloat[Word frequency]{
+    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-zipf_frequency.png}
+  }
 
-![Age of acquisition](images/gistr-computed/exp_3/feature-branchevo-aoa.png)
+  \subfloat[Age of acquisition]{
+    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-aoa.png}
+  }
 
-![Clustering](images/gistr-computed/exp_3/feature-branchevo-clustering.png)
+  \subfloat[Clustering]{
+    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-clustering.png}
+  }
 
-![Number of letters](images/gistr-computed/exp_3/feature-branchevo-letters_count.png)
-
-Evolution of average utterance features as a function of depth in the branch, with 95% confidence intervals based on Student's $t$-distribution (considering each utterance as an independent measure).
-</div>
+  \subfloat[Number of letters]{
+    \includegraphics{images/gistr-computed/exp_3/feature-branchevo-letters_count.png}
+  }
+  \caption[Evolution of average utterance features]{
+  \textbf{Evolution of average utterance features.}
+  Average utterance features as a function of depth in the branch, with 95\% confidence intervals based on Student's $t$-distribution (considering each utterance as an independent measure).
+  }
+  \label{fig:gistr-branchevo}
+\end{figure}
 
 @Fig:gistr-branchevo plots the evolution of the average features of utterances as a function of branch depth, both for all utterances and divided into fixed content lengths.
 The evolution of each feature is consistent with its susceptibility to targeting and appearance, and its variation upon replacement.
@@ -1133,16 +1257,22 @@ Nonetheless, it is noteworthy that trends consistent with the step-wise behaviou
 in less than 10 iterations, transformations which mostly maintain the overall meaning of the utterances have a significant effect on these features, beyond the shortening of utterances (and consequent removal of words that could have an effect on the features).
 Through transformations, subjects thus gradually evolve the utterances to use more frequent, shorter words, learned earlier and with lower free association clustering coefficients.
 @Fig:gistr-summary provides a summary of the behaviours we have described, complete with dependencies between operations, susceptibilities and long-term effects of the transformations.
-We now turn to the discussion of this phenomenon..
+We now turn to the discussion of this phenomenon.
 
-![Summary of results.
-The upper part of the figure pictures the dependencies observed in the detail of transformations.
-Transformations can be made of deletions, insertions and replacements.
-Deletions and insertions may appear in chunks, but replacements do not.
-Two main factors were shown to influence the likelihood of an operation in a given area of an utterance:
-the position of the words considered for transformation in the utterance, and the overall length of the utterance transformed.
-Arrows thus connect each factor to the frequency and the chunk size of operations, indicating the relationship between the factor and the operation (the $\propto$ symbol indicates that frequency or chunk size is roughly proportional to the factor at the beginning of the arrow).
-Three additional arrows connect deletions and insertions directly, to render the dependencies observed between these two operations.
-A summary of the types of words targeted by each operation is provided inside the darker boxes.
-Finally, the lower part of the figure recalls that transformations appear in bursts in transmission chains, and accumulate to produce the effects summarised in the "Long term" box.
-](images/gistr/gistr-summary.pdf){#fig:gistr-summary height=100%}
+\begin{figure}[p]
+  \centering
+  \includegraphics[height=.75\textheight]{images/gistr/gistr-summary.pdf}
+  \caption[Summary of results]{
+  \textbf{Summary of results.}
+  The upper part of the figure pictures the dependencies observed in the detail of transformations.
+  Transformations can be made of deletions, insertions and replacements.
+  Deletions and insertions may appear in chunks, but replacements do not.
+  Two main factors were shown to influence the likelihood of an operation in a given area of an utterance:
+  the position of the words considered for transformation in the utterance, and the overall length of the utterance transformed.
+  Arrows thus connect each factor to the frequency and the chunk size of operations, indicating the relationship between the factor and the operation (the $\propto$ symbol indicates that frequency or chunk size is roughly proportional to the factor at the beginning of the arrow).
+  Three additional arrows connect deletions and insertions directly, to render the dependencies observed between these two operations.
+  A summary of the types of words targeted by each operation is provided inside the darker boxes.
+  Finally, the lower part of the figure recalls that transformations appear in bursts in transmission chains, and accumulate to produce the effects summarised in the "Long term" box.
+  }
+  \label{fig:gistr-summary}
+\end{figure}

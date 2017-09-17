@@ -493,14 +493,20 @@ one without the other would render the system either blind to changes, or unable
 Since interactions with the environment are necessary for the system to self-reproduce, the system's activity becomes meaningful through and through.
 In such a situation, the Enactive approach calls the activity *sense-making* (illustrated in @fig:discussion-sense-making).
 
-![Sense-making:
-an autonomous system self-produces both itself and its separation from the environment (circling arrow);
-it is coupled to its environment, and relies on it for continued self-production (full arrows);
-it actively regulates its exchange with the environment in order to sustain its identity (dotted arrows).
-Reproduced from @froese_enactive_2011
-(©2010 E. Di Paolo;
-Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
-](images/discussion/froese_enactive_2011-sense_making.jpg){#fig:discussion-sense-making}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/discussion/froese_enactive_2011-sense_making.jpg}
+  \caption[Sense-making]{
+  \textbf{Sense-making.}
+  An autonomous system self-produces both itself and its separation from the environment (circling arrow);
+  it is coupled to its environment, and relies on it for continued self-production (full arrows);
+  it actively regulates its exchange with the environment in order to sustain its identity (dotted arrows).
+  Reproduced from \froese{}
+  (©2010 E. Di Paolo;
+  Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+  }
+  \label{fig:discussion-sense-making}
+\end{figure}
 
 In this framework, cognition in its most basic form *is* precisely the sense-making activity, that is a system's actively sensing and acting on its exchange with the environment in order to sustain its identity.
 While sense-making at this stage does not account for the details of structured cognition, it provides an explanation of what makes an encounter properly cognitive (i.e. meaningful) versus simply physical.
@@ -550,15 +556,22 @@ The principle highlighted by this experiment is that of the stability of *percep
 two organisms can have a dynamically stable interaction because they each look for a behaviour that they themselves create, without necessarily being aware of that fact (for instance mutual gaze of an infant and his mother, where the infant may not be aware that his mother maintains the gaze because he does too).
 Variations and detailed behaviours in this experimental paradigm have been extensively explored in the literature, providing further support for the results above [see for instance @bedia_quantifying_2014; @froese_embodied_2014].
 
-![Perceptual crossing setup introduced by @auvray_perceptual_2009.
-Each participant controls a cursor on a shared virtual line (red squares), to which a sensor is attached (black ticks facing the red squares).
-The movements of each participant's cursor are mirrored by a shadow cursor (blue squares).
-Each participant additionally has a fixed obstacle on the line (one obstacle for each participant, black squares).
-Participants do not see the line or the cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
-Reproduced from @de_jaegher_can_2010
-(©2010 H. De Jaegher, E. Di Paolo and S. Gallagher;
-Licenced under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
-](images/discussion/de_jaegher_can_2010-perceptual_crossing.jpg){#fig:discussion-perceptual-crossing}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/discussion/de_jaegher_can_2010-perceptual_crossing.jpg}
+  \caption[Perceptual crossing setup]{
+  \textbf{Perceptual crossing setup.}
+  As introduced by \auvray{}.
+  Each participant controls a cursor on a shared virtual line (red squares), to which a sensor is attached (black ticks facing the red squares).
+  The movements of each participant's cursor are mirrored by a shadow cursor (blue squares).
+  Each participant additionally has a fixed obstacle on the line (one obstacle for each participant, black squares).
+  Participants do not see the line or the cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
+  Reproduced from \jaegher{}
+  (©2010 H. De Jaegher, E. Di Paolo and S. Gallagher;
+  Licenced under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+  }
+  \label{fig:discussion-perceptual-crossing}
+\end{figure}
 
 The second step is to flesh out the constraints that such an emergent interaction can exert on its participants.
 An example that most people have experienced in everyday life usefully illustrates this point:
@@ -577,14 +590,22 @@ The phenomenon is illustrated in @fig:discussion-participatory-sense-making.
 This notion has become a key building block of the enactive theory of interaction as it provides a path to explaining emergent effects in interactions.
 The tension it elicits is also the foundation on which the enactive account of language is built, as we will now see in the fourth and final stage.
 
-![Participatory sense-making:
-each organism regulates its coupling with the environment;
-the two regulatory activities become themselves coupled, such that the interaction between the two organisms has an emerging dynamic that neither participant fully controls.
-Participants therefore lose part of their control over individual sense-making, entering a participatory sense-making regime.
-Reproduced from @froese_enactive_2011
-(©2010 E. Di Paolo;
-Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
-](images/discussion/froese_enactive_2011-participatory_sense_making.jpg){#fig:discussion-participatory-sense-making}
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{images/discussion/froese_enactive_2011-participatory_sense_making.jpg}
+  \caption[Participatory sense-making]{
+  \textbf{Participatory sense-making.}
+  Each organism regulates its coupling with the environment;
+  the two regulatory activities become themselves coupled, such that the interaction between the two organisms has an emerging dynamic that neither participant fully controls.
+  Participants therefore lose part of their control over individual sense-making, entering a participatory sense-making regime.
+  Reproduced from \froese{}
+  (©2010 E. Di Paolo;
+  Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
+  }
+  \label{fig:discussion-participatory-sense-making}
+\end{figure}
+
+
 
 
 #### Stage 4: languaging
