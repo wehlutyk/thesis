@@ -32,7 +32,7 @@
 		Pr. Camille Roth\par
 	\end{minipage}
 
-	\vspace{2cm}
+	\vspace{1cm}
 
 	\begin{minipage}[t]{0.5\linewidth}
 		\large
@@ -45,14 +45,14 @@
 		October 27, 2017\par
 	\end{minipage}
 
-	\vspace{.5cm}
+	\vspace{1cm}
 
-	\begin{minipage}[t]{0.2\linewidth}
+	\begin{minipage}[t]{0.15\linewidth}
 		\itshape
 	  \hfill reviewers
 	\end{minipage}
 	\hfill
-	\begin{minipage}[t]{0.79\linewidth}
+	\begin{minipage}[t]{0.84\linewidth}
 		Pr. Russell Gray\par
 		\hskip1cm {\footnotesize University of Auckland}\par
 		\hskip1cm {\footnotesize Max Planck Institute for the Science of Human History (Jena)}\par
@@ -62,12 +62,12 @@
 
 	\vspace{.5cm}
 
-	\begin{minipage}[t]{0.2\linewidth}
+	\begin{minipage}[t]{0.15\linewidth}
 		\itshape
 	  \hfill jury
 	\end{minipage}
 	\hfill
-	\begin{minipage}[t]{0.79\linewidth}		
+	\begin{minipage}[t]{0.84\linewidth}		
 		Pr. Russell Gray\par
 		\hskip1cm {\footnotesize University of Auckland}\par
 		\hskip1cm {\footnotesize Max Planck Institute for the Science of Human History (Jena)}\par
