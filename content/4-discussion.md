@@ -501,7 +501,7 @@ In such a situation, the Enactive approach calls the activity *sense-making* (il
   An autonomous system self-produces both itself and its separation from the environment (circling arrow);
   it is coupled to its environment, and relies on it for continued self-production (full arrows);
   it actively regulates its exchange with the environment in order to sustain its identity (dotted arrows).
-  Reproduced from \froese{}
+  Reproduced from \textcite{froese_enactive_2011}
   (©2010 E. Di Paolo;
   Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
   }
@@ -561,12 +561,12 @@ Variations and detailed behaviours in this experimental paradigm have been exten
   \includegraphics{images/discussion/de_jaegher_can_2010-perceptual_crossing.jpg}
   \caption[Perceptual crossing setup]{
   \textbf{Perceptual crossing setup.}
-  As introduced by \auvray{}.
+  As introduced by \textcite{auvray_perceptual_2009}.
   Each participant controls a cursor on a shared virtual line (red squares), to which a sensor is attached (black ticks facing the red squares).
   The movements of each participant's cursor are mirrored by a shadow cursor (blue squares).
   Each participant additionally has a fixed obstacle on the line (one obstacle for each participant, black squares).
   Participants do not see the line or the cursors, but receive haptic feedback when their sensor touches the obstacle, the other participant's cursor, or its shadow.
-  Reproduced from \jaegher{}
+  Reproduced from \textcite{de_jaegher_can_2010}
   (©2010 H. De Jaegher, E. Di Paolo and S. Gallagher;
   Licenced under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
   }
@@ -598,7 +598,7 @@ The tension it elicits is also the foundation on which the enactive account of l
   Each organism regulates its coupling with the environment;
   the two regulatory activities become themselves coupled, such that the interaction between the two organisms has an emerging dynamic that neither participant fully controls.
   Participants therefore lose part of their control over individual sense-making, entering a participatory sense-making regime.
-  Reproduced from \froese{}
+  Reproduced from \textcite{froese_enactive_2011}
   (©2010 E. Di Paolo;
   Licensed under Creative Commons Attribution 3.0 Unported [\url{http://creativecommons.org/licences/by/3.0}]).
   }

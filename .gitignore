@@ -11,3 +11,24 @@ svg-inkscape/
 # Built pdfs
 thesis.pdf
 abstract.pdf
+
+# Intermediary tex files
+thesis.tex
+abstract.tex
+
+# Build files
+creationdate.lua
+creationdate.timestamp
+pdfa.xmpi
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.out
+*.run.xml
+*.toc
+*.xdv

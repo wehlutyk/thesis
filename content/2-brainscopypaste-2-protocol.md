@@ -369,7 +369,7 @@ i.e. it measures the preferential selection of some word properties for substitu
   \textbf{POS-related results.}
   Categories are simplified from the TreeTagger tag set: \emph{C} means \emph{Closed class-like} (see main text for details), \emph{J} means adjective, \emph{N} noun, \emph{R} adverb, and \emph{V} means verb.
   The top panel shows the actual $s_{POS}$ and $s_{POS}^0$ counts. The bottom panel shows the substitution susceptibility $\sigma_{POS}$, which is the ratio between the two previous counts.
-  Confidence intervals are computed with the \goodman{} method for multinomial proportions.
+  Confidence intervals are computed with the \textcite{goodman_simultaneous_1965} method for multinomial proportions.
   }
   \label{fig:pos-susceptibilities}
 \end{figure}

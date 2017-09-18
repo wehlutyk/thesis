@@ -933,7 +933,7 @@ each pattern is more or less marked depending on the parent sentence length (esp
   The leftmost plot of each sub-figure (blue background) shows $\sigma$ computed over all transformations.
   The plots with the white backgrounds show $\sigma$ computed over transformations with binned parent utterance lengths, indicated in the plot titles.
   Parent length bins are quantile-based, that is computed to have the same number of utterances in each bin (the bins are identical to Fig.~\ref{fig:gistr-ops-count}).
-  Light shades are the 95\% confidence intervals computed following the \goodman{} method for multinomial proportions, considering each transformation as an independent measure.
+  Light shades are the 95\% confidence intervals computed following the \textcite{goodman_simultaneous_1965} method for multinomial proportions, considering each transformation as an independent measure.
   }
   \label{fig:gistr-susc-ops}
 \end{figure}
@@ -1028,7 +1028,7 @@ the presence of one always increases the probability of the other.
   }
   \caption[Deletion and insertion counts conditioned on the presence of one another]{
   \textbf{Deletion and insertion counts conditioned on the presence of one another.}
-  All distributions of operation counts are shown as letter-value plots (\hofmannP{}).
+  All distributions of operation counts are shown as letter-value plots \autocite{hofmann_letter-value_2011}.
   The left panel shows that utterances where a deletion is present also have many more insertions than if there were no deletions (the red distribution reaches much higher numbers of insertions than the grey distribution).
   Similarly in the right panel, deletions appear in greater numbers in utterances that have an insertion.
   (More technically, in a given plot the boundaries between boxes are placed at the $2^i$-th quantiles:

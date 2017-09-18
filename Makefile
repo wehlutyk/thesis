@@ -20,7 +20,7 @@ BIB := $(CONTENT)/bibliography-fixed.bib
 #CSL = apsa
 
 ## Pandoc options
-OPTS := --filter pandoc-crossref --filter pandoc-citeproc --bibliography $(BIB) --latex-engine=xelatex --latex-engine-opt="--shell-escape"
+OPTS := --filter pandoc-crossref --biblatex --bibliography $(BIB)
 
 ## Output pdfs
 PDFS := thesis.pdf abstract.pdf
@@ -41,13 +41,15 @@ $(BIB): $(BIB_SRC)
 
 thesis.pdf: $(SRC) $(BIB)
 	@$(print-info)
-	@pandoc $(SRC) -o $@ $(OPTS)
+	pandoc $(SRC) -s -o $(patsubst %.pdf,%.tex,$@) $(OPTS)
+	latexmk -xelatex -latexoption="--shell-escape" $(patsubst %.pdf,%.tex,$@)
 	@echo "Done."
 	@notify-send "Pdf built" "$@ finished pandocking"
 
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
 	@$(print-info)
-	@pandoc $(ABSTRACT_SRC) -o $@ $(OPTS)
+	@pandoc $(ABSTRACT_SRC) -s -o $(patsubst %.pdf,%.tex,$@) $(OPTS)
+	@latexmk -xelatex -latexoption="--shell-escape" $(patsubst %.pdf,%.tex,$@)
 	@echo "Done."
 	@notify-send "Pdf built" "$@ finished pandocking"
 

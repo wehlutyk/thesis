@@ -27,6 +27,7 @@ mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
 toc: True
+biblio-style: apa
 # Figure and Section reference formatting. See header-includes for chapter ref formatting.
 cref: True
 figPrefix:
@@ -35,24 +36,20 @@ figPrefix:
 secPrefix:
   - "Section"
   - "Sections"
-# We use Latex syntax for all the figures that have long captions, which makes it impossible to cite using pandoc-citeproc. So we cite what we need by hand, and add this here.
-nocite: |
-  @goodman_simultaneous_1965, @hofmann_letter-value_2011
 # Additional headers
 header-includes:
+  # Output in PDF/A-1b
+  - \usepackage[a-1b]{pdfx}
+  # Biblatex style
+  - \usepackage{csquotes}
+  - \DeclareLanguageMapping{english}{english-apa}
   # General comments
-  - \usepackage[usenames,dvipsnames]{color}
+  - \usepackage[usenames,dvipsnames]{xcolor}
   - \newcommand{\add}[1]{{\color{MidnightBlue}\#~ADD:} {\color{MidnightBlue}#1}}
   - \newcommand{\todo}[1]{{\color{RedViolet}\#~TODO:} {\color{RedViolet}#1}}
   - \newcommand{\change}[1]{{\color{RoyalPurple}CHANGE} {\color{RoyalPurple}[#1]}}
   - \newcommand{\opt}[1]{{\color{Gray}[#1]}}
   - \newcommand{\cam}[1]{{\color{BrickRed}\#~CAM:} {\color{BrickRed}#1}}
-  # Citation inside Latex figure captions (see above the "nocite" field)
-  - \newcommand{\goodman}{Goodman (1965)}
-  - \newcommand{\hofmannP}{Hofmann, Kafadar, and Wickham 2011}
-  - \newcommand{\froese}{Froese and Di Paolo (2011)}
-  - \newcommand{\auvray}{Auvray, Lenay, and Stewart (2009)}
-  - \newcommand{\jaegher}{De Jaegher, Di Paolo, and Gallagher (2010)}
   # Whenever citations are needed
   - \newcommand{\tb}[1]{\textcolor{blue}{#1}}
   - \newcommand{\cn}{\textsuperscript{\tb{[Citation needed]}}}
