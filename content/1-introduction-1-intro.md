@@ -34,7 +34,7 @@ To do so it proposes a general ontology where culture is thought of as a collect
 representations can be either public, for instance a picture, a public speech, or this thesis, or they can be mental, when someone interprets a public representation that they are perceiving.
 The ideas I am presenting in this thesis, for instance, form mental representations in my mind.
 As I write them down, they appear to you as a public representation.
-If my writing is clear and accurate enough, the mental representations that you will form while reading this thesis should be relatively close to the representations I have [@sperber_explaining_1996 p. 1].
+If my writing is clear and accurate enough, the mental representations that you will form while reading this thesis should be relatively close to the representations I have [@sperber_explaining_1996, p. 1].
 In all likelihood, however, substantial change will have appeared in the process, just as in our example above.
 CAT suggests that the culture of a society can be modelled as a large dynamical system of representations being constantly interpreted into mental versions, and produced as new and transformed public representations.
 A central question then appears:

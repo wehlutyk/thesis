@@ -56,7 +56,7 @@ rather, up to now the disagreements in these debates have not yet been entirely 
 
 A central question in the study of evolution is the definition of what counts as heritable material, for which two broad views are competing.
 The debate, agreements and disagreements between both views are well documented, and I base the following discussion on the recent reviews provided by @laland_does_2014 and @scott-phillips_niche_2014.
-The standard account of biological evolution, or Standard Evolutionary Theory (SET), defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014 p. 1232; referring to @futuyma_evolution_2005].
+The standard account of biological evolution, or Standard Evolutionary Theory (SET), defines evolution as "change in the frequency of DNA sequences (i.e., genes and associated regulatory regions) in a population, from one generation to the next" [@scott-phillips_niche_2014, p. 1232; referring to @futuyma_evolution_2005].
 Such change occurs through what is known as an evolutionary process:
 
 > "Evolutionary processes are generally thought of as processes by which these changes occur. Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration [@fisher_genetical_1930; @haldane_causes_1932]. The latter two generate variation; the first two sort it."
@@ -205,7 +205,7 @@ Indeed they can be fruitfully combined to describe the same systems [@chemero_af
 Our goal in this section has been to provide a broader context to the debates surrounding cultural evolutionary approaches.
 While the works presented are often not explicitly directed towards the study of cultural evolution, and are by no means the only proposals competing in this space, they provide an overview of the directions that are currently being explored to integrate established evolutionary theory with long-standing questions in social science, and with recent formalisms for the study of culture.
 
-Finally, note that while current writings often argue that the separation between cultural and non-cultural aspects of life is not "sharp" [@acerbi_cultural_2016 p. 2; relying on @morin_how_2016], the isolation of disciplines and the amount of effort that is spent on bringing the two aspects together suggest that such separation is deeply rooted in contemporary thought and social structures.
+Finally, note that while current writings often argue that the separation between cultural and non-cultural aspects of life is not "sharp" [@acerbi_cultural_2016, p. 2; relying on @morin_how_2016], the isolation of disciplines and the amount of effort that is spent on bringing the two aspects together suggest that such separation is deeply rooted in contemporary thought and social structures.
 This is no surprise of course, as western thought is built on the dualism of mind and matter which permeates most of our theories about non-human animals, human beings and life in general, and is diversely instantiated in the separations between culture and nature, abstract information and concrete realisation, and so on and so forth.
 This thesis is no exception:
 I am myself an apprentice of the traditions I present and discuss here.

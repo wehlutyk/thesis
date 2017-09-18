@@ -54,7 +54,7 @@ formalisation and further development of empirical studies.
 
 ### Formalisation
 
-Sperber argues that CAT should not aim to become a "grand unitary theory", a position which is well informed by the diversity of domains CAT seeks to explain, and the variety of dimensions that we find in each domain [@sperber_explaining_1996 p. 83].
+Sperber argues that CAT should not aim to become a "grand unitary theory", a position which is well informed by the diversity of domains CAT seeks to explain, and the variety of dimensions that we find in each domain [@sperber_explaining_1996, p. 83].
 Instead, CAT proposes a framework, a way of thinking that generates productive questions for the explanation of culture.
 Nevertheless, the approach relies on two fundamental elements that provide some degree of unification.
 First, Sperber insists on providing a clear ontology to the study of culture:
@@ -64,14 +64,14 @@ Relevance Theory also integrates well with CAT, and the framework it develops is
 Given these two fundamentals, what prevents CAT from more formally exploring the way relevance-theoretic principles can predict the evolution of representations as described by Cultural Attraction Theory?
 One could imagine formal models that establish the links between the types of situations in which a representation is interpreted and produced anew at the microscopic level, and the evolution that such representations will go through at the macroscopic level.
 Such a model would be similar to the stylised phenomena identified by @boyd_culture_1985 for the case of imitative communication.
-While some models do exist for specific cases [@claidiere_role_2007] or for the macro level [@claidiere_how_2014], no general formal model currently links the micro and macro levels in the Parisian research stream [@sterelny_cultural_2017 p. 49].
+While some models do exist for specific cases [@claidiere_role_2007] or for the macro level [@claidiere_how_2014], no general formal model currently links the micro and macro levels in the Parisian research stream [@sterelny_cultural_2017, p. 49].
 
 Part of the challenge, at least, is the formalisation of both representations and the context in which they are communicated and evolve.
 While Relevance Theory proposes a way to deal with context, formalising representations themselves and their link to context is currently unheard of, and may remain so.
 Indeed, Sperber notes that CAT's major contribution is not to solve this problem, but to make it manageable:
 
 > "The epidemiological approach renders manageable the methodological problem raised by the fact that our access to the content of representations is unavoidably interpretive. The solution ... is merely to render more reliable our ordinary ability to understand what people like you, Opote or me say and think."
-> [@sperber_explaining_1996 p. 53]
+> [@sperber_explaining_1996, p. 53]
 
 <!--
 Sperber
@@ -89,7 +89,7 @@ So it really isn't a reductionism, but a "bridging the gaps" between approaches.
 Sperber thus suggests that models will necessarily have to outsource their account of the content of representations:
 
 > "To say that various representations share a content feature amounts to saying that they can all be interpreted, at a given level and from a given point of view, in the same way. Still, that property of common interpretability, with all its vagueness, may suffice, if not to describe, then at least to pick out, a class of phenomena all affected by some identical causal factors."
-> [@sperber_explaining_1996 p. 54]
+> [@sperber_explaining_1996, p. 54]
 
 And indeed, models need not provide a general account of representations to be useful, as existing models already bring insight to cases in which the content of representations is interpreted beforehand [see again @claidiere_role_2007].
 A more general modelling effort, however, faces the problem of generally accounting for representations and their interpretation context:
@@ -116,7 +116,7 @@ In the meantime however, the empirical investigation of cultural attractors is a
 
 ### Empirical attractors
 
-Reliably defining and observing phenomena that qualify as cultural attractors in real life can be challenging, first and foremost because of the multi-dimensional nature of culture, representations, and attraction, and second because the definition of what counts as a cultural trait is not settled [@acerbi_if_2015 p. 494].
+Reliably defining and observing phenomena that qualify as cultural attractors in real life can be challenging, first and foremost because of the multi-dimensional nature of culture, representations, and attraction, and second because the definition of what counts as a cultural trait is not settled [@acerbi_if_2015, p. 494].
 Should one focus on mental processes, on artefacts, or on both?
 At what descriptive level of artefacts or representations does one consider a transformation to be a meaningful cultural change, worthy of being included as an instance of cultural attraction?
 Take the much debated example of Cinderella:

@@ -98,7 +98,7 @@ Mostly, cultural evolutionists suggest that it can be useful to study how much c
 Tim Lewens clarifies the position of this new wave regarding previous evolutionary approaches to culture:
 
 > "Cultural evolutionists frequently begin their theorizing from a starting point that does not invite use of the meme concept, and may therefore appear neutral regarding its propriety. Their project is to integrate various forms of learning into evolutionary theory, in a way that leaves open the degree to which learning has anything in common with genetic inheritance."
-> [@lewens_cultural_2012 p. 466]
+> [@lewens_cultural_2012, p. 466]
 
 Finally, the addition of (c) is another important difference between the new wave and previous Darwinian approaches to culture:
 not only can general evolutionary principles be useful to the study of culture itself, but culture and genes can also be seen as bearers of two different types of information, transmitted across generations through two parallel channels.
@@ -145,7 +145,7 @@ New mental representations are constantly formed in people's minds whenever they
 For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
 Most of the time, the new representation in that person's head is different from my original representation.^[
-The recognition that representations change so much when they are transmitted through human interactions is a defining feature of the theory Sperber proposes, in contrast to memetics and to the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
+The recognition that representations change so much when they are transmitted through human interactions is a defining feature of the theory Sperber proposes, in contrast to memetics and to the Californian approach outlined above [@sperber_explaining_1996, pp. 25-26, 31].
 ]
 
 On this basis, Sperber proposes to model human communities as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions, in which mental representations play a role.
@@ -158,7 +158,7 @@ Still, the basic ontology remains grounded in the unique notion of mental repres
 
 By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
 Using an ontologically clear notion of representation is a useful step, Sperber argues, as the notions of representation in social science are so diverse that no common definition can be be agreed upon;
-instead, the cognitive notion of representation can be used to unify the various notions already studied in social science [@sperber_explaining_1996 p. 16, 24-25, 33, 61-63, 78-80].
+instead, the cognitive notion of representation can be used to unify the various notions already studied in social science [@sperber_explaining_1996, pp. 16, 24-25, 33, 61-63, 78-80].
 In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles, while at the same time recognising the diversity of cultural phenomena to be studied.
 It is thus amenable to anthropology, and encourages the combination of the two bodies of knowledge with clear definitions.
 Sperber can then rephrase interdisciplinary questions in terms of spread and transformation of representations.
@@ -168,7 +168,7 @@ Such representations, called *cultural representations*, can be taken to charact
 Thus, in the epidemiological framework proposed by Sperber, the question of cultural stability and change is the question of the stability of cultural representations at the population level.
 
 To answer this question, Sperber introduces an additional concept:
-the dynamical system of representations which models a community's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors in the transmission of representations, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, p. 106-118].
+the dynamical system of representations which models a community's culture exhibits attractors, called *cultural attractors*, that depend on the complex interaction of psychological and ecological factors in the transmission of representations, and on the distribution of representations at a given moment in time [@sperber_explaining_1996, pp. 106-118].
 A cultural attractor is thus a region in representation space towards which representations tend to come closer whenever they are transformed in an interaction.
 Such attraction can be due to a variety of factors.
 The tale of Little Red Riding Hood, for instance, could have remained stable through time because of an attractor due to basic cognitive mechanisms favouring a particular structure in the story.
@@ -184,7 +184,7 @@ The most important intuition in Sperber's proposal, and what differentiates it f
 He substantiates this by relying heavily on contemporary cognitive science, and in particular by adopting and extending the view of the modularity of mind initially defended by @fodor_modularity_1983 (his view goes further than Fodor's, as he argues for a *massive modularity of mind* applying not only to perception but also to conceptual processes).
 Combining this view with epidemiology of representations, Sperber argues, results in a theory that avoids two common pitfalls.
 On one side, too abstract approaches tend to consider that culture can be completely studied without going into the details of individual cognitive processes;
-this stance has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, p. 63-66].
+this stance has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, pp. 63-66].
 Taking into account the role of psychological constraints is also not incompatible with an account of the diversity of cultures as observed in ethnography [@sperber_explaining_1996, chapter 6].
 On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) lead to a grotesque simplification of culture itself, and of the role of cognitive processes in the cultural evolution [@sperber_explaining_1996, p. 101].
 The importance that CAT gives to individual psychology is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47].
@@ -193,7 +193,7 @@ For CAT, instead, the main question is how the interaction of psychological and 
 CAT is nonetheless compatible with the framework of gene-culture co-evolution developed by SCE;
 in fact, the two theories seem to be converging towards common accounts lately, and most authors consider that the two focus on slightly different but complementary questions [@sperber_explaining_1996, p. 114;@acerbi_if_2015;@sterelny_cultural_2017].
 
-The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012 p. 461-2 provides further discussion and context], especially concerning the way these theories model the interaction of cultural and non-cultural aspects of life.
+The space opened by the development of SCE and CAT has generated much debate [see e.g. the peer commentary to @mesoudi_towards_2006] and some heated criticisms [@ingold_trouble_2007; answered in @mesoudi_science_2007; @lewens_cultural_2012, pp. 461-2 provides further discussion and context], especially concerning the way these theories model the interaction of cultural and non-cultural aspects of life.
 We will come back to these debates in @sec:intro-cogsoc.
 For now, let us turn to the empirical validation of CAT.
 

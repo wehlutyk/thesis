@@ -270,7 +270,7 @@ For instance, Sperber or Wilson hearing that their train to work is one minute l
 Conversely, a public announcement stating that their train is late provides a more relevant conclusion (because easier to derive) than the same conclusion derived with more deductive effort from parts of a conversation overheard between the people sitting next to them.
 A central claim of RT is that evolution has shaped human cognition in such a way that people automatically and easily perform this derivation and comparison process on all the stimuli they perceive, picking out those among the myriad available which maximise relevance.
 The Cognitive Principle of Relevance expresses this claim:
-"Human cognition tends to be geared to the maximization of relevance" [@wilson_relevance_2004 p. 610].
+"Human cognition tends to be geared to the maximization of relevance" [@wilson_relevance_2004, p. 610].
 
 @wilson_relevance_2004 then define inferential communication as consisting of two elements.
 The first is an *informative intention*, that is the intention of a speaker to inform an audience of something (more precisely, to make certain assumptions more, or less, manifest to the listener);
@@ -455,7 +455,7 @@ In a nutshell, this stage can be seen as taking the shift operated by the sensor
 The sensorimotor approach departs from a definition of perception as the inference of external information present in the world, and suggests instead that to perceive an object is to feel (and explore) the regularities in the way stimulations change in a perception-action loop.
 Similarly, instead of seeing meaning as some information that must be inferred from an interaction, the Enactive approach proposes that meaning is something that is primarily felt (vs. inferred), and defined by the regularities of the dynamical interaction of an organism with its environment [@de_jaegher_participatory_2007;@thompson_mind_2007].
 In this account, similarly to the sensorimotor approach, "movements are at the centre of mental activity:
-a sense-making agent’s movements---which include utterances---are the tools of her cognition" [@de_jaegher_participatory_2007 p. 5].
+a sense-making agent’s movements---which include utterances---are the tools of her cognition" [@de_jaegher_participatory_2007, p. 5].
 
 This stage operates in two steps.
 First, it explains how an organism can acquire an intrinsic identity that defines it.
@@ -660,7 +660,7 @@ The levels are Participatory sense-making (which we started with), Social Agency
 ]
 each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
 Often, the new regularity and its regulation by the participants appears at a different time scale (as in the turn-taking example above), or in a different dimension than at the previous level (for instance, coordinating social acts across a community).
-The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step lays more of the groundwork necessary to construct full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015 p. 32].
+The authors thus propose that linguistic interactions (or languaging in enactive terms) can be understood through a gradual progression of interactive norms, tensions, and resolution by new norms, where each step lays more of the groundwork necessary to construct full linguistic behaviour [words, for instance, then appear as "patterns available for enacting certain forms of sense-making", @cuffari_participatory_2015, p. 32].
 To our knowledge, the higher levels of this expansion have not yet been empirically validated in the manner described above for the first two levels.
 Indeed, as one progresses in the levels of normativity, creating simple interactive situations that can validate this proposal becomes increasingly difficult.
 Still, the theory proposes a roadmap for making progress towards an explanation of language, meaning, and linguistic interactions which is fully grounded in the dynamics of interaction between participants.
@@ -699,7 +699,7 @@ English and Spanish, for instance, afford different types of interactions:
 each language constrains meanings differently than the other;
 one language will implicitly express a particular set of connotations that the other does not, such that it is necessary to spell out those connotations explicitly when translating one language into the other.
 In the words of @evans_your_2011, who studies this link between a language and social interaction:
-"Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011 p. 70].
+"Languages differ not so much in what you can say as in what you must say" [-@evans_your_2011, p. 70].
 This type of effect might be possible to explain in terms of a continuity between language and social interactions such as the one suggested by the enactive approach.
 
 
