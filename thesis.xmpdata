@@ -84,12 +84,12 @@
 
 \Copyright    {Copyright \copyright\ 2017 Sébastien Lerique}
 
-\CoverDisplayDate {}
+\CoverDisplayDate {2017}
 
-\CoverDate    {}
+\CoverDate    {2017}
 
-\Keywords     {some keyword\sep
-               another keyword\sep
-               some more keywords}
-
-\Subject      {This is where you put the abstract.}
+% \Keywords     {some keyword\sep
+%                another keyword\sep
+%                some more keywords}
+%
+% \Subject      {This is where you put the abstract.}
