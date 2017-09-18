@@ -42,7 +42,7 @@
 	\hfill
 	\begin{minipage}[t]{0.49\linewidth}
 		\large
-		October 27, 2017\par
+		27th October 2017\par
 	\end{minipage}
 
 	\vspace{1cm}
