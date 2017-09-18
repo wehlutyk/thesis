@@ -47,16 +47,6 @@ Contrasting approaches to these questions, in particular, might be one of the be
 We believe that doing so could provide a great many insights on the nature of cognition and of meaningful interactions overall, and on their role in cultural evolution.
 
 
-## Acknowledgements {-}
-
-This work could not have been achieved without the continued support of my family, friends, and colleagues.
-In particular, I am extremely grateful to my supervisors Camille Roth and Jean-Pierre Nadal, who offered unwavering encouragement and sympathy in all my explorations throughout these years, as well as regular and thorough evaluations of ongoing work and writings.
-
-I additionally would like to thank Ana Sofia Morais for her precious advice on initial versions of @sec:brainscopypaste, as well as Telmo Menezes, Jean-Philippe Cointet, Sharon Peperkamp, Nicolas Claidière and Nicolas Baumard for useful suggestions and comments on @sec:brainscopypaste and the work presented in @sec:gistr.
-
-To all of you, thank you.
-
-
 ## Software colophon {-}
 
 The analyses in this work were developed using Python's scientific computing ecosystem [@millman_python_2011].

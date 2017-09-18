@@ -1,8 +1,4 @@
 ---
-title: |
-  \large PhD Thesis \
-  \LARGE Epidemiology of Representations:\
-  An Empirical Approach
 author: |
   Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
@@ -26,7 +22,6 @@ geometry: a4paper
 mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
-toc: True
 biblio-style: apa
 # Figure and Section reference formatting. See header-includes for chapter ref formatting.
 cref: True
@@ -87,15 +82,9 @@ header-includes:
   # Scale svg figures
   - \usepackage{calc}
   # Images
-  - \graphicspath{{images/brainscopypaste/}{images/gistr/}}
+  - \graphicspath{{images/brainscopypaste/}{images/gistr/}{images/misc/}}
   - \usepackage{svg}
   # Brains Copy Paste start/arrival words
   - \newcommand{\warrival}{w'}
   - \newcommand{\wstart}{w}
 ---
-
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{\listfigurename}
-{\hypersetup{linkcolor=black}
- \listoffigures}

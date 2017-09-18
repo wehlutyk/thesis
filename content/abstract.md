@@ -53,7 +53,7 @@ A third approach crawls online content and communities in order to study the spr
 While earlier works were based on atomic propagation and exposure models where simple entities such as URLs and innovations were the central object [see @cointet_how_2007 for a discussion], this stream of research is increasingly modelling linguistic representations as deep objects with complexity of their own, improving on simpler virus-like models.
 Several works have now studied large quantities of meaningful sentences, showing that their propagation can depend heavily on social context [@bakshy_social_2009], semantic content and grammatical style [@danescu-niculescu-mizil_you_2012], as well as on competition between items [@weng_competition_2012].
 
-The wide array of disciplines studying these complimentary questions, and the variety of techniques used in the process, testify to a major obstacle:
+The wide array of disciplines studying these complementary questions, and the variety of techniques used in the process, testify to a major obstacle:
 collecting relevant data in usable amounts to analyse cultural evolution is challenging.
 The works cited above develop several strategies to face the problem, yet must invariably leave aspects of the question aside:
 transmission chains usually operate on very simple representations;
