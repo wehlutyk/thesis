@@ -10,8 +10,8 @@ studying word substitutions in online quotations first, and more general transfo
 However, these approaches did not bring us significantly closer to understanding the semantic changes that utterances undergo when they are transformed, be it online or in controlled transmission chains.
 
 We now wish to discuss the reasons for this limitation.
-Our purpose is first to convince the reader that meaning
-^[In what follows, we will always assume that meaning is meaning *to someone*.
+Our purpose is first to convince the reader that meaning^[
+In what follows, we will always assume that meaning is meaning *to someone*.
 For instance, in a communication framing, meaning to a listener is the listener's interpretation, and meaning to a speaker is the meaning intended to be communicated.
 In a dynamical interactive framing, meaning emerges in the interaction for both participants, and is thus meaning to one participant or the other.
 ]
@@ -72,8 +72,8 @@ They further suggest that, due to cognitive biases in the way utterances and wor
 
 However, these studies do not tell us the way utterances evolve semantically.
 Indeed, apart from the vector-based comparison of individual words for scoring matched and mismatched pairs in utterance alignments, none of the analyses we put forward have a grip on the meaning of the utterances, or on the change in meaning upon transformation.
-While it is noteworthy that it was still possible to extract reliable decompositions of the transformations without such information (as the manual evaluation of alignments attests), these analyses say little about changes in the content circulated by the utterances.
-^[We also explored the semantic distance travelled by words upon replacement, and the possible hyponym-hypernym relationships between replaced and replacing words, but did not present the analyses in the previous chapter as they provided no additional insight about the process.
+While it is noteworthy that it was still possible to extract reliable decompositions of the transformations without such information (as the manual evaluation of alignments attests), these analyses say little about changes in the content circulated by the utterances.^[
+We also explored the semantic distance travelled by words upon replacement, and the possible hyponym-hypernym relationships between replaced and replacing words, but did not present the analyses in the previous chapter as they provided no additional insight about the process.
 ]
 
 Let us show a few examples of the types of meaning change that were observed in the transmission chain experiments of the previous chapter.
@@ -87,8 +87,8 @@ Consider the following root utterance from Experiment 2:
   "Can you think of anything else, Barbara, they might have told me about that party?"
 \end{nquote}
 
-The second part of this sentence is slightly misleading, and could be seen as a mild case of garden path sentence:
-^[A garden path sentence is a sentence that leads the reader to parse its syntax one way, but necessitates a different structure to be understood once all the words have been read.
+The second part of this sentence is slightly misleading, and could be seen as a mild case of garden path sentence:^[
+A garden path sentence is a sentence that leads the reader to parse its syntax one way, but necessitates a different structure to be understood once all the words have been read.
 A classic example is the sentence "The horse raced past the barn fell", which misleads the reader into interpreting "The horse" as the subject of "raced";
 the correct parse of the full sentence corresponds to the meaning of "The horse that was raced past the barn fell", where "The horse" is the object of "raced".
 The difficulty comes from the fact that the search for a new parse becomes necessary only once the reader has seen the final word, "fell".
@@ -163,8 +163,8 @@ Indeed, what is communicated through the utterances discussed above, which can b
 Examples of this phenomenon abound, and are not restricted to face-to-face interactions as depicted by films:
 no matter the type of mediation, any interaction is likely to feature strong pragmatics.
 Twitter conversations are a good case in point for online platforms.
-The short conversation reproduced below, for instance, illustrates the fact that the meaning as understood by participants is a construction depending on context, past history, and interaction dynamics.
-^[The conversation is originally in French, and reads as follows:
+The short conversation reproduced below, for instance, illustrates the fact that the meaning as understood by participants is a construction depending on context, past history, and interaction dynamics.^[
+The conversation is originally in French, and reads as follows:
 "On est tous le beau et le moche de quelqu'un" / "mais être moche c'est quand même la base ahah" / "[mort de rire,] pour certaines filles surtout, je pense".
 ]
 It starts with the following tweet:
@@ -173,8 +173,8 @@ It starts with the following tweet:
   "We are all good-looking and ugly to someone else's eyes"
 \end{nquote}
 
-This utterance seems a priori neutral, and is commonplace and consensual enough for it to be marked as favorite, retweeted and published anew regularly.
-^[A simple search on Twitter using the original text in French shows that the utterance appears about once a month, with most instances retweeted several times.
+This utterance seems a priori neutral, and is commonplace and consensual enough for it to be marked as favorite, retweeted and published anew regularly.^[
+A simple search on Twitter using the original text in French shows that the utterance appears about once a month, with most instances retweeted several times.
 ]
 But as illustrated by the answers following it, the actual meaning exchanged in the conversation is not available to the non-interacting reader.
 A first answer is made in a humorous tone:
@@ -246,8 +246,8 @@ Whichever the case, we will argue that in their current state both accounts of m
 As a general theory of communication, Relevance Theory has a very broad scope and relates to many areas of cognitive science.
 @sperber_relevance:_1995 and @wilson_truthfulness_2002 provide detailed presentations of the full theory, and many publications in between and since then have fleshed out its relations to a number of neighbouring questions.
 The collection of works by @wilson_meaning_2012, in particular, provides a thorough discussion of several linguistic phenomena based on Relevance Theory, as well as openings towards experimental and cultural evolution-related approaches to the question of meaning and relevance [for language evolution see in particular @sperber_pragmatic_2012].
-Here we will restrict ourselves to a sorely abridged presentation of the already summarising @wilson_relevance_2004, in the hopes that it will be enough for an understanding of the principles underlying the theory and the explanations it provides.
-^[Our presentation focuses on the founding principles of Relevance Theory.
+Here we will restrict ourselves to a sorely abridged presentation of the already summarising @wilson_relevance_2004, in the hopes that it will be enough for an understanding of the principles underlying the theory and the explanations it provides.^[
+Our presentation focuses on the founding principles of Relevance Theory.
 The remainder of @wilson_relevance_2004 fleshes out the way the inferential procedure is applied to linguistic utterances, how the theory explains typical phenomena such as irony, poetry, or loose uses of language (e.g. the meaning of 'square' in expressions such as 'square face' or 'square mind'), and how it fits with the massive modularity of mind approach introduced in @sperber_explaining_1996, along with many detailed examples.
 ]
 
@@ -293,8 +293,8 @@ If you trust me, you will probably conclude "he wants a drink".
 If you don't trust me, you could conclude "he wants to be alone a few moments and wants me to take a walk".
 Whichever the case, the communication will have succeeded:
 you will know that I wanted to communicate that I wanted a drink.
-Importantly, what is communicated is not that my glass is empty (despite me only saying "My glass is empty"), but that I wand something to happen in relation to my empty glass, a conclusion that can only be reached through a relevance-informed inference.
-^[In fact, RT proposes a detailed procedure that can account for the way utterances are understood:
+Importantly, what is communicated is not that my glass is empty (despite me only saying "My glass is empty"), but that I wand something to happen in relation to my empty glass, a conclusion that can only be reached through a relevance-informed inference.^[
+In fact, RT proposes a detailed procedure that can account for the way utterances are understood:
 when perceiving a stimulus in a certain context, compute the relevance of its conclusions following a path of least effort first (since the stimulus is expected to be optimal), and stop whenever you have reached your expected level of relevance.
 In other words, test hypotheses about the speaker's utterance such as possible disambiguations, resolution of entities and implicatures, and stop whenever the conclusions you have reached seem relevant enough to you.
 The conclusion you have then obtained will be your assumption of the speaker's meaning for the context chosen at the beginning.
@@ -379,8 +379,8 @@ In that case, remembering an utterance's meaning is bound to be affected by the 
 A better account of the way utterances change when they are produced anew will thus likely require an understanding of the way utterances are felt, as well as how and why different utterances produce different feelings.
 
 The Enactive approach to cognition proposes an explanatory path to account for the way linguistic meaning feels, and for the way such feelings can be gradually structured into forms similar to propositions.
-It is part of a broader range of approaches that question the utility of seeing the mind as an information-processing system,
-^[These approaches are sometimes collectively termed the "E turn", in reference to the many titles starting with the letter "e" (in particular, enactive, embedded, embodied and extended approaches to cognition).
+It is part of a broader range of approaches that question the utility of seeing the mind as an information-processing system,^[
+These approaches are sometimes collectively termed the "E turn", in reference to the many titles starting with the letter "e" (in particular, enactive, embedded, embodied and extended approaches to cognition).
 ]
 and explore the extent to which parts of (or all) the metaphor can be relaxed or replaced by other paradigms [see @chemero_after_2008 for a review of the options available in the debate, and the fields corresponding to each choice].
 In this area, the Enactive approach has the advantage of being extremely consistent in its rejection of the computational paradigm and of the idea that cognitive systems represent their environment, and thus proposes a radically different account of pragmatics than the one developed by Relevance Theory.
@@ -634,8 +634,8 @@ There is thus a tension between their noticing a stability, and their wanting to
 The subjects solve the task as follows:
 instead of both cursors permanently criss-crossing each other, a kind of turn-taking behaviour spontaneously appears where one subject stays still while the other criss-crosses it, then the roles are reversed and the first one criss-crosses the second one that is now staying still.
 Thus a new level of interactive regularity appears, built on the previous one:
-turn-taking in the perceptual crossing.
-^[Interestingly, the authors also ask the subjects to give Perceptual Awareness Scale ratings for the moments at which they click, and find that such turn-taking episodes correspond to a mutually heightened perceptual awareness of the presence of an other.
+turn-taking in the perceptual crossing.^[
+Interestingly, the authors also ask the subjects to give Perceptual Awareness Scale ratings for the moments at which they click, and find that such turn-taking episodes correspond to a mutually heightened perceptual awareness of the presence of an other.
 ]
 Such regularities behave as interactive norms that the subjects can either follow, thus sustaining the interaction in its existing format, or not follow, thus breaking down the interaction but possibly creating a higher level of regularity that can evolve into a new norm.
 
@@ -655,8 +655,8 @@ Now, if in this situation participants become sensitive to the fact that a parti
 some social acts can be used to regulate other social acts (e.g. ostensibly staring at your own extended hand to signal to your interlocutor that they should shake it).
 This new level of interactive norm then leads to its own tensions, which are again resolved by yet another higher interactive norm.
 The expansion thus continues by building each level of normativity as the resolution of a tension between the types of individual and interactive norms that exist at the previous level.
-@cuffari_participatory_2015 propose 8 levels of normativity,
-^[The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. a stare regulating an act of giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
+@cuffari_participatory_2015 propose 8 levels of normativity,^[
+The levels are Participatory sense-making (which we started with), Social Agency (e.g. turn-taking in perceptual crossing), Coordination of Social Acts (e.g. a stare regulating an act of giving and receiving), Normativity of Social Acts, Community of Interactors, Mutual Recognition and Dialogical Structure, Participation Genres, and finally Languaging.
 ]
 each one corresponding to a new sensitivity of the interacting organisms to a regularity or constraint at the previous level.
 Often, the new regularity and its regulation by the participants appears at a different time scale (as in the turn-taking example above), or in a different dimension than at the previous level (for instance, coordinating social acts across a community).
@@ -713,8 +713,8 @@ Unlike RT, the enactive notion of meaning exists even in the most basic types of
 The two approaches can be seen as starting from different descriptive levels and building what is missing for an account of meaning (though this characterisation does not exhaust their differences):
 RT starts with representations and symbolic processing, which are implementable in bodies (by following the model of computers) and come already structured in similar ways to language, and constructs on top of those a notion of meaning, with a corresponding interpretation procedure (inference), that is subtle and flexible enough to apply to fuzzy cases like poetry or loose language.
 The Enactive approach starts from an embodied and dynamic notion of meaning, which by definition exists for all organisms and need not be inferred, but comes without any particular structure;
-it then builds its account of language by detailing how interactions (and thus meaning) can become increasingly structured through a series of interactive conventions built on one another.
-^[In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations and a mechanism for how they represent that content.
+it then builds its account of language by detailing how interactions (and thus meaning) can become increasingly structured through a series of interactive conventions built on one another.^[
+In doing so, it also provides a partial account of the phenomenology of meaning, something that RT can only provide through a definition of the exact content of representations and a mechanism for how they represent that content.
 For more details, see again @hutto_radicalizing_2013 on the Hard Problem of Content.
 @harvey_content_2015 also provides a useful discussion of that question.
 ]
@@ -726,8 +726,8 @@ This finally brings us back to the usefulness of both these approaches to CAT.
 First, let us note that @sperber_explaining_1996 refers repeatedly to RT as an important tool to understand the role of interpretation in the epidemiology of representations.
 Indeed, while he does not flesh out the connection in more detail, the information-processing account provided by RT fits well with the representational foundation of CAT and of our own experimental approach.
 But the fact that CAT is formulated in terms of representations is not necessarily a theoretical constraint to integrate it with an enactive approach to meaning:
-similarly to what we argued above for RT, information-processing can be seen as no more than a particular descriptive starting point, with no strong import for the ontology of what is being transmitted or evolved,
-^[Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is not so far from non-representational views of content [@harvey_content_2015].
+similarly to what we argued above for RT, information-processing can be seen as no more than a particular descriptive starting point, with no strong import for the ontology of what is being transmitted or evolved,^[
+Indeed, @sperber_explaining_1996 [p. 135, footnote 40] explains that his view of the content of concepts (which we can assume to be close enough to the content of a representation) is influenced by @millikan_language_1984, which is not so far from non-representational views of content [@harvey_content_2015].
 ]
 and we see no reason to consider a priori that the two approaches would be incompatible.
 
@@ -738,8 +738,8 @@ such a simple model depicts representations as being straightforwardly interpret
 As we just saw, both the Enactive approach and RT show, first, that taking context into account is necessary, and second, that doing so drastically changes the picture.
 The fact that it is possible to easily degrade CAT into a code model theory also suggests that integrating it with an approach to meaning might require some amendments.
 We thus see great value in contrasting and possibly combining the two approaches to replace the naive code model that is used in many applications of CAT.
-In practice, attempting to apply these two approaches will also let us explore if the theory must be amended in order to fully take the situatedness of meaning into account.
-^[Anthropologist Tim Ingold, for instance, has argued at length that the whole project of a Darwin-inspired theory of cultural change can only make sense if one accepts a misguided dualism between context-free information on one side and material encoding of the information on the other, a dualism that is encouraged by the computational metaphor of cognition [@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007].
+In practice, attempting to apply these two approaches will also let us explore if the theory must be amended in order to fully take the situatedness of meaning into account.^[
+Anthropologist Tim Ingold, for instance, has argued at length that the whole project of a Darwin-inspired theory of cultural change can only make sense if one accepts a misguided dualism between context-free information on one side and material encoding of the information on the other, a dualism that is encouraged by the computational metaphor of cognition [@ingold_complementarity_1998;-@ingold_transmission_2001;-@ingold_beyond_2004;-@ingold_trouble_2007].
 The requirement of being able to compare meanings across situations (so as to analyse their evolution), in particular, would rest on being able to identify information that exists independently of the situation in which it emerged.
 The alternative he proposes is heavily inspired by dynamical approaches to cognition (such as the Enactive approach) and a developmental focus on biology and heredity.
 While we agree that computational approaches to cognition are prone to such dualism, information-processing analyses can also be used as a tool to combine with dynamical approaches, without taking the computational metaphor too seriously.
@@ -777,14 +777,14 @@ One reliable approach to this problem is to gather similarity ratings in a triad
 manual coders are presented with three utterances, and must decide which of the three is most different in meaning to the other two (in which case the other two are considered to have some degree of similarity).
 While the complete set of triad comparisons grows as $n^3$ ($n$ being the number of utterances in a tree) and is thus too expensive for non-trivial trees (such as in Experiment 3 in the previous chapter, where trees contain 71 utterances), it is not necessary to rate all the combinations in order to obtain a reliable picture of meaning classes in the tree.
 Indeed, in the complete set of triad comparisons, each pair of utterances appears $n-2$ times.
-The so-called Balanced-Incomplete Block Design [@weller_systematic_1988 pp. 49-55] compares triads without repeating pairs more than a fixed number of times, in which case the number of triads grows as $n^2$.
-^[For $n = 71$, as in Experiment 3 of the previous chapter, there are no Balanced-Incomplete Block Designs where each pair of utterances appears exactly once.
+The so-called Balanced-Incomplete Block Design [@weller_systematic_1988 pp. 49-55] compares triads without repeating pairs more than a fixed number of times, in which case the number of triads grows as $n^2$.^[
+For $n = 71$, as in Experiment 3 of the previous chapter, there are no Balanced-Incomplete Block Designs where each pair of utterances appears exactly once.
 However, designs exist for $n = 69$ and $n = 73$, and can be created from trees with 71 utterances by removing two random utterances or adding two dummy utterances.
 $n = 69$ yields 805 triad comparisons, and $n = 73$ yields 876 [see @weller_systematic_1988 for the detailed computation].
 More reliable results can be obtained by using designs where each pair appears exactly twice, which doubles the number of triad comparisons.
 ]
-Triad comparisons can be obtained in large quantities by outsourcing the task on platforms such as Prolific Academic or Amazon Mechanical Turk, or can alternatively be integrated in the online transmission chain platform.
-^[Consider for instance an experiment similar to Experiment 3 of the previous chapter, with 71 utterances per tree (one root, and 7 branches of 10 reformulations), and a targeted 70 subjects in total.
+Triad comparisons can be obtained in large quantities by outsourcing the task on platforms such as Prolific Academic or Amazon Mechanical Turk, or can alternatively be integrated in the online transmission chain platform.^[
+Consider for instance an experiment similar to Experiment 3 of the previous chapter, with 71 utterances per tree (one root, and 7 branches of 10 reformulations), and a targeted 70 subjects in total.
 In a given tree, the number of triad comparisons with each pair appearing exactly once is at most 876 (see previous footnote), which can be distributed as an average 12.51 comparisons per subject.
 Counting about 20 seconds per comparison, the added comparisons thus require each subject to spend, on average, an additional 4m10s on each tree.
 Given that individual transformations took an average 1m12s in Experiment 3, that is subjects spend on average 1m12s on each tree in Experiment 3, this conservative estimate multiplies the total cost of the experiment by about 4.5.
@@ -840,8 +840,8 @@ Such longitudinal multi-modal data is exactly the type of measurement that is ne
 The second way is to create an *in vitro* interactive situation that is as encompassing as possible, and measure every possible aspect of the interaction in it.
 In the laboratory, this corresponds to the approach taken by @moussaid_amplification_2015, who taped unconstrained pairwise conversations chained one after the other, hand-coded them for specific features, and then measured the evolution of such features along chains.
 Another approach consists in taking advantage of online video games that create complete worlds in which the interactions of players can be measured in multiple modalities (gaming behaviours and parallel verbal conversations), as has been used for instance in the study of language learning [@zheng_multimodal_2012].
-However, developing such a game for experimental purposes involves a substantial investment, such that researchers must often rely on existing gaming environments and communities to access the data.
-^[Smartphone psychology [@miller_smartphone_2012] might be another opening for this type of study:
+However, developing such a game for experimental purposes involves a substantial investment, such that researchers must often rely on existing gaming environments and communities to access the data.^[
+Smartphone psychology [@miller_smartphone_2012] might be another opening for this type of study:
 by getting a closed group of people to accept that all the measurable aspects of their interactions be recorded by their smartphone for a period of time (sound, surrounding luminosity, small movements of the device, precise location of the subject), an experimenter could potentially have access to a much richer view of interactions of everyday life.
 This does not seem possible for fully unconstrained interactions however, and must likely be restricted to a particular area such as work or home;
 otherwise, one would have to be obtain the consent of every new or known person that a subject interacts with in their everyday life.

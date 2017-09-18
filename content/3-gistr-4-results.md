@@ -26,8 +26,8 @@ The model we develop further down will then give a more precise view of the mech
 
 A well-known effect in transmission chains with linguistic content is the quick reduction of utterance length as chains progress.
 These experiments are no exception:
-@fig:gistr-token-lengths shows a scatter plot of the number of words of an utterance $|u|_w$ versus depth in a tree.
-^[All NLP computations in this chapter are performed using the spaCy library for Python, version 1.9.0, available at \url{http://spacy.io/}.
+@fig:gistr-token-lengths shows a scatter plot of the number of words of an utterance $|u|_w$ versus depth in a tree.^[
+All NLP computations in this chapter are performed using the spaCy library for Python, version 1.9.0, available at \url{http://spacy.io/}.
 ]
 The insets show the data restricted to trees for which root utterances have 30 words or less (thus most utterances in those trees also have 30 words or less);
 this boundary keeps all the Fénéon root utterances in Experiment 3, and we use it to separate longer from shorter utterances for the purposes of this figure.
@@ -70,8 +70,8 @@ these figures show how the effect acts on each set of root utterances, but do no
 
 #### Utterance to utterance distance
 
-As a first approximation to the magnitude of transformations we introduce a measure of the distance $\lambda(u, u')$ between two utterances $u$ and $u'$, defined as the Levenshtein distance
-^[The Levenshtein distance (also known as the edit distance) is defined between two lists of items, and counts the minimal number of insertions, deletions, and replacements that are needed to transform the first list of items into the second.
+As a first approximation to the magnitude of transformations we introduce a measure of the distance $\lambda(u, u')$ between two utterances $u$ and $u'$, defined as the Levenshtein distance^[
+The Levenshtein distance (also known as the edit distance) is defined between two lists of items, and counts the minimal number of insertions, deletions, and replacements that are needed to transform the first list of items into the second.
 It has all the properties of a metric (non-negativity, identity of indiscernibles, symmetry, and subadditivity).
 ]
 between the lemmas of the content words of $u$ and $u'$:
@@ -111,8 +111,8 @@ Here, $\rho(u_a, u_b) = 0$ and $\rho(u_a, u_c) = \rho(u_b, u_c) = .6$.
 In what follows, whenever we use the term "transformation rate" without explicitly specifying $u$ and $u'$, we refer to the transformation rate between an utterance and its child in a chain (for tree roots, this becomes the average transformation rate between the root and each of its children).
 
 A major caveat of this measure is that it does not know about synonyms or expressions with similar meaning, such that two sentences separated by a transformation rate of 1 can have the same meaning at a higher level.
-For instance with the following sentences,
-^[$u_d$ and $u_f$ are from Experiment 1 ($u_d$ being originally from the MemeTracker data set), and $u_e$ was created for this comparison.
+For instance with the following sentences,^[
+$u_d$ and $u_f$ are from Experiment 1 ($u_d$ being originally from the MemeTracker data set), and $u_e$ was created for this comparison.
 ]
 
 \begin{nquote}
@@ -277,8 +277,8 @@ In the next sections we detail our application and extension of the NW algorithm
 The NW algorithm can be straightforwardly applied to sequences of any kind, provided we define scores for opening and extending gaps and a function to evaluate the comparison of two items (henceforth the match scoring function).
 We thus apply it to sequences of words without punctuation, with a match scoring function that takes into account the semantic distance between the two words compared.
 For a given pair of utterances $u$ and $u'$, we start by tokenising them and removing all punctuation.
-We then apply the NW algorithm
-^[We used Biopython's implementation of the NW algorithm [@cock_biopython:_2009].
+We then apply the NW algorithm^[
+We used Biopython's implementation of the NW algorithm [@cock_biopython:_2009].
 ]
 on the resulting sequences of tokens, with a match scoring function computed as an affine transformation of the similarity between two words $w$ and $w'$:
 
@@ -289,8 +289,8 @@ $$
 \end{cases}
 $$
 
-where $S_C$ is the cosine similarity function (one minus cosine distance) and $\bm{w}$ is a 300-dimensional vector representation of $w$ encoding the word's semantics,
-^[Vector representations (also known as "word embeddings") encode words as vectors in a high-dimensional vector space.
+where $S_C$ is the cosine similarity function (one minus cosine distance) and $\bm{w}$ is a 300-dimensional vector representation of $w$ encoding the word's semantics,^[
+Vector representations (also known as "word embeddings") encode words as vectors in a high-dimensional vector space.
 The high-dimensionality allows the vectors to bear part of the semantic information of the words as they appeared in a training corpus.
 Large pre-trained vocabulary sets are available in many NLP libraries, and the standard spaCy English language model includes "vectors for one million vocabulary entries, using the 300-dimensional vectors trained on the Common Crawl corpus using the GloVe algorithm" (\url{https://alpha.spacy.io/docs/usage/word-vectors-similarities}).
 The GloVe algorithm was introduced by @pennington_glove:_2014, and is one of several possible methods to train such word vectors (another well-known family of methods being word2vec).
@@ -609,8 +609,8 @@ Constructing consensus alignments for each transformation thus allows us to foll
 
 #### Branch and utterance dimensions
 
-@Fig:gistr-lineage-tree represents the lineages produced by this procedure on the branches of an example tree taken from Experiment 3, whose root is the following utterance:
-^[This is tree #4, which is also shown in @fig:gistr-trees.
+@Fig:gistr-lineage-tree represents the lineages produced by this procedure on the branches of an example tree taken from Experiment 3, whose root is the following utterance:^[
+This is tree #4, which is also shown in @fig:gistr-trees.
 The transition from depth 1 to depth 2 in branch #49 of the figure also corresponds to the transformation of utterance \ref{ut:49} to utterance \ref{ut:120} discussed when introducing deep alignments.
 ]
 
@@ -730,8 +730,8 @@ We instead focus on insertions, deletions, and replacements, and keep from excha
 Note that while this excludes any shifts in position from our model, the approach still benefits from having detected exchanges earlier in the procedure:
 it guarantees that the remaining insertions and deletions correspond to actual appearances and disappearances, not undetected exchanges.
 
-From a given transformation diagram we then extract two arrays of word-level operations,
-^[We use the phrase "array of operations", and not "series of events", to emphasise that these operations exist on the one-dimensional utterance axis, but do not necessarily come from a sequential generation process.
+From a given transformation diagram we then extract two arrays of word-level operations,^[
+We use the phrase "array of operations", and not "series of events", to emphasise that these operations exist on the one-dimensional utterance axis, but do not necessarily come from a sequential generation process.
 The two terms refer to the same mathematical object, and simply change the interpretation of the index:
 for a series of events the index represents time, for an array of operations it does not.
 ]
@@ -896,8 +896,8 @@ In short, a longer utterance has a higher probability of suffering any type of o
 
 Manual exploration of the lineage plots also indicated that operations are not positioned evenly in the utterances.
 To quantify this behaviour we apply the susceptibility measure developed in the previous chapter to positions in an utterance.
-For words at position $x \in [0, 1]$ relative to their utterance's length ($x = 0$ for words at the beginning, $x = 1$ for words at the end), the susceptibility $\sigma_O(x)$ to an operation $O \in \{D, I, R\}$ is defined as the ratio of $s_O(x)$, the number of times words at relative position $x$ are the target of operation $O$, to $s_O^0(x)$, the number of times those words would be the target of operation $O$ if the choice of words were random:
-^[Since operations in a given transformation are not independent, we scale both $s_O(x)$ and $s_O^0(x)$ such that each transformation has a maximum contribution of 1 to the total counts.
+For words at position $x \in [0, 1]$ relative to their utterance's length ($x = 0$ for words at the beginning, $x = 1$ for words at the end), the susceptibility $\sigma_O(x)$ to an operation $O \in \{D, I, R\}$ is defined as the ratio of $s_O(x)$, the number of times words at relative position $x$ are the target of operation $O$, to $s_O^0(x)$, the number of times those words would be the target of operation $O$ if the choice of words were random:^[
+Since operations in a given transformation are not independent, we scale both $s_O(x)$ and $s_O^0(x)$ such that each transformation has a maximum contribution of 1 to the total counts.
 This procedure is similar to the susceptibility scaling approach we followed in the previous chapter.
 ]
 
@@ -942,8 +942,8 @@ Finally, we examine the dependence of chunk-level operation size on its position
 The manual exploration of lineage plots did not hint to any effect at this level, but the question now appears legitimate:
 since subjects delete words on average more often towards the end of an utterance, it is possible that those deletions are also longer if they correspond to larger memory loss.
 @Fig:gistr-chunk-size shows the dependence of chunk-level operation size on position in the utterance, for deletions, insertions and replacements, both overall and for binned parent length.
-Deletions exhibit a slight effect of position on chunk-level operation size, which is significant for parent lengths between 11 and 15 words.
-^[The plots also indicate that the overall chunk-level operation size increases with parent length, a slight effect which was confirmed for deletions and insertions with dedicated regressions, but which we do not discuss further given its mildness (slopes respectively .030 and .013, both significative with $p < .001$).
+Deletions exhibit a slight effect of position on chunk-level operation size, which is significant for parent lengths between 11 and 15 words.^[
+The plots also indicate that the overall chunk-level operation size increases with parent length, a slight effect which was confirmed for deletions and insertions with dedicated regressions, but which we do not discuss further given its mildness (slopes respectively .030 and .013, both significative with $p < .001$).
 ]
 That is, for those lengths, deletions towards the end of the utterance are significantly larger than deletions at the beginning (4.1 words versus 1.7 words on average), in addition to being more frequent (see the susceptibility plots above).
 The trend is present for deletions at all lengths, though most of the time not significative.
@@ -1053,8 +1053,8 @@ deletions could be the first manifestation of the subject having forgotten somet
 This relates to the last observation produced by our manual exploration:
 chunk-level insertions and deletions seem to occur in similar sizes when close to one another.
 To quantify this observation we estimate a correlation function between the sizes of chunk-level insertion and deletion separated by fixed numbers of conserved or replaced words.
-More precisely, for each chunk-level insertion in the data set we identify the nearest chunk-level deletion either before or after it, separated by words that are not involved in an exchange.
-^[As alluded to when introducing the transformation model, when exchanges separate a chunk-level insertion from a chunk-level deletion there are several paths from one to the other, depending on when one traverses the exchange;
+More precisely, for each chunk-level insertion in the data set we identify the nearest chunk-level deletion either before or after it, separated by words that are not involved in an exchange.^[
+As alluded to when introducing the transformation model, when exchanges separate a chunk-level insertion from a chunk-level deletion there are several paths from one to the other, depending on when one traverses the exchange;
 different paths can have different final distances, none of which are more or less plausible than the others.
 The distance between a chunk-level insertion and a chunk-level deletion separated by an exchange is thus not clearly defined.
 ]
@@ -1062,8 +1062,8 @@ If a chunk-level insertion has such a nearest neighbour (it may not if there wer
 If chunk-level insertion and deletion face each other, $r = 0$;
 otherwise, $r < 0$ if the deletion comes before the insertion in the utterances, $r > 0$ if the deletion comes after, and $|r|$ equals the number of conserved or replaced words separating the two.
 For a given value of $r$, we compute a robust linear regression of chunk-levle insertion size against chunk-level deletion size for all insertion-deletion chunks separated by $r$.
-We then take the slope of that regression as an indicator of the correspondence between the sizes of $r$-separated chunk-level insertions and deletions.
-^[The robust regression lets us minimise the impact of outliers in the distributions of chunk-level insertion sizes, which otherwise had a strong effect on more common correlation measures.
+We then take the slope of that regression as an indicator of the correspondence between the sizes of $r$-separated chunk-level insertions and deletions.^[
+The robust regression lets us minimise the impact of outliers in the distributions of chunk-level insertion sizes, which otherwise had a strong effect on more common correlation measures.
 The regression is computed using the Statsmodels statistics library for Python, which implements robust M-estimation using Huber's T norm [@huber_robust_1981] with a default parameter of 1.345.
 ]
 
@@ -1086,8 +1086,8 @@ Second, the correlation initially decreases to become non-signifcant as $|r|$ in
 The third and most interesting point is that the correlation function is skewed towards the left:
 it is significantly above zero for $r = -1$ but not for $r = 1$, then also for $r = -4, -5$ at higher values than for $r = 4$.
 Note however that the last three points represent only 10 to 12 chunk-level insertion-deletion couples each and are thus more susceptible to outliers (especially to deletion outliers, i.e. the x axis, which the M-estimation technique we used does not counter).
-Overall, the correlation is positive for chunk-level insertions and deletions facing each other, and also often for chunk-level deletions preceding insertions by a few words.
-^[The detail of these plots is sensitive to cropping in the data, and especially to constraints on the maximum chunk-level deletion size since it can remove x-axis outliers.
+Overall, the correlation is positive for chunk-level insertions and deletions facing each other, and also often for chunk-level deletions preceding insertions by a few words.^[
+The detail of these plots is sensitive to cropping in the data, and especially to constraints on the maximum chunk-level deletion size since it can remove x-axis outliers.
 The general trend we observe is always conserved however:
 deletions preceding insertions correlate more than deletions following insertions.
 ]
@@ -1210,8 +1210,8 @@ Nonetheless, the process still features a slight negative bias with an attractor
 Three factors could have influenced this change of effect.
 First, in order to clean the data of possible spam, the previous chapter filtered out many minor substitutions (such as misspellings or UK/US spelling changes), a procedure we did not follow here since the data was of sufficient quality as such.
 It is possible, therefore, that the change simply reflects a more accurate view of replacements, a portion of which was not captured by the previous chapter (although manual evaluations of the spam filters in the previous chapter argue against this).
-Second, depending on the word vectors we use, the alignment procedure might favour replacements for closely related synonyms (evaluated by their vector similarity), which could in turn explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.
-^[The role of synonym replacements could also explain the change of susceptibility for short words observed in @fig:gistr-suscept-feature-delrpl.
+Second, depending on the word vectors we use, the alignment procedure might favour replacements for closely related synonyms (evaluated by their vector similarity), which could in turn explain the fact that $\nu_{\phi}$ and $\nu_{\phi}^{00}$ are much closer to each other and to $y = x$.^[
+The role of synonym replacements could also explain the change of susceptibility for short words observed in @fig:gistr-suscept-feature-delrpl.
 Indeed, separating susceptibility plots for deletions and replacements on the parent side shows that short words have a susceptibility to replacement higher than random (whose effect is seen in the aggregate figure), but not to deletion.
 The behaviour could therefore come from shorter words having more synonyms, or more frequent synonyms.
 ]

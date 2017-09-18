@@ -144,8 +144,8 @@ Representations can be *mental*, as defined and studied by cognitive science, or
 New mental representations are constantly formed in people's minds whenever they perceive or interpret public representations.
 For instance, say I am thinking of a tune (mental representation), and I whistle it (public representation);
 someone else hears it, and forms their own mental representation.
-Most of the time, the new representation in that person's head is different from my original representation.
-^[The recognition that representations change so much when they are transmitted through human interactions is a defining feature of the theory Sperber proposes, in contrast to memetics and to the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
+Most of the time, the new representation in that person's head is different from my original representation.^[
+The recognition that representations change so much when they are transmitted through human interactions is a defining feature of the theory Sperber proposes, in contrast to memetics and to the Californian approach outlined above [@sperber_explaining_1996, p. 25-26, 31].
 ]
 
 On this basis, Sperber proposes to model human communities as large dynamical systems of people continuously interpreting public representations into mental representations, and producing new public representations through their situated actions, in which mental representations play a role.
@@ -254,8 +254,8 @@ Let us close this presentation of theories by explaining why we chose to focus o
 While the prevalence of the cultural attraction approach in the French academic landscape certainly had an impact on our choice, three better arguments can justify a deeper focus on CAT.
 First, it puts cognitive science squarely in the middle of the problem, by acknowledging the importance of psychological processes in the study of culture [@scott-phillips_simple_2017].
 Second, its initial goal is not so much to develop a mathematical theory of culture (which will surely flourish in due time), but to interest all disciplines studying human life in a common framework by using *principled philosophical arguments*.
-Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.
-^[In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
+Third, this approach in turn leads to a clear articulation of the philosophical principles defended, discussed, and tested by the theory at the cultural and cognitive levels.^[
+In the words of Tim Ingold, an outspoken critic of both CAT and SCE: "[Sperber's work] has the virtue of rendering unusually explicit the assumptions built into much contemporary theorising about culture and cognition, and of driving them through to their logical conclusions" [@ingold_transmission_2001, p. 113].
 ]
 As such, it seems that CAT is in a good position to generate productive debate between alternative approaches (such as propositions coming from social anthropology or other branches of cognitive science) which, at the moment, are still competing on the principled level.
 Recall however that CAT and SCE have no core incompatibility, as both can be applied to analyse different facets and different scales of the same situation [@acerbi_if_2015; @sterelny_cultural_2017].
@@ -293,8 +293,8 @@ In CAT parlance, this method corresponds to the simplest instantiation of the ca
 Early work contemporary to Bartlett's applied the technique in a variety of settings.
 A first stream of research explored ways in which verbal memory and social or cultural background can interact.
 The way short stories are conserved and transformed was shown to depend on variables such as daily activity, diversity of social backgrounds in a group, social status and age [@northway_influence_1936;@maxwell_remembering_1936].
-Later works confirmed other aspects of Bartlett's intuitions, for instance the role of identifiable details in the evolution of pictures [@ward_experiment_1949], or the influence of titles on the way content is interpreted and transformed [@hall_effect_1950].
-^[In a note that is quite relevant for today's situation, Hall notes that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120].
+Later works confirmed other aspects of Bartlett's intuitions, for instance the role of identifiable details in the evolution of pictures [@ward_experiment_1949], or the influence of titles on the way content is interpreted and transformed [@hall_effect_1950].^[
+In a note that is quite relevant for today's situation, Hall notes that "the function of the headline or title to some story or article is that of giving a particular emphasis to certain aspects of the text, and is one of the main methods of distorting and biasing what is remembered" [@hall_effect_1950, p. 120].
 He later reflects on the fact that such results have crucial political implications given the development of mass media.
 ]
 
@@ -411,8 +411,8 @@ Two landmark approaches to this question are the Threshold model introduced by @
 In its simplest version, Granovetter's Threshold model defines agents as deciding whether or not to adopt a behaviour depending on the number of other agents who adopted it, with an adoption threshold specific to each agent.
 For instance, people can be deciding whether or not to join a riot (Granovetter's canonical example), a decision for which different people will have different thresholds.
 Some people are easy trouble-makers who can start breaking windows even if everybody else is quiet, but most people will only join a riot if already 80-90% of the population is participating in it, since being apprehended in the riot is then much less likely.
-Even in this simple model, a minor change in the distribution of riot-joining thresholds can lead the collective behaviour to switch from full rioting to only one person making trouble and everybody else doing nothing.
-^[In a population of 100 people, imagine a uniform distribution of thresholds going from 0 to 99:
+Even in this simple model, a minor change in the distribution of riot-joining thresholds can lead the collective behaviour to switch from full rioting to only one person making trouble and everybody else doing nothing.^[
+In a population of 100 people, imagine a uniform distribution of thresholds going from 0 to 99:
 the person with threshold 0 can start rioting spontaneously, which triggers the person with threshold 1, in turn triggering the person with threshold 2, and so on and so forth until the whole population is rioting.
 Now, change the person with threshold 1 to have a threshold of 2 and the chain is broken:
 the population becomes quiet, aside from the spontaneous trouble-maker whom no-one follows.

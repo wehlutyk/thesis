@@ -23,8 +23,8 @@ at the cultural layer, representations are seen as bearing cultural information 
 These interactions are such that it becomes difficult to define the information that is borne by genes, instincts or representations without referring to the concrete situations in which they appear (in which case they may not be bearing information in themselves).
 (3) Without these distinctions, it is not possible to conceptually distinguish the three layers:
 their concrete manifestations are inextricable from one another, as they appear interlocked in a single object of study:
-the organism.
-^[Ingold further argues that the notion of organism is itself problematic, as its general definition outside of practical use cases is also not clear.
+the organism.^[
+Ingold further argues that the notion of organism is itself problematic, as its general definition outside of practical use cases is also not clear.
 ]
 If it is necessary to conceptually dice reality into parts or layers, it is not clear that the separation between biology, cognition and culture is the best way of doing so.
 
@@ -105,8 +105,8 @@ This the *developmental niche*, which for human beings is in large part cognitiv
 each generation actively modifies the cognitive environment in which its offspring grows, creating environmental supports and even whole pedagogical institutions for the development of specific cognitive and problem-solving capacities.
 Thus the notion of niche construction, when additionally looked at under the light of the plasticity of development, is a powerful concept to understand the complex interactions between genetic and cultural evolutions.
 
-In sum, the Extended Evolutionary Synthesis offers a natural framework for the study of cultural and non-cultural aspects of evolution, and the gene-culture co-evolution framework underlying Standard Cultural Evolution and Cultural Attraction Theory integrates well with it [@sterelny_cultural_2017].
-^[Note also that the communities developing these approaches overlap partially.
+In sum, the Extended Evolutionary Synthesis offers a natural framework for the study of cultural and non-cultural aspects of evolution, and the gene-culture co-evolution framework underlying Standard Cultural Evolution and Cultural Attraction Theory integrates well with it [@sterelny_cultural_2017].^[
+Note also that the communities developing these approaches overlap partially.
 Marcus Feldman, in particular, is an important contributor to both Niche Construction Theory and Standard Cultural Evolution.
 ]
 Indeed, the Extended Evolutionary Synthesis is capable of integrating a non-opinionated notion of culture as part of the organism-environment system under study, and the task at hand then becomes that of the gene-culture co-evolution approach, presented above:
@@ -181,8 +181,8 @@ Indeed the question of the incorporation of culture in cognition, and behind it 
 @bourdieu_sens_1980, for instance, saw societal norms as incorporated in perception:
 he argued that norms shape our everyday unreflective interpretation of events and our way of navigating life, which Bourdieu calls our *sens pratique*.
 In other words, norms shape our embodied knowledge of how to behave in and understand social situations, and thus become embedded in the fullest sense into our low-level perception of the environment.
-Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction.
-^[Bourdieu's theory of social reproduction is based on the idea that members of a society grow into a *habitus* that depends on their social class, and the habitus they grow in makes them perceive and behave in ways that reinforce existing power structures.
+Together, incorporated norms form what he calls a person's *habitus*, a concept he puts at the centre of his theory of social reproduction.^[
+Bourdieu's theory of social reproduction is based on the idea that members of a society grow into a *habitus* that depends on their social class, and the habitus they grow in makes them perceive and behave in ways that reinforce existing power structures.
 ]
 The incorporation of social norms theorised by Bourdieu is a clear case of embodied enculturation that can be analysed in enactive terms.
 

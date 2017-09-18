@@ -270,8 +270,8 @@ We also attempted to examine the evolution of quotation families under the repea
 Our goal in this step was to identify the long-term effect of quote transformations over the lifetimes of quotation families.
 
 To do so we computed the distribution of word features for each time bin $\mathcal{B}_n$ of each quotation family, and aggregated the distributions of words over all the quotes of all the quotation families.
-This yields a distribution of word feature values for each $n$, which is the simplest possible view of the state of quotation families in their $n$-th time bin, that is after $n \times \Delta t$ days.
-^[For consistency, if we do this for $n$ going up to $N$, we only include quotation families that span long enough to have at least $N$ time bins.
+This yields a distribution of word feature values for each $n$, which is the simplest possible view of the state of quotation families in their $n$-th time bin, that is after $n \times \Delta t$ days.^[
+For consistency, if we do this for $n$ going up to $N$, we only include quotation families that span long enough to have at least $N$ time bins.
 ]
 Such a computation, based solely on the binning of quotation families, makes no assumptions about the types of transformations that quotations undergo over time:
 it simply measures the change in the feature makeup of quotations as we progress through the life of a quotation family.
@@ -282,8 +282,8 @@ This could be because external quotations are continuously fed into the family a
 To narrow this view to the specific effects of the transformations we can measure, that is substitutions, we consider substitution \emph{chains}:
 using the substitution detection model described in the previous section, we filter bins to include only new quotes produced by substitutions themselves based on quotes produced by substitutions, and so on recursively.
 The first bin of a quotation family is therefore untouched, the second contains the quotations produced by substitutions from the first, the third by substitutions from the second, and so on (see @fig:substitution-chains for an illustration of this process).
-As a result, the number of observed words drastically decreases over time,
-^[In particular, being able to detect more transformations than single substitutions would provide us with more quotations in each bin.
+As a result, the number of observed words drastically decreases over time,^[
+In particular, being able to detect more transformations than single substitutions would provide us with more quotations in each bin.
 However, since we can only detect substitutions, we can only construct chains of repeated substitutions.
 ]
 yet the measure unambiguously focuses on the accumulated effect of substitutions in the quotations.

@@ -107,8 +107,8 @@ Two parameters are then left to vary:
 the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted, and the set of initial source utterances.
 
 Each utterance from the initial set is used to create several parallel chains in order to allow for comparisons across chains with the same initial utterance.
-The final data thus consists of a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.
-^[We therefore use the terms "chain" and "branch" interchangeably in what follows.
+The final data thus consists of a set of reformulation trees, where each tree branch is a transmission chain started from the tree root, and continuing until it reaches a target depth defined for the experiment.^[
+We therefore use the terms "chain" and "branch" interchangeably in what follows.
 ]
 The number of branches in a tree is also adjusted for each run of the experiment.
 Except for those who drop out before finishing the experiment, all subjects are exposed exactly once to each tree in random order, such that all the reformulations in a given tree are made by distinct subjects, and nearly all subjects (excluding dropouts) are present in each tree.
@@ -121,8 +121,8 @@ All branches are cropped to the target depth for analysis.
 Finally, note that when exposed to a tree, subjects are always randomly assigned to the tip of one of the branches that have not yet reached the target depth:
 subjects are thus randomly distributed across branches, but their depth-ordering loosely corresponds to the time of arrival on the tree.
 In particular, if a subject starts the experiment after most other subjects have completed it, he or she will be mostly exposed to utterances deep in the branches.
-Due to the chained nature of the data, there is no economical way of countering this ordering bias.
-^[The following three approaches could be combined to counter ordering bias.
+Due to the chained nature of the data, there is no economical way of countering this ordering bias.^[
+The following three approaches could be combined to counter ordering bias.
 (1) Have each subject do a single trial, that is, use as many subjects as there are reformulations in the full experiment;
 this is extremely expensive as there is a fixed minimal price for each subject, corresponding to the time needed to explore the interface, answer the initial questionnaire, and train for the main task.
 (2) Have each subject wait an adjustable amount of time between each trial, to open the possibility for ordering subjects differently than their time of arrival;
@@ -181,14 +181,14 @@ while this approach could achieve some level of spread when combined with (2), i
   \label{fig:gistr-trees}
 \end{figure}
 
-Technically, the platform is a complete Web application based on current technologies, with accompanying backend server to collect and distribute utterances.
-^[The frontend first used the Ember.js framework [@ember.js_contributors_ember.js:_2017], and was later rewritten and extended using the Elm programming language [@czaplicki_elm:_2017].
+Technically, the platform is a complete Web application based on current technologies, with accompanying backend server to collect and distribute utterances.^[
+The frontend first used the Ember.js framework [@ember.js_contributors_ember.js:_2017], and was later rewritten and extended using the Elm programming language [@czaplicki_elm:_2017].
 Indeed, the assurance of no runtime exceptions that Elm provides was a strong argument in favour of switching, as was made clear by the trying "customer support" experience of a bug hitting 40 to 50 subjects at once during Experiment 1.
 The backend is a Python application written on top of the Django REST framework [@christie_django_2017].
 Most of the critical logic in the software is verified using automated tests, and the full source code is available under a Free Software licence at \url{https://github.com/interpretation-experiment/gistr-app} (frontend), and \url{https://github.com/interpretation-experiment/spreadr} (backend).
 ]
-The experiment is available at \url{https://gistr.io} and subject recruitment was done using Prolific Academic, a service analogous to Amazon Mechanical Turk and geared towards academic research.
-^[The public url of the experiment was not advertised anywhere else, and checking the subjects' Prolific Academic ID confirmed that only people from that platform participated in each experiment.
+The experiment is available at \url{https://gistr.io} and subject recruitment was done using Prolific Academic, a service analogous to Amazon Mechanical Turk and geared towards academic research.^[
+The public url of the experiment was not advertised anywhere else, and checking the subjects' Prolific Academic ID confirmed that only people from that platform participated in each experiment.
 ]
 
 Using the Prolific Academic service allowed us to select among a pool of over \num{26000} subjects, for which we used the following criteria:
@@ -206,8 +206,8 @@ The full filter provided over \num{2300} eligible subjects, from which the servi
 
 Experiment 1 was the first non-trivial launch of the platform, with an initial 48 subjects, 54 root utterances, and trees targeted for 6 branches of depth 8.
 Subjects took an average 64 minutes to complete the experiment, and were rewarded with £6.5.
-A software bug that appeared and had to be fixed halfway through the experiment led the Prolific Academic service to recruit more subjects than was originally asked for, and the final number of participants was 53,
-^[The bug appeared only once a large proportion of trees had reached their target depth, and then affected all the subjects nearing completion of the experiment.
+A software bug that appeared and had to be fixed halfway through the experiment led the Prolific Academic service to recruit more subjects than was originally asked for, and the final number of participants was 53,^[
+The bug appeared only once a large proportion of trees had reached their target depth, and then affected all the subjects nearing completion of the experiment.
 The time taken to respond to complaints and realise that the experiment had to be paused led some subjects to exceed the maximum allowed time on Prolific Academic, and the service then sent the experiment out to new subjects.
 After fixing the bug, most subjects who had started the experiment accepted to finish it, leading the final subject count to be higher than originally requested.
 ]
@@ -261,8 +261,8 @@ The benefit of the doubt was given to such utterances, and they were not coded a
 
 Spam in transmission chains has the additional property of invalidating all the utterances that are made after it, such that the total number of utterances to discard is more than the spam introduced by subjects.
 Coded this way, Experiment 1 showed an accumulated spam rate of 22.4%.
-Combined with an initial technical oversight that led a small portion of utterances to be misplaced in the chains,
-^[Ensuring that no two subjects are creating reformulations for the same chain tip at the same time, while not blocking other subjects from moving on with the experiment, is a non-trivial technical hurdle.
+Combined with an initial technical oversight that led a small portion of utterances to be misplaced in the chains,^[
+Ensuring that no two subjects are creating reformulations for the same chain tip at the same time, while not blocking other subjects from moving on with the experiment, is a non-trivial technical hurdle.
 Not solving it leads the chains to have "forks", that is, utterances with several children (possibly extending to sub-branches) instead of a single one.
 One of the children must then be chosen to form the main chain, and the others discarded.
 Solutions to the problem are difficult to test in practice, as they involve simulating dozens of subjects concurrently sending utterances to the platform.
@@ -369,14 +369,14 @@ Throughout pilots and experiments, our goal was therefore to find a set of utter
 The set of sources used in Experiment 1 covered a broad spectrum of utterance types sampled from the following categories:
 
 * Quotes from the MemeTracker data set used in the previous chapter,
-* Famous compelling quotes from Wikisource
-^[\url{https://en.wikisource.org/}.
+* Famous compelling quotes from Wikisource^[
+\url{https://en.wikisource.org/}.
 ]
 such as "Never doubt that a small group of thoughtful committed citizens can change the world, it is the only thing that ever has"
 * Quotes extracted from the movie *12 Angry Men* such as "If you ask me I'd slap those tough kids down before they start any trouble, it saves a lot of time and money",
 * Excerpts from news stories on controversial subjects (such as "How will the cultural and religious aspects of so many migrants impact E.U. society?") or risk-related subjects such as stories about the risks of Triclosan [used by @moussaid_amplification_2015 in their study of the amplification of risk perception],
-* The tale "War of the Ghosts" used by @bartlett_remembering:_1995 in his original studies,
-^[Available online at \url{http://penta.ufrgs.br/edu/telelab/2/war-of-t.htm}.
+* The tale "War of the Ghosts" used by @bartlett_remembering:_1995 in his original studies,^[
+Available online at \url{http://penta.ufrgs.br/edu/telelab/2/war-of-t.htm}.
 ]
 as well as excerpts from other tales,
 * A small number of hand-crafted sentences such as surprising statements (e.g. "Don't forget to leave the door open when you leave the office") or stereotype-incongruent statements (e.g. "The young boy was suddenly hit by the little girl").
@@ -407,8 +407,8 @@ The following example illustrates the style of these stories:
 
 A sample of 60 stories was extracted from the English version, for which French names and places were replaced with names and places more familiar to British subjects.
 Pilots explored these sets of utterances with reading factors of .1, .2, .3, .75 and 1.
-Finally, tests were also made using these utterances with content words replaced with pseudo-words, in order to restrict effects to the grammatical dimension only.
-^[Pseudo-words were generated using the Wuggy library [@keuleers_wuggy:_2010].
+Finally, tests were also made using these utterances with content words replaced with pseudo-words, in order to restrict effects to the grammatical dimension only.^[
+Pseudo-words were generated using the Wuggy library [@keuleers_wuggy:_2010].
 ]
 The pseudo-word tests turned out not to fit our exploration framework however, as the task became too confusing and subjects often replaced unknown words with real words.
 
