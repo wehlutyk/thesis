@@ -23,6 +23,7 @@ mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
 biblio-style: apa
+biblio-title: References
 # Figure and Section reference formatting. See header-includes for chapter ref formatting.
 cref: True
 figPrefix:

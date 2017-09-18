@@ -47,7 +47,7 @@ Contrasting approaches to these questions, in particular, might be one of the be
 We believe that doing so could provide a great many insights on the nature of cognition and of meaningful interactions overall, and on their role in cultural evolution.
 
 
-## Software colophon {-}
+# Software colophon {-}
 
 The analyses in this work were developed using Python's scientific computing ecosystem [@millman_python_2011].
 In particular, we directly used NumPy and SciPy [@van_der_walt_numpy_2011], Matplotlib [@hunter_matplotlib:_2007], Seaborn [@michael_waskom_mwaskom/seaborn:_2017], Pandas [@mckinney_data_2010], scikit-learn [@pedregosa_scikit-learn:_2011], NetworkX [@hagberg_exploring_2008], NLTK [@bird_natural_2009], IPython [@perez_ipython:_2007], BioPython [@cock_biopython:_2009], Lifelines [@cameron_davidson-pilon_camdavidsonpilon/lifelines:_2017], the spaCy NLP library^[\url{https://spacy.io/}] and many other libraries from the Python ecosystem.
@@ -56,5 +56,6 @@ The software and analyses written for @sec:brainscopypaste are documented and pu
 @sec:gistr additionally relied on the Wuggy library for pseudo-word generation [@keuleers_wuggy:_2010], and on the Elm programming language [@czaplicki_elm:_2017] and the Django Rest Framework [@christie_django_2017], as well as their ecosystems, for the transmission chain platform.
 The software and analyses developed for that chapter are also published under a Free Software license at [github.com/interpretation-experiment](https://github.com/interpretation-experiment/).
 
-
-# References
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
