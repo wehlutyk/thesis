@@ -1,6 +1,6 @@
 ---
 title: |
-  \large PhD Dissertation \
+  \large PhD Thesis \
   \LARGE Epidemiology of Representations:\
   An Empirical Approach
 author: |

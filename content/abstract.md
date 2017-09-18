@@ -1,9 +1,8 @@
 ---
 title: |
-  \large Thesis Abstract \
+  \large PhD Abstract \
   \LARGE Epidemiology of Representations:\
-  An Empirical Approach\
-  \large (original title may change)
+  An Empirical Approach
 author: |
   Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
@@ -12,16 +11,25 @@ author: |
   \hfill \
   Supervisor: Jean-Pierre Nadal^[
     CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
-    Email: \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+    Email: \hbox{\href{mailto:jpnadal@ehess.fr}{jpnadal@ehess.fr}}
   ] \
   Co-supervisor: Camille Roth^[
     CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po, médialab (Paris).
-    Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
+    Email: \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
   ]
 lang: en-GB
 geometry: margin=1.2in
 mainfont: TeX Gyre Pagella
 link-citations: True
+colorlinks: True
+biblio-style: apa
+# Additional headers
+header-includes:
+# Output in PDF/A-1b
+- \usepackage[a-1b]{pdfx}
+# Biblatex style
+- \usepackage{csquotes}
+- \DeclareLanguageMapping{english}{english-apa}
 ---
 
 # Abstract
