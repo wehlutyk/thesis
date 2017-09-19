@@ -31,8 +31,8 @@ All NLP computations in this chapter are performed using the spaCy library for P
 ]
 The insets show the data restricted to trees for which root utterances have 30 words or less (thus most utterances in those trees also have 30 words or less);
 this boundary keeps all the Fénéon root utterances in Experiment 3, and we use it to separate longer from shorter utterances for the purposes of this figure.
-The plots confirm that word length quickly decreases as subjects read and rewrite utterances, and indicate that the reduction depends on the size of what is being transformed:
-very long utterances (above 100 words) are reduced to less than 100 words in 2 reformulations or less, whereas root utterances with up to 28 content words can maintain their size until the end of the branches of Experiment 3.
+The plots confirm that the number of words quickly decreases as subjects read and rewrite utterances, and indicate that the reduction depends on the size of what is being transformed:
+very long utterances (above 100 words) are reduced to less than 100 words in 2 reformulations or less, whereas root utterances with up to 28 words can maintain their size until the end of the branches of Experiment 3.
 Note that the differences in the speed of size reduction across the experiments are tied to surface features of the root utterances.
 Word count and average word frequency in particular, which we will later show are strongly related to transformation rate, have different distributions in the set of root utterances of each experiment:
 all the root utterances in Experiment 2 have less words than those of Experiment 3, and root utterances from Experiment 2 are in an oral style, with a higher proportion of stopwords than in Experiments 1 and 3 (stopwords are alvays high-frequency words, and make up 67% of the root utterances of Experiment 2, versus 58% in Experiment 1 and 48% in Experiment 3).
@@ -429,9 +429,8 @@ Note that this implementation is less efficient but presentationally clearer tha
 
 Also, our implementation of the exploration of that tree is mostly brute force, and does not try to be smart in predicting which branches are dead-ends.
 In spite of this, we did not need to optimise the computation any further (aside from obvious gains in caching repeated computations), as most of the time of a deep alignment is spent computing shallow alignments, and most alignments of utterances are very shallow anyway.
-Finally, note that this approach provides no guarantee of finding the globally optimal deep alignment.
-Indeed, it starts from optimal shallow alignments, and explores the tree of possibles from there on.
-But the initial shallow alignments it extends may not be the best starting point, such that the exploration may return locally optimal deep alignments.
+Finally, note that this approach provides no guarantee of finding globally optimal deep alignments, as it starts from optimal shallow alignments and explores the tree of possibilities from there on.
+Indeed, it is possible that better deep alignments could be found by starting from non-optimal shallow alignments, a path that our current method does not explore.
 
 Nonetheless, given a good set of parameters (see the next section where we derive those), this deep alignment algorithm produces surprisingly satisfying results given the simplicity of its underlying principles.
 In the case of the two utterances exemplified at the beginning of this section, the algorithm produces the following deep alignment tree.
@@ -501,7 +500,7 @@ $$A\left(\mathcal{T}, \bm{\theta}\right) = \left\{ \text{aln}(u, u', \bm{\theta}
 
 Where $\text{aln}(u, u', \bm{\theta})$ is the set of alignments between $u$ and $u'$ produced by $\bm{\theta}$.
 $A\left(\mathcal{T}, \bm{\theta}\right)$ is thus a set of sets of individual shallow alignments (indeed each pair of utterances generates its own set of shallow alignments).
-The fit between two such sets of sets of alignments $A\left(\mathcal{T}, \bm{\theta}_1\right)$ and $A\left(\mathcal{T}, \bm{\theta}_2\right)$ is then computed as:
+The fit between two such sets $A\left(\mathcal{T}, \bm{\theta}_1\right)$ and $A\left(\mathcal{T}, \bm{\theta}_2\right)$ is then computed as:
 
 $$
 f(\mathcal{T}, \bm{\theta}_1, \bm{\theta}_2) =
@@ -587,7 +586,7 @@ For instance, if we had $n$ deep alignment trees with $m_1$, ..., $m_n$ leaves i
 Given this list of deep alignments, we then examine which operations are present in the majority of the deep alignments.
 More precisely, for a given word $w$ in $u$, determine if it is conserved either exactly or through replacement in at least half of all the deep alignments.
 if it is, then select the child word in $u'$ which appears in most deep alignments (i.e. the majority child);
-if $w$ in on conserved in at least half of the deep alignments, then consider it deleted.
+if $w$ is not conserved in at least half of the deep alignments, then consider it deleted.
 Any word in $u'$ that has no assigned parent word is then considered an insertion.
 
 A few details are worth mentioning here.
@@ -601,7 +600,7 @@ Finally, a small number of cases create new single-word exchanges, as two words 
 manual inspection of these cases showed that such exchanges are consistent with the transformation they represent.
 In practice, only 53 of the 3461 transformations in Experiment 3 have more than one deep alignment, 46 of which have 2 (the other seven having 3 to 6 deep alignments), such that any change here has virtually no impact on the results.
 
-Now, consider for instance a toy branch $u \rightarrow u' \rightarrow u''$.
+Now, consider for instance a simple branch $u \rightarrow u' \rightarrow u''$.
 A word $w'$ in the middle utterance $u'$ is now uniquely identified (by the consensus alignment) either as an insertion, or as the conservation or replacement of a parent word $w \in u$ (with or without movement due to an exchange).
 Continuing down the branch, $w'$ can also be linked to its child $w''$ (if it was not deleted), thus creating a lineage for this specific word along the branch.
 Constructing consensus alignments for each transformation thus allows us to follow the ancestry and descent of individual words through parent and child transformations in a branch.
@@ -710,7 +709,7 @@ Manually inspecting the branches' transformations on the utterance dimension ind
 
 As we just noted, burstiness at the word level is no surprise:
 words are not processed independently and transforming parts of an utterance is likely to depend on syntactic and semantic boundaries.
-However, the behaviour of the bursts impose constraints on the kind of model that can account for the transformation process.
+However, the behaviour of the bursts imposes constraints on the kind of model that can account for the transformation process.
 In particular, the fact that insertions and deletions seem to be of similar magnitude when close to each other is not easy to account for.
 For instance, when creating an insertion, a generative model must be aware of any deletions that have already been created in the vicinity, and take their size into account.
 Such a generative model would need to involve memory and attention span mechanisms that allow bursts to relate to their neighbouring operations (both preceding and following).
@@ -726,7 +725,8 @@ Our model relies on a simplification of the transformation diagrams in the utter
 In order to keep the model palatable, we first set aside part of the information provided by exchanges.
 Indeed, the natural way of analysing an exchange in a transformation diagram is to see it as a permutation of a sub-sequence of words in the utterance, with possible replacements, insertions and deletions added in-between.
 Analysing the regularities of such a process is matter for a model in itself, and we chose to leave this aspect of transformations for further research.
-We instead focus on insertions, deletions, and replacements, and keep from exchanges only the conserved or replaced status of a word.
+We instead focus on insertions, deletions and replacements only.
+When words are exchanged we consider only whether they are replaced or conserved, and do not look at their change of position.
 Note that while this excludes any shifts in position from our model, the approach still benefits from having detected exchanges earlier in the procedure:
 it guarantees that the remaining insertions and deletions correspond to actual appearances and disappearances, not undetected exchanges.
 
@@ -777,8 +777,8 @@ Intuitively, a process with average inter-event time shorter than its standard d
 Note that this measure can be applied to any series of events, and we therefore use it in both the utterance and the branch dimensions.
 In the utterance dimension, it tells us the extent to which the changes that a subject makes in an utterance tend to occur in contiguous chunks.
 We will see that this chunkiness is very strong, so much that we will start examining insertions and deletions and the level of chunks.
-In the branch dimension, the measure tells how bursty the evolution along a branch is.
-a bursty evolution would indicate a punctuated equilibria behaviour, with long periods of stability interrupted by sudden bursts of transformations.
+In the branch dimension, the measure tells us how bursty the evolution along a branch is.
+A bursty evolution would indicate a punctuated equilibria behaviour, with long periods of stability interrupted by sudden bursts of transformations.
 A non-bursty behaviour would indicate that a subject's transformations do not influence the following subject so much.
 
 Let us start with the utterance dimension.
@@ -1061,7 +1061,7 @@ The distance between a chunk-level insertion and a chunk-level deletion separate
 If a chunk-level insertion has such a nearest neighbour (it may not if there were no deletions, or if it occurred in the middle of exchanged words such as in @fig:gistr-utterance-arrays), we note $r$ the separation between the two chunk-level operations.
 If chunk-level insertion and deletion face each other, $r = 0$;
 otherwise, $r < 0$ if the deletion comes before the insertion in the utterances, $r > 0$ if the deletion comes after, and $|r|$ equals the number of conserved or replaced words separating the two.
-For a given value of $r$, we compute a robust linear regression of chunk-levle insertion size against chunk-level deletion size for all insertion-deletion chunks separated by $r$.
+For a given value of $r$, we compute a robust linear regression of chunk-level insertion size against chunk-level deletion size for all insertion-deletion chunks separated by $r$.
 We then take the slope of that regression as an indicator of the correspondence between the sizes of $r$-separated chunk-level insertions and deletions.^[
 The robust regression lets us minimise the impact of outliers in the distributions of chunk-level insertion sizes, which otherwise had a strong effect on more common correlation measures.
 The regression is computed using the Statsmodels statistics library for Python, which implements robust M-estimation using Huber's T norm [@huber_robust_1981] with a default parameter of 1.345.
@@ -1144,7 +1144,7 @@ second, we distinguish the susceptibility to appearing from the susceptibility t
 \end{figure}
 
 In order to render the results more comparable to the previous chapter, in this subsection we also filter out stopwords in all the utterances.
-@Fig:gistr-suscept-pos shows POS susceptibilities for being the target or the new word of an operation.
+@Fig:gistr-suscept-pos shows the behaviour for grammatical categories, plotting *Part-of-Speech* (POS) susceptibilities for being the target or the new word of an operation.
 The two measures are very close to each other, and similarly to the online case there is little to no effect of the main categories on susceptibility:
 adjectives are involved at random, nouns appear slightly less than at random, and verbs slightly more.
 Verbs, nouns and proper nouns are all irrelevant for targeting, but adverbs are targeted very slightly above random.

@@ -32,7 +32,7 @@ In our case, such an incentive could guarantee subjects' involvement but would n
 
 Finally, our setup entirely obviates the question of the context in which utterances are processed and reproduced.
 This was a deliberate choice, as we decided to use the simplest transmission chain task possible and reserve the introduction of more complexity (such as context effects) for later research.
-As a consequence however, we have no control over the situation in which subjects read an utterance, nor did we add contextual paragraphs or preceding utterances to examine framing or priming effects on the interpretations and transformations of subjects.
+As a consequence however, we have no control over the situation in which subjects read an utterance, nor did we add contextual paragraphs or preceding utterances to examine framing or priming effects on the interpretations and transformations made by subjects.
 Preceding text is very likely to have effects on the transformations, as these are reliably observed in the study of intrusions in recall of word lists [@zaromb_temporal_2006].
 Manual exploration of the data also showed (rare) cases of words from one utterance bleeding into later transformations:
 in one case, a subject reintroduced a word that they had read in an utterance three trials earlier.

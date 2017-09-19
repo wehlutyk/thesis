@@ -50,9 +50,9 @@ any behaviour or piece of content that is not observable in public data sets is 
 
 Overall, studies targeted at understanding the details of transformations of linguistic content seem forced to pick two of the following three properties, and relinquish the third:
 realistic content, computational analysis, and control over the generation of the data.
-Picking realistic content and computational analysis leads to the "already coded" strategy.
-Picking realistic content and control over data generation requires hand-coding a substantial part of the data collected, that is strategy two.
-Finally, computational analysis and data generation control leads to the "simple setting" strategy.
+Picking "realistic content and computational analysis" leads to the "already coded" strategy.
+Picking "realistic content and control over data generation" requires hand-coding a substantial part of the data collected, that is strategy two.
+Finally, "computational analysis and data generation control" leads to the "simple setting" strategy.
 This bind thus appears as a major challenge to the better understanding of changes in linguistic content, and more broadly to the study of language-related cultural evolution.
 In particular, it hinders attempts to model the low-level processes which could provide a more parsimonious account of the contrasts observed in linguistic transmission chains, and allow for a deeper integration of the study of cultural evolution with linguistics.
 

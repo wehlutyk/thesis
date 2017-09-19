@@ -64,7 +64,7 @@ The corresponding costs are the following:
 * *Spam-control*:
   subjects are not constrained or encouraged by the face-to-face interaction of a laboratory experiment, neither are they (in most experiments) in the course of an interaction with friends that provides natural incentives for what they write, as can be the case with digital traces.
   Participants must have an incentive to perform the experiment's tasks well.
-  If the spam introduced by one subject can be isolated in the design of the experiment, one possibility is to filter it once the data is collected and make payment depend on its prevalence.
+  If the spam introduced by one subject can be isolated in the design of the experiment, one possibility is to filter it after data collection and make payment depend on its prevalence.
   But if the spam introduced by one subject naturally propagates to data seen by other subjects in the experiment, as is the case for transmission chains, effective anti-spam pressures and motivations need to be factored into the design.
 * *Recruitment cost*:
   while recruiting up to a few hundred subjects is cheaper than the equivalent for a laboratory experiment (not counting the development cost),
@@ -102,7 +102,7 @@ The experiment is available to subjects as a website, and passing it involves th
   The process loops until the subject has completed all the utterances assigned to them (calibrated so that completing the experiment lasts at most one hour).
   The real trials started after 3 to 5 training trials, depending on the overall experiment length.
 
-This simple setup lets us quickly gather data sets of several thousand utterance transformations, ensuring our results were be comparable to those from the set of \num{6177} substitutions extracted in the previous chapter.
+This simple setup lets us quickly gather data sets of several thousand utterance transformations, ensuring our results will be comparable to those from the set of \num{6177} substitutions extracted in the previous chapter.
 Two parameters are then left to vary:
 the reading time for the source utterances, computed as the number of words in an utterance multiplied by a reading factor that is to be adjusted, and the set of initial source utterances.
 
