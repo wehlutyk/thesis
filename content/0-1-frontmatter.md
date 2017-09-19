@@ -22,7 +22,14 @@ geometry: a4paper
 mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
-biblio-style: apa
+biblatexoptions:
+  - style=authoryear-comp
+  - uniquename=false
+  - urldate=edtf
+  - url=false
+  - maxbibnames=20
+  - giveninits=true
+  - isbn=false
 biblio-title: References
 # Figure and Section reference formatting. See header-includes for chapter ref formatting.
 cref: True
@@ -37,8 +44,33 @@ header-includes:
   # Output in PDF/A-1b
   - \usepackage[a-1b]{pdfx}
   # Biblatex style
-  - \usepackage{csquotes}
-  - \DeclareLanguageMapping{english}{english-apa}
+  - \usepackage[strict=true]{csquotes}
+  - |
+    \newbibmacro*{cite:labelyear+extrayear}{% adds the origyear to almost every cite command
+    \iffieldundef{labelyear}
+      {}
+      {\printtext[bibhyperref]{%
+        \iffieldundef{origyear}%<--- this is new ...
+          {}%
+          {\printfield{origyear}%
+           \setunit{\addslash}}%<--- ... up until here
+         \printfield{labelyear}%
+         \printfield{extrayear}}}}
+  - |
+    \renewbibmacro*{date+extrayear}{% print the origyear in the bibliography as well
+    \iffieldundef{labelyear}
+      {}
+      {\printtext[parens]{%
+        \iffieldundef{origyear}%<--- this is new ...
+          {}%
+          {\printfield{origyear}%
+           \setunit{\addslash}}%<--- ... up until here
+          \printlabeldateextra}}}
+  - |
+    \AtEveryBibitem{
+      \clearfield{note}%
+    }
+  - \renewbibmacro{in:}{\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
   # General comments
   - \usepackage[usenames,dvipsnames]{xcolor}
   - \newcommand{\add}[1]{{\color{MidnightBlue}\#~ADD:} {\color{MidnightBlue}#1}}
