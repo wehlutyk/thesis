@@ -68,7 +68,7 @@
 	  \hfill jury
 	\end{minipage}
 	\hfill
-	\begin{minipage}[t]{0.84\linewidth}		
+	\begin{minipage}[t]{0.84\linewidth}
 		Pr. Russell Gray\par
 		\hskip1cm {\footnotesize University of Auckland}\par
 		\hskip1cm {\footnotesize Max Planck Institute for the Science of Human History (Jena)}\par
@@ -77,7 +77,7 @@
 		\hskip1cm {\footnotesize University of Bristol}\par
 		\vspace{.1cm}
 		Dr. Márton Karsai\par
-		\hskip1cm {\footnotesize Laboratoire de l'Informatique du Parallélisme (LIP, UMR 5668 CNRS-ENS Lyon-UCB Lyon 1-INRIA, Lyon)}\par
+		\hskip1cm {\footnotesize École Normale Supérieure de Lyon - INRIA (LIP, UMR 5668 CNRS-ENS Lyon-UCB Lyon 1-INRIA, Lyon)}\par
 		\hskip1cm {\footnotesize IXXI Rhône Alpes Complex Systems Institute}\par
 		\vspace{.1cm}
 		Pr. Jean-Pierre Nadal\par
