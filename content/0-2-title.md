@@ -13,11 +13,11 @@
 	\vspace{.5cm}
 	{\Large Thesis submitted for the degree of Ph.D. in Cognitive Science\par}
 
-	\vspace{1.5cm}
+	\vspace{1cm}
 
 	{\Large\itshape Sébastien Lerique\par}
 	\vspace{.5cm}
-	{\huge\bfseries Epidemiology of Representations:\\An Empirical Approach\par}
+	{\huge\bfseries Epidemiology of representations:\\an empirical approach\par}
 	\vspace{.5cm}
 	\begin{minipage}[t]{0.49\linewidth}
 		\large
@@ -54,11 +54,7 @@
 	\hfill
 	\begin{minipage}[t]{0.84\linewidth}
 		Pr. Russell Gray\par
-		\hskip1cm {\footnotesize University of Auckland}\par
-		\hskip1cm {\footnotesize Max Planck Institute for the Science of Human History (Jena)}\par
-		\vspace{.1cm}
 		Pr. Fiona Jordan\par
-		\hskip1cm {\footnotesize University of Bristol}\par
 	\end{minipage}
 
 	\vspace{.5cm}
@@ -94,5 +90,12 @@
 		Dr. Mónica Tamariz\par
 		\hskip1cm {\footnotesize Heriot-Watt University (Edinburgh)}\par
 	\end{minipage}
+
+	\vfill
+	\rule{0.5\textwidth}{.2pt}\\
+	\vspace{.3cm}
+	{\footnotesize This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\\
+	To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-sa/4.0/}.}
+
 \end{titlepage}
 \restoregeometry
