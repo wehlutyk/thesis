@@ -94,8 +94,16 @@
 	\vfill
 	\rule{0.5\textwidth}{.2pt}\\
 	\vspace{.3cm}
-	{\footnotesize This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\\
-	To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-sa/4.0/}.}
+
+	\begin{minipage}[t]{0.10\linewidth}
+		\vspace{0pt}
+		\includegraphics[width=\textwidth]{images/misc/cc-by-sa.pdf}
+	\end{minipage}
+	\quad
+	\begin{minipage}[t]{.655\linewidth}
+		\vspace{0pt}
+		{\footnotesize This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\\ To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-sa/4.0/}.}
+	\end{minipage}
 
 \end{titlepage}
 \restoregeometry
