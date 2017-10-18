@@ -7,7 +7,9 @@ CONTENT := content
 ## All markdown files in the working directory
 ABSTRACT := abstract.md
 ABSTRACT_SRC := $(CONTENT)/$(ABSTRACT)
-SRC = $(sort $(filter-out $(ABSTRACT_SRC),$(wildcard $(CONTENT)/*.$(MEXT))))
+ABSTRACT_FR := résumé.md
+ABSTRACT_FR_SRC := $(CONTENT)/$(ABSTRACT_FR)
+SRC = $(sort $(filter-out $(ABSTRACT_SRC) $(ABSTRACT_FR_SRC),$(wildcard $(CONTENT)/*.$(MEXT))))
 
 ## Location of Pandoc support files.
 #PREFIX = $(HOME)/.pandoc
@@ -23,7 +25,7 @@ BIB := $(CONTENT)/bibliography-fixed.bib
 OPTS := --filter pandoc-crossref --biblatex --bibliography $(BIB)
 
 ## Output pdfs
-PDFS := thesis.pdf abstract.pdf
+PDFS := thesis.pdf abstract.pdf résumé.pdf
 
 ## Tell the user what we're doing
 define print-info =
@@ -49,6 +51,13 @@ thesis.pdf: $(SRC) $(BIB)
 abstract.pdf: $(ABSTRACT_SRC) $(BIB)
 	@$(print-info)
 	@pandoc $(ABSTRACT_SRC) -s -o $(patsubst %.pdf,%.tex,$@) $(OPTS)
+	@latexmk -xelatex -latexoption="--shell-escape" $(patsubst %.pdf,%.tex,$@)
+	@echo "Done."
+	@notify-send "Pdf built" "$@ finished pandocking"
+
+résumé.pdf: $(ABSTRACT_FR_SRC) $(BIB)
+	@$(print-info)
+	@pandoc $(ABSTRACT_FR_SRC) -s -o $(patsubst %.pdf,%.tex,$@) $(OPTS)
 	@latexmk -xelatex -latexoption="--shell-escape" $(patsubst %.pdf,%.tex,$@)
 	@echo "Done."
 	@notify-send "Pdf built" "$@ finished pandocking"

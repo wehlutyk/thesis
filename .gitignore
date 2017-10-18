@@ -11,10 +11,12 @@ svg-inkscape/
 # Built pdfs
 thesis.pdf
 abstract.pdf
+résumé.pdf
 
 # Intermediary tex files
 thesis.tex
 abstract.tex
+résumé.tex
 
 # Build files
 creationdate.lua
