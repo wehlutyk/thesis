@@ -10,7 +10,7 @@ author: |
   ] \
   \hfill \
   Supervisor: Jean-Pierre Nadal^[
-    Centre d’Analyse et de Mathématique Sociales (CAMS, UMR 8557 EHESS-CNRS, Paris)}, and Laboratoire de Physique Statistique (LPS, UMR 8550 CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
+    Centre d’Analyse et de Mathématique Sociales (CAMS, UMR 8557 EHESS-CNRS, Paris), and Laboratoire de Physique Statistique (LPS, UMR 8550 CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
     Email: \hbox{\href{mailto:jpnadal@ehess.fr}{jpnadal@ehess.fr}}
   ] \
   Co-supervisor: Camille Roth^[
@@ -18,30 +18,36 @@ author: |
     Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
 lang: en-GB
-geometry: margin=1.2in
+geometry: a4paper
 mainfont: TeX Gyre Pagella
 link-citations: True
 colorlinks: True
-biblio-style: apa
+biblatexoptions:
+  - style=authoryear-comp
+  - uniquename=false
+  - urldate=edtf
+  - url=false
+  - maxbibnames=20
+  - giveninits=true
+  - isbn=false
+biblio-title: References
 # Additional headers
 header-includes:
-# Output in PDF/A-1b
-- \usepackage[a-1b]{pdfx}
-# Biblatex style
-- \usepackage{csquotes}
-- \DeclareLanguageMapping{english}{english-apa}
+  # Output in PDF/A-1b
+  - \usepackage[a-1b]{pdfx}
+  # Biblatex style
+  - \usepackage{csquotes}
+  - \DeclareLanguageMapping{english}{english-apa}
 ---
 
 # Abstract
 
 Recent years have seen several attempts to unify cognitive science and social science.
-The fields of Social cognition and Cultural evolution, involving an increasingly diverse range of disciplines, have emerged as promising approaches over the past decade.
+The fields of Social cognition and Cultural evolution, involving an increasingly diverse range of disciplines, have emerged as promising approaches over the past two decades.
 This thesis is concerned with a subject formalised by Dan Sperber in the mid-nineties:
 in a series of innovative articles gathered in @sperber_explaining_1996, the author suggests what is now known as Cultural Attraction Theory (CAT), aiming to provide the cognitive and social sciences with a common framework to address interdisciplinary questions.
 CAT starts from an ontology made only of "mental representations" (those from cognitive science) and their expressions in the outer world, "public representations".
-By proposing to study the distribution of public representations that circulate in a society, it provides a framework in which knowledge from cognitive science and anthropology can be combined to explore the interactions between evolution and culture. <!-- [as exemplified in @baumard_mutualistic_2013]. -->
-
-<!-- Cultural Attraction Theory starts from an ontology made of "mental representations" (those from cognitive science) and their expressions in the outer world, "public representations". It proposes to study the distribution of public representations that circulate in a society, and combine knowledge from cognitive science and anthropology to explain their evolution. As Sperber argues, this naturalistic approach builds on cognitive principles, is amenable to and can benefit from anthropological works, and allows interdisciplinary questions to be rephrased in terms of epidemiology of representations. For instance: what types of representations are only weakly transformed as they are interpreted and produced anew by successive people? Those representations, spreading wider than the others, become cultural. Are they attractors for the interpretation-reproduction process of representations? If so, which cognitive modules are involved in the stability of such representations? -->
+By proposing to study the distribution of public representations that circulate in a society, it provides a framework in which knowledge from cognitive science and anthropology can be combined to explore the interactions between evolution and culture.
 
 Over the last decade, this research programme has benefited from several theoretical developments with genuine mathematical models [@claidiere_role_2007;@claidiere_how_2014].
 A growing community also explores these questions with empirical approaches.
