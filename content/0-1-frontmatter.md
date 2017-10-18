@@ -1,17 +1,17 @@
 ---
 author: |
   Sébastien Lerique^[
-    Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
+    Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557 EHESS-CNRS, Paris).
     Email: \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
   ] \
   \hfill \
   Supervisor: Jean-Pierre Nadal^[
-    CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
+    Centre d’Analyse et de Mathématique Sociales (CAMS, UMR 8557 EHESS-CNRS, Paris), and Laboratoire de Physique Statistique (LPS, UMR 8550 CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
     Email: \hbox{\href{mailto:jpnadal@ehess.fr}{jpnadal@ehess.fr}}
   ] \
   Co-supervisor: Camille Roth^[
-    CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po, médialab (Paris).
-    Email: \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
+    Sciences Po, médialab (Paris), and Centre Marc Bloch e.V. (UMIFRE 14 CNRS-MAEE, Berlin).
+    Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
 documentclass: book
 # Numbering comes from pandoc itself (not pandoc-crossref)
