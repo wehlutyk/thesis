@@ -44,8 +44,8 @@ This approach makes a number of unusual trade-offs, the benefits of which can be
   This is especially relevant for exploratory work which is made much easier with shorter trial-and-error cycles.
 * *Flexible recruitment*:
   while also a challenge (see costs below), subject recruitment is more flexible than in the laboratory:
-  services like Prolific Academic
-  ^[\url{https://www.prolific.ac/}.
+  services like Prolific Academic^[
+  \url{https://www.prolific.ac/}.
   ]
   let the experimenter recruit at reasonable costs in pools of tens of thousands of subjects with fine-grained demographic filters.
   Wider audiences can be achieved by offering non-financial rewards, framing the experiment as a self-improvement application, or turning it into a game.
@@ -54,8 +54,8 @@ The corresponding costs are the following:
 
 * *Technical challenge*:
   developing Web and smartphone experiments involves a substantial amount of engineering, and makes use of technologies that most researchers, even technical, are not familiar with.
-  While a couple of all-in-one kits exist,
-  ^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.
+  While a couple of all-in-one kits exist,^[
+  See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.
   ]
   creating an experiment that meets one's research questions requires learning average skills in most of the technologies at play:
   a native or cross-platform smartphone development environment, Web application development, backend server programming, and some server administration skills.
@@ -67,8 +67,8 @@ The corresponding costs are the following:
   If the spam introduced by one subject can be isolated in the design of the experiment, one possibility is to filter it after data collection and make payment depend on its prevalence.
   But if the spam introduced by one subject naturally propagates to data seen by other subjects in the experiment, as is the case for transmission chains, effective anti-spam pressures and motivations need to be factored into the design.
 * *Recruitment cost*:
-  while recruiting up to a few hundred subjects is cheaper than the equivalent for a laboratory experiment (not counting the development cost),
-  ^[Global competition on online platforms like Prolific Academic drives subject payments down.
+  while recruiting up to a few hundred subjects is cheaper than the equivalent for a laboratory experiment (not counting the development cost),^[
+  Global competition on online platforms like Prolific Academic drives subject payments down.
   ]
   and is easy to manage for fast prototyping and pilot tests, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
   Turning an experiment into a playful application or an application useful to the subjects (effectively making them users) involves yet another set of skills, can prove challenging, and must be factored into the development cost.
@@ -92,8 +92,8 @@ no distraction task is used between the reading and writing phases, and the mate
 The experiment is available to subjects as a website, and passing it involves the following steps:
 
 * Welcome and sign up ([@fig:gistr-welcome;@fig:gistr-signup]),
-* Answering a preliminary questionnaire (@fig:gistr-questionnaire),
-  ^[An early version of the experiment also included a word span test at this stage.
+* Answering a preliminary questionnaire (@fig:gistr-questionnaire),^[
+  An early version of the experiment also included a word span test at this stage.
   However, similarly to the age of subjects that we collect in the questionnaire, this data turned out to not be relevant in the analyses.
   The magnitude of transformations depends far more on the conscientiousness of subjects, and this non-trivial test was later removed during one of the frontend rewrites.
   ]
@@ -316,8 +316,8 @@ The most important points can be summed up as follows:
   It seems, however, that a more interactive option would be more effective, as only a handful of subjects entered comments over the course of Experiments 2 and 3.
 * *Instructions*:
   finally, a continuous effort was invested into fine-tuning the exact phrasing of instructions, and making the interface for instructions palatable using a now common pattern:
-  for the instructions pictured in @fig:gistr-instructions for instance, different elements or images are successively foregrounded and highlighted, and a tooltip with short explanations appears next to the active element.
-  ^[The pattern was popularised by software libraries such as Intro.js (\url{http://introjs.com/}).
+  for the instructions pictured in @fig:gistr-instructions for instance, different elements or images are successively foregrounded and highlighted, and a tooltip with short explanations appears next to the active element.^[
+  The pattern was popularised by software libraries such as Intro.js (\url{http://introjs.com/}).
   ]
   Here too, Experiment 1 and subsequent pilots allowed users to skip these instructions, leading a portion of the subjects to effectively never read them.
   Experiments 2 and 3 made navigating the complete list of instructions mandatory in order to start the trials.
