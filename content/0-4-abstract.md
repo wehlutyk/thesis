@@ -24,6 +24,8 @@ cultural evolution; data mining; psycholinguistics; web experiment; transmission
 
 ## Français {-}
 
+**Titre :** Épidémiologie des repésentations : une approche empirique.
+
 Nous proposons une contribution empirique aux tentatives récentes d'unification des sciences cognitives et des sciences sociales.
 La Théorie de l'Attraction Culturelle (CAT) propose de s'atteler à des questions interdisciplinaires en utilisant une ontologie commune faite de représentations.
 D'après la CAT, malgré des transformations au niveau micro, la distribution globale des représentations peut rester stable grâce à des attracteurs culturels.
