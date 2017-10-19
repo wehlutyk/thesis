@@ -90,8 +90,6 @@
 
 \CoverDate    {2017}
 
-% \Keywords     {some keyword\sep
-%                another keyword\sep
-%                some more keywords}
-%
-% \Subject      {This is where you put the abstract.}
+\Keywords     {cultural evolution\sep data mining\sep psycholinguistics\sep web experiment\sep transmission chain\sep sequence alignment\sep transformation model\sep meaning in context}
+
+\Subject      {We propose an empirical contribution to recent attempts to unify cognitive science and social science. We focus on Cultural Attraction Theory (CAT), a framework that proposes a common ontology made of representations for cognitive and social science to address interdisciplinary questions. CAT hypothesizes that in spite of important transformations at the micro-level, the overall distribution of representations remains stable due to dynamical attractors. Testing this hypothesis is challenging and existing approaches have several shortcomings. Yet, by taking advantage of web technologies one can combine the advantages of existing techniques to expand the range of possible empirical studies. We develop two case studies to show this with short written utterances. The first examines transformations that quotations undergo as they are propagated online. By connecting data mining tools with psycholinguistics, we show that word substitutions in quotations are consistent with the hypothesis of cultural attractors and with known effects of lexical features. The second case study expands these results, and makes use of a purposefully developed web experiment to gather quality transmission chain data sets. By extending a bioinformatics alignment algorithm, we decompose transformations into simpler operations, and propose a first descriptive model which relates psycholinguistic knowledge of sentence transformation to evolutionary trends elicited in the cultural evolution literature. Finally, we show that further understanding the evolution of such representations requires an account of meaning in context, a task for which we flesh out possible empirical approaches.}
