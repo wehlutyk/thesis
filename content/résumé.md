@@ -71,7 +71,7 @@ Le fil directeur de cette thèse est le suivant :
 en capitalisant sur les possibilités actuelles des technologies informatiques, et en particulier les possibilités expérimentales des navigateurs web, il est possible de combiner les avantages de ces différentes techniques pour étendre le champ des questions d'évolution culturelle qui peuvent être étudiées empiriquement.
 Ce faisant, des sujets qui étaient jusque là restés au niveau théorique peuvent se manifester concrètement, ou même devenir des problèmes qu'il faudra résoudre pour avancer.
 Les travaux présentés dans cette thèse se concentrent sur un type particulier de représentation linguistique :
-de courts énoncés écrits, composés de quelques phrases maximum.
+de courts énoncés écrits, composés au plus de quelques phrases.
 Ce type de représentation est à la fois adapté à l'étude empirique (il est courant dans les réseaux sociaux en ligne, et relativement facile à utiliser dans des expériences contrôlées) et extrêmement versatile et varié.
 En prenant ces énoncés comme matériau principal, la présente thèse se propose de contribuer à l'étude empirique d'une des questions centrales de la CAT :
 l'existence d'attracteurs culturels, et leur pertinence dans l'étude de l'évolution culturelle à court terme.
