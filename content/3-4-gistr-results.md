@@ -1,6 +1,6 @@
 ## Results {#sec:gistr-results}
 
-Recall that the goal we set ourselves is to provide a better understanding of the process at work than what low-level feature analyses such as that of the previous chapter.
+Recall that the goal we set ourselves is to provide a better understanding of the process at work than what low-level feature analyses such as that of the previous chapter have shown.
 In doing so we also hope to bring some light to the processes underlying high-level contrasts of utterance categories that have been extensively studied in the literature.
 The analysis we present is thus geared towards creating an intermediary representation of the effect of transformations on utterances, one that is at a midpoint between the low-level of word features and the high-level of category contrasts, and can be usefully modelled to better understand the evolution of utterance chains.
 Since this work was exploratory in nature, our presentation will also loosely follow a step-by-step development of the analysis with intermediate results.
@@ -35,7 +35,7 @@ The plots confirm that the number of words quickly decreases as subjects read an
 very long utterances (above 100 words) are reduced to less than 100 words in 2 reformulations or less, whereas root utterances with up to 28 words can maintain their size until the end of the branches of Experiment 3.
 Note that the differences in the speed of size reduction across the experiments are tied to surface features of the root utterances.
 Word count and average word frequency in particular, which we will later show are strongly related to transformation rate, have different distributions in the set of root utterances of each experiment:
-all the root utterances in Experiment 2 have less words than those of Experiment 3, and root utterances from Experiment 2 are in an oral style, with a higher proportion of stopwords than in Experiments 1 and 3 (stopwords are alvays high-frequency words, and make up 67% of the root utterances of Experiment 2, versus 58% in Experiment 1 and 48% in Experiment 3).
+all the root utterances in Experiment 2 have less words than those of Experiment 3, and root utterances from Experiment 2 are in an oral style, with a higher proportion of stopwords than in Experiments 1 and 3 (stopwords are always high-frequency words, and make up 67% of the root utterances of Experiment 2, versus 58% in Experiment 1 and 48% in Experiment 3).
 The steeper slopes in Experiments 1 and 3 compared to Experiment 2 are thus tied to the higher word counts and lower proportions of stopwords in their root utterances.
 
 Next, we eliminate stopwords from the utterances and focus on the reduction in number of content words (notice however that stopword recognition is less reliable in Experiment 1 than in Experiments 2 and 3, because of spelling mistakes).
@@ -654,7 +654,7 @@ Second, the vertical axis which delves into the detail of a transformation repre
 Call this the utterance dimension.
 An important feature of this representation of transformations is its uniqueness.
 Indeed, at the mathematical level a consensus alignment encodes a transformation as a pair of word sequences with gaps (and possible sub-alignments of exchanged parts), an encoding that is not unique.
-Insertions and deletions that happen together can be reordered (putting insertions before their neighbouring deletions instead of the other way around, or alternating an insertion with a deletion);
+Insertions and deletions that happen together can be reordered (putting insertions before their neighbouring deletions instead of the other way around, or alternating an insertion with a deletion).
 The exchange of two parts around a stable chunk can also be re-encoded by inverting the roles of stable and exchanged chunks, all without changing the transformation represented by the encoding.
 By compressing the gaps in this encoding, the utterance dimension merges these equivalent versions together and produces a unique diagram representing the transformation.
 We picture this correspondence between the transformation diagram in the utterance dimension and the compressed form of consensus alignments in @fig:gistr-dimensions-utterance.
@@ -764,7 +764,7 @@ Finally, we examine the dependencies between each operation type, and highlight 
 #### Bursty behaviours
 
 We begin by measuring the extent to which each dimension features bursty behaviour.
-Following @jo_circadian_2012 [who rely on @goh_burstiness_2008], we measure the burstiness of a series of events through the parameter $B$ defined as
+Following @jo_circadian_2012, who rely on @goh_burstiness_2008, we measure the burstiness of a series of events through the parameter $B$ defined as
 
 $$B = \frac{\sigma_{intervals} - \mu_{intervals}}{\sigma_{intervals} + \mu_{intervals}}$$
 

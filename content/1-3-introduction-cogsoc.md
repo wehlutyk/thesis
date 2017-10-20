@@ -62,7 +62,7 @@ Such change occurs through what is known as an evolutionary process:
 > "Evolutionary processes are generally thought of as processes by which these changes occur. Four such processes are widely recognized: natural selection (in the broad sense, to include sexual selection), genetic drift, mutation, and migration [@fisher_genetical_1930; @haldane_causes_1932]. The latter two generate variation; the first two sort it."
 > [@scott-phillips_niche_2014, p. 1232]
 
-In this view, DNA sequences constitute the principle heritable material transmitted from parent to offspring across generations, and their distribution and change should be the main focus of evolutionary theory.
+In this view, DNA sequences constitute the principal heritable material transmitted from parent to offspring across generations, and their distribution and change should be the main focus of evolutionary theory.
 Furthermore:
 
 > "There are many factors that can cause these four evolutionary processes to occur, and for the skeptics [of Niche Construction Theory], niche construction is one such factor."
