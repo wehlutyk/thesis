@@ -756,7 +756,7 @@ When unpaired conservations or replacements separate chunk-level insertions and 
 Having defined our model for transformations, we now delve into the detailed behaviour that it captures.
 We do so in three stages.
 First, we quantify the extent to which transformations are bursty, both in the branch dimension and in the detailed transformation model (utterance dimension).
-In doing so we establish the prevalence of chunk-level operation in the transformation model.
+In doing so we establish the prevalence of chunk-level operations in the transformation model.
 We then characterise the number of word-level and chunk-level operations that occur in utterances, linking their magnitude and probability to the length of the parent utterance and the position at which they occur.
 Finally, we examine the dependencies between each operation type, and highlight a close relationship between insertions and deletions.
 

@@ -29,7 +29,7 @@ Ingold further argues that the notion of organism is itself problematic, as its 
 If it is necessary to conceptually dice reality into parts or layers, it is not clear that the separation between biology, cognition and culture is the best way of doing so.
 
 Ingold's critique does not entirely do justice to the contributions made by Cultural Attraction Theory and Standard Cultural Evolution.
-First, a major benefit of CAT is that it proposes a concrete way to move forward in integrating disciplines which, in practice and for over a century, have been studying life as made of these three separate layers [this is especially true for the divide between culture and cognition, an assessment shared by Ingold].
+First, a major benefit of CAT is that it proposes a concrete way to move forward in integrating disciplines which, in practice and for over a century, have been studying life as made of these three separate layers (this is especially true for the divide between culture and cognition, an assessment shared by Ingold).
 It creates conceptual bridges that can generate fruitful conversation.
 Such integration is bound to have its problems, but it has the advantage of being a concrete proposal that can be evaluated through argumentation and validation, moving the debate out of polemic.
 Second, the formalism put forward by SCE itself does not need to distinguish between cultural information and concrete realisation in order to be applicable.
@@ -101,7 +101,7 @@ The most successful traits might not be the same with or without a dam, such tha
 This is the *selective niche* [@stotz_human_2010].
 Second, a constructed niche changes the environment in which organisms grow, that is it changes the set of resources, affordances, props and stimulations in which all offspring develop their own behaviours.
 Human beings, in particular, can be seen as highly active engineers of the developmental environment of their offspring.
-This the *developmental niche*, which for human beings is in large part cognitive [@stotz_human_2010;@flynn_developmental_2013]:
+This is the *developmental niche*, which for human beings is in large part cognitive [@stotz_human_2010;@flynn_developmental_2013]:
 each generation actively modifies the cognitive environment in which its offspring grows, creating environmental supports and even whole pedagogical institutions for the development of specific cognitive and problem-solving capacities.
 Thus the notion of niche construction, when additionally looked at under the light of the plasticity of development, is a powerful concept to understand the complex interactions between genetic and cultural evolutions.
 

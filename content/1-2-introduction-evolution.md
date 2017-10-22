@@ -157,7 +157,7 @@ The first involves military instruction, a hierarchy of members, explicit knowle
 Still, the basic ontology remains grounded in the unique notion of mental representations from cognitive science.
 
 By developing such an ontology to connect disciplines, Sperber proposes a credible bridge between the notions of representation in social science and that of mental representation in cognitive science, without reducing one area to the other or making simplistic assumptions about the phenomena encountered.
-Using an ontologically clear notion of representation is a useful step, Sperber argues, as the notions of representation in social science are so diverse that no common definition can be be agreed upon;
+Using an ontologically clear notion of representation is a useful step, Sperber argues, as the notions of representation in social science are so diverse that no common definition can be agreed upon;
 instead, the cognitive notion of representation can be used to unify the various notions already studied in social science [@sperber_explaining_1996, pp. 16, 24-25, 33, 61-63, 78-80].
 In this sense, his proposal is that of a naturalistic ontology for the study of culture which builds on cognitive science principles, while at the same time recognising the diversity of cultural phenomena to be studied.
 It is thus amenable to anthropology, and encourages the combination of the two bodies of knowledge with clear definitions.

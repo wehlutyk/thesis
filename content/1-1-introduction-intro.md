@@ -46,7 +46,7 @@ these are called *cultural attractors*, and are CAT's main concept for explainin
 The hypothesis of cultural attractors is interesting in two respects.
 On one side, it provides intelligibility into culture and its processes of change.
 On the other side, it incorporates a central claim of the theory, namely that cognitive processes play an important role in the way culture evolves over time.
-Empirically validating the existence of such attractors has thus become a major goal for the theory, but doing so has proven challenging.
+Empirically validating the existence of such attractors has thus become a major goal for the theory, but doing so has proved itself challenging.
 Indeed, it is not easy to collect quantitative data on the evolution of representations.
 Up to now, empirical approaches to the question have fallen into three broad categories, each of which has some limitations.
 The first is to simulate the evolution of representations in the laboratory, using a setup known as a *transmission chain*.
@@ -59,7 +59,7 @@ up to now, however, works in this area have mostly overlooked the cognitive mech
 Our practical goal in this thesis, then, is to introduce new empirical methods which combine the strengths of existing approaches, and can contribute to the validation of cultural attractors.
 Our focus on linguistic utterances comes from two reasons.
 First, linguistic traces of online interactions are readily available and easy to collect, such that it is possible to assemble data sets of useful size and quality for the study of this case.
-Second, aside from providing an extremely versatile type of representation that makes the question of transformations interesting in itself, language is also at the core of several criticisms of CAT.
+Second, aside from providing an extremely versatile type of representation that makes the question of transformations interesting in itself, language is also at the core of several criticisms opposed to CAT.
 Linguistic utterances are therefore a good use case to contribute to the debate surrounding CAT.
 In what follows we will present two novel exploratory methods for the evolution of linguistic utterances, in which the detailed transformations can be observed, and the relevance of attractors in explaining the changes can be assessed.
 The first method is an *in vivo* approach, which combines data mining techniques with psycholinguistics in order to analyse the transformations of representations observed in online interactions.
