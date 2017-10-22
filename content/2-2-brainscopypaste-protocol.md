@@ -543,7 +543,7 @@ foolish / crazy
   \includegraphics[width=\linewidth]{images/brainscopypaste-computed/paper-variations-quantilebins_sentencerel.png}
   \caption[Sentence-relative feature variation]{
   \textbf{Sentence-relative feature variation.}
-  $\nu_{\phi_r}$, average sentence-relative feature value of the appearing word as a function of the sentence-relative value of the disappearing word (binned by quartiles), with 95% asymptotic confidence intervals based on Student's $t$-distribution.
+  $\nu_{\phi_r}$, average sentence-relative feature value of the appearing word as a function of the sentence-relative value of the disappearing word (binned by quartiles), with 95\% asymptotic confidence intervals based on Student's $t$-distribution.
   $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ are similarly converted to be sentence-relative.
   Attraction, magnitude and direction of bias with respect to null hypotheses are similar to Fig.~\ref{fig:feature-variations-global}.
   However, attractors are always positioned between sentence median ($y=0$) on one side and $\nu_{\phi_r}^0$ and $\nu_{\phi_r}^{00}$ on the other side.
