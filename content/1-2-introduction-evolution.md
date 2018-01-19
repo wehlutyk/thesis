@@ -126,7 +126,7 @@ This approach is now vibrant with empirical work [see @acerbi_if_2015 for a revi
 A notable feature of this programme is that it does not constrain itself into a particular view of culture.
 While the main authors define culture as "information that people acquire from others by teaching, imitation, and other forms of social learning" [@boyd_origin_2005, p. 3], the mathematical models they develop can be used without giving too much conceptual strength to the notion of cultural information itself (which is difficult to define).
 Indeed, their results are based on the correlation of behaviours because *something* is transmitted across individuals in a community, not on an ontological claim about the nature of what exactly is being transmitted.
-The approach also has strong links to works that qualify the conceptual distinction between non-genetic and genetic aspects of life [in particular through the analysis of niche construction, to which we come back later on].
+The approach also has strong links to works that qualify the conceptual distinction between non-genetic and genetic aspects of life (in particular through the analysis of niche construction, to which we come back later on).
 It is thus a central theory for the study of how cultural and non-cultural aspects of life interact.
 In this thesis, however, we will mostly focus on the Parisian approach to cultural evolution, which we can now present in more detail.
 
@@ -175,7 +175,7 @@ The tale of Little Red Riding Hood, for instance, could have remained stable thr
 The recipe for Mornay sauce could be stable through time because of constraints on the way it is taught, and the physical possibilities to realise the mixture of ingredients.
 To take yet another example, the practice of smoking can be seen as a range of public representations with two attractors:
 either not smoking at all, or developing an addiction and behavioural habits for smoking around 25 cigarettes a day [@claidiere_role_2007].
-Note that distribution of representations in a community depends not only on attractors, but on where new representations come from and where they disappear.
+Note that the distribution of representations in a community depends not only on attractors, but also on where new representations come from and where they disappear.
 In the case of smoking, one can imagine a constant flow of people starting to smoke about 10 cigarettes a day, and gradually being attracted to 0 or 25 a day, such that the steady-state distribution of smoking behaviours is rather flat from 0 to 25 cigarettes a day [@claidiere_role_2007].
 Cultural attractors are one of the core concepts of CAT, as they provide intelligibility for the evolution of culture and for the reciprocal influence of psychology, culture, and environment.
 As such, a central goal in the CAT research stream has been to identify existing attractors, and explain their emergence based on the interaction of psychological and ecological factors.
@@ -186,7 +186,7 @@ Combining this view with epidemiology of representations, Sperber argues, result
 On one side, too abstract approaches tend to consider that culture can be completely studied without going into the details of individual cognitive processes;
 this stance has obvious problems with known constraints about the way our cognitive system works, and with our own intuition of how easy or difficult it is to learn certain practices or certain ideas [@sperber_explaining_1996, pp. 63-66].
 Taking into account the role of psychological constraints is also not incompatible with an account of the diversity of cultures as observed in ethnography [@sperber_explaining_1996, chapter 6].
-On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) lead to a grotesque simplification of culture itself, and of the role of cognitive processes in the cultural evolution [@sperber_explaining_1996, p. 101].
+On the other side, naive applications of neo-darwinist formalism to the specific case of culture (such as memetics) lead to a grotesque simplification of culture itself, and of the role of cognitive processes in cultural evolution [@sperber_explaining_1996, p. 101].
 The importance that CAT gives to individual psychology is often highlighted as one of the main differences with SCE [@sterelny_cultural_2017, p. 47].
 Indeed, the main question for SCE is how organisms select the sources from which they copy cultural traits, as in that framework such choices can have large effects on the overall cultural evolution (for instance selecting for prestige, conforming to majority choices, etc.).
 For CAT, instead, the main question is how the interaction of psychological and ecological factors leads to cultural attractors, an interaction that can explain the overall stability of some representations in the face of important micro-level transformations.
@@ -232,7 +232,7 @@ Although theoretical models to guide that exploration are gradually appearing [@
 The literature on CAT shows at least two important methods that have been used up to now.
 First, the meta-analysis of large numbers of anthropological or historical works, which has uncovered several relevant effects.
 The way portraits were painted in Europe over the centuries, for instance, has been shown to increasingly favour direct- versus oblique-gaze portraying [@morin_how_2013].
-In CAT terms, existing paintings are a collection of public representation from which younger painters learn and are inspired, creating their own mental representations of the paintings.
+In CAT terms, existing paintings are a collection of public representations from which younger painters learn and are inspired, creating their own mental representations of the paintings.
 A cultural attraction towards direct-gaze portraits (whose exact roots could be a cognitive bias, but that is not yet clear) then seems to have driven the evolution of the overall distribution of public representations painted over the centuries in Europe.
 @miton_universal_2015 also used archival analysis techniques to propose an explanation for the historical stability of the practice of bloodletting, in spite of its medical ineffectiveness.
 Exploiting similar records, @baumard_increased_2015 showed a link between the evolution of religious values and the affluence of societies in which they develop.
